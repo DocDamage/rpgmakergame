@@ -1,0 +1,87 @@
+{
+  "npc_id": "astronaut_white_tide",
+  "name": "Deep-Diver Darius",
+  "sprite": "astronaut_white",
+  "zone": "tide",
+  "location": "Abyssal Station Alpha",
+  "personality": "brave_explorer",
+  "occupation": "deep_sea_diver",
+  "schedule": "dives_morning_returns_evening",
+  "dialog": {
+    "greeting": [
+      "Ahoy, surface-walker! Deep-Diver Darius, at your service!",
+      "Back from the depths! You should see what's down there!",
+      "The sea gives and the sea takes. Mostly gives, lately!",
+      "You look like someone who stays dry. Boring!",
+      "Welcome to Abyssal Station! Last stop before the REALLY deep water!",
+      "I dive so you don't have to! But you should! It's AMAZING!",
+      "The pressure down there's incredible! Like a full-body hug! From a giant!",
+      "New face! Want to hear about what I found in the trench?"
+    ],
+    "dive_stories": "Last dive, I saw a whale. Bigger than a building. Looked at me. I looked at it. We had a MOMENT.",
+    "suit_explanation": "This suit? Retro design. Built to withstand CRUSHING depths. Also, looks FANTASTIC. Style matters, even underwater.",
+    "pressure_tolerance": "You get used to the pressure. Eventually. Ears pop for the first hour. Then? Just you and the deep.",
+    "treasure_finding": "Found a whole SHIPWRECK last week! Ancient! Full of... barnacles. But HISTORIC barnacles!",
+    "rumor": [
+      "There's something BIG in the Midnight Trench. Bigger than big. Haven't seen it. Felt it.",
+      "Old sailors say the Mire and Tide connect underground. Same water, different attitude.",
+      "Frost has ice diving. Different suit. Same crazy.",
+      "Prism's got underwater crystals. Bioluminescent. Want to see that someday."
+    ],
+    "sunken_treasure_quest_hook": "Found a MAP in that shipwreck! Leads to the 'Sunken Crown' - legendary treasure! But I need someone... surface-capable... to help retrieve it. The exit's on land. Awkward for me. Interested?",
+    "sunken_treasure_quest_active": "The map shows coordinates in the Kelp Forest. There's a cave. The Crown's inside. Supposedly. Good luck!",
+    "sunken_treasure_quest_complete": "You found it! THE SUNKEN CROWN! Beautiful! And you got it out! Here - take this. My spare depth gauge. Measures pressure. And coolness. You're definitely cool now.",
+    "farewell": [
+      "Stay dry! Or don't! Diving's more fun!",
+      "If you see bubbles, say hi! Might be me!",
+      "Safe travels! And if you get a diving suit, look me up!",
+      "The sea calls! I must answer! SPLASH!"
+    ],
+    "ambient_barks": [
+      "Dive! DIVE!",
+      "The depths await!",
+      "Pressure check: nominal!",
+      "Another day, another dive!",
+      "What's down there today?",
+      "Suit sealed! Ready to roll!"
+    ],
+    "time_dawn": "Morning dive! Best visibility! Let's GO!",
+    "time_noon": "Surface interval. Eating. Hydrating. Telling stories.",
+    "time_dusk": "Evening return! Last dive of the day!",
+    "time_night": "Night diving? Too spooky. Even for me."
+  },
+  "party_reactions": {
+    "kade": "Diving that deep takes serious courage. Respect.",
+    "nix7": "Depth tolerance: exceptional. Suit technology: retro but functional.",
+    "twist": "You go UNDERWATER?! In THAT?! That's AMAZING!",
+    "korr": "The deep sea holds many secrets. You find them well.",
+    "renna": "Does your suit have magical wardings? Against pressure?",
+    "suresh": "To explore the unknown is a noble calling.",
+    "sova": "I'd try diving. Once. Then probably drown.",
+    "grit": "We had divers in the navy. Tougher than they looked.",
+    "ashka": "Water puts out fire. Not a fan. But I respect the bravery.",
+    "senna": "Underwater is... quiet. Good for hiding.",
+    "callum": "Isn't it scary down there? In the dark?"
+  },
+  "relationship_dialog": {
+    "stranger": "New face! Ever been diving?",
+    "acquaintance": "You're back! Want to hear about my latest dive?",
+    "friend": "My surface friend! Come to check on me?",
+    "best_friend": "You! My favorite land-walker! Here - have my lucky diving helmet. Spare, of course."
+  },
+  "mini_quest": {
+    "id": "sunken_treasure",
+    "title": "Sunken Treasure",
+    "description": "Retrieve the Sunken Crown from the Kelp Forest cave",
+    "stages": {
+      "hook": "Found a MAP leading to the 'Sunken Crown'! But the exit's on land. Awkward for me. Help me retrieve it?",
+      "active": "The map shows coordinates in the Kelp Forest. Cave entrance. Crown inside. Be careful of the currents!",
+      "complete": "You found it! THE SUNKEN CROWN! Here - take my spare depth gauge. And my eternal gratitude!"
+    },
+    "reward": {
+      "item": "darius_depth_gauge",
+      "gold": 350,
+      "reputation": "deep_sea_friend"
+    }
+  }
+}

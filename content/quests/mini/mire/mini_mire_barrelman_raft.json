@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_barrelman_raft",
+  "name": "Barrel Boat Adventure",
+  "zone": "mire",
+  "giver": "Barrelman Wood",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Barrel life on LAND is good! But what about WATER? I built a barrel RAFT! Need someone to test it! Through the Mire canals! Dangerous? Maybe! Fun? DEFINITELY!",
+      "objective": "Test the barrel raft by navigating through the Mire canals"
+    },
+    "progress": {
+      "dialog": "How's the raft? Seaworthy? Barrel-worthy? I'm getting reports!",
+      "objective": "Continue the barrel raft journey through the canals"
+    },
+    "complete": {
+      "dialog": "You SURVIVED! The barrel raft is a SUCCESS! I'm a GENIUS! Here - waterproof barrel! For your belongings! Keeps stuff DRY! Revolutionary!",
+      "rewards": {"gold": 200, "item": "waterproof_storage_barrel", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "Riding a barrel through swamp canals. Sure. Why not.",
+    "twist": "Wheeeee! This is better than a real boat!",
+    "nix7": "Buoyancy calculation: questionable. Entertainment value: high."
+  },
+  "hidden_outcome": "If you complete the route without tipping over, Barrelman declares you 'Barrel Admiral' and gives you a map to a hidden underwater treasure"
+}

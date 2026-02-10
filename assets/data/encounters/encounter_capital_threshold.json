@@ -1,0 +1,76 @@
+{
+  "id": "CAPITAL_THRESHOLD_ENCOUNTERS",
+  "region": "capital",
+  "maps": [
+    "TWR_THRESHOLD_CREATION_96x80"
+  ],
+  "encounter_rate": 0.08,
+  "min_steps": 15,
+  "max_steps": 34,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY"
+      ],
+      "weight": 36,
+      "min_steps": 14,
+      "gil_range": [
+        50,
+        88
+      ],
+      "xp": 92
+    },
+    {
+      "enemies": [
+        "ENEMY_NULL_CASTER"
+      ],
+      "weight": 28,
+      "min_steps": 15,
+      "gil_range": [
+        60,
+        108
+      ],
+      "xp": 108
+    },
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY",
+        "ENEMY_NULL_CASTER"
+      ],
+      "weight": 13,
+      "min_steps": 22,
+      "gil_range": [
+        116,
+        206
+      ],
+      "xp": 196
+    },
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY",
+        "ENEMY_RECORD_SENTRY"
+      ],
+      "weight": 12,
+      "min_steps": 24,
+      "rare": true,
+      "gil_range": [
+        102,
+        182
+      ],
+      "xp": 188
+    },
+    {
+      "enemies": [
+        "ENEMY_VOID_ELITE"
+      ],
+      "weight": 9,
+      "min_steps": 26,
+      "rare": true,
+      "gil_range": [
+        86,
+        164
+      ],
+      "xp": 162
+    }
+  ]
+}

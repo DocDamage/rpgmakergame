@@ -1,0 +1,306 @@
+{
+  "shops": [
+    {
+      "id": "SHOP_AETHERREACH_ENDGAME",
+      "name": "Seam Warden's Emporium",
+      "owner": "NPC_SEAM_WARDEN",
+      "type": "endgame",
+      "inventory": [
+        {
+          "item": "ITEM_MEGAELIXIR",
+          "price": 5000
+        },
+        {
+          "item": "ITEM_SAGE_RING",
+          "price": 5000
+        },
+        {
+          "item": "ITEM_HERO_MEDAL",
+          "price": 8000
+        },
+        {
+          "item": "ITEM_EXP_EARRING",
+          "price": 6000
+        },
+        {
+          "item": "ITEM_GIL_BRACELET",
+          "price": 6000
+        },
+        {
+          "item": "ITEM_OMEGA_WEAPON",
+          "price": 50000,
+          "unlock": "REMNANT_VAULT_CLEARED"
+        }
+      ],
+      "post_game_only": true
+    },
+    {
+      "id": "SHOP_AMARA_INFIRMARY",
+      "name": "Mirewatch Infirmary",
+      "owner": "NPC_SISTER_AMARA",
+      "type": "healing",
+      "inventory": [
+        {
+          "item": "ITEM_POTION",
+          "price": 45
+        },
+        {
+          "item": "ITEM_HI_POTION",
+          "price": 140
+        },
+        {
+          "item": "ITEM_ETHER",
+          "price": 180
+        },
+        {
+          "item": "ITEM_HI_ETHER",
+          "price": 550,
+          "unlock": "Q_THIRD_RELIC_COMPLETE"
+        },
+        {
+          "item": "ITEM_ANTIDOTE",
+          "price": 25
+        },
+        {
+          "item": "ITEM_REMEDY",
+          "price": 140
+        },
+        {
+          "item": "ITEM_PHOENIX_DOWN",
+          "price": 280
+        }
+      ],
+      "healing_service": true,
+      "healing_price": 50
+    },
+    {
+      "id": "SHOP_BLACK_MARKET",
+      "name": "Resistance Supply",
+      "owner": "NPC_RESISTANCE_CONTACT",
+      "type": "black_market",
+      "inventory": [
+        {
+          "item": "ITEM_HI_POTION",
+          "price": 120
+        },
+        {
+          "item": "ITEM_ETHER",
+          "price": 160
+        },
+        {
+          "item": "ITEM_REMEDY",
+          "price": 120
+        },
+        {
+          "item": "ITEM_PHOENIX_DOWN",
+          "price": 250
+        },
+        {
+          "item": "ITEM_DUELIST_BLADE",
+          "price": 1200
+        },
+        {
+          "item": "ITEM_ELEMENTAL_RING",
+          "price": 3000
+        },
+        {
+          "item": "ITEM_RIBBON",
+          "price": 15000,
+          "rare": true
+        }
+      ],
+      "illegal_goods": true,
+      "faction_only": "RESISTANCE"
+    },
+    {
+      "id": "SHOP_GRIMJAW_MASTER",
+      "name": "Master Forge",
+      "owner": "NPC_FORGE_MASTER_GRIMJAW",
+      "type": "master",
+      "inventory": [
+        {
+          "item": "ITEM_BATTLE_AXE",
+          "price": 750
+        },
+        {
+          "item": "ITEM_STEEL_PLATE",
+          "price": 1800
+        },
+        {
+          "item": "ITEM_RIFLE",
+          "price": 1500
+        },
+        {
+          "item": "ITEM_WIZARD_GOWN",
+          "price": 1500
+        },
+        {
+          "item": "ITEM_HALBERD",
+          "price": 650
+        },
+        {
+          "item": "ITEM_COLOSSUS_SPLITTER",
+          "price": 8000,
+          "unlock": "Q_SIXTH_RELIC_COMPLETE"
+        }
+      ],
+      "upgrade_service": true,
+      "legendary_crafting": true,
+      "requires_reputation": true
+    },
+    {
+      "id": "SHOP_KELLEN_SMITH",
+      "name": "Kellen's Forge",
+      "owner": "NPC_BLACKSMITH_KELLEN",
+      "type": "weapon_armor",
+      "inventory": [
+        {
+          "item": "ITEM_IRON_SWORD",
+          "price": 200
+        },
+        {
+          "item": "ITEM_IRON_AXE",
+          "price": 250
+        },
+        {
+          "item": "ITEM_WOODEN_STAFF",
+          "price": 150
+        },
+        {
+          "item": "ITEM_LEATHER_ARMOR",
+          "price": 150
+        },
+        {
+          "item": "ITEM_CHAINMAIL",
+          "price": 600,
+          "unlock": "Q_FIRST_RELIC_COMPLETE"
+        },
+        {
+          "item": "ITEM_STEEL_SWORD",
+          "price": 600,
+          "unlock": "Q_FIRST_RELIC_COMPLETE"
+        },
+        {
+          "item": "ITEM_STUDDED_LEATHER",
+          "price": 400,
+          "unlock": "Q_FIRST_RELIC_COMPLETE"
+        }
+      ],
+      "upgrade_service": true,
+      "crafting_available": true
+    },
+    {
+      "id": "SHOP_MERIDIAN_EMPORIUM",
+      "name": "Meridian Emporium",
+      "owner": "NPC_MERCHANT_PREMIUM",
+      "type": "premium",
+      "inventory": [
+        {
+          "item": "ITEM_MEGA_POTION",
+          "price": 500
+        },
+        {
+          "item": "ITEM_HI_ETHER",
+          "price": 600
+        },
+        {
+          "item": "ITEM_ELIXIR",
+          "price": 2000
+        },
+        {
+          "item": "ITEM_MEGAELIXIR",
+          "price": 8000,
+          "rare": true
+        },
+        {
+          "item": "ITEM_GOLD_RING",
+          "price": 1000
+        },
+        {
+          "item": "ITEM_SILVER_RING",
+          "price": 400
+        },
+        {
+          "item": "ITEM_GUARD_BRACELET",
+          "price": 1200
+        },
+        {
+          "item": "ITEM_SPEED_BOOTS",
+          "price": 1500
+        },
+        {
+          "item": "ITEM_POWER_GLOVE",
+          "price": 1200
+        }
+      ],
+      "premium_shop": true
+    },
+    {
+      "id": "SHOP_MIRA_REST",
+      "name": "Mira's Rest",
+      "owner": "NPC_MIRA_THORN",
+      "type": "inn",
+      "inventory": [
+        {
+          "item": "ITEM_POTION",
+          "price": 50,
+          "restock": "daily"
+        },
+        {
+          "item": "ITEM_HI_POTION",
+          "price": 150,
+          "restock": "daily",
+          "unlock": "Q_FIRST_RELIC_COMPLETE"
+        },
+        {
+          "item": "ITEM_ETHER",
+          "price": 200,
+          "restock": "daily"
+        },
+        {
+          "item": "ITEM_ANTIDOTE",
+          "price": 30,
+          "restock": "daily"
+        },
+        {
+          "item": "ITEM_TENT",
+          "price": 100,
+          "restock": "daily"
+        }
+      ],
+      "inn_price": 30,
+      "discount_flag": "Q_FAMILY_HEIRLOOM_COMPLETE",
+      "discount_percent": 25
+    },
+    {
+      "id": "SHOP_VELM_BOOKS",
+      "name": "Velm Archive Annex",
+      "owner": "NPC_ARCHIVIST_VELM",
+      "type": "lore_goods",
+      "inventory": [
+        {
+          "item": "ITEM_ETHER",
+          "price": 220
+        },
+        {
+          "item": "ITEM_HI_ETHER",
+          "price": 640
+        },
+        {
+          "item": "ITEM_REMEDY",
+          "price": 160
+        },
+        {
+          "item": "ITEM_WORLD_MAP",
+          "price": 1200
+        },
+        {
+          "item": "ITEM_ARCHIVE_KEY",
+          "price": 0,
+          "unlock": "Q_ARCHIVE_KEY_COMPLETE"
+        }
+      ],
+      "specialty": "maps_and_records"
+    }
+  ]
+}

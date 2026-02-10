@@ -1,0 +1,351 @@
+{
+  "id": "ITEM_ACCESSORIES",
+  "items": [
+    {
+      "id": "ITEM_BRONZE_RING",
+      "name": "Bronze Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 1,
+      "icon": "icon_bronze_ring",
+      "description": "A simple bronze band.",
+      "flavor": "Every journey starts with a single step.",
+      "stats": {
+        "def": 2
+      },
+      "buy_price": 100,
+      "sell_price": 50,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_SILVER_RING",
+      "name": "Silver Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 2,
+      "icon": "icon_silver_ring",
+      "description": "A silver ring with minor enchantments.",
+      "flavor": "The metal hums with faint energy.",
+      "stats": {
+        "mag": 5,
+        "spr": 5
+      },
+      "buy_price": 400,
+      "sell_price": 200,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_GOLD_RING",
+      "name": "Gold Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 3,
+      "icon": "icon_gold_ring",
+      "description": "A golden band of protection.",
+      "flavor": "Wealth that guards.",
+      "stats": {
+        "hp": 50,
+        "def": 5
+      },
+      "buy_price": 1000,
+      "sell_price": 500,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_POWER_GLOVE",
+      "name": "Power Glove",
+      "type": "accessory",
+      "subtype": "glove",
+      "rarity": 3,
+      "icon": "icon_power_glove",
+      "description": "Gloves that enhance striking power.",
+      "flavor": "Feel the power flow.",
+      "stats": {
+        "atk": 10
+      },
+      "buy_price": 1200,
+      "sell_price": 600,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_GUARD_BRACELET",
+      "name": "Guard Bracelet",
+      "type": "accessory",
+      "subtype": "bracelet",
+      "rarity": 3,
+      "icon": "icon_guard_bracelet",
+      "description": "A bracelet that hardens the skin.",
+      "flavor": "Invisible armor.",
+      "stats": {
+        "def": 10
+      },
+      "buy_price": 1200,
+      "sell_price": 600,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_SPEED_BOOTS",
+      "name": "Speed Boots",
+      "type": "accessory",
+      "subtype": "footwear",
+      "rarity": 3,
+      "icon": "icon_speed_boots",
+      "description": "Boots that make the wearer swift.",
+      "flavor": "Light as air.",
+      "stats": {
+        "spd": 10
+      },
+      "buy_price": 1500,
+      "sell_price": 750,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_MAGIC_AMULET",
+      "name": "Magic Amulet",
+      "type": "accessory",
+      "subtype": "amulet",
+      "rarity": 3,
+      "icon": "icon_magic_amulet",
+      "description": "An amulet that amplifies magic.",
+      "flavor": "The crystal glows when spells are cast.",
+      "stats": {
+        "mag": 10
+      },
+      "buy_price": 1500,
+      "sell_price": 750,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_MIND_BELT",
+      "name": "Mind Belt",
+      "type": "accessory",
+      "subtype": "belt",
+      "rarity": 3,
+      "icon": "icon_mind_belt",
+      "description": "A belt that sharpens the mind.",
+      "flavor": "Clarity in combat.",
+      "stats": {
+        "spr": 10
+      },
+      "buy_price": 1200,
+      "sell_price": 600,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_LIFE_BRACELET",
+      "name": "Life Bracelet",
+      "type": "accessory",
+      "subtype": "bracelet",
+      "rarity": 4,
+      "icon": "icon_life_bracelet",
+      "description": "A bracelet blessed with life energy.",
+      "flavor": "Each beat of your heart is a gift.",
+      "stats": {
+        "hp": 100
+      },
+      "buy_price": 2500,
+      "sell_price": 1250,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_MANA_BRACELET",
+      "name": "Mana Bracelet",
+      "type": "accessory",
+      "subtype": "bracelet",
+      "rarity": 4,
+      "icon": "icon_mana_bracelet",
+      "description": "A bracelet that stores magical energy.",
+      "flavor": "An extra reserve of power.",
+      "stats": {
+        "mp": 50
+      },
+      "buy_price": 2500,
+      "sell_price": 1250,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_ELEMENTAL_RING",
+      "name": "Elemental Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 4,
+      "icon": "icon_elemental_ring",
+      "description": "A ring that protects against elements.",
+      "flavor": "Balance in all things.",
+      "stats": {
+        "resist_fire": 15,
+        "resist_ice": 15,
+        "resist_thunder": 15
+      },
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_GROWTH_RING",
+      "name": "Growth Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 4,
+      "icon": "icon_elemental_ring",
+      "description": "A ring infused with regenerative growth energy.",
+      "flavor": "It hums with roots, sap, and steady renewal.",
+      "stats": {
+        "hp": 80,
+        "spr": 8
+      },
+      "special_effect": "regen_small",
+      "buy_price": 0,
+      "sell_price": 1800,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_WALL_RING",
+      "name": "Wall Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 4,
+      "icon": "icon_wall_ring",
+      "description": "A ring that raises defense.",
+      "flavor": "Stand like a mountain.",
+      "stats": {
+        "def": 15
+      },
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_SPRINT_SHOES",
+      "name": "Sprint Shoes",
+      "type": "accessory",
+      "subtype": "footwear",
+      "rarity": 4,
+      "icon": "icon_sprint_shoes",
+      "description": "Shoes that grant incredible speed.",
+      "flavor": "Run like the wind.",
+      "stats": {
+        "spd": 20
+      },
+      "buy_price": 3500,
+      "sell_price": 1750,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_SAGE_RING",
+      "name": "Sage's Ring",
+      "type": "accessory",
+      "subtype": "ring",
+      "rarity": 5,
+      "icon": "icon_sage_ring",
+      "description": "A ring worn by ancient sages.",
+      "flavor": "Wisdom flows through it.",
+      "stats": {
+        "mag": 20,
+        "spr": 20,
+        "mp": 30
+      },
+      "buy_price": 5000,
+      "sell_price": 2500,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_HERO_MEDAL",
+      "name": "Hero's Medal",
+      "type": "accessory",
+      "subtype": "amulet",
+      "rarity": 5,
+      "icon": "icon_hero_medal",
+      "description": "A medal awarded to great heroes.",
+      "flavor": "For those who would save the world.",
+      "stats": {
+        "hp": 150,
+        "atk": 10,
+        "def": 10
+      },
+      "buy_price": 8000,
+      "sell_price": 4000,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_RIBBON",
+      "name": "Ribbon",
+      "type": "accessory",
+      "subtype": "ribbon",
+      "rarity": 5,
+      "icon": "icon_ribbon",
+      "description": "A mysterious ribbon that prevents all status ailments.",
+      "flavor": "Pure protection in soft form.",
+      "special_effect": "status_immunity",
+      "buy_price": 0,
+      "sell_price": 5000,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_EXP_EARRING",
+      "name": "EXP Earring",
+      "type": "accessory",
+      "subtype": "earring",
+      "rarity": 4,
+      "icon": "icon_exp_earring",
+      "description": "An earring that boosts experience gain.",
+      "flavor": "Knowledge flows to the wearer.",
+      "special_effect": "exp_boost_50",
+      "buy_price": 0,
+      "sell_price": 3000,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_GIL_BRACELET",
+      "name": "Gil Bracelet",
+      "type": "accessory",
+      "subtype": "bracelet",
+      "rarity": 4,
+      "icon": "icon_gil_bracelet",
+      "description": "A bracelet that attracts wealth.",
+      "flavor": "Gold follows the lucky.",
+      "special_effect": "gil_boost_50",
+      "buy_price": 0,
+      "sell_price": 3000,
+      "equipable_by": [
+        "all"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "I_HOUSE_B_24x18",
+  "display_name": "House",
+  "type": "interior",
+  "dimensions": {
+    "width": 24,
+    "height": 18,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Generic",
+  "music": "bgm_house_theme",
+  "lighting": "warm",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        12,
+        17
+      ]
+    }
+  ],
+  "events": [],
+  "layout": {
+    "description": "Alternative arrangement - open plan, single bed, work area",
+    "key_elements": [
+      {
+        "type": "main_room",
+        "coords": [
+          12,
+          10
+        ]
+      },
+      {
+        "type": "work_table",
+        "coords": [
+          6,
+          6
+        ]
+      },
+      {
+        "type": "bed",
+        "coords": [
+          18,
+          10
+        ]
+      },
+      {
+        "type": "storage",
+        "coords": [
+          6,
+          14
+        ]
+      },
+      {
+        "type": "seating",
+        "coords": [
+          14,
+          6
+        ]
+      },
+      {
+        "type": "exit",
+        "coords": [
+          12,
+          17
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "variant": "default",
+  "source_template": "I_HOUSE_B_24x18_base"
+}

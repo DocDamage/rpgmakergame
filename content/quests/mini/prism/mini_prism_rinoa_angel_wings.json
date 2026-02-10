@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_rinoa_angel_wings",
+  "name": "Angel of the Prism",
+  "zone": "prism",
+  "giver": "Rinoa (Resistance Fighter)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "There's something in the Prism... calling to me. I feel it when I sleep. Wings. Angel wings. Made of crystal. Help me find what I'm seeing?",
+      "objective": "Search the Prism for the source of Rinoa's crystal wing visions"
+    },
+    "progress": {
+      "dialog": "It's getting stronger... this way! I can feel it pulling me!",
+      "objective": "Follow the psychic pull to the source"
+    },
+    "complete": {
+      "dialog": "There! The Crystal Angel statue! It was calling me... showing me what's possible. Thank you. Here - my Shooting Star. It's helped me before. Now let it help you.",
+      "rewards": {"gold": 500, "item": "shooting_star_chakram", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "She really did feel something. These crystals are strange.",
+    "renna": "Psychic resonance with Light Foundation. Similar to my own.",
+    "nix7": "Anomalous readings near subject. Energy spike detected."
+  },
+  "hidden_outcome": "If you find the statue during a full moon, Rinoa awakens her 'Angel Wing' form temporarily and gives you 'Wings of the Goddess'"
+}

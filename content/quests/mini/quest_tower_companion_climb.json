@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_companion_climb",
+  "name": "Climbing Together",
+  "zone": "tower",
+  "giver": "sumo",
+  "type": "social",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "The Tower is lonely work. Most climbers go solo, trust no one, see everyone as competition. But I've been watching your group—you move like a team, fight like family. That's rare. There's a duo on Floor 55 who need help reaching Floor 60. Escort them, show them how it's done.",
+      "objective": "Escort the climbing duo from Floor 55 to Floor 60"
+    },
+    "progress": {
+      "dialog": "Floor 58, and they're learning. Watching you navigate the environmental puzzles, handle the construct patrols—it's making them better climbers. The Tower respects strength, but it rewards wisdom. You're teaching them both. Just two more floors to the checkpoint.",
+      "objective": "Complete the escort to Floor 60 checkpoint"
+    },
+    "complete": {
+      "dialog": "Safe arrival, lessons learned, bonds formed. Those two will remember what you taught them, pass it on to others. The Tower's culture is changing, one climber at a time. You're not just ascending—you're building something. A community of those who help each other rise.",
+      "rewards": {
+        "exp": 19000,
+        "gold": 4000,
+        "item": "climbing_mentor_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Teaching always teaches you something too. Realized how much I've learned since Floor 1.",
+    "korr": "Leadership isn't just command—it's example. You showed them what a team looks like. Important lesson.",
+    "ashka": "The young climber reminds me of myself, years ago. Full of fire, lacking patience. Good kid, though."
+  },
+  "lore_unlocks": ["tower_climbing_community", "companion_climbing"]
+}

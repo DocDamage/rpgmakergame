@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CAIRNWIND_PASS_SCOUT",
+  "name": "Cairnwind Pass Wayfarer",
+  "title": "Route Tracker",
+  "location": "MIC_R11_120x56",
+  "coords": [
+    60,
+    28
+  ],
+  "schedule": {
+    "day": [
+      60,
+      28
+    ],
+    "night": [
+      63,
+      26
+    ],
+    "rain": [
+      62,
+      28
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Assigned to Cairnwind Pass.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

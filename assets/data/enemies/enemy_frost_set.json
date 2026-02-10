@@ -1,0 +1,147 @@
+{
+  "id": "ENEMY_FROST_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_FROST_SKIRMISHER",
+      "name": "Frost Skirmisher",
+      "family": "frost",
+      "sprite": "spr_enemy_frost_skirmisher",
+      "stats": {
+        "hp": 170,
+        "mp": 0,
+        "atk": 26,
+        "def": 16,
+        "mag": 0,
+        "spr": 10,
+        "spd": 11
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "thunder": 1.0,
+        "earth": 1.0
+      },
+      "resists": {
+        "ice": 0.0,
+        "water": 0.5
+      },
+      "absorbs": [
+        "ice"
+      ],
+      "abilities": [
+        "attack",
+        "ice_blade",
+        "frost_slash",
+        "freeze"
+      ],
+      "loot": [
+        {
+          "item": "FROZEN_BLADE",
+          "chance": 0.15,
+          "count": 1
+        },
+        {
+          "item": "FUR_PELT",
+          "chance": 0.3,
+          "count": 1
+        }
+      ],
+      "gil": [
+        32,
+        55
+      ],
+      "xp": 58
+    },
+    {
+      "id": "ENEMY_CHILL_CASTER",
+      "name": "Chill Caster",
+      "family": "frost",
+      "sprite": "spr_enemy_chill_caster",
+      "stats": {
+        "hp": 130,
+        "mp": 110,
+        "atk": 8,
+        "def": 8,
+        "mag": 28,
+        "spr": 20,
+        "spd": 10
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "thunder": 1.0
+      },
+      "resists": {
+        "ice": 0.0,
+        "water": 0.5
+      },
+      "absorbs": [
+        "ice"
+      ],
+      "abilities": [
+        "blizzard",
+        "ice",
+        "freeze",
+        "ice_barrier"
+      ],
+      "loot": [
+        {
+          "item": "ICE_CRYSTAL",
+          "chance": 0.3,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        35,
+        60
+      ],
+      "xp": 62
+    },
+    {
+      "id": "ENEMY_FROZEN_WATCHER",
+      "name": "Frozen Watcher",
+      "family": "frost",
+      "sprite": "spr_enemy_frozen_watcher",
+      "stats": {
+        "hp": 200,
+        "mp": 40,
+        "atk": 15,
+        "def": 30,
+        "mag": 15,
+        "spr": 25,
+        "spd": 3
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "thunder": 1.2
+      },
+      "resists": {
+        "physical": 0.6,
+        "ice": 0.0,
+        "water": 0.25
+      },
+      "immunities": [
+        "freeze"
+      ],
+      "abilities": [
+        "eye_beam",
+        "ice_shard",
+        "detect",
+        "alert"
+      ],
+      "loot": [
+        {
+          "item": "WATCHER_EYE",
+          "chance": 0.2,
+          "count": 1
+        }
+      ],
+      "gil": [
+        40,
+        65
+      ],
+      "xp": 70
+    }
+  ]
+}

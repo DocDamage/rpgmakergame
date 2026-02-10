@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_forgemaster_delivery",
+  "name": "Steel and Fury",
+  "zone": "ember",
+  "giver": "ironchef_red",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Listen, I need special steel from the Forgemaster for my legendary chef knives! But he only trades for rare volcanic obsidian. Go to the Glass Crater, grab me some prime shards, and deliver them to Forgemaster Grum. He'll give you my steel!",
+      "objective": "Collect volcanic obsidian from the Glass Crater"
+    },
+    "progress": {
+      "dialog": "Good haul! Now get that obsidian to Grum at the Obsidian Forge. He's cranky, never leaves his anvil. Tell him 'The Chef sent you for the Titansteel delivery.' He'll know what you mean.",
+      "objective": "Deliver obsidian to Forgemaster Grum at Obsidian Forge"
+    },
+    "complete": {
+      "dialog": "Ha! Grum actually smiled? Must've been good obsidian. Here's your reward—also, he threw in something extra. A Emberforged Blade. Sharp enough to cut through dragon scales!",
+      "rewards": {
+        "exp": 700,
+        "gold": 400,
+        "item": "emberforged_blade"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Trading rocks for metal. Simple enough!",
+    "twist": "That Forgemaster never stops hammering. My head is pounding.",
+    "nix7": "Volcanic obsidian quality: premium. Trade efficiency: optimal."
+  }
+}

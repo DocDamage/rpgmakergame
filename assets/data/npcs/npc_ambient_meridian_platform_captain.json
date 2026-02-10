@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MERIDIAN_PLATFORM_CAPTAIN",
+  "name": "Meridian Platform Captain",
+  "title": "Watch Captain",
+  "location": "T_MERIDIAN_112x72",
+  "coords": [
+    72,
+    24
+  ],
+  "schedule": {
+    "day": [
+      72,
+      24
+    ],
+    "night": [
+      67,
+      26
+    ],
+    "rain": [
+      74,
+      27
+    ]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "MERIDIAN_GUILD",
+  "attitude": "professional",
+  "background": "Maintains patrol discipline and civic defense. Stationed in Meridian.",
+  "personality": "Direct, stern, and practical under pressure.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "security",
+    "route_warning"
+  ]
+}

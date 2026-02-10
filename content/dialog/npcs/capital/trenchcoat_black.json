@@ -1,0 +1,179 @@
+{
+  "npc_id": "trenchcoat_black",
+  "name": "Vex",
+  "title": "Resistance Leader",
+  "zone": "capital",
+  "location": "Resistance Camp, Eastern Ruins",
+  "description": "A battle-hardened figure in a weathered black trenchcoat, coordinating the underground resistance against the Void's encroachment.",
+  "sprite_variant": "trenchcoat_black",
+  "greeting_variants": [
+    "*adjusts collar* You made it through the breach? Good. We need every able body.",
+    "The Void takes more ground each day. But we take it back, inch by inch.",
+    "*lowers voice* Word is there's still power in the old Palace. Can you believe it?",
+    "You're the ones from beyond the dust belt? Heard you dealt with those Obsidian raiders.",
+    "*checks chronometer* Patrol's due back soon. Hope they found those medical supplies.",
+    "Keep your voice down. The walls have... ears, nowadays.",
+    "First time in the Capital? Was beautiful once, before the sky tore open.",
+    "*grim nod* Another survivor. Welcome to the end of the world, friend."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Name's Vex. I coordinate what remains of the Capital's defense. The Void doesn't sleep, so neither do we.",
+          "options": [
+            {"text": "What happened here?", "goto": "history"},
+            {"text": "Need any help?", "goto": "quest_offer"},
+            {"text": "Tell me about the Void.", "goto": "void_info"},
+            {"text": "Goodbye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "history",
+          "text": "Three years ago, the sky above the Palace... shattered. Like broken glass. The Void poured through. We evacuated who we could, established camps in the ruins. Been fighting ever since.",
+          "options": [
+            {"text": "The Palace?", "goto": "palace_mention"},
+            {"text": "Who's 'we'?", "goto": "resistance_info"},
+            {"text": "Back to other topics.", "goto": "intro"}
+          ]
+        },
+        {
+          "id": "palace_mention",
+          "text": "The Chromatic Palace, seat of the old royalty. Highest point in the land. Some say the tear started there. Others say something... woke up. Either way, nobody who's gone up the Tower has returned.",
+          "party_reactions": {
+            "kael": "The Tower... I've heard rumors in the Frost reaches.",
+            "mira": "We should investigate. If the source is there...",
+            "garret": "'Nobody returned' isn't exactly encouraging, Mira."
+          },
+          "options": [
+            {"text": "Tell me about the Tower.", "goto": "tower_info"},
+            {"text": "I'll find out what happened.", "goto": "player_resolve"}
+          ]
+        },
+        {
+          "id": "resistance_info",
+          "text": "Survivors, mostly. Former guards, civilians, even a few... less savory types. The foodboys keep us fed, hazmat teams handle contaminated zones. We're all that's left of the Capital's spirit.",
+          "options": [
+            {"text": "About those supplies...", "goto": "quest_offer"},
+            {"text": "Back to other topics.", "goto": "intro"}
+          ]
+        },
+        {
+          "id": "void_info",
+          "text": "It's not just empty space. It's hungry. It changes things—people, places, reality itself. The longer you stay in it, the more you... fade. Become part of it.",
+          "options": [
+            {"text": "Have you been in it?", "goto": "vex_void_experience"},
+            {"text": "Sounds terrifying.", "goto": "void_fear"}
+          ]
+        },
+        {
+          "id": "vex_void_experience",
+          "text": "*rolls up sleeve to reveal translucent, shimmering skin* Briefly. Lost three days of memory and gained this. Some aren't so lucky. The void-touched either adapt or... don't.",
+          "party_reactions": {
+            "mira": "Fascinating... the cellular structure is partially phased.",
+            "kael": "That looks painful, friend.",
+            "vex": "You get used to it. Mostly."
+          },
+          "options": [
+            {"text": "I'm sorry.", "goto": "sympathy"},
+            {"text": "Can it be cured?", "goto": "void_cure"}
+          ]
+        }
+      ]
+    },
+    "quest_active": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "quest_check",
+          "text": "The foodboys are still waiting on those rations. The eastern warehouse should have what we need, but watch for barrelgobs—they've gotten aggressive.",
+          "options": [
+            {"text": "On my way.", "goto": "exit"},
+            {"text": "Where exactly?", "goto": "warehouse_directions"}
+          ]
+        }
+      ]
+    },
+    "quest_complete": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "quest_done",
+          "text": "You got the supplies! The foodboys are already distributing them. You've saved lives today, stranger.",
+          "rewards": {
+            "experience": 500,
+            "reputation": {"resistance": 25},
+            "items": ["resistance_insignia", "void_repellent_spray"]
+          },
+          "options": [
+            {"text": "Happy to help.", "goto": "post_quest"},
+            {"text": "What else needs doing?", "goto": "future_quests"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "supply_run",
+    "title": "Supply Run",
+    "description": "Help the foodboys secure emergency rations from the eastern warehouse to feed the refugee camp.",
+    "objectives": [
+      "Reach the eastern warehouse in the Capital Ruins",
+      "Defeat or bypass the barrelgob scavengers",
+      "Collect 5 crates of emergency rations",
+      "Return to Vex at the Resistance Camp"
+    ],
+    "rewards": {
+      "experience": 500,
+      "gold": 200,
+      "reputation": {"resistance": 25, "foodboys": 15},
+      "items": ["resistance_insignia", "void_repellent_spray"]
+    },
+    "prerequisites": [],
+    "follow_up_quests": ["void_patrol", "medical_emergency"]
+  },
+  "ambient_barks": [
+    "*studying a worn map* The patrol route needs adjusting...",
+    "If you see anyone wearing purple, keep your distance. Void-touched.",
+    "The Twins say something big is coming. I believe them.",
+    "Stay clear of the western sector. Contamination levels are critical.",
+    "*checking equipment* Always be ready to move. The Void doesn't announce its arrival.",
+    "You ever been to the Tide? Heard they have it easier there.",
+    "The sun hasn't looked right since the tear. Too... purple at the edges.",
+    "If you find any working tech, bring it to Onionboss. He'll make it useful."
+  ],
+  "cross_zone_references": {
+    "void_nexus": "We've lost too many scouting the Void proper. If you go there, don't stay long.",
+    "chroma_tower": "The Tower... my brother climbed it six months ago. Still waiting for him to come down.",
+    "palace": "The answers are up there, I know it. But getting there means surviving the Tower first.",
+    "obsidian": "Your work in Obsidian preceded you. Those raiders had it coming.",
+    "frost": "Recruited a medic from Frost last month. Cold folk, but reliable."
+  },
+  "party_reactions": {
+    "kael": {
+      "greeting": "Vex. Still alive, I see. The resistance prospers?",
+      "response": "Barely, Kael. Barely. Your Frost tactics work well here."
+    },
+    "mira": {
+      "greeting": "The void-touched condition—may I examine your arm? For science?",
+      "response": "...Sure. Just don't poke too hard. It tingles."
+    },
+    "garret": {
+      "greeting": "Heard you need supplies. I know a guy in the Dust Belt...",
+      "response": "If your 'guy' can get past the Void perimeter, I'm interested."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Positioned at the command tent, coordinating patrols",
+      "night": "Leading night watch, personally scouting perimeter"
+    },
+    "world_state_triggers": {
+      "void_expansion": "Becomes more urgent, mentions evacuating the camp",
+      "tower_activated": "Expresses hope: 'Maybe we can finally end this'",
+      "palace_unlocked": "Offers final supplies: 'This is everything we have'"
+    }
+  }
+}

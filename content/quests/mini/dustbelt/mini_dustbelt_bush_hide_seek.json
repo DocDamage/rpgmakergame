@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_bush_hide_seek",
+  "name": "The Bush's Secret",
+  "zone": "dustbelt",
+  "giver": "The Bush (Animated Plant)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "[The bush rustles mysteriously] ...psst! Wanna play? Hide and seek! I'll hide somewhere in the Dustbelt! If you find me three times, I'll tell you a SECRET! First count to 100!",
+      "objective": "Find the Bush hiding in three different locations in the Dustbelt"
+    },
+    "progress": {
+      "dialog": "[Giggling from somewhere nearby] You'll never find me! I'm the BEST hider!",
+      "objective": "Continue searching for the Bush in various hiding spots"
+    },
+    "complete": {
+      "dialog": "[Rustling happily] You found me! All three times! You're good! Okay, here's the secret - there's a buried treasure under the big cactus near the oasis! Shh! Don't tell!",
+      "rewards": {"gold": 300, "item": "cactus_treasure_map", "reputation": 8}
+    }
+  },
+  "party_comments": {
+    "kade": "...We're playing hide and seek with a bush.",
+    "twist": "THIS IS THE BEST DAY EVER!",
+    "nix7": "Sentient vegetation. Classification: anomalous."
+  },
+  "hidden_outcome": "If you find the Bush 5 times total, it reveals it was once a person transformed by Growth Foundation magic and gives you a 'Seed of Restoration'"
+}

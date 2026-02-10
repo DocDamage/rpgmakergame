@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_merfolk_diplomat",
+  "name": "Tides of Diplomacy",
+  "zone": "tide",
+  "giver": "conductor",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Merfolk Prince is visiting Brinegate for trade negotiations, but someone sabotaged his ceremonial kelp garment! Without it, he can't appear in public—it's a grave insult to his people! We need a replacement from the Deep Gardens, but they're guarded by territorial rays!",
+      "objective": "Harvest ceremonial kelp from the Deep Gardens"
+    },
+    "progress": {
+      "dialog": "Beautiful kelp! But the Prince also needs a proper escort to the negotiations. The Merfolk respect strength and magic. You'll need to impress his honor guard in a display of skill—non-lethal, of course!",
+      "objective": "Defeat the Merfolk honor guard in a friendly sparring match"
+    },
+    "complete": {
+      "dialog": "The negotiations proceed! The Prince is impressed by your honor and skill! He gifts you this Tidecaller Pearl—when submerged, it lets you speak with sea creatures! A rare boon from the deep folk!",
+      "rewards": {
+        "exp": 900,
+        "gold": 600,
+        "item": "tidecaller_pearl"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Merfolk are way more intimidating up close. Those tridents are huge!",
+    "twist": "Their magical technique is... primitive, but effective.",
+    "nix7": "Aquatic humanoid social structures: complex. Diplomatic protocols: learned."
+  }
+}

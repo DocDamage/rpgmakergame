@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_onionboss_crystals",
+  "name": "Onion Knight's Armor",
+  "zone": "mire",
+  "giver": "Onion Boss (Purple)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "*layers wobble majestically* My armor... it lacks SPARKLE! Need Mire crystals! Purple ones! From the deep caves! Bring me five... no, TEN! And I shall reward you! *dignified sniff*",
+      "objective": "Collect 10 purple Mire crystals from the deep caves"
+    },
+    "progress": {
+      "dialog": "*impatient rustling* Where are my crystals? My armor grows DULL!",
+      "objective": "Continue gathering purple crystals from the cave depths"
+    },
+    "complete": {
+      "dialog": "*excited jiggling* SPARKLES! My armor SHINES! I am MAGNIFICENT! Here - an Onion Shield! Layers of protection! Like me! *proud pose*",
+      "rewards": {"gold": 350, "item": "onion_layer_shield", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "It's... a talking onion. In armor. Okay then.",
+    "twist": "It's so CUTE! Look at its little layers!",
+    "nix7": "Sentient allium. Physics comprehension: failing."
+  },
+  "hidden_outcome": "If you bring 20 crystals, Onion Boss evolves into 'Ultimate Onion' and gives you the 'Onion Knight Job Crystal'"
+}

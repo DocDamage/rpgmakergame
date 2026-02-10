@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_lost_expedition",
+  "name": "Footprints in the Snow",
+  "zone": "frost",
+  "giver": "aeronaut_blue",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "An expedition to the Pole hasn't reported in for three weeks! They were studying ancient ice formations. Search parties found their base camp abandoned—no signs of struggle, just... empty. Find out what happened to them!",
+      "objective": "Investigate the abandoned expedition base camp"
+    },
+    "progress": {
+      "dialog": "They found something in the ice—dug too deep! Void-tainted ice wraiths emerged! The team is trapped in an ice cave, frozen but alive in magical stasis! Break the stasis fields and defeat the wraiths!",
+      "objective": "Rescue the expedition members from the Void ice wraiths"
+    },
+    "complete": {
+      "dialog": "All twelve scientists rescued! They'll recover fully! Their discovery—evidence of pre-Collapse polar civilization—is groundbreaking! The Polar Institute awards you this Aurora Compass! It always points toward safety in blizzards!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 900,
+        "item": "aurora_compass"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fighting ice ghosts to save scientists. Just another day!",
+    "twist": "Void corruption in the ice itself. The threat runs deeper than we knew.",
+    "nix7": "Rescue mission: successful. Scientific personnel: preserved."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_PRISMRIDGE_RIDGE_SCHOLAR",
+  "name": "Prismridge Ridge Scholar",
+  "title": "Field Scholar",
+  "location": "T_PRISMRIDGE_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      17,
+      26
+    ],
+    "rain": [
+      19,
+      25
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR",
+  "shop": null,
+  "quests": [],
+  "faction": "CARTOGRAPHERS_GUILD",
+  "attitude": "neutral",
+  "background": "Studies Foundation instability and terminal anomalies. Stationed in Prismridge.",
+  "personality": "Curious, methodical, and occasionally unhinged.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "lore",
+    "analysis"
+  ]
+}

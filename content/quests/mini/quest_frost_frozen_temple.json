@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_frozen_temple",
+  "name": "The Icebound Sanctum",
+  "zone": "frost",
+  "giver": "snakecharmer",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "An ancient temple has emerged from the melting glacier! Pre-Collapse architecture, perfectly preserved in ice! Scholars are excited, but there's something inside—guardians, traps, who knows what? Care to be the first to explore?",
+      "objective": "Enter the newly revealed frozen temple"
+    },
+    "progress": {
+      "dialog": "Incredible! Ice-elemental guardians protecting a central chamber! They're not hostile unless you approach the inner sanctum. Solve the ice puzzles, avoid the guardians, and see what treasure awaits!",
+      "objective": "Solve the temple's ice puzzles and reach the inner sanctum"
+    },
+    "complete": {
+      "dialog": "A frozen relic of the First Age! This changes our understanding of history! The Archaeological Society pays handsomely—and gives you this Frostward Ring! It grants immunity to ice magic!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 900,
+        "item": "frostward_ring"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Ancient temples, ice puzzles, and treasure! Classic adventuring!",
+    "twist": "The architecture suggests a civilization that worshipped winter itself.",
+    "nix7": "Historical preservation: exceptional. Artifact recovery: complete."
+  }
+}

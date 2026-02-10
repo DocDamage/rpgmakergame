@@ -1,0 +1,70 @@
+{
+  "npc_id": "barrelgob_black_ember",
+  "name": "Sooty - The Soot Collector",
+  "sprite": "barrelgob_black",
+  "zone": "ember",
+  "location": "Smoldering Slag Pits",
+  "personality": "melancholy_artistic",
+  "occupation": "soot_collector",
+  "schedule": "works_dusk_to_dawn",
+  "dialog": {
+    "greeting": [
+      "Oh. Hello. Didn't hear you over the sound of... existential dread.",
+      "Sooty, they call me. Because of the soot. Obviously.",
+      "Another day, another layer of fine particulate matter.",
+      "You're back. The world keeps turning. The soot keeps falling.",
+      "Welcome to the slag pits. Beautiful, in a ruined kind of way.",
+      "I collect soot. It's... not as glamorous as it sounds.",
+      "The blackness covers everything. Eventually. Even hope. ...Too dark? Sorry.",
+      "At least my barrel matches my mood. And my face. Everything's black here."
+    ],
+    "soot_craft": "I make ART from soot. Drawings, mostly. They smudge. Impermanent. Like life. ...I made a nice portrait of a lizard yesterday.",
+    "artistic_inspiration": "The volcano's destruction creates BEAUTY, if you look closely. Charred trees have interesting shapes. The lava makes patterns. ...I'm not weird, you're weird.",
+    "scorch_comparison": "Scorch finds SHINY things. I find the DARK things. Together we make... a complete set, I guess. He's too cheerful.",
+    "melancholy_philosophy": "Fire takes everything eventually. But before it does, there's warmth. That's... nice, right?",
+    "rumor": [
+      "They say there's a fire that never goes out. Deep in the magma chambers. Beautiful. Terrifying.",
+      "Tide's water puts out fire. Can you imagine? A whole zone of... dampness?",
+      "Mire's fog covers everything too. Different particles. Same obscuring.",
+      "Frost's snow is supposedly CLEAN. White. Pure. Sounds fake."
+    ],
+    "soot_collection_tips": "The best soot comes from controlled burns. Wildfire soot is too... angry. You can taste it.",
+    "farewell": [
+      "Don't let the fire consume you. ...Unless you want it to. No judgment.",
+      "Return if you need... darkness. Or art supplies.",
+      "May your days be warm, but not TOO warm.",
+      "The soot claims us all. Eventually. Bye for now."
+    ],
+    "ambient_barks": [
+      "Another layer...",
+      "Such texture in this batch...",
+      "Fire giveth, fire taketh away...",
+      "Beautiful destruction...",
+      "Scorch is too loud...",
+      "The blackness is comforting..."
+    ],
+    "time_dawn": "Dawn soot is... fresh. Optimistic, almost.",
+    "time_noon": "Too bright. Too hot. The soot becomes angry.",
+    "time_dusk": "Dusk is perfect. Everything's orange and black. Beautiful.",
+    "time_night": "Night soot is mysterious. Full of secrets."
+  },
+  "party_reactions": {
+    "kade": "You're... very philosophical. For a barrel-dweller.",
+    "nix7": "Existential philosophy detected. Unusual for this species.",
+    "twist": "You seem SAD! Want a HUG?! Hugs fix sadness!",
+    "korr": "Darkness can be beautiful. You see what others miss.",
+    "renna": "Your soot drawings sound fascinating. May I see one?",
+    "suresh": "Even in ash, you find art. There is hope in that.",
+    "sova": "Cheer up. Or don't. Your choice.",
+    "grit": "Seen soldiers like this. Seen too much. But they survive.",
+    "ashka": "You understand fire's beauty AND its cost. Rare.",
+    "senna": "Dark thoughts. Sharp mind. Watchful.",
+    "callum": "I... have a clean cloth? For your face?"
+  },
+  "relationship_dialog": {
+    "stranger": "Oh. A stranger. Hello.",
+    "acquaintance": "You're the one who keeps visiting. Why? Not complaining. Just curious.",
+    "friend": "My friend. Would you like to see my latest soot sketch?",
+    "best_friend": "You actually appreciate my art. Here - my best piece. It's of you. Made from volcanic ash. Don't smudge it."
+  }
+}

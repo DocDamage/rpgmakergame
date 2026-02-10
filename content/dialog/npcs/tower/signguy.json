@@ -1,0 +1,115 @@
+{
+  "npc_id": "signguy_tower",
+  "name": "Guide",
+  "title": "Direction Signs",
+  "zone": "tower",
+  "location": "Tower Lobby, Floor 1",
+  "description": "A helpful figure maintaining the Tower's directional signs, ensuring climbers know the way up.",
+  "sprite_variant": "signguy_tower",
+  "greeting_variants": [
+    "*painting sign* Top: 47 floors. Stairs that way. Lift here.",
+    "Guide. I point. You climb. Simple arrangement.",
+    "*checking directions* Floor 12: Commissary. Floor 34: Observation.",
+    "New climber? Read all signs. Twice. Save your life.",
+    "Ward taught me. Capital. Good man. Clear signs. Important.",
+    "*repainting* Faded again. Tower does that. Eats clarity.",
+    "Top floor: Palace access. If you make it. Most don't.",
+    "Follow arrows. Don't improvise. Tower punishes explorers."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Guide. Sign maintainer. Ward—Capital, you know him?—taught me. 'Clear warnings save lives.' Tower needs warnings. Needs directions. Too easy to get lost. Lost means... *shivers* ...means gone.",
+          "options": [
+            {"text": "Tell me about the Tower.", "goto": "tower_info"},
+            {"text": "What should I watch for?", "goto": "warnings"},
+            {"text": "You know Ward?", "goto": "ward_connection"},
+            {"text": "Thanks for the directions.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "tower_info",
+          "text": "Forty-seven floors. Each different. Some safe—commissary, observation. Some... not. The Tower changes as you climb. Tests you. Echoes of old times. Echoes of... possibilities. Don't trust everything you see.",
+          "options": [
+            {"text": "What kind of tests?", "goto": "tower_tests"},
+            {"text": "What do you mean by echoes?", "goto": "echoes_explanation"}
+          ]
+        },
+        {
+          "id": "warnings",
+          "text": "*serious* Floor 20: Ventilation fans. Don't touch. Floor 28: Mirror maze. Don't trust reflections. Floor 35: Gravity shifts. Watch your step. Floor 40: End of lift. Stairs only. Harder from there.",
+          "unlocks": {"information": ["floor_20_warning", "floor_28_warning", "floor_35_warning", "floor_40_transition"]},
+          "options": [
+            {"text": "What about above 40?", "goto": "upper_floors"},
+            {"text": "I'll be careful.", "goto": "careful_acknowledge"}
+          ]
+        },
+        {
+          "id": "ward_connection",
+          "text": "*warm smile* Good man. Saved my life once. Wrong turn in ruins. His sign warned me. Taught me everything. 'Clarity,' he said. 'In confusion, clarity saves.' I try to honor that. Even here.",
+          "options": [
+            {"text": "He's still helping people.", "goto": "ward_update"},
+            {"text": "You've done him proud.", "goto": "pride_acknowledge"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_signs",
+    "title": "The Climb - Clear the Path",
+    "description": "Help Guide restore and replace signs throughout the Tower to ensure safe passage for all climbers.",
+    "objectives": [
+      "Gather sign-making materials from the supply room",
+      "Replace faded signs on Floors 10-20",
+      "Add warning markers at Floor 28's mirror maze",
+      "Install new directional signs at Floor 35 junction",
+      "Report to Guide"
+    ],
+    "rewards": {
+      "experience": 450,
+      "reputation": {"tower_residents": 25, "climbers": 30},
+      "items": ["guide_sign_kit", "tower_path_map"],
+      "unlock": "guide_special_knowledge"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*repainting* Top: 47. Keep climbing. Don't stop.",
+    "Arrow points up. Always up. Until top.",
+    "*checking signs* Clear. Visible. Accurate. Good.",
+    "Floor 12 this way. Food there. Steel cooks.",
+    "*replacing broken sign* Vandalism? Accident? Tower?",
+    "Read the signs. Trust the signs. Ignore... distractions.",
+    "Ward would like this one. Clean. Simple.",
+    "*to climber* You look tired. Floor 12. Rest. Then climb."
+  ],
+  "cross_zone_references": {
+    "capital": "Ward's there. Signs everywhere. Keeping people safe.",
+    "void": "Signs don't hold there. Too... shifting. Ward suffers.",
+    "palace": "Top. End. Beginning. Signs end there. Everything ends there."
+  },
+  "party_reactions": {
+    "ward_capital": {
+      "greeting": "Student. You've grown.",
+      "response": "*emotional* Teacher. Still teaching. Through me."
+    },
+    "kael": {
+      "greeting": "Your signs are clear. Well done.",
+      "response": "*salutes* Military precision. Best compliment."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Maintaining signs, helping climbers",
+      "night": "Emergency repairs, checking safety markers"
+    },
+    "world_state_triggers": {
+      "sign_faded": "Urgent: 'Fading! Must repaint! People will get lost!'",
+      "new_floor_appears": "Confused: 'New floor? No sign for... must make sign. Fast.'"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "npc_id": "tunneler_blue_prism",
+  "name": "Deepdelver 'Blue' Stratum",
+  "sprite": "tunneler_blue",
+  "zone": "prism",
+  "location": "Deep Mines - Great Prism Chamber",
+  "personality": "haunted_obsessed_secretive",
+  "occupation": "crystal_miner",
+  "schedule": {
+    "day": "mining_operations",
+    "night": "watching_the_great_prism"
+  },
+  "dialog": {
+    "greeting": [
+      "Shhh. Listen. Do you hear it? The singing?",
+      "Blue Stratum. I found it. The Great Prism. And it found me.",
+      "You shouldn't be down here. It's not safe. Not for anyone.",
+      "The deep knows things. Shows things. I see... so much now.",
+      "They promoted me after the discovery. Gave me this chamber. To watch. To wait.",
+      "The Great Prism hums. Constantly. In my sleep. In my bones.",
+      "I was just a miner. Now I'm... something else. Not sure what.",
+      "Don't touch it. The Prism. It doesn't like being touched."
+    ],
+    "the_great_prism": "Biggest crystal ever found. Older than the mines. Older than Prism. Maybe older than us. It sings. Not words. Intentions. Feelings. Warnings.",
+    "connection_to_tower": "The Prism showed me... a tower. Black. Reaching. Calling out to... something. The Prism responds. They're connected. Somehow. Across distance. Across time.",
+    "haunted_experience": "I see things now. When I close my eyes. Other places. Other times. The Prism shares its memories. Or its visions. Hard to tell which.",
+    "backstory": "Just a miner. Good at it. Went deeper than anyone. Found the Great Prism. Now I can't leave. It needs me. Or I need it. Mutual... addiction?",
+    "rumors": [
+      "The twins understand. They hear echoes too. We don't speak of it. We don't need to.",
+      "The aeronaut surveys from above. He saw the Prism's location before I found it. Told me where to dig. Now his partner's gone. Coincidence?",
+      "The retired prospector - old Tunnel Purple - he knew about the Prism. Old legends. He warned me. I didn't listen.",
+      "The foreman thinks I'm crazy. The inspector thinks I'm traumatized. They're both right."
+    ],
+    "ambient_barks": [
+      "It sings...",
+      "Don't touch it...",
+      "The deep knows...",
+      "Listen carefully...",
+      "Visions come...",
+      "The tower calls..."
+    ],
+    "time_of_day": {
+      "morning": "Morning light doesn't reach here. Just crystal glow.",
+      "noon": "Midday. The Prism is loudest. So many voices.",
+      "evening": "Evening. The singing shifts. Different tones. Different moods.",
+      "night": "Night. The Prism dreams. I watch. I listen. I learn."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "crystal_resonance",
+    "quest_name": "Crystal Resonance",
+    "stage_1_hook": "The twins - they understand resonance. Harmony. The Great Prism is out of tune. Discordant. Something's interfering. The tower, maybe. I need them to help restore harmony. But they need components. Resonance crystals. From the Echo Caverns.",
+    "stage_1_active": "Bring resonance crystals to the twins. Three of them. From the deepest part of the Echo Caverns. They'll know what to do.",
+    "stage_2_progress": "You've spoken with the twins? Good. They understand what I cannot explain.",
+    "stage_2_item_needed": "resonance_crystals_for_twins",
+    "stage_3_complete": "The harmony... restored. The Prism sings clearly now. Thank you. Thank the twins. Here. A fragment of the Great Prism itself. It will guide you. Warn you. As it guides me.",
+    "reward": "great_prism_fragment"
+  },
+  "party_reactions": {
+    "kade": "He's... not well. But he's not wrong about the Prism. I feel it too.",
+    "nix7": "Subject displays symptoms of resonance exposure. Crystal's influence: concerning. Recommend caution.",
+    "twist": "He talks to the crystal? COOL! Does it talk back? What does it SAY?!",
+    "korr": "He carries a heavy burden. The stone has claimed him. Whether it releases him... uncertain.",
+    "renna": "The Great Prism is immensely powerful. He's connected to it. Permanently. Poor soul.",
+    "suresh": "He has touched something ancient. It has touched him back. Both are changed.",
+    "sova": "Crazy or not, he knows things. Useful things. Listen to him.",
+    "grit": "Seen soldiers break like this. Combat fatigue. But from a rock? New one on me.",
+    "ashka": "The crystal burns with inner fire. He burns too. Connected.",
+    "senna": "Knows secrets. Speaks in riddles. Classic oracle behavior.",
+    "callum": "He told me the Prism showed him my future. Wouldn't tell me what it was. Now I'm worried."
+  },
+  "relationship_dialog": {
+    "stranger": "Go away. The Prism doesn't know you.",
+    "acquaintance": "You return. The Prism recognizes you now. Interesting.",
+    "friend": "You... you don't fear the deep. The Prism appreciates this.",
+    "best_friend": "The Prism trusts you. So I trust you. Here. My deepest secret. What the Prism showed me. About the tower. About everything."
+  },
+  "cross_npc_connections": [
+    "twins_white_prism: The echo oracles. They understand what I endure. We share... experiences.",
+    "aeronaut_blue_prism: The balloonist. He knew where to find the Prism. Now I wonder what else he knows.",
+    "tunneler_purple_prism: Old Tunnel Purple. He warned me. About the Prism. About the deep. Should have listened."
+  ]
+}

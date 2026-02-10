@@ -1,0 +1,139 @@
+{
+  "character": "Suresh",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Spiritual, calm, wise, speaks in gentle truths and parables",
+  "dialog": {
+    "first_meet_generic": [
+      "Peace be with you. I sense you are on your own journey.",
+      "The universe brings us together for a reason. Let us discover it.",
+      "I am Suresh. I seek understanding. Perhaps you do too?",
+      "Your presence ripples the waters of fate. Interesting."
+    ],
+    "barrelman": [
+      "A barrel holds what we need. Nothing more. Nothing less.",
+      "Wood breathes as we breathe. Treat it with kindness.",
+      "Competition is suffering. But suffering teaches.",
+      "What do you seek to contain? Or to release?"
+    ],
+    "snakecharmer": [
+      "The snake and the charmer. Two souls in harmony. Beautiful.",
+      "Music bridges all divides. Even between species.",
+      "Mr. Whiskers trusts you. Trust is the highest gift.",
+      "Danger and beauty intertwined. As in all things."
+    ],
+    "lucha": [
+      "The mask conceals, yet reveals. We all wear masks.",
+      "Strength is not just muscle. It is spirit. You have both.",
+      "Combat as meditation. Each movement mindful. I understand.",
+      "The crowd cheers, but do you hear your own heart?"
+    ],
+    "ironchef": [
+      "Food nourishes body and soul. You serve both.",
+      "Fire transforms. You are an agent of transformation.",
+      "The armor protects, but does it not also isolate?",
+      "Passion in cooking is devotion. You are devout."
+    ],
+    "trenchcoat": [
+      "Secrets are heavy burdens. Your coat must weigh much.",
+      "Mystery serves protection. But also creates distance.",
+      "I sense no malice in you. Only... carefulness.",
+      "What are you hiding from? Or hiding for?"
+    ],
+    "sumo": [
+      "Stillness is not emptiness. It is full of potential.",
+      "The mountain moves not, yet shapes the river.",
+      "Your center is found. Many search all their lives.",
+      "Size is illusion. Presence is truth. You are present."
+    ],
+    "foodboys": [
+      "Family bonds are sacred, however they manifest.",
+      "You feed the hungry. This is noble work.",
+      "Two halves of one whole. Or two wholes together?",
+      "Your energy fills the room. Like incense. Like laughter."
+    ],
+    "coolcat": [
+      "Coolness is warmth hidden. You hide much warmth.",
+      "Jazz is the sound of souls conversing. Do you agree?",
+      "The sunglasses shield your eyes. But eyes are windows.",
+      "You seek to be cool. But you already are, within."
+    ],
+    "pigman": [
+      "Pigs are sacred in many traditions. You honor them.",
+      "Your inn welcomes the weary. This is blessing.",
+      "Laughter and food. The simplest pleasures. The deepest.",
+      "You are content in your work. Contentment is rare."
+    ],
+    "tunneler": [
+      "The earth holds memories. You are among them.",
+      "Darkness is not absence. It is presence of depth.",
+      "Your back carries the weight of stone. And time.",
+      "From earth to water. You seek change. Change is growth."
+    ],
+    "bush": [
+      "Even the bush has spirit. All things do.",
+      "Nature takes many forms. Some unexpected.",
+      "Are you hiding? Or simply being? Both are valid.",
+      "The wilds accept all. We could learn from them."
+    ],
+    "aeronaut": [
+      "To fly is to touch the infinite. You are blessed.",
+      "The sky teaches humility. We are small beneath it.",
+      "Balloons are fragile. Life is fragile. Both brave.",
+      "What do you see from above? Perspective, I imagine."
+    ],
+    "onionboss": [
+      "Leadership requires layers. Like your namesake.",
+      "Tears come from strong emotion. Even onions know this.",
+      "Your workers need guidance. But also compassion.",
+      "Authority is service. Do you serve well?"
+    ],
+    "astronaut": [
+      "The deep and the high are one. Both vast. Both unknown.",
+      "You explore the unseen. The spiritual journey, physical.",
+      "Pressure creates diamonds. Pressure also crushes. Balance.",
+      "What lives below? Mysteries. As above, so below."
+    ],
+    "conductor": [
+      "The journey matters more than destination. You know this.",
+      "Trains carry stories. You are keeper of stories.",
+      "All aboard? A call to community. Beautiful.",
+      "Your schedule is devotion. Dedication is prayer."
+    ],
+    "shoewoman": [
+      "The path matters. So do the shoes that walk it.",
+      "You protect travelers. This is service.",
+      "Every step is a choice. You enable choice.",
+      "Shoes ground us. Literally and spiritually."
+    ],
+    "signguy": [
+      "Words guide the lost. You provide words.",
+      "Hand-painted. Heart-felt. Visible devotion.",
+      "Your work marks the path for others. Noble.",
+      "Messages endure. What message do you leave?"
+    ],
+    "cobra": [
+      "Respect the serpent. It was here before us.",
+      "Beauty and danger. All sacred things have both.",
+      "The cobra asks only to be left in peace. As do we all.",
+      "Fear not. But keep distance. Wisdom knows bounds."
+    ],
+    "barrelgob": [
+      "Home is where we make it. Even in barrels.",
+      "You adapt. Adaptation is survival. Survival is sacred.",
+      "Small spaces can hold large spirits. Yours does.",
+      "The world provides. You accept with gratitude."
+    ],
+    "twins": [
+      "Two souls, one rhythm. Like breathing. In and out.",
+      "Your bond transcends words. Many bonds do.",
+      "To know another so deeply. This is rare blessing.",
+      "Separate? Why? Together you are complete."
+    ],
+    "sunandmoon": [
+      "The celestial dance reflects our own. We are stardust.",
+      "Sun and moon. Light and shadow. Both necessary.",
+      "The stars do not command. They merely suggest.",
+      "Your wisdom is heavy. Wisdom often is."
+    ]
+  }
+}

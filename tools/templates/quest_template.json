@@ -1,0 +1,31 @@
+{
+  "id": "Q_QUEST_NAME",
+  "name": "Quest Display Name",
+  "type": "main|side|character|bounty",
+  "giver": "NPC_ID",
+  "prerequisites": [],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Step description",
+      "target_location": "MAP_ID",
+      "objective": "investigate|defeat|collect|deliver|escort|talk",
+      "target_count": 1,
+      "target_id": "",
+      "optional": false
+    }
+  ],
+  "rewards": {
+    "xp": 0,
+    "gil": 0,
+    "items": [
+      {"item": "ITEM_ID", "count": 1}
+    ],
+    "unlocks": []
+  },
+  "unlocks": ["Q_NEXT_QUEST"],
+  "flags_set": ["Q_QUEST_NAME_COMPLETE"],
+  "time_limit": 0,
+  "failure_flags": [],
+  "notes": ""
+}

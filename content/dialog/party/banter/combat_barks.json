@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "total_barks": 936,
+    "categories": [
+      "attack",
+      "damage_taken",
+      "healing_received",
+      "victory",
+      "defeat_warning",
+      "critical_hit",
+      "dodge",
+      "buff",
+      "debuff"
+    ],
+    "lines_per_character_per_category": 8,
+    "characters": [
+      "kade",
+      "nix7",
+      "renna",
+      "suresh",
+      "twist",
+      "sova",
+      "grit",
+      "ashka",
+      "senna",
+      "callum",
+      "petra",
+      "vex",
+      "korr"
+    ]
+  },
+  "combat_barks": {
+    "attack": {
+      "kade": [
+        "Push now.",
+        "Break their angle.",
+        "For the crew.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "nix7": [
+        "Engaging.",
+        "Break their angle.",
+        "For the unit.",
+        "Maintain vector.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "renna": [
+        "Engaging.",
+        "Break their angle.",
+        "For the rig.",
+        "Maintain vector.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "suresh": [
+        "For those behind me.",
+        "Break their angle.",
+        "For the triage.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "twist": [
+        "Your turn to lose.",
+        "Break their angle.",
+        "For the angle.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "sova": [
+        "Push now.",
+        "Break their angle.",
+        "For the model.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "grit": [
+        "Push now.",
+        "Break their angle.",
+        "For the line.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "ashka": [
+        "I break through.",
+        "Break their angle.",
+        "For the trail.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "senna": [
+        "I break through.",
+        "Break their angle.",
+        "For the discipline.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "callum": [
+        "For those behind me.",
+        "Break their angle.",
+        "For the pact.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "petra": [
+        "I break through.",
+        "Break their angle.",
+        "For the control.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "vex": [
+        "For those behind me.",
+        "Break their angle.",
+        "For the oath.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ],
+      "korr": [
+        "Push now.",
+        "Break their angle.",
+        "For the command.",
+        "No retreat.",
+        "Move with me.",
+        "Finish this lane.",
+        "Keep pressure.",
+        "End it clean."
+      ]
+    },
+    "damage_taken": {
+      "kade": [
+        "Still up.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "nix7": [
+        "Integrity reduced.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "renna": [
+        "Integrity reduced.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "suresh": [
+        "Pain noted.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "twist": [
+        "Cheap shot.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "sova": [
+        "Still up.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "grit": [
+        "Still up.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "ashka": [
+        "I endure.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "senna": [
+        "I endure.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "callum": [
+        "Pain noted.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "petra": [
+        "I endure.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "vex": [
+        "Pain noted.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ],
+      "korr": [
+        "Still up.",
+        "Not finished.",
+        "I can take more.",
+        "Keep moving.",
+        "That hurt. I am fine.",
+        "Line still holds.",
+        "No panic.",
+        "I am not dropping yet."
+      ]
+    },
+    "healing_received": {
+      "kade": [
+        "Good patch.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "nix7": [
+        "Repair input accepted.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "renna": [
+        "Repair input accepted.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "suresh": [
+        "Grateful. Continuing.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "twist": [
+        "Nice save.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "sova": [
+        "Good patch.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "grit": [
+        "Good patch.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "ashka": [
+        "I can keep fighting.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "senna": [
+        "I can keep fighting.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "callum": [
+        "Grateful. Continuing.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "petra": [
+        "I can keep fighting.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "vex": [
+        "Grateful. Continuing.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ],
+      "korr": [
+        "Good patch.",
+        "Back in rhythm.",
+        "That stabilizes me.",
+        "Needed that.",
+        "Thanks. Keep it coming.",
+        "Vitals improving.",
+        "I can push again.",
+        "Recovery confirmed."
+      ]
+    },
+    "victory": {
+      "kade": [
+        "Area secure.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "nix7": [
+        "Hostiles neutralized.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "renna": [
+        "Hostiles neutralized.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "suresh": [
+        "Give thanks and reset.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "twist": [
+        "Still breathing, still winning.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "sova": [
+        "Area secure.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "grit": [
+        "Area secure.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "ashka": [
+        "Stand. We are not done.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "senna": [
+        "Stand. We are not done.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "callum": [
+        "Give thanks and reset.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "petra": [
+        "Stand. We are not done.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "vex": [
+        "Give thanks and reset.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ],
+      "korr": [
+        "Area secure.",
+        "One more done.",
+        "Regroup and reload.",
+        "Good work, all of you.",
+        "We keep momentum.",
+        "No complacency.",
+        "Take breath, then move.",
+        "Clean enough."
+      ]
+    },
+    "defeat_warning": {
+      "kade": [
+        "We are slipping.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "nix7": [
+        "Failure risk rising.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "renna": [
+        "Failure risk rising.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "suresh": [
+        "I am failing my post.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "twist": [
+        "I am one mistake from floor time.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "sova": [
+        "We are slipping.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "grit": [
+        "We are slipping.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "ashka": [
+        "I am close to collapse.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "senna": [
+        "I am close to collapse.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "callum": [
+        "I am failing my post.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "petra": [
+        "I am close to collapse.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "vex": [
+        "I am failing my post.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ],
+      "korr": [
+        "We are slipping.",
+        "Need support now.",
+        "Do not break formation.",
+        "One more hit could drop me.",
+        "I am near the edge.",
+        "Hold the line.",
+        "Stabilize or we wipe.",
+        "This is not sustainable."
+      ]
+    },
+    "critical_hit": {
+      "kade": [
+        "Weak point found.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "nix7": [
+        "Critical event confirmed.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "renna": [
+        "Critical event confirmed.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "suresh": [
+        "Justice lands.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "twist": [
+        "That was pretty.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "sova": [
+        "Weak point found.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "grit": [
+        "Weak point found.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "ashka": [
+        "Opening taken.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "senna": [
+        "Opening taken.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "callum": [
+        "Justice lands.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "petra": [
+        "Opening taken.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "vex": [
+        "Justice lands.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ],
+      "korr": [
+        "Weak point found.",
+        "Perfect strike.",
+        "Critical confirmed.",
+        "That one landed deep.",
+        "Opening exploited.",
+        "Target staggered.",
+        "Direct center mass.",
+        "Keep that pressure."
+      ]
+    },
+    "dodge": {
+      "kade": [
+        "Missed me.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "nix7": [
+        "Evasion successful.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "renna": [
+        "Evasion successful.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "suresh": [
+        "Mercy denied.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "twist": [
+        "Try harder.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "sova": [
+        "Missed me.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "grit": [
+        "Missed me.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "ashka": [
+        "You miss.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "senna": [
+        "You miss.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "callum": [
+        "Mercy denied.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "petra": [
+        "You miss.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "vex": [
+        "Mercy denied.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ],
+      "korr": [
+        "Missed me.",
+        "Too slow.",
+        "Not today.",
+        "Bad angle.",
+        "I saw that coming.",
+        "Clean evade.",
+        "Try again.",
+        "You telegraphed that."
+      ]
+    },
+    "buff": {
+      "kade": [
+        "Power spike received.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "nix7": [
+        "Enhancement acknowledged.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we advance.",
+        "Stats up. Reposition.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "renna": [
+        "Enhancement acknowledged.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we advance.",
+        "Stats up. Reposition.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "suresh": [
+        "I accept this strength.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "twist": [
+        "Now this is my speed.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "sova": [
+        "Power spike received.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "grit": [
+        "Power spike received.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "ashka": [
+        "Strength rising.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "senna": [
+        "Strength rising.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "callum": [
+        "I accept this strength.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "petra": [
+        "Strength rising.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "vex": [
+        "I accept this strength.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ],
+      "korr": [
+        "Power spike received.",
+        "I am charged.",
+        "This changes the fight.",
+        "Good boost.",
+        "Now we push.",
+        "Stats up. Move.",
+        "I feel the lift.",
+        "Keep buffs rolling."
+      ]
+    },
+    "debuff": {
+      "kade": [
+        "Status hit.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "nix7": [
+        "Negative status detected.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "renna": [
+        "Negative status detected.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "suresh": [
+        "I need a cleanse now.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "twist": [
+        "Ugh. That is rude.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "sova": [
+        "Status hit.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "grit": [
+        "Status hit.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "ashka": [
+        "I refuse this drag.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "senna": [
+        "I refuse this drag.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "callum": [
+        "I need a cleanse now.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "petra": [
+        "I refuse this drag.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "vex": [
+        "I need a cleanse now.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ],
+      "korr": [
+        "Status hit.",
+        "I am slowed.",
+        "Debuff on me.",
+        "Systems dragging.",
+        "Shaking it off.",
+        "Need cleanse.",
+        "Pressure rising.",
+        "I can fight through it."
+      ]
+    }
+  }
+}

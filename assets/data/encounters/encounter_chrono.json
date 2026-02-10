@@ -1,0 +1,95 @@
+{
+  "id": "CHRONO_ENCOUNTERS",
+  "region": "chrono",
+  "maps": [
+    "T_CHRONOWAKE_112x72",
+    "D8_VOID_112x96",
+    "D_PALACE_128x96",
+    "MIC_CONDUIT_64x32",
+    "MIC_R14_128x56",
+    "MIC_R15_72x40"
+  ],
+  "encounter_rate": 0.11,
+  "min_steps": 12,
+  "max_steps": 25,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE"
+      ],
+      "weight": 34,
+      "min_steps": 11,
+      "gil_range": [
+        40,
+        70
+      ],
+      "xp": 75
+    },
+    {
+      "enemies": [
+        "ENEMY_PHASE_SCUTTLER"
+      ],
+      "weight": 30,
+      "min_steps": 10,
+      "gil_range": [
+        35,
+        60
+      ],
+      "xp": 68
+    },
+    {
+      "enemies": [
+        "ENEMY_DRONE"
+      ],
+      "weight": 24,
+      "min_steps": 12,
+      "gil_range": [
+        28,
+        48
+      ],
+      "xp": 55
+    },
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE",
+        "ENEMY_DRONE"
+      ],
+      "weight": 18,
+      "min_steps": 15,
+      "gil_range": [
+        70,
+        118
+      ],
+      "xp": 130
+    },
+    {
+      "enemies": [
+        "ENEMY_PHASE_SCUTTLER",
+        "ENEMY_PHASE_SCUTTLER"
+      ],
+      "weight": 10,
+      "min_steps": 17,
+      "rare": true,
+      "gil_range": [
+        70,
+        120
+      ],
+      "xp": 132
+    },
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE",
+        "ENEMY_PHASE_SCUTTLER",
+        "ENEMY_DRONE"
+      ],
+      "weight": 6,
+      "min_steps": 20,
+      "rare": true,
+      "gil_range": [
+        103,
+        178
+      ],
+      "xp": 190
+    }
+  ]
+}

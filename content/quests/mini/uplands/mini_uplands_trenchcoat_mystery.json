@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_trenchcoat_mystery",
+  "name": "The Coat's Secret",
+  "zone": "uplands",
+  "giver": "Trenchcoat Black",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "[Mysterious whispering] The coat speaks... it says something was stolen. My lucky button. Fell off near the windmill. Find it... and I'll share what the shadows know about the Dominion.",
+      "objective": "Search near the windmill for a lost coat button"
+    },
+    "progress": {
+      "dialog": "[Coat rustles ominously] The button calls... can you not hear it?",
+      "objective": "Continue searching around the windmill and surrounding area"
+    },
+    "complete": {
+      "dialog": "[The coat seems to sigh with relief] Found... yes. The coat is whole again. Here - Dominion patrol schedules. Stolen from a courier. Use this knowledge... wisely.",
+      "rewards": {"gold": 500, "item": "dominion_patrol_schedules", "reputation": 18}
+    }
+  },
+  "party_comments": {
+    "kade": "That coat is... talking? Or is he...?",
+    "nix7": "Unclear if subject or coat is sentient. Both possible.",
+    "twist": "I want a talking coat! Does it come in purple?"
+  },
+  "hidden_outcome": "If you also find a matching button (from a different coat), Trenchcoat Black reveals he is actually two very small people sharing one coat"
+}

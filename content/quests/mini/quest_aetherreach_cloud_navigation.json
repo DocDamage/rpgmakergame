@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_cloud_navigation",
+  "name": "Mists and Currents",
+  "zone": "aetherreach",
+  "giver": "conductor",
+  "type": "exploration",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Cloudsea surrounding Aetherreach isn't empty—it's full of currents, paths, and dangers. The ancient sky-sailors mapped safe routes, but those maps are fragmentary. A merchant convoy is trapped in a storm maze, unable to find the exit currents. Navigate there, guide them out, prove you understand the sky.",
+      "objective": "Navigate to the trapped merchant convoy in the storm maze"
+    },
+    "progress": {
+      "dialog": "Convoy located, but the storm is worse than reported—reality distortions, time loops, the kind of weather that shouldn't exist. The merchants are panicking, making dangerous choices. We need to establish a safe path through the maze before someone flies into a distortion zone.",
+      "objective": "Guide the convoy through the storm maze to safety"
+    },
+    "complete": {
+      "dialog": "Convoy safe, storm navigated, lives saved. The merchants are calling you the Sky Shepherd now—title carries weight in Aetherreach. The storm maze was no natural phenomenon; something's stirring in the upper atmosphere. We'll need to investigate further, but for now, celebrate. You flew like a legend today.",
+      "rewards": {
+        "exp": 23000,
+        "gold": 5500,
+        "item": "sky_shepherd_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Flying through a storm maze with reality distortions. My drake was more scared than I was. Barely.",
+    "ashka": "The wind patterns in that storm were impossible—blowing in six directions at once. And you navigated it. Impressive.",
+    "renna": "Reality distortions in atmospheric conditions suggest localized Foundation instability. We should report this to the Observatory."
+  },
+  "lore_unlocks": ["cloudsea_navigation", "storm_mazes"]
+}

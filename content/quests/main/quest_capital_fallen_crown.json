@@ -1,0 +1,129 @@
+{
+  "quest_id": "capital_fallen_crown",
+  "name": "The Fallen Crown",
+  "zone": "capital",
+  "act": 4,
+  "prerequisites": [
+    "chrono_against_time"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Golden Cage",
+      "description": "Infiltrate the Capital and contact the resistance",
+      "npc": "resistance_leader_sovereign",
+      "dialog_start": "You're the Crystal-bearer? Thank the shadows. I'm Sovereign—yes, THAT Sovereign. The rightful heir the usurpers tried to kill. The 'government' here sold our souls to the Void for power. They have the Crystal of Unity. With it, they could seal Chroma's fate forever. We need to move fast. They're planning something. Something final.",
+      "objectives": [
+        "Infiltrate the Capital's lower districts",
+        "Make contact with the Fallen Crown",
+        "Avoid Void patrols"
+      ],
+      "dialog_complete": "You got past the patrols! The Crystals shield you from their detection. Good. The resistance is scattered, but we're not beaten. We have eyes in the palace. We know where they're keeping the Crystal of Unity. Getting to it... that's the problem.",
+      "rewards": {
+        "exp": 1500,
+        "item": "resistance_safe_houses"
+      },
+      "target_location_id": "T_LUMENCREST_OUTER_112x72"
+    },
+    {
+      "stage": 2,
+      "name": "Shadows in the Palace",
+      "description": "Gather intelligence on the Void's final plan",
+      "npc": "spy_master_veil",
+      "dialog_start": "Shh. Walls have ears. Eyes. Sometimes teeth. I'm Veil—I run the resistance intelligence. The usurpers are planning a 'Grand Unification.' Sounds nice, doesn't it? It's not. They mean to use the Crystal of Unity to merge Chroma with the Void. One world. One hunger. Everyone consumed. We have three days to stop it.",
+      "objectives": [
+        "Infiltrate the Ministry of Unity",
+        "Steal the Grand Unification plans",
+        "Escape undetected"
+      ],
+      "dialog_complete": "You got the plans! Look at these diagrams—they're building a machine. A Gateway that uses the Crystal of Unity to tear down the barriers between worlds. If they activate this... there's no coming back. The Void will consume everything. We need to strike. Tonight.",
+      "rewards": {
+        "exp": 1700,
+        "item": "grand_unification_plans"
+      },
+      "target_location_id": "T_CROWN_HUB_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "The Usurper's Throne",
+      "description": "Confront the false ruler and their Void patron",
+      "npc": "false_regent_hollow",
+      "dialog_start": "[The figure on the throne turns, and the face beneath the crown is... empty. A mask of flesh over void] The Crystal-bearer. Finally. We wondered when you'd arrive. Too late, of course. The Grand Unification begins at midnight. Chroma and Void, merged in beautiful unity. No more struggle. No more pain. Just... peace. Eternal, empty peace.",
+      "objectives": [
+        "Confront the False Regent",
+        "Reveal their Void nature",
+        "Prevent the ceremony's start"
+      ],
+      "dialog_complete": "[The False Regent dissolves into violet smoke, laughing] You think you've won? I'm just a vessel. The true power awaits in the Void Zone. But please—take the Crystal of Unity. You'll need it where you're going. Consider it... an invitation.",
+      "rewards": {
+        "exp": 2200,
+        "item": "crystal_of_unity"
+      },
+      "target_location_id": "T_CROWN_HUB_112x72"
+    },
+    {
+      "stage": 4,
+      "name": "Seven Crystals United",
+      "description": "Attune all seven Crystals and unlock their true power",
+      "npc": "sovereign",
+      "dialog_start": "Seven Crystals. In one place. In living memory, this has never happened. The stories say when they're united, the Progenitors' full power awakens. You'll become... more. But 'more' what, I don't know. The risk is yours to take. The resistance will buy you time. Use it well.",
+      "objectives": [
+        "Gather all seven Crystals",
+        "Perform the Unification Ritual",
+        "Awaken the Progenitor power"
+      ],
+      "dialog_complete": "[The Crystals harmonize, their light merging into a rainbow that pierces the sky] It's working! The barriers between the Crystals are falling—they're becoming one! Kade, can you feel it? The power of creation itself, flowing through you! You're not just a bearer anymore. You're... something new.",
+      "rewards": {
+        "exp": 3000,
+        "item": "seven_crystals_unified"
+      },
+      "target_location_id": "T_CROWN_HUB_112x72"
+    },
+    {
+      "stage": 5,
+      "name": "The Void Zone Beckons",
+      "description": "Learn that the true enemy awaits in the Void Zone itself",
+      "npc": "nix7",
+      "dialog_start": "ANALYSIS COMPLETE. The Grand Unification was a distraction. The true Gateway is in the Void Zone—the place where the Void bleeds strongest into Chroma. If we want to end this, we must go there. Into the darkness itself. Kade... the odds of survival are... not optimal. But we have the Crystals. We have each other. And we have no choice.",
+      "objectives": [
+        "Open the path to the Void Zone",
+        "Prepare for the final battle",
+        "Say farewells if needed"
+      ],
+      "dialog_complete": "The Gateway opens, and through it... nothing. Absence. Hunger. The Void itself. On the other side waits whatever controls the corruption. The intelligence behind the hunger. We've fought its servants. Now we face the master. Whatever happens... it's been an honor. All of you. Every single one.",
+      "rewards": {
+        "exp": 2000,
+        "gold": 1500,
+        "unlock": "zone_void"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    }
+  ],
+  "story_beats": [
+    "The Capital's government has been fully compromised by the Void",
+    "The 'Grand Unification' would merge Chroma with the Void completely",
+    "The final Crystal of Unity is obtained, completing the set",
+    "All seven Crystals unite, unlocking the Progenitor's full power",
+    "The true enemy is revealed to be waiting in the Void Zone"
+  ],
+  "party_reactions": {
+    "kade": "Seven Crystals. I can feel them... talking to me? No, that's not right. Singing? Humming? They're alive, in a way. And they trust me. All that power, and they chose me. I won't let them down. I won't let ANY of you down. We're ending this. Together.",
+    "nix7": "Unified Crystal energy readings exceed measurable parameters. My systems are... upgrading? Evolving? I feel... more. Is this what organic 'intuition' is like? Processing probabilities without full data? It's terrifying. And exhilarating.",
+    "skysong": "I've been a smuggler, a pirate, a captain. Never a hero. Never a revolutionary. But here I am, about to march into literal nothingness to save the world. If we die, we die legends. If we live... we build something better. Either way, no regrets.",
+    "vesper": "The unified Crystals are creating NEW MATTER! Spontaneous generation! This is theoretically impossible! I mean, obviously it's happening, so it's possible, but—SCIENCE! Also, I may have wet myself slightly when the Void opened. Just a little. Professional secret.",
+    "ven": "The False Regent... I knew them. Before. They were kind, once. The Void didn't just corrupt them—it hollowed them out. Left a shell. That's what we're fighting. Not monsters. Not evil. Emptiness. And I refuse to let it win.",
+    "pyra": "Father would be proud. Ember stands with the alliance. I stand with Kade. Whatever waits in the Void, we'll face it with fire in our hearts and steel in our hands. And if fire and steel aren't enough... we'll find something that is.",
+    "abyssal": "I remember the Void's creation. I felt it tear reality. Now I return to that wound, carrying hope instead of despair. The cycle completes. Whether it ends in healing or death... at least it ends. Ten thousand years is too long to carry a burden.",
+    "gearhart": "The Progenitor power flowing through the Crystals... I can almost understand it. Almost. It's creation itself. The power to make, unmake, remake. If we survive this, I want to learn. Properly. Build things that help instead of harm. That's my vow.",
+    "blizzard": "From the frozen wastes to the seat of power. I've come so far. Changed so much. The Void took my family, long ago. Frozen them in time, trapped between moments. If I can free them... if I can free everyone the Void took... that's worth any price.",
+    "echo": "I'm recording everything. If we don't make it back, someone needs to know we tried. That we fought. That we cared. History isn't just about winners. It's about the ones who stood up when standing was hard. You're all my heroes. All of you.",
+    "sovereign": "I was raised to rule. Taught that power was my birthright. But you—you taught me that leadership is service. That crowns are heavy because they carry responsibility. If we survive, I'll be a better ruler. Because I learned from the best."
+  },
+  "unlocks": [
+    "zone_void",
+    "quest_void_into_darkness",
+    "seven_crystals_power",
+    "resistance_alliance",
+    "progenitor_ascension"
+  ]
+}

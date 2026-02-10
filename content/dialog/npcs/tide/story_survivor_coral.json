@@ -1,0 +1,54 @@
+{
+  "npc_id": "survivor_coral",
+  "name": "Survivor Coral",
+  "title": "Pathfinder",
+  "zone": "tide",
+  "location": "Sunken City of Tides Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "alert_resourceful_tenacious",
+  "occupation": "trail_guide",
+  "dialog": {
+    "greeting": [
+      "Survivor Coral on comms. Stage 2: Sunken City of Tides. Keep formation tight and decisions tighter.",
+      "We are running Depths of Mystery. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Navigate the flooded districts."
+    ],
+    "quest_hook": "Objective stack: Navigate the flooded districts; Rescue trapped survivors; Investigate the High Tide Council. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Explore the underwater metropolis and find survivors. Immediate move: Navigate the flooded districts.",
+    "quest_complete": "Stage 2 resolved: Sunken City of Tides. Primary objective secured and route stabilized. Prepare for The Corrupted Council.",
+    "rumor": [
+      "Dock crews report a lighthouse beam that points underwater at midnight.",
+      "People keep repeating one clue from Sunken City of Tides: 'Investigate the High Tide Council'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Tracks are fresh.",
+      "Wind just shifted.",
+      "Stay on my heel.",
+      "Read the ground."
+    ],
+    "time_dawn": "Dawn tide is calm enough for precision dives. Best window for route checks.",
+    "time_noon": "Noon currents fight each other in the trench. Anchor and communicate.",
+    "time_dusk": "Dusk visibility drops fast underwater. Stay on beacon chain.",
+    "time_night": "Night tide carries deep-song interference. Confirm orders twice."
+  },
+  "party_reactions": {
+    "kade": "Survivor Coral sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Survivor Coral accepted. Probability of success improves with compliance.",
+    "twist": "Survivor Coral talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "tide_depths_mystery"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+    "world_break_aware": true
+  }
+}

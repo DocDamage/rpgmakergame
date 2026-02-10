@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_cloud_buster_sword",
+  "name": "Blade of the Past",
+  "zone": "dustbelt",
+  "giver": "Cloud (Wandering Swordsman)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "...Looking for something. A sword. Large. My... friend carried it. Last seen near the ruins. If you find anything... let me know. Please.",
+      "objective": "Search the Ruins of Ashveil outskirts for traces of a large sword"
+    },
+    "progress": {
+      "dialog": "The sword... it's important. Memories. Can't leave them behind. Not again.",
+      "objective": "Continue searching the ruins for the sword or clues"
+    },
+    "complete": {
+      "dialog": "...This is it. Or what's left. Rusted, but... thank you. Take this. Materia fragment. Remnant of old power. Not much left, but... might help you.",
+      "rewards": {"gold": 500, "item": "materia_fragment_haste", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "That sword must have been something back in the day.",
+    "nix7": "Subject displays symptoms of severe trauma and loss.",
+    "renna": "The weight he carries... not just the sword. Something deeper."
+  },
+  "hidden_outcome": "If you find the complete sword hilt (rare drop), Cloud teaches you 'Omnislash Fragment' - a powerful limit break technique"
+}

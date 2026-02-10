@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CINDERSTEP_SLAG_TRACKER",
+  "name": "Cinderstep Slag Tracker",
+  "title": "Route Tracker",
+  "location": "T_CINDERSTEP_112x72",
+  "coords": [
+    94,
+    50
+  ],
+  "schedule": {
+    "day": [
+      94,
+      50
+    ],
+    "night": [
+      97,
+      48
+    ],
+    "rain": [
+      96,
+      50
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "MASTER_SMITHS",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Stationed in Cinderstep.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

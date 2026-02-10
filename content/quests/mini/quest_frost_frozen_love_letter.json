@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_frozen_love_letter",
+  "name": "Hearts of Ice",
+  "zone": "frost",
+  "giver": "foodboys_white",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Fifty years ago, my grandfather wrote a love letter to my grandmother, but it was lost in a blizzard! Now the ice has shifted, and the letter is visible in a glacier crevasse! I need someone to retrieve it—it's a piece of my family history!",
+      "objective": "Retrieve the frozen love letter from the glacier crevasse"
+    },
+    "progress": {
+      "dialog": "You found it! But the ice has preserved more than paper—there's a locket with it! Carefully thaw it without damaging the contents. This is precious cargo!",
+      "objective": "Carefully thaw and preserve the letter and locket"
+    },
+    "complete": {
+      "dialog": "His handwriting! Her locket! After fifty years! My grandmother wept with joy! She never knew how much he loved her—now she has proof! Here, take this Frostflower Bouquet—it grows only where love endures!",
+      "rewards": {
+        "exp": 600,
+        "gold": 400,
+        "item": "frostflower_bouquet"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Aww, that's the sweetest quest I've ever done!",
+    "twist": "Fifty years and love still warms the ice. Remarkable.",
+    "nix7": "Human emotional attachment to objects: data collected."
+  }
+}

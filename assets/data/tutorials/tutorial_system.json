@@ -1,0 +1,171 @@
+{
+  "tutorials": [
+    {
+      "id": "TUT_MOVEMENT",
+      "trigger": "first_movement",
+      "title": "Movement",
+      "text": "Use WASD or Arrow Keys to move your character. Hold Shift to run.",
+      "image": "tut_movement.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_INTERACT",
+      "trigger": "near_npc",
+      "title": "Interacting",
+      "text": "Press SPACE or ENTER to interact with NPCs, doors, and objects.",
+      "image": "tut_interact.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_MENU",
+      "trigger": "first_menu_open",
+      "title": "Main Menu",
+      "text": "Press ESC or X to open the main menu. Access Items, Equipment, Status, and Save here.",
+      "image": "tut_menu.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_BATTLE_ENTER",
+      "trigger": "first_battle",
+      "title": "Battle Started!",
+      "text": "Combat uses Active Time Battle (ATB). Your ATB gauge fills over time - when full, you can take an action.",
+      "image": "tut_atb.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_BATTLE_COMMANDS",
+      "trigger": "first_turn",
+      "title": "Battle Commands",
+      "text": "ATTACK: Basic physical attack. MAGIC: Use spells (costs MP). ITEM: Use consumables. LIMIT: Special attack when gauge is full.",
+      "image": "tut_commands.png",
+      "pause_game": false,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_WEAKNESS",
+      "trigger": "first_elemental_hit",
+      "title": "Elemental Weaknesses",
+      "text": "Enemies have elemental weaknesses! Hitting a weakness deals more damage. The Scan ability reveals enemy info.",
+      "image": "tut_weakness.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_FOUNDATIONS",
+      "trigger": "relic_growth_acquired",
+      "title": "The Foundations",
+      "text": "You've acquired a Foundation! These ancient relics are the key to saving the world. Collect all eight.",
+      "image": "tut_foundation.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_LIMIT_BREAK",
+      "trigger": "limit_gauge_full",
+      "title": "Limit Break!",
+      "text": "Your Limit Gauge is full! Taking damage fills this gauge. When full, you can unleash a devastating Limit Break attack!",
+      "image": "tut_limit.png",
+      "pause_game": false,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_EQUIPMENT",
+      "trigger": "first_equip",
+      "title": "Equipment",
+      "text": "Equip weapons, armor, and accessories to boost stats. Different characters can equip different types of gear.",
+      "image": "tut_equip.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_MAGIC",
+      "trigger": "first_magic_cast",
+      "title": "Magic System",
+      "text": "Magic costs MP. You can restore MP with Ethers or by resting at Inns. Black Magic deals damage, White Magic heals.",
+      "image": "tut_magic.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_SYNCHRONIZE",
+      "trigger": "first_sync",
+      "title": "Synchronize!",
+      "text": "SYNCHRONIZE is a powerful state that activates when you exploit enemy weaknesses. Party deals more damage while SYNCED!",
+      "image": "tut_sync.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_WORLD_MAP",
+      "trigger": "first_overworld_visit",
+      "title": "World Map",
+      "text": "The Overworld connects all locations. Visit towns to rest and shop, dungeons to find Foundations.",
+      "image": "tut_world.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_SAVE",
+      "trigger": "first_save_point",
+      "title": "Save Points",
+      "text": "Glow crystals are Save Points. You can also save from the menu on the world map or at Inns.",
+      "image": "tut_save.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_SHOPS",
+      "trigger": "first_shop",
+      "title": "Shopping",
+      "text": "Buy items, weapons, and armor at shops. Prices vary by location. Some shops unlock new stock as you progress.",
+      "image": "tut_shop.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_PARTY_SWAP",
+      "trigger": "fourth_member_recruited",
+      "title": "Party Management",
+      "text": "You have more than 3 characters! Use the menu to swap active party members. Different characters excel in different situations.",
+      "image": "tut_party.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_CRAFTING",
+      "trigger": "first_craft",
+      "title": "Item Crafting",
+      "text": "Combine materials to create potions and other items at crafting stations. Recipes unlock as you progress.",
+      "image": "tut_craft.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_TOWER",
+      "trigger": "tower_first_entry",
+      "title": "Tower of Ascension",
+      "text": "The Tower contains powerful foes every 10 floors. Defeating them unlocks progression and valuable rewards.",
+      "image": "tut_tower.png",
+      "pause_game": true,
+      "dismissable": true
+    },
+    {
+      "id": "TUT_WORLD_BREAK",
+      "trigger": "world_break_occurs",
+      "title": "The World Break",
+      "text": "The world has changed! New areas are accessible, enemies may be stronger, and the story has advanced. Be prepared!",
+      "image": "tut_worldbreak.png",
+      "pause_game": true,
+      "dismissable": false
+    }
+  ],
+  "settings": {
+    "show_tutorials": true,
+    "tutorial_speed": "normal",
+    "auto_dismiss_time": 10.0
+  }
+}

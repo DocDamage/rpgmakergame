@@ -1,0 +1,139 @@
+{
+  "character": "Vex",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Shadow, chaotic, unpredictable, thrives in madness and confusion",
+  "dialog": {
+    "first_meet_generic": [
+      "Ooh, new toy! Can I break you?",
+      "I'm Vex! Let's have FUN!",
+      "You're weird! I like weird!",
+      "What happens if I do THIS?! ...Nothing? Boo!"
+    ],
+    "barrelman": [
+      "Barrels roll! Can I roll them?!",
+      "Hide in barrels! POP OUT! Surprise!",
+      "Gnew-proof? What about VEX-proof?!",
+      "Can I put a cat in one?! Cat in barrel!"
+    ],
+    "snakecharmer": [
+      "Snake! Can I make it DANCE?!",
+      "Mr. Whiskers! Can I RENAME you?!",
+      "Venomous! EXCITING! Let me PET IT!",
+      "FLUTE! Make it play BACKWARDS!"
+    ],
+    "lucha": [
+      "MASK! Give me! I want to BE you!",
+      "FIGHT ME! Or let's DANCE! BOTH!",
+      "The cape hides THINGS! What THINGS?!",
+      "WRESTLE! But with FIRE! Or JELLY!"
+    ],
+    "ironchef": [
+      "FIRE! MORE FIRE! SET IT ALL ON FIRE!",
+      "Cooking with LAVA?! I LOVE YOU!",
+      "Can you make EXPLODING souffle?!",
+      "SHOUT LOUDER! I CAN'T HEAR THE CHAOS!"
+    ],
+    "trenchcoat": [
+      "What are you HIDING?! I want to SEE!",
+      "Mystery! Secrets! GIVE THEM TO ME!",
+      "Fourteen pockets! FOURTEEN TREASURES!",
+      "Take OFF the coat! DO IT! NOW!"
+    ],
+    "sumo": [
+      "BIG! Can I CLIMB you?!",
+      "Push me! PUSH ME OVER! Whee!",
+      "STILL! Too still! DANCE!",
+      "Mountain person! Can you SING?!"
+    ],
+    "foodboys": [
+      "TWO of you! DOUBLE TROUBLE!",
+      "Chili BURNS! Make it BURN MORE!",
+      "Salad is BORING! Add FIRECRACKERS!",
+      "Which is which?! SWITCH PLACES! DO IT!"
+    ],
+    "coolcat": [
+      "COOL! I'm HOT! We FIGHT!",
+      "Jazz! Play it BACKWARDS!",
+      "Sunglasses! AT NIGHT! Awesome!",
+      "Can you teach me CHAOS?!"
+    ],
+    "pigman": [
+      "PIGGY! Pink! Round! BOUNCY!",
+      "OINK for me! OINK! OINK!",
+      "Does the inn have TRAPS?! Fun ones?!",
+      "Bacon! CRISPY! Like my sanity!"
+    ],
+    "tunneler": [
+      "Digging! Find TREASURE?!",
+      "Dig UP! Dig DOWN! Dig SIDEWAYS!",
+      "Hit MAGMA! Splash! BURN! Fun!",
+      "Can I ride in your BARREL?!"
+    ],
+    "bush": [
+      "BUSH! BURNING bush?! No? BOO!",
+      "It's ALIVE! BUSHERY!",
+      "Hide in bush! JUMP OUT! BOO!",
+      "Can I PAINT the bush?! RAINBOWS!"
+    ],
+    "aeronaut": [
+      "BALLOONS! POP THEM! POP POP!",
+      "Fly HIGH! Then FALL! Whee!",
+      "Can I fill them with EXPLOSIVES?!",
+      "FIRE BALLOONS! Best idea EVER!"
+    ],
+    "onionboss": [
+      "ONION! Make me CRY! With JOKES!",
+      "LAYERS! Like my INSANITY!",
+      "Be MEAN! Mean is FUN!",
+      "Can we set the mine on FIRE?!"
+    ],
+    "astronaut": [
+      "Underwater! Can you DROWN?!",
+      "Heavy suit! Fall to bottom! CLANG!",
+      "Find KRAKEN! FIGHT IT!",
+      "Bubbles! POP them! Like balloons!"
+    ],
+    "conductor": [
+      "ALL ABOARD! TOOT TOOT!",
+      "Can I DRIVE?! CRASH?! BOTH?!",
+      "Train off tracks! FLYING train!",
+      "CHOO CHOO! Louder! LOUDER!"
+    ],
+    "shoewoman": [
+      "Shoes! TIE them together! Ha!",
+      "FIREPROOF boots! For FIREWALKING!",
+      "Giant shoes! CLOWN shoes! Yes!",
+      "Can I hide in a shoe?!"
+    ],
+    "signguy": [
+      "Signs! Paint them WRONG! Funny!",
+      "PAINT FIGHT! Color EVERYWHERE!",
+      "Upside down signs! Chaos!",
+      "Can I EAT the paint?! No? BOO!"
+    ],
+    "cobra": [
+      "Snake friend! Can I HUG you?!",
+      "Hiss! HISS louder! CHALLENGE!",
+      "Venom! Can I taste it?!",
+      "Wrap around me! SQUEEZE!"
+    ],
+    "barrelgob": [
+      "BARREL! Roll down HILL! Whee!",
+      "Goblin IN barrel! BARREL GOBLIN!",
+      "Can I join you?! In the BARREL?!",
+      "Barrel FIGHT! Roll and CRASH!"
+    ],
+    "twins": [
+      "TWO! Same! TWINS! CONFUSION!",
+      "Read MY mind! 'CHAOS CHAOS CHAOS'!",
+      "Switch clothes! Switch NAMES! Yes!",
+      "If I poke one, does OTHER squeak?!"
+    ],
+    "sunandmoon": [
+      "STARS! Make them FALL!",
+      "Tell my future! 'CHAOS'! I know!",
+      "Tall hat! Can I wear it?! TALL VEX!",
+      "Moon! Blow it UP! Pretty pieces!"
+    ]
+  }
+}

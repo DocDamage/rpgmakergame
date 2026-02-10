@@ -1,0 +1,70 @@
+{
+  "npc_id": "barrelgob_red_ember",
+  "name": "Scorch - The Ash Scavenger",
+  "sprite": "barrelgob_red",
+  "zone": "ember",
+  "location": "Scorched Outskirts",
+  "personality": "scrappy_opportunist",
+  "occupation": "ash_scavenger",
+  "schedule": "wanders_daytime",
+  "dialog": {
+    "greeting": [
+      "Ooh! New face! You drop anything? I collect dropped things!",
+      "Scorch is the name, scavenging's the game! Finders keepers!",
+      "You see that shiny over there? DIBS! Called it!",
+      "Back again? Got anything BURNING to throw away? Get it? BURNING?",
+      "The ash hides TREASURES! Well, junk. But ONE MAN'S JUNK!",
+      "Welcome to my territory! Technically Ember's territory. But I found it first!",
+      "You smell like... not-ash. Weird. Interesting. What IS that?",
+      "Trade? Information? I know THINGS! About... ash. Mostly ash."
+    ],
+    "scavenging_stories": "Found a whole SWORD last week! Burnt handle, but the blade was GOOD! Traded it for three barrels! Best deal ever!",
+    "barrel_living": "Barrels are great! Rollable, hideable, and they FLOAT! If I ever find water. Do you know where water is?",
+    "ash_collection": "Different ashes for different uses! Volcanic ash for... being dusty. Fire ash for... also dusty. I'm still working on uses.",
+    "treasure_dreams": "One day, I'll find something VALUABLE! Like... a crown! Or a really nice spoon! Something WORTH something!",
+    "rumor": [
+      "The magma tunnels got stuff in 'em. Old stuff. Shiny stuff. HOT stuff.",
+      "Tide has treasures EVERYWHERE! Just sitting on beaches! Can you imagine?",
+      "Mire's got sunken cities. Full of stuff! Waterlogged, but stuff!",
+      "The Dustbelt barrelgobs? AMATEURS! I scavenge CIRCLES around them!"
+    ],
+    "lucha_belt_obsession": "El Scorcho's belt is SO SHINY! I've tried to trade for it. He won't budge. Something about 'sentimental value.' Hmph!",
+    "farewell": [
+      "Happy hunting! And if you FIND anything... remember your pal Scorch!",
+      "Roll on! ...Like a barrel! Hahaha!",
+      "Come back if you need ASH! I'm the local expert!",
+      "May your fires burn and your drops be shiny!"
+    ],
+    "ambient_barks": [
+      "Shiny! SHINY!",
+      "Is that...? No. Just rock.",
+      "Ash! Lovely ash!",
+      "What dropped this? WHO CARES! Mine now!",
+      "Trade? Got any barrels?",
+      "The heat don't bother me! Much!"
+    ],
+    "time_dawn": "Early scavenging! Before the other barrelgobs wake up!",
+    "time_noon": "Peak heat! Hard to scavenge when you're melting!",
+    "time_dusk": "Golden hour for finding shinies!",
+    "time_night": "Night scavenging! Using glow-ash for light!"
+  },
+  "party_reactions": {
+    "kade": "Living in a barrel? In THIS heat? That's dedication.",
+    "nix7": "Resource acquisition strategy: efficient. Living conditions: suboptimal.",
+    "twist": "You live in a barrel?! Can I try?!",
+    "korr": "Scavenging is honest work. Surviving here shows resilience.",
+    "renna": "Do you ever find magical items in the ash?",
+    "suresh": "One finds value where others see waste. Wise, in a way.",
+    "sova": "I'd give you an arrow, but you'd probably try to trade it.",
+    "grit": "Reminds me of war scavengers. Resourceful. Sometimes dangerous.",
+    "ashka": "The fire doesn't scare you? You're tougher than you look!",
+    "senna": "Small, sneaky, finds things. Useful qualities.",
+    "callum": "Want some water? You look... really hot."
+  },
+  "relationship_dialog": {
+    "stranger": "Hello! Got anything to trade? Or drop?",
+    "acquaintance": "Hey! The non-barrel person! How's non-barrel life?",
+    "friend": "My tall friend! Find any shinies lately?",
+    "best_friend": "You! My BEST customer! Here - have this charred thing! It's valuable! Probably!"
+  }
+}

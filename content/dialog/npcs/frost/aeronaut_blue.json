@@ -1,0 +1,99 @@
+{
+  "npc_id": "aeronaut_blue_frost",
+  "name": "Sky-Rider Azure",
+  "sprite": "aeronaut_blue",
+  "zone": "frost",
+  "location": "Balloon Dock, Lower Peak",
+  "personality": "reckless_grieving_defiant",
+  "occupation": "supply_balloonist",
+  "dialog": {
+    "greeting": [
+      "Azure. Balloonist. And before you ask: yes, I'm flying today.",
+      "The storm? I've flown worse. Probably.",
+      "You're the rescue crew? I don't need rescue. I need LIFT.",
+      "Sky-Rider Azure. The blue uniform means I'm cleared for emergency runs. Means I'm crazy enough.",
+      "New face. You here to tell me to stay grounded? Join the line.",
+      "The winds don't scare me. Nothing scares me anymore.",
+      "Cirrus sent you, didn't he? Worried old bird. I'm FINE.",
+      "Balloon dock's open. Flights departing. Weather... negotiable."
+    ],
+    "work_complaint": [
+      "Equipment's old. Balloon's patched. But she flies. That's what matters.",
+      "Cirrus won't clear my routes. 'Too dangerous.' Everything's dangerous."
+    ],
+    "professional_pride": "I've flown through whiteouts that grounded entire squadrons. Lost brothers to the sky. Still fly.",
+    "technique": "The trick is reading the gusts. Feel them through the basket. Become the wind. Or fight it. Usually fight it.",
+    "break_chat": "Breaks are for people who sleep. I don't sleep. I remember.",
+    "labor_concerns": "Foodboys need supplies. The settlement needs food. Someone has to fly. Might as well be me.",
+    "retirement": "Retirement? My brother retired. Six feet down. I'll retire when I stop.",
+    "rumor": [
+      "The twins say I'll 'dance with the storm.' Cryptic. Annoying. Probably right.",
+      "Heard from Obsidian: Deep-Dig Grayson says hi. Cirrus's brother. Different kind of depth.",
+      "That ice sculptor Coolcat? Made a balloon of ice once. Beautiful. Useless. Like art.",
+      "The snake charmer's rock? Warm. Too warm. I'm taking it up next flight. See what happens.",
+      "Chrono sent a message. Through time. 'Don't fly Thursday.' It's Tuesday. Thanks?"
+    ],
+    "quest_hook": "You want to help? Fix my burner. It's running cold. Dangerous cold. Can't fly without heat.",
+    "quest_active": "Burner still down. Need parts. Oz in Obsidian has them. 'Company policy,' probably.",
+    "quest_complete": "Burner's hot! She'll fly now! You fixed more than equipment. Here - my brother's goggles. He'd want you to have them.",
+    "farewell": [
+      "Clear skies. Or don't. I fly either way.",
+      "Don't wait up. I might be a while.",
+      "The sky calls. I answer."
+    ],
+    "ambient_barks": [
+      "Pre-flight check!",
+      "Balloon's holding!",
+      "Winds are... manageable!",
+      "Up we go!",
+      "Storm's just weather!",
+      "For the settlement!"
+    ],
+    "time_dawn": "Dawn flights. Best visibility. Coldest air.",
+    "time_noon": "Midday. Turbulent. Exciting.",
+    "time_dusk": "Evening. The return. If you make it.",
+    "time_night": "Night flights. Don't tell Cirrus. He'd ground me for good.",
+    "family_mention": "My brother. Cerulean. Flew into the white three years ago. Never came down. Neither will I.",
+    "post_quest_greeting": "The mechanic! She flies smooth now. Thanks to you."
+  },
+  "party_reactions": {
+    "kade": "He's flying to forget. I know that feeling. Hope he finds peace.",
+    "nix7": "Grief processing: Maladaptive. Risk-taking: Extreme. Intervention: Recommended.",
+    "twist": "You fly in BALLOONS?! That's AMAZING! Take me WITH you!",
+    "korr": "His courage is undeniable. His judgment is questionable. Both are understandable.",
+    "renna": "The balloon has minor levitation enchantments. He doesn't know. Thinks it's all skill.",
+    "suresh": "He seeks death to join his brother. But he also serves life. Paradox.",
+    "sova": "I'd fly with him. Once. If I survived, I'd know I'm immortal.",
+    "grit": "Seen soldiers like him. Death wish. But useful. Until they're not.",
+    "ashka": "He plays with cold. Courts it. Cold always wins, eventually.",
+    "senna": "He'll die young. But he'll die doing what he loves. Or what he hates. Hard to tell.",
+    "callum": "His equipment violations! So many! Someone should REPORT!"
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Here to watch? Or stop me?",
+    "acquaintance": "You again. Still trying to ground me?",
+    "friend": "You get it. The sky. The freedom. Even the danger.",
+    "best_friend": "You'd fly with me? Really? Here - co-pilot certification. My wingman."
+  },
+  "mini_quest": {
+    "id": "fix_the_burner",
+    "title": "Cold Burner",
+    "description": "Help Azure repair his balloon's burner so he can continue supply runs",
+    "stages": {
+      "hook": "Burner's cold. Can't fly without fire. Need parts. Oz in Obsidian has them. Company store. Won't sell to me.",
+      "active": "Hogsworth's company store. He wants something. Always does. Find his price.",
+      "complete": "Burner's HOT! She flies! You did what I couldn't. Here. My brother's goggles. See the sky through his eyes."
+    },
+    "reward": {
+      "item": "cerulean_flight_goggles",
+      "gold": 350,
+      "reputation": "balloon_corps_pilot"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_white_frost: Cirrus. Worries too much. He's not wrong. Just... excessive.",
+    "foodboys_white_frost: Need my supplies. Settlement needs them. Why I fly.",
+    "pigman_white_frost: The innkeeper. Gives me free soup. Knows I won't take money.",
+    "snakecharmer_frost: Strange man. Warm rock. Taking it up next flight. Experiment."
+  ]
+}

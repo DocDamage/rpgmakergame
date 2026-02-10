@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_temporal_pirate",
+  "name": "Raiders of the Fourth Dimension",
+  "zone": "chrono",
+  "giver": "barrelgob_black",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Temporal pirates! They sail the streams of time, plundering treasures from history! They've stolen the Crown of Hours from the Temporal Museum! Chase them through time, recover the crown, and stop their raids!",
+      "objective": "Track the temporal pirates through time"
+    },
+    "progress": {
+      "dialog": "They've fled to the Age of Steam! They're hiding in the industrial district, planning their next heist! Ambush them, but be careful—temporal pirates have chronoguns that can age you to dust or revert you to infancy!",
+      "objective": "Ambush the temporal pirates and recover the Crown of Hours"
+    },
+    "complete": {
+      "dialog": "The pirates captured, the Crown recovered! The Temporal Museum awards you this replica—and this Chronogun! Don't worry, it's been modified to only affect inanimate objects. Turn rust to dust or restore ancient artifacts!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 950,
+        "item": "chronogun"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Time pirates with time guns! This is the coolest fight ever!",
+    "twist": "I nearly got de-aged to a child. Very unpleasant experience.",
+    "nix7": "Temporal piracy: suppressed. Historical artifacts: secured."
+  }
+}

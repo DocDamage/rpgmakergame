@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_black_market",
+  "name": "Shadow Commerce",
+  "zone": "capital",
+  "giver": "pigman_purple",
+  "type": "social",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "The Dominion thinks they control all trade in the Capital. They don't. The Night Market opens when the moons align, selling everything from contraband to secrets. But someone's muscling in—selling corrupted Progenitor shards that drive buyers mad. Find the source, shut it down.",
+      "objective": "Investigate the corrupted Progenitor shard trade at the Night Market"
+    },
+    "progress": {
+      "dialog": "Source traced to a former Aurora Foundry alchemist—crazy bastard thinks he's 'perfecting' humanity. He's set up shop in the old cathedral basement. The market merchants want him gone; the resistance wants his stock destroyed. You want to be a hero? Here's your chance.",
+      "objective": "Confront the Aurora Foundry alchemist in the cathedral basement"
+    },
+    "complete": {
+      "dialog": "Alchemist handled, shards destroyed, market stabilized. The Night Market owes you a debt, and in this city, that's currency more valuable than gold. You'll find doors open that were closed, prices drop when you approach. Welcome to the shadow economy, hero.",
+      "rewards": {
+        "exp": 9800,
+        "gold": 2500,
+        "item": "night_market_token"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Black markets I know. Crazy alchemists selling corrupted tech? That's new even for me.",
+    "petra": "Corrupted Progenitor shards... I know what those can do to people. Better to destroy them all. Every single one.",
+    "sova": "Aurora Foundry remnants still operating? The Dominion claims they purged the cult. More lies, as expected."
+  },
+  "lore_unlocks": ["night_market_history", "aurora_foundry_survivors"]
+}

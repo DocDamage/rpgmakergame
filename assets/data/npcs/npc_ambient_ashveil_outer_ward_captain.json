@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ASHVEIL_OUTER_WARD_CAPTAIN",
+  "name": "Ashveil Outer Ward Captain",
+  "title": "Watch Captain",
+  "location": "T_ASHVEIL_112x72",
+  "coords": [
+    45,
+    52
+  ],
+  "schedule": {
+    "day": [
+      45,
+      52
+    ],
+    "night": [
+      40,
+      54
+    ],
+    "rain": [
+      47,
+      55
+    ]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "ASHVEIL_SANCTUARY",
+  "attitude": "professional",
+  "background": "Maintains patrol discipline and civic defense. Stationed in Ashveil.",
+  "personality": "Direct, stern, and practical under pressure.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "security",
+    "route_warning"
+  ]
+}

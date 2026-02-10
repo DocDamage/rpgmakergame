@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_shoewoman_delivery",
+  "name": "Sole Searching",
+  "zone": "dustbelt",
+  "giver": "Shoewoman Sally (Blue)",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My sister Ruby - she runs the red stall in the Mire - she NEEDS these special sandals! Heat-resistant soles! Take them to her? Be careful - the path through Scorched Pass is rough on footwear!",
+      "objective": "Deliver heat-resistant sandals to Shoewoman Ruby in the Mire"
+    },
+    "progress": {
+      "dialog": "Ruby should be at her stall near the bog edge! Tell her the new shipment is coming next week!",
+      "objective": "Travel to the Mire and find Shoewoman Ruby"
+    },
+    "complete": {
+      "dialog": "Sally sent these? About TIME! My feet were MELTING! Thanks, traveler! Here's something for your trouble - found these glowing stones in the bog. Pretty, right?",
+      "rewards": {"gold": 250, "item": "mire_glow_stones", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "Sandals? Through the Scorched Pass? Better not melt them.",
+    "renna": "The craftsmanship on these is impressive. Heat-woven thread.",
+    "twist": "Can I get some cool shoes too?!"
+  },
+  "hidden_outcome": "If you keep the sandals in perfect condition (avoid all fire damage on the way), Ruby gives you the 'Flame-Walker's Boots' instead of stones"
+}

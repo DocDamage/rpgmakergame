@@ -1,0 +1,121 @@
+{
+  "npc_id": "foodboys_red",
+  "name": "The Foodboys",
+  "title": "Emergency Rations Team",
+  "zone": "capital",
+  "location": "Supply Depot, Central Camp",
+  "description": "A trio of identical red-clad workers who distribute rations with synchronized efficiency.",
+  "sprite_variant": "foodboys_red",
+  "greeting_variants": [
+    "Foodboys! At your service! What do you need?",
+    "*in unison* Rations! Water! Supplies!",
+    "Line forms here! No pushing! We have enough! Probably!",
+    "New face! New face needs food! Calculate rations!",
+    "*one* I'm Chip! *two* I'm Dip! *three* And I'm Skip!",
+    "Supply run delayed again! Vex needs to fix! Urgently!",
+    "Rations calculated! Nutritional minimums met! Barely!",
+    "*whispering among themselves* ...shortage... ...don't tell... ...panic..."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "We are the Foodboys! Emergency distribution specialists! We keep people fed! Hydrated! Alive! It's important work! Very important!",
+          "options": [
+            {"text": "How are supplies?", "goto": "supply_status"},
+            {"text": "Can I get rations?", "goto": "ration_request"},
+            {"text": "Need help with anything?", "goto": "help_request"},
+            {"text": "You're... enthusiastic.", "goto": "enthusiasm"}
+          ]
+        },
+        {
+          "id": "supply_status",
+          "text": "*counting on fingers* Critical! But stable! The warehouse has reserves! But Vex says don't rely! Need more! Always more! The refugees eat so much! Rude, really!",
+          "party_reactions": {
+            "kael": "They're... unusual.",
+            "mira": "Clone workers? Fascinating!",
+            "foodboys": "Not clones! Brothers! Many brothers!"
+          },
+          "options": [
+            {"text": "Where do supplies come from?", "goto": "supply_source"},
+            {"text": "I'll help get more.", "goto": "supply_quest"}
+          ]
+        },
+        {
+          "id": "ration_request",
+          "text": "For you? Hero-rations! Extra portions! Vex said! Heroes need strength! For fighting! For helping! We like helpers!",
+          "action": "give_rations",
+          "options": [
+            {"text": "Thank you!", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "help_request",
+          "text": "Help? YES! The eastern warehouse! Full of supplies! But barrelgobs! Nasty barrelgobs! They steal! They hoard! We need! The people need!",
+          "options": [
+            {"text": "I'll clear them out.", "goto": "quest_accept"},
+            {"text": "How dangerous?", "goto": "danger_assessment"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "supply_run",
+    "title": "Supply Run",
+    "description": "Help the Foodboys secure emergency rations from the eastern warehouse to feed the refugee camp.",
+    "objectives": [
+      "Navigate to the eastern warehouse",
+      "Clear out or negotiate with the barrelgob scavengers",
+      "Secure 5 crates of emergency rations",
+      "Protect the supply caravan back to camp",
+      "Deliver to the Foodboys at the depot"
+    ],
+    "rewards": {
+      "experience": 500,
+      "gold": 150,
+      "reputation": {"resistance": 30, "foodboys": 40},
+      "items": ["emergency_ration_pack", "foodboys_badge"],
+      "unlock": "foodboys_discount"
+    },
+    "prerequisites": [],
+    "follow_up_quests": ["supply_line", "warehouse_defense"]
+  },
+  "ambient_barks": [
+    "*inventorying* Beans! Three cans! Count: three!",
+    "Line stays orderly! Orderly lines mean happy Foodboys!",
+    "Chef Boarne wants spices! We have salt! Is spice!",
+    "*whispering* ...shortage... ...eastern sector... ...don't tell...",
+    "Hydration important! Drink water! Eight cups! Daily!",
+    "New shipment expected! When? Unknown! Problem!",
+    "You look hungry! Everyone looks hungry! Sad!",
+    "Rations distributed! Calories calculated! Mission complete!"
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "Tower has hydroponics! Fresh vegetables! We dream! Of lettuce!",
+    "dustbelt": "Dust Belt trades! Canned goods! Preserved meat! Good trades!",
+    "palace": "Palace stores! Massive! Full! Before! Empty! Now!"
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Well aren't you three a bundle of energy!",
+      "response": "Energy! Yes! Enthusiasm! Essential! For morale!"
+    },
+    "mira": {
+      "greeting": "Your genetic similarity is remarkable!",
+      "response": "Family! Strong family! Many brothers! Proud!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Distributing rations, inventorying supplies",
+      "night": "Emergency distribution for night shift workers"
+    },
+    "world_state_triggers": {
+      "supply_crisis": "Panic mode: 'Not enough! Not enough! Calm! Stay calm! US FIRST!'",
+      "abundant_supplies": "Joyful singing while working, extra rations for everyone"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_cinder_riddle",
+  "name": "The Burning Riddle",
+  "zone": "ember",
+  "giver": "signguy",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "They say you're clever. Well, the ancient Ember Vault has opened—sealed for centuries! But it requires answering three riddles of fire to enter. Many have tried, none have succeeded. Care to test your wits?",
+      "objective": "Reach the Ember Vault and attempt the riddles"
+    },
+    "progress": {
+      "dialog": "Two riddles solved! Last one: 'I am born from death, yet give life to the dead. I am feared by mortals, yet welcomed by heroes. What am I?' Think carefully—the wrong answer triggers flame traps!",
+      "objective": "Solve the final riddle to unlock the vault"
+    },
+    "complete": {
+      "dialog": "Rebirth! Of course! The vault opens, revealing treasures of ancient Ember! Take what you will—but remember, the greatest treasure is the wisdom you earned!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 1200,
+        "item": "vault_of_embers_key"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Riddles aren't really my thing... good thing I have smart friends!",
+    "twist": "Finally, a challenge worthy of my intellect. The answer was obvious.",
+    "nix7": "Riddle logic processing complete. Solution: 'rebirth' matches all criteria."
+  }
+}

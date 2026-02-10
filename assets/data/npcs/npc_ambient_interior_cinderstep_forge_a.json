@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_CINDERSTEP_FORGE_A",
+  "name": "Cinderstep Forge Resident",
+  "title": "Guild Smith",
+  "location": "I_SMITH_MASTER_32x24",
+  "coords": [
+    16,
+    12
+  ],
+  "schedule": {
+    "day": [
+      16,
+      12
+    ],
+    "night": [
+      14,
+      13
+    ],
+    "rain": [
+      17,
+      12
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_kellen_portrait",
+  "dialog_tree": "DT_AMBIENT_SMITH",
+  "shop": null,
+  "quests": [],
+  "faction": "CINDERSTEP",
+  "attitude": "friendly",
+  "background": "Maintains frontier equipment and salvage tools. Based inside I_SMITH_MASTER_32x24.",
+  "personality": "Gruff, efficient, and quietly kind.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "equipment_tips",
+    "repair_advice"
+  ]
+}

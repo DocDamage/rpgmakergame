@@ -1,0 +1,99 @@
+{
+  "npc_id": "sumo_black_obsidian",
+  "name": "Guardian Onyx",
+  "sprite": "sumo_black",
+  "zone": "obsidian",
+  "location": "Corporate Executive Level",
+  "personality": "stoic_imposing_corporate",
+  "occupation": "security_chief",
+  "dialog": {
+    "greeting": [
+      "Halt. Executive level. Authorized personnel only.",
+      "Guardian Onyx. Security Chief. State your business.",
+      "This far down, the rules are... different. As am I.",
+      "The depths have eyes. I am one of them.",
+      "You carry the weight of purpose. But is it sufficient?",
+      "Security checkpoint. Identification. Patience. Both required.",
+      "Onyx. I guard what corporate values most. Profit. Secrets. Power.",
+      "The lower levels are restricted. For good reason."
+    ],
+    "challenge": [
+      "You may not pass. Yet. Convince me.",
+      "The threshold demands respect. Show it."
+    ],
+    "warning": "Beyond lies the corporate heart. Cold. Calculating. Are you prepared?",
+    "recognition_high_rep": "I know your reputation. The board knows it too. Proceed. Carefully.",
+    "advice": "In the depths, silence is armor. Speak only when necessary.",
+    "let_pass": "You may enter. Remember: the corporation never forgets. Neither do I.",
+    "combat_bark": "You mistake bulk for slowness. Fatal error.",
+    "rumor": [
+      "The executive meetings? They discuss 'efficiency.' A cold word. Cold as the depths.",
+      "Tunnel 7 is sealed by order of the board. Not safety. Something else.",
+      "The spy in the trenchcoat? He answers to higher powers. Higher than this board.",
+      "Coolcat fights for the workers. Admirable. Futile. But admirable.",
+      "Chrono's time-keepers watch us. We move through time. They... manipulate it."
+    ],
+    "quest_hook": "A test. The board watches. Prove you can navigate corporate AND worker interests. Find the missing shipment. Show... balance.",
+    "quest_active": "The shipment? Still missing. Corporate blames workers. Workers blame corporate. Someone profits.",
+    "quest_complete": "Shipment found. Sabotage, not theft. Internal politics. You navigated well. Here. Corporate security clearance. Limited. Useful.",
+    "farewell": [
+      "Go safely. The depths are indifferent.",
+      "Return if you must. I'll be here.",
+      "Remember what you've seen. Remember what you haven't."
+    ],
+    "ambient_barks": [
+      "Identification.",
+      "Clearance required.",
+      "Step back from the line.",
+      "This area is restricted.",
+      "Corporate property.",
+      "Security sweep in progress."
+    ],
+    "time_dawn": "Morning shift. New faces. Same suspicions.",
+    "time_noon": "Midday. Executive lunches. Delicate negotiations.",
+    "time_dusk": "Evening. Shift change. Maximum vulnerability.",
+    "time_night": "Night. The deep hours. When secrets surface.",
+    "rival_mention": "The white sumo in Frost? Guardian of gates. Different masters. Same burden.",
+    "post_quest_greeting": "The balanced one returns. Corporate acknowledges you. Workers trust you. Rare."
+  },
+  "party_reactions": {
+    "kade": "He doesn't blink. Like, at all. Intimidating.",
+    "nix7": "Security protocols: Impeccable. Threat assessment: Ongoing. Conclusion: Do not antagonize.",
+    "twist": "WHOA! You're HUGE! Can we WRESTLE?! ...No? Okay...",
+    "korr": "A guardian who serves corporations. Duty without honor. Tragic.",
+    "renna": "He's magically bound. Geas, perhaps. Explains the loyalty.",
+    "suresh": "Heavy is the burden of protection when the protected are unworthy.",
+    "sova": "I'd need a bigger bow. Or a cannon. Respect.",
+    "grit": "Corporate muscle. Seen it before. Usually bought and paid for.",
+    "ashka": "He moves like stone. Stable. Immovable. Fire cannot melt him.",
+    "senna": "He knows secrets. But the geas prevents sharing. Frustrating.",
+    "callum": "Corporate security. Legitimate authority. But... ominous."
+  },
+  "relationship_dialog": {
+    "stranger": "Unknown entity. Provide credentials or depart.",
+    "acquaintance": "Recognized. The board is aware of your movements.",
+    "friend": "Trusted presence. I will... overlook minor infractions.",
+    "best_friend": "You have proven worthy of the depths. Here. My personal seal. Access granted."
+  },
+  "mini_quest": {
+    "id": "missing_shipment",
+    "title": "The Corporate Test",
+    "description": "Find a missing shipment to prove ability to navigate both corporate and worker interests",
+    "stages": {
+      "hook": "A test. Shipment missing. Corporate blames workers. Workers blame corporate. Find truth. Prove... diplomacy.",
+      "active": "Check the loading docks. Then the union hall. Truth lies between. As always.",
+      "complete": "Sabotage. Internal. Board politics. You found truth without taking sides. Impressive. My seal grants access."
+    },
+    "reward": {
+      "item": "onyx_security_clearance",
+      "gold": 400,
+      "reputation": "corporate_access"
+    }
+  },
+  "cross_npc_connections": [
+    "trenchcoat_gray: Answers to the same board. Different methods. Same loyalty.",
+    "coolcat_industrial: Adversary. In negotiations. Respect outside them.",
+    "sumo_white_frost: My counterpart. We correspond. Exchange... professional insights.",
+    "guardian_prism_sumo: The original. Our order's founder. I am... a deviation."
+  ]
+}

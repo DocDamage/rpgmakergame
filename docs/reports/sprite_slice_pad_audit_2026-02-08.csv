@@ -1,0 +1,125 @@
+source,category,width,height,off_grid,strategy,slices_written,padded_slices,manual_review,notes,output_dir
+assets/sprites/bosses/_imports/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_type_0_monsters.png,bosses,945,128,yes,components_alpha,9,8,no,component_count=9,assets/sprites/bosses/_slices/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_type_0_monsters
+assets/sprites/bosses/_imports/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_v_monsters.png,bosses,971,2752,yes,components_alpha,248,219,no,component_count=248,assets/sprites/bosses/_slices/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_v_monsters
+assets/sprites/bosses/_imports/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_viii_monsters.png,bosses,971,640,yes,components_alpha,34,34,no,component_count=34,assets/sprites/bosses/_slices/spr_boss_import_3ds_pictologica_final_fantasy_enemies_bosses_final_fantasy_viii_monsters
+assets/sprites/bosses/_imports/spr_boss_import_ab_theatre_scenes_1006106_img_manomori_boss.png,bosses,512,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_1.png,bosses,288,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_2.png,bosses,576,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_3.png,bosses,864,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_a.png,bosses,144,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_a_2x.png,bosses,288,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_a_3x.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_a_3x_2.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_b.png,bosses,144,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_b_2x.png,bosses,288,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_b_3x.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_b_3x_2.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_c.png,bosses,144,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_c_2x.png,bosses,288,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_c_3x.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tentable_c_3x_2.png,bosses,432,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tiles.png,bosses,208,64,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tiles_2x.png,bosses,416,128,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tiles_3x.png,bosses,624,192,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_bossplant_tiles_3x_2.png,bosses,624,192,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_demking_battler_1.png,bosses,207,200,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demking_battler_1
+assets/sprites/bosses/_imports/spr_boss_import_demking_battler_2.png,bosses,414,400,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demking_battler_2
+assets/sprites/bosses/_imports/spr_boss_import_demking_battler_3.png,bosses,621,600,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demking_battler_3
+assets/sprites/bosses/_imports/spr_boss_import_demking_battler_3_2.png,bosses,621,600,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demking_battler_3_2
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1.png,bosses,72,72,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demoness_boss_1
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1_2x.png,bosses,144,144,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1_3x.png,bosses,216,216,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demoness_boss_1_3x
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1_e.png,bosses,72,72,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demoness_boss_1_e
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1_e_2x.png,bosses,144,144,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_demoness_boss_1_e_3x.png,bosses,216,216,yes,components_alpha,1,1,no,component_count=1,assets/sprites/bosses/_slices/spr_boss_import_demoness_boss_1_e_3x
+assets/sprites/bosses/_imports/spr_boss_import_dracula_final_fantasy_6_style.png,bosses,576,400,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_frog_champ_battler.png,bosses,864,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_frog_champ_battler_2.png,bosses,1296,864,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_frog_champ_battler_noshadow.png,bosses,432,288,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_frog_champ_battler_noshadow_2.png,bosses,864,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_frog_champ_battler_noshadow_3.png,bosses,1296,864,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/bosses/_imports/spr_boss_import_mobile_pictlogica_final_fantasy_enemies_bosses_mobius_final_fantasy_monsters.png,bosses,1322,200,yes,components_alpha,16,16,no,component_count=16,assets/sprites/bosses/_slices/spr_boss_import_mobile_pictlogica_final_fantasy_enemies_bosses_mobius_final_fantasy_monsters
+assets/sprites/characters/_imports/spr_character_import_2k8chars_1.png,characters,312,288,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_2k8chars_1
+assets/sprites/characters/_imports/spr_character_import_2k8chars_2.png,characters,624,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_2k8chars_3.png,characters,936,864,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_2k8chars_3
+assets/sprites/characters/_imports/spr_character_import_animchar_smoke.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_smoke_2.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_smoke_3.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steam.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steam_2.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steam_3.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk1.png,characters,192,128,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk1_2.png,characters,576,384,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk1_3.png,characters,384,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk2.png,characters,384,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk2_2.png,characters,1152,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk2_3.png,characters,768,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk3.png,characters,576,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk3_2.png,characters,1728,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_animchar_steampunk3_3.png,characters,1152,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_cloudcity_chars_1.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_cloudcity_chars_2.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_cloudcity_chars_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_fish_8char_100.png,characters,192,128,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_fish_8char_200.png,characters,384,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_fish_8char_300.png,characters,576,384,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_mer_8_chars3.png,characters,936,1104,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_mer_8_chars3
+assets/sprites/characters/_imports/spr_character_import_minecart_char_1.png,characters,78,144,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_minecart_char_1
+assets/sprites/characters/_imports/spr_character_import_minecart_char_2.png,characters,156,288,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_minecart_char_2
+assets/sprites/characters/_imports/spr_character_import_minecart_char_3.png,characters,234,432,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_minecart_char_3
+assets/sprites/characters/_imports/spr_character_import_rockcrystals_floating_char_e_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_rockcrystals_floating_char_tf_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_runechars_mv.png,characters,936,864,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_runechars_mv
+assets/sprites/characters/_imports/spr_character_import_runechars_reg.png,characters,312,288,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/characters/_slices/spr_character_import_runechars_reg
+assets/sprites/characters/_imports/spr_character_import_runechars_vx.png,characters,624,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_tf_newworld_chartiles_3x.png,characters,576,384,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara_2.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara_4.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara_5.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towerchara_6.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb_2.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb_4.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb_5.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharb_6.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc_2.png,characters,192,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc_3.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc_4.png,characters,576,768,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc_5.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/characters/_imports/spr_character_import_towercharc_6.png,characters,384,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/enemies/_imports/spr_enemy_import_ab_theatre_scenes_1002003_img_shin_enemy.png,enemies,512,512,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/fx/_imports/fx_import_ladder_unroll_spritesheet.png,fx,192,64,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_bigsheet_1.png,npcs,600,368,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_blacksmith_bigsheet_1
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_bigsheet_mv.png,npcs,1800,1104,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_blacksmith_bigsheet_mv
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_bigsheet_vx.png,npcs,1200,736,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_singlesheet_1.png,npcs,78,144,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_blacksmith_singlesheet_1
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_singlesheet_mv.png,npcs,234,432,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_blacksmith_singlesheet_mv
+assets/sprites/npcs/_imports/spr_npc_import_blacksmith_singlesheet_vx.png,npcs,156,288,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_blacksmith_singlesheet_vx
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_a_1.png,npcs,312,288,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_down_npc_a_1
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_a_2.png,npcs,624,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_a_3.png,npcs,936,864,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_down_npc_a_3
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_b_1.png,npcs,312,288,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_down_npc_b_1
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_b_2.png,npcs,624,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_down_npc_b_3.png,npcs,936,864,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_down_npc_b_3
+assets/sprites/npcs/_imports/spr_npc_import_ffiii_npcs.png,npcs,513,279,yes,"components_bg_key(140,106,127)+dilate2",24,24,no,component_count=24,assets/sprites/npcs/_slices/spr_npc_import_ffiii_npcs
+assets/sprites/npcs/_imports/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_iv_npcs.png,npcs,455,266,yes,"components_bg_key(140,106,127)+dilate2",19,19,no,component_count=19,assets/sprites/npcs/_slices/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_iv_npcs
+assets/sprites/npcs/_imports/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_vii_npcs.png,npcs,689,491,yes,"components_bg_key(140,106,127)+dilate2",47,47,no,component_count=47,assets/sprites/npcs/_slices/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_vii_npcs
+assets/sprites/npcs/_imports/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_x_npcs.png,npcs,1157,812,yes,"components_bg_key(140,106,127)+dilate2",68,68,no,component_count=68,assets/sprites/npcs/_slices/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_x_npcs
+assets/sprites/npcs/_imports/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_xiii_npcs.png,npcs,504,418,yes,"components_bg_key(140,106,127)+dilate2",26,26,no,component_count=26,assets/sprites/npcs/_slices/spr_npc_import_mobile_final_fantasy_record_keeper_non_playable_characters_final_fantasy_xiii_npcs
+assets/sprites/npcs/_imports/spr_npc_import_mobile_octopath_traveler_champions_of_the_continent_non_playable_characters_final_fantasy_iv_collaboration_npcs.png,npcs,920,714,yes,components_alpha,273,272,no,component_count=273,assets/sprites/npcs/_slices/spr_npc_import_mobile_octopath_traveler_champions_of_the_continent_non_playable_characters_final_fantasy_iv_collaboration_npcs
+assets/sprites/npcs/_imports/spr_npc_import_npc_crowd_3.png,npcs,288,384,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_npcactions_1.png,npcs,81,144,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactions_1
+assets/sprites/npcs/_imports/spr_npc_import_npcactions_2.png,npcs,162,288,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactions_2
+assets/sprites/npcs/_imports/spr_npc_import_npcactions_3.png,npcs,243,432,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactions_3
+assets/sprites/npcs/_imports/spr_npc_import_npcactionsb_1.png,npcs,81,144,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactionsb_1
+assets/sprites/npcs/_imports/spr_npc_import_npcactionsb_2.png,npcs,162,288,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactionsb_2
+assets/sprites/npcs/_imports/spr_npc_import_npcactionsb_3.png,npcs,243,432,yes,grid_3x4,12,12,no,3x4 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_npcactionsb_3
+assets/sprites/npcs/_imports/spr_npc_import_oldnpcs_1.png,npcs,312,288,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_oldnpcs_1
+assets/sprites/npcs/_imports/spr_npc_import_oldnpcs_2.png,npcs,624,576,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_oldnpcs_3.png,npcs,936,864,yes,grid_12x8,96,96,no,12x8 grid from filename hint,assets/sprites/npcs/_slices/spr_npc_import_oldnpcs_3
+assets/sprites/npcs/_imports/spr_npc_import_vv_noshadow_spritesheet.png,npcs,224,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,
+assets/sprites/npcs/_imports/spr_npc_import_vv_spritesheet.png,npcs,224,256,no,skipped_on_grid,0,0,no,already aligned to pad grid,

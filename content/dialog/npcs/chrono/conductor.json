@@ -1,0 +1,96 @@
+{
+  "npc_id": "conductor_chrono",
+  "name": "Time-Keeper Tempus",
+  "sprite": "conductor",
+  "zone": "chrono",
+  "location": "Time-Train Station, Platform Eternal",
+  "personality": "precise_nostalgic_dutiful",
+  "occupation": "time_train_engineer",
+  "dialog": {
+    "greeting": [
+      "All aboard! Or rather... all a-were? Time grammar is complicated.",
+      "Tempus. Conductor of the Time-Train. Next stop: Yesterday. Or Tomorrow. Depending on track.",
+      "You're not on the manifest. But then, neither was half my cargo. Temporal smuggling. Common problem.",
+      "New face. Or old face? Time makes determining age... relative.",
+      "The Time-Train runs on schedule. Always has. Always will. Even when it doesn't.",
+      "Platform Eternal. Where every arrival is a departure. And vice versa.",
+      "Tempus. I've conducted this train for... how long? Time is fuzzy.",
+      "Ticket, please! Oh. You're not riding. Just... visiting. How novel."
+    ],
+    "train_info": "The Time-Train connects all whens. Departures from Now. Arrivals... variable. Delays? Paradoxical.",
+    "schedule": "Yesterday's train left tomorrow. Today's train is yesterday's tomorrow. Clear?",
+    "ticket_sales": "Tickets valid for one temporal displacement. Round-trip optional. Causality insurance extra.",
+    "break_chat": "Break? I take them in different eras. A week in the Cretaceous. Five minutes in the platform.",
+    "labor_concerns": "The union wants standard hours. In TIME work? Impossible. We negotiated 'relative rest periods.'",
+    "retirement": "Retirement? I tried. Yesterday. Tomorrow. I'm still here.",
+    "rumor": [
+      "The brown trenchcoat? Time agent. Hunting someone. Or somewhen.",
+      "The black trenchcoat? Paradox hunter. Dangerous. To himself. To causality.",
+      "The twins? Temporal oracles. They see train wrecks before they happen. Literally.",
+      "Ironchef's 'Yesterday's Lunch?' Ingredients from ACTUAL yesterday. I transported them.",
+      "Frost sends weather reports. From next week. Useful. Confusing."
+    ],
+    "quest_hook": "Schedule disruption! Train from next Tuesday arrived yesterday! Early! Fix the temporal junction?",
+    "quest_active": "Still chaotic. Junction needs recalibration. Timeline getting... tangled.",
+    "quest_complete": "Junction stabilized! Train on time! Well, on its OWN time. Here - timetable. For ALL eras. Useful. Mind-bending.",
+    "farewell": [
+      "Mind the gap! Temporal and metaphorical!",
+      "Departure in... some time! Arrival... other time!",
+      "Time flies! Also, it crawls! Depends on perspective!"
+    ],
+    "ambient_barks": [
+      "All aboard!",
+      "Next stop: THEN!",
+      "Mind the paradox!",
+      "Tickets please!",
+      "Time waits! For no one!",
+      "Platform clear! Mostly!"
+    ],
+    "time_dawn": "Morning! In THIS timezone. Others vary.",
+    "time_noon": "Midday! Peak temporal traffic! Exciting!",
+    "time_dusk": "Evening! The past catches up! Usually figuratively!",
+    "time_night": "Night! Quietest time! But never TRULY quiet!",
+    "rival_mention": "No rivals! Time-Train is monopoly! Temporal monopoly!",
+    "post_quest_greeting": "The schedule saver! Junction stable! Trains running! On THEIR time!"
+  },
+  "party_reactions": {
+    "kade": "Time-trains. Of course there are time-trains. Why not?",
+    "nix7": "Temporal mechanics: Fascinating. Safety protocols: Concerning. Schedule: Impossible.",
+    "twist": "You drive a TRAIN through TIME?! CAN I RIDE?! PLEASE?!",
+    "korr": "He serves time itself. Noble. Confusing. Probably necessary.",
+    "renna": "The train is magically temporal. Enchanted track. Ancient. Powerful.",
+    "suresh": "He teaches impermanence through mechanics. The Middle Path... on rails.",
+    "sova": "I'd take this train. To when it all went wrong. Fix it.",
+    "grit": "Logistics. Even through time. Someone's gotta manage it.",
+    "ashka": "Time is fire. Burning always. He drives through it.",
+    "senna": "He knows when everyone is. Was. Will be. Useful.",
+    "callum": "His schedule documentation! EXHAUSTIVE! Impressive!"
+  },
+  "relationship_dialog": {
+    "stranger": "Ticket? No? Platform visitation allowed. Briefly.",
+    "acquaintance": "Returning visitor! You're... persistent. In multiple timelines!",
+    "friend": "Regular! In several eras! Here - discount ticket! One temporal hop!",
+    "best_friend": "You've ridden with me! Across time! Here - engineer's cap! You're crew!"
+  },
+  "mini_quest": {
+    "id": "temporal_junction",
+    "title": "The Early Arrival",
+    "description": "Help Tempus fix a temporal junction that's causing trains to arrive at the wrong time",
+    "stages": {
+      "hook": "Train from Tuesday! Arrived yesterday! Too early! Temporal junction malfunctioning! Fix it?!",
+      "active": "The junction crystal! Center platform! Resonating wrong! Recalibrate! Carefully!",
+      "complete": "Junction stable! Tuesday's train... returned to Tuesday! Here! Universal timetable! All eras! Mind the paradoxes!"
+    },
+    "reward": {
+      "item": "universal_timetable",
+      "gold": 400,
+      "reputation": "time_train_crew"
+    }
+  },
+  "cross_npc_connections": [
+    "trenchcoat_brown_chrono: Time agent. Regular passenger. Hunting... someone.",
+    "trenchcoat_black_chrono: Paradox hunter. Dangerous cargo. I watch him. Closely.",
+    "twins_chrono: Temporal oracles. Predict delays. Sometimes prevent them.",
+    "ironchef_chrono: Cargo client. 'Yesterday's Lunch' ingredients. My transport."
+  ]
+}

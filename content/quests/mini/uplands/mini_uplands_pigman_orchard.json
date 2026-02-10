@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_pigman_orchard",
+  "name": "Pigman's Prize Pears",
+  "zone": "uplands",
+  "giver": "Pigman Brown",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! My pears! Best in Uplands! Need delivered to Iron Chef in the Mire! But careful - Dominion checkpoint on the route! Hide them well! Oink!",
+      "objective": "Deliver a crate of pears to Iron Chef in the Mire without Dominion inspection"
+    },
+    "progress": {
+      "dialog": "Pears still good? Not bruised? Dominion soldiers steal food! Be careful! Oink!",
+      "objective": "Navigate around Dominion checkpoints with the pear crate"
+    },
+    "complete": {
+      "dialog": "These pears! PERFECT! Pigman Brown delivers again! Here - smoked ham hock. Best in the Mire! Don't tell him I gave you this!",
+      "rewards": {"gold": 280, "item": "mire_smoked_ham_hock", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "Smuggling fruit. Didn't expect this in my hero journey.",
+    "korr": "Avoiding checkpoints. Now THAT I can do.",
+    "twist": "Pears! I love pears! Can we eat just one?"
+  },
+  "hidden_outcome": "If you bluff your way through the checkpoint using forged papers (found nearby), Pigman gives you access to his 'secret orchard' with rare golden pears"
+}

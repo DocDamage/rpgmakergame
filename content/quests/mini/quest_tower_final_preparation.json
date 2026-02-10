@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_final_preparation",
+  "name": "Before the Top",
+  "zone": "tower",
+  "giver": "coolcat",
+  "type": "combat",
+  "prerequisites": ["tower_floor_90_reached"],
+  "stages": {
+    "start": {
+      "dialog": "Floor 99. One floor left. But the Tower doesn't let anyone reach the top unprepared. There's a final trial—a guardian that tests whether you're truly ready for what awaits above. I've seen strong climbers fail here, their journeys ending one step from glory. Are you ready to be tested?",
+      "objective": "Face and defeat the Floor 99 guardian"
+    },
+    "progress": {
+      "dialog": "Guardian engaged, and it's adapting to your tactics. The Progenitors built this thing to learn, to force climbers to exceed their limits. Everything you've learned in the Tower applies here. Every skill, every lesson, every near-fall that taught you to grip tighter. This is the final exam.",
+      "objective": "Defeat the adaptive guardian using all your accumulated skills"
+    },
+    "complete": {
+      "dialog": "Guardian defeated, passage opened, the top awaits. You've proven yourself worthy, Kade. Worthy of Floor 100, worthy of the Final Palace, worthy of whatever destiny awaits beyond. Rest now. Prepare. The true test begins when you step onto that final floor. The Tower recognizes you. Ascend.",
+      "rewards": {
+        "exp": 30000,
+        "gold": 8000,
+        "item": "final_preparation_blessing"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Floor 99. One more to go. Everything we've done, everyone we've met, every battle—it all led here.",
+    "nix7": "Adaptive combat analysis complete. We have demonstrated growth trajectory consistent with Progenitor 'worthy' classification.",
+    "vex": "The final threshold. Whatever awaits above, we face it with honor, with courage, and with each other."
+  },
+  "lore_unlocks": ["floor_99_guardian", "final_tower_ascent"]
+}

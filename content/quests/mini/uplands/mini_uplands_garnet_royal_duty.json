@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_garnet_royal_duty",
+  "name": "Runaway Princess",
+  "zone": "uplands",
+  "giver": "Garnet (Princess in Hiding)",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I'm... not supposed to be here. I ran from my kingdom. But I need to send a message home. To my mother. The couriers won't help a 'commoner.' Will you deliver it for me?",
+      "objective": "Deliver Garnet's sealed letter to the royal courier in the capital"
+    },
+    "progress": {
+      "dialog": "The letter... it's to my mother. Explaining why I left. Please, don't read it. It's... private.",
+      "objective": "Travel to the capital and find the royal courier"
+    },
+    "complete": {
+      "dialog": "You delivered it? Thank you. I was so worried. Here - my royal pendant. It's all I have left from home. It will protect you in dangerous places.",
+      "rewards": {"gold": 450, "item": "royal_protection_pendant", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Running from royalty to find yourself. I get that.",
+    "korr": "Royalty fleeing their duties. Common enough in troubled times.",
+    "twist": "A princess! I knew she looked fancy!"
+  },
+  "hidden_outcome": "If you return with a response from her mother (forgiving her), Garnet gives you the 'Summoner's Horn' - an item that boosts all summon damage"
+}

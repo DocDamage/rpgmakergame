@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_blacksmith_apprentice",
+  "name": "Hammer and Heart",
+  "zone": "ember",
+  "giver": "barrelgob_black",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I wanna be a blacksmith like my papa, but I lost his lucky tongs in the Scraplands! He says I can't apprentice until I find them. But there's rust monsters out there! Will you help me look? Please?",
+      "objective": "Search the Scraplands for the lost blacksmith tongs"
+    },
+    "progress": {
+      "dialog": "You found them! But oh no—a rust monster ate them! Well, most of them. We need to get the metal bits back. Careful, rust monsters dissolve steel! Use fire if you have it!",
+      "objective": "Defeat the rust monster and recover the tong pieces"
+    },
+    "complete": {
+      "dialog": "Papa! I found them! Well, these nice people helped... Papa says I can start my apprenticeship! And he forged this for you—a Embersteel Dagger. It never loses its edge! Thank you, thank you!",
+      "rewards": {
+        "exp": 600,
+        "gold": 250,
+        "item": "embersteel_dagger"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Happy to help the little guy follow his dreams!",
+    "twist": "Ugh, rust monster slime is disgusting.",
+    "nix7": "Apprenticeship systems: efficient method of skill transmission."
+  }
+}

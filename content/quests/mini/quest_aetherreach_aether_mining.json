@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_aether_mining",
+  "name": "Harvesting the Sky",
+  "zone": "aetherreach",
+  "giver": "tunneler",
+  "type": "exploration",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Aetherreach runs on aether-crystal energy—mined from specific cloud formations where Foundation energies crystallize. The main mine hit a dry vein, and reserves are low. I've surveyed new formations, but they need testing. Collect samples, assess quality, secure our energy future.",
+      "objective": "Collect aether-crystal samples from three cloud formations"
+    },
+    "progress": {
+      "dialog": "Samples collected, two high-quality, one unstable. The unstable vein reacts to proximity—dangerous but potentially more powerful. We need to decide: play it safe with the reliable veins, or risk mining the unstable formation for greater yield? Your call, Kade.",
+      "objective": "Choose the mining approach and complete the operation"
+    },
+    "complete": {
+      "dialog": "Operation complete, crystals harvested, energy crisis averted. Your choice shaped our approach—wisely, as it turned out. Aetherreach will remember this when the lights stay on and the heaters work. The sky provides for those brave enough to harvest it. You've earned your place among the cloud-miners.",
+      "rewards": {
+        "exp": 24500,
+        "gold": 5800,
+        "item": "aether_crystal_sample"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Mining clouds for magic crystals. Just another day in this incredible world.",
+    "renna": "The unstable aether formation exhibited fascinating energy patterns. I'd like to study it further, if possible.",
+    "nix7": "Aether-crystal energy density analysis: sufficient to power Aetherreach for 18 months. Efficient resource management."
+  },
+  "lore_unlocks": ["aether_mining", "cloud_formations"]
+}

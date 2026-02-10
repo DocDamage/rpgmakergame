@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_sabotage_mystery",
+  "name": "Gears of Deception",
+  "zone": "obsidian",
+  "giver": "barrelman_metal",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Someone's been sabotaging the conveyor belts! Production is down 40%, and the union blames management, management blames the union! But I think it's someone else entirely. Can you investigate the sabotage without taking sides?",
+      "objective": "Examine the sabotaged conveyor belts for evidence"
+    },
+    "progress": {
+      "dialog": "Foreign tool marks! And Void residue! This is the work of anti-industrial radicals who want to collapse Obsidian's economy! Track them to their hideout in the abandoned Sector 7!",
+      "objective": "Infiltrate the saboteurs' hideout in Sector 7"
+    },
+    "complete": {
+      "dialog": "The saboteurs exposed! They were funded by a rival zone! The Foreman is grateful—production resumes, and trust is restored! Take this Factory Master Key—it opens any industrial door in Obsidian!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 800,
+        "item": "factory_master_key"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A real industrial spy mystery! I felt like a detective!",
+    "twist": "Void-touched radicals. This goes deeper than simple sabotage.",
+    "nix7": "Sabotage investigation: complete. Perpetrators: apprehended."
+  }
+}

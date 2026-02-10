@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_sanctum_blessing",
+  "name": "Blessing of the Ancients",
+  "zone": "palace",
+  "giver": "conductor",
+  "type": "social",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "Before the final ascent, tradition demands a blessing from the Palace Sanctum—a ceremony where climbers receive the wisdom and strength of those who came before. The Sanctum's guardians will test your worthiness, not through combat, but through understanding. Show them you comprehend what you're about to face.",
+      "objective": "Enter the Palace Sanctum and receive the guardian's test"
+    },
+    "progress": {
+      "dialog": "Test administered, and the questions cut deep. What are you willing to sacrifice? What defines your heroism? Why do you climb? Your answers are judged not by right or wrong, but by truth. The Sanctum knows falsehood. Speak from your heart, or fail.",
+      "objective": "Answer the Sanctum's questions with truth and conviction"
+    },
+    "complete": {
+      "dialog": "Blessing granted, truth recognized, you are worthy. The Sanctum's light flows through you—not power, but purpose. Not strength, but serenity. You carry now the accumulated hope of every climber who ever reached this point. They couldn't complete the journey, but through you, their climb continues. Honor them. Ascend.",
+      "rewards": {
+        "exp": 42000,
+        "gold": 10000,
+        "item": "sanctum_blessing"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "They asked why I climb. Simple: because I can, because I must, because someone needs to. Apparently that was enough.",
+    "twist": "Sacrifice, heroism, purpose... questions I've avoided. Had to face them today. Uncomfortable but necessary.",
+    "vex": "The Sanctum recognizes true oath-bound spirit. I am honored to stand with those who share sacred purpose."
+  },
+  "lore_unlocks": ["palace_sanctum", "climber_blessings"]
+}

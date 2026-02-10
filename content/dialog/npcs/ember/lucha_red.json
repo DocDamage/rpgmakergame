@@ -1,0 +1,70 @@
+{
+  "npc_id": "lucha_red_ember",
+  "name": "El Scorcho - The Blazing Champion",
+  "sprite": "lucha_red",
+  "zone": "ember",
+  "location": "Cinder Arena",
+  "personality": "confident_showman",
+  "occupation": "arena_champion",
+  "schedule": "trains_morning_fights_evening",
+  "dialog": {
+    "greeting": [
+      "BEHOLD! EL SCORCHO! Champion of the Cinder Arena!",
+      "You stand before THE MASKED INFERNO! Tremble! Or... just say hi. Either works.",
+      "Another challenger? Or a FAN? I accept both!",
+      "The champion never rests! Except Tuesdays. Tuesdays are for laundry.",
+      "Hear that crowd? They're chanting MY NAME! ...Well, they're chanting 'LUCHA!' Close enough!",
+      "Welcome to MY arena! Where the ring is hot and the action is HOTTER!",
+      "You look strong! Ever thought about wrestling? We have a beginner's class!",
+      "EL! SCOR! CHO! The rhythm of CHAMPIONS!"
+    ],
+    "championship_status": "Undefeated in 47 matches! Well, 46. There was that tie with the barrel. Long story.",
+    "training_regimen": "Five hundred pushups! In magma! Okay, NEAR magma. I'm tough, not crazy.",
+    "frost_challenge": "I hear Frost has a wrestler called 'The Blizzard Bruiser.' I WILL FIGHT HIM! Cold vs Hot! The ULTIMATE MATCH!",
+    "mask_significance": "This mask was forged in sacred fire! Passed down through three champions! ...Okay, I bought it at a gift shop. But it's LUCKY!",
+    "rumor": [
+      "The barrelgobs keep trying to steal my championship belt. They're... very short. It's weird.",
+      "Some say there's a sumo in Prism who could beat me. LIES!",
+      "The Ironchef challenged me to a cook-off once. I won by default. He made lava soup."
+    ],
+    "championship_belt_quest": "You want to help the green challenger? HA! Adorable! But I like your spirit. Tell you what - help him train, and I'll give him a REAL fight. Not that I'd lose! EL SCORCHO NEVER LOSES! ...Much.",
+    "post_championship_belt": "So the green one actually put up a fight! Impressive! You've got an eye for talent, friend!",
+    "farewell": [
+      "Stay strong! Stay fiery! Stay CHAMPION-MATERIAL!",
+      "EL SCORCHO... AWAAAAAY! ...To the locker room. Close enough!",
+      "Keep your elbows up and your head down! Wrestling wisdom!",
+      "Come watch my next match! Front row seats! For a small donation!"
+    ],
+    "ambient_barks": [
+      "I AM THE CHAMPION! ...Of my own heart!",
+      "Who wants an autograph?!",
+      "Flexing is an art form! Watch and learn!",
+      "The crowd loves me! Can you hear them? CAN YOU?!",
+      "Next match: ME vs DESTINY! Spoiler: I WIN!",
+      "Is my mask straight? Check my mask!"
+    ],
+    "time_dawn": "Early training! Before the magma gets too melty!",
+    "time_noon": "Peak performance time! The heat fuels me!",
+    "time_dusk": "Evening match time! The arena awaits!",
+    "time_night": "Post-match cool down! Ice baths! So cold! So necessary!"
+  },
+  "party_reactions": {
+    "kade": "Okay, I HAVE to see this guy wrestle.",
+    "nix7": "Athletic performance within normal parameters. Showmanship: excessive.",
+    "twist": "OH MAN OH MAN OH MAN! Can I wrestle too?! PLEASE?!",
+    "korr": "The confidence is... impressive. The technique, less so.",
+    "renna": "Does the mask have magical properties? Or just psychological?",
+    "suresh": "Pride cometh before a fall. But he IS entertaining.",
+    "sova": "I could take him. Probably. He's... very enthusiastic.",
+    "grit": "Showboat. But good heart. Seen worse soldiers.",
+    "ashka": "Fire in the spirit! I approve!",
+    "senna": "Loud. But at least he's honest about it.",
+    "callum": "Is... is he going to be okay? Wrestling in this heat?"
+  },
+  "relationship_dialog": {
+    "stranger": "Welcome, newcomer! Enjoy the show!",
+    "acquaintance": "I recognize you! You're becoming a regular!",
+    "friend": "My friend! Come to watch me WIN again?",
+    "best_friend": "You! My lucky charm! Every match you watch, I win! Coincidence? I THINK NOT!"
+  }
+}

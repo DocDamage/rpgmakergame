@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_forgotten_prototype",
+  "name": "The Clockwork Heart",
+  "zone": "obsidian",
+  "giver": "pigman_industrial",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! They say the Master's first prototype still exists—a mechanical heart that beats forever! It was lost in the abandoned Deep Works when the old factory collapsed. Find it, and I'll pay handsomely! It's worth a fortune to collectors!",
+      "objective": "Explore the abandoned Deep Works to find the Clockwork Heart"
+    },
+    "progress": {
+      "dialog": "You found the prototype chamber! But the Heart is guarded by the Master's failed experiments—clockwork horrors that never shut down! Defeat them and claim the Heart!",
+      "objective": "Defeat the clockwork guardians and retrieve the Clockwork Heart"
+    },
+    "complete": {
+      "dialog": "The Clockwork Heart! It's beautiful! Listen to that perfect ticking! Here is your reward—and this Mechanist's Monocle! It lets you see the weak points in any mechanical construct!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 850,
+        "item": "mechanists_monocle"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Clockwork zombies. That's a new nightmare for me.",
+    "twist": "The craftsmanship on that Heart was exquisite. A true marvel.",
+    "nix7": "Clockwork engineering: exceptional. Guardian units: neutralized."
+  }
+}

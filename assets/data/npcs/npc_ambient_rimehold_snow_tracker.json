@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_RIMEHOLD_SNOW_TRACKER",
+  "name": "Rimehold Snow Tracker",
+  "title": "Route Tracker",
+  "location": "T_RIMEHOLD_112x72",
+  "coords": [
+    72,
+    24
+  ],
+  "schedule": {
+    "day": [
+      72,
+      24
+    ],
+    "night": [
+      75,
+      22
+    ],
+    "rain": [
+      74,
+      24
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "RIMEHOLD_ARCHIVES",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Stationed in Rimehold.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

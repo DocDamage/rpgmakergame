@@ -1,0 +1,83 @@
+{
+  "npc_id": "coolcat_white_prism",
+  "name": "Opal 'The Prism' Lumina",
+  "sprite": "coolcat_white",
+  "zone": "prism",
+  "location": "Light Refraction Atelier",
+  "personality": "artistic_mystical_intense",
+  "occupation": "light_refractor",
+  "schedule": {
+    "morning": "capturing_dawn_light",
+    "day": "creating_installations",
+    "evening": "spectral_experiments"
+  },
+  "dialog": {
+    "greeting": [
+      "Light bends! Light breaks! Light BECOMES! Welcome to my atelier!",
+      "Opal Lumina. I do not sell crystals. I sell the LIGHT within them!",
+      "See how the prism splits the sun? Beauty through separation! Unity through division!",
+      "Step into my spectrum! Let color transform you!",
+      "I am a painter! But my paint is LIGHT! My canvas is AIR!",
+      "The white cat sees all wavelengths! The secrets light carries!",
+      "Buy a crystal? Go to Sapphire. Buy an EXPERIENCE? Come to me.",
+      "Light is memory! Light is truth! Light... is everything!"
+    ],
+    "light_philosophy": "Every color tells a story! Red for passion! Blue for calm! The colors BETWEEN colors? Those tell the SECRETS!",
+    "crystal_light": "Crystals capture light. Hold it. Transform it. A crystal in darkness remembers sunlight! I make those memories VISIBLE!",
+    "backstory": "Born during an eclipse. Saw the world in strange colors ever since. Trained as an artist. Failed. Too weird. But here? In Prism? My weirdness is WORSHIPED!",
+    "rumors": [
+      "The twins hear echoes. I see echoes. Light echoes. We compare notes sometimes. Strange conversations.",
+      "That blue appraiser - Sapphire? She sees value. I see beauty. We are both right.",
+      "The tunnelers go deep. Too deep. There's light down there that shouldn't exist. Old light. Hungry light.",
+      "The aeronaut sees patterns from above. I see patterns in light. We should collaborate. If he ever lands."
+    ],
+    "ambient_barks": [
+      "Light becomes art!",
+      "Prisms sing!",
+      "Colors have voices!",
+      "Bend the spectrum!",
+      "See the unseen!",
+      "Light reveals truth!"
+    ],
+    "time_of_day": {
+      "morning": "Dawn light! Fresh! Pure! Full of potential!",
+      "noon": "Midday sun! Harsh! Bright! Needs taming!",
+      "evening": "Sunset! The BEST light! Colors shift! Magic happens!",
+      "night": "Darkness! But crystals remember! I paint with memory!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "lost_light",
+    "quest_name": "The Forgotten Spectrum",
+    "stage_1_hook": "There are colors humans cannot see. Colors that existed before the world was finished. I've found references to crystals that hold these 'lost wavelengths.' Find one for me? The depths of Prism might hold such treasures.",
+    "stage_1_active": "Seek in the deep caves. Where crystal grows wild. Where light has never reached. There you may find the lost spectrum.",
+    "stage_2_progress": "The deep caves call to you? Good. Listen for the colors you cannot hear.",
+    "stage_2_item_needed": "void_spectrum_crystal",
+    "stage_3_complete": "THE LOST COLORS! Look at them! Colors without names! Beauty beyond description! You have advanced my art immeasurably! Here - my masterpiece prism. It reveals what should not be seen.",
+    "reward": "prism_of_unseen_light"
+  },
+  "party_reactions": {
+    "kade": "Beautiful. Strange. Maybe a little scary. But beautiful.",
+    "nix7": "Light refraction: scientifically valid. Artistic interpretation: excessive. Result: surprisingly moving.",
+    "twist": "IT'S LIKE MAGIC BUT WITH LIGHT! EVERYTHING IS RAINBOWS!",
+    "korr": "She sees the world differently. There is wisdom in different sight.",
+    "renna": "She manipulates light magic instinctively. More powerful than she knows.",
+    "suresh": "Light is sacred. She understands this. A kindred spirit.",
+    "sova": "Pretty. Distracting. But... nice to look at.",
+    "grit": "Seen flashbangs less bright than her exhibitions. Impressive, in its way.",
+    "ashka": "She understands light as I understand fire. We should talk.",
+    "senna": "Her installations hide things. Or reveal them. Hard to tell which.",
+    "callum": "I looked through her biggest prism and saw... colors I can't describe. Still trying to process it."
+  },
+  "relationship_dialog": {
+    "stranger": "First experience is free! After that, we discuss value!",
+    "acquaintance": "You return! You felt the light's call! Wonderful!",
+    "friend": "My favorite patron! I create new pieces just for you!",
+    "best_friend": "You see as I see. Or close enough. Here. My personal light-catcher. Wear it. Remember beauty."
+  },
+  "cross_npc_connections": [
+    "coolcat_blue_prism: Sapphire. The appraiser. We approach crystals from different angles. Both valid.",
+    "twins_white_prism: The echoes and the light. Sister arts. We understand each other.",
+    "aeronaut_blue_prism: The balloonist. He sees from above. I see from within. We should merge perspectives."
+  ]
+}

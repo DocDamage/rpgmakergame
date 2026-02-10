@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_echo_chamber",
+  "name": "Chamber of Echoes",
+  "zone": "void",
+  "giver": "bush",
+  "type": "investigation",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "There's a place where the Void folds back on itself, creating an Echo Chamber. Every sound, every thought, every scream ever uttered in the Void gets trapped there, replaying forever. Someone's been using it to send messages—coded signals to Void cultists across Orion. We need to know what they're planning.",
+      "objective": "Enter the Echo Chamber and decode the cultist messages"
+    },
+    "progress": {
+      "dialog": "Messages decoded, and it's worse than we feared. The cultists are coordinating a mass ritual—simultaneous sacrifices at twelve locations to tear open a permanent Void gate. We have the locations, but not much time. The ritual starts at the next eclipse.",
+      "objective": "Return with the intelligence and prepare countermeasures"
+    },
+    "complete": {
+      "dialog": "Intelligence delivered, countermeasures deployed, catastrophe averted. Twelve teams moved on your information, disrupting the ritual before it could begin. The Echo Chamber is sealed, its secrets revealed. You've saved thousands of lives today, Kade. Again.",
+      "rewards": {
+        "exp": 16500,
+        "gold": 3800,
+        "item": "echo_chamber_recordings"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Hearing every scream ever uttered in the Void... that's going to haunt my dreams for a while.",
+    "sova": "The coordination required for such a ritual is impressive. The cultists are more organized than we suspected. Troubling.",
+    "nix7": "Audio decryption complete. Cultist communication patterns identified. Recommend ongoing surveillance of known operative frequencies."
+  },
+  "lore_unlocks": ["echo_chamber", "void_cultist_rituals"]
+}

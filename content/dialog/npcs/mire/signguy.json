@@ -1,0 +1,83 @@
+{
+  "npc_id": "signguy_mire",
+  "name": "Penn 'The Pointer' Postwick",
+  "sprite": "signguy",
+  "zone": "mire",
+  "location": "Various Boardwalk Locations",
+  "personality": "artistic_perfectionist_talkative",
+  "occupation": "direction_sign_painter",
+  "schedule": {
+    "morning": "painting_new_signs",
+    "day": "installing_and_repairing",
+    "evening": "admiring_work"
+  },
+  "dialog": {
+    "greeting": [
+      "Signs! Signs everywhere! And I painted them ALL!",
+      "Penn Postwick, sign painter extraordinaire! Lost? I can fix that!",
+      "Every sign tells a story! Most of them say 'this way' or 'don't go here'!",
+      "Fresh paint! Bold letters! Clear directions! That's the Postwick promise!",
+      "You look lost! Everyone looks lost! The Mire does that! Good thing I made signs!",
+      "Need a sign? I make signs! Love signs! Live for signs!",
+      "The boardwalk would be chaos without me! Pure chaos!",
+      "Sign painting is an ART! Underappreciated! But ESSENTIAL!"
+    ],
+    "sign_philosophy": "A good sign does more than point. It GUIDES. It WARNS. It INSPIRES! 'Danger: Quicksand' has saved more lives than any hero! Probably!",
+    "mire_challenges": "Paint doesn't like humidity. Wood doesn't like water. But I persist! Waterproof paint! Treated lumber! INNOVATION!",
+    "backstory": "Trained at the Academy of Directional Arts. Top of my class! Could've painted signs for the capital! But the Mire called. Needed signs more. Dark. Confusing. Perfect for my talents.",
+    "rumors": [
+      "The foodboys keep asking for bigger signs. 'Best Food Here!' All of them. I try to be diplomatic.",
+      "White and Purple both want 'Union Headquarters' signs pointing to their offices. I made them identical. Let them fight it out.",
+      "The snakecharmer wanted a sign for his show. I made it FLASHY! Sssilas loved it!",
+      "Heard the barrelgob talks to barrels. Weird. But he pays for 'Private Property' signs, so who am I to judge?"
+    ],
+    "ambient_barks": [
+      "Fresh paint! Wet paint!",
+      "Which way? This way!",
+      "Signs save lives!",
+      "Bold and clear!",
+      "Postwick quality!",
+      "Lost? Follow ME!"
+    ],
+    "time_of_day": {
+      "morning": "Morning light! Best for seeing true colors!",
+      "noon": "Midday sun! Paint dries fast! Work fast!",
+      "evening": "Evening inspection! Admiring my handiwork!",
+      "night": "Night painting! Special reflective paint! Glows in dark!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_paint",
+    "quest_name": "The Perfect Pigment",
+    "stage_1_hook": "My paints are running low! Specifically, the Mire Mist Gray! Can't paint proper Mire signs without it! Needs special pigments from the Echo Caverns. Dangerous place. But I'm desperate!",
+    "stage_1_active": "Echo Cavern pigments. Look for the gray stones that shimmer silver in moonlight. Grind them fine. Bring me what you find!",
+    "stage_2_progress": "The Caverns treat you well? Find my pigments? My signs grow dull without fresh paint!",
+    "stage_2_item_needed": "echo_cavern_gray_pigment",
+    "stage_3_complete": "THE PIGMENTS! Look at that shimmer! Perfect! My signs will be magnificent! Here, take this. A custom sign. 'Heroes This Way!' Pointing wherever you want!",
+    "reward": "postwick_custom_sign"
+  },
+  "party_reactions": {
+    "kade": "His signs actually are really helpful. This place would be a maze without them.",
+    "nix7": "Directional signage: adequate. Typography: acceptable. Overall utility: high.",
+    "twist": "He painted a sign with my name on it! I'm FAMOUS!",
+    "korr": "A craftsman who takes pride in his work. Admirable.",
+    "renna": "The signs have minor warding magic. Protection against getting lost. Clever.",
+    "suresh": "A man who found his purpose. The world needs more like him.",
+    "sova": "Signs are useful. Especially 'danger' signs. Save me trouble.",
+    "grit": "Good signs keep soldiers alive. This one knows his business.",
+    "ashka": "He offered to paint 'Caution: Fire Hazard' near my camp. Thoughtful.",
+    "senna": "Signs tell you where people want you to go. Also where they don't. Valuable intel.",
+    "callum": "I follow his signs everywhere! Haven't gotten lost once! Well, hardly ever!"
+  },
+  "relationship_dialog": {
+    "stranger": "New face! You need a sign! Everyone needs signs!",
+    "acquaintance": "Back again! I'll start offering you my discount rate!",
+    "friend": "My favorite customer! I have special colors saved just for you!",
+    "best_friend": "You... you actually appreciate sign painting. As art. That means... everything. Here. My masterwork brush. Use it well."
+  },
+  "cross_npc_connections": [
+    "foodboys_blue: Flip wants bigger signs. I make them BIGGER!",
+    "onionboss_white: White pays on time. Appreciates clarity. Good client.",
+    "onionboss_purple: Purple wants 'workers welcome' signs. I make them warm and friendly!"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "npc_id": "barrelman_metal_dustbelt",
+  "name": "Metal Barrel Mike",
+  "sprite": "barrelman_metal",
+  "zone": "dustbelt",
+  "location": "Scrap Market",
+  "personality": "gruff_competitive",
+  "occupation": "scrap_barrel_dealer",
+  "dialog": {
+    "greeting": [
+      "Metal barrels. None of that wooden garbage.",
+      "Mike's Metal. If it doesn't clang, it's wrong.",
+      "What? Yeah, I sell barrels. Metal ones. The superior kind.",
+      "Heard Bob sent you? Figures. Can't handle real containment.",
+      "Need something that won't rot? You've come to the right place.",
+      "Got scrap barrels, drum barrels, and my specialty - mystery barrels. Contents unknown.",
+      "Buy a barrel or don't. I'm not desperate. ...Okay, maybe a little."
+    ],
+    "shop_open": "These ain't pretty, but they work. Fireproof, waterproof, and unlike Bob's junk, they don't get termites.",
+    "shop_prompt": "Metal containers. Industrial grade. Surplus from the Deep Dig operation.",
+    "haggle": [
+      "Price is price. Metal costs what metal costs.",
+      "Fine. Ten percent off. But you didn't get it from me.",
+      "I'll match Bob's price, but you tell everyone mine are better.",
+      "For you? Because you look like you appreciate quality."
+    ],
+    "purchase_success": [
+      "Smart choice. Won't regret it.",
+      "There's a dent on that one. Makes it unique. Don't complain.",
+      "Comes with complimentary rust removal tip: don't let it rust.",
+      "Sold. Try not to store anything alive in there. Learned that the hard way."
+    ],
+    "purchase_fail": [
+      "Window shopping? Get lost.",
+      "No coins, no clanging containers.",
+      "Come back when you're serious."
+    ],
+    "rumor": [
+      "Bob's 'premium oak' comes from the same place as his personality - rotten.",
+      "Deep-Dig Dan found something metal in the eastern shaft. Won't let me see it. Suspicious.",
+      "That barrelgob living in the junkyard? Used to be a customer. Took 'living in a barrel' too literally.",
+      "Signguy down the road owes me money. Painted my sign wrong on purpose. 'Metal Barels.' Idiot."
+    ],
+    "quest_hook": "Look, I'm not saying Bob's got it out for me, but someone keeps stealing my best scrap barrels. Leaves wooden ones in their place. Message? Find who's doing it and I'll pay.",
+    "quest_active": "Any leads on my barrel thief? Check the junkyard. Nothing's stolen, just... replaced. It's psychological warfare.",
+    "quest_complete": "So it was that little barrelgob gremlin? Trading up from wooden to metal? Can't blame him. Here's your cut.",
+    "quest_reward": "Reinforced Metal Barrel - Indestructible storage!",
+    "farewell": [
+      "Don't scratch 'em on the way out.",
+      "Tell Bob his barrels are still inferior.",
+      "Come back. Not that I care."
+    ],
+    "ambient_barks": [
+      "Metal! Not wood!",
+      "Fireproof containers! For your fireproof needs!",
+      "Who needs aesthetics? Function over form!",
+      "Bob's barrels are kindling waiting to happen!",
+      "Scrap prices! Premium quality!"
+    ],
+    "time_dawn": "Early. Good. No Bob yet.",
+    "time_noon": "Hot. Metal gets hot. Don't touch. Obviously.",
+    "time_dusk": "Day's ending. Sales weren't great. Thanks for noticing.",
+    "time_night": "Night's when the weird customers come. Present company excluded. Maybe.",
+    "rival_mention": "Bob says wood 'breathes.' Yeah, it breathes rot and failure.",
+    "post_quest_greeting": "The detective. Find any other thieves while you're at it?"
+  },
+  "party_reactions": {
+    "kade": "Friendly guy. Love the enthusiasm.",
+    "nix7": "Metal superior to organic wood. This merchant is logical.",
+    "twist": "Can I roll down a hill in one?",
+    "korr": "Industrial grade. Utilitarian. I approve.",
+    "renna": "Do you two ever... not compete? No?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Don't touch what you can't afford.",
+    "acquaintance": "Back again. You have taste, I'll give you that.",
+    "friend": "For you, I saved the good stuff. The really good stuff.",
+    "best_friend": "Listen, I'm opening a franchise in the Obsidian Reach. Interested in investing?"
+  },
+  "mini_quest": {
+    "id": "barrel_bandit_mystery",
+    "title": "The Barrel Swapper",
+    "description": "Find who's been replacing Mike's metal barrels with wooden ones",
+    "stages": {
+      "hook": "Someone keeps stealing my metal barrels and leaving wooden garbage behind. It's personal. Find them.",
+      "active": "Check the junkyard. Barrelgob territory. Little thieves love shiny things.",
+      "complete": "Barrelgob trading up, huh? Can't blame him. Metal IS better. Here's a prototype - experimental alloy. Don't ask where I got it."
+    },
+    "reward": {
+      "item": "titanium_barrel",
+      "gold": 200,
+      "reputation": "metal_merchant_trust"
+    }
+  }
+}

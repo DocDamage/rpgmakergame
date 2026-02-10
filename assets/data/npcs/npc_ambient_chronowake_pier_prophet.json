@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CHRONOWAKE_PIER_PROPHET",
+  "name": "Chronowake Pier Prophet",
+  "title": "Street Prophet",
+  "location": "T_CHRONOWAKE_112x72",
+  "coords": [
+    95,
+    49
+  ],
+  "schedule": {
+    "day": [
+      95,
+      49
+    ],
+    "night": [
+      96,
+      48
+    ],
+    "rain": [
+      96,
+      51
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_kell_portrait",
+  "dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+  "shop": null,
+  "quests": [],
+  "faction": "CHRONOWAKE",
+  "attitude": "eccentric",
+  "background": "Public eccentric who tracks odd weather and omen patterns. Stationed in Chronowake.",
+  "personality": "Theatrical, intense, and oddly accurate.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "omens",
+    "warnings"
+  ]
+}

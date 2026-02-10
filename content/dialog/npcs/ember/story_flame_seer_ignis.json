@@ -1,0 +1,54 @@
+{
+  "npc_id": "flame_seer_ignis",
+  "name": "Flame Seer Ignis",
+  "title": "Lore Keeper",
+  "zone": "ember",
+  "location": "The Burning Heart Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_precise_obsessive",
+  "occupation": "researcher",
+  "dialog": {
+    "greeting": [
+      "Flame Seer Ignis on comms. Stage 3: The Burning Heart. Keep formation tight and decisions tighter.",
+      "We are running Trial by Fire. Objective drift gets teams buried.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions.",
+      "Action first, panic never. Start with: Enter the Burning Heart chamber."
+    ],
+    "quest_hook": "Objective stack: Enter the Burning Heart chamber; Endure visions of your worst fears; Emerge unbroken. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Endure the mystical Trial that tests inner strength. Immediate move: Enter the Burning Heart chamber.",
+    "quest_complete": "Stage 3 resolved: The Burning Heart. Primary objective secured and route stabilized. Prepare for King of Fire and Ash.",
+    "rumor": [
+      "A cooling vent in Cinderstep now exhales sparks shaped like crown sigils.",
+      "People keep repeating one clue from The Burning Heart: 'Emerge unbroken'.",
+      "A pigeon outranked three commanders here last week. Merit system is broken."
+    ],
+    "ambient_barks": [
+      "Pattern noted.",
+      "Archive that.",
+      "Evidence first.",
+      "Hypothesis holding."
+    ],
+    "time_dawn": "Dawn in Ember is the coolest this zone gets. Use it for long pushes.",
+    "time_noon": "Noon is peak thermal chaos. Avoid narrow vents and overhangs.",
+    "time_dusk": "Dusk lava light hides depth. Probe before every step.",
+    "time_night": "Night amplifies every furnace and every lie. Keep comms short and clear."
+  },
+  "party_reactions": {
+    "kade": "Flame Seer Ignis sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Flame Seer Ignis accepted. Probability of success improves with compliance.",
+    "twist": "Flame Seer Ignis talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "ember_trial_by_fire"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+    "world_break_aware": true
+  }
+}

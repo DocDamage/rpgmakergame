@@ -1,0 +1,30 @@
+{
+  "id": "NPC_SISTER_AMARA",
+  "name": "Sister Amara",
+  "title": "Healer",
+  "location": "T_MIREWATCH_112x72",
+  "coords": [35, 28],
+  "schedule": {
+    "day": [35, 28],
+    "night": [30, 30],
+    "rain": [35, 28]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMARA_MAIN",
+  "shop": "SHOP_AMARA_INFIRMARY",
+  "quests": ["Q_SECOND_RELIC", "Q_PLAGUE_CURE"],
+  "faction": "HEALERS_GUILD",
+  "attitude": "friendly",
+  "background": "Traveling healer who settled in Mirewatch to help the sick.",
+  "personality": "Compassionate, devout, fiercely protective of patients.",
+  "flags": {
+    "unlocked_by": "Q_FIRST_RELIC_COMPLETE",
+    "disappears_on": null
+  },
+  "services": ["healing", "shop", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_amara_greet",
+    "heal": "vo_amara_heal"
+  }
+}

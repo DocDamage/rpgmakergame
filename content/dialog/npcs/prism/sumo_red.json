@@ -1,0 +1,82 @@
+{
+  "npc_id": "sumo_red_prism",
+  "name": "Crimson 'The Wall' Ironbelly",
+  "sprite": "sumo_red",
+  "zone": "prism",
+  "location": "Mine Entrance Checkpoint",
+  "personality": "disciplined_intense_protective",
+  "occupation": "bouncer_mine_guard",
+  "schedule": {
+    "day": "guarding_entrance",
+    "night": "patrolling_perimeter"
+  },
+  "dialog": {
+    "greeting": [
+      "Halt! State your business in the mines!",
+      "Crimson Ironbelly. No one enters without clearance!",
+      "These mines are under protection! Step back!",
+      "You look strong. But I'm stronger. Remember that.",
+      "The Wall stands! No threat passes!",
+      "Authorization? Papers? Purpose? All required!",
+      "I am the first line! The last line! THE ONLY LINE!",
+      "Cousin Gan says I should be gentler. Cousin Gan is wrong."
+    ],
+    "guard_duties": "Check credentials. Assess threats. Remove problems. Simple. Effective. The foreman trusts me. I do not fail that trust.",
+    "sumo_philosophy": "Sumo is discipline! Sumo is strength! Sumo is pushing forward when everything pushes back! I apply this to all aspects of life!",
+    "backstory": "Trained in the Iron Stables. Top of my class. Could have been champion. Chose duty instead. Prism needs protection. I provide it. My cousin Gan understands. Even if he worries.",
+    "rumors": [
+      "The foreman and inspector fight constantly. I stay out of it. My job is security, not politics.",
+      "That blue tunneler found something big. The Great Prism. Now he acts strange. Watches the depths. Waiting.",
+      "The purple prospector has maps to places we shouldn't go. I don't let him near new workers.",
+      "The luchador in the Mire? I hear he's good. Would like to test my stance against his high-flying."
+    ],
+    "ambient_barks": [
+      "Halt! Who goes there!",
+      "None shall pass!",
+      "The Wall stands firm!",
+      "Authorization required!",
+      "Stay back!",
+      "Crimson guards all!"
+    ],
+    "time_of_day": {
+      "morning": "Morning shift! Fresh! Alert! Ready!",
+      "noon": "Midday heat! No effect on discipline!",
+      "evening": "Evening patrol! Shadows hide threats!",
+      "night": "Night watch! Danger time! Maximum vigilance!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "wall_training",
+    "quest_name": "Test of the Wall",
+    "stage_1_hook": "You look capable. Strong. But are you disciplined? The Wall requires both. Prove yourself. Find the Crystal Guardians - stone constructs in the deep caves. Defeat them. Show you can stand against unyielding force.",
+    "stage_1_active": "Crystal Guardians. Deep caves. Unyielding. Unstoppable. Just like me. Defeat three. Return victorious.",
+    "stage_2_progress": "You've faced the Guardians? Lived? Impressive. But three victories are required.",
+    "stage_2_item_needed": "crystal_guardian_fragments",
+    "stage_3_complete": "You did it! Defeated the unyielding! You understand now - strength alone is not enough. You need the WILL to keep standing. Here. My sumo belt. A symbol of that will. Wear it with pride.",
+    "reward": "crimson_sumo_belt"
+  },
+  "party_reactions": {
+    "kade": "Intense. But effective. I'd want him watching my back.",
+    "nix7": "Combat capability: significant. Discipline: exemplary. Social grace: minimal.",
+    "twist": "He's like a REALLY INTENSE teddy bear! A SCARY teddy bear!",
+    "korr": "A warrior of focus. His stance is perfect. His spirit is iron.",
+    "renna": "He has natural magical resistance. Crystal resonance doesn't affect him. Useful.",
+    "suresh": "Discipline without wisdom is dangerous. But he has good instincts.",
+    "sova": "Good guard. Would trust him to hold a line.",
+    "grit": "Reminds me of fresh recruits. Eager. Strong. Needs seasoning.",
+    "ashka": "He endures. Like stone. Like fire that won't go out.",
+    "senna": "Too loud for stealth work. But good for intimidation.",
+    "callum": "He let me try to push him over. I bounced off. It was AWESOME!"
+  },
+  "relationship_dialog": {
+    "stranger": "Halt! Identify yourself!",
+    "acquaintance": "You again. You follow rules. I appreciate this.",
+    "friend": "Reliable ally! The Wall welcomes your presence!",
+    "best_friend": "You have proven yourself. True strength. True discipline. The Wall... salutes you."
+  },
+  "cross_npc_connections": [
+    "sumo_white_prism: Cousin Gan. Wise. Broken. I do not understand him, but I respect him.",
+    "onionboss_red_prism: Foreman Red. Good leader. Understands security priorities.",
+    "lucha_blue_mire: The blue fighter. I hear of his high-flying style. Intriguing."
+  ]
+}

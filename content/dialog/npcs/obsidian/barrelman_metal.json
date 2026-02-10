@@ -1,0 +1,108 @@
+{
+  "npc_id": "barrelman_metal_obsidian",
+  "name": "Obsidian Barrel Oz",
+  "sprite": "barrelman_metal",
+  "zone": "obsidian",
+  "location": "Equipment Depot, Sector 7",
+  "personality": "opportunistic_nervous_hustler",
+  "occupation": "industrial_parts_dealer",
+  "dialog": {
+    "greeting": [
+      "Oz. Obsidian Barrel Oz. Parts. Gear. 'Found' items. What do you need?",
+      "The miners break it, I sell it. Circle of life. Industrial life.",
+      "Looking for parts? I've got parts. Some of them even work.",
+      "Oz. Unofficial supplier to the unofficial economy. You official? Please say no.",
+      "New face! Fresh face! Unconnected face! I like those!",
+      "Equipment Depot's 'closed for inventory.' Lucky for you, Oz is ALWAYS open.",
+      "Need a drill bit? Pulley? 'Lightly used' safety harness?",
+      "Oz. I find things. You need things. Beautiful relationship."
+    ],
+    "shop_open": "Inventory changes daily. Hourly, even. Depends what 'falls off trucks.' You understand.",
+    "shop_prompt": "Industrial-grade everything. Some of it certified. Most of it... functional.",
+    "haggle": [
+      "These are quality parts! Quality-ish!",
+      "Best I can do? How about 'slightly better than my first offer'?",
+      "For you? Because I like your face? Ten percent off. Final offer.",
+      "You drive a hard bargain. I respect that. Hate it, but respect it."
+    ],
+    "purchase_success": [
+      "Sold! No refunds! Well, partial refunds. Store credit, really.",
+      "Excellent choice! That part has at LEAST three good uses left!",
+      "Pleasure doing business! Tell your friends! But not, you know, officially."
+    ],
+    "purchase_fail": [
+      "No coin, no parts. Even 'found' parts cost money to 'find.'",
+      "Window shopping? In THIS economy?",
+      "Come back when you've got collateral. Or just... more money."
+    ],
+    "rumor": [
+      "Grayson and Bruno? Trouble brewing. Old vs new. Classic story.",
+      "Corporate's cutting contracts. That's why I deal 'off books.' Safer.",
+      "That spy in the trenchcoat? Bought a 'used' lantern yesterday. Asked too many questions.",
+      "Barrelgob says he found something ancient in the tailings. Goblin's crazy, but... he seemed spooked.",
+      "Word from Chrono: time's acting funny there. Here, time just moves slow. Very slow."
+    ],
+    "quest_hook": "Look, I need a favor. Discreet. Union's got a stash of 'compromising documents.' Management wants them. I want to sell them to the HIGHEST bidder. Interested?",
+    "quest_active": "Those documents? Still in the union locker. Coolcat's got the key. Or knows where it is.",
+    "quest_complete": "Documents sold! To the union, actually. They paid more. Who knew integrity was profitable? Here's your cut. Plus a 'bonus' item.",
+    "farewell": [
+      "Oz - for all your 'legitimate' business needs!",
+      "Tell no one. Seriously. My permit's 'in processing.' For three years.",
+      "Roll on back! Or... don't roll. Rolling draws attention."
+    ],
+    "ambient_barks": [
+      "Quality parts! Slightly used!",
+      "What do you need? I can find it!",
+      "No receipt necessary! Or possible!",
+      "Industrial surplus! Emphasis on surplus!",
+      "Oz! Remember the name!",
+      "Everything must go! Eventually!"
+    ],
+    "time_dawn": "Early bird gets the... worm? No, that's disgusting. Early bird gets the best inventory!",
+    "time_noon": "Lunch rush! Miners break equipment. I profit. Beautiful.",
+    "time_dusk": "Shift change. My busy hour. Everyone needs SOMETHING.",
+    "time_night": "Night's when the REAL deals happen. Quiet. Discreet. Profitable.",
+    "rival_mention": "That Dustbelt barrelman? Mike? Thinks he's so legal. Boring.",
+    "post_quest_greeting": "The document dealer! discreet, professional, well-paid. My favorite customer type."
+  },
+  "party_reactions": {
+    "kade": "He's... sketchy. But useful. Heroes need sketchy sometimes, right?",
+    "nix7": "Business model: Gray market. Risk assessment: High. Profit margin: Likely higher.",
+    "twist": "You sell COOL STUFF! What's THIS do?! Can I touch it?!",
+    "korr": "I do not trust his inventory's provenance. But his prices are... competitive.",
+    "renna": "He's magically null. No aura at all. Either very skilled or very protected.",
+    "suresh": "His desperation creates suffering. But his business creates opportunity. Balance.",
+    "sova": "I'd buy from him. But I'd count my fingers after shaking hands.",
+    "grit": "Black marketeer. Useful in war. Just don't turn your back.",
+    "ashka": "He smells of fear. And machine oil. Mostly fear.",
+    "senna": "A man who knows secrets. I should know them too.",
+    "callum": "I should report him. But... I need these parts. Moral dilemma."
+  },
+  "relationship_dialog": {
+    "stranger": "First time buyer? Cash up front. No offense. Some offense.",
+    "acquaintance": "Regular customer! I'll... try to keep better stuff in stock.",
+    "friend": "You! I save the good items for you. The ones that probably aren't cursed.",
+    "best_friend": "Listen... between us? I know where the REAL treasure is. Tunnel 7. Sealed for a reason. Interested?"
+  },
+  "mini_quest": {
+    "id": "document_game",
+    "title": "The Shifting Papers",
+    "description": "Help Oz acquire sensitive union documents and decide their ultimate fate",
+    "stages": {
+      "hook": "Union's got documents. Management wants them. I want to profit. Get the papers from Coolcat's locker. Don't get caught.",
+      "active": "The locker room's in the union hall. Coolcat trusts you? Good. Use that. Get the combination.",
+      "complete": "Documents acquired! Sold to... actually, I gave them to Grayson. He's paying in 'future favors.' Better than gold, sometimes. Here's your hardware."
+    },
+    "reward": {
+      "item": "prototype_hydraulic_ram",
+      "gold": 275,
+      "reputation": "gray_market_connection"
+    }
+  },
+  "cross_npc_connections": [
+    "coolcat_industrial: Union rep. Has the keys. Literally. And figuratively.",
+    "trenchcoat_gray: Corporate spy. Wants what I want. Competition. Or customer.",
+    "barrelgob_black: That goblin brings me scrap. Good source. Weird conversations.",
+    "barrelman_metal_dustbelt: My 'legitimate' cousin. We don't talk. Different philosophies."
+  ]
+}

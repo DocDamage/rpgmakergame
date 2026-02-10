@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_lightning_survivor",
+  "name": "Guardian of the Mire",
+  "zone": "mire",
+  "giver": "Lightning (Former Soldier)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "There are people trapped in the deep Mire. Survivors from a caravan. Dominion left them to die. I won't. But I need backup. You in?",
+      "objective": "Accompany Lightning to rescue survivors from the deep Mire"
+    },
+    "progress": {
+      "dialog": "The survivors are close. I can hear them. Stay sharp - the Mire's creatures are everywhere.",
+      "objective": "Fight through Mire creatures to reach the survivors"
+    },
+    "complete": {
+      "dialog": "We got them out. All of them. That's what matters. Here - my old Guardian Corps badge. I'm not that person anymore. Maybe it'll mean something to you.",
+      "rewards": {"gold": 500, "item": "guardian_corps_badge", "reputation": 18}
+    }
+  },
+  "party_comments": {
+    "kade": "She doesn't hesitate. Just acts. I respect that.",
+    "korr": "Military training shows. Clean, efficient tactics.",
+    "vex": "Protecting the innocent. A worthy calling."
+  },
+  "hidden_outcome": "If you rescue all survivors without any injuries, Lightning gives you 'Omega Weapon' - a powerful gunblade"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_LUMENCREST_OUTER_SAFEHOUSE_SCOUT",
+  "name": "Lumencrest Outer Safehouse Scout",
+  "title": "Resistance Scout",
+  "location": "T_LUMENCREST_OUTER_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      21,
+      22
+    ],
+    "rain": [
+      20,
+      25
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "RESISTANCE",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Stationed in Lumencrest Outer.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

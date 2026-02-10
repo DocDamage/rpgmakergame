@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CITADEL_SERVICE_TUNNEL_SCOUT",
+  "name": "Citadel Service Tunnel Wayfarer",
+  "title": "Route Tracker",
+  "location": "MIC_R13_64x36",
+  "coords": [
+    32,
+    18
+  ],
+  "schedule": {
+    "day": [
+      32,
+      18
+    ],
+    "night": [
+      35,
+      16
+    ],
+    "rain": [
+      34,
+      18
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Assigned to Citadel Service Tunnel.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

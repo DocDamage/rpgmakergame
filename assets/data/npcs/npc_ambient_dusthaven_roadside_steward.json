@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_DUSTHAVEN_ROADSIDE_STEWARD",
+  "name": "Dusthaven Roadside Steward",
+  "title": "Inn Steward",
+  "location": "T_DUSTHAVEN_112x72",
+  "coords": [
+    73,
+    24
+  ],
+  "schedule": {
+    "day": [
+      73,
+      24
+    ],
+    "night": [
+      73,
+      23
+    ],
+    "rain": [
+      74,
+      24
+    ]
+  },
+  "sprite": "NPC_INNKEEPER_F",
+  "portrait": "spr_mira_portrait",
+  "dialog_tree": "DT_AMBIENT_INNKEEPER",
+  "shop": null,
+  "quests": [],
+  "faction": "DUSTHAVEN",
+  "attitude": "friendly",
+  "background": "Runs local lodging and keeps tabs on travelers. Stationed in Dusthaven.",
+  "personality": "Warm, observant, and quietly protective.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "rumors",
+    "rest_info"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CHRONOWAKE_BREAKWATER_SCOUT",
+  "name": "Chronowake Breakwater Wayfarer",
+  "title": "Rail Mechanic",
+  "location": "MIC_R14_128x56",
+  "coords": [
+    64,
+    28
+  ],
+  "schedule": {
+    "day": [
+      64,
+      28
+    ],
+    "night": [
+      62,
+      29
+    ],
+    "rain": [
+      65,
+      30
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_MECHANIC",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "professional",
+  "background": "Maintains rail hardware, engines, and field terminals. Assigned to Chronowake Breakwater.",
+  "personality": "Calm, technical, and dry-humored.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "machine_advice",
+    "infrastructure_status"
+  ]
+}

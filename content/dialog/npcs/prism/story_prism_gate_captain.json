@@ -1,0 +1,54 @@
+{
+  "npc_id": "prism_gate_captain",
+  "name": "Prism Gate Captain",
+  "title": "Field Commander",
+  "zone": "prism",
+  "location": "The City of Glass Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "disciplined_guarded_decisive",
+  "occupation": "security_lead",
+  "dialog": {
+    "greeting": [
+      "Prism Gate Captain on comms. Stage 1: The City of Glass. Keep formation tight and decisions tighter.",
+      "We are running Shattered Light. Objective drift gets teams buried.",
+      "A map sneezed in my pocket and revealed a hidden staircase. True story.",
+      "Action first, panic never. Start with: Pass the Truth Gate."
+    ],
+    "quest_hook": "Objective stack: Pass the Truth Gate; Navigate the Transparent Districts; Gain audience with the Regent. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Enter Prism and navigate its transparent architecture. Immediate move: Pass the Truth Gate.",
+    "quest_complete": "Stage 1 resolved: The City of Glass. Primary objective secured and route stabilized. Prepare for The Regent's Revelation.",
+    "rumor": [
+      "A shattered lens was heard chanting the same warning in seven languages.",
+      "People keep repeating one clue from The City of Glass: 'Gain audience with the Regent'.",
+      "The floor attempted a mutiny at dawn. We resolved it with better boots."
+    ],
+    "ambient_barks": [
+      "Eyes front.",
+      "Hold the line.",
+      "No drift.",
+      "Confirm the lane."
+    ],
+    "time_dawn": "Dawn light in Prism reveals hidden seams in mirrored stone.",
+    "time_noon": "Noon overcharges reflection grids. Angle your approach, do not rush centerline.",
+    "time_dusk": "Dusk doubles your silhouette count. Track teammate positions verbally.",
+    "time_night": "Night turns crystal caverns into echo mazes. Keep line-of-sight discipline."
+  },
+  "party_reactions": {
+    "kade": "Prism Gate Captain sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Prism Gate Captain accepted. Probability of success improves with compliance.",
+    "twist": "Prism Gate Captain talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "prism_shattered_light"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_assassination_plot",
+  "name": "The Traitor's Blade",
+  "zone": "capital",
+  "giver": "coolcat_black",
+  "type": "investigation",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "Word on the street: someone's planning to assassinate the resistance leadership. Not Dominion—one of our own. Power does strange things to people, and the Undercity is full of folk who'd trade principles for promises. Find the traitor before they strike.",
+      "objective": "Gather intelligence on the assassination plot"
+    },
+    "progress": {
+      "dialog": "It's worse than we thought. The traitor isn't just targeting leadership—they've rigged the safehouse to collapse. We need to disarm the charges before the leadership meeting tonight. No time to catch the traitor; save the people first.",
+      "objective": "Disarm the explosives at the resistance safehouse"
+    },
+    "complete": {
+      "dialog": "Charges disarmed, meeting proceeds, traitor exposed. Turns out it was the quartermaster—Dominion promised him a governorship if he delivered our heads. He's in our hands now, and the resistance justice is... thorough. You saved lives today, Kade. Important ones.",
+      "rewards": {
+        "exp": 11500,
+        "gold": 2200,
+        "item": "traitor_confession"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Betrayal cuts deeper than any blade. The quartermaster sold out his own people for a title.",
+    "twist": "I've seen this play before. The Dominion always finds the greedy ones. Easier to bribe than fight.",
+    "vex": "A traitor to a just cause is the lowest form of life. The resistance's justice is merciful compared to what I would have done."
+  },
+  "lore_unlocks": ["resistance_internal_politics", "dominion_bribery_tactics"]
+}

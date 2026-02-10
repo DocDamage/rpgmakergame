@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_rest_stop",
+  "name": "Haven in the Heights",
+  "zone": "tower",
+  "giver": "foodboys",
+  "type": "social",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Climbers need rest, food, a place to feel human between the endless stairs and battles. I'm setting up a rest stop on Floor 38—neutral ground, safe haven, hot meals. But I need supplies, protection, and someone to spread the word. Help me build something good in this endless climb.",
+      "objective": "Gather supplies for the Floor 38 rest stop"
+    },
+    "progress": {
+      "dialog": "Supplies secured, location claimed, but there's a problem. Local construct patrols have started targeting the rest stop area. Something in the Tower recognizes it as an anomaly. Need to establish a defense perimeter, drive off the constructs, protect what we're building.",
+      "objective": "Defend the rest stop location from construct attacks"
+    },
+    "complete": {
+      "dialog": "Rest stop operational, first climbers arriving, warm food being served. You've created something special—a place of peace in the endless war of ascent. Stories will spread, climbers will come, and for a moment, they'll remember what they're climbing for. Thank you, truly.",
+      "rewards": {
+        "exp": 17500,
+        "gold": 3200,
+        "item": "rest_stop_membership"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A place to rest, eat hot food, and share stories. That's not just a rest stop—it's civilization.",
+    "suresh": "The psychological benefit of safe havens in high-stress environments is well-documented. This will save lives.",
+    "grit": "Defended the perimeter against three construct waves. Solid ground held. The stop is secure."
+  },
+  "lore_unlocks": ["tower_rest_stops", "climber_culture"]
+}

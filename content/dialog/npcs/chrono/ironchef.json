@@ -1,0 +1,107 @@
+{
+  "npc_id": "ironchef_chrono",
+  "name": "Steam-Chef Piston",
+  "sprite": "ironchef",
+  "zone": "chrono",
+  "location": "Temporal Kitchen, Station Café",
+  "personality": "mechanical_precise_enhanced",
+  "occupation": "steam_powered_cook",
+  "dialog": {
+    "greeting": [
+      "CHUFF-CHUFF! WELCOME to the TEMPORAL KITCHEN!",
+      "Steam-Chef Piston! At your STEAM! I mean SERVICE!",
+      "I am ENHANCED! Steam-powered! TEMPORALLY optimized!",
+      "NEW customer! Or OLD customer! Hard to TELL! Time KITCHEN!",
+      "My boilers are STABLE! My recipes are TESTED! In MULTIPLE eras!",
+      "Welcome! I cook with STEAM! Literal! And METAPHORICAL!",
+      "Piston! Formerly organic! Currently SUPERIOR!",
+      "You're just in TIME! Or just in TIME! For LUNCH! Or DINNER! Or BREAKFAST!"
+    ],
+    "shop_open": "TEMPORAL MENU! Dishes from EVERY era! Dinosaur steak! Future algae! Present... sandwich!",
+    "food_offer": "Special: 'Yesterday's Lunch!' Ingredients from ACTUAL yesterday! Fresh! Ish!",
+    "haggle": [
+      "Prices are STEAM-POWERED! Non-negotiable!",
+      "Hero discount? 15%! Because HEROES need FUEL!",
+      "Best deal? Time-share meal! Eat it NOW! And THEN!"
+    ],
+    "purchase_success": [
+      "Excellent CHOICE! That recipe from the GOLDEN AGE! Of COOKING!",
+      "SERVED! At TEMPERATURE! Which varies! By ERA!",
+      "Come back! For 'Tomorrow's Breakfast!' Presumptuous! But FUN!"
+    ],
+    "purchase_fail": [
+      "Insufficient FUNDS! My boilers need COAL! Not PROMISES!",
+      "No CREDIT! Time-travel ate my PROFITS! Paradox EXPENSES!",
+      "Return with COIN! Temporal or OTHERWISE!"
+    ],
+    "rumor": [
+      "The conductor? Tempus? Good CUSTOMER! Punctual! Literally!",
+      "Yesterday? The time agent? Eats here! Orders the SAME thing! Every TIME!",
+      "The black hunter? Too INTENSE! Food goes COLD! Just his PRESENCE!",
+      "Brutalia? In Obsidian? My RIVAL! Steam-powered TOO! Copycat!",
+      "The barrel? Temporal ENERGY? Could POWER my ovens! INFINITE cooking!"
+    ],
+    "quest_hook": "Ingredient CRISIS! 'Yesterday's Lunch' needs ACTUAL yesterday! But delivery STUCK! In TIME! Fetch it?!",
+    "quest_active": "Still STUCK! Somewhere between THEN and NOW! Find it!",
+    "quest_complete": "RETRIEVED! The ingredients! Fresh! From YESTERDAY! Here! Temporal spice rack! For YOUR kitchen!",
+    "farewell": [
+      "CHUFF-CHUFF! Come again! Or BEFORE!",
+      "Stay FUELED! Stay TEMPORAL!",
+      "Time is FLAVOR! And FLAVOR is TIME!"
+    ],
+    "ambient_barks": [
+      "STEAM power!",
+      "Temporal CUISINE!",
+      "Yesterday's FRESH!",
+      "Boilers STABLE!",
+      "CHUFF-CHUFF!",
+      "Food from TIME!"
+    ],
+    "time_dawn": "Morning! 'Breakfast Through the AGES!' Popular!",
+    "time_noon": "Midday! LUNCH RUSH! From MULTIPLE eras! Simultaneous!",
+    "time_dusk": "Evening! DINNER! Formal! Or CASUAL! By ERA!",
+    "time_night": "Night! Late SNACKS! From the FUTURE! Of snacking!",
+    "rival_mention": "Brutalia? In Obsidian? Steam-powered COPYCAT! I was ENHANCED first!",
+    "post_quest_greeting": "The ingredient HUNTER! Yesterday SAVED! Kitchen operational!"
+  },
+  "party_reactions": {
+    "kade": "Another steam chef! Rivalry! I love it!",
+    "nix7": "Cybernetic enhancement: Extensive. Steam integration: Impressive. Rivalry: Juvenile.",
+    "twist": "STEAM POWERED CHEF! That's AMAZING! FOOD from TIME!",
+    "korr": "He sacrificed humanity for efficiency. Tragic. Effective.",
+    "renna": "The enhancements are magically mechanical. Stable. Remarkable.",
+    "suresh": "He found new path through transformation. The Middle Path... mechanized.",
+    "sova": "Interesting food. Fast service. I'd eat here.",
+    "grit": "Field rations from multiple eras. Useful. Weird.",
+    "ashka": "He burns steam. Not fire. But still heat. Acceptable.",
+    "senna": "He knows recipes from all time. Valuable. For... various purposes.",
+    "callum": "His kitchen hygiene! EXCELLENT! Across ALL eras!"
+  },
+  "relationship_dialog": {
+    "stranger": "NEW! Try the 'Timeless Stew!' Always FRESH!",
+    "acquaintance": "RETURNING! You have GOOD taste! In TIME!",
+    "friend": "FAVORITE customer! I save the GOOD temporal ingredients!",
+    "best_friend": "COLLEAGUE! In CUISINE! Here! My secret RECIPE book! Across ERAS!"
+  },
+  "mini_quest": {
+    "id": "yesterdays_lunch",
+    "title": "Yesterday's Lunch",
+    "description": "Help Piston retrieve ingredients stuck in temporal transit for his signature dish",
+    "stages": {
+      "hook": "CRISIS! 'Yesterday's Lunch' ingredients! STUCK! In TIME! Between THEN and NOW! FETCH them?!",
+      "active": "Check the Time-Train! Cargo car! Between platforms! Temporal LIMBO!",
+      "complete": "RETRIEVED! Fresh from YESTERDAY! Literally! Here! Temporal spice rack! For YOUR culinary experiments!"
+    },
+    "reward": {
+      "item": "temporal_spice_rack",
+      "gold": 400,
+      "reputation": "temporal_chef_partner"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus! Punctual customer! Good TASTE! In schedules!",
+    "ironchef_obsidian: Brutalia! My RIVAL! Steam-powered COPYCAT!",
+    "trenchcoat_brown_chrono: Yesterday! Orders the SAME! Every TIME! Predictable!",
+    "barrel_chrono: Temporal ENERGY! Could POWER my ovens! INFINITELY!"
+  ]
+}

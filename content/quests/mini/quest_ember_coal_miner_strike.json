@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_coal_miner_strike",
+  "name": "The Soot-Stained Strike",
+  "zone": "ember",
+  "giver": "barrelgob_red",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The coal miners are on strike! They want safer conditions, but the overseer says they just want more pay. Both sides won't talk to each other! Someone neutral needs to mediate. You look like you don't work here—can you help?",
+      "objective": "Meet with both the miners and the overseer to understand their demands"
+    },
+    "progress": {
+      "dialog": "So the miners want safety equipment, not just money. And the overseer is worried about costs. I have an idea—if you can find the old ventilation blueprints in the abandoned eastern shaft, we can prove safety improvements will increase production!",
+      "objective": "Retrieve the ventilation blueprints from the abandoned eastern shaft"
+    },
+    "complete": {
+      "dialog": "The overseer agreed! New safety equipment for everyone, and production bonuses based on output! The miners are celebrating! Here's a share of their first bonus—and a Coal Miner's Helm that protects against smoke!",
+      "rewards": {
+        "exp": 850,
+        "gold": 600,
+        "item": "coal_miners_helm"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Negotiation isn't as exciting as fighting, but those miners deserved better!",
+    "twist": "Finally, using words instead of fists. Much more civilized.",
+    "nix7": "Labor dispute resolution: optimal outcome achieved. Both parties satisfied."
+  }
+}

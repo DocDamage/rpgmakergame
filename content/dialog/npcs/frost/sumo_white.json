@@ -1,0 +1,99 @@
+{
+  "npc_id": "sumo_white_frost",
+  "name": "Guardian Blizzard",
+  "sprite": "sumo_white",
+  "zone": "frost",
+  "location": "Frost Gate",
+  "personality": "stoic_protective_winter",
+  "occupation": "gate_guardian",
+  "dialog": {
+    "greeting": [
+      "Halt. Frost Gate. Passage requires purpose.",
+      "Guardian Blizzard. The gate stands. So do I.",
+      "The cold tests all who enter. I am that test.",
+      "New traveler. The frost respects no name. Only resolve.",
+      "The white uniform? Winter's color. Purity. Severity.",
+      "Beyond lies the deep frost. Are you prepared?",
+      "Blizzard. I guard the boundary. Between safe and frozen.",
+      "State your business. The cold wastes no words."
+    ],
+    "challenge": [
+      "You may pass. Or you may freeze. The choice is preparation.",
+      "The gate demands respect. Show it."
+    ],
+    "warning": "Beyond, the wind kills. The ice traps. The cold remembers. Are you certain?",
+    "recognition_high_rep": "I know your reputation. The gate opens. The cold still waits.",
+    "advice": "In the whiteout, stillness is survival. Movement reveals. Hiding preserves.",
+    "let_pass": "Pass. But remember: the gate also guards your retreat. Use it if needed.",
+    "combat_bark": "You mistake winter for weakness. Fatal error.",
+    "rumor": [
+      "Cirrus watches the sky. I watch the ground. Both see storms coming.",
+      "Azure flies where I cannot follow. Brave. Foolish. Both.",
+      "The twins see futures. I see presents. Both are cold.",
+      "The snake charmer? Warm rock. Interesting. But not enough. For the deep.",
+      "Onyx, in Obsidian? My counterpart. Deep and cold. Same dedication."
+    ],
+    "quest_hook": "The gate weakens. Magical seal. Fading. Someone with warmth. With life. Could reinforce it?",
+    "quest_active": "The seal still fades. Hurry. Before the deep frost escapes.",
+    "quest_complete": "Seal restored. Gate holds. Your warmth? Surprisingly useful. Here - frost ward. My blessing.",
+    "farewell": [
+      "Go with care. The cold is patient.",
+      "Return alive. Or don't. The gate remains.",
+      "Remember: the frost always wins. Eventually."
+    ],
+    "ambient_barks": [
+      "Halt. State purpose.",
+      "The gate stands.",
+      "Cold waits for all.",
+      "Passage requires resolve.",
+      "Winter respects none.",
+      "Beyond lies frost."
+    ],
+    "time_dawn": "Morning. The cold retreats. Briefly. I remain.",
+    "time_noon": "Midday. Warmest. Still cold. Relative terms.",
+    "time_dusk": "Evening. Cold returns. Natural order.",
+    "time_night": "Night. The deep hours. When frost speaks. I listen.",
+    "rival_mention": "Onyx, in Obsidian? We correspond. Deep cold. Shared burden.",
+    "post_quest_greeting": "The seal-binder. Gate holds. Thanks to you."
+  },
+  "party_reactions": {
+    "kade": "He's like a mountain. Made of ice. And determination.",
+    "nix7": "Guardian protocols: Impeccable. Threat assessment: Continuous. Respect advised.",
+    "twist": "WHOA! You're HUGE! And WHITE! Like a SNOWMAN! Can I... no? Okay.",
+    "korr": "A guardian who serves the cold. Different from Onyx. Same dedication.",
+    "renna": "The gate seal is ancient. Powerful. Fading. He maintains it. Alone.",
+    "suresh": "He accepts suffering as duty. The path of the guardian. Noble. Lonely.",
+    "sova": "I'd pass his gate. But I'd be cautious. He sees much.",
+    "grit": "Gate guardian. Every fortress needs one. He'd die before breaking.",
+    "ashka": "He IS winter. Cold without cruelty. Impressive.",
+    "senna": "He knows who's passed. Who returns. Who doesn't.",
+    "callum": "Proper gate protocol! And documentation! Impressive!"
+  },
+  "relationship_dialog": {
+    "stranger": "Unknown. Purpose? Resolve? Both required.",
+    "acquaintance": "Recognized. You pass often. Reasons your own.",
+    "friend": "Trusted. The gate opens easier. For you.",
+    "best_friend": "You have proven worthy of the deep frost. Here. My mantle. Protection absolute."
+  },
+  "mini_quest": {
+    "id": "seal_the_gate",
+    "title": "The Weakening Seal",
+    "description": "Help Guardian Blizzard reinforce the magical seal on Frost Gate",
+    "stages": {
+      "hook": "The seal fades. Ancient magic. Waning. Your warmth. Your life. Could reinforce it? Willing?",
+      "active": "The seal stone. Center gate. Touch it. Lend your... vitality. Carefully.",
+      "complete": "Seal restored. Stronger. Your essence? Bound to it. Gratitude. Here - frost ward. My blessing. Cold cannot harm you."
+    },
+    "reward": {
+      "item": "guardian_blizzard_blessing",
+      "gold": 400,
+      "reputation": "gate_guardian_trust"
+    }
+  },
+  "cross_npc_connections": [
+    "sumo_black_obsidian: Onyx. My counterpart. Deep guardian. We share... professional concerns.",
+    "twins_white_frost: The oracles. They predicted your arrival. And the seal's need.",
+    "aeronaut_blue_frost: Azure. Flies over my gate. Brave. Or foolish. Both.",
+    "snakecharmer_frost: Warm rock. Tempting. But insufficient. For what I guard."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "npc_id": "signguy_chrono",
+  "name": "Timely Warning",
+  "sprite": "signguy",
+  "zone": "chrono",
+  "location": "Platform Transitions, All Eras",
+  "personality": "literal_temporal_pedantic",
+  "occupation": "timeline_sign_painter",
+  "dialog": {
+    "greeting": [
+      "TEMPORAL WARNING! I mean, hello! I paint TIME signs!",
+      "Timely Warning. Timeline signage. If it's confusing, it's ACCURATE!",
+      "Signs! For TIME! 'Now Entering: Tuesday!' 'Caution: Yesterday Ahead!'",
+      "You! Are you temporally grounded? I have a SIGN about that!",
+      "Welcome to Chrono! Where the signs are TEMPORAL and the confusion is NORMAL!",
+      "I'm the reason you know WHEN you are! You're welcome!",
+      "Yellow and black! Also: temporal blue! My colors! Time's colors!",
+      "New face! Need temporal directions? I have SIGNS for that! Literal signs!"
+    ],
+    "work_pride": "That 'Now Entering: Yesterday' sign? Mine. Prevented seventeen paradoxes. This week.",
+    "technique": "Font choice is CRITICAL. Futura for future. Times New Roman for... obvious reasons.",
+    "sign_types": "Paradox warnings! Temporal junctions! 'You Are Here: Temporally!'",
+    "break_chat": "Lunch break. Eating yesterday's sandwich. Today. Tomorrow's hunger.",
+    "labor_concerns": "They want FEWER signs. 'Temporal clarity,' they say. IMPOSSIBLE!",
+    "retirement": "Retirement? I'll paint one last sign. 'Caution: Retired Sign Painter.' Temporal.",
+    "rumor": [
+      "That OSHA inspector? From next week? Approved my signs! Before I painted them!",
+      "Corporate wants 'Temporal Safety Is Everyone's Responsibility.' REDUNDANT!",
+      "The conductor? Tempus? APPRECIATES signage. Properly formatted. Chronologically.",
+      "Ironchef? Wants 'Yesterday's Lunch' sign. LITERAL! For his restaurant!",
+      "Obsidian's sign guy? Wiley? We CORRESPOND! 'Now Entering: Tuesday!' GENIUS!"
+    ],
+    "quest_hook": "TEMPORAL VANDALISM! Someone's CHANGING my signs! 'Now Entering: Tuesday' became 'Now Entering: DOOMSDAY!' NOT THE SAME!",
+    "quest_active": "The temporal vandal strikes! Across eras! Find them! Protect temporality!",
+    "quest_complete": "Caught them! Time tourist! Thought it was 'funny!' It's NOT! Well, a LITTLE! Here's a CUSTOM temporal sign!",
+    "farewell": [
+      "Watch your timeline! There's a SIGN!",
+      "Temporal safety FIRST! Second! And THIRD!",
+      "If you see yourself, SAY something! To YOURSELF!"
+    ],
+    "ambient_barks": [
+      "Caution! Temporal junction!",
+      "Now entering: THEN!",
+      "Paradox warning!",
+      "You are HERE! Temporally!",
+      "Time waits! For signage!",
+      "Mind the WHEN!"
+    ],
+    "time_dawn": "Morning! New temporal day! Fresh signs! Fresh PARADOXES!",
+    "time_noon": "Midday! Peak temporal traffic! Maximum signage NEEDED!",
+    "time_dusk": "Evening! Yesterday's signs! Tomorrow's problems!",
+    "time_night": "Night! Temporal currents! Visible! Signable!",
+    "rival_mention": "Wiley, in Obsidian? My CHRONOLOGICAL counterpart! 'Caution: Unstable Ground!' Brilliant!",
+    "post_quest_greeting": "The temporal sign defender! Protector of TIMELINE signage!"
+  },
+  "party_reactions": {
+    "kade": "Time signs. 'Now Entering: Tuesday.' I love this place.",
+    "nix7": "Temporal signage follows paradox protocols. Admirable attention to causality.",
+    "twist": "Can I help paint TIME signs?! I want to make one! 'Now Entering: FUN!'",
+    "korr": "Communication of temporal hazard. Essential. Undervalued.",
+    "renna": "The signs have temporal ward enchantments. Minor. Effective.",
+    "suresh": "His dedication to preventing temporal harm is noble. His confusion is... understandable.",
+    "sova": "I'd follow his signs. They're clear. Unlike most time stuff.",
+    "grit": "Every temporal unit needs someone like him. Keeps you oriented.",
+    "ashka": "He marks the dangerous whens. Useful. I avoid those.",
+    "senna": "He knows where everywhen is. And isn't safe.",
+    "callum": "FINALLY! Proper TEMPORAL regulations! And documentation!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Read the signs. ALL the signs. They're temporally important!",
+    "acquaintance": "Back again! Did you see my new 'Temporal Junction' sign? Paradox-averting!",
+    "friend": "My favorite temporally-aware individual! I made you a PERSONAL timeline sign!",
+    "best_friend": "You GET it. Temporal safety. Chronological communication. PREVENTION. Here - my masterwork. 'Hero Crossing: All Eras.'"
+  },
+  "mini_quest": {
+    "id": "temporal_vandal",
+    "title": "The Timeline Defacer",
+    "description": "Help Timely catch a time tourist who's vandalizing his temporal signs",
+    "stages": {
+      "hook": "VANDALISM! My temporal signs! CHANGED! 'Now Entering: Tuesday' to 'DOOMSDAY!' NOT FUNNY! Find them!",
+      "active": "Time tourist! Between platforms! Era-hopping! Catch them!",
+      "complete": "Caught! Time tourist! 'Joke,' they said! Signs are SERIOUS! ...Okay, a LITTLE funny. Here's your sign!"
+    },
+    "reward": {
+      "item": "custom_temporal_hero_sign",
+      "gold": 300,
+      "reputation": "temporal_safety_advocate"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus! APPRECIATES signage! Properly formatted! Chronologically!",
+    "signguy_obsidian: Wiley! My CHRONOLOGICAL counterpart! Brilliant mind!",
+    "trenchcoat_brown_chrono: Yesterday! Follows my signs! To THEN!",
+    "ironchef_chrono: Piston! Wants 'Yesterday's Lunch' sign! LITERAL! For restaurant!"
+  ]
+}

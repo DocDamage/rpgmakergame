@@ -1,0 +1,54 @@
+{
+  "npc_id": "polar_guide_blizzard",
+  "name": "Polar Guide Blizzard",
+  "title": "Pathfinder",
+  "zone": "frost",
+  "location": "The Howling White Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "alert_resourceful_tenacious",
+  "occupation": "trail_guide",
+  "dialog": {
+    "greeting": [
+      "Polar Guide Blizzard on comms. Stage 1: The Howling White. Keep formation tight and decisions tighter.",
+      "We are running The Frozen Path. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Survive the frost barrier crossing."
+    ],
+    "quest_hook": "Objective stack: Survive the frost barrier crossing; Rescue stranded expedition members; Reach the Frosthold settlements. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Cross the frost barrier to reach the frozen lands. Immediate move: Survive the frost barrier crossing.",
+    "quest_complete": "Stage 1 resolved: The Howling White. Primary objective secured and route stabilized. Prepare for The Frozen Court.",
+    "rumor": [
+      "Rimehold hunters found footprints that ended mid-step, still warm.",
+      "People keep repeating one clue from The Howling White: 'Reach the Frosthold settlements'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Tracks are fresh.",
+      "Wind just shifted.",
+      "Stay on my heel.",
+      "Read the ground."
+    ],
+    "time_dawn": "Dawn gives hard snow and readable tracks. Best time to cross open ground.",
+    "time_noon": "Noon glare can blind you faster than a storm. Shade your optics.",
+    "time_dusk": "Dusk fog rises from cracked ice. Ropes out, spacing tight.",
+    "time_night": "Night cold punishes hesitation. Rotate watch and check each other for frostbite."
+  },
+  "party_reactions": {
+    "kade": "Polar Guide Blizzard sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Polar Guide Blizzard accepted. Probability of success improves with compliance.",
+    "twist": "Polar Guide Blizzard talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "frost_frozen_path"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_vivi_black_mage",
+  "name": "What Am I?",
+  "zone": "uplands",
+  "giver": "Vivi (Black Mage)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I... I'm not like other mages. I want to understand what I am. There's an old workshop in the mountains. Where they made... things like me. Will you help me find it?",
+      "objective": "Search for the old Black Mage workshop in the Uplands mountains"
+    },
+    "progress": {
+      "dialog": "The workshop... it should be near the crystal caves. I'm scared of what I might find. But I need to know.",
+      "objective": "Explore the crystal caves for signs of the workshop"
+    },
+    "complete": {
+      "dialog": "So... I was made. But that doesn't mean I'm not real, right? I can still choose who I want to be. Thank you for helping me. Here - my best spell. Meteor. Use it wisely.",
+      "rewards": {"gold": 500, "item": "meteor_spell_tome", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "Everyone deserves to know who they are. Even... especially... if it's hard.",
+    "renna": "Artificial life with genuine consciousness. Philosophically fascinating.",
+    "nix7": "Subject appears to be synthetic. Yet displays authentic emotional responses."
+  },
+  "hidden_outcome": "If you find the 'prototype Vivi' record showing he was meant to be a prototype for good, not war, Vivi unlocks his ultimate form and teaches 'Double Black Magic'"
+}

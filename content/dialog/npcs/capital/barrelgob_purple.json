@@ -1,0 +1,117 @@
+{
+  "npc_id": "barrelgob_purple",
+  "name": "Glitch",
+  "title": "Void Mutant",
+  "zone": "capital",
+  "location": "Void-Touched Sector, Deep Ruins",
+  "description": "A twisted barrelgob with violet-tinged skin, reality occasionally flickering around them.",
+  "sprite_variant": "barrelgob_purple",
+  "greeting_variants": [
+    "*voice echoes wrong* We... I... Glitch? Yes. Glitch.",
+    "Barrel... barrel is... outside? Inside? Both? *giggles*",
+    "You... solid. Nice-solid. Not like... the other place.",
+    "*phases slightly* Sorry. Happens. Getting worse. Help?",
+    "Scritch... Scritch afraid of Glitch now. Sad. Miss... miss friend.",
+    "Purple not bad. Purple just... different. Everything different there.",
+    "*whispers* It sings. In here. *taps head* Beautiful. Terrifying.",
+    "Glitch remember... remember being... more? Less? Both?"
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Was... was Scritch-friend. Small. Green. Then purple-eat found Glitch. Took Glitch to... other place. Brought back. But not... not same. Never same.",
+          "options": [
+            {"text": "The other place?", "goto": "void_description"},
+            {"text": "Are you in pain?", "goto": "pain_check"},
+            {"text": "Can you be cured?", "goto": "cure_inquiry"},
+            {"text": "I should leave.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "void_description",
+          "text": "Place-between. Where... where what-could-be lives. Glitch saw... Glitch saw Glitch. Many Glitches. All choices. All paths. All... possible. Overwhelming. Beautiful. Broken.",
+          "party_reactions": {
+            "mira": "The Void as a nexus of quantum possibilities...",
+            "shade": "*if present* Yes! Exactly! You understand!",
+            "glitch": "*happy warble* Someone... someone sees!"
+          },
+          "options": [
+            {"text": "That sounds overwhelming.", "goto": "sympathy"},
+            {"text": "Can you go back?", "goto": "return_question"}
+          ]
+        },
+        {
+          "id": "pain_check",
+          "text": "Not... not pain. Wrong-word. Like... wearing wrong-size skin. Like remembering dreams while waking. Constant. But... not painful. Just... different. Different hard. Different lonely.",
+          "options": [
+            {"text": "You're not alone.", "goto": "comfort"},
+            {"text": "I know someone like you.", "goto": "shade_mention"}
+          ]
+        },
+        {
+          "id": "cure_inquiry",
+          "text": "*sad laugh* How unmake... unmake what IS? Glitch is Glitch now. Maybe... maybe find balance. Learn live. But cure? No. Glitch... forever Glitch. Just... want remember being Scritch. Being... simple.",
+          "options": [
+            {"text": "I'll help you find balance.", "goto": "help_offer"},
+            {"text": "Scritch misses you.", "goto": "scritch_mention"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "anchor_the_glitch",
+    "title": "Anchor the Glitched",
+    "description": "Help Glitch find stability by collecting anchor items from places of personal significance.",
+    "objectives": [
+      "Retrieve Scritch's old barrel lid from the warehouse",
+      "Find the 'first shiny' from Glitch's original stash",
+      "Bring a gift from Scritch (requires Scritch quest complete)",
+      "Help Glitch perform the anchoring ritual"
+    ],
+    "rewards": {
+      "experience": 550,
+      "reputation": {"void_touched": 25, "barrelgobs": 20},
+      "items": ["glitch_blessing", "void_anchoring_technique"],
+      "unlock": "glitch_stable_companion"
+    },
+    "prerequisites": ["scritch_collection_complete"]
+  },
+  "ambient_barks": [
+    "*humming discordant melody* Song... song from there. Still hear.",
+    "Scritch... no, Glitch. Glitch. Must remember name.",
+    "*reaches through own chest* See? No... no inside. Different.",
+    "Purple not evil. Purple just... hungry. Like everything.",
+    "Want... want go home. But home not... not exist anymore.",
+    "*speaking in two voices* We are... I am... confused.",
+    "Big-folk fear Glitch. Understand. Glitch fear Glitch too.",
+    "*staring at hands* These... these real? Today? Maybe."
+  ],
+  "cross_zone_references": {
+    "void_nexus": "Home? No. Similar. But Glitch came FROM there. Hard... hard go back when you already... not-here.",
+    "chroma_tower": "Twins... Twins understand. Glitch feel it. They... multiple too. Like Glitch. But... controlled."
+  },
+  "party_reactions": {
+    "shade": {
+      "greeting": "*immediate recognition* You... you're like me.",
+      "response": "*tears forming* Yes. Yes! Not alone! Not... not only one!"
+    },
+    "mira": {
+      "greeting": "Fascinating quantum decoherence! May I study you?",
+      "response": "*nervous* Study... okay. But gentle. Glitch... fragile."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "More coherent, can hold conversations",
+      "night": "Phases frequently, speaks in riddles/songs"
+    },
+    "world_state_triggers": {
+      "near_void": "Becomes more stable, almost happy",
+      "cured_stable": "Achieves balance, offers unique services"
+    }
+  }
+}

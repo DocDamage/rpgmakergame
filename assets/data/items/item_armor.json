@@ -1,0 +1,349 @@
+{
+  "id": "ITEM_ARMOR",
+  "items": [
+    {
+      "id": "ITEM_COTTON_CLOTHES",
+      "name": "Cotton Clothes",
+      "type": "armor",
+      "subtype": "light",
+      "rarity": 1,
+      "icon": "icon_cotton_clothes",
+      "description": "Simple cotton garments. Better than nothing.",
+      "flavor": "Comfortable but unprotective.",
+      "stats": {
+        "def": 3
+      },
+      "buy_price": 50,
+      "sell_price": 25,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_LEATHER_ARMOR",
+      "name": "Leather Armor",
+      "type": "armor",
+      "subtype": "light",
+      "rarity": 1,
+      "icon": "icon_leather_armor",
+      "description": "Hardened leather protection.",
+      "flavor": "Mobility over protection.",
+      "stats": {
+        "def": 8,
+        "spd": 2
+      },
+      "buy_price": 150,
+      "sell_price": 75,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_STUDDED_LEATHER",
+      "name": "Studded Leather",
+      "type": "armor",
+      "subtype": "light",
+      "rarity": 2,
+      "icon": "icon_studded_leather",
+      "description": "Leather reinforced with metal studs.",
+      "flavor": "A balance of speed and safety.",
+      "stats": {
+        "def": 15,
+        "spd": 3
+      },
+      "buy_price": 400,
+      "sell_price": 200,
+      "equipable_by": [
+        "all"
+      ]
+    },
+    {
+      "id": "ITEM_SHADOW_GARB",
+      "name": "Shadow Garb",
+      "type": "armor",
+      "subtype": "light",
+      "rarity": 4,
+      "icon": "icon_shadow_garb",
+      "description": "Armor that shifts and blends with darkness.",
+      "flavor": "Become one with the shadows.",
+      "stats": {
+        "def": 30,
+        "spd": 15,
+        "evade": 10
+      },
+      "special_effect": "shadow_meld",
+      "buy_price": 0,
+      "sell_price": 3500,
+      "equipable_by": [
+        "twist",
+        "nix-7"
+      ]
+    },
+    {
+      "id": "ITEM_CHAINMAIL",
+      "name": "Chainmail",
+      "type": "armor",
+      "subtype": "medium",
+      "rarity": 2,
+      "icon": "icon_chainmail",
+      "description": "Interlocking metal rings provide solid protection.",
+      "flavor": "Flexible but heavy.",
+      "stats": {
+        "def": 22,
+        "spd": -2
+      },
+      "buy_price": 600,
+      "sell_price": 300,
+      "equipable_by": [
+        "kade",
+        "vex",
+        "ashka",
+        "renna",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_SCALE_ARMOR",
+      "name": "Scale Armor",
+      "type": "armor",
+      "subtype": "medium",
+      "rarity": 3,
+      "icon": "icon_scale_armor",
+      "description": "Overlapping metal scales like a dragon's hide.",
+      "flavor": "Ancient design, proven protection.",
+      "stats": {
+        "def": 35,
+        "spd": -3,
+        "resist_fire": 10
+      },
+      "buy_price": 1200,
+      "sell_price": 600,
+      "equipable_by": [
+        "kade",
+        "vex",
+        "ashka",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_KADES_DUSTER",
+      "name": "Dragon-Scale Duster",
+      "type": "armor",
+      "subtype": "medium",
+      "rarity": 5,
+      "icon": "icon_kades_duster",
+      "description": "Kade's signature coat. Dragon scales woven into fabric.",
+      "flavor": "Fashion and function, drake-approved.",
+      "stats": {
+        "def": 50,
+        "spd": 5,
+        "resist_fire": 25
+      },
+      "special_effect": "dragon_ward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "kade"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_IRON_PLATE",
+      "name": "Iron Plate",
+      "type": "armor",
+      "subtype": "heavy",
+      "rarity": 2,
+      "icon": "icon_iron_plate",
+      "description": "Solid iron plate armor.",
+      "flavor": "Heavy but protective.",
+      "stats": {
+        "def": 35,
+        "spd": -5
+      },
+      "buy_price": 800,
+      "sell_price": 400,
+      "equipable_by": [
+        "grit",
+        "petra",
+        "vex"
+      ]
+    },
+    {
+      "id": "ITEM_STEEL_PLATE",
+      "name": "Steel Plate",
+      "type": "armor",
+      "subtype": "heavy",
+      "rarity": 3,
+      "icon": "icon_steel_plate",
+      "description": "Superior steel plate armor.",
+      "flavor": "The standard of professional soldiers.",
+      "stats": {
+        "def": 50,
+        "spd": -6
+      },
+      "buy_price": 1800,
+      "sell_price": 900,
+      "equipable_by": [
+        "grit",
+        "petra",
+        "vex"
+      ]
+    },
+    {
+      "id": "ITEM_GRITS_BATTLE_ARMOR",
+      "name": "Vanguard Armor",
+      "type": "armor",
+      "subtype": "heavy",
+      "rarity": 5,
+      "icon": "icon_grits_battle_armor",
+      "description": "Grit's powered armor. Stripped of Dominion markings.",
+      "flavor": "Once a tool of oppression, now a shield of hope.",
+      "stats": {
+        "def": 75,
+        "hp": 200,
+        "resist_all": 10
+      },
+      "special_effect": "vanguard_stance",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "grit"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_MAGE_ROBE",
+      "name": "Mage's Robe",
+      "type": "armor",
+      "subtype": "robe",
+      "rarity": 2,
+      "icon": "icon_mage_robe",
+      "description": "A robe woven with magical threads.",
+      "flavor": "Cloth that remembers spells.",
+      "stats": {
+        "def": 10,
+        "mag": 10,
+        "spr": 10
+      },
+      "buy_price": 500,
+      "sell_price": 250,
+      "equipable_by": [
+        "suresh",
+        "sova",
+        "callum",
+        "senna"
+      ]
+    },
+    {
+      "id": "ITEM_WIZARD_GOWN",
+      "name": "Wizard's Gown",
+      "type": "armor",
+      "subtype": "robe",
+      "rarity": 3,
+      "icon": "icon_wizard_gown",
+      "description": "A master mage's ceremonial gown.",
+      "flavor": "Power attracts power.",
+      "stats": {
+        "def": 15,
+        "mag": 25,
+        "spr": 20,
+        "mp": 50
+      },
+      "buy_price": 1500,
+      "sell_price": 750,
+      "equipable_by": [
+        "suresh",
+        "sova",
+        "callum",
+        "senna"
+      ]
+    },
+    {
+      "id": "ITEM_SOVAS_LAB_COAT",
+      "name": "Enchanted Lab Coat",
+      "type": "armor",
+      "subtype": "robe",
+      "rarity": 5,
+      "icon": "icon_sovas_lab_coat",
+      "description": "Sova's coat. Science and sorcery combined.",
+      "flavor": "The boundary between knowledge and magic blurs.",
+      "stats": {
+        "def": 25,
+        "mag": 45,
+        "spr": 35,
+        "mp": 100
+      },
+      "special_effect": "spell_weave",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "sova"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_LEATHER_SHIELD",
+      "name": "Leather Shield",
+      "type": "armor",
+      "subtype": "shield",
+      "rarity": 1,
+      "icon": "icon_leather_shield",
+      "description": "A basic shield of hardened leather.",
+      "flavor": "Better than your bare arm.",
+      "stats": {
+        "def": 5,
+        "evade": -2
+      },
+      "buy_price": 80,
+      "sell_price": 40,
+      "equipable_by": [
+        "kade",
+        "vex",
+        "grit"
+      ]
+    },
+    {
+      "id": "ITEM_KITE_SHIELD",
+      "name": "Kite Shield",
+      "type": "armor",
+      "subtype": "shield",
+      "rarity": 2,
+      "icon": "icon_kite_shield",
+      "description": "A metal shield offering excellent protection.",
+      "flavor": "Stand firm behind the wall.",
+      "stats": {
+        "def": 15,
+        "evade": -5
+      },
+      "buy_price": 400,
+      "sell_price": 200,
+      "equipable_by": [
+        "kade",
+        "vex",
+        "grit"
+      ]
+    },
+    {
+      "id": "ITEM_VEXS_SHIELD",
+      "name": "Oath-Breaker's Bulwark",
+      "type": "armor",
+      "subtype": "shield",
+      "rarity": 5,
+      "icon": "icon_vexs_shield",
+      "description": "Vex's shield. Once sacred, now repurposed.",
+      "flavor": "Oaths may break, but protection endures.",
+      "stats": {
+        "def": 40,
+        "spr": 20,
+        "resist_dark": 20
+      },
+      "special_effect": "holy_ward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "vex"
+      ],
+      "unique": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "npc_id": "ven",
+  "name": "Ven",
+  "title": "Field Scavenger",
+  "zone": "mire",
+  "location": "Heart of the Blight Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "scrappy_wry_survivor",
+  "occupation": "salvage_runner",
+  "dialog": {
+    "greeting": [
+      "Ven on comms. Stage 3: Heart of the Blight. Keep formation tight and decisions tighter.",
+      "We are running The Sinking Truth. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Navigate the Deep Mire."
+    ],
+    "quest_hook": "Objective stack: Navigate the Deep Mire; Breach the Sunken Temple; Identify the corruption source. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Investigate the source of corruption at the sunken temple. Immediate move: Navigate the Deep Mire.",
+    "quest_complete": "Stage 3 resolved: Heart of the Blight. Primary objective secured and route stabilized. Prepare for Venom's Truth.",
+    "rumor": [
+      "Boardwalk crews say the swamp now mirrors stars from the wrong season.",
+      "People keep repeating one clue from Heart of the Blight: 'Identify the corruption source'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Scrap tells stories.",
+      "Nothing wasted.",
+      "Eyes on exits.",
+      "Keep what works."
+    ],
+    "time_dawn": "Dawn mist sits low in the Mire; good for stealth, bad for footing.",
+    "time_noon": "Noon stirs the boardwalk gases. Keep sparks and spells controlled.",
+    "time_dusk": "Dusk wakes the sink patches. Test every plank before weight transfer.",
+    "time_night": "Night in swamp country means sound carries wrong. Use lantern codes."
+  },
+  "party_reactions": {
+    "kade": "Ven sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Ven accepted. Probability of success improves with compliance.",
+    "twist": "Ven talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "mire_sinking_truth"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCAVENGER",
+    "world_break_aware": true
+  }
+}

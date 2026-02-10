@@ -1,0 +1,30 @@
+{
+  "id": "NPC_CAPTAIN_VARROS",
+  "name": "Captain Varros",
+  "title": "Militia Captain",
+  "location": "T_ASHVEIL_112x72",
+  "coords": [40, 30],
+  "schedule": {
+    "day": [40, 30],
+    "night": [30, 25],
+    "rain": [25, 30]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_VARROS_MAIN",
+  "shop": null,
+  "quests": ["Q_RECRUIT_KORR", "Q_KORR_LIBERATION", "Q_BOUNTY_DUSTBELT"],
+  "faction": "ASHVEIL_MILITIA",
+  "attitude": "friendly",
+  "background": "Former Dominion soldier who deserted. Leads Ashveil's defense.",
+  "personality": "Disciplined, protective, haunted by past.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": ["bounties", "militia_intel"],
+  "voice_lines": {
+    "greet": "vo_varros_greet",
+    "farewell": "vo_varros_farewell"
+  }
+}

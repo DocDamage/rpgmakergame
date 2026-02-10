@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_LUMENCREST_OUTER_BARRIER_TECH",
+  "name": "Lumencrest Outer Barrier Tech",
+  "title": "Ward Technician",
+  "location": "T_LUMENCREST_OUTER_112x72",
+  "coords": [
+    44,
+    50
+  ],
+  "schedule": {
+    "day": [
+      44,
+      50
+    ],
+    "night": [
+      42,
+      52
+    ],
+    "rain": [
+      45,
+      51
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_WARD_TECH",
+  "shop": null,
+  "quests": [],
+  "faction": "RESISTANCE",
+  "attitude": "professional",
+  "background": "Maintains ward pylons and perimeter systems. Stationed in Lumencrest Outer.",
+  "personality": "Focused, practical, and resilient.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "barrier_status",
+    "safety_tips"
+  ]
+}

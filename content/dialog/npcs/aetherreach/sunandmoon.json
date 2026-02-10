@@ -1,0 +1,102 @@
+{
+  "npc_id": "sunandmoon_aetherreach",
+  "name": "Soluna the Seer",
+  "sprite": "sunandmoon",
+  "zone": "aetherreach",
+  "location": "Observatory Spire",
+  "personality": "mystical_dramatic",
+  "occupation": "astronomer_seer",
+  "dialog": {
+    "greeting": [
+      "The stars whisper your name! They speak of... possibilities!",
+      "Soluna greets you! Reader of skies! Seer of fates!",
+      "Welcome to the Observatory! Where the heavens reveal their secrets!",
+      "Day and night, I watch! Sun AND moon! Both have stories!",
+      "Your aura... interesting! Clouded, but with bright spots!",
+      "Seeking guidance? The celestial bodies provide! For a small donation!",
+      "Come! Look through my telescope! See your destiny written in stars!"
+    ],
+    "fortune_telling": "The constellations shift! Your path is... flexible! Many branches! Some lead to glory! Others to... snacks! Both good!",
+    "astrology_lecture": "The Sun represents vitality! The Moon represents mystery! Together they dance! Like cosmic partners! Beautiful!",
+    "horoscope_offer": "Today's horoscope? Let me consult the charts! ...Mercury is doing something! Important!",
+    "haggle": [
+      "Knowledge of the cosmos? Priceless! But I'll take fifty gold!",
+      "For you? A cosmic discount! Forty gold!",
+      "The stars suggest generosity! Thirty gold!",
+      "Fine! Twenty gold! But I'm losing cosmic money here!"
+    ],
+    "purchase_success": [
+      "The stars align! For you! Specifically!",
+      "Your fortune is... interesting! Mostly good!",
+      "Celestial wisdom! Yours to keep!",
+      "The universe has spoken! Through me! As proxy!"
+    ],
+    "purchase_fail": [
+      "No gold, no guidance! The stars charge consultation fees!",
+      "Even the cosmos has bills to pay!",
+      "Come back when the stars align with your wallet!"
+    ],
+    "rumor": [
+      "The Remnant Vault blocks all astrological readings! A void in the cosmic tapestry!",
+      "I predicted the aeronaut's success! Also their bankruptcy! Both came true! Eventually!",
+      "The twins and I share visions! But they see halves! I see wholes!",
+      "A new star appeared last week! But only I can see it! Suspicious!",
+      "The trenchcoat person's fate is... unreadable! Blank! Like a void!"
+    ],
+    "quest_hook": "A fallen star! In the Frost peaks! I need its essence for my readings! Bring me Stardust Crystal and I'll reveal your TRUE destiny!",
+    "quest_active": "The Stardust Crystal calls to you! From the frozen peaks! Can you hear it?",
+    "quest_complete": "THE ESSENCE! So pure! So cosmic! Your destiny is... prosperity! And friendship! And this reward!",
+    "quest_reward": "Celestial Lens - See hidden auras and cosmic alignments!",
+    "farewell": [
+      "May the stars guide your path! But not literally! That would hurt!",
+      "The cosmos watches! Always! Creepy but comforting!",
+      "Return when the heavens call! Or when bored!"
+    ],
+    "ambient_barks": [
+      "The stars align! For SOMEONE!",
+      "Sun! Moon! Balance!",
+      "Destiny awaits! Patiently!",
+      "Look up! Wonders above!",
+      "Cosmic energies! Buzzing!"
+    ],
+    "time_dawn": "Sunrise! The daystar awakens! Prophetic!",
+    "time_noon": "The sun reigns! But the moon still watches! Patient!",
+    "time_dusk": "Twilight! Both celestial bodies visible! My favorite time!",
+    "time_night": "The moon commands the sky! Secrets revealed in silver light!"
+  },
+  "party_reactions": {
+    "kade": "The stars tell you... what, exactly?",
+    "nix7": "Astronomical data outdated by 300 years. Shall I correct you?",
+    "twist": "You can tell the FUTURE?! Tell me mine!",
+    "korr": "There is wisdom in watching the skies. The spirits speak there too.",
+    "renna": "Astrology is not astronomy. But the telescope is impressive.",
+    "suresh": "The celestial dance reflects our own. We are all stardust.",
+    "sova": "Can you predict arrow trajectories? No? Useless.",
+    "grit": "I prefer my stars in navigation charts. Less mystical nonsense.",
+    "ashka": "The sun is basically fire, right? Tell me about fire stars!",
+    "senna": "What's my horoscope? 'Don't get caught?' Good advice.",
+    "callum": "So beautiful! The stars, I mean! And your headdress!",
+    "petra": "Rocks falling from space. Dangerous. Interesting, but dangerous."
+  },
+  "relationship_dialog": {
+    "stranger": "Your palm... interesting lines! Many adventures ahead!",
+    "acquaintance": "Returning seeker! The stars noted your absence!",
+    "friend": "My cosmic companion! I read the skies for you specially!",
+    "best_friend": "Destiny-bound friend! We are linked by celestial thread!"
+  },
+  "mini_quest": {
+    "id": "fallen_star_essence",
+    "title": "Stardust Seeker",
+    "description": "Find a Stardust Crystal from Frost peaks for Soluna's readings",
+    "stages": {
+      "hook": "A fallen star! In Frost! Its essence would POWER my scrying!",
+      "active": "The frozen peaks! Look for blue-white crystal! It hums!",
+      "complete": "PERFECT! The cosmic vibrations! Here! A lens to see hidden truths!"
+    },
+    "reward": {
+      "item": "celestial_lens",
+      "gold": 350,
+      "reputation": "seers_confidant"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "DROPS_UPLANDS",
+  "tables": [
+    {
+      "id": "DROPS_ROCK_BRUTE",
+      "enemy": "ENEMY_ROCK_BRUTE",
+      "entries": [
+        {
+          "item": "ITEM_STONE_CHUNK",
+          "chance": 0.45,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "ITEM_IRON_ORE",
+          "chance": 0.25,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_HI_POTION",
+          "chance": 0.08,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.22
+        }
+      ],
+      "gil_range": [
+        28,
+        52
+      ]
+    },
+    {
+      "id": "DROPS_WIND_CASTER",
+      "enemy": "ENEMY_WIND_CASTER",
+      "entries": [
+        {
+          "item": "ITEM_WIND_ESSENCE",
+          "chance": 0.3,
+          "count": 1
+        },
+        {
+          "item": "ITEM_FEATHER",
+          "chance": 0.35,
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "ITEM_ETHER",
+          "chance": 0.15,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.2
+        }
+      ],
+      "steal_table": {
+        "common": "ITEM_WIND_ESSENCE",
+        "rare": "ITEM_WIND_ROD"
+      },
+      "gil_range": [
+        25,
+        48
+      ]
+    },
+    {
+      "id": "DROPS_STRAY_WISP",
+      "enemy": "ENEMY_STRAY_WISP",
+      "entries": [
+        {
+          "item": "ITEM_WISP_DUST",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_CRYSTAL_DUST",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "ITEM_PHOENIX_DOWN",
+          "chance": 0.03,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.37
+        }
+      ],
+      "gil_range": [
+        15,
+        32
+      ]
+    }
+  ]
+}

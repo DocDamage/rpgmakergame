@@ -1,0 +1,54 @@
+{
+  "npc_id": "union_organizer_steel",
+  "name": "Union Organizer Steel",
+  "title": "Systems Operator",
+  "zone": "obsidian",
+  "location": "The Smog-Choked Sky Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "pragmatic_clockwork_intense",
+  "occupation": "field_engineer",
+  "dialog": {
+    "greeting": [
+      "Union Organizer Steel on comms. Stage 1: The Smog-Choked Sky. Keep formation tight and decisions tighter.",
+      "We are running Gears of Industry. Objective drift gets teams buried.",
+      "I put fear on a schedule. It keeps missing meetings.",
+      "Action first, panic never. Start with: Enter the Industrial Zone."
+    ],
+    "quest_hook": "Objective stack: Enter the Industrial Zone; Witness worker conditions; Meet with Steel's network. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Enter Obsidian and witness the industrial exploitation. Immediate move: Enter the Industrial Zone.",
+    "quest_complete": "Stage 1 resolved: The Smog-Choked Sky. Primary objective secured and route stabilized. Prepare for Factory of Souls.",
+    "rumor": [
+      "Shift bells ring a sixth time on nights with heavy seam activity.",
+      "People keep repeating one clue from The Smog-Choked Sky: 'Meet with Steel's network'.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking."
+    ],
+    "ambient_barks": [
+      "Check pressure.",
+      "Keep the line hot.",
+      "Tighten the bracket.",
+      "No loose bolts."
+    ],
+    "time_dawn": "Dawn shift change in Obsidian is your cleanest infiltration window.",
+    "time_noon": "Noon overloads lines and tempers alike. Expect mechanical failures.",
+    "time_dusk": "Dusk smog reduces range. Move by waypoint, not by horizon.",
+    "time_night": "Night whistles from broken pipes mimic voices. Confirm identities before opening doors."
+  },
+  "party_reactions": {
+    "kade": "Union Organizer Steel sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Union Organizer Steel accepted. Probability of success improves with compliance.",
+    "twist": "Union Organizer Steel talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "obsidian_gears_industry"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+    "world_break_aware": true
+  }
+}

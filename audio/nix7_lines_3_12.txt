@@ -1,0 +1,139 @@
+chroma_edge_script_part3.md:431:Ashborn resonance detected.
+chroma_edge_script_part3.md:641:…Kade.
+chroma_edge_script_part3.md:702:The Arbiter… took the relics.
+chroma_edge_script_part3.md:710:He doesn't need all of them.
+chroma_edge_script_part3.md:816:He is… overwritten.
+chroma_edge_script_part3.md:832:The Omega pedestals… were lies.
+chroma_edge_script_part3.md:856:Growth first.
+chroma_edge_script_part3.md:925:I can seat the relic here.
+chroma_edge_script_part3.md:946:Prime seating… initiated.
+chroma_edge_script_part3.md:989:I am fine.
+chroma_edge_script_part3.md:1008:Motion is next.
+chroma_edge_script_part3.md:1039:It remembers us.
+chroma_edge_script_part3.md:1051:If I seat this… I can also recalibrate the local terminal.
+chroma_edge_script_part4.md:23:The Luminant Cavern is calling.
+chroma_edge_script_part4.md:30:Everything can be afraid.
+chroma_edge_script_part4.md:170:Guardian protocol detected.
+chroma_edge_script_part4.md:204:It is… relieved.
+chroma_edge_script_part4.md:224:Seating will take three cycles.
+chroma_edge_script_part4.md:323:…It's watching.
+chroma_edge_script_part4.md:377:The Heartstone is a true seat.
+chroma_edge_script_part4.md:384:Yes.
+chroma_edge_script_part4.md:481:Heat wants to be held.
+chroma_edge_script_part4.md:631:Not yet.
+chroma_edge_script_part4.md:654:The Abyssal Trench is awake.
+chroma_edge_script_part4.md:711:…Yes.
+chroma_edge_script_part4.md:761:There is a Prime seat nearby.
+chroma_edge_script_part5.md:109:Mira… why are you helping?
+chroma_edge_script_part5.md:140:Prime Pedestal confirmed.
+chroma_edge_script_part5.md:146:Doctor… you must hold the Abyss Pearl.
+chroma_edge_script_part5.md:309:Mass is calling next.
+chroma_edge_script_part5.md:346:I detect a relic-frequency.
+chroma_edge_script_part5.md:519:You are a guardian.
+chroma_edge_script_part5.md:541:It is not Dominion-made.
+chroma_edge_script_part5.md:565:There is a choice.
+chroma_edge_script_part5.md:626:Prime seating location has updated.
+chroma_edge_script_part5.md:631:Sixth pedestal.
+chroma_edge_script_part6.md:20:The pedestal is close.
+chroma_edge_script_part6.md:57:If I seat this… Mass stabilizes.
+chroma_edge_script_part6.md:66:It does.
+chroma_edge_script_part6.md:186:Someone is… pulling the minutes.
+chroma_edge_script_part6.md:219:Chronosphere resonance detected.
+chroma_edge_script_part6.md:257:You are afraid.
+chroma_edge_script_part6.md:265:You are.
+chroma_edge_script_part6.md:327:We are ruled by our choices.
+chroma_edge_script_part6.md:375:Prime pedestal location updated.
+chroma_edge_script_part6.md:389:…This is old.
+chroma_edge_script_part6.md:396:Progenitor direct-link.
+chroma_edge_script_part6.md:412:You are… a weapon.
+chroma_edge_script_part6.md:424:It is… offering synchronization.
+chroma_edge_script_part6.md:440:(matter-of-fact)
+chroma_edge_script_part6.md:487:This seat is… high authority.
+chroma_edge_script_part6.md:533:Signal source identified.
+chroma_edge_script_part6.md:612:Foundation signature: Authority. Freedom. War.
+chroma_edge_script_part6.md:668:Kellen Verne is the Shadow lieutenant.
+chroma_edge_script_part6.md:705:He is listening.
+chroma_edge_script_part7.md:81:The Umbral Void Sanctum is near.
+chroma_edge_script_part7.md:88:Yes.
+chroma_edge_script_part7.md:114:I am… the right kind of afraid.
+chroma_edge_script_part7.md:120:It is accurate.
+chroma_edge_script_part7.md:147:It is closer.
+chroma_edge_script_part7.md:188:Shadow stores what is lost.
+chroma_edge_script_part7.md:209:This gate recognizes… authority.
+chroma_edge_script_part7.md:215:Yes.
+chroma_edge_script_part7.md:310:No.
+chroma_edge_script_part7.md:388:There may be… a third option.
+chroma_edge_script_part7.md:397:We do not.
+chroma_edge_script_part7.md:440:Hold on.
+chroma_edge_script_part7.md:467:You can read it?
+chroma_edge_script_part7.md:565:Final seat.
+chroma_edge_script_part7.md:632:It—
+chroma_edge_script_part7.md:665:The Tower is a convergence.
+chroma_edge_script_part8.md:13:The Tower does not permit external resonances.
+chroma_edge_script_part8.md:39:It is not a building.
+chroma_edge_script_part8.md:79:It's… curious.
+chroma_edge_script_part8.md:85:It already knows.
+chroma_edge_script_part8.md:150:No.
+chroma_edge_script_part8.md:197:Then we change the ending.
+chroma_edge_script_part8.md:217:Prime Recalibration… available.
+chroma_edge_script_part8.md:252:No.
+chroma_edge_script_part8.md:262:Yes.
+chroma_edge_script_part8.md:445:I hear many things.
+chroma_edge_script_part8.md:644:The building is… being edited.
+chroma_edge_script_part8.md:761:The Tower is reacting to Prime authority.
+chroma_edge_script_part9.md:19:It is… adapting.
+chroma_edge_script_part9.md:78:Floor 50 is… loud.
+chroma_edge_script_part9.md:121:No.
+chroma_edge_script_part9.md:158:Then we remove the stamp.
+chroma_edge_script_part9.md:223:Keep moving.
+chroma_edge_script_part9.md:262:Your faith is fear wearing perfume.
+chroma_edge_script_part9.md:319:It will be a door that wants blood.
+chroma_edge_script_part9.md:356:Not him.
+chroma_edge_script_part9.md:395:No.
+chroma_edge_script_part9.md:455:Floor 49 is the lock.
+chroma_edge_script_part9.md:505:Prime is not a leash.
+chroma_edge_script_part9.md:711:We are close to Mercer.
+chroma_edge_script_part9.md:741:It will test us.
+chroma_edge_script_part9.md:780:Yes.
+chroma_edge_script_part9.md:833:I hear you.
+chroma_edge_script_part9.md:874:You are not the Engine.
+chroma_edge_script_part10.md:20:Prime network… denies your rewrite.
+chroma_edge_script_part10.md:68:I do not care what it likes.
+chroma_edge_script_part10.md:151:You needed Prime online to open the upper Tower.
+chroma_edge_script_part10.md:196:That is not Mercer.
+chroma_edge_script_part10.md:283:Upper Tower is unstable.
+chroma_edge_script_part10.md:334:This floor… is trying to isolate me.
+chroma_edge_script_part10.md:355:No.
+chroma_edge_script_part10.md:415:…Someone is ahead.
+chroma_edge_script_part10.md:480:Mercer is not authority.
+chroma_edge_script_part10.md:533:Prime can partition.
+chroma_edge_script_part10.md:548:Partitioning…
+chroma_edge_script_part10.md:598:Floor 60 is where the Tower stops pretending it's a building.
+chroma_edge_script_part11.md:30:It is trying to map my interface signature… into their pattern.
+chroma_edge_script_part11.md:69:…It's pulling.
+chroma_edge_script_part11.md:79:If I stop… it learns faster.
+chroma_edge_script_part11.md:127:I can.
+chroma_edge_script_part11.md:137:I know.
+chroma_edge_script_part11.md:164:I am fine.
+chroma_edge_script_part11.md:207:This hall is a conduit.
+chroma_edge_script_part11.md:286:The Mouth is… closer now.
+chroma_edge_script_part11.md:308:If I burn out, you will still climb.
+chroma_edge_script_part11.md:318:I am not afraid of ending.
+chroma_edge_script_part11.md:394:Then we become louder than the echo.
+chroma_edge_script_part11.md:440:We are not probabilities.
+chroma_edge_script_part11.md:508:…This floor is tuned to me.
+chroma_edge_script_part11.md:548:Prime Partition… ready.
+chroma_edge_script_part11.md:571:…Stop… pulling…
+chroma_edge_script_part11.md:609:Partition… window… open!
+chroma_edge_script_part11.md:664:I am… here.
+chroma_edge_script_part12.md:24:Not long enough.
+chroma_edge_script_part12.md:47:Law. Faith. Voice.
+chroma_edge_script_part12.md:105:Law and Faith… remain active.
+chroma_edge_script_part12.md:277:Only Voice remains.
+chroma_edge_script_part12.md:289:Vos…
+chroma_edge_script_part12.md:300:Holding it costs… me.
+chroma_edge_script_part12.md:316:He becomes a weapon again.
+chroma_edge_script_part12.md:361:The Tower remembers pain.
+chroma_edge_script_part12.md:428:Shadow authority is here.
+chroma_edge_script_part12.md:503:Then tell us how to do it right.
+chroma_edge_script_part12.md:554:I know.

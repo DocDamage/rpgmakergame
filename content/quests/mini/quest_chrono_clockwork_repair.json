@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_clockwork_repair",
+  "name": "Gears of Eternity",
+  "zone": "chrono",
+  "giver": "pigman_clockwork",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Great Clock that regulates Chrono's time flow is malfunctioning! Time is speeding up in some areas, slowing in others! If it breaks completely, time could stop—or accelerate infinitely! Someone needs to enter the mechanism and repair it from inside!",
+      "objective": "Enter the Great Clock mechanism and diagnose the malfunction"
+    },
+    "progress": {
+      "dialog": "The Chronospring is cracked! You need to replace it while the clock is running—meaning you'll experience time at different speeds in different gears! Move fast when time is slow, be careful when time accelerates!",
+      "objective": "Replace the Chronospring while navigating variable time flows"
+    },
+    "complete": {
+      "dialog": "The Great Clock ticks true again! Chrono's time flow stabilizes! The Clockkeepers are in your debt! They present you with this Chrono-Attuned Gear! It can slow time briefly in a small area!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 850,
+        "item": "chrono_attuned_gear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I moved so fast I became a blur! Then I almost fell asleep waiting for a gear!",
+    "twist": "Experiencing variable temporal flow was... disorienting but enlightening.",
+    "nix7": "Temporal fluid dynamics: navigated. Clock repair: successful."
+  }
+}

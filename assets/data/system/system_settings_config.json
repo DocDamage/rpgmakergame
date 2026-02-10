@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "gameplay": {
+      "difficulty": {"type": "select", "options": ["easy", "normal", "hard"], "default": "normal"},
+      "text_speed": {"type": "select", "options": ["slow", "normal", "fast", "instant"], "default": "normal"},
+      "battle_speed": {"type": "slider", "min": 1, "max": 5, "default": 3},
+      "atb_mode": {"type": "select", "options": ["active", "wait"], "default": "active"},
+      "tutorials": {"type": "toggle", "default": true},
+      "damage_numbers": {"type": "toggle", "default": true}
+    },
+    "audio": {
+      "master_volume": {"type": "slider", "min": 0, "max": 100, "default": 80},
+      "bgm_volume": {"type": "slider", "min": 0, "max": 100, "default": 70},
+      "sfx_volume": {"type": "slider", "min": 0, "max": 100, "default": 80},
+      "voice_volume": {"type": "slider", "min": 0, "max": 100, "default": 90}
+    },
+    "video": {
+      "resolution": {"type": "select", "options": ["1280x720", "1920x1080", "fullscreen"], "default": "1920x1080"},
+      "fullscreen": {"type": "toggle", "default": false},
+      "vsync": {"type": "toggle", "default": true},
+      "frame_rate_cap": {"type": "select", "options": [30, 60, 120, 0], "default": 60},
+      "pixel_perfect": {"type": "toggle", "default": true}
+    },
+    "controls": {
+      "keyboard_mapping": {
+        "move_up": ["W", "Up"],
+        "move_down": ["S", "Down"],
+        "move_left": ["A", "Left"],
+        "move_right": ["D", "Right"],
+        "interact": ["Space", "Enter"],
+        "menu": ["Escape", "X"]
+      },
+      "rumble": {"type": "toggle", "default": true}
+    },
+    "language": {
+      "text_language": {"type": "select", "options": ["en", "es", "fr", "de", "ja"], "default": "en"},
+      "voice_language": {"type": "select", "options": ["en", "ja"], "default": "en"}
+    }
+  }
+}

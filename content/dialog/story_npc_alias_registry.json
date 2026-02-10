@@ -1,0 +1,478 @@
+{
+  "id": "story_npc_alias_registry",
+  "description": "Fallback dialog-tree mappings for cinematic story NPC aliases used in content main quests.",
+  "aliases": [
+    {
+      "story_npc": "abyssal",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_abyssal.json"
+    },
+    {
+      "story_npc": "ancient_abyssal",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_ancient_abyssal.json"
+    },
+    {
+      "story_npc": "arena_master_titan",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_arena_master_titan.json"
+    },
+    {
+      "story_npc": "ash_walker_korrin",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_ash_walker_korrin.json"
+    },
+    {
+      "story_npc": "astronomer_nova",
+      "zone": "aetherreach",
+      "quest_id": "aetherreach_sky_sanctuary",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/aetherreach/story_astronomer_nova.json"
+    },
+    {
+      "story_npc": "avatar_of_void",
+      "zone": "void",
+      "quest_id": "void_into_darkness",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/void/story_avatar_of_void.json"
+    },
+    {
+      "story_npc": "blizzard",
+      "zone": "frost",
+      "quest_id": "frost_frozen_path",
+      "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/frost/story_blizzard.json"
+    },
+    {
+      "story_npc": "captain_skysong",
+      "zone": "uplands",
+      "quest_id": "uplands_echoes_past",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/uplands/story_captain_skysong.json"
+    },
+    {
+      "story_npc": "chronos",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_chronos.json"
+    },
+    {
+      "story_npc": "chronos_future",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_chronos_future.json"
+    },
+    {
+      "story_npc": "chronos_past",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_chronos_past.json"
+    },
+    {
+      "story_npc": "chronos_present",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_chronos_present.json"
+    },
+    {
+      "story_npc": "cog",
+      "zone": "obsidian",
+      "quest_id": "obsidian_gears_industry",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/obsidian/story_cog.json"
+    },
+    {
+      "story_npc": "coral",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_coral.json"
+    },
+    {
+      "story_npc": "crystal_of_truth",
+      "zone": "prism",
+      "quest_id": "prism_shattered_light",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/prism/story_crystal_of_truth.json"
+    },
+    {
+      "story_npc": "echo",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_echo.json"
+    },
+    {
+      "story_npc": "echo_of_fallen_ally",
+      "zone": "remnant",
+      "quest_id": "remnant_what_remains",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/remnant/story_echo_of_fallen_ally.json"
+    },
+    {
+      "story_npc": "echo_of_first_progenitor",
+      "zone": "remnant",
+      "quest_id": "remnant_what_remains",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/remnant/story_echo_of_first_progenitor.json"
+    },
+    {
+      "story_npc": "elder_bogwhisper",
+      "zone": "mire",
+      "quest_id": "mire_sinking_truth",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/mire/story_elder_bogwhisper.json"
+    },
+    {
+      "story_npc": "elder_marn",
+      "zone": "dustbelt",
+      "quest_id": "dustbelt_frontier_calling",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/dustbelt/story_elder_marn.json"
+    },
+    {
+      "story_npc": "ember_king_infernus",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_ember_king_infernus.json"
+    },
+    {
+      "story_npc": "false_regent_hollow",
+      "zone": "capital",
+      "quest_id": "capital_fallen_crown",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/capital/story_false_regent_hollow.json"
+    },
+    {
+      "story_npc": "final_guardian_apex",
+      "zone": "tower",
+      "quest_id": "tower_ascent",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tower/story_final_guardian_apex.json"
+    },
+    {
+      "story_npc": "fire_primordial_pyros",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_fire_primordial_pyros.json"
+    },
+    {
+      "story_npc": "flame_seer_ignis",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_flame_seer_ignis.json"
+    },
+    {
+      "story_npc": "frost_warden_glacius",
+      "zone": "frost",
+      "quest_id": "frost_frozen_path",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/frost/story_frost_warden_glacius.json"
+    },
+    {
+      "story_npc": "gardener_cirrus",
+      "zone": "aetherreach",
+      "quest_id": "aetherreach_sky_sanctuary",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/aetherreach/story_gardener_cirrus.json"
+    },
+    {
+      "story_npc": "harbor_master_marin",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_harbor_master_marin.json"
+    },
+    {
+      "story_npc": "high_scholar_vael",
+      "zone": "uplands",
+      "quest_id": "uplands_echoes_past",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/uplands/story_high_scholar_vael.json"
+    },
+    {
+      "story_npc": "high_tide_councilor",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_high_tide_councilor.json"
+    },
+    {
+      "story_npc": "holographic_archivist",
+      "zone": "tower",
+      "quest_id": "tower_ascent",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tower/story_holographic_archivist.json"
+    },
+    {
+      "story_npc": "kade",
+      "zone": "palace",
+      "quest_id": "palace_progenitor_will",
+      "fallback_dialog_tree": "DT_FALLBACK_MISC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/palace/story_kade.json"
+    },
+    {
+      "story_npc": "marsh_guide_ven",
+      "zone": "mire",
+      "quest_id": "mire_sinking_truth",
+      "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/mire/story_marsh_guide_ven.json"
+    },
+    {
+      "story_npc": "master_engineer_gearhart",
+      "zone": "obsidian",
+      "quest_id": "obsidian_gears_industry",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/obsidian/story_master_engineer_gearhart.json"
+    },
+    {
+      "story_npc": "mirror_warden",
+      "zone": "prism",
+      "quest_id": "prism_shattered_light",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/prism/story_mirror_warden.json"
+    },
+    {
+      "story_npc": "nix7",
+      "zone": "aetherreach",
+      "quest_id": "aetherreach_sky_sanctuary",
+      "fallback_dialog_tree": "DT_FALLBACK_MISC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/aetherreach/story_nix7.json"
+    },
+    {
+      "story_npc": "polar_guide_blizzard",
+      "zone": "frost",
+      "quest_id": "frost_frozen_path",
+      "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/frost/story_polar_guide_blizzard.json"
+    },
+    {
+      "story_npc": "princess_pyra",
+      "zone": "ember",
+      "quest_id": "ember_trial_by_fire",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/ember/story_princess_pyra.json"
+    },
+    {
+      "story_npc": "prism_gate_captain",
+      "zone": "prism",
+      "quest_id": "prism_shattered_light",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/prism/story_prism_gate_captain.json"
+    },
+    {
+      "story_npc": "regent_caelum",
+      "zone": "prism",
+      "quest_id": "prism_shattered_light",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/prism/story_regent_caelum.json"
+    },
+    {
+      "story_npc": "remnant_keeper_echoes",
+      "zone": "remnant",
+      "quest_id": "remnant_what_remains",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/remnant/story_remnant_keeper_echoes.json"
+    },
+    {
+      "story_npc": "resistance_leader_sovereign",
+      "zone": "capital",
+      "quest_id": "capital_fallen_crown",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/capital/story_resistance_leader_sovereign.json"
+    },
+    {
+      "story_npc": "scholar_gatekeeper",
+      "zone": "uplands",
+      "quest_id": "uplands_echoes_past",
+      "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/uplands/story_scholar_gatekeeper.json"
+    },
+    {
+      "story_npc": "shadow_of_destroy_path",
+      "zone": "remnant",
+      "quest_id": "remnant_what_remains",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/remnant/story_shadow_of_destroy_path.json"
+    },
+    {
+      "story_npc": "shadow_of_marn",
+      "zone": "void",
+      "quest_id": "void_into_darkness",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/void/story_shadow_of_marn.json"
+    },
+    {
+      "story_npc": "skywarden_stratos",
+      "zone": "aetherreach",
+      "quest_id": "aetherreach_sky_sanctuary",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/aetherreach/story_skywarden_stratos.json"
+    },
+    {
+      "story_npc": "sovereign",
+      "zone": "capital",
+      "quest_id": "capital_fallen_crown",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/capital/story_sovereign.json"
+    },
+    {
+      "story_npc": "spy_master_veil",
+      "zone": "capital",
+      "quest_id": "capital_fallen_crown",
+      "fallback_dialog_tree": "DT_FALLBACK_MISC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/capital/story_spy_master_veil.json"
+    },
+    {
+      "story_npc": "steel",
+      "zone": "obsidian",
+      "quest_id": "obsidian_gears_industry",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/obsidian/story_steel.json"
+    },
+    {
+      "story_npc": "survivor_coral",
+      "zone": "tide",
+      "quest_id": "tide_depths_mystery",
+      "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tide/story_survivor_coral.json"
+    },
+    {
+      "story_npc": "temporal_refugee_echo",
+      "zone": "chrono",
+      "quest_id": "chrono_against_time",
+      "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/chrono/story_temporal_refugee_echo.json"
+    },
+    {
+      "story_npc": "thane_iceheart",
+      "zone": "frost",
+      "quest_id": "frost_frozen_path",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/frost/story_thane_iceheart.json"
+    },
+    {
+      "story_npc": "the_first_progenitor",
+      "zone": "palace",
+      "quest_id": "palace_progenitor_will",
+      "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/palace/story_the_first_progenitor.json"
+    },
+    {
+      "story_npc": "tower_warden_construct",
+      "zone": "tower",
+      "quest_id": "tower_ascent",
+      "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/tower/story_tower_warden_construct.json"
+    },
+    {
+      "story_npc": "union_organizer_steel",
+      "zone": "obsidian",
+      "quest_id": "obsidian_gears_industry",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/obsidian/story_union_organizer_steel.json"
+    },
+    {
+      "story_npc": "ven",
+      "zone": "mire",
+      "quest_id": "mire_sinking_truth",
+      "fallback_dialog_tree": "DT_AMBIENT_SCAVENGER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/mire/story_ven.json"
+    },
+    {
+      "story_npc": "vesper_venom",
+      "zone": "mire",
+      "quest_id": "mire_sinking_truth",
+      "fallback_dialog_tree": "DT_AMBIENT_SCAVENGER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/mire/story_vesper_venom.json"
+    },
+    {
+      "story_npc": "village_healer_spring",
+      "zone": "frost",
+      "quest_id": "frost_frozen_path",
+      "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/frost/story_village_healer_spring.json"
+    },
+    {
+      "story_npc": "whistleblower_cog",
+      "zone": "obsidian",
+      "quest_id": "obsidian_gears_industry",
+      "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+      "mode": "bespoke_story_dialog",
+      "dialog_file": "content/dialog/npcs/obsidian/story_whistleblower_cog.json"
+    }
+  ]
+}

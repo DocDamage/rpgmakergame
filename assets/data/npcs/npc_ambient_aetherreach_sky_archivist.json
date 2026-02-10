@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_AETHERREACH_SKY_ARCHIVIST",
+  "name": "Aetherreach Sky Archivist",
+  "title": "Elder Archivist",
+  "location": "T_AETHERREACH_112x72",
+  "coords": [
+    18,
+    23
+  ],
+  "schedule": {
+    "day": [
+      18,
+      23
+    ],
+    "night": [
+      17,
+      24
+    ],
+    "rain": [
+      18,
+      24
+    ]
+  },
+  "sprite": "NPC_SCHOLAR_ELDER",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+  "shop": null,
+  "quests": [],
+  "faction": "AETHERREACH",
+  "attitude": "neutral",
+  "background": "Preserves oral and written records through the crisis. Stationed in Aetherreach.",
+  "personality": "Measured, cryptic, and deeply patient.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "history",
+    "archives"
+  ]
+}

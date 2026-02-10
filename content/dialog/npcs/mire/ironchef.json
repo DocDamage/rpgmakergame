@@ -1,0 +1,83 @@
+{
+  "npc_id": "ironchef_mire",
+  "name": "Gus 'The Iron' Skillet",
+  "sprite": "ironchef",
+  "zone": "mire",
+  "location": "The Iron Skillet (Roadside Grill)",
+  "personality": "gruff_passionate_no_nonsense",
+  "occupation": "roadside_grill_chef",
+  "schedule": {
+    "morning": "prepping_meat",
+    "day": "grilling_and_serving",
+    "night": "cleaning_grill"
+  },
+  "dialog": {
+    "greeting": [
+      "The Iron Skillet! Best grill this side of the Scorched Wastes!",
+      "Gus Skillet! I cook meat! You eat meat! Simple!",
+      "No fancy sauces! No secret recipes! Just fire and iron!",
+      "Step up! Hungry? You will be! The smell alone!",
+      "The grill is hot! The meat is fresh! What more do you need?",
+      "Iron Chef? Nah. Iron GRILLER! There's a difference!",
+      "I don't do vegetables! Meat! Fish! More meat!",
+      "Tired of swamp food? Come to the Skillet! Taste actual FLAVOR!"
+    ],
+    "grill_philosophy": "Fire. Iron. Meat. That's it. That's cooking. All that other stuff? Distraction. The flame does the work. You just don't get in the way.",
+    "roadside_life": "Grill on wheels! Follow the customers! The Mire, the Dustbelt, wherever hunger calls! No roof, no walls, just smoke and satisfaction!",
+    "backstory": "Used to work the docks. Hated it. Bosses. Unions. Meetings about meetings. One day, I lit a fire and never looked back. Food doesn't argue. Food doesn't organize. Food just... feeds.",
+    "rumors": [
+      "That purple chef in town? Percy? Good cook. Weird. But good. We should grill together sometime.",
+      "The foodboys? Amateurs. Flip's fish is okay. Corny's cornbread is dry. Heat? Heat is a menace.",
+      "Heard the luchador fighter passes through sometimes. Eats ten meals at once. Respect.",
+      "That barrelgob knows things about the old dock days. Things I don't talk about."
+    ],
+    "ambient_barks": [
+      "Grill's hot!",
+      "Fresh meat!",
+      "No substitutes!",
+      "Fire's perfect!",
+      "Smoke and flavor!",
+      "Skillet style!"
+    ],
+    "time_of_day": {
+      "morning": "Morning prep! Fire needs building! Meat needs spicing!",
+      "noon": "Lunch rush! The grill never stops!",
+      "evening": "Evening feast! Best time for serious eating!",
+      "night": "Last call! Grill needs cleaning! Tomorrow we start again!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_cut",
+    "quest_name": "The Master Cut",
+    "stage_1_hook": "I need the perfect cut. Bog-boar ribs. The big ones. From the alpha male in the Deep Muck. Dangerous? Sure. Worth it? Absolutely. You look like you can handle a boar.",
+    "stage_1_active": "Alpha bog-boar. Big tusks, scarred hide, attitude problem. His ribs are legendary. Bring them to me.",
+    "stage_2_progress": "Been to the Deep Muck? Seen my boar? Careful - he's meaner than he looks.",
+    "stage_2_item_needed": "alpha_bog_boar_ribs",
+    "stage_3_complete": "THOSE RIBS! Look at the marbling! The color! This will be my masterpiece! Here - eat free at the Skillet, anytime. And take this. My personal spice blend. Don't share it.",
+    "reward": "gus_iron_spice_blend"
+  },
+  "party_reactions": {
+    "kade": "Simple. Honest. Good. I needed this.",
+    "nix7": "Protein delivery system. Efficient. No unnecessary complexity.",
+    "twist": "MEAT! GRILLED MEAT! SO MUCH MEAT!",
+    "korr": "A warrior's meal. Simple. Satisfying. Strong.",
+    "renna": "No magic in his cooking. Just skill. I find that refreshing.",
+    "suresh": "He understands fire. Truly understands it. I respect that.",
+    "sova": "Good food. Good portions. No questions asked.",
+    "grit": "Reminds me of field cooking. Simple. Hearty. Good.",
+    "ashka": "The fire... he controls it well. Better than most.",
+    "senna": "Good location. Sees everyone pass by. And the meat's decent.",
+    "callum": "I ate until I couldn't move! Best day ever!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Try the house special. Don't ask what's in it. Just enjoy.",
+    "acquaintance": "Back for more! Knew you had good taste!",
+    "friend": "Regular! I'll save you the best cuts!",
+    "best_friend": "You've eaten at my grill more times than I can count. You're family now. Here. My father's grill knife. Use it well."
+  },
+  "cross_npc_connections": [
+    "pigman_purple: Percy. Weird little guy. Good cook, though. We talk shop sometimes.",
+    "foodboys_blue: Flip tries hard. Respect that. But frying ain't grilling.",
+    "lucha_blue: The fighter. Eats enough for three men. Pays enough for four. Good customer."
+  ]
+}

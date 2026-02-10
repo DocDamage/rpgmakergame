@@ -1,0 +1,44 @@
+{
+  "id": "NPC_TERMINAL_OPERATOR",
+  "name": "Terminal Operator",
+  "title": "Chrono Technician",
+  "location": "T_CHRONOWAKE_112x72",
+  "coords": [
+    56,
+    26
+  ],
+  "schedule": {
+    "day": [
+      56,
+      26
+    ],
+    "night": [
+      56,
+      26
+    ],
+    "rain": [
+      56,
+      26
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_TERMINAL_OPERATOR_MAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "CHRONOWAKE",
+  "attitude": "neutral",
+  "background": "Chronowake technician assigned to stabilize terminal timing and route safety.",
+  "personality": "Methodical and precise, speaks in short technical bursts.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "fast_travel",
+    "route_info"
+  ],
+  "voice_lines": {
+    "greet": "vo_terminal_operator_greet"
+  }
+}

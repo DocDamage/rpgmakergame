@@ -1,0 +1,95 @@
+{
+  "id": "EMBER_ENCOUNTERS",
+  "region": "ember",
+  "maps": [
+    "T_CINDERSTEP_112x72",
+    "D4_SKYSPIRE_96x96",
+    "HID_DRAGON_96x64",
+    "MIC_R07_104x56"
+  ],
+  "encounter_rate": 0.12,
+  "min_steps": 11,
+  "max_steps": 24,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_EMBER_RUNNER"
+      ],
+      "weight": 36,
+      "min_steps": 10,
+      "gil_range": [
+        25,
+        42
+      ],
+      "xp": 48
+    },
+    {
+      "enemies": [
+        "ENEMY_HEAT_CASTER"
+      ],
+      "weight": 30,
+      "min_steps": 12,
+      "gil_range": [
+        30,
+        50
+      ],
+      "xp": 55
+    },
+    {
+      "enemies": [
+        "ENEMY_SLAG_MOTE",
+        "ENEMY_SLAG_MOTE"
+      ],
+      "weight": 24,
+      "min_steps": 9,
+      "gil_range": [
+        30,
+        50
+      ],
+      "xp": 60
+    },
+    {
+      "enemies": [
+        "ENEMY_EMBER_RUNNER",
+        "ENEMY_HEAT_CASTER"
+      ],
+      "weight": 16,
+      "min_steps": 15,
+      "gil_range": [
+        55,
+        92
+      ],
+      "xp": 103
+    },
+    {
+      "enemies": [
+        "ENEMY_EMBER_RUNNER",
+        "ENEMY_EMBER_RUNNER",
+        "ENEMY_SLAG_MOTE"
+      ],
+      "weight": 9,
+      "min_steps": 18,
+      "rare": true,
+      "gil_range": [
+        65,
+        109
+      ],
+      "xp": 122
+    },
+    {
+      "enemies": [
+        "ENEMY_HEAT_CASTER",
+        "ENEMY_SLAG_MOTE",
+        "ENEMY_SLAG_MOTE"
+      ],
+      "weight": 5,
+      "min_steps": 20,
+      "rare": true,
+      "gil_range": [
+        60,
+        100
+      ],
+      "xp": 112
+    }
+  ]
+}

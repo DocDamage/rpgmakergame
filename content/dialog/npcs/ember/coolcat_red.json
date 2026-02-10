@@ -1,0 +1,71 @@
+{
+  "npc_id": "coolcat_red_ember",
+  "name": "Steel-Drum Stellan",
+  "sprite": "coolcat_red",
+  "zone": "ember",
+  "location": "Molten Melody Tavern",
+  "personality": "laid_back_musical",
+  "occupation": "metal_bard",
+  "schedule": "performs_evenings",
+  "dialog": {
+    "greeting": [
+      "Hey, hey... feel the rhythm. Steel-Drum Stellan, at your service.",
+      "The metal sings, friend. You just gotta listen.",
+      "Welcome to the groove zone. No rush, no worry, just beats.",
+      "Back for more steel-drum soul? I got plenty to give.",
+      "The heat's high, but the vibes are chill. That's the Stellan way.",
+      "Grab a drink. Grab a seat. Let the rhythm move your feet.",
+      "I don't just play drums. I play... emotions. Heavy, right?",
+      "The forge has heat. I have beats. Together? Perfect harmony."
+    ],
+    "performance_invite": "I'm on at eight. Steel drums in a magma zone - where else you gonna hear THAT?",
+    "steel_drum_origin": "Found these drums in a Dustbelt junkyard. Fixed 'em up. Added some... thermal enhancements. Now they sing.",
+    "musical_philosophy": "Music's like metal. Gotta heat it up, hammer it out, let it cool into something beautiful. Deep, right?",
+    "zone_inspiration": "Ember's all about contrast. Hot and cool. Loud and quiet. I play the spaces between.",
+    "song_requests": "Requests? Sure, I take requests. Can't promise I'll play 'em. I follow the groove, not the crowd.",
+    "rumor": [
+      "Tide's got shanties that'll break your heart. Salt water and sorrow, man.",
+      "Mire's music is... swampy. Not my style, but I respect it.",
+      "Frost has ice instruments. Bell tones. Ethereal. Too cold for me, though.",
+      "Heard there's a synth player in Prism. Electronic. FUTURE, man."
+    ],
+    "lucha_collaboration": "El Scorcho wants me to play his entrance music. I'm thinking something... dramatic. With FIRE SOUNDS!",
+    "farewell": [
+      "Keep it groovy, friend. The rhythm goes with you.",
+      "Don't let the heat steal your cool.",
+      "Come back when you need your soul soothed. Steel-drum style.",
+      "Peace, love, and percussion. That's the Stellan guarantee."
+    ],
+    "ambient_barks": [
+      "Tap, tap, tapping...",
+      "Feel the beat...",
+      "Rhythm of the heat...",
+      "Steel singing sweet...",
+      "Groove on, groove on...",
+      "Hot beats, cool cat..."
+    ],
+    "time_dawn": "Morning warm-up. Gentle rhythms. The day wakes slow.",
+    "time_noon": "Midday practice. Working on new material. Hotter beats.",
+    "time_dusk": "Showtime! The crowd flows in. The music flows out.",
+    "time_night": "Late night grooves. For the night owls and the soul searchers."
+  },
+  "party_reactions": {
+    "kade": "You're so... cool. Is it the sunglasses? Or the attitude?",
+    "nix7": "Musical proficiency detected. Emotional resonance: anomalous for environment.",
+    "twist": "DRUMS! Can I play?! I'll be gentle! Mostly!",
+    "korr": "Music calms the spirit. Even in chaos.",
+    "renna": "The thermal modifications to your drums are fascinating. May I examine them?",
+    "suresh": "Art soothes where words fail. Your music is... soothing.",
+    "sova": "Not usually my scene. But... this is nice.",
+    "grit": "Reminds me of camp music. Between the battles. Good times.",
+    "ashka": "Your fire is... different. Quiet. I like it.",
+    "senna": "I could hide in this rhythm. Blend in. Useful.",
+    "callum": "This is so relaxing! Can you play something... happier?"
+  },
+  "relationship_dialog": {
+    "stranger": "Hey, new face. Enjoy the vibe.",
+    "acquaintance": "You're back. Must like the music. Or the heat.",
+    "friend": "My friend! Got a new composition I want you to hear.",
+    "best_friend": "You get it. The rhythm, the heat, the soul. Here - my spare drumsticks. You're family now."
+  }
+}

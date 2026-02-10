@@ -1,0 +1,35 @@
+{
+  "credits": {
+    "developer": {
+      "title": "Created By",
+      "name": "Doc Damage",
+      "role": "Solo Developer"
+    },
+    "sections": [
+      {
+        "title": "Game Design",
+        "entries": [
+          {"role": "Director", "name": "Doc Damage"},
+          {"role": "Story & Writing", "name": "Doc Damage"},
+          {"role": "System Design", "name": "Doc Damage"}
+        ]
+      },
+      {
+        "title": "Art & Visual",
+        "entries": [
+          {"role": "Character Art", "name": "Doc Damage"},
+          {"role": "Environment Art", "name": "Doc Damage"},
+          {"role": "UI Design", "name": "Doc Damage"}
+        ]
+      },
+      {
+        "title": "Special Thanks",
+        "entries": [
+          {"role": "Inspiration", "name": "Classic JRPGs"},
+          {"role": "Community", "name": "Indie Dev Community"}
+        ]
+      }
+    ],
+    "copyright": "© 2026 Doc Damage. All rights reserved."
+  }
+}

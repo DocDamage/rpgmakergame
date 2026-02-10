@@ -1,0 +1,86 @@
+quest_file,quest_id,act,stage,stage_name,npc,target_location_id,target_location_name,target_location_type,target_location_exists
+quest_aetherreach_sky_sanctuary.json,aetherreach_sky_sanctuary,post_game,1,Beyond the Clouds,skywarden_stratos,T_AETHERREACH_112x72,Aetherreach,town,yes
+quest_aetherreach_sky_sanctuary.json,aetherreach_sky_sanctuary,post_game,2,Stellar Observers,astronomer_nova,T_AETHERREACH_112x72,Aetherreach,town,yes
+quest_aetherreach_sky_sanctuary.json,aetherreach_sky_sanctuary,post_game,3,The Sky Gardens,gardener_cirrus,T_AETHERREACH_112x72,Aetherreach,town,yes
+quest_aetherreach_sky_sanctuary.json,aetherreach_sky_sanctuary,post_game,4,Nix7's Origin,nix7,T_AETHERREACH_112x72,Aetherreach,town,yes
+quest_aetherreach_sky_sanctuary.json,aetherreach_sky_sanctuary,post_game,5,Sanctuary of Peace,skywarden_stratos,T_AETHERREACH_112x72,Aetherreach,town,yes
+quest_capital_fallen_crown.json,capital_fallen_crown,4,1,The Golden Cage,resistance_leader_sovereign,T_LUMENCREST_OUTER_112x72,Old Lumencrest: Outer Wards,town,yes
+quest_capital_fallen_crown.json,capital_fallen_crown,4,2,Shadows in the Palace,spy_master_veil,T_CROWN_HUB_112x72,Crown District Hub,town,yes
+quest_capital_fallen_crown.json,capital_fallen_crown,4,3,The Usurper's Throne,false_regent_hollow,T_CROWN_HUB_112x72,Crown District Hub,town,yes
+quest_capital_fallen_crown.json,capital_fallen_crown,4,4,Seven Crystals United,sovereign,T_CROWN_HUB_112x72,Crown District Hub,town,yes
+quest_capital_fallen_crown.json,capital_fallen_crown,4,5,The Void Zone Beckons,nix7,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_chrono_against_time.json,chrono_against_time,3,1,Where Time Folds,temporal_refugee_echo,MIC_R14_128x56,Chronowake Breakwater,route,yes
+quest_chrono_against_time.json,chrono_against_time,3,2,The Fractured Guardian,chronos_past,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_chrono_against_time.json,chrono_against_time,3,3,Healing the Flow,chronos_present,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_chrono_against_time.json,chrono_against_time,3,4,The Future That Waits,chronos_future,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_chrono_against_time.json,chrono_against_time,3,5,Capital Intrigue,echo,T_MERIDIAN_112x72,Meridian Junction,town,yes
+quest_chrono_against_time.json,chrono_against_time,3,6,All Roads Lead,chronos,T_LUMENCREST_OUTER_112x72,Old Lumencrest: Outer Wards,town,yes
+quest_dustbelt_frontier_calling.json,dustbelt_frontier_calling,1,1,Awakening in the Dust,elder_marn,MIC_R01A_48x32,Dusthaven Outskirts,route,yes
+quest_dustbelt_frontier_calling.json,dustbelt_frontier_calling,1,2,The Salvager's Plea,nix7,MIC_R01B_96x40,Dustbelt Track,route,yes
+quest_dustbelt_frontier_calling.json,dustbelt_frontier_calling,1,3,Rusthaven's Defense,elder_marn,MIC_R01A_48x32,Dusthaven Outskirts,route,yes
+quest_dustbelt_frontier_calling.json,dustbelt_frontier_calling,1,4,The Path to the Uplands,nix7,MIC_R02_80x48,Ashveil Fellpath,route,yes
+quest_dustbelt_frontier_calling.json,dustbelt_frontier_calling,1,5,A New Beginning,elder_marn,T_ASHVEIL_112x72,Ashveil Sanctuary,town,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,1,The Scorched Path,ash_walker_korrin,MIC_R07_104x56,Suncleft Switchbacks,route,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,2,The Forge City's Welcome,arena_master_titan,T_CINDERSTEP_112x72,Cinderstep,town,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,3,The Burning Heart,flame_seer_ignis,D4_BURNING_HEART_64x64,Burning Heart Chamber,story_setpiece,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,4,King of Fire and Ash,ember_king_infernus,T_CINDERSTEP_112x72,Cinderstep,town,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,5,Princess of the Pyre,princess_pyra,D4_CALDERA_TRIALS_96x80,Caldera of Trials,story_setpiece,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,6,The Fire Primordial,fire_primordial_pyros,D4_CALDERA_TRIALS_96x80,Caldera of Trials,story_setpiece,yes
+quest_ember_trial_by_fire.json,ember_trial_by_fire,2,7,The Tide Calls,ember_king_infernus,MIC_R09_120x56,Saltflare Coastway,route,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,1,The Howling White,polar_guide_blizzard,MIC_R12_112x56,Rimeward Ascent,route,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,2,The Frozen Court,thane_iceheart,T_RIMEHOLD_112x72,Rimehold,town,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,3,Spire of Frozen Eternity,frost_warden_glacius,D7_SPIRE_OF_ETERNITY_80x96,Spire of Frozen Eternity,story_setpiece,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,4,The Warmth Within,village_healer_spring,D7_FROZEN_96x96,Frozen Citadel,dungeon,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,5,Echoes of the Before,blizzard,D_ARCHIVE_112x96,Archive District,dungeon,yes
+quest_frost_frozen_path.json,frost_frozen_path,3,6,Chrono Anomalies,thane_iceheart,MIC_R14_128x56,Chronowake Breakwater,route,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,1,The Fetid Approach,marsh_guide_ven,MIC_R03_104x56,Marshroad Way,route,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,2,Council of Despair,elder_bogwhisper,T_MIREWATCH_112x72,Mirewatch,town,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,3,Heart of the Blight,ven,D2_FUNGAL_96x96,Fungal Depths,dungeon,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,4,Venom's Truth,vesper_venom,D2_FUNGAL_96x96,Fungal Depths,dungeon,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,5,Cauterizing the Wound,ven,D2_FUNGAL_96x96,Fungal Depths,dungeon,yes
+quest_mire_sinking_truth.json,mire_sinking_truth,1,6,The Prism Beckons,elder_bogwhisper,T_PRISMRIDGE_112x72,Prismridge,town,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,1,The Smog-Choked Sky,union_organizer_steel,MIC_R08_72x40,Ember Stair Approach,route,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,2,Factory of Souls,whistleblower_cog,D6_FACTORY_OF_SOULS_96x80,Factory of Souls,story_setpiece,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,3,The Worker's Uprising,steel,D6_OBSIDIAN_96x96,Obsidian Quarry,dungeon,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,4,The Crystal of Industry,cog,D6_FACTORY_OF_SOULS_96x80,Factory of Souls,story_setpiece,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,5,The Ironclad Offer,master_engineer_gearhart,T_CINDERSTEP_112x72,Cinderstep,town,yes
+quest_obsidian_gears_industry.json,obsidian_gears_industry,3,6,North to Frost,steel,MIC_R12_112x56,Rimeward Ascent,route,yes
+quest_palace_progenitor_will.json,palace_progenitor_will,5,1,The Garden of Origin,the_first_progenitor,PAL_GARDEN_OF_ORIGIN_96x80,Garden of Origin,story_setpiece,yes
+quest_palace_progenitor_will.json,palace_progenitor_will,5,2,The Three Choices,the_first_progenitor,PAL_F5_80x80,Palace Floor 5: Progenitor Engine,palace,yes
+quest_palace_progenitor_will.json,palace_progenitor_will,5,3,The Council of Allies,kade,PAL_REWARD_48x32,Final Palace Reward Sanctum,palace,yes
+quest_palace_progenitor_will.json,palace_progenitor_will,5,4,The Choice Made,the_first_progenitor,PAL_GARDEN_OF_ORIGIN_96x80,Garden of Origin,story_setpiece,yes
+quest_palace_progenitor_will.json,palace_progenitor_will,5,5,The New Dawn,kade,OW_ORION_320x180,Orion Overworld,overworld,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,1,The City of Glass,prism_gate_captain,T_PRISMRIDGE_112x72,Prismridge,town,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,2,The Regent's Revelation,regent_caelum,T_PRISMRIDGE_112x72,Prismridge,town,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,3,Mirror of the Soul,mirror_warden,D3_LABYRINTH_REFLECTIONS_80x80,Labyrinth of Reflections,story_setpiece,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,4,The Crystal Awakens,crystal_of_truth,D3_CRYSTAL_96x96,Crystal Caverns,dungeon,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,5,Shadows in the Glass,regent_caelum,T_PRISMRIDGE_112x72,Prismridge,town,yes
+quest_prism_shattered_light.json,prism_shattered_light,2,6,The Ember Challenge,regent_caelum,MIC_R07_104x56,Suncleft Switchbacks,route,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,1,The Edge of Memory,remnant_keeper_echoes,RV_EDGE_OF_MEMORY_96x80,Edge of Memory,story_setpiece,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,2,Ghosts of Paths Not Taken,shadow_of_destroy_path,RV_WING_A_96x64,Cinder-Scar Gallery,post_game,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,3,The Lost Companions,echo_of_fallen_ally,RV_WING_B_96x64,Edited Archive Annex,post_game,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,4,The Unraveling Revealed,remnant_keeper_echoes,RV_CORE_64x64,Core Vault Arena,post_game,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,5,The Keeper's Request,echo_of_first_progenitor,RV_GATEHOUSE_96x72,Remnant Gatehouse Hub,post_game,yes
+quest_remnant_what_remains.json,remnant_what_remains,post_game,6,What Remains Is Hope,kade,OW_ORION_320x180,Orion Overworld,overworld,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,1,The Silent Harbor,harbor_master_marin,T_BRINEGATE_112x72,Brinegate Port,town,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,2,Sunken City of Tides,survivor_coral,D5_SUNKEN_CITY_TIDES_96x96,Sunken City of Tides,story_setpiece,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,3,The Corrupted Council,coral,D5_SUNKEN_CITY_TIDES_96x96,Sunken City of Tides,story_setpiece,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,4,The Deep Walker,ancient_abyssal,D5_ABYSS_96x96,Abyssal Trench,dungeon,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,5,The Abyssal Vault,abyssal,D5_ABYSSAL_VAULT_80x80,Abyssal Vault,story_setpiece,yes
+quest_tide_depths_mystery.json,tide_depths_mystery,2,6,Rising Tide,high_tide_councilor,T_BRINEGATE_112x72,Brinegate Port,town,yes
+quest_tower_ascent.json,tower_ascent,5,1,The First Steps,nix7,TWR_LOBBY_96x64,Tower Lobby,tower,yes
+quest_tower_ascent.json,tower_ascent,5,2,Trials of the Makers,tower_warden_construct,TWR_ARENA_F75_64x64,Tower Floor 75 Arena,tower_arena,yes
+quest_tower_ascent.json,tower_ascent,5,3,Memories in Stone,holographic_archivist,TWR_ARENA_F90_64x64,Tower Floor 90 Arena,tower_arena,yes
+quest_tower_ascent.json,tower_ascent,5,4,The Penultimate Step,final_guardian_apex,TWR_ARENA_F100_64x64,Tower Floor 100 Arena,tower_arena,yes
+quest_tower_ascent.json,tower_ascent,5,5,The Threshold of Creation,kade,TWR_THRESHOLD_CREATION_96x80,Threshold of Creation,story_setpiece,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,1,The Floating Scholarium,scholar_gatekeeper,MIC_SCHOLARIUM_96x64,Floating Scholarium Approach,story_route,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,2,The Archives Awaken,high_scholar_vael,D_ARCHIVE_112x96,Archive District,dungeon,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,3,The Truth of Creation,high_scholar_vael,D_ARCHIVE_112x96,Archive District,dungeon,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,4,The Sky Pirates,captain_skysong,MIC_SCHOLARIUM_96x64,Floating Scholarium Approach,story_route,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,5,Whispers of the Mire,high_scholar_vael,MIC_R03_104x56,Marshroad Way,route,yes
+quest_uplands_echoes_past.json,uplands_echoes_past,1,6,Descent into Mystery,captain_skysong,MIC_R03_104x56,Marshroad Way,route,yes
+quest_void_into_darkness.json,void_into_darkness,4,1,The Threshold,nix7,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_void_into_darkness.json,void_into_darkness,4,2,Gardens of Absence,ven,D8_GARDENS_OF_ABSENCE_96x80,Gardens of Absence,story_setpiece,yes
+quest_void_into_darkness.json,void_into_darkness,4,3,Echoes of the Lost,shadow_of_marn,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_void_into_darkness.json,void_into_darkness,4,4,The Hunger Itself,avatar_of_void,D8_VOID_112x96,Void Nexus,dungeon,yes
+quest_void_into_darkness.json,void_into_darkness,4,5,The Tower Revealed,abyssal,TWR_LOBBY_96x64,Tower Lobby,tower,yes

@@ -1,0 +1,95 @@
+{
+  "npc_id": "trenchcoat_gray_obsidian",
+  "name": "Agent Slate",
+  "sprite": "trenchcoat_gray",
+  "zone": "obsidian",
+  "location": "Executive Tunnels, Various",
+  "personality": "calculating_secretive_corporate",
+  "occupation": "corporate_spy",
+  "dialog": {
+    "greeting": [
+      "...You're not supposed to be here.",
+      "Slate. Corporate oversight. Nothing more.",
+      "These tunnels have eyes. I'm one of them.",
+      "You ask a lot of questions. Dangerous habit.",
+      "The depths hide many things. I'm here to... inventory them.",
+      "Agent Slate. My presence is unofficial. And unacknowledged.",
+      "Corporate sends its regards. Through me.",
+      "Curious. You don't look like a miner. Or management."
+    ],
+    "cryptic_hint": "The workers think they know the truth. They know a truth. Not THE truth.",
+    "refusal": "Some information is... above your pay grade. Several levels above.",
+    "secret_quest": "Tunnel 7. The board wants it open. The union wants it sealed. Both are wrong. Find out why. Then we'll talk.",
+    "ominous": "Beware the one who wears the company logo. They walk among the workers. They don't walk with them.",
+    "farewell": [
+      "Forget you saw me.",
+      "These tunnels are dangerous. In many ways.",
+      "Corporate appreciates... discretion."
+    ],
+    "if_exposed": "You saw through the cover? Impressive. Or concerning. Possibly both.",
+    "rumor": [
+      "Grayson thinks he protects his workers. He's protecting them from the wrong things.",
+      "Bruno wants advancement. Corporate appreciates ambition. Questionable judgment, but ambition.",
+      "Coolcat? The union? They're right about safety. Wrong about the source of danger.",
+      "That chef Brutalia? Not just steam-powered. Steam-enhanced. Experimental. Successful.",
+      "Chrono watches us. We move forward. They... move differently. Corporate finds that concerning."
+    ],
+    "quest_hook": "The board needs leverage. The union holds secrets. Coolcat's secrets. Get them. Or create them. Your choice.",
+    "quest_active": "Still seeking those... documents? Good. Corporate rewards patience. And results.",
+    "quest_complete": "Documents acquired. Leverage established. Corporate is pleased. Here's your... gratuity. And a warning: don't cross us.",
+    "ambient_barks": [
+      "...Listening.",
+      "...Watching.",
+      "...Recording.",
+      "Interesting...",
+      "Noted.",
+      "...Suspicious."
+    ],
+    "time_dawn": "Early. Before the workers wake. Information is freshest when they're tired.",
+    "time_noon": "Midday. Meetings. Reports. Lies. Standard corporate operations.",
+    "time_dusk": "Evening. Shift change. Maximum confusion. Maximum opportunity.",
+    "time_night": "Night. The deep hours. When truth surfaces, if you know where to look.",
+    "rival_mention": "The brown trenchcoat in Chrono? Time agent. Different department. Same methods.",
+    "post_quest_greeting": "The asset returns. Corporate has more work. Interested?"
+  },
+  "party_reactions": {
+    "kade": "Classic mysterious stranger. Bet he has a tragic backstory. And a gun.",
+    "nix7": "Concealment protocols: Advanced. Threat level: Elevated. Recommendation: Avoid.",
+    "twist": "Why are you hiding in that coat? Are you cold? Want a hug?!",
+    "korr": "A servant of corporate masters. Loyalty bought. Honor sold.",
+    "renna": "He's magically shielded. Anti-scrying. Anti-detection. Professional.",
+    "suresh": "He creates suffering through systems. Efficient. Cold. Tragic.",
+    "sova": "I'd watch him. From a distance. Through a scope.",
+    "grit": "Intelligence operative. Seen his type. Cold. Effective. Dangerous.",
+    "ashka": "He hides in shadows. Like me. But for worse reasons.",
+    "senna": "He knows everything. Shares nothing. Professional hazard.",
+    "callum": "Corporate espionage! This is ILLEGAL! ...Probably. I should check."
+  },
+  "relationship_dialog": {
+    "stranger": "...Identify yourself. Now.",
+    "acquaintance": "Recognized. The board knows your face. Neutral for now.",
+    "friend": "Useful asset. Corporate appreciates reliability. I appreciate competence.",
+    "best_friend": "Trusted operative. Rare. Here's corporate clearance. Level 3. Don't abuse it."
+  },
+  "mini_quest": {
+    "id": "corporate_leverage",
+    "title": "The Leverage Game",
+    "description": "Help Agent Slate acquire compromising information for corporate leverage",
+    "stages": {
+      "hook": "The union has secrets. I need them. Coolcat's locker. Combination unknown. Get in. Get documents. Get paid.",
+      "active": "Union hall. After hours. The locker is warded, but you're... resourceful. Find a way.",
+      "complete": "Documents acquired. Leverage established. Corporate is satisfied. Payment rendered. Relationship... ongoing."
+    },
+    "reward": {
+      "item": "corporate_clearance_badge",
+      "gold": 500,
+      "reputation": "corporate_asset"
+    }
+  },
+  "cross_npc_connections": [
+    "coolcat_industrial: Target. Adversary. ...Respected opponent, if I'm honest.",
+    "sumo_black_onyx: Corporate security. Same masters. Different methods.",
+    "trenchcoat_brown_chrono: My counterpart. We don't meet. Protocol.",
+    "trenchcoat_black_chrono: Paradox hunter. Dangerous. Even to us."
+  ]
+}

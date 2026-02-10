@@ -1,0 +1,31 @@
+{
+  "id": "NPC_ARCHIVIST_VELM",
+  "name": "Archivist Velm",
+  "title": "Keeper of Records",
+  "location": "T_RIMEHOLD_112x72",
+  "coords": [50, 30],
+  "schedule": {
+    "day": [50, 30],
+    "night": [45, 35],
+    "rain": [50, 30]
+  },
+  "sprite": "NPC_SCHOLAR_ELDER",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_VELM_MAIN",
+  "shop": "SHOP_VELM_BOOKS",
+  "quests": ["Q_SEVENTH_RELIC", "Q_LOST_HISTORY", "Q_ARCHIVE_KEY"],
+  "faction": "RIMEHOLD_ARCHIVES",
+  "attitude": "neutral",
+  "background": "Guardian of the world's history. Knows the truth of the Progenitors.",
+  "personality": "Ancient, wise, speaks slowly, every word weighed.",
+  "flags": {
+    "unlocked_by": "Q_SIXTH_RELIC_COMPLETE",
+    "disappears_on": null,
+    "knows_truth": true
+  },
+  "services": ["lore", "books", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_velm_greet",
+    "lore": "vo_velm_lore"
+  }
+}

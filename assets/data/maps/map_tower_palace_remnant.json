@@ -1,0 +1,826 @@
+{
+  "id": "OW_TOWER_PALACE_REMNANT_1x1",
+  "maps": [
+    {
+      "id": "TWR_LOBBY_96x64",
+      "display_name": "Tower Lobby",
+      "type": "tower",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "music": "bgm_tower_lobby",
+      "services": [
+        "save",
+        "shop",
+        "party_management"
+      ],
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            48,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F10_48x48",
+          "coords": [
+            80,
+            32
+          ],
+          "trigger": "f10_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_REWARD_48x32",
+          "coords": [
+            16,
+            16
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F75_64x64",
+          "coords": [
+            80,
+            20
+          ],
+          "trigger": "f75_unlocked"
+        }
+      ]
+    },
+    {
+      "id": "TWR_REWARD_48x32",
+      "display_name": "Tower Reward Sanctum",
+      "type": "tower",
+      "dimensions": {
+        "width": 48,
+        "height": 32,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "music": "bgm_tower_reward",
+      "services": [
+        "reward_claim"
+      ],
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F10_48x48",
+      "display_name": "Tower Floor 10 Arena",
+      "type": "tower_arena",
+      "floor": 10,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "encounter_table": "CAPITAL_ENCOUNTERS",
+      "boss": "BOSS_DAX_KAINE",
+      "music": "bgm_boss_dax_kaine",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F10_CLEARED",
+        "F15_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F15_48x48",
+      "display_name": "Tower Floor 15 Arena",
+      "type": "tower_arena",
+      "floor": 15,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_RESSA_VANE",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F15_CLEARED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F25_48x48",
+      "display_name": "Tower Floor 25 Arena",
+      "type": "tower_arena",
+      "floor": 25,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_YAKOV_THORNE",
+      "music": "bgm_boss_yakov_thorne",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F25_CLEARED",
+        "F35_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F35_48x48",
+      "display_name": "Tower Floor 35 Arena",
+      "type": "tower_arena",
+      "floor": 35,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_CAEL_RORR",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F35_CLEARED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F50_64x64",
+      "display_name": "Tower Floor 50 Arena",
+      "type": "tower_arena",
+      "floor": 50,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_MERCER",
+      "music": "bgm_boss_mercer",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "F50_CLEARED",
+        "STORY_MIDPOINT",
+        "F55_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F55_48x48",
+      "display_name": "Tower Floor 55 Arena",
+      "type": "tower_arena",
+      "floor": 55,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_BRONT_KESSEL",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F55_48x48_CLEARED",
+        "F65_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F65_48x48",
+      "display_name": "Tower Floor 65 Arena",
+      "type": "tower_arena",
+      "floor": 65,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_VENN_HOLT",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F65_48x48_CLEARED",
+        "F75_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F75_64x64",
+      "display_name": "Tower Floor 75 Arena",
+      "type": "tower_arena",
+      "floor": 75,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_SENTINEL",
+      "music": "bgm_boss_sentinel",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            32,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F90_64x64",
+          "coords": [
+            32,
+            0
+          ],
+          "trigger": "f90_unlocked"
+        }
+      ],
+      "events": [
+        "F75_CLEARED",
+        "F85_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F85_48x48",
+      "display_name": "Tower Floor 85 Arena",
+      "type": "tower_arena",
+      "floor": 85,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_NULL_SCRIBE",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F85_48x48_CLEARED",
+        "F90_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F90_64x64",
+      "display_name": "Tower Floor 90 Arena",
+      "type": "tower_arena",
+      "floor": 90,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_VOID_ARCHITECT",
+      "music": "bgm_boss_void_architect",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            32,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F100_64x64",
+          "coords": [
+            32,
+            0
+          ],
+          "trigger": "f100_unlocked"
+        }
+      ],
+      "events": [
+        "F90_CLEARED",
+        "F95_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F95_48x48",
+      "display_name": "Tower Floor 95 Arena",
+      "type": "tower_arena",
+      "floor": 95,
+      "dimensions": {
+        "width": 48,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_CAPTAIN_SEAM_WARDEN_PRIME",
+      "music": "bgm_boss_captain",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            24,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "F95_48x48_CLEARED",
+        "F100_UNLOCKED"
+      ]
+    },
+    {
+      "id": "TWR_ARENA_F100_64x64",
+      "display_name": "Tower Floor 100 Arena",
+      "type": "tower_arena",
+      "floor": 100,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "boss": "BOSS_ALEXANDER",
+      "music": "bgm_boss_alexander",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            32,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "TWR_THRESHOLD_CREATION_96x80",
+          "coords": [
+            32,
+            0
+          ],
+          "trigger": "PALACE_ACCESS"
+        }
+      ],
+      "events": [
+        "TOWER_CLEARED",
+        "PALACE_ACCESS"
+      ]
+    },
+    {
+      "id": "PAL_F1_64x64",
+      "display_name": "Palace Floor 1: Elemental Lords",
+      "type": "palace",
+      "floor": 1,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "boss": "BOSS_ELEMENTAL_LORDS",
+      "music": "bgm_boss_elemental_lords",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "D_PALACE_128x96",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "PALACE_F1_CLEARED"
+      ]
+    },
+    {
+      "id": "PAL_F2_64x64",
+      "display_name": "Palace Floor 2: Chronowarden",
+      "type": "palace",
+      "floor": 2,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "boss": "BOSS_CHRONOWARDEN",
+      "music": "bgm_boss_chronowarden",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "PAL_F1_64x64",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "PALACE_F2_CLEARED"
+      ]
+    },
+    {
+      "id": "PAL_F3_64x64",
+      "display_name": "Palace Floor 3: Void Empress",
+      "type": "palace",
+      "floor": 3,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "boss": "BOSS_VOID_EMPRESS",
+      "music": "bgm_boss_void_empress",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "PAL_F2_64x64",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "PALACE_F3_CLEARED"
+      ]
+    },
+    {
+      "id": "PAL_F4_64x64",
+      "display_name": "Palace Floor 4: Ancient Drake",
+      "type": "palace",
+      "floor": 4,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "boss": "BOSS_ANCIENT_DRAKE",
+      "music": "bgm_boss_ancient_drake",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "PAL_F3_64x64",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "PALACE_F4_CLEARED"
+      ]
+    },
+    {
+      "id": "PAL_F5_80x80",
+      "display_name": "Palace Floor 5: Progenitor Engine",
+      "type": "palace",
+      "floor": 5,
+      "dimensions": {
+        "width": 80,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "boss": "BOSS_PROGENITOR_ENGINE",
+      "music": "bgm_boss_progenitor_engine_final",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "PAL_F4_64x64",
+          "coords": [
+            40,
+            79
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "PAL_REWARD_48x32",
+          "coords": [
+            40,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "PAL_GARDEN_OF_ORIGIN_96x80",
+          "coords": [
+            79,
+            40
+          ]
+        }
+      ],
+      "events": [
+        "GAME_CLEARED",
+        "STORY_COMPLETE"
+      ]
+    },
+    {
+      "id": "PAL_REWARD_48x32",
+      "display_name": "Final Palace Reward Sanctum",
+      "type": "palace",
+      "dimensions": {
+        "width": 48,
+        "height": 32,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "music": "bgm_ending",
+      "events": [
+        "ENDING_SEQUENCE"
+      ],
+      "connections": [
+        {
+          "direction": "special",
+          "target": "PAL_GARDEN_OF_ORIGIN_96x80",
+          "coords": [
+            24,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RV_GATEHOUSE_96x72",
+      "display_name": "Remnant Gatehouse Hub",
+      "type": "post_game",
+      "dimensions": {
+        "width": 96,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "music": "bgm_remnant_vault",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "T_AETHERREACH_112x72",
+          "coords": [
+            48,
+            71
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_WING_A_96x64",
+          "coords": [
+            20,
+            10
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_WING_B_96x64",
+          "coords": [
+            48,
+            10
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_WING_C_96x64",
+          "coords": [
+            76,
+            10
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_CORE_64x64",
+          "coords": [
+            48,
+            5
+          ],
+          "condition": "ALL_WINGS_CLEARED"
+        },
+        {
+          "direction": "special",
+          "target": "RV_EDGE_OF_MEMORY_96x80",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            48,
+            71
+          ],
+          "condition": "STORY_COMPLETE"
+        }
+      ]
+    },
+    {
+      "id": "RV_WING_A_96x64",
+      "display_name": "Cinder-Scar Gallery",
+      "type": "post_game",
+      "subtype": "combat",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "music": "bgm_remnant_combat",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            48,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_WING_B_96x64",
+          "coords": [
+            95,
+            32
+          ]
+        }
+      ],
+      "events": [
+        "WING_A_CLEARED"
+      ]
+    },
+    {
+      "id": "RV_WING_B_96x64",
+      "display_name": "Edited Archive Annex",
+      "type": "post_game",
+      "subtype": "puzzle",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "music": "bgm_remnant_puzzle",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            48,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_CORE_64x64",
+          "coords": [
+            48,
+            0
+          ],
+          "condition": "ALL_WINGS_CLEARED"
+        }
+      ],
+      "events": [
+        "WING_B_CLEARED"
+      ]
+    },
+    {
+      "id": "RV_WING_C_96x64",
+      "display_name": "Veilroot Catacombs",
+      "type": "post_game",
+      "subtype": "exploration",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "music": "bgm_remnant_exploration",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            48,
+            63
+          ]
+        }
+      ],
+      "events": [
+        "WING_C_CLEARED"
+      ]
+    },
+    {
+      "id": "RV_CORE_64x64",
+      "display_name": "Core Vault Arena",
+      "type": "post_game",
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "boss": "BOSS_REMNANT_CUSTODIAN",
+      "music": "bgm_boss_remnant_custodian",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            32,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "RV_EDGE_OF_MEMORY_96x80",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "REMNANT_VAULT_CLEARED"
+        }
+      ],
+      "events": [
+        "REMNANT_VAULT_CLEARED",
+        "SUPERBOSS_DEFEATED"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "quest_id": "dustbelt_frontier_calling",
+  "name": "The Frontier Calling",
+  "zone": "dustbelt",
+  "act": 1,
+  "prerequisites": [],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Awakening in the Dust",
+      "description": "Investigate the strange meteor that fell near Rusthaven Outpost",
+      "npc": "elder_marn",
+      "dialog_start": "Kade! Thank the storms you're here. Something fell from the sky last night—something that pulsed with violet light. The scouts say it's... wrong. Unnatural. We need someone to investigate, and you're the only one foolhardy enough to go.",
+      "objectives": [
+        "Travel to the Impact Crater",
+        "Investigate the meteor site"
+      ],
+      "dialog_complete": "By the old gods... this is no ordinary star-metal. Those markings—they match the ancient warnings. Kade, this could be the sign we've feared for generations.",
+      "rewards": {
+        "exp": 500,
+        "item": "cracked_star_fragment"
+      },
+      "target_location_id": "MIC_R01A_48x32"
+    },
+    {
+      "stage": 2,
+      "name": "The Salvager's Plea",
+      "description": "Help Nix7 recover their memory core from raiders",
+      "npc": "nix7",
+      "dialog_start": "INITIATING... ERROR. Memory core 73% corrupted. Designation: Nix-7. Primary directive: UNKNOWN. Secondary directive: SURVIVE. You—organic. Help me recover my memory core from the Rust Vultures. I cannot... function... without it.",
+      "objectives": [
+        "Track the Rust Vulture raiders",
+        "Defeat the raider gang",
+        "Recover Nix7's memory core"
+      ],
+      "dialog_complete": "MEMORY CORE RESTORED. Analysis complete. I am Nix7, survey unit from the Aetherreach. My shuttle was shot down by... unknown hostiles. Kade, there is a pattern to these attacks. The Void is rising. We must warn the other zones.",
+      "rewards": {
+        "exp": 800,
+        "item": "nix7_companion_unlocked"
+      },
+      "target_location_id": "MIC_R01B_96x40"
+    },
+    {
+      "stage": 3,
+      "name": "Rusthaven's Defense",
+      "description": "Defend the outpost from a Void-corrupted beast attack",
+      "npc": "elder_marn",
+      "dialog_start": "The meteor's corruption spreads! Our eastern watchtower reports... creatures. Things that were once men, twisted by that violet light. Kade, Nix7—you must hold the line while we evacuate the children!",
+      "objectives": [
+        "Defend the eastern gate",
+        "Defeat the Void-corrupted alpha",
+        "Protect the evacuees"
+      ],
+      "dialog_complete": "You held them back... but this is only the beginning. That creature—it wore the armor of a Capital soldier. The Void doesn't just corrupt; it infects everything it touches. We need allies, Kade. Powerful ones.",
+      "rewards": {
+        "exp": 1200,
+        "item": "void_resistant_cloak"
+      },
+      "target_location_id": "MIC_R01A_48x32"
+    },
+    {
+      "stage": 4,
+      "name": "The Path to the Uplands",
+      "description": "Journey to the Uplands to seek the Progenitor Scholars",
+      "npc": "nix7",
+      "dialog_start": "My databases contain references to 'The Uplands'—a place where ancient knowledge is preserved. If we are to understand this Void threat, we need information. The Dustbelt offers only rust and ruin. We must climb higher, Kade.",
+      "objectives": [
+        "Gather supplies for the journey",
+        "Speak with the caravan master",
+        "Unlock the path to the Uplands"
+      ],
+      "dialog_complete": "The caravan is ready. Elder Marn has given us her blessing—and her granddaughter's pendant, to present to the High Scholar. A gesture of goodwill. The road ahead is dangerous, but we are not without hope.",
+      "rewards": {
+        "exp": 1000,
+        "item": "marn_family_pendant"
+      },
+      "target_location_id": "MIC_R02_80x48"
+    },
+    {
+      "stage": 5,
+      "name": "A New Beginning",
+      "description": "Leave Dustbelt and begin the journey across Chroma",
+      "npc": "elder_marn",
+      "dialog_start": "You're leaving the only home you've ever known, Kade. I won't lie to you—the world beyond is vast and dangerous. But you're not that orphaned child I found in the wastes anymore. You carry the hope of Rusthaven now. Go. Gather allies. Stop this darkness before it swallows us all.",
+      "objectives": [
+        "Say farewell to Rusthaven",
+        "Depart for the Uplands",
+        "Form the Alliance of Light"
+      ],
+      "dialog_complete": "The wind carries you eastward, toward the floating islands of the Uplands. Behind you, Rusthaven stands—for now. Ahead, destiny awaits. The journey of a thousand leagues begins with a single step... and yours will echo through history.",
+      "rewards": {
+        "exp": 1500,
+        "gold": 500,
+        "unlock": "zone_uplands"
+      },
+      "target_location_id": "T_ASHVEIL_112x72"
+    }
+  ],
+  "story_beats": [
+    "Kade discovers the first signs of Void corruption in the Dustbelt",
+    "Nix7 is rescued and becomes the first companion",
+    "The Void's ability to corrupt living beings is revealed",
+    "The party learns they must gather allies across all zones",
+    "The true scale of the threat begins to emerge"
+  ],
+  "party_reactions": {
+    "kade": "I always knew I was meant for something more than scavenging rust. But this... saving the world? That's bigger than anything I imagined. Good thing I don't back down from a challenge.",
+    "nix7": "Organic lifeforms are... surprisingly resilient. Kade shows compassion even in combat. This 'heart' thing may be more useful than my tactical subroutines initially calculated. Partnership acceptable."
+  },
+  "unlocks": [
+    "zone_uplands",
+    "quest_uplands_echoes_past",
+    "companion_nix7"
+  ]
+}

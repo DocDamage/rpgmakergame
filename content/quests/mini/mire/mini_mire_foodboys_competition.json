@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_foodboys_competition",
+  "name": "Battle of the Cooks",
+  "zone": "mire",
+  "giver": "Foodboys (Flip, Corny, and Heat)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Flip: We're having a cooking competition! / Corny: But we need a judge! / Heat: Someone with TASTE! / All: Will you judge our dishes? Winner gets bragging rights! And prizes!",
+      "objective": "Taste and judge the three Foodboys' signature dishes"
+    },
+    "progress": {
+      "dialog": "Flip: Try my fish fry! / Corny: No, my cornbread! / Heat: SPICY wings first! / All: Pick a winner!",
+      "objective": "Taste all three dishes and declare a winner"
+    },
+    "complete": {
+      "dialog": "All: We have a winner! Thanks for judging! Here - take our signature sauces! Each one unique! Use them to make any meal better!",
+      "rewards": {"gold": 300, "item": "foodboys_sauce_collection", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "They're all pretty good. Hard to choose.",
+    "twist": "Can I have more?! All of them?!",
+    "suresh": "The spicy one reminds me of home."
+  },
+  "hidden_outcome": "If you declare all three winners (diplomacy check), they combine forces to create 'Ultimate Fusion Dish' that gives a permanent stat boost"
+}

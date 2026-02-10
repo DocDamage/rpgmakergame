@@ -1,0 +1,122 @@
+{
+  "npc_id": "signguy_palace",
+  "name": "Truth",
+  "title": "Ancient Warning Signs",
+  "zone": "palace",
+  "location": "The Threshold Halls, Chromatic Palace",
+  "description": "The ultimate guardian of meaning, whose signs reveal the deepest truths and warn of the most profound dangers.",
+  "sprite_variant": "signguy_palace",
+  "greeting_variants": [
+    "*carving into eternal stone* TRUTH: HERE. LIES: ELSEWHERE.",
+    "Truth. I mark what is. What was. What must be.",
+    "*pointing to glowing inscription* Ward taught clarity. Guide taught purpose. I teach... truth.",
+    "The signs here do not fade. Do not shift. Do not lie.",
+    "*gesturing to ancient warnings* Before the Cataclysm. Before separation. These stood.",
+    "WARNING: BEYOND LIES EVERYTHING. NOTHING. BOTH.",
+    "*carving carefully* Each letter matters. Each word shapes reality.",
+    "You seek the Progenitor? Read. Understand. Then proceed."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*measured carving* I am Truth. Final form of the sign-makers. Ward—warning. Guide—direction. I am... meaning itself. The signs I carve are not mere symbols. They are... reality described. Truth declared. Here, words have power. My words have... truth.",
+          "options": [
+            {"text": "What do the signs say?", "goto": "sign_readings"},
+            {"text": "Can words shape reality?", "goto": "word_power"},
+            {"text": "What warnings remain?", "goto": "ancient_warnings"},
+            {"text": "I need guidance.", "goto": "guidance_request"}
+          ]
+        },
+        {
+          "id": "sign_readings",
+          "text": "*pointing to glowing inscriptions* 'BEYOND LIES THE PROGENITOR—SOURCE AND SELF.' 'TO ENTER IS TO BECOME.' 'TRUTH REQUIRES COURAGE.' 'UNITY IS THE ONLY PATH.' Each carved before the Cataclysm. Each still true. Each awaiting understanding.",
+          "options": [
+            {"text": "'To enter is to become'?", "goto": "become_meaning"},
+            {"text": "'Unity is the only path'?", "goto": "unity_path"}
+          ]
+        },
+        {
+          "id": "word_power",
+          "text": "*profound* In the Palace, close to the Progenitor, words are... potent. The Progenitor dreamed reality into being. Spoke it. Here, that power lingers. To speak truth is to make truth. To declare unity is to create unity. Careful. Precise. True.",
+          "party_reactions": {
+            "mira": "Linguistic reality manipulation? Fascinating!",
+            "truth": "*simple* Truth spoken becomes truth lived."
+          },
+          "options": [
+            {"text": "What should I speak?", "goto": "speak_wisdom"},
+            {"text": "What should I avoid saying?", "goto": "dangerous_words"}
+          ]
+        },
+        {
+          "id": "ancient_warnings",
+          "text": "*solemn* 'THE PROGENITOR DREAMS—DISTURB NOT LIGHTLY.' 'PAIN CREATES VOID—VOID CONSUMES.' 'SEPARATION IS SUFFERING—UNITY IS HEALING.' These warnings are not threats. They are... observations. Truths. The Progenitor is not enemy. Is... wounded. Wounding. Both.",
+          "options": [
+            {"text": "How do we heal the wound?", "goto": "healing_method"},
+            {"text": "Is the Progenitor dangerous?", "goto": "danger_assessment"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_invitation",
+    "title": "Royal Feast - The Written Invitation",
+    "description": "Help Truth craft the ultimate invitations to the Royal Feast—words that will reach all zones and all hearts.",
+    "objectives": [
+      "Gather truth-ink from the Palace's eternal springs",
+      "Craft invitations for each zone's representatives",
+      "Write words that convey unity and healing",
+      "Ensure the invitations reach their destinations",
+      "Welcome the guests as they arrive"
+    ],
+    "rewards": {
+      "experience": 1100,
+      "reputation": {"palace_court": 55, "scribes": 50},
+      "items": ["truth_eternal_chisel", "word_of_power_scroll"],
+      "unlock": "reality_declaration"
+    },
+    "prerequisites": ["palace_access"]
+  },
+  "ambient_barks": [
+    "*carving carefully* Precision. Truth. Permanence.",
+    "Ward would approve. Clarity. Warning. Salvation.",
+    "*checking ancient signs* True. Still true. Always true.",
+    "Words have weight here. Choose carefully. Speak slowly.",
+    "Guide directs well. But direction needs... meaning.",
+    "*carving new warning* 'UNITY IS NOT EASY. UNITY IS NECESSARY.'",
+    "The Progenitor reads these signs. Has always read. Learns slowly.",
+    "*final inscription* 'WELCOME. YOU ARE EXPECTED. YOU ARE NEEDED.'"
+  ],
+  "cross_zone_references": {
+    "capital": "Ward persists. Strong. Clear. But... suffering. Shift hurts.",
+    "void": "Shift suffers most. Signs change. Truth... elusive. Sad.",
+    "chroma_tower": "Guide does well. Directions clear. Purpose strong."
+  },
+  "party_reactions": {
+    "ward": {
+      "greeting": "*emotional* What I became... what I could become...",
+      "response": "*encouraging* What you ARE. Truth. Clear. Eternal."
+    },
+    "guide": {
+      "greeting": "Master of meaning. I am humbled.",
+      "response": "*proud* Student of purpose. You honor me."
+    },
+    "kael": {
+      "greeting": "Soldier. Seeker of truth. Welcome.",
+      "response": "I seek. I search. I will find."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Carving new truths, maintaining ancient signs",
+      "night": "Meditating on meaning, communing with Progenitor through truth"
+    },
+    "world_state_triggers": {
+      "truth_spoken": "Resonance: 'Truth declared! Reality responds!'",
+      "deception_attempted": "Warning: 'Falsehood fades. Truth endures. Always.'"
+    }
+  }
+}

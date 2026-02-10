@@ -1,0 +1,102 @@
+{
+  "npc_id": "twins_glitch_remnant",
+  "name": "M1RA and M0RA",
+  "sprite": "twins_glitch",
+  "zone": "remnant",
+  "location": "Fractured Observatory",
+  "personality": "broken_desynchronized",
+  "occupation": "broken_oracles",
+  "dialog": {
+    "greeting": [
+      "Wel...come... trav...eler...",
+      "We... see... ERR... you...",
+      "M1... RA... M0... RA...",
+      "The... fu...ture... FAIL... awaits...",
+      "Two... ERR... one...",
+      "See...king... ans...wers...?",
+      "We... sp...eak... NULL... truth..."
+    ],
+    "fortune_offer": "Ask... qu...estion... We... ans...wer... ERR... one...",
+    "prophecy_delivery": "The... stars... whis...per... We... re...peat... LIST...EN...",
+    "broken_dynamic": "M1RA... sees... be...gin... ERR... M0RA... sees... noth...ing...",
+    "haggle": [
+      "Know...ledge... has... ERR... price...",
+      "For... you... DISC...OUNT...",
+      "We... ac...cept... NULL...",
+      "Gen...eros...ity... clears... visions... ERR..."
+    ],
+    "fortune_given": [
+      "The... path... splits... CHOO...SE... neither...",
+      "Dan...ger... lurks... ERR... in... you...",
+      "Fort...une... favors... BRO...KEN...",
+      "Love... ends... where... NULL... be...gins..."
+    ],
+    "fortune_declined": [
+      "Your... loss... FUT...URE... fades...",
+      "Know...ledge... refused... ERR... lost...",
+      "Re...turn... when... FAIL... ready..."
+    ],
+    "rumor": [
+      "The... sunandmoon... ERR... sees... holes...",
+      "The... Vault... holds... TOO... many... futures...",
+      "A... twin... alone... is... WH...OLE...",
+      "The... trenchcoat... ERR... has... too... many... reflections...",
+      "Signs... fix... them...selves... reality... BROK...EN..."
+    ],
+    "quest_hook": "We... need... SYN...C... crystals... from... the... core... two... for... two... ERR...",
+    "quest_active": "The... crys...tals... call... ERR... one... an...other...",
+    "quest_complete": "Bal...ance... ERR... im...pos...sible... See... any...way...",
+    "quest_reward": "Broken Lens - Shows things that shouldn't be seen!",
+    "farewell": [
+      "Go... safe... ERR... to... mor...row...",
+      "We... will... see... FAIL... you...",
+      "Two... be...come... NULL..."
+    ],
+    "ambient_barks": [
+      "We... ERR...",
+      "Two... as... NULL...",
+      "Fu...ture... BRO...KEN...",
+      "To...geth...er... ERR...",
+      "Ask... and... NULL..."
+    ],
+    "time_dawn": "New... day... ERR...",
+    "time_noon": "Light... re...veals... FAIL...",
+    "time_dusk": "Sha...dows... ERR... deep...en...",
+    "time_night": "Dark...ness... NULL..."
+  },
+  "party_reactions": {
+    "kade": "What happened to you two? This is... heartbreaking.",
+    "nix7": "Synchronization at 12%. Critical failure. Recommend... avoiding.",
+    "twist": "You're... broken too? Everyone's broken here!",
+    "korr": "Even sacred bonds can break. This is... wrong.",
+    "renna": "Data degradation in a biological system. Fascinating. Tragic.",
+    "suresh": "Separation of what should be united. The pain must be endless.",
+    "sova": "Broken oracles. Maybe that's mercy. Can't see the future if you're broken.",
+    "grit": "System failure. Happens to the best of us. Usually we reboot.",
+    "ashka": "You're all... crackly. Like a fire about to go out.",
+    "senna": "Can't finish each other's sentences if you're speaking static.",
+    "callum": "This is so sad! Can someone help them?!",
+    "petra": "Cracked. Both of them. Like stones split by ice."
+  },
+  "relationship_dialog": {
+    "stranger": "New... face... ERR... threads...",
+    "acquaintance": "Re...turn...ing... FAIL... re...mem...ber...",
+    "friend": "Known... ERR... vi...sions...",
+    "best_friend": "Des...tiny... ERR... twined..."
+  },
+  "mini_quest": {
+    "id": "sync_crystals",
+    "title": "Broken Synchronization",
+    "description": "Find SYNC crystals from the Vault core for M1RA and M0RA",
+    "stages": {
+      "hook": "SYN...C... crys...tals... two... ERR...",
+      "active": "Core... ar...ea... ERR... dan...ger...",
+      "complete": "Im...pos...si...ble... but... see... an...y...way..."
+    },
+    "reward": {
+      "item": "broken_lens",
+      "gold": 550,
+      "reputation": "broken_seer"
+    }
+  }
+}

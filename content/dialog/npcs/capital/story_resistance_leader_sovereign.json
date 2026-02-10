@@ -1,0 +1,54 @@
+{
+  "npc_id": "resistance_leader_sovereign",
+  "name": "Resistance Leader Sovereign",
+  "title": "Command Figure",
+  "zone": "capital",
+  "location": "The Golden Cage Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Resistance Leader Sovereign on comms. Stage 1: The Golden Cage. Keep formation tight and decisions tighter.",
+      "We are running The Fallen Crown. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Infiltrate the Capital's lower districts."
+    ],
+    "quest_hook": "Objective stack: Infiltrate the Capital's lower districts; Make contact with the Fallen Crown; Avoid Void patrols. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Infiltrate the Capital and contact the resistance. Immediate move: Infiltrate the Capital's lower districts.",
+    "quest_complete": "Stage 1 resolved: The Golden Cage. Primary objective secured and route stabilized. Prepare for Shadows in the Palace.",
+    "rumor": [
+      "Crown district scribes whisper that decrees are being signed by people long dead.",
+      "People keep repeating one clue from The Golden Cage: 'Avoid Void patrols'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn gives the cleanest sightlines in the capital ruins. Move before crowds regroup.",
+    "time_noon": "Noon is surveillance peak. Assume every lane is observed.",
+    "time_dusk": "Dusk favors ambush teams and rumor storms. Confirm every briefing twice.",
+    "time_night": "Night in the crown district means quiet knives and loud mistakes. Stay disciplined."
+  },
+  "party_reactions": {
+    "kade": "Resistance Leader Sovereign sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Resistance Leader Sovereign accepted. Probability of success improves with compliance.",
+    "twist": "Resistance Leader Sovereign talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "capital_fallen_crown"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

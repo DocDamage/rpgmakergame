@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_coolcat_appraisal",
+  "name": "The Resonance Stone",
+  "zone": "prism",
+  "giver": "Sapphire 'The Eye' Valuation",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I seek a theoretical stone. The Resonance Crystal. Perfect clarity, perfect color, and supposedly... it sings. The twins speak of it. If it exists, it would be priceless. Worth more than kingdoms. Find it for me?",
+      "objective": "Search for the legendary Resonance Crystal in the Prism caves"
+    },
+    "progress": {
+      "dialog": "The Resonance Crystal, if real, would be in the deepest caves. Where crystal formations are oldest. Where the twins dwell.",
+      "objective": "Explore the deepest Prism caves for the Resonance Crystal"
+    },
+    "complete": {
+      "dialog": "IT EXISTS! And it DOES sing! Listen! Can you hear? This discovery changes everything! Here - my most precious tool. The Lens of True Sight. May it serve you as well as it served me.",
+      "rewards": {"gold": 600, "item": "lens_of_true_sight", "reputation": 20}
+    }
+  },
+  "party_comments": {
+    "kade": "That crystal... it was actually humming. Beautiful.",
+    "renna": "Singing crystal. Resonance with the Light Foundation. Fascinating.",
+    "nix7": "Crystal harmonic frequency: unique. Scientific value: high."
+  },
+  "hidden_outcome": "If you bring the crystal during a specific harmonic convergence (time-based), Sapphire gives you 'The Eye' - her ultimate appraisal tool that identifies all hidden item properties"
+}

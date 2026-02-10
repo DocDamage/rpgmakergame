@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_boundary_stabilization",
+  "name": "Holding the Line",
+  "zone": "void",
+  "giver": "aeronaut_void",
+  "type": "combat",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "The boundary between our world and the Void is usually stable, but something's stirring on the other side. Void breaches are opening faster than we can close them. I need you to hold the main breach point while I calibrate the stabilizers. Five minutes—that's all I need.",
+      "objective": "Defend the breach point for five minutes against Void creatures"
+    },
+    "progress": {
+      "dialog": "Three minutes in, and they're getting desperate. Something big is forming on the other side—an incursion leader. If it gets through, the whole boundary collapses. Hold the line, Kade. Whatever comes through, don't let it establish a foothold.",
+      "objective": "Defeat the Void incursion leader before it stabilizes"
+    },
+    "complete": {
+      "dialog": "Stabilizers calibrated, breach sealed, incursion prevented. You held against impossible odds, and the world is safer for it. The Void will try again—it always does—but tonight, we rest. Tonight, the boundary holds.",
+      "rewards": {
+        "exp": 15000,
+        "gold": 3500,
+        "item": "void_boundary_map"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Five minutes has never felt so long. My arms are still shaking from blocking that thing's strikes.",
+    "grit": "Solid defense work. Shield held, line unbroken. That's how you stop an incursion.",
+    "vex": "Standing against the darkness, protecting the light. This is the purpose of the oath. Well done, all."
+  },
+  "lore_unlocks": ["void_boundary_mechanics", "void_incursions"]
+}

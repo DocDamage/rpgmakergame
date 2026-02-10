@@ -1,0 +1,54 @@
+{
+  "npc_id": "coral",
+  "name": "Coral",
+  "title": "Tide Navigator",
+  "zone": "tide",
+  "location": "The Corrupted Council Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "steady_saltwise_sharp",
+  "occupation": "route_master",
+  "dialog": {
+    "greeting": [
+      "Coral on comms. Stage 3: The Corrupted Council. Keep formation tight and decisions tighter.",
+      "We are running Depths of Mystery. Objective drift gets teams buried.",
+      "I once negotiated with a door for twenty minutes. Door won on technicalities.",
+      "Action first, panic never. Start with: Infiltrate the Council Spire."
+    ],
+    "quest_hook": "Objective stack: Infiltrate the Council Spire; Use Truth to reveal the corruption; Free the Council from Void control. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Confront the Void-touched High Tide Council. Immediate move: Infiltrate the Council Spire.",
+    "quest_complete": "Stage 3 resolved: The Corrupted Council. Primary objective secured and route stabilized. Prepare for The Deep Walker.",
+    "rumor": [
+      "Divers found a gate marked with the same sigil as the palace engine.",
+      "People keep repeating one clue from The Corrupted Council: 'Free the Council from Void control'.",
+      "A map sneezed in my pocket and revealed a hidden staircase. True story."
+    ],
+    "ambient_barks": [
+      "Check your knots.",
+      "Mind the current.",
+      "Depth first, speed second.",
+      "Watch for undertow."
+    ],
+    "time_dawn": "Dawn tide is calm enough for precision dives. Best window for route checks.",
+    "time_noon": "Noon currents fight each other in the trench. Anchor and communicate.",
+    "time_dusk": "Dusk visibility drops fast underwater. Stay on beacon chain.",
+    "time_night": "Night tide carries deep-song interference. Confirm orders twice."
+  },
+  "party_reactions": {
+    "kade": "Coral sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Coral accepted. Probability of success improves with compliance.",
+    "twist": "Coral talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "tide_depths_mystery"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_tidal_race",
+  "name": "Riptide Rally",
+  "zone": "tide",
+  "giver": "aeronaut_red",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The annual Tidal Race is happening! Swimmers compete to navigate the treacherous Riptide Rapids fastest! The currents are deadly, but the winner gets the Pearl Crown! You're not from Tide, so you qualify as a 'visitor competitor'—want to try?",
+      "objective": "Register for the Tidal Race at the Riptide Rapids"
+    },
+    "progress": {
+      "dialog": "You're leading! But the final stretch has the worst currents—called the Drowning Spiral! Time your breathing with the waves! One wrong stroke and you're swept back to the start!",
+      "objective": "Navigate the Drowning Spiral and finish the race first"
+    },
+    "complete": {
+      "dialog": "WINNER! By three seconds! The crowd goes wild for the outsider champion! Here's the Pearl Crown—and permanent access to the Tidecaller Sanctuary! Not even locals get that!",
+      "rewards": {
+        "exp": 900,
+        "gold": 700,
+        "item": "pearl_crown"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I'm the fastest swimmer in Tide! Eat my wake!",
+    "twist": "I swallowed half the ocean. I can taste salt for days.",
+    "nix7": "Aquatic locomotion: optimized. Race performance: superior."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "npc_id": "aeronaut_tower",
+  "name": "Vantage",
+  "title": "Observation Scout",
+  "zone": "tower",
+  "location": "Observation Deck Floor 34, Chroma Tower",
+  "description": "A sharp-eyed lookout in a weathered flight coat, monitoring the world from high above.",
+  "sprite_variant": "aeronaut_tower",
+  "greeting_variants": [
+    "*looking through spyglass* Oh! Visitors. Rare up here.",
+    "Vantage. I watch. See things. Most don't want to see.",
+    "*pointing* See that? Capital. Small from here. Fragile.",
+    "Thirty-four floors up. Air's thin. View's worth it.",
+    "*making notes* Void's spreading. Faster now. Not good.",
+    "Drift flies down there. Brave. Or mad. Both, probably.",
+    "The Palace... *looks up* ...can't see top from here. Still hidden.",
+    "*offering spyglass* Look. See your world. Understand scale."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Vantage. Scout. Used to fly—balloon, like Drift. But up here? *gestures* No need. Can see everything. Capital. The Void. Other zones. Perspective changes understanding.",
+          "options": [
+            {"text": "What do you see?", "goto": "observations"},
+            {"text": "How bad is the Void?", "goto": "void_assessment"},
+            {"text": "Can you see the Palace?", "goto": "palace_sighting"},
+            {"text": "Keep watching.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "observations",
+          "text": "Everything. Nothing good. Void expands daily. Capital shrinks. The zones—*pointing* —Ember burns. Mire rots. Frost freezes. All suffering. But... *lowers voice* ...I see lights. Small. Fighting. Hope, maybe.",
+          "party_reactions": {
+            "kael": "We fight. We endure. We are those lights.",
+            "vantage": "*nods* Yes. Saw you coming. Knew you'd be different."
+          },
+          "options": [
+            {"text": "Tell me about the zones.", "goto": "zone_reports"},
+            {"text": "Where's the fighting?", "goto": "conflict_zones"}
+          ]
+        },
+        {
+          "id": "void_assessment",
+          "text": "*grim* Bad. Worse than Vex knows. Worse than anyone knows. It's not just spreading—it's learning. Adapting. The edges are... organized now. Purposeful. Something directs it. From up there. *points to Palace*",
+          "options": [
+            {"text": "We have to stop it.", "goto": "determination"},
+            {"text": "What directs it?", "goto": "void_controller"}
+          ]
+        },
+        {
+          "id": "palace_sighting",
+          "text": "*shakes head* Top's hidden. Clouds? Void-mist? Something else. Forty-seven floors to climb, they say. Then... *trails off* ...then something. The climbers who reach it... don't report back. Just... silence.",
+          "options": [
+            {"text": "I'm going up.", "goto": "climb_declaration"},
+            {"text": "What's up there?", "goto": "top_mystery"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "eyes_in_the_sky",
+    "title": "Eyes in the Sky",
+    "description": "Help Vantage complete a comprehensive survey of the surrounding zones to update the resistance maps.",
+  "objectives": [
+    "Document the Void's current expansion rate",
+    "Identify safe passages between zones",
+    "Locate resource caches visible from above",
+    "Mark potential threat concentrations",
+    "Deliver the updated maps to Vex in the Capital"
+  ],
+    "rewards": {
+      "experience": 600,
+      "reputation": {"tower_residents": 25, "resistance": 30},
+      "items": ["vantage_spyglass", "zone_survey_maps"],
+      "unlock": "intelligence_briefings"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*scanning horizon* Movement in sector 4. Not human.",
+    "Void's edge moved. Again. Closer to Capital.",
+    "*making notes* Day 1094. Still watching. Still hoping.",
+    "See that smoke? Ember. Always burning.",
+    "*adjusting spyglass* Drift's balloon. Lower than usual.",
+    "Palace... *staring up* ...what are you hiding?",
+    "Storm coming. Big one. Void-touched.",
+    "*to self* Someone has to watch. Someone has to know."
+  ],
+  "cross_zone_references": {
+    "capital": "Vex is good leader. Limited. Can't see big picture. I help.",
+    "void": "Drift flies there. Brave. Reports when able. Scary reports.",
+    "palace": "Hidden. Always hidden. Source of everything. Answer to everything."
+  },
+  "party_reactions": {
+    "kael": {
+      "greeting": "Scout. Your reports are invaluable.",
+      "response": "Captain. Your movements... visible. Purposeful. Good."
+    },
+    "mira": {
+      "greeting": "Your observational data—may I review?",
+      "response": "*hands over notes* All of it. Patterns there. Disturbing."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Active observation, mapping, reporting",
+      "night": "Night watch, monitoring Void luminescence"
+    },
+    "world_state_triggers": {
+      "major_movement": "Alert: 'Activity! Multiple sectors! Look!'",
+      "void_surge": "Grim: 'It's accelerating. No more time.'"
+    }
+  }
+}

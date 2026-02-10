@@ -1,0 +1,478 @@
+{
+  "id": "OW_STORY_SETPIECES_1x1",
+  "maps": [
+    {
+      "id": "MIC_SCHOLARIUM_96x64",
+      "display_name": "Floating Scholarium Approach",
+      "type": "story_route",
+      "act": 1,
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Aetherreach",
+      "music": "bgm_field_uplands",
+      "encounter_table": "UPLANDS_STORY_ROUTE_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "T_ASHVEIL_112x72",
+          "coords": [
+            48,
+            63
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "T_AETHERREACH_112x72",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D_ARCHIVE_112x96",
+          "coords": [
+            95,
+            32
+          ]
+        },
+        {
+          "direction": "south",
+          "target": "MIC_R03_104x56",
+          "coords": [
+            48,
+            63
+          ],
+          "condition": "ARCHIVE_KEY_ACQUIRED"
+        }
+      ],
+      "notes": "Primary ascent lane for Uplands story chapters and sky-access handoff.",
+      "unlock_condition": "Route opens once uplands scholarship convoy is active.",
+      "events": [
+        "SCHOLARIUM_ROUTE_STABILIZED"
+      ]
+    },
+    {
+      "id": "D3_LABYRINTH_REFLECTIONS_80x80",
+      "display_name": "Labyrinth of Reflections",
+      "type": "story_setpiece",
+      "act": 2,
+      "dimensions": {
+        "width": 80,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_PrismHighland",
+      "music": "bgm_dungeon_crystal",
+      "encounter_table": "PRISM_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "D3_CRYSTAL_96x96",
+          "coords": [
+            0,
+            40
+          ]
+        }
+      ],
+      "notes": "Prism mirror-maze stage used during Crystal of Truth qualification.",
+      "unlock_condition": "Unlocks during prism qualification trials.",
+      "events": [
+        "LABYRINTH_REFLECTIONS_CLEARED"
+      ]
+    },
+    {
+      "id": "D4_BURNING_HEART_64x64",
+      "display_name": "Burning Heart Chamber",
+      "type": "story_setpiece",
+      "act": 2,
+      "dimensions": {
+        "width": 64,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "music": "bgm_dungeon_skyspire",
+      "encounter_table": "EMBER_TRIAL_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D4_SKYSPIRE_96x96",
+          "coords": [
+            32,
+            63
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_CINDERSTEP_112x72",
+          "coords": [
+            32,
+            63
+          ]
+        }
+      ],
+      "notes": "Inner trial chamber for willpower and fear-vision sequences.",
+      "unlock_condition": "Unlocks during the Burning Heart judgment sequence.",
+      "events": [
+        "BURNING_HEART_ENDURED"
+      ]
+    },
+    {
+      "id": "D4_CALDERA_TRIALS_96x80",
+      "display_name": "Caldera of Trials",
+      "type": "story_setpiece",
+      "act": 2,
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "music": "bgm_dungeon_skyspire",
+      "encounter_table": "EMBER_TRIAL_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "D4_SKYSPIRE_96x96",
+          "coords": [
+            0,
+            40
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D4_BURNING_HEART_64x64",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "south",
+          "target": "MIC_R09_120x56",
+          "coords": [
+            48,
+            79
+          ]
+        }
+      ],
+      "notes": "Fire Primordial access ring and Princess Pyra escort route.",
+      "unlock_condition": "Unlocks after Ember oath acceptance.",
+      "events": [
+        "CALDERA_TRIALS_CLEARED"
+      ]
+    },
+    {
+      "id": "D5_SUNKEN_CITY_TIDES_96x96",
+      "display_name": "Sunken City of Tides",
+      "type": "story_setpiece",
+      "act": 2,
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "music": "bgm_dungeon_abyss",
+      "encounter_table": "TIDE_SETPIECE_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "D5_ABYSS_96x96",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "HID_SUNKEN_96x64",
+          "coords": [
+            95,
+            48
+          ]
+        }
+      ],
+      "notes": "Mainline city-depth sequence before abyssal vault reveal.",
+      "unlock_condition": "Unlocks when Tide city descent route is charted.",
+      "events": [
+        "SUNKEN_CITY_SCOUTED"
+      ]
+    },
+    {
+      "id": "D5_ABYSSAL_VAULT_80x80",
+      "display_name": "Abyssal Vault",
+      "type": "story_setpiece",
+      "act": 2,
+      "dimensions": {
+        "width": 80,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "music": "bgm_dungeon_abyss",
+      "encounter_table": "TIDE_SETPIECE_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D5_ABYSS_96x96",
+          "coords": [
+            40,
+            79
+          ]
+        },
+        {
+          "direction": "west",
+          "target": "D5_SUNKEN_CITY_TIDES_96x96",
+          "coords": [
+            0,
+            40
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_BRINEGATE_112x72",
+          "coords": [
+            40,
+            79
+          ]
+        }
+      ],
+      "notes": "Crystal of Depths retrieval vault and council corruption reveal chamber.",
+      "unlock_condition": "Unlocks after trench key-sigil alignment.",
+      "events": [
+        "ABYSSAL_VAULT_OPENED"
+      ]
+    },
+    {
+      "id": "D6_FACTORY_OF_SOULS_96x80",
+      "display_name": "Factory of Souls",
+      "type": "story_setpiece",
+      "act": 3,
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ObsidianIndustrial",
+      "music": "bgm_dungeon_obsidian",
+      "encounter_table": "OBSIDIAN_FACTORY_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D6_OBSIDIAN_96x96",
+          "coords": [
+            48,
+            79
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_CINDERSTEP_112x72",
+          "coords": [
+            48,
+            79
+          ]
+        }
+      ],
+      "notes": "Industrial core where Void-energy extraction and worker uprising climax occur.",
+      "unlock_condition": "Unlocks once union strike routes breach the factory core.",
+      "events": [
+        "FACTORY_OF_SOULS_SECURED"
+      ]
+    },
+    {
+      "id": "D7_SPIRE_OF_ETERNITY_80x96",
+      "display_name": "Spire of Frozen Eternity",
+      "type": "story_setpiece",
+      "act": 3,
+      "dimensions": {
+        "width": 80,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_FrostCitadel",
+      "music": "bgm_dungeon_frozen",
+      "encounter_table": "FROST_SPIRE_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D7_FROZEN_96x96",
+          "coords": [
+            40,
+            95
+          ]
+        }
+      ],
+      "notes": "High-spire chapter that transitions Frosthold arc into Chrono escalation.",
+      "unlock_condition": "Unlocks during Frost spire ascent operations.",
+      "events": [
+        "SPIRE_OF_ETERNITY_CLEARED"
+      ]
+    },
+    {
+      "id": "D8_GARDENS_OF_ABSENCE_96x80",
+      "display_name": "Gardens of Absence",
+      "type": "story_setpiece",
+      "act": 4,
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_VoidNexus",
+      "music": "bgm_dungeon_void",
+      "encounter_table": "VOID_NEXUS_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D8_VOID_112x96",
+          "coords": [
+            48,
+            79
+          ]
+        }
+      ],
+      "notes": "Surreal void biome for late-game memory/absence trials.",
+      "unlock_condition": "Unlocks at deep-void memory trial threshold.",
+      "events": [
+        "GARDENS_OF_ABSENCE_CLEARED"
+      ]
+    },
+    {
+      "id": "TWR_THRESHOLD_CREATION_96x80",
+      "display_name": "Threshold of Creation",
+      "type": "story_setpiece",
+      "act": 5,
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "music": "bgm_tower_lobby",
+      "encounter_table": "CAPITAL_THRESHOLD_ENCOUNTERS",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "TWR_ARENA_F100_64x64",
+          "coords": [
+            48,
+            79
+          ],
+          "condition": "PALACE_ACCESS"
+        },
+        {
+          "direction": "north",
+          "target": "D_PALACE_128x96",
+          "coords": [
+            48,
+            0
+          ],
+          "condition": "PALACE_ACCESS"
+        }
+      ],
+      "notes": "Post-Apex ascent bridge map that stages the final palace entry.",
+      "unlock_condition": "Unlocks after Tower floor 100 clearance and palace sanction.",
+      "events": [
+        "THRESHOLD_OF_CREATION_OPENED"
+      ]
+    },
+    {
+      "id": "PAL_GARDEN_OF_ORIGIN_96x80",
+      "display_name": "Garden of Origin",
+      "type": "story_setpiece",
+      "act": 5,
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "music": "bgm_boss_progenitor_engine",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "D_PALACE_128x96",
+          "coords": [
+            48,
+            79
+          ],
+          "condition": "PALACE_ACCESS"
+        },
+        {
+          "direction": "west",
+          "target": "PAL_F5_80x80",
+          "coords": [
+            0,
+            40
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            48,
+            79
+          ],
+          "condition": "STORY_COMPLETE"
+        }
+      ],
+      "notes": "Final dialogue arena where the Progenitor choice sequence begins.",
+      "unlock_condition": "Unlocks after palace access protocols engage.",
+      "events": [
+        "GARDEN_OF_ORIGIN_ENTERED"
+      ]
+    },
+    {
+      "id": "RV_EDGE_OF_MEMORY_96x80",
+      "display_name": "Edge of Memory",
+      "type": "story_setpiece",
+      "act": "post_game",
+      "dimensions": {
+        "width": 96,
+        "height": 80,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_RemnantGlitch",
+      "music": "bgm_dungeon_void",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            48,
+            79
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "RV_CORE_64x64",
+          "coords": [
+            48,
+            0
+          ],
+          "condition": "ALL_WINGS_CLEARED"
+        },
+        {
+          "direction": "special",
+          "target": "RV_WING_A_96x64",
+          "coords": [
+            20,
+            10
+          ],
+          "condition": "STORY_COMPLETE"
+        }
+      ],
+      "notes": "Remnant intro span for memory-echo encounters and post-game closure.",
+      "unlock_condition": "Unlocks for post-game remnant investigation.",
+      "events": [
+        "EDGE_OF_MEMORY_ENTERED"
+      ]
+    }
+  ]
+}

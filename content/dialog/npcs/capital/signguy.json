@@ -1,0 +1,113 @@
+{
+  "npc_id": "signguy",
+  "name": "Ward",
+  "title": "Warning Painter",
+  "zone": "capital",
+  "location": "Perimeter Warnings, Ruins Edge",
+  "description": "A grim figure obsessively painting warning signs, determined to keep survivors away from danger zones.",
+  "sprite_variant": "signguy",
+  "greeting_variants": [
+    "*painting* VOID: DO NOT ENTER. Simple words. Save lives.",
+    "Signs don't lie. People just don't read. Then they die.",
+    "Red for danger. Yellow for caution. Purple for... wrong.",
+    "*stepping back to admire work* There. Clear. Obvious. They'll ignore it.",
+    "Forty-seven signs today. Forty-seven lives maybe saved.",
+    "You can read? Good. Read everything. Then live.",
+    "The Void doesn't warn you. So I do. Someone has to.",
+    "*muttering* Bigger letters. Always need bigger letters."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I'm Ward. I paint warnings. Signs. Directions. Last line of defense between stupid and dead. Been doing this since... since my daughter walked into a hot zone. Didn't see the sign. Too small, I guess.",
+          "options": [
+            {"text": "I'm sorry.", "goto": "sympathy"},
+            {"text": "That's important work.", "goto": "validation"},
+            {"text": "What do the signs say?", "goto": "sign_types"},
+            {"text": "Goodbye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "sympathy",
+          "text": "*nods slowly* Three years. Doesn't fade. But... *gestures at signs* ...this helps. Every sign is someone who might live. Every warning is a family that stays whole. Small comfort. But comfort.",
+          "options": [
+            {"text": "You're saving lives.", "goto": "life_saving"},
+            {"text": "Can I help paint?", "goto": "help_offer"}
+          ]
+        },
+        {
+          "id": "validation",
+          "text": "*surprised* You... think so? Most people ignore me. 'Crazy old man with paint,' they say. But when the contamination spikes, when the Void moves... suddenly everyone wants to know which way is safe.",
+          "options": [
+            {"text": "Knowledge saves lives.", "goto": "knowledge_value"},
+            {"text": "Show me your work.", "goto": "tour_request"}
+          ]
+        },
+        {
+          "id": "sign_types",
+          "text": "Danger zones. Contamination levels. Safe paths. Supply locations. I mark it all. Red circles mean 'death.' Yellow triangles mean 'caution.' Purple... *shivers* ...purple means 'reality unstable.' Stay far from purple.",
+          "options": [
+            {"text": "How do you know where's safe?", "goto": "safety_knowledge"},
+            {"text": "Ever make mistakes?", "goto": "mistakes"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "sign_maintenance",
+    "title": "Maintain the Warnings",
+    "description": "Help Ward repair and replace warning signs throughout the ruins to keep refugees safe.",
+    "objectives": [
+      "Gather paint and supplies from the depot",
+      "Repair 5 damaged signs in the eastern sector",
+      "Place 3 new warning signs at discovered hot zones",
+      "Report back to Ward"
+    ],
+    "rewards": {
+      "experience": 350,
+      "reputation": {"resistance": 20, "refugees": 25},
+      "items": ["ward_brush", "warning_sign_blueprints"],
+      "unlock": "safe_path_knowledge"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*painting carefully* Bold. Clear. No confusion.",
+    "This spot? Three deaths last month. Won't be four.",
+    "Arrows point to safety. Always to safety.",
+    "*inspecting old sign* Faded. Dangerous. Repaint today.",
+    "Words have power. 'STOP' has saved more than swords.",
+    "The purple spreads. My signs spread faster.",
+    "*stepping back* Readable? Yes. Good.",
+    "Teach your children to read signs. Teach them to live."
+  ],
+  "cross_zone_references": {
+    "void_nexus": "I've marked every entrance. Purple signs. Big ones. Doesn't stop the desperate. Or the curious.",
+    "chroma_tower": "Signs point the way. 'Tower: 2 miles.' 'Tower: Dangerous.' 'Tower: Answers.' All true.",
+    "palace": "Haven't been that far. But if I did... *trails off* ...red paint. So much red paint."
+  },
+  "party_reactions": {
+    "kael": {
+      "greeting": "Your work is commendable, citizen.",
+      "response": "*snorts* 'Commendable.' Don't need commendation. Need people to READ."
+    },
+    "mira": {
+      "greeting": "The psychology of warning symbology fascinates me.",
+      "response": "Psychology? People see red, they stop. Simple. Effective."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Painting new signs, repairing old ones",
+      "night": "Patrolling perimeter, checking sign visibility in darkness"
+    },
+    "world_state_triggers": {
+      "void_expansion": "Frantically paints new warnings: 'Moving! It's moving! New signs! NOW!'",
+      "zone_cleared": "Quietly removes danger signs, replaces with 'SAFE' markers"
+    }
+  }
+}

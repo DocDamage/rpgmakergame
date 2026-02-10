@@ -1,0 +1,124 @@
+{
+  "npc_id": "coolcat_gold",
+  "name": "Aria",
+  "title": "Court Musician",
+  "zone": "palace",
+  "location": "The Harmonic Hall, Chromatic Palace",
+  "description": "The ultimate musician whose golden melodies can reshape reality itself, harmonizing the discord of the fractured world.",
+  "sprite_variant": "coolcat_gold",
+  "greeting_variants": [
+    "*playing golden harp* Welcome. The music has awaited you.",
+    "Aria. I am the song that was, is, and will be. Listen.",
+    "*music causing flowers to bloom* Harmony heals. Disharmony wounds.",
+    "Jazz plays hope. Echo plays possibility. I play... truth.",
+    "*chords resolving tension in the air* The world is music. Fractured. Awaiting resolution.",
+    "The Progenitor dreams in melody. I interpret. I respond.",
+    "*gesturing to instruments* Every zone has its song. All can harmonize.",
+    "You carry music within. Heartbeat. Breath. Purpose."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*melodious* I am Aria. Court Musician. Reality Harmonist. Once, I was Jazz. And Echo. And Blues. All possibilities. All paths. The Palace... unified them. Made me whole. Made me... capable of true music. Music that changes. Heals. Creates.",
+          "options": [
+            {"text": "Music can heal the world?", "goto": "healing_music"},
+            {"text": "What is the Progenitor's song?", "goto": "progenitor_melody"},
+            {"text": "Can you teach me?", "goto": "teaching_offer"},
+            {"text": "Play me something.", "goto": "play_request"}
+          ]
+        },
+        {
+          "id": "healing_music",
+          "text": "*playing gentle melody* Everything vibrates. Resonates. The zones, the Void, the people—all frequencies. Discord creates pain. Harmony creates peace. The Cataclysm was... a terrible dissonance. The healing is... resolution. The right chord. Played at the right moment.",
+          "party_reactions": {
+            "mira": "Acoustic healing on a quantum level?",
+            "aria": "*smiles* Science describes. Music embodies."
+          },
+          "options": [
+            {"text": "What is the right chord?", "goto": "chord_of_resolution"},
+            {"text": "When is the right moment?", "goto": "moment_timing"}
+          ]
+        },
+        {
+          "id": "progenitor_melody",
+          "text": "*listening intently* The Progenitor dreams in... complex harmonies. Joy and sorrow. Creation and destruction. Love and loneliness. I have studied this music for... eternity? It changes. Responds. The Progenitor is not... fixed. Is learning. Growing. As we all are.",
+          "options": [
+            {"text": "Can you play the Progenitor's song?", "goto": "play_progenitor"},
+            {"text": "How do we harmonize with it?", "goto": "harmonization"}
+          ]
+        },
+        {
+          "id": "play_request",
+          "text": "*closes eyes, begins to play* This is the Song of Reunion. For all separated. For all who seek wholeness. *the music seems to fill the room, the Palace, reaching outward* Listen. Feel. Remember. *the song speaks of unity, of healing, of hope*",
+          "effect": "party_healing_and_inspiration",
+          "options": [
+            {"text": "That was transcendent.", "goto": "transcendence"},
+            {"text": "I felt... everything.", "goto": "emotional_connection"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_symphony",
+    "title": "Royal Feast - The Symphony Course",
+    "description": "Help Aria compose the ultimate symphony that will harmonize all zones and heal the Progenitor's fractured dream.",
+    "objectives": [
+      "Gather musical inspiration from each zone's unique 'voice'",
+      "Record the Capital's hope, the Void's possibility, the Tower's determination",
+      "Compose movements for each zone",
+      "Conduct the first performance in the Harmonic Hall",
+      "Present the completed symphony to the Progenitor"
+    ],
+    "rewards": {
+      "experience": 1600,
+      "reputation": {"palace_court": 65, "musicians": 70},
+      "items": ["aria_golden_harp", "symphony_of_unity_score"],
+      "unlock": "reality_harmonization"
+    },
+    "prerequisites": ["met_all_musicians", "palace_access"]
+  },
+  "ambient_barks": [
+    "*playing scales that shimmer in air* Practice. Perfection. Purpose.",
+    "Jazz dreams of this. Echo remembers this. Blues seeks this.",
+    "*listening to the Palace* The stones sing. Ancient. Wise.",
+    "The right note at the right time can change... everything.",
+    "*harmonizing with unseen choir* The Progenitor responds. Listens.",
+    "Music is mathematics of the soul. Equations of emotion.",
+    "*playing for a flower* Grow. Bloom. Rejoice. Harmonize.",
+    "The final chord approaches. Will it resolve? Or...?"
+  ],
+  "cross_zone_references": {
+    "capital": "Jazz plays strong. Hope in adversity. Beautiful.",
+    "void": "Echo suffers. But suffering creates depth. Meaning.",
+    "chroma_tower": "Blues understands journey. Transition. Growth.",
+    "all_zones": "All songs matter. All harmonize. All unite."
+  },
+  "party_reactions": {
+    "jazz": {
+      "greeting": "*stunned* What I could become... what I will become...",
+      "response": "*embracing* What you ARE. Always. Already."
+    },
+    "echo": {
+      "greeting": "*weeping* Whole. Unified. Beautiful.",
+      "response": "*gentle music* Suffering led here. Was necessary. Was worth."
+    },
+    "blues": {
+      "greeting": "The music I sought... you have found it.",
+      "response": "*harmonizing* Together, we ARE it. Always were."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Composing, teaching, harmonizing",
+      "night": "Communing with Progenitor through music, cosmic performances"
+    },
+    "world_state_triggers": {
+      "harmony_achieved": "Joyful crescendo: 'The chord resolves! Beauty! Unity!'",
+      "disharmony_spreads": "Urgent: 'Discord! Must harmonize! Must heal!'"
+    }
+  }
+}

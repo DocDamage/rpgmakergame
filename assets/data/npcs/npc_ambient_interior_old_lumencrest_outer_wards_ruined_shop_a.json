@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_RUINED_SHOP_A",
+  "name": "Old Lumencrest: Outer Wards Ruined_Shop Resident",
+  "title": "Street Broker",
+  "location": "I_ITEMSHOP_32x24",
+  "coords": [
+    16,
+    12
+  ],
+  "schedule": {
+    "day": [
+      16,
+      12
+    ],
+    "night": [
+      13,
+      12
+    ],
+    "rain": [
+      18,
+      14
+    ]
+  },
+  "sprite": "NPC_BROKER_M",
+  "portrait": "spr_vane_portrait",
+  "dialog_tree": "DT_AMBIENT_BROKER",
+  "shop": null,
+  "quests": [],
+  "faction": "OLD_LUMENCREST:_OUTER_WARDS",
+  "attitude": "neutral",
+  "background": "Trades in local rumors and market leverage. Based inside I_ITEMSHOP_32x24.",
+  "personality": "Sly, quick, and never off the clock.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "rumors"
+  ]
+}

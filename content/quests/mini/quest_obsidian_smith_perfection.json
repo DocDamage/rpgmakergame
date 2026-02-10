@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_smith_perfection",
+  "name": "The Perfect Alloy",
+  "zone": "obsidian",
+  "giver": "ironchef_industrial",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I need the perfect alloy for my masterpiece—a blade that never dulls, never rusts, never breaks! The recipe calls for Star-Metal, Volcanic Glass, and Deep Iron. The first two I have, but the Deep Iron must be mined fresh from the Abyssal Vein!",
+      "objective": "Mine fresh Deep Iron from the Abyssal Vein"
+    },
+    "progress": {
+      "dialog": "Perfect ore quality! But it must be smelted within the hour or it degrades! Quick, to the Master's Forge! I'll handle the smelting—you keep the furnace stoked with obsidian coal!",
+      "objective": "Stoke the Master's Forge with obsidian coal during smelting"
+    },
+    "complete": {
+      "dialog": "BEHOLD! The Infinite Blade! It lives up to its name! As thanks for your service, take this lesser copy—the Apprentice's Edge! It may not be infinite, but it'll serve you better than any common steel!",
+      "rewards": {
+        "exp": 850,
+        "gold": 600,
+        "item": "apprentices_edge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I got to help forge a legendary weapon! I'm basically a blacksmith now!",
+    "twist": "The heat was intense, but the result was magnificent.",
+    "nix7": "Metallurgical process: observed. Alloy composition: exceptional."
+  }
+}

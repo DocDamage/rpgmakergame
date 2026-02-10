@@ -1,0 +1,95 @@
+{
+  "npc_id": "coolcat_green_uplands",
+  "name": "Jazz",
+  "sprite": "coolcat_green",
+  "zone": "uplands",
+  "location": "Breezy Plateau",
+  "personality": "laid_back_musician",
+  "occupation": "flute_player",
+  "dialog": {
+    "greeting": [
+      "*smooth flute riff* Hey there, traveler.",
+      "Jazz. Just Jazz. Like the music.",
+      "Cool breeze up here. Cool tunes too.",
+      "You look like you need a melody.",
+      "The mountain's got rhythm. I provide the soul.",
+      "Flute's my voice. Mountains my stage.",
+      "Sit a spell. Listen. Breathe."
+    ],
+    "shop_open": "I sell tunes. Lessons. Good vibes.",
+    "shop_prompt": "Sheet music. Flute techniques. Chill encouragement.",
+    "haggle": [
+      "Music's free. My time? Negotiable.",
+      "For a fellow lover of sound? Deal.",
+      "Let's jam on the price.",
+      "Groove-based discount applied."
+    ],
+    "purchase_success": [
+      "Play from the heart. Always.",
+      "The mountain approves this melody.",
+      "Spread the sound. Share the peace.",
+      "Now go make beautiful noise."
+    ],
+    "purchase_fail": [
+      "No worries. The music waits.",
+      "Can't afford? Listen for free.",
+      "Come back when the rhythm moves you."
+    ],
+    "rumor": [
+      "Hashimoto's got no rhythm. Tried to teach him. Failed. Still cool though.",
+      "The twins? Perfect harmony. Natural syncopation.",
+      "That black coat plays a different tune. Minor key. Real minor.",
+      "Heard there's a snake charmer in Dustbelt. Different style. Respect."
+    ],
+    "quest_hook": "Lost my favorite reed. Special bamboo. Only grows in the Whispering Grove. Wind spirits guard it. Retrieve it? I'll compose your theme song.",
+    "quest_active": "Whispering Grove. Listen for the music. The reeds sing. Wind spirits dance. Careful.",
+    "quest_complete": "My reed! Listen to this tone! Pure! Here's your theme. Play it when you triumph. Epic stuff.",
+    "quest_reward": "Hero's Theme Song - Morale boost ability",
+    "farewell": [
+      "Keep it smooth, traveler.",
+      "Let the music guide you.",
+      "Stay cool. Stay groovy."
+    ],
+    "ambient_barks": [
+      "*smooth flute melody*",
+      "*tapping foot*",
+      "Cool breeze...",
+      "*musical improv*",
+      "Feel the rhythm...",
+      "*chill vibes*"
+    ],
+    "time_dawn": "Morning melodies. Soft. Gentle. Awakening.",
+    "time_noon": "High noon jazz. Bright notes. Sharp contrasts.",
+    "time_dusk": "Evening blues. Soulful. Contemplative.",
+    "time_night": "Night jazz. Mysterious. Cool. Deep.",
+    "post_quest_greeting": "The reed-finder. Hero with a theme now."
+  },
+  "party_reactions": {
+    "kade": "You're very... cool. I feel underdressed.",
+    "nix7": "Auditory patterns: pleasing. Functional purpose: unclear.",
+    "twist": "Play something FAST! I want to DANCE!",
+    "korr": "The music soothes. Good medicine.",
+    "renna": "Is that jazz I hear? Or just you?"
+  },
+  "relationship_dialog": {
+    "stranger": "New listener. Fresh ears.",
+    "acquaintance": "Returning fan. Appreciated.",
+    "friend": "Musical companion. Jam partner.",
+    "best_friend": "Family through sound. True connection."
+  },
+  "mini_quest": {
+    "id": "whispering_reed",
+    "title": "The Lost Reed",
+    "description": "Retrieve special bamboo reed from the Whispering Grove",
+    "stages": {
+      "hook": "Lost my favorite reed. Special bamboo. Only in Whispering Grove. Wind spirits guard it. Retrieve? I'll compose your theme song.",
+      "active": "Whispering Grove. Listen for the music. Reeds sing there. Wind spirits dance. Careful - they bite if you step on the rhythm.",
+      "complete": "My reed! Hear this tone! Pure! Here's your theme. Play it when you triumph. Epic. Grammy-worthy. If they had Grammys here."
+    },
+    "reward": {
+      "item": "heros_theme_scroll",
+      "gold": 275,
+      "reputation": "music_appreciator"
+    }
+  }
+}

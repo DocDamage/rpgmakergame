@@ -1,0 +1,54 @@
+{
+  "npc_id": "final_guardian_apex",
+  "name": "Final Guardian Apex",
+  "title": "Field Commander",
+  "zone": "tower",
+  "location": "The Penultimate Step Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "disciplined_guarded_decisive",
+  "occupation": "security_lead",
+  "dialog": {
+    "greeting": [
+      "Final Guardian Apex on comms. Stage 4: The Penultimate Step. Keep formation tight and decisions tighter.",
+      "We are running The Ascent. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Battle Apex to prove final readiness."
+    ],
+    "quest_hook": "Objective stack: Battle Apex to prove final readiness; Demonstrate understanding of the burden; Earn the right to face the Maker. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Face the last guardian before the peak. Immediate move: Battle Apex to prove final readiness.",
+    "quest_complete": "Stage 4 resolved: The Penultimate Step. Primary objective secured and route stabilized. Prepare for The Threshold of Creation.",
+    "rumor": [
+      "Floor attendants say broken elevators still answer to old captain codes.",
+      "People keep repeating one clue from The Penultimate Step: 'Earn the right to face the Maker'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Eyes front.",
+      "Hold the line.",
+      "No drift.",
+      "Confirm the lane."
+    ],
+    "time_dawn": "Dawn in the tower is maintenance hour. Security patterns are predictable.",
+    "time_noon": "Noon rotations overlap. Expect stacked encounters and less recovery time.",
+    "time_dusk": "Dusk shadowing in tower arenas hides projectile tells. Keep spacing.",
+    "time_night": "Night floor clears are endurance checks. Pace your resources."
+  },
+  "party_reactions": {
+    "kade": "Final Guardian Apex sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Final Guardian Apex accepted. Probability of success improves with compliance.",
+    "twist": "Final Guardian Apex talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "tower_ascent"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+    "world_break_aware": true
+  }
+}

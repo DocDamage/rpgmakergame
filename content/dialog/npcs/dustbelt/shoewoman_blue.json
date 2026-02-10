@@ -1,0 +1,96 @@
+{
+  "npc_id": "shoewoman_blue_dustbelt",
+  "name": "Breeze Blue",
+  "sprite": "shoewoman_blue",
+  "zone": "dustbelt",
+  "location": "Oasis Waystation",
+  "personality": "laid_back_artistic",
+  "occupation": "sandal_specialist",
+  "dialog": {
+    "greeting": [
+      "Sandal weather, every weather!",
+      "Blue's the name, open-toed is my game!",
+      "Feel the sand between your toes! Live a little!",
+      "Closed shoes? In THIS heat? You're brave!",
+      "Sole Sister Sue sent you? She's... intense. Love her, but intense.",
+      "Breathe, friend! Let your feet breathe!",
+      "Sandals: for the free soul! The hot soul! All souls, really!"
+    ],
+    "shop_open": "Hand-woven! Desert-cooled! Spirit-liberated! Try a pair!",
+    "shop_prompt": "Sandal bar! Mix and match! Build your perfect sandal!",
+    "haggle": [
+      "Already fair prices! But I'll add toe decorations!",
+      "Peace offering? Free ankle bracelet with purchase!",
+      "My sister charges more. Don't tell her I said that.",
+      "For you? Because you appreciate freedom!"
+    ],
+    "purchase_success": [
+      "Free feet, free mind!",
+      "The desert breeze on your toes! Paradise!",
+      "Wise choice! Traditional AND breezy!",
+      "May your steps be light and sandy!"
+    ],
+    "purchase_fail": [
+      "Closed minds wear closed shoes. No judgment!",
+      "Think about it! Your toes will thank you!",
+      "When you're ready to free your feet, I'll be here!"
+    ],
+    "rumor": [
+      "Sue says sandals are impractical. She said PRACTICAL! In the Dustbelt!",
+      "That druid in the bush? Totally barefoot. Respect.",
+      "The Uplands twins wear ceremonial sandals. My design! Famous!",
+      "Signguy once ordered sandals. For his hands. Weird guy."
+    ],
+    "quest_hook": "Need special weaving material! Oasis reeds, but the good patch is guarded by territorial crabs! Big ones! Bring me reeds and I'll weave you something special!",
+    "quest_active": "Those crabs are MEAN but the reeds are WORTH it! Careful!",
+    "quest_complete": "Perfect reeds! Look at this color! Here - custom sandals! Crab-claw resistant!",
+    "quest_reward": "Oasis-Reed Sandals - +5 Heat Resistance",
+    "farewell": [
+      "Walk free! Walk breezy!",
+      "Feel the earth! Not too much! Hot!",
+      "Come back sandy!"
+    ],
+    "ambient_barks": [
+      "Free your toes!",
+      "Sandals for all!",
+      "Breathe, feet, breathe!",
+      "Not just shoes - LIFESTYLE!",
+      "Hand-woven! Heart-woven!",
+      "Sue's boots, my sandals - family business!"
+    ],
+    "time_dawn": "Cool morning sand! Best time for bare feet!",
+    "time_noon": "Hot now! REALLY hot! But sandals still better!",
+    "time_dusk": "Evening colors! Match your sandals to sunset!",
+    "time_night": "Night walks! Sandals optional! Freedom!",
+    "post_quest_greeting": "The reed-bringer! How are those crab-proof sandals?",
+    "sister_mention": "Sue makes great boots. I make free souls. Both valid!"
+  },
+  "party_reactions": {
+    "kade": "I don't know about open-toed in a desert full of scorpions...",
+    "nix7": "Toes exposed. Inefficient. Risk of injury: high.",
+    "twist": "My toes can wiggle! Look! Wiggle wiggle!",
+    "korr": "Simple. Practical for climate. I understand.",
+    "renna": "Finally, something fashionable!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time trying sandals? Brave! Exciting!",
+    "acquaintance": "Coming around to the free-foot lifestyle! Love it!",
+    "friend": "For you? Custom designs! Express yourself!",
+    "best_friend": "You're sandal family now! Lifetime repairs! Free!"
+  },
+  "mini_quest": {
+    "id": "oasis_reed_harvest",
+    "title": "Reed Rascals",
+    "description": "Gather rare oasis reeds from the crab-guarded patch",
+    "stages": {
+      "hook": "Need special oasis reeds for weaving! Good patch is guarded by BIG crabs! Territorial!",
+      "active": "The reeds near the eastern oasis! Watch for claws! Snip snap!",
+      "complete": "Beautiful reeds! Perfect color! Here - custom woven sandals! Crab-claw resistant! And stylish!"
+    },
+    "reward": {
+      "item": "oasis_reed_sandals",
+      "gold": 150,
+      "reputation": "sandal_enthusiast"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "npc_id": "barrelgob_green_mire",
+  "name": "Skritch 'The Listener' Barrelborn",
+  "sprite": "barrelgob_green",
+  "zone": "mire",
+  "location": "Back Alleys and Docks",
+  "personality": "nervous_observative_secretive",
+  "occupation": "dock_rat_informant",
+  "schedule": {
+    "day": "hiding_and_observing",
+    "night": "exploring_and_listening"
+  },
+  "dialog": {
+    "greeting": [
+      "Shhh! Not so loud! They might hear!",
+      "Skritch knows things. Secrets. For a price. Or a sandwich.",
+      "You didn't see me. I wasn't here. This conversation never happened.",
+      "The barrels talk. Did you know? They remember things. I listen.",
+      "Quiet places. Dark places. That's where truth lives.",
+      "Information for sale! Fresh secrets! Hot gossip!",
+      "Don't trust the bosses. Either of them. But I can tell you more...",
+      "Skritch sees. Skritch hears. Skritch... might tell."
+    ],
+    "secrets_for_sale": "Got dirt on White. Got dirt on Purple. Got dirt on the foodboys, the snakecharmer, everyone! What's your budget?",
+    "barrel_whispers": "Barrels remember. Who made them. What they held. Where they've been. I sleep in barrels. They tell me things. True things.",
+    "backstory": "Born in a barrel. Raised in a barrel. Will probably die in a barrel. Not a complaint! Barrels are safe. Warm. Talkative. Better than most people.",
+    "rumors": [
+      "The union dispute? White's scared. Purple knows it. That's why he's pushing.",
+      "Something big moved through the Deep Muck last month. Not natural. Not animal. Something... else.",
+      "The foodboys aren't really brothers. Found that out by accident. Don't tell them I know.",
+      "That iron chef? He used to work the docks. Knows where bodies are buried. Literally, maybe."
+    ],
+    "ambient_barks": [
+      "Shhh! Quiet!",
+      "I know things...",
+      "The barrels talk...",
+      "Secrets for sale...",
+      "Don't tell them!",
+      "I wasn't here..."
+    ],
+    "time_of_day": {
+      "morning": "Too bright. Too many eyes. Come back later.",
+      "noon": "Lunch! Got any scraps? Information discount for food!",
+      "evening": "Good time. Shadows growing. People careless.",
+      "night": "Night is MY time. Barrels are loudest at night."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "deep_muck_secret",
+    "quest_name": "Whispers from the Deep",
+    "stage_1_hook": "The Deep Muck... something's there. Something old. The barrels won't stop whispering about it. 'The sunken door,' they say. 'The door that opens down.' I need to know what's there. But I'm... not brave. You look brave.",
+    "stage_1_active": "Find the sunken door in the Deep Muck. Tell Skritch what lies beyond. The barrels need to know.",
+    "stage_2_progress": "You've been? To the Deep Muck? Seen the door? What did you find? Tell me!",
+    "stage_2_dialogue": "An ancient temple? To a serpent god? The barrels were right! They KNEW!",
+    "stage_3_complete": "The serpent temple... fascinating. The barrels are... excited? Can barrels be excited? Anyway, here's what I promised. My best secret. Hidden treasure cache. Location known only to me and the barrels.",
+    "reward": "skritchs_secret_cache_location"
+  },
+  "party_reactions": {
+    "kade": "I don't trust him. But his information is usually good.",
+    "nix7": "Scanning: Subject demonstrates elevated paranoia. Information reliability: 67%.",
+    "twist": "He's so SMALL! And SNEAKY! Can we keep him?",
+    "korr": "A creature of shadows. Useful, if unpredictable.",
+    "renna": "He actually hears magical resonance in contained spaces. Rare talent. Pity about the paranoia.",
+    "suresh": "The small ones often see what the tall miss. Listen to him.",
+    "sova": "Useful source. As long as you verify everything.",
+    "grit": "Every unit needs a scout. He's... one kind of scout.",
+    "ashka": "He flinches when I get close. Smart goblin.",
+    "senna": "Finally, someone who understands the value of secrets.",
+    "callum": "He seems... sad. But helpful! In a creepy way."
+  },
+  "relationship_dialog": {
+    "stranger": "New customer. Cash up front. No refunds.",
+    "acquaintance": "I remember you. You pay well. I like you.",
+    "friend": "My favorite customer! I save the best secrets for you!",
+    "best_friend": "You... you treat Skritch like a person. Not a goblin. The barrels say you're good people. They're right."
+  },
+  "cross_npc_connections": [
+    "onionboss_white: White doesn't see me. Good. Lets me watch.",
+    "onionboss_purple: Purple sees everyone. Even me. Treats me... nice. Weird.",
+    "barrelman_wood: Barkwood's barrels talk the most. Quality wood. Good listeners."
+  ]
+}

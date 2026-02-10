@@ -1,0 +1,120 @@
+{
+  "npc_id": "coolcat_black",
+  "name": "Jazz",
+  "title": "Resistance Bard",
+  "zone": "capital",
+  "location": "Campfire Circle, Central Ruins",
+  "description": "A sleek figure in black, playing worn instruments and singing songs of defiance and hope.",
+  "sprite_variant": "coolcat_black",
+  "greeting_variants": [
+    "*strums guitar* Hey there, hero. Got time for a song?",
+    "Music's free. Hope's free. Everything else? Negotiable.",
+    "*playing mournful melody* That one's called 'The Day the Sky Cried.'",
+    "You look like someone with stories. I trade songs for stories.",
+    "*upbeat riff* Nothing keeps spirits up like a good bass line.",
+    "The Void hates music, you know. Can't stand harmony.",
+    "Name's Jazz. I play, I sing, I keep people human.",
+    "*tuning instrument* New crowd tonight. What do they need to hear?"
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Jazz, at your service. Official resistance bard. Unofficial morale officer. When the rations run low and the Void gets close... people need more than food. They need soul.",
+          "options": [
+            {"text": "Play me something.", "goto": "play_song"},
+            {"text": "Music helps?", "goto": "music_power"},
+            {"text": "Got any new material?", "goto": "new_songs"},
+            {"text": "See you around.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "play_song",
+          "text": "*plays a haunting melody* This one's called 'Steel and Shadow.' For those who fight when hope is thin. *sings* 'When the world turns dark and cold, when the stories all grow old, still we stand with steady hand...'",
+          "effect": "party_morale_boost",
+          "party_reactions": {
+            "kael": "*quietly mouthing words* Beautiful.",
+            "garret": "*wiping eye* Dust. Just... dust in my eye.",
+            "mira": "The harmonic resonance... fascinating psychological effect."
+          },
+          "options": [
+            {"text": "That was beautiful.", "goto": "song_praise"},
+            {"text": "Play another?", "goto": "second_song"}
+          ]
+        },
+        {
+          "id": "music_power",
+          "text": "More than you'd think. The Void... it hates structure. Hates harmony. Music is order in chaos. When people sing together, when rhythms align... it's like armor. Spiritual armor.",
+          "options": [
+            {"text": "Can you teach me?", "goto": "learn_music"},
+            {"text": "Tell me about the Void and music.", "goto": "void_music"}
+          ]
+        },
+        {
+          "id": "new_songs",
+          "text": "Always writing. But I'm missing pieces. Stories from out there—from the zones. The Frost, the Mire, the Ember. Real experiences. That's what makes songs true. You travel. You have stories.",
+          "options": [
+            {"text": "I've seen things.", "goto": "story_trade"},
+            {"text": "What do you want to know?", "goto": "inquiry"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "songs_of_the_zones",
+    "title": "Songs of the Zones",
+    "description": "Share your experiences from other zones to help Jazz compose new songs of hope and resistance.",
+    "objectives": [
+      "Tell Jazz about your adventures in the Frost",
+      "Share stories from the Mire",
+      "Describe the wonders of Ember",
+      "Help Jazz compose 'The Ballad of the Wanderers'",
+      "Perform the new song at the camp"
+    ],
+    "rewards": {
+      "experience": 450,
+      "reputation": {"resistance": 25, "artists": 30},
+      "items": ["jazz_guitar_pick", "ballad_of_wanderers_score"],
+      "unlock": "jazz_companion_battle_bard"
+    },
+    "prerequisites": ["visited_frost", "visited_mire", "visited_ember"]
+  },
+  "ambient_barks": [
+    "*practicing scales* Do re mi... fighting the Void, you and me...",
+    "Got a new song brewing. Needs more... defiance.",
+    "The kids love the upbeat stuff. I'll play 'til my fingers bleed.",
+    "*improvising* In the ruins where the shadows creep...",
+    "Music is rebellion. Every note says 'we're still here.'",
+    "*replacing a string* Third one this week. I play hard.",
+    "That coolcat in the Tower? Heard he's good. Rival? Maybe.",
+    "Sing with me! Loud! Drown out the silence!"
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "There's another musician up there, they say. Coolcat like me. Wonder if we sound the same?",
+    "palace": "The old royal orchestra... I dream of those acoustics. One day, I'll play there.",
+    "frost": "The Frost has wind that sings. Natural music. Haunting. Beautiful."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Jazz! Play us something lively!",
+      "response": "*grins* For you, Garret? Something that'll make you dance!"
+    },
+    "kael": {
+      "greeting": "Your music strengthens the spirit.",
+      "response": "*bows* High praise from a warrior. I'll play louder."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Writing new material, teaching refugees instruments",
+      "night": "Performing at campfire, lifting camp morale"
+    },
+    "world_state_triggers": {
+      "low_morale": "Plays especially inspiring songs, boosts camp spirits",
+      "victory_celebration": "Leads rousing celebration songs, dancing"
+    }
+  }
+}

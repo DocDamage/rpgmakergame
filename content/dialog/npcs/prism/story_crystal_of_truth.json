@@ -1,0 +1,54 @@
+{
+  "npc_id": "crystal_of_truth",
+  "name": "Crystal of Truth",
+  "title": "Lore Keeper",
+  "zone": "prism",
+  "location": "The Crystal Awakens Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_precise_obsessive",
+  "occupation": "researcher",
+  "dialog": {
+    "greeting": [
+      "Crystal of Truth on comms. Stage 4: The Crystal Awakens. Keep formation tight and decisions tighter.",
+      "We are running Shattered Light. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Approach the Crystal of Truth."
+    ],
+    "quest_hook": "Objective stack: Approach the Crystal of Truth; Prove worthiness through honest intent; Form the bond with the Crystal. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Claim the Crystal of Truth and witness its power. Immediate move: Approach the Crystal of Truth.",
+    "quest_complete": "Stage 4 resolved: The Crystal Awakens. Primary objective secured and route stabilized. Prepare for Shadows in the Glass.",
+    "rumor": [
+      "Prism scouts mapped a cave where colors refuse to stay attached to objects.",
+      "People keep repeating one clue from The Crystal Awakens: 'Form the bond with the Crystal'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Pattern noted.",
+      "Archive that.",
+      "Evidence first.",
+      "Hypothesis holding."
+    ],
+    "time_dawn": "Dawn light in Prism reveals hidden seams in mirrored stone.",
+    "time_noon": "Noon overcharges reflection grids. Angle your approach, do not rush centerline.",
+    "time_dusk": "Dusk doubles your silhouette count. Track teammate positions verbally.",
+    "time_night": "Night turns crystal caverns into echo mazes. Keep line-of-sight discipline."
+  },
+  "party_reactions": {
+    "kade": "Crystal of Truth sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Crystal of Truth accepted. Probability of success improves with compliance.",
+    "twist": "Crystal of Truth talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "prism_shattered_light"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+    "world_break_aware": true
+  }
+}

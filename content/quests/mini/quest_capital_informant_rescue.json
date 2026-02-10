@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_informant_rescue",
+  "name": "Silencing the Squealer",
+  "zone": "capital",
+  "giver": "hazmat_orange",
+  "type": "combat",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "Dominion snatched one of our informants—kid named Pipes, worked the ventilation systems, heard everything. They're holding him at the chemical processing plant. If he talks, half our network goes down. Get in, get him out, and don't leave witnesses who can identify you.",
+      "objective": "Infiltrate the chemical processing plant"
+    },
+    "progress": {
+      "dialog": "Pipes is alive but rattled. Says they're planning something called 'Operation Quietude'—mass arrests of resistance sympathizers. We need to get him to the safehouse and debrief properly. Watch for pursuit; they'll have trackers on him.",
+      "objective": "Escort Pipes to the resistance safehouse"
+    },
+    "complete": {
+      "dialog": "Pipes is safe, and the intel is gold. Operation Quietude targets forty families—people we can now move to safety. You've not only saved one life; you've given dozens a chance to escape. The resistance remembers its friends, Kade.",
+      "rewards": {
+        "exp": 10500,
+        "gold": 1800,
+        "item": "ventilation_keycard"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Rescue missions always get my blood up. Nobody deserves to rot in a Dominion cell.",
+    "twist": "Pipes talked too much, knew too much. Classic liability. Glad we got him out before he became a bigger problem.",
+    "vex": "Protecting the innocent from tyranny... this is the true calling of a knight. Honor compels us to act."
+  },
+  "lore_unlocks": ["operation_quietude", "dominion_interrogation_methods"]
+}

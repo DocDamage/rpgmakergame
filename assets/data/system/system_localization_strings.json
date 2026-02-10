@@ -1,0 +1,31 @@
+{
+  "localization": {
+    "meta": {
+      "version": "1.0",
+      "fallback_language": "en",
+      "supported_languages": ["en", "es", "fr", "de", "ja"],
+      "text_encoding": "UTF-8"
+    },
+    "categories": {
+      "ui_general": {
+        "ok": {"en": "OK", "es": "Aceptar", "ja": "決定", "de": "OK", "fr": "OK"},
+        "cancel": {"en": "Cancel", "es": "Cancelar", "ja": "キャンセル", "de": "Abbrechen", "fr": "Annuler"},
+        "yes": {"en": "Yes", "es": "Sí", "ja": "はい", "de": "Ja", "fr": "Oui"},
+        "no": {"en": "No", "es": "No", "ja": "いいえ", "de": "Nein", "fr": "Non"}
+      },
+      "battle": {
+        "cmd_attack": {"en": "Attack", "es": "Atacar", "ja": "攻撃", "de": "Angreifen", "fr": "Attaquer"},
+        "cmd_magic": {"en": "Magic", "es": "Magia", "ja": "魔法", "de": "Magie", "fr": "Magie"},
+        "cmd_item": {"en": "Item", "es": "Objeto", "ja": "アイテム", "de": "Gegenstand", "fr": "Objet"},
+        "cmd_limit": {"en": "Limit", "es": "Límite", "ja": "リミット", "de": "Limit", "fr": "Limite"},
+        "victory": {"en": "Victory!", "es": "¡Victoria!", "ja": "勝利！", "de": "Sieg!", "fr": "Victoire !"}
+      },
+      "stats": {
+        "hp": {"en": "HP", "es": "PV", "ja": "HP", "de": "LP", "fr": "PV"},
+        "mp": {"en": "MP", "es": "PM", "ja": "MP", "de": "MP", "fr": "PM"},
+        "atk": {"en": "Attack", "es": "Ataque", "ja": "攻撃力", "de": "Angriff", "fr": "Attaque"},
+        "def": {"en": "Defense", "es": "Defensa", "ja": "防御力", "de": "Verteidigung", "fr": "Défense"}
+      }
+    }
+  }
+}

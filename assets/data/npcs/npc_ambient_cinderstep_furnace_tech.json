@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CINDERSTEP_FURNACE_TECH",
+  "name": "Cinderstep Furnace Tech",
+  "title": "Ward Technician",
+  "location": "T_CINDERSTEP_112x72",
+  "coords": [
+    44,
+    51
+  ],
+  "schedule": {
+    "day": [
+      44,
+      51
+    ],
+    "night": [
+      42,
+      53
+    ],
+    "rain": [
+      45,
+      52
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_WARD_TECH",
+  "shop": null,
+  "quests": [],
+  "faction": "MASTER_SMITHS",
+  "attitude": "professional",
+  "background": "Maintains ward pylons and perimeter systems. Stationed in Cinderstep.",
+  "personality": "Focused, practical, and resilient.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "barrier_status",
+    "safety_tips"
+  ]
+}

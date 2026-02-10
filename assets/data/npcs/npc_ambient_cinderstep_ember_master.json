@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CINDERSTEP_EMBER_MASTER",
+  "name": "Cinderstep Ember Master",
+  "title": "Master Smith",
+  "location": "T_CINDERSTEP_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      16,
+      25
+    ],
+    "rain": [
+      19,
+      23
+    ]
+  },
+  "sprite": "NPC_MASTER_SMITH",
+  "portrait": "spr_grimjaw_portrait",
+  "dialog_tree": "DT_AMBIENT_MASTER_SMITH",
+  "shop": null,
+  "quests": [],
+  "faction": "MASTER_SMITHS",
+  "attitude": "neutral",
+  "background": "Veteran forge worker trusted for precision craft. Stationed in Cinderstep.",
+  "personality": "Demanding, proud, and brutally honest.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "crafting_advice",
+    "gear_inspection"
+  ]
+}

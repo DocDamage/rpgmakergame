@@ -1,0 +1,70 @@
+{
+  "npc_id": "tunneler_red_ember",
+  "name": "Magma-Mole Morris",
+  "sprite": "tunneler_red",
+  "zone": "ember",
+  "location": "Magma Mine Shafts",
+  "personality": "heat_hardened_resilient",
+  "occupation": "magma_miner",
+  "schedule": "rotating_shifts",
+  "dialog": {
+    "greeting": [
+      "Down here, we don't measure depth in feet. We measure it in DEGREES.",
+      "Magma-Mole Morris! I dig where others MELT!",
+      "You look too... intact. Surface dweller, eh?",
+      "Back for more? Thought the heat'd scare you off!",
+      "Welcome to the HOT ZONE! Where the ore glows and the miners don't!",
+      "Need something from the deep? I'm your mole!",
+      "The magma flows and so do I! Adapt or evaporate!",
+      "Heat doesn't bother me anymore. Lost my sweat glands years ago!"
+    ],
+    "mining_exploits": "Dug through a magma vein once. Lost my favorite pick. And my eyebrows. But found a CRYSTAL the size of your HEAD!",
+    "heat_tolerance": "Started with heat suits. Then just thick clothes. Now? Tank top and stubbornness. The body adapts!",
+    "deep_discoveries": "Down deep, we find things. Crystals that sing. Stones that remember. The earth has SECRETS.",
+    "union_complaints": "Management wants us deeper. UNION says 'find robots.' Robot won't work down here. Too melty. We stay.",
+    "rumor": [
+      "The tunnels connect to everywhere. Dustbelt. Obsidian. Even Frost, if you go deep enough.",
+      "Something moves in the magma. Not bubbles. Something... alive.",
+      "Old-timers say there's a city down there. Pre-Collapse. Full of GOLD.",
+      "Tide's got underwater tunnels. Opposite problem. Same solution: keep digging."
+    ],
+    "retirement_plans": "Two more years. Gonna buy a boat. Something on WATER. Cold water. With FISH. Never seen a fish.",
+    "farewell": [
+      "Stay cool! Or hot! Whatever keeps you alive!",
+      "Don't let the surface make you SOFT!",
+      "Keep your pick sharp and your water closer!",
+      "Come back if you need something from the DEEP!"
+    ],
+    "ambient_barks": [
+      "Hot enough for ya?",
+      "Dig! DIG! DIG!",
+      "Hear that? Magma flow shifting...",
+      "Another day, another degree...",
+      "Crystal formation on the left...",
+      "Don't touch the red rocks!"
+    ],
+    "time_dawn": "Morning shift! Coolest part of the day. Still 90 degrees.",
+    "time_noon": "Peak heat! Magma's restless! Watch your step!",
+    "time_dusk": "Evening cooldown. Best time to find solid ground.",
+    "time_night": "Night shift! The tunnels glow prettier in the dark."
+  },
+  "party_reactions": {
+    "kade": "This is the toughest job I've ever seen. Respect.",
+    "nix7": "Human heat tolerance exceeded. Biological adaptation: impressive.",
+    "twist": "You're like a MOLE! But for FIRE! That's AWESOME!",
+    "korr": "The deep places hold many secrets. You find them well.",
+    "renna": "Do you ever encounter magical deposits? Crystallized mana?",
+    "suresh": "To work in such conditions requires dedication. Or desperation.",
+    "sova": "I'd last five minutes down here. Maybe four.",
+    "grit": "Harder than any trench. You're tough, mole-man.",
+    "ashka": "You work WITH the fire! Not against it! SMART!",
+    "senna": "Deep tunnels. Good hiding. I'll remember this.",
+    "callum": "Aren't you... hot? You look really hot."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Stay away from the magma pools.",
+    "acquaintance": "You're back. Either brave or foolish. Both useful down here.",
+    "friend": "My surface friend! Come to hear more tales from the deep?",
+    "best_friend": "You! My favorite customer! Here - take this heat stone. Stays warm forever. Don't ask how."
+  }
+}

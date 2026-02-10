@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_sumo_meditation",
+  "name": "Crystal Clarity",
+  "zone": "prism",
+  "giver": "Sumo White",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Sumo need inner peace! Crystals help! Need to meditate in crystal chamber! But scary alone! You guard? Keep bad things away? Sumo find enlightenment!",
+      "objective": "Guard Sumo White during meditation in the crystal chamber"
+    },
+    "progress": {
+      "dialog": "*deep breathing* Sumo... becoming one... with crystals... *ominous rumbling* ...bad things coming?",
+      "objective": "Defend against creatures drawn to the meditation energy"
+    },
+    "complete": {
+      "dialog": "ENLIGHTENMENT! Sumo understand! Strength comes from WITHIN! And from good meals! Here - Crystal Focus Band! Makes you STRONG and WISE! Like Sumo!",
+      "rewards": {"gold": 400, "item": "crystal_focus_band", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "He sat still for an hour. That takes real discipline.",
+    "twist": "He started glowing! Did you see?!",
+    "suresh": "Meditation brings clarity. Even for sumo."
+  },
+  "hidden_outcome": "If no enemies touch Sumo during the entire meditation, he achieves 'Super Enlightenment' and teaches 'Diamond Body' - ultimate defensive stance"
+}

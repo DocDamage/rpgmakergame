@@ -1,0 +1,4 @@
+issue_type,severity,key,details
+legacy_or_extra_tileset_spec,medium,Tileset_Uplands,Spec exists but tileset ID not referenced by current map data
+interior_object_source_candidates,info,docs/reports,Curated candidate list prepared in markdown report
+interior_object_sheet_gap,medium,assets/sprites/tilesets,Need dedicated interior-object production sheets beyond base tileset source copies

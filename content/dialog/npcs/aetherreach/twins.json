@@ -1,0 +1,102 @@
+{
+  "npc_id": "twins_aetherreach",
+  "name": "Mira and Mora",
+  "sprite": "twins",
+  "zone": "aetherreach",
+  "location": "Twin Spire Outlook",
+  "personality": "synchronized_enigmatic",
+  "occupation": "twin_oracles",
+  "dialog": {
+    "greeting": [
+      "Welcome... traveler...",
+      "We... see... you...",
+      "Mira... and... Mora...",
+      "The... future... awaits...",
+      "Two... voices... one... vision...",
+      "Seeking... answers...?",
+      "We... speak... truth..."
+    ],
+    "fortune_offer": "Ask... your... question... We... answer... as... one...",
+    "prophecy_delivery": "The... stars... whisper... We... repeat... Listen... carefully...",
+    "twin_dynamic": "Mira... sees... the... beginning... Mora... sees... the... end... Together... we... see... all...",
+    "haggle": [
+      "Knowledge... has... price...",
+      "For... you... less... gold...",
+      "We... accept... offerings...",
+      "Generosity... brings... clearer... visions..."
+    ],
+    "fortune_given": [
+      "The... path... splits... choose... left...",
+      "Danger... lurks... in... shadows... beware...",
+      "Fortune... favors... the... prepared...",
+      "Love... awaits... where... water... falls..."
+    ],
+    "fortune_declined": [
+      "Your... loss... futures... fade...",
+      "Knowledge... refused... is... opportunity... lost...",
+      "Return... when... ready... to... hear..."
+    ],
+    "rumor": [
+      "The... sunandmoon... sees... wholes... We... see... halves... Together... complete...",
+      "The... Remnant... Vault... holds... broken... futures...",
+      "A... twin... alone... is... half... blind...",
+      "The... trenchcoat... person... has... no... reflection... in... our... visions...",
+      "Signs... change... when... unobserved... reality... shifts..."
+    ],
+    "quest_hook": "We... need... Twin-Heart... Crystals... from... mirrored... caves... Two... crystals... for... two... sisters...",
+    "quest_active": "The... crystals... call... to... each... other... as... we... do...",
+    "quest_complete": "Balance... restored... See... the... future... clearly... gift... from... us...",
+    "quest_reward": "Twin-Vision Lens - See hidden paths and future possibilities!",
+    "farewell": [
+      "Go... safely... into... tomorrow...",
+      "We... will... see... you... again...",
+      "Two... become... one... in... departure..."
+    ],
+    "ambient_barks": [
+      "We... see...",
+      "Two... as... one...",
+      "The... future... speaks...",
+      "Together... always...",
+      "Ask... and... know..."
+    ],
+    "time_dawn": "New... day... new... visions...",
+    "time_noon": "Light... reveals... truth...",
+    "time_dusk": "Shadows... lengthen... mysteries... deepen...",
+    "time_night": "Darkness... holds... secrets..."
+  },
+  "party_reactions": {
+    "kade": "Which one...? No, don't tell me. I'll figure it out.",
+    "nix7": "Genetic duplication? Or synchronized behavior pattern? Monitoring.",
+    "twist": "TWO of you! That look the SAME! That's CRAZY!",
+    "korr": "The connection between twins is... sacred. Special.",
+    "renna": "Statistically improbable timing. Rehearsed? Or genuine connection?",
+    "suresh": "Two souls, one rhythm. Beautiful symmetry.",
+    "sova": "Creepy. Efficient, but creepy.",
+    "grit": "Two mouths to feed. One income source. Bad economics.",
+    "ashka": "Can you predict if I'll set something on fire? Please say yes.",
+    "senna": "Finish each other's... heists? No? Just sentences?",
+    "callum": "So... synchronized! So... mystical!",
+    "petra": "Two is stronger than one. But also twice the trouble."
+  },
+  "relationship_dialog": {
+    "stranger": "New... face... new... threads...",
+    "acquaintance": "Returning... seeker... we... remember...",
+    "friend": "Known... friend... visions... clearer... for... you...",
+    "best_friend": "Destiny... intertwined... we... see... your... path... as... ours..."
+  },
+  "mini_quest": {
+    "id": "twin_heart_crystals",
+    "title": "Mirrored Hearts",
+    "description": "Find Twin-Heart Crystals from mirrored caves for Mira and Mora",
+    "stages": {
+      "hook": "Twin-Heart... Crystals... two... for... two...",
+      "active": "Mirrored... caves... reflect... truth... find... the... paired... stones...",
+      "complete": "Balance... perfect... Vision... gift... yours..."
+    },
+    "reward": {
+      "item": "twin_vision_lens",
+      "gold": 400,
+      "reputation": "twin_seer"
+    }
+  }
+}

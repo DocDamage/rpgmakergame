@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_sumo_champion",
+  "name": "Titan of the Foundry",
+  "zone": "obsidian",
+  "giver": "sumo_black",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "HA! You look strong, but are you strong enough for the Obsidian Sumo Championship? We fight on platforms above molten metal! First to fall or be pushed out loses! The current champion, Mountain Crusher, has held the title for ten years!",
+      "objective": "Enter the Obsidian Sumo Championship"
+    },
+    "progress": {
+      "dialog": "You've defeated the preliminary opponents! Now face Mountain Crusher himself! He's massive, immovable, unstoppable! Use speed and technique—power alone won't work!",
+      "objective": "Defeat Mountain Crusher in the sumo ring"
+    },
+    "complete": {
+      "dialog": "IMPRESSIVE! Mountain Crusher has fallen! You are the new Titan of the Foundry! Here is your Champion's Mawashi—and this Obsidian Belt of Might! It increases carrying capacity and throwing power!",
+      "rewards": {
+        "exp": 950,
+        "gold": 800,
+        "item": "obsidian_belt_of_might"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I pushed a mountain! I am officially the strongest!",
+    "twist": "I used a spell to lighten my steps. Don't tell anyone.",
+    "nix7": "Sumo combat analysis: leverage and balance critical. Victory: earned."
+  }
+}

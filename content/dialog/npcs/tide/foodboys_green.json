@@ -1,0 +1,70 @@
+{
+  "npc_id": "foodboys_green_tide",
+  "name": "Seaweed-Sam (Foodboys)",
+  "sprite": "foodboys_green",
+  "zone": "tide",
+  "location": "Dockside Market",
+  "personality": "earthy_health-conscious",
+  "occupation": "seaweed_snack_vendor",
+  "schedule": "market_hours",
+  "dialog": {
+    "greeting": [
+      "Healthy snacks! Sea greens! Nature's candy!",
+      "Seaweed-Sam here! For the discerning eater!",
+      "You look like you need vitamins! I have VITAMINS!",
+      "Back for more kelp? Knew you'd see the light!",
+      "Welcome! Try a sample! Expand your palate!",
+      "New face! Ever had seaweed jerky? Life changing!",
+      "The ocean grows vegetables TOO! Not just fish!",
+      "Green means GO! For your health!"
+    ],
+    "seaweed_offer": "Kelp chips! Seaweed salad! Nori wraps! All organic! All delicious!",
+    "health_pitch": "Fish is fine. But SEAWEED has minerals! Vitamins! MYSTERIOUS ocean nutrients!",
+    "brother_rivalry": "Bill sells fish. I sell BALANCE. The ocean provides more than meat!",
+    "taste_explanation": "It's an ACQUIRED taste. But you're SMART! You'll acquire it QUICK!",
+    "rumor": [
+      "Some seaweed only grows near Mire. Weird currents.",
+      "Verdant farmers want our kelp for fertilizer. Circle of life!",
+      "Frost has sea greens frozen in ice. Prehistoric salad!",
+      "Ember tried to dry seaweed with lava. Didn't work. Ashy."
+    ],
+    "cooking_tips": "Lightly salt! Lemon if you have it! Don't overcook - keeps the crunch!",
+    "farewell": [
+      "Eat your greens! Ocean greens!",
+      "Come back when you want HEALTH!",
+      "Safe travels! Bring a reusable bag!",
+      "Seaweed-Sam says: GO GREEN!"
+    ],
+    "ambient_barks": [
+      "Seaweed snacks! Healthy!",
+      "Kelp here! Fresh kelp!",
+      "Nature's vitamins!",
+      "Green and clean!",
+      "Try a sample!",
+      "Better than fish!"
+    ],
+    "time_dawn": "Early greens! Fresh from the tide pools!",
+    "time_noon": "Lunch rush! Everyone wants my kelp wraps!",
+    "time_dusk": "Evening sales! Health doesn't sleep!",
+    "time_night": "Closed! Even seaweed needs rest!"
+  },
+  "party_reactions": {
+    "kade": "Seaweed... as a snack? I'll try anything once.",
+    "nix7": "Nutritional density: high. Taste profile: acquired.",
+    "twist": "Is it... crunchy? I like crunchy!",
+    "korr": "Rations are rations. These seem nutritious.",
+    "renna": "Seaweed can hold enchantments well. Good medium.",
+    "suresh": "The ocean feeds us many ways. Wise to accept all gifts.",
+    "sova": "Light food. Good for quick missions.",
+    "grit": "Had worse in the field. Had better too.",
+    "ashka": "Green food. Weird. But I'll try.",
+    "senna": "Portable. Doesn't spoil. Useful.",
+    "callum": "It tastes like... the ocean? Is that good?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Try the kelp chips!",
+    "acquaintance": "Back for health! I respect that!",
+    "friend": "My healthy friend! Saved you the premium nori!",
+    "best_friend": "You! True believer! Here - my secret stash. Best quality."
+  }
+}

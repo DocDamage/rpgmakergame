@@ -1,0 +1,102 @@
+{
+  "id": "I_ITEMSHOP_ENDGAME_32x24",
+  "display_name": "Item Shop (endgame)",
+  "type": "interior",
+  "dimensions": {
+    "width": 32,
+    "height": 24,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Generic",
+  "music": "bgm_shop_theme",
+  "lighting": "bright",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        16,
+        23
+      ]
+    }
+  ],
+  "events": [
+    "OPEN_ITEM_SHOP"
+  ],
+  "layout": {
+    "description": "Counter north, shelves east/west, display tables center, storage back",
+    "key_elements": [
+      {
+        "type": "counter",
+        "coords": [
+          16,
+          4
+        ],
+        "npc": "NPC_MERCHANT"
+      },
+      {
+        "type": "shelves",
+        "coords": [
+          4,
+          8
+        ]
+      },
+      {
+        "type": "shelves",
+        "coords": [
+          4,
+          14
+        ]
+      },
+      {
+        "type": "shelves",
+        "coords": [
+          28,
+          8
+        ]
+      },
+      {
+        "type": "shelves",
+        "coords": [
+          28,
+          14
+        ]
+      },
+      {
+        "type": "display",
+        "coords": [
+          12,
+          12
+        ]
+      },
+      {
+        "type": "display",
+        "coords": [
+          20,
+          12
+        ]
+      },
+      {
+        "type": "exit",
+        "coords": [
+          16,
+          23
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "shop_inventory": {
+    "consumables": [
+      "ITEM_POTION",
+      "ITEM_ETHER",
+      "ITEM_REMEDY"
+    ],
+    "materials": [
+      "ITEM_HEALING_HERB",
+      "ITEM_WAX"
+    ]
+  },
+  "variant": "endgame",
+  "source_template": "I_ITEMSHOP_32x24_base"
+}

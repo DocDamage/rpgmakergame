@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_DUSTHAVEN_SALVAGE_SMITH",
+  "name": "Dusthaven Salvage Smith",
+  "title": "Guild Smith",
+  "location": "T_DUSTHAVEN_112x72",
+  "coords": [
+    44,
+    54
+  ],
+  "schedule": {
+    "day": [
+      44,
+      54
+    ],
+    "night": [
+      42,
+      55
+    ],
+    "rain": [
+      45,
+      54
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_kellen_portrait",
+  "dialog_tree": "DT_AMBIENT_SMITH",
+  "shop": null,
+  "quests": [],
+  "faction": "DUSTHAVEN",
+  "attitude": "friendly",
+  "background": "Maintains frontier equipment and salvage tools. Stationed in Dusthaven.",
+  "personality": "Gruff, efficient, and quietly kind.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "equipment_tips",
+    "repair_advice"
+  ]
+}

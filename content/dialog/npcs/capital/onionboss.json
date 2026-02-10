@@ -1,0 +1,115 @@
+{
+  "npc_id": "onionboss",
+  "name": "Layer",
+  "title": "Quartermaster",
+  "zone": "capital",
+  "location": "Supply Bunker, Underground Ruins",
+  "description": "An onion-headed administrator managing the resistance's resources with layers of efficiency and surprising depth.",
+  "sprite_variant": "onionboss",
+  "greeting_variants": [
+    "*counting inventory* Fourteen, fifteen... oh! Customer!",
+    "Layer, at your service. What layer of need are you?",
+    "*sniffs* I smell... desperation? Or is that just me?",
+    "Supplies are low. Spirits are high. Odd combination.",
+    "Welcome to the bunker! We have layers. Of supplies. And... layers.",
+    "*adjusting glasses* Let's see what we can do for you today.",
+    "Vex wants miracles. I provide... reasonable substitutes.",
+    "Everything has a cost. Everything has a value. I know both."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Layer. Quartermaster. I manage what little we have. It's... challenging. Like an onion, managing supplies has layers. Surface layer: what we need. Deeper: what we can get. Deepest: what we're willing to sacrifice.",
+          "options": [
+            {"text": "What do you have?", "goto": "inventory"},
+            {"text": "Supplies are that bad?", "goto": "supply_crisis"},
+            {"text": "Need help sourcing?", "goto": "sourcing"},
+            {"text": "Nice to meet you.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "inventory",
+          "text": "*gestures around* Basics. Weapons, patched and re-patched. Medical supplies, rationed carefully. Food, thanks to the foodboys. Tech... *sighs* ...tech is where we're failing. Need parts. Advanced parts.",
+          "shop": {
+            "available": true,
+            "currency": ["resistance_tokens", "salvage"],
+            "items": ["patched_armor", "field_medkit", "rations", "salvage_tools", "void_scanner"]
+          },
+          "options": [
+            {"text": "Let me see your goods.", "goto": "shop_open"},
+            {"text": "What tech do you need?", "goto": "tech_needs"}
+          ]
+        },
+        {
+          "id": "supply_crisis",
+          "text": "We've been holding for three years. Three years of scraping by, making do, inventing substitutes. But we're reaching the bottom layer. The core. Soon... *voice drops* ...soon we'll have to choose who eats. Who gets medicine. Who lives.",
+          "party_reactions": {
+            "mira": "A resource distribution problem. Mathematically solvable, ethically...",
+            "layer": "Exactly. Math is easy. People are hard."
+          },
+          "options": [
+            {"text": "We can't let that happen.", "goto": "help_promise"},
+            {"text": "What can I do?", "goto": "player_help"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "supply_lines",
+    "title": "Reopen the Supply Lines",
+    "description": "Help Layer establish new supply routes by negotiating with traders from other zones.",
+    "objectives": [
+      "Meet the Dust Belt caravan at the western pass",
+      "Negotiate trade terms with the Mire merchants",
+      "Secure a tech shipment from the Tide engineers",
+      "Protect the supply caravan back to the Capital",
+      "Help Layer distribute the new supplies"
+    ],
+    "rewards": {
+      "experience": 550,
+      "reputation": {"resistance": 30, "merchants": 25},
+      "items": ["quartermaster_key", "supply_route_map"],
+      "unlock": "layer_special_inventory"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*calculating* If we stretch this... no. Not enough.",
+    "Inventory is like an onion. Count it, you cry.",
+    "Vex wants more. Always more. I want miracles.",
+    "*sniffing supplies* This batch... past prime. Still usable.",
+    "Layers of bureaucracy. Even in apocalypse. Amazing.",
+    "One day, proper stockroom. With shelves. And labels.",
+    "*to self* Sacrifice the few to save the many? Or...",
+    "New salvage? Bring to Layer! I assess. I distribute."
+  ],
+  "cross_zone_references": {
+    "dustbelt": "Dust Belt traders have goods. Expensive. But available.",
+    "tide": "Tide engineers make the best tech. If we can afford it.",
+    "chroma_tower": "Tower has manufacturing. Old but functional. If we could reach..."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Layer! Got anything... special?",
+      "response": "*knowing look* For you, Garret? I might have something off the books."
+    },
+    "kael": {
+      "greeting": "Quartermaster. Supply status?",
+      "response": "Critical, Captain. But holding. Barely."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Managing inventory, distributing supplies",
+      "night": "Calculating, planning, worrying"
+    },
+    "world_state_triggers": {
+      "new_supplies": "Joyful: 'Hope! In box form!'",
+      "supply_shortage": "Grim: 'Rationing tightened. Again.'"
+    }
+  }
+}

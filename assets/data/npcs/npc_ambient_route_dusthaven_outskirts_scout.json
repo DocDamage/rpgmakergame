@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_DUSTHAVEN_OUTSKIRTS_SCOUT",
+  "name": "Dusthaven Outskirts Wayfarer",
+  "title": "Salvage Runner",
+  "location": "MIC_R01A_48x32",
+  "coords": [
+    12,
+    16
+  ],
+  "schedule": {
+    "day": [
+      12,
+      16
+    ],
+    "night": [
+      15,
+      16
+    ],
+    "rain": [
+      14,
+      18
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_AMBIENT_SCAVENGER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "neutral",
+  "background": "Recovers useful scraps from unstable routes. Assigned to Dusthaven Outskirts.",
+  "personality": "Reckless, witty, and survival-smart.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "salvage_tips",
+    "field_rumors"
+  ]
+}

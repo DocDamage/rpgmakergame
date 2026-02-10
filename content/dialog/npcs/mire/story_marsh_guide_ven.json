@@ -1,0 +1,54 @@
+{
+  "npc_id": "marsh_guide_ven",
+  "name": "Marsh Guide Ven",
+  "title": "Pathfinder",
+  "zone": "mire",
+  "location": "The Fetid Approach Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "alert_resourceful_tenacious",
+  "occupation": "trail_guide",
+  "dialog": {
+    "greeting": [
+      "Marsh Guide Ven on comms. Stage 1: The Fetid Approach. Keep formation tight and decisions tighter.",
+      "We are running The Sinking Truth. Objective drift gets teams buried.",
+      "A map sneezed in my pocket and revealed a hidden staircase. True story.",
+      "Action first, panic never. Start with: Follow Ven through safe paths."
+    ],
+    "quest_hook": "Objective stack: Follow Ven through safe paths; Avoid the Blighted waters; Reach Marshfolk Village. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Navigate through the corrupted swamp to reach the Marshfolk villages. Immediate move: Follow Ven through safe paths.",
+    "quest_complete": "Stage 1 resolved: The Fetid Approach. Primary objective secured and route stabilized. Prepare for Council of Despair.",
+    "rumor": [
+      "Bog fishers heard someone laughing beneath the mud at low tide.",
+      "People keep repeating one clue from The Fetid Approach: 'Reach Marshfolk Village'.",
+      "The floor attempted a mutiny at dawn. We resolved it with better boots."
+    ],
+    "ambient_barks": [
+      "Tracks are fresh.",
+      "Wind just shifted.",
+      "Stay on my heel.",
+      "Read the ground."
+    ],
+    "time_dawn": "Dawn mist sits low in the Mire; good for stealth, bad for footing.",
+    "time_noon": "Noon stirs the boardwalk gases. Keep sparks and spells controlled.",
+    "time_dusk": "Dusk wakes the sink patches. Test every plank before weight transfer.",
+    "time_night": "Night in swamp country means sound carries wrong. Use lantern codes."
+  },
+  "party_reactions": {
+    "kade": "Marsh Guide Ven sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Marsh Guide Ven accepted. Probability of success improves with compliance.",
+    "twist": "Marsh Guide Ven talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "mire_sinking_truth"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+    "world_break_aware": true
+  }
+}

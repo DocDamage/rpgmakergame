@@ -1,0 +1,70 @@
+{
+  "npc_id": "ironchef_blue_ember",
+  "name": "Alloy Annie",
+  "sprite": "ironchef_blue",
+  "zone": "ember",
+  "location": "Steel & Sizzle Forge",
+  "personality": "methodical_precise",
+  "occupation": "metallurgist_smith",
+  "schedule": "daytime_work",
+  "dialog": {
+    "greeting": [
+      "Temperature stable. Flux ready. What do you need forged?",
+      "Annie's the name, metallurgy's my game. Cooking is... my side gig.",
+      "The forge doesn't care about your feelings. But I do. Slightly.",
+      "Back again? Your armor looking worn. I can fix that.",
+      "Steel doesn't lie. People do. I prefer steel.",
+      "If you need something sharp, strong, or shiny, you've come to the right anvil.",
+      "I'm between projects. Which means I'm AVAILABLE. Rare. Lucky you.",
+      "The magma pool's at optimal temperature. Perfect day for forging."
+    ],
+    "smithing_offer": "I forge weapons, armor, kitchen utensils, and the occasional decorative spoon. What'll it be?",
+    "metallurgy_lecture": "Most smiths just hit things. I understand the CRYSTALLINE STRUCTURE of metal. Heat treatment, quenching temperatures, carbon content... it's SCIENCE.",
+    "cooking_confession": "Yes, I wear the chef colors. No, I'm not Grillhelm. I COOK with metal. Different. I make pans, not... whatever he's doing.",
+    "grillhelm_opinion": "Grillhelm? Loud. Passionate. Good chef, I'll admit. But his understanding of thermal dynamics is... emotional at best.",
+    "rumor": [
+      "The magma tunnels run deeper than anyone admits. Something's down there. Something old.",
+      "Metal from Tide corrodes faster than it should. Salt or... something else?",
+      "Prism's crystal-forged blades? Overrated. Pretty, but brittle.",
+      "Word is Mire's got bog-iron that never rusts. Impossible. But intriguing."
+    ],
+    "tool_craft_explanation": "A good tool is an extension of the hand. Balance, weight, temper - all calculated. No guesswork. Guesswork makes bad swords.",
+    "farewell": [
+      "Keep your edges sharp and your temper sharper.",
+      "Return if you need repairs. Or want to talk phase transitions.",
+      "May your metal never fatigue.",
+      "The forge is always warm. Unless I let it cool. Which I don't."
+    ],
+    "ambient_barks": [
+      "Carbon content optimal.",
+      "Quench temperature critical... now!",
+      "Strike while the iron is... you know.",
+      "Magma flow steady. Good.",
+      "That hammer is showing wear. Schedule maintenance.",
+      "Steel remembers every blow. Be precise."
+    ],
+    "time_dawn": "Early start. Best forging happens before the magma gets restless.",
+    "time_noon": "Peak heat. Good for melting. Bad for precision work.",
+    "time_dusk": "Cooling period. Time to inspect today's work.",
+    "time_night": "Night shift. The forge glows prettier in the dark."
+  },
+  "party_reactions": {
+    "kade": "A smith AND a scientist? That's a rare combination.",
+    "nix7": "Finally, someone who appreciates proper material engineering.",
+    "twist": "Can you make me a BIG hammer? Bigger than BIG?",
+    "korr": "Your steel has excellent grain structure. Quality work.",
+    "renna": "Metallurgical magic is fascinating. Do you enchant your blades?",
+    "suresh": "Precision without passion creates tools, not art.",
+    "sova": "I need arrows that fly true. Can you make those?",
+    "grit": "Good smith. Doesn't talk too much. Lets the work speak.",
+    "ashka": "Your fire is controlled. Almost TOO controlled.",
+    "senna": "Sharp blades. Fair prices. What more do you need?",
+    "callum": "Do you do repairs? My gear's seen better days."
+  },
+  "relationship_dialog": {
+    "stranger": "New customer. I do custom work. Design specs extra.",
+    "acquaintance": "You're back. Means you didn't break your last purchase. Good.",
+    "friend": "For you? I'll bump you up the queue. Don't tell the others.",
+    "best_friend": "My best customer. I keep your specs on file. Personal service."
+  }
+}

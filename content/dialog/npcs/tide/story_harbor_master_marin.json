@@ -1,0 +1,54 @@
+{
+  "npc_id": "harbor_master_marin",
+  "name": "Harbor Master Marin",
+  "title": "Tide Navigator",
+  "zone": "tide",
+  "location": "The Silent Harbor Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "steady_saltwise_sharp",
+  "occupation": "route_master",
+  "dialog": {
+    "greeting": [
+      "Harbor Master Marin on comms. Stage 1: The Silent Harbor. Keep formation tight and decisions tighter.",
+      "We are running Depths of Mystery. Objective drift gets teams buried.",
+      "I met my future self and we argued about shoe durability.",
+      "Action first, panic never. Start with: Prepare deep-sea diving equipment."
+    ],
+    "quest_hook": "Objective stack: Prepare deep-sea diving equipment; Descend to Tide's upper levels; Investigate the silence. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Investigate why Tide has gone silent. Immediate move: Prepare deep-sea diving equipment.",
+    "quest_complete": "Stage 1 resolved: The Silent Harbor. Primary objective secured and route stabilized. Prepare for Sunken City of Tides.",
+    "rumor": [
+      "Tide monks claim the trench listens when spoken to politely.",
+      "People keep repeating one clue from The Silent Harbor: 'Investigate the silence'.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm."
+    ],
+    "ambient_barks": [
+      "Check your knots.",
+      "Mind the current.",
+      "Depth first, speed second.",
+      "Watch for undertow."
+    ],
+    "time_dawn": "Dawn tide is calm enough for precision dives. Best window for route checks.",
+    "time_noon": "Noon currents fight each other in the trench. Anchor and communicate.",
+    "time_dusk": "Dusk visibility drops fast underwater. Stay on beacon chain.",
+    "time_night": "Night tide carries deep-song interference. Confirm orders twice."
+  },
+  "party_reactions": {
+    "kade": "Harbor Master Marin sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Harbor Master Marin accepted. Probability of success improves with compliance.",
+    "twist": "Harbor Master Marin talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "tide_depths_mystery"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SAILOR",
+    "world_break_aware": true
+  }
+}

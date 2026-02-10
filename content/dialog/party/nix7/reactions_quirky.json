@@ -1,0 +1,140 @@
+{
+  "character": "Nix-7",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Literal, analytical, deadpan, misses social cues, unintentionally rude",
+  "dialog": {
+    "first_meet_generic": [
+      "Scanning... no threat detected. Also, no logical explanation detected.",
+      "Human behavior continues to defy algorithmic prediction.",
+      "Is this 'humor'? My database is unclear.",
+      "Subject's behavior: 73% inefficient.",
+      "Awaiting command to engage or ignore."
+    ],
+    "barrelman": [
+      "Your inventory consists entirely of cylindrical wooden containers. Illogical diversification.",
+      "Query: Do you experience barrel-related nightmares? Statistical probability: high.",
+      "Your 'gnaw-proof' claim requires empirical testing. May I borrow a rodent?",
+      "Marketing strategy assessment: repetitive. Effectiveness: surprisingly high."
+    ],
+    "snakecharmer": [
+      "The snake responds to auditory frequencies. Efficient training method.",
+      "Query: Is the snake sentient? Secondary query: Is the human sentient?",
+      "Analysis: Snake is not poisonous. Your 'deadly cobra' description: false advertising.",
+      "Mr. Whiskers. A naming convention that prioritizes humor over intimidation."
+    ],
+    "lucha": [
+      "Your muscle mass is 34% above human average. Impressive. Impractical for daily tasks.",
+      "Mask provides no defensive benefit. Purely aesthetic. Fascinating.",
+      "Combat style relies heavily on theatricality. Efficiency rating: questionable.",
+      "Challenge accepted. Error: I am not programmed for wrestling. Disregard."
+    ],
+    "ironchef": [
+      "Impressive thermal management of cooking implements.",
+      "Requesting recipe data. My crew requires sustenance optimization.",
+      "Cooking in full plate armor: heat dissipation problematic. Skin damage likely.",
+      "Your 'Iron Chef' title: literal or metaphorical?"
+    ],
+    "trenchcoat": [
+      "Concealment protocols detected. Subject is... mysterious.",
+      "They are hiding something. 98.7% probability. I can smell the secrets.",
+      "That coat contains 14 hidden pockets. I counted.",
+      "Attempting to scan under coat... scan blocked. Suspicious."
+    ],
+    "sumo": [
+      "Body mass index: exceptional. Center of gravity: optimal for stability.",
+      "Your stillness suggests either meditation or standby mode. Which?",
+      "Requesting analysis of your training regimen. For educational purposes.",
+      "You would win in combat. Probability: 99.3%. I have calculated this."
+    ],
+    "foodboys": [
+      "Nutritional content of your offerings: suboptimal. Flavor profile: acceptable.",
+      "How many foodboys exist? I have counted 47 instances. Cloning suspected.",
+      "Your business model relies on location diversity. Clever market saturation.",
+      "I do not eat. But my crew might. Eventually."
+    ],
+    "coolcat": [
+      "Your thermal regulation garment provides no practical benefit in this climate.",
+      "Is that jazz? Identifying... jazz confirmed. Why?",
+      "You are attempting to project 'coolness.' Success rate: 67%.",
+      "Sunglasses indoors: vision impairment risk. Illogical."
+    ],
+    "pigman": [
+      "Thematic consistency: impressive. Self-awareness: unclear.",
+      "Your inn's name contains 4 pig-related puns. Counted.",
+      "Do you consume pork? Philosophical question. Answer optional.",
+      "Hygiene standards: adequate. Surprising given theme."
+    ],
+    "tunneler": [
+      "Your spinal compression suggests inadequate safety equipment.",
+      "Retirement plan: floating vessel. Irony acknowledged.",
+      "Experience level: high. Complaint frequency: higher. Correlation noted.",
+      "Mining efficiency could improve by 23% with mechanized assistance."
+    ],
+    "bush": [
+      "That is not a bush. I detect humanoid life signs.",
+      "Camouflage effectiveness: minimal. I am not fooled.",
+      "Druidic transformation? Or psychological condition?",
+      "Please exit the foliage. Communication is difficult this way."
+    ],
+    "aeronaut": [
+      "Balloon altitude capacity: 400 meters. Weather resistance: minimal.",
+      "Your navigation system: wind currents. Success rate: unpredictable.",
+      "Are you aware of the falling hazard? Statistical analysis: concerning.",
+      "Helium or hydrogen? Please say helium."
+    ],
+    "onionboss": [
+      "Management style: authoritarian. Worker satisfaction: low.",
+      "Your body shape is 73% similar to an onion. Coincidence?",
+      "Union negotiations: recommended. Conflict probability: high.",
+      "Foreman position: stressful. Life expectancy reduction: 12%."
+    ],
+    "astronaut": [
+      "That diving suit is rated for 200 meters. Are you exceeding specifications?",
+      "Deep sea pressure at extreme depths: 100+ atmospheres. Suit integrity: questionable.",
+      "Retro technology. Charming. Potentially fatal.",
+      "Have you encountered deep sea anomalies? Data requested."
+    ],
+    "conductor": [
+      "Transportation schedule: admirably precise.",
+      "Your uniform suggests authority. Actual authority: minimal.",
+      "'All aboard' is inefficient. Pre-boarding checklists recommended.",
+      "Where does this train go? Processing... destination unclear. Concerning."
+    ],
+    "shoewoman": [
+      "Footwear maintenance is important for long-distance locomotion. Valid profession.",
+      "Desert-appropriate sole composition: noted. Good advice.",
+      "Do you have size 47? Asking for a... friend. My feet are normal human size. Obviously.",
+      "Cobbler occupation: declining industry. Your persistence: admirable."
+    ],
+    "signguy": [
+      "Your work has a 23% error rate. I have been counting.",
+      "Hand-painted signs: inefficient production method. Aesthetic value: acknowledged.",
+      "Who commissions all these? Demand analysis requested.",
+      "That last sign misspelled 'danger.' Error reported."
+    ],
+    "cobra": [
+      "Reptilian lifeform. Venomous? Scanning... harmless. Disappointing.",
+      "Your hissing is at 85 decibels. Communication or threat display?",
+      "Scale pattern: aesthetically pleasing. Cold-blooded metabolism: enviable.",
+      "Please do not coil around my leg. Thank you."
+    ],
+    "barrelgob": [
+      "Living in a cylindrical container: space efficiency maximized.",
+      "Scavenger lifestyle: resourceful. Hygiene concerns: noted.",
+      "Have you considered a tent? Similar portability. Better ventilation.",
+      "I detect 14 different fungal colonies in your barrel. Impressive ecosystem."
+    ],
+    "twins": [
+      "Genetic duplication? Or synchronized behavior pattern?",
+      "You complete each other's sentences. Efficiency: high. Individuality: questionable.",
+      "Are you one consciousness or two? Philosophical query.",
+      "Synchronized movement suggests hive mind. Monitoring."
+    ],
+    "sunandmoon": [
+      "Astronomical data outdated by 300 years. Shall I provide corrections?",
+      "The stars do not actually predict fate. But I will not interrupt their belief.",
+      "Your headdress is 40% of your body weight. Neck strain: likely.",
+      "Constellation mapping: inaccurate. Shall I draw corrections in the dirt?"
+    ]
+  }
+}

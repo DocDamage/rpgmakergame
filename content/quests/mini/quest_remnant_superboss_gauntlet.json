@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_superboss_gauntlet",
+  "name": "The Ultimate Trial",
+  "zone": "remnant",
+  "giver": "barrelgob_glitch",
+  "type": "combat",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "You beat the final boss. Good. But the Remnant holds something harder—the Superboss Gauntlet. Five boss fights back-to-back, no healing between, each harder than the last. Die, and start over. Win, and earn the ultimate bragging rights. This isn't about story. This isn't about rewards. This is about being the best.",
+      "objective": "Enter the Superboss Gauntlet and defeat the first two superbosses"
+    },
+    "progress": {
+      "dialog": "Halfway through, and you're still standing. Impressive. The third and fourth superbosses are designed to break standard strategies—forces adaptation, improvisation, mastery of every system. Show them what you've learned. Show them why you beat this game.",
+      "objective": "Defeat the third and fourth superbosses"
+    },
+    "complete": {
+      "dialog": "All five superbosses defeated. Gauntlet cleared. Ultimate victory achieved. There is nothing harder in this game, no challenge greater, no test more demanding. You are, officially, the best. The Remnant bows to your mastery. Now go outside. Touch grass. You've earned real-world XP too.",
+      "rewards": {
+        "exp": 150000,
+        "gold": 75000,
+        "item": "supreme_champion_proof"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Five superbosses. No healing. Barely survived. But we DID it. We're the best. I need a vacation.",
+    "nix7": "Combat efficiency at maximum parameters. All systems operating at theoretical limits. Victory is statistically inevitable.",
+    "petra": "That last boss almost had me. Almost. But 'almost' doesn't count when you're fighting for everything. We won!"
+  },
+  "lore_unlocks": ["superboss_gauntlet", "ultimate_challenges"]
+}

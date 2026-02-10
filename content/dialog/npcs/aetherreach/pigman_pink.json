@@ -1,0 +1,102 @@
+{
+  "npc_id": "pigman_pink_aetherreach",
+  "name": "Porkins Cloudsnout",
+  "sprite": "pigman_pink",
+  "zone": "aetherreach",
+  "location": "Sky-High Snout Inn",
+  "personality": "hospitable_jovial",
+  "occupation": "innkeeper",
+  "dialog": {
+    "greeting": [
+      "Welcome to the Sky-High Snout! Highest inn in the world! Probably!",
+      "Porkins Cloudsnout, innkeeper extraordinaire! At your service!",
+      "Need a room? Need a meal? Need both? I've got both!",
+      "The Snout welcomes all! Ground-dwellers! Sky-folk! Everyone!",
+      "Best beds in Aetherreach! Softest pillows! Freshest bacon!",
+      "Welcome! Watch your head on the door! Low ceilings! Cozy!",
+      "Tired from flying? Land here! Rest your wings! Or feet!"
+    ],
+    "room_offer": "Rooms by the hour, day, or week! Cloud-View Suite is premium! Ground-View is... also available!",
+    "menu_offer": "Today's special: Sky-High Sausages! Cloud-Puff Pancakes! And our famous Bacon-Everything Platter!",
+    "inn_philosophy": "An inn is a home away from home! With better bacon! And no chores!",
+    "haggle": [
+      "Room rates are firm! But I'll throw in extra pillows!",
+      "For a friendly face? Ten percent off! And a free breakfast!",
+      "Long stay? Weekly discount! Bacon included!",
+      "Fine! Fifteen percent! But you have to laugh at my jokes!"
+    ],
+    "room_rented": [
+      "Room's ready! Fresh sheets! Mint on the pillow!",
+      "Welcome home! Temporarily! Enjoy your stay!",
+      "Sweet dreams on cloud-like mattresses! Not actual clouds!",
+      "Rest well! Breakfast starts at dawn! Bacon mandatory!"
+    ],
+    "room_declined": [
+      "No room? No problem! Come back anytime!",
+      "The door's always open! Except when it's locked!",
+      "Your loss! Comfiest beds in the sky!"
+    ],
+    "rumor": [
+      "The aeronauts stay here sometimes. Blue is polite. Red sets off smoke alarms!",
+      "The twins checked in once. Finished each other's sentences even in their sleep!",
+      "Something about the Vault makes guests nervous. Bad dreams. I don't ask.",
+      "The trenchcoat person stays in the basement. 'Atmospheric reasons.' Sure.",
+      "The sunandmoon predicted 'guests from below.' You! They meant you!"
+    ],
+    "quest_hook": "Running low on Cloud-Honey! The bees here make the BEST stuff! Three jars and I'll comp your next week's stay!",
+    "quest_active": "Those bees buzzing yet? I can almost taste the honey!",
+    "quest_complete": "SWEET! Literally! The best batch yet! Here's your key! Premium Suite! Week-long!",
+    "quest_reward": "Premium Suite Voucher - One week luxury stay!",
+    "farewell": [
+      "Come again! The Snout is always open!",
+      "Safe travels! Watch your altitude!",
+      "Return soon! The bacon misses you!"
+    ],
+    "ambient_barks": [
+      "Rooms available! Cozy rooms!",
+      "Best bacon in the sky!",
+      "Welcome to the Snout!",
+      "Pillows fluffed! Beds ready!",
+      "Cloud-high hospitality!"
+    ],
+    "time_dawn": "Breakfast rush! Bacon sizzling! Coffee brewing!",
+    "time_noon": "Lunch crowd! Quick bites! Fast turnaround!",
+    "time_dusk": "Dinner service! Hearty meals! Happy guests!",
+    "time_night": "Night shift! Quiet hours! Sleep tight!"
+  },
+  "party_reactions": {
+    "kade": "The inn names get more creative every zone.",
+    "nix7": "Your inn's name contains 4 pig-related puns. Counted.",
+    "twist": "PIGS! I love pigs! They're PINK and SNORTY!",
+    "korr": "A warm hearth is welcome after cold travels.",
+    "renna": "The structural integrity of a floating inn concerns me.",
+    "suresh": "Hospitality is a form of spiritual practice. You practice well.",
+    "sova": "Clean beds. Hot food. That's all I need.",
+    "grit": "The heating system here is... inventive. I approve.",
+    "ashka": "Is the bacon EXTRA crispy? I like it BURNT!",
+    "senna": "Which rooms have the best... exits? Asking for a friend.",
+    "callum": "So cozy! So welcoming! I love it here!",
+    "petra": "Solid construction. Warm hearth. Good stone."
+  },
+  "relationship_dialog": {
+    "stranger": "First time at the Snout? Welcome! Make yourself at home!",
+    "acquaintance": "Returning guest! I remember you! Good memory! For faces!",
+    "friend": "My favorite regular! Your usual room is ready!",
+    "best_friend": "Family! Honorary Cloudsnout! Stay as long as you like!"
+  },
+  "mini_quest": {
+    "id": "cloud_honey_harvest",
+    "title": "Sweet Skies",
+    "description": "Collect Cloud-Honey for Porkins' inn",
+    "stages": {
+      "hook": "Cloud-Honey! Three jars! The bees here make the best!",
+      "active": "The floating apiaries! Northeast of here! Watch for stings!",
+      "complete": "LIQUID GOLD! Week in the Premium Suite! Yours!"
+    },
+    "reward": {
+      "item": "premium_suite_voucher",
+      "gold": 280,
+      "reputation": "snout_regular"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "npc_id": "sunandmoon_chrono",
+  "name": "Horologium",
+  "sprite": "sunandmoon",
+  "zone": "chrono",
+  "location": "Clockwork Observatory Dome",
+  "personality": "celestial_mechanical_obsessive",
+  "occupation": "clockwork_astronomer",
+  "dialog": {
+    "greeting": [
+      "The SUN! And the MOON! In PERFECT mechanized HARMONY!",
+      "Horologium! Clockwork astronomer! Time is CELESTIAL!",
+      "NEW face! Have you seen my ORRERY?! It PREDICTS!",
+      "The gears turn! The stars ALIGN! The UNIVERSE is CLOCKWORK!",
+      "Welcome to the dome! Where time is MEASURED! And BEAUTIFUL!",
+      "Horologium! The sun represents ORDER! The moon represents... also ORDER!",
+      "My telescope sees THROUGH time! Via LIGHT! Which takes TIME! Same thing!",
+      "You're just in TIME! Or... just in TIME! Both!"
+    ],
+    "astronomy": "The stars tell TIME! Ancient light! From the PAST! Reaching NOW! Predicting THEN!",
+    "orrery": "My masterpiece! Clockwork solar system! ACCURATE! To within... some seconds! Per MILLENNIUM!",
+    "telescope": "See that star? It died a THOUSAND years ago! But we see it NOW! TIME TRAVEL! Via LIGHT!",
+    "break_chat": "Break? The UNIVERSE doesn't break! Neither do I!",
+    "labor_concerns": "The observatory wants FUNDING! For NEW gears! Brass! EXPENSIVE!",
+    "retirement": "Retirement? When the STARS stop! So... NEVER!",
+    "rumor": [
+      "The Time-Train? PUNCTUAL! But NOT celestial! Mechanical! Inferior!",
+      "The twins? They see time PSYCHICALLY! I see it SCIENTIFICALLY! Better!",
+      "Ironchef's steam? Could POWER my orrery! Collaboration?",
+      "The sun and moon! REAL ones! They're CLOCKWORK! I can PROVE it!",
+      "Frost? Cold? Because it's FAR from the SUN! Celestial MECHANICS!"
+    ],
+    "quest_hook": "My orrery! BROKEN! Gear missing! From the MECHANICAL moon! Find it?!",
+    "quest_active": "Still broken! The moon gear! Essential! For ACCURACY!",
+    "quest_complete": "FIXED! The orrery TURNS! Perfect alignment! Here! Miniature model! For YOU!",
+    "farewell": [
+      "Keep looking UP! Or DOWN! Time is EVERYWHERE!",
+      "The stars GUIDE you! Via GRAVITY! And LIGHT!",
+      "Return! When the ALIGNMENT is RIGHT!"
+    ],
+    "ambient_barks": [
+      "Celestial ALIGNMENT!",
+      "Gears turning!",
+      "Time is CLOCKWORK!",
+      "The SUN! The MOON!",
+      "Orrery ACCURATE!",
+      "Stars PREDICT!"
+    ],
+    "time_dawn": "Morning! Sun RISES! As PREDICTED! By SCIENCE!",
+    "time_noon": "Midday! Peak SUN! Maximum CELESTIAL!",
+    "time_dusk": "Evening! Moon RISES! Sun SETS! MECHANISM!",
+    "time_night": "Night! Stars VISIBLE! Observation TIME!",
+    "rival_mention": "The twins? PSYCHIC time? UNscientific! I use GEARS!",
+    "post_quest_greeting": "The GEAR FINDER! Orreist FIXED! Accuracy RESTORED!"
+  },
+  "party_reactions": {
+    "kade": "Clockwork astronomy! Of course! Why not?!",
+    "nix7": "Astronomical data: Outdated by 300 years. Enthusiasm: Maximum. Entertaining.",
+    "twist": "You have a GIANT mechanical UNIVERSE?! CAN I TOUCH IT?!",
+    "korr": "He seeks order in the cosmos. Noble. If noisy.",
+    "renna": "The orrery has minor prophetic enchantments. Unintentional. Effective.",
+    "suresh": "He finds peace in celestial mechanics. The universe as clock. Comforting.",
+    "sova": "Interesting. But loud. I'd observe from outside.",
+    "grit": "Artillery needs astronomy. For targeting. He's... enthusiastic.",
+    "ashka": "He worships sun and moon. As gears. Different fire. Same devotion.",
+    "senna": "He knows celestial movements. Useful for... timing.",
+    "callum": "His measurements! EXACT! His theories! EXCITING!"
+  },
+  "relationship_dialog": {
+    "stranger": "NEW! Look at my ORRERY! It's AMAZING!",
+    "acquaintance": "RETURNING! You appreciate CELESTIAL mechanics!",
+    "friend": "ASTRONOMY FRIEND! You UNDERSTAND! The universe as CLOCKWORK!",
+    "best_friend": "COLLEAGUE! In TIME! Here! My personal telescope! For YOUR observations!"
+  },
+  "mini_quest": {
+    "id": "broken_orrery",
+    "title": "The Missing Gear",
+    "description": "Help Horologium find the missing gear for his mechanical orrery",
+    "stages": {
+      "hook": "BROKEN! The orrery! Moon gear MISSING! Essential! For ACCURACY! For SCIENCE! Find it?!",
+      "active": "Check the maintenance tunnels! Clockwork debris! Maybe DROPPED!",
+      "complete": "FOUND! Installed! ORRERY TURNS! Perfect ALIGNMENT! Here! Miniature model! WORKING! For YOU!"
+    },
+    "reward": {
+      "item": "miniature_working_orrery",
+      "gold": 350,
+      "reputation": "celestial_mechanic"
+    }
+  },
+  "cross_npc_connections": [
+    "twins_chrono: PSYCHIC time! Unscientific! I prefer GEARS!",
+    "ironchef_chrono: Steam power! For my orrery! Collaboration POTENTIAL!",
+    "conductor_chrono: Time-Train! Punctual! But MECHANICAL! Not CELESTIAL!",
+    "sunandmoon_aetherreach: My counterpart! Cloud-based! Different medium! Same PASSION!"
+  ]
+}

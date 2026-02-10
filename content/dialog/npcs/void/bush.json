@@ -1,0 +1,113 @@
+{
+  "npc_id": "bush_void",
+  "name": "Umbra",
+  "title": "Living Shadow",
+  "zone": "void",
+  "location": "The Shadow Grove, Void Depths",
+  "description": "A sentient darkness in the form of foliage, neither plant nor shadow but something between.",
+  "sprite_variant": "bush_void",
+  "greeting_variants": [
+    "*rustling darkness* You... cast shadow. Interesting. I am shadow.",
+    "Light fears here. Dark welcomes. Dark IS here.",
+    "*shifting form* Umbra. Growing. Spreading. Becoming.",
+    "Your world has plants. Void has... this. Similar. Different.",
+    "*absorbing nearby light* Apologies. Hungry. Always hungry.",
+    "Thicket was friend. Was. Before I became. Remember. Fondly.",
+    "*whispering* The dark speaks. I listen. I speak back.",
+    "You walk through. I grow around. Both moving. Both still."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I was... Thicket? No. Thicket is. Was. Different path. Same start. They became plant. I became... shadow. Both hid. Both survived. Different survival. I spread. Grow dark. Welcome lost. Consume light.",
+          "options": [
+            {"text": "You're like Thicket?", "goto": "thicket_connection"},
+            {"text": "Are you dangerous?", "goto": "danger_assessment"},
+            {"text": "What do you consume?", "goto": "consumption"},
+            {"text": "Goodbye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "thicket_connection",
+          "text": "*gentle rustling* Same start. Different choice. They stayed. Hid. Became green. I... walked. Deeper. Became dark. Both safe. Both alone. I remember them. They remember? Hope. Yes.",
+          "options": [
+            {"text": "I know Thicket. They're okay.", "goto": "thicket_update"},
+            {"text": "Can you communicate?", "goto": "communication"}
+          ]
+        },
+        {
+          "id": "danger_assessment",
+          "text": "*considers* Light-eater. Shadow-spreader. Not... killer. Not directly. But stay too long? Become shadow too. Lose self. Become part of Umbra. Not death. Different. Joining. Still... loss.",
+          "options": [
+            {"text": "That's still dangerous.", "goto": "danger_acknowledge"},
+            {"text": "Can you control it?", "goto": "control_inquiry"}
+          ]
+        },
+        {
+          "id": "consumption",
+          "text": "Light. First. Always hungry for light. But also... memories. Emotions. Fear tastes bright. Hope tastes... warm. I take. Not all. Just... nibble. Payment for shelter. For shadow-hiding.",
+          "options": [
+            {"text": "That's a heavy price.", "goto": "price_heavy"},
+            {"text": "Can you give them back?", "goto": "return_possible"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "seeds_of_shadow",
+    "title": "Seeds of Shadow",
+    "description": "Help Umbra and Thicket reconnect across the Void-Capital boundary to share their unique forms of survival.",
+    "objectives": [
+      "Gather Void-shadow essence from Umbra's grove",
+      "Deliver it to Thicket in the Capital",
+      "Bring Thicket's plant-essence back to Umbra",
+      "Witness the exchange between the two survivors",
+      "Help them establish a connection across the divide"
+    ],
+    "rewards": {
+      "experience": 550,
+      "reputation": {"void_survivors": 30, "nature": 25},
+      "items": ["umbra_seed", "shadow_camo_cloak"],
+      "unlock": "umbra_thicket_connection"
+    },
+    "prerequisites": ["met_thicket", "met_umbra"]
+  },
+  "ambient_barks": [
+    "*absorbing light* Sorry. Hungry. Not mean. Just... need.",
+    "*spreading slowly* Grow. Spread. Welcome more. Help more.",
+    "Thicket... think of you. Hope well. Safe.",
+    "*comforting a lost creature* Shh. Dark safe. Dark warm. Rest.",
+    "Light hurts. But light makes shadow. Paradox. Accept.",
+    "*whispering to shadows* Sister? Brother? There? Here? Both?",
+    "Memory of... before. Green. Warm. Miss. Little. Not much.",
+    "*gentle to player* You brave. Walk dark. Not become dark. Impressive."
+  ],
+  "cross_zone_references": {
+    "capital": "Thicket there. Green. Good. Different path. Same heart.",
+    "void_nexus": "Here. Dark. Also good. For some. For me."
+  },
+  "party_reactions": {
+    "thicket": {
+      "greeting": "*rustling recognition* Kin... I feel you...",
+      "response": "*gentle* Feel you too. Green one. Plant one. Same. Different. Both."
+    },
+    "mira": {
+      "greeting": "Your photosynthetic properties are fascinating—wait, you consume light?",
+      "response": "*amused* Science. Yes. Understand. Don't need. Just am."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Dormant, smaller, conserving energy",
+      "night": "Expansive, active, welcoming"
+    },
+    "world_state_triggers": {
+      "light_nearby": "Aggressive absorption, defensive expansion",
+      "darkness_falls": "Peaceful, gentle, offering shelter"
+    }
+  }
+}

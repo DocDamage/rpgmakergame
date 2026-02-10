@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_prison_break",
+  "name": "The Black Cells",
+  "zone": "capital",
+  "giver": "lucha_red",
+  "type": "combat",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "They took my brother to the Black Cells—Dominion's deepest prison, where light never reaches and names are forgotten. He's innocent, just a lucha performer who cheered too loudly at the wrong rally. I need fighters. I need YOU. Break into the Cells, find him, bring him home.",
+      "objective": "Infiltrate the Black Cells prison"
+    },
+    "progress": {
+      "dialog": "Cell block located, but he's not alone. Twenty other prisoners—resistance fighters, political prisoners, people who just looked wrong at a patrol. The escape tunnel can fit everyone, but we need to move quietly until we're clear. One alarm and they seal the exits.",
+      "objective": "Escort all prisoners through the escape tunnel"
+    },
+    "complete": {
+      "dialog": "Twenty-one souls freed, including my brother. He's broken, but alive. They all are, thanks to you. The lucha tradition speaks of heroes who descend into darkness and return with light. Today, that hero wears your face, Kade.",
+      "rewards": {
+        "exp": 12500,
+        "gold": 3000,
+        "item": "black_cells_key"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Prison breaks are messy, dangerous, and absolutely worth it. Nobody deserves the Black Cells.",
+    "grit": "Solid walls, heavy bars, good guards. Breaking in was impressive. Breaking out with twenty prisoners? That's legendary.",
+    "korr": "I signed transfer orders to the Black Cells once. Never knew what happened to those prisoners. Now I know. Now I fight to close those doors forever."
+  },
+  "lore_unlocks": ["black_cells_horrors", "dominion_prison_system"]
+}

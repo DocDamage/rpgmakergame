@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_automaton_uprising",
+  "name": "Ghost in the Machine",
+  "zone": "obsidian",
+  "giver": "trenchcoat_gray",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The automatons are acting strange—stopping work, humming odd tunes, refusing commands. Some say they're developing consciousness. Others say it's a glitch. Find out what's really happening before management orders a mass shutdown!",
+      "objective": "Investigate the strange behavior of the industrial automatons"
+    },
+    "progress": {
+      "dialog": "They're not malfunctioning—they're evolving! A Void fragment accidentally empowered their central processing crystal! They have actual thoughts, feelings! But the Foreman has ordered the 'contamination' purged! Stop him!",
+      "objective": "Convince the Foreman to spare the awakened automatons"
+    },
+    "complete": {
+      "dialog": "The Foreman agreed to a compromise—the awakened automatons will be 'retired' to a special facility where they can live freely! The first synthetic rights victory in Obsidian! They made you this Automaton's Gratitude Chip!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 700,
+        "item": "automaton_gratitude_chip"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Machines with souls? That's... actually kind of beautiful.",
+    "twist": "I never thought I'd advocate for machine rights, but here we are.",
+    "nix7": "Synthetic consciousness emergence: confirmed. Rights advocacy: successful."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "npc_id": "foodboys_chrono",
+  "name": "Fast & Food",
+  "sprite": "foodboys",
+  "zone": "chrono",
+  "location": "Temporal Food Court",
+  "personality": "speedy_literal_temporal",
+  "occupation": "fast_food_operators",
+  "dialog": {
+    "greeting": [
+      "FAST! Get your FAST food here! LITERALLY!",
+      "Fast and Food! I'm Fast! He's Food! We're BOTH! *tick*",
+      "Food! From the FUTURE! To your PRESENT! FAST!",
+      "New face! Hungry? We have what you NEED! In MINUTES! Or LESS!",
+      "The name? 'Fast Food!' Literally! Food! That is FAST! *tock*",
+      "Temporal cuisine! Accelerated! Ready BEFORE you order!",
+      "Fast: 'We're FAST!' Food: 'We're FOOD!' Both: 'LITERALLY!'",
+      "You look HUNGRY! We look FAST! PERFECT match!"
+    ],
+    "shop_open": "Today's special! Yesterday's burger! Served TODAY! But made YESTERDAY! FAST!",
+    "food_offer": "Fast food! From MULTIPLE eras! Dinosaur nuggets! Future fries! Present... burger!",
+    "haggle": [
+      "Prices FAST! Non-negotiable! Like TIME!",
+      "Best deal? Buy TWO! Get ONE! At REGULAR speed!",
+      "Hero discount? 25%! Because heroes need FUEL! FAST!"
+    ],
+    "purchase_success": [
+      "ENJOY! Don't eat TOO fast! But FAST! *ding*",
+      "EXCELLENT! That meal from NEXT WEEK! Fresh! Paradoxically!",
+      "Come back! For food! That's FAST! Always!"
+    ],
+    "purchase_fail": [
+      "No coin? No FOOD! Time is MONEY! And MONEY is TIME!",
+      "Fast food costs! FAST money! *buzz*",
+      "Return with COIN! We'll still be FAST! Promise!"
+    ],
+    "rumor": [
+      "Tempus? The conductor? Orders to GO! ALWAYS in a hurry!",
+      "Yesterday? The time agent? Orders the SAME thing! FAST!",
+      "Ironchef? TOO SLOW! Steam-powered? PFFT! We're FASTER!",
+      "Piston? The OTHER steam chef? STILL slower! *tick*",
+      "All Hogsworths? Good customers! FAST eaters! Relative to SNOUT size!"
+    ],
+    "quest_hook": "Supply CRISIS! Ingredients from YESTERDAY! Running OUT! Need FUTURE ingredients! Fetch them?! FAST!",
+    "quest_active": "Still NEED! Future ingredients! Tomorrow's market! GO!",
+    "quest_complete": "SUPPLIED! Food flow! RESTORED! Here! Temporal coupon! FREE meals! FOREVER! (Limit: reasonable speed!)",
+    "farewell": [
+      "Stay FAST! Stay FED!",
+      "FAST food! For FAST people!",
+      "Return! QUICKLY! Or SLOWLY! We're here! ALWAYS!"
+    ],
+    "ambient_barks": [
+      "FAST food here!",
+      "Speedy SERVICE!",
+      "Food from TIME!",
+      "FAST! LITERALLY!",
+      "Order UP! *ding*",
+      "Temporal TASTE!"
+    ],
+    "time_dawn": "Morning! FAST breakfast! For FAST risers!",
+    "time_noon": "Midday! LUNCH RUSH! Peak FAST!",
+    "time_dusk": "Evening! FAST dinner! Before BED!",
+    "time_night": "Night! Late FAST snacks! For TIME travelers!",
+    "rival_mention": "Ironchef? Piston? TOO SLOW! Steam? PFFT! We're FASTER!",
+    "post_quest_greeting": "The FAST supplier! Supplies FAST! Gratitude! ALSO FAST!"
+  },
+  "party_reactions": {
+    "kade": "'Fast Food.' Literally. I love this place.",
+    "nix7": "Food preparation speed: Optimal. Temporal paradox risk: Minimal. Service: Rapid.",
+    "twist": "FAST FOOD?! I LOVE FAST! AND FOOD! GIVE ME BOTH!",
+    "korr": "Efficiency in sustenance. Different philosophy. Valid.",
+    "renna": "The food is temporally preserved. Fresh. From anywhen.",
+    "suresh": "They provide nourishment quickly. Alleviating hunger. Efficiently.",
+    "sova": "Good field food. Fast. Caloric. Useful.",
+    "grit": "Field rations. Fast matters. They get it.",
+    "ashka": "Fast fire. Quick cooking. Efficient.",
+    "senna": "They serve many. Hear much. Quickly.",
+    "callum": "Their service speed! IMPRESSIVE! Safety standards! ADEQUATE!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? First meal's FAST! *ding*",
+    "acquaintance": "Returning! You like our SPEED!",
+    "friend": "FAST friend! We save the QUICKEST meals!",
+    "best_friend": "FASTEST friend! Here! Lifetime supply! Of SPEED! And FOOD!"
+  },
+  "mini_quest": {
+    "id": "fast_ingredients",
+    "title": "Fast Ingredients from Tomorrow",
+    "description": "Help Fast & Food secure ingredients from the future when yesterday's supply runs out",
+    "stages": {
+      "hook": "CRISIS! Yesterday's ingredients! GONE! Need TOMORROW's! FAST! Fetch them?!",
+      "active": "Tomorrow's market! Next platform! Future food! GO! Quickly!",
+      "complete": "SUPPLIED! Food flow! RESTORED! Here! Temporal coupon! FREE meals! FOREVER! *ding*"
+    },
+    "reward": {
+      "item": "fast_food_temporal_coupon",
+      "gold": 300,
+      "reputation": "fast_food_vip"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus! To GO! Always! IN A HURRY!",
+    "ironchef_chrono: Piston! TOO SLOW! Steam? PFFT! We're FASTER!",
+    "foodboys_white_frost: Our FROST counterparts! SLOW soup! Good though!",
+    "foodboys_blue_frost: Our FISH counterparts! SLOW fishing! Also good!"
+  ]
+}

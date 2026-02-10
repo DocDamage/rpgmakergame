@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_royal_duty",
+  "name": "Crown Service",
+  "zone": "palace",
+  "giver": "coolcat_gold",
+  "type": "social",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Final Palace remembers its royalty—even if the royals are long gone. Ancient protocols activate when 'rightful claimants' enter, presenting duties that must be fulfilled. I'm the last of a bloodline that once served the Throne of Stars. Help me fulfill these royal duties, and the Palace rewards us both.",
+      "objective": "Assist in fulfilling the first royal duty: the Ceremony of Remembrance"
+    },
+    "progress": {
+      "dialog": "First duty complete, but the Palace demands more. The Throne requires attunement—alignment of cosmic harmonics that only a worthy court can perform. The ritual is complex, requiring precise positioning and timing. One misstep, and we start again. Focus, Kade. This is history in motion.",
+      "objective": "Complete the Throne Attunement ritual"
+    },
+    "complete": {
+      "dialog": "Duties fulfilled, protocols satisfied, the Palace recognizes us. The Throne of Stars hums with restored power, and its blessings flow to those who served. Royalty isn't about blood—it's about service, sacrifice, and honoring what came before. Today, we were kings.",
+      "rewards": {
+        "exp": 35000,
+        "gold": 10000,
+        "item": "royal_service_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Never thought I'd be bowing to ancient thrones and performing royal rituals. Life's full of surprises.",
+    "callum": "My family once had standing in courts like this. It's... humbling to serve something greater than oneself.",
+    "sova": "The Palace protocols are fascinating—automated systems maintaining ritual continuity across millennia. Remarkable engineering."
+  },
+  "lore_unlocks": ["throne_of_stars", "palace_royal_protocols"]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CROWN_DISTRICT_APPROACH_SCOUT",
+  "name": "Crown District Approach Wayfarer",
+  "title": "Resistance Scout",
+  "location": "MIC_CROWN_APPROACH_96x40",
+  "coords": [
+    48,
+    20
+  ],
+  "schedule": {
+    "day": [
+      48,
+      20
+    ],
+    "night": [
+      51,
+      18
+    ],
+    "rain": [
+      50,
+      21
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Assigned to Crown District Approach.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

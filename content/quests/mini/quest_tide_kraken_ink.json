@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_kraken_ink",
+  "name": "Inky Business",
+  "zone": "tide",
+  "giver": "snakecharmer",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I need kraken ink for my... special performances. The stuff is priceless—magical properties, you see? There's a young kraken that sometimes surfaces near the Siren's Call reef. If you can collect some of its ink without hurting it... well, I'd make it worth your while!",
+      "objective": "Collect kraken ink from the Siren's Call reef"
+    },
+    "progress": {
+      "dialog": "The kraken is playful but dangerous! It's spraying ink everywhere! Try to collect it in these enchanted vials—if you can get close enough without getting wrapped in a tentacle!",
+      "objective": "Fill 3 enchanted vials with kraken ink"
+    },
+    "complete": {
+      "dialog": "Pure kraken ink! Magnificent! This will make my snakes absolutely mesmerizing! Here's your payment—and take this Kraken Ink Tattoo. It's permanent, and lets you blind enemies with a spray of magical ink once per day!",
+      "rewards": {
+        "exp": 850,
+        "gold": 700,
+        "item": "kraken_ink_tattoo"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Playing tag with a kraken. Just a normal Tuesday in Tide!",
+    "twist": "That tentacle nearly crushed me. I need a bath.",
+    "nix7": "Cephalopod defensive mechanisms: extraordinary. Ink properties: magical."
+  }
+}

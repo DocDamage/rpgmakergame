@@ -1,0 +1,38 @@
+chroma_edge_script_part3.md:458:Foundry project.
+chroma_edge_script_part3.md:468:Three guards. Two scientists.
+chroma_edge_script_part3.md:479:Good.
+chroma_edge_script_part3.md:920:Don't.
+chroma_edge_script_part4.md:27:Caves can be afraid?
+chroma_edge_script_part4.md:347:If we're going into a volcano, I'm punching something.
+chroma_edge_script_part4.md:353:It works a lot.
+chroma_edge_script_part4.md:418:Yeah?
+chroma_edge_script_part4.md:426:Always.
+chroma_edge_script_part4.md:459:Not bad.
+chroma_edge_script_part4.md:527:You okay?
+chroma_edge_script_part4.md:614:I want credit.
+chroma_edge_script_part5.md:10:Rocks don't talk.
+chroma_edge_script_part5.md:322:I feel like the planet's trying to sit on me.
+chroma_edge_script_part5.md:526:That thing is the size of a bad decision.
+chroma_edge_script_part5.md:579:…Why?
+chroma_edge_script_part5.md:642:…Weight.
+chroma_edge_script_part5.md:650:The Foundry said my mutations were failures.
+chroma_edge_script_part5.md:656:But Mass isn't about control.
+chroma_edge_script_part5.md:668:…Agonis.
+chroma_edge_script_part5.md:681:Yeah.
+chroma_edge_script_part6.md:24:Everything here is heavy. My thoughts are heavy.
+chroma_edge_script_part6.md:170:We've been walking for three hours.
+chroma_edge_script_part7.md:7:I hate this place already.
+chroma_edge_script_part7.md:682:Same thing.
+chroma_edge_script_part8.md:649:If the wall spits at me, I'm biting it back.
+chroma_edge_script_part8.md:655:Thanks.
+chroma_edge_script_part9.md:66:I miss punching normal enemies.
+chroma_edge_script_part9.md:73:Exactly. Annoying.
+chroma_edge_script_part9.md:218:These are insults.
+chroma_edge_script_part9.md:378:I smell ego and bad decisions.
+chroma_edge_script_part9.md:689:I'll measure it with my fist.
+chroma_edge_script_part10.md:288:So the building's fighting dirty now.
+chroma_edge_script_part10.md:318:I'm gonna panic out of spite.
+chroma_edge_script_part11.md:194:If that's a monster, I'm punching it.
+chroma_edge_script_part11.md:202:Bet.
+chroma_edge_script_part12.md:356:Cool. I hate that.
+chroma_edge_script_part12.md:401:Okay. That's hard.

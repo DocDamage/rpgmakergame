@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_prophecy",
+  "name": "The Final Prophecy",
+  "zone": "palace",
+  "giver": "aeronaut_gold",
+  "type": "exploration",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Palace contains a prophecy chamber—walls covered in predictive algorithms written by the Progenitors themselves. They foresaw this moment, Kade. The confrontation with the Engine, the choice we must make. The prophecies are scattered, damaged, but recoverable. Find them. Read them. Know what's coming.",
+      "objective": "Recover the scattered prophecy fragments from the chamber"
+    },
+    "progress": {
+      "dialog": "Fragments assembled, prophecy emerging. It speaks of three paths: Reset, Preservation, and a third way—Transformation. The Progenitors believed a perfect outcome was possible, but the path is hidden, the method unclear. We need to find the missing piece, the key to the third path.",
+      "objective": "Locate the missing piece of the prophecy"
+    },
+    "complete": {
+      "dialog": "Prophecy complete, third path revealed. The Progenitors left hope—not just for survival, but for evolution. A way to save Orion AND free it from the Engine's cycle. The choice isn't binary; it's creative. We can forge a new future, Kade. The prophecy says it's possible. Let's prove it right.",
+      "rewards": {
+        "exp": 45000,
+        "gold": 12000,
+        "item": "complete_prophecy"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A third path. Not just save or doom, but transform. That's the choice I want to make. That's the hero I want to be.",
+    "sova": "The Progenitors were more nuanced than we imagined. They didn't want slaves to the system—they wanted successors. Heirs.",
+    "callum": "Transformation. Evolution. Not destroying the Engine, not submitting to it, but growing beyond it. Beautiful."
+  },
+  "lore_unlocks": ["progenitor_prophecy", "third_path"]
+}

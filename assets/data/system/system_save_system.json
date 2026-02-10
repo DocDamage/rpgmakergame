@@ -1,0 +1,45 @@
+{
+  "save_system": {
+    "version": "1.0",
+    "max_slots": 30,
+    "auto_save": {
+      "enabled": true,
+      "slots": 3,
+      "triggers": ["zone_transition", "boss_defeated", "rest_at_inn", "important_story_beat"],
+      "interval_minutes": 15
+    },
+    "save_anywhere": false,
+    "save_locations": ["save_point", "world_map", "inn"],
+    "data_structure": {
+      "header": {
+        "save_version": "string",
+        "timestamp": "datetime",
+        "playtime_seconds": "integer",
+        "location": "string",
+        "chapter": "string"
+      },
+      "party": {
+        "active_members": "array[3]",
+        "reserve_members": "array",
+        "character_data": "object with stats, equipment, abilities"
+      },
+      "inventory": {
+        "items": "array",
+        "key_items": "array",
+        "gil": "integer"
+      },
+      "progression": {
+        "story_flags": "array",
+        "quests": "object",
+        "dungeons_cleared": "array",
+        "foundations_acquired": "array"
+      },
+      "world_state": {
+        "current_map": "map_id",
+        "player_position": {"x": "float", "y": "float"},
+        "time_of_day": "enum"
+      }
+    },
+    "file_extension": ".sav"
+  }
+}

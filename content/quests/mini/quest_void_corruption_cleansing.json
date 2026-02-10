@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_corruption_cleansing",
+  "name": "Tainted Grounds",
+  "zone": "void",
+  "giver": "aeronaut_void",
+  "type": "combat",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "The Void doesn't just consume—it corrupts everything it touches. I've been mapping the corruption zones, and there's a new one spreading near the old observatory. If we don't cleanse it now, it'll become another Nexus. You'll need Void-resistant gear and a strong stomach.",
+      "objective": "Investigate the new corruption zone near the observatory"
+    },
+    "progress": {
+      "dialog": "Corruption is worse than I thought—living shadows manifesting, reality distorting. I've located the focal point: a shard of pure Void crystal feeding the spread. Destroy it, but be careful. Those things have... effects on the mind.",
+      "objective": "Destroy the Void crystal at the corruption focal point"
+    },
+    "complete": {
+      "dialog": "Crystal destroyed, corruption receding. The ground will need time to heal, but the immediate threat is gone. You're stronger than you look, Kade. Most who face raw Void corruption either break or become part of it. You stood firm. That's rare.",
+      "rewards": {
+        "exp": 14000,
+        "gold": 2500,
+        "item": "void_crystal_shard"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "That crystal was singing. Not with sound—with thoughts. Terrible thoughts. Glad it's dust.",
+    "sova": "Void corruption follows predictable patterns, yet each manifestation is unique. Fascinating and horrifying in equal measure.",
+    "vex": "The shadows reached for my soul. My oath protects me, but others... I understand now why you fear this place."
+  },
+  "lore_unlocks": ["void_corruption_mechanics", "observatory_history"]
+}

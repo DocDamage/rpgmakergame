@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_serah_teacher",
+  "name": "Lessons in the Mire",
+  "zone": "mire",
+  "giver": "Serah (Teacher)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I'm trying to teach the Mire children - the ones who live in the stilt-houses. But I need supplies. Books, writing materials, anything educational. Can you help gather them?",
+      "objective": "Collect educational supplies for the Mire children"
+    },
+    "progress": {
+      "dialog": "The children are eager to learn. Even in this place, education matters. Every bit helps.",
+      "objective": "Continue gathering books and writing materials"
+    },
+    "complete": {
+      "dialog": "Thank you! The children will be so happy! Here - this bow was a gift from my sister. I want you to have it. For protecting the future.",
+      "rewards": {"gold": 400, "item": "sisters_bow", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Teaching kids. Even here. That's important.",
+    "vex": "Educating the young. The best way to change the future.",
+    "renna": "Knowledge transcends circumstance. Wise philosophy."
+  },
+  "hidden_outcome": "If you bring rare 'Advanced Mathematics' and 'History of the World' books, Serah gives you 'Starseeker' - her ultimate bow"
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_age_reversal",
+  "name": "Second Childhood",
+  "zone": "chrono",
+  "giver": "twins",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Our grandmother accidentally reversed her age! She's now a child but with all her elderly memories! She can't reach anything, and she's frightened! We need to reverse the reversal without causing a paradox!",
+      "objective": "Find a way to safely restore the grandmother to her proper age"
+    },
+    "progress": {
+      "dialog": "The reversal is stabilizing—if we don't act soon, she'll stay young forever! We need a counter-spell, but it requires a willing sacrifice of years from someone else! One of us will do it—but we can't decide who!",
+      "objective": "Help the twins decide who will sacrifice their years for their grandmother"
+    },
+    "complete": {
+      "dialog": "They both sacrificed equally—splitting the burden! Grandmother is restored, and the twins are only slightly younger! The family is together again! They gift you this Ageless Locket! It prevents unwanted age magic!",
+      "rewards": {
+        "exp": 850,
+        "gold": 700,
+        "item": "ageless_locket"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "That was touching. Family love across time itself.",
+    "twist": "The mathematics of shared sacrifice were elegant. Beautiful, really.",
+    "nix7": "Familial sacrifice: documented. Temporal restoration: successful."
+  }
+}

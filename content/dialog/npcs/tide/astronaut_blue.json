@@ -1,0 +1,70 @@
+{
+  "npc_id": "astronaut_blue_tide",
+  "name": "Salvage-Sam",
+  "sprite": "astronaut_blue",
+  "zone": "tide",
+  "location": "Wreck Recovery Yard",
+  "personality": "practical_mercenary",
+  "occupation": "salvage_diver",
+  "schedule": "works_when_profitable",
+  "dialog": {
+    "greeting": [
+      "Salvage-Sam. I find things. You buy things. Simple.",
+      "Got treasure. Need coin. You look like you have coin.",
+      "Back for more scrap? Or something... shinier?",
+      "The sea's a junkyard. I'm the... junk... collector. Professionally.",
+      "Welcome to my yard. If it's underwater and valuable, I've probably grabbed it.",
+      "New customer? I do bulk discounts. And 'don't ask questions' premiums.",
+      "Diving's dangerous. Prices reflect that. Don't like it? Dive yourself.",
+      "Sam's Salvage. No refunds. No guarantees. No problems."
+    ],
+    "salvage_offer": "Got brass, copper, iron, and 'mystery metal.' Also pearls, coral, and something that might be ambergris. Smells weird.",
+    "business_philosophy": "The ocean doesn't want its trash back. I'm doing a SERVICE. For PROFIT. Capitalism at work.",
+    "dive_dangers": "Sharks? Sure. Pressure? Obviously. But the WORST is getting stuck in rigging. Had to cut my way out once. Lost a good knife.",
+    "competition": "Other divers? Amateurs. They look for pretty shells. I look for COPPER WIRING. That's where the money is.",
+    "rumor": [
+      "There's a ship out there. Pre-Collapse. FULL of gold. I can smell it.",
+      "Tide's got currents that go... wrong. Down when they should be up. Weird.",
+      "Mire's got salvage too. But it's all MOSSY. Hard to sell moss.",
+      "Dustbelt junk is DRY. Boring. No challenge."
+    ],
+    "treasure_vs_scrap": "Treasure's nice. But SCRAP is reliable. Always someone needs metal. Treasure? Harder to fence.",
+    "farewell": [
+      "Find me if you need underwater junk. I'll be here. Or underwater.",
+      "Stay dry. More work for me.",
+      "Come back with money. I come back with merchandise.",
+      "Sam's Salvage. Remember the name. Forget the details."
+    ],
+    "ambient_barks": [
+      "Copper by the pound!",
+      "Salvage here! Fresh salvage!",
+      "Diving ain't cheap!",
+      "What you need? I got it. Probably.",
+      "Sea pays. Eventually.",
+      "No refunds!"
+    ],
+    "time_dawn": "Early dive. Beat the competition.",
+    "time_noon": "Sorting haul. Cataloging. Boring but necessary.",
+    "time_dusk": "Last dive. Low tide. New wrecks exposed.",
+    "time_night": "Night work. Sketchy work. Good money though."
+  },
+  "party_reactions": {
+    "kade": "Business is business, I guess. Even underwater.",
+    "nix7": "Profit-driven salvage. Logical. Amoral, but logical.",
+    "twist": "You find TREASURE?! Can I see?! CAN I TOUCH?!",
+    "korr": "You recover lost things. There's honor in that, even for profit.",
+    "renna": "Do you ever find magical artifacts? Enchanted items?",
+    "suresh": "Greed drives many to the depths. Some return. Some don't.",
+    "sova": "I respect the honesty. No illusions about what you do.",
+    "grit": "Reminds me of war profiteers. Useful. Sketchy.",
+    "ashka": "You dive into cold water. For MONEY? Mad.",
+    "senna": "You know where valuable things hide. Useful information.",
+    "callum": "Is... is that legal? The salvage?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Cash only. No credit.",
+    "acquaintance": "Back again. Must like my prices. Or my merchandise.",
+    "friend": "My regular! Got something special saved for you.",
+    "best_friend": "You're my best customer. Here - first pick of today's haul. Special price."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "npc_id": "conductor_tower",
+  "name": "Lift",
+  "title": "Vertical Transport Operator",
+  "zone": "tower",
+  "location": "Central Elevator Shaft, Chroma Tower",
+  "description": "The operator of the Tower's primary lift system, controlling vertical movement with conductor-like precision.",
+  "sprite_variant": "conductor_tower",
+  "greeting_variants": [
+    "*checking gauges* Floor? I can take you... most floors.",
+    "Lift. I run the elevator. Up. Down. Simple. Mostly.",
+    "*pulling levers* She creaks, she groans, but she runs. Usually.",
+    "Forty-seven floors. One lift. Many stairs. Your choice.",
+    "Digs keeps her running. I keep her moving. Team.",
+    "*listening to machinery* Something's off. Always something.",
+    "Top floors? *shakes head* Lift doesn't go there. Stops at 40.",
+    "Climbers come. Climbers go. I stay. Elevator stays."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Lift. Conductor. Third generation. Grandlift, Lift-dad, me. We run the vertical. Shaft goes all the way, but lift stops at 40. Above that? Stairs. Or... other ways. Not my jurisdiction.",
+          "options": [
+            {"text": "Why does it stop at 40?", "goto": "floor_40_barrier"},
+            {"text": "Is it safe?", "goto": "safety_check"},
+            {"text": "Can you go anywhere?", "goto": "transport_range"},
+            {"text": "Just need a ride.", "goto": "quick_ride"}
+          ]
+        },
+        {
+          "id": "floor_40_barrier",
+          "text": "*lowers voice* Mechanism fails. Electronics fail. Even steam fails. Something up there... doesn't want easy access. Digs says the shaft changes above 40. Different metal. Different rules. I don't ask questions. I stop at 40.",
+          "party_reactions": {
+            "mira": "A technological dead zone? Fascinating!",
+            "lift": "*grim* Fascinating gets people killed, doctor."
+          },
+          "options": [
+            {"text": "What's up there?", "goto": "top_floors"},
+            {"text": "People still climb?", "goto": "climber_brave"}
+          ]
+        },
+        {
+          "id": "safety_check",
+          "text": "*shrugs* Safe as Tower gets. Digs maintains. I operate. Zero accidents in my watch. Well... zero fatal accidents. Minor accidents... *counts on fingers* ...don't ask.",
+          "options": [
+            {"text": "That's reassuring.", "goto": "sarcasm_recognition"},
+            {"text": "What about major accidents?", "goto": "major_accidents"}
+          ]
+        },
+        {
+          "id": "transport_range",
+          "text": "Floors 1 through 40. All stops. Express to 20 if you're in hurry. Service shafts to maintenance levels. And... *hesitates* ...there's the old cargo lift. Disused. Dangerous. Goes sideways as much as up. Don't use it.",
+          "unlocks": {"locations": ["floors_1-40", "maintenance_shafts"]},
+          "options": [
+            {"text": "Tell me about the cargo lift.", "goto": "cargo_lift"},
+            {"text": "I'll stick to the main lift.", "goto": "main_lift"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "elevator_emergency",
+    "title": "The Climb - Lift Repair",
+    "description": "Help Lift and Digs repair a critical elevator malfunction to restore access to the upper floors.",
+    "objectives": [
+      "Diagnose the elevator malfunction",
+      "Gather replacement parts from the maintenance stores",
+      "Descend to the shaft basement to fix the counterweight",
+      "Test the repairs",
+      "Safely transport climbers to Floor 40"
+    ],
+    "rewards": {
+      "experience": 500,
+      "reputation": {"tower_residents": 30, "maintenance": 25},
+      "items": ["lift_master_key", "elevator_access_card"],
+      "unlock": "express_elevator_access"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*checking gauges* Pressure good. Tension good. Ready.",
+    "Floor 15 again? Popular floor. Don't know why.",
+    "*listening to cables* Something's wearing. Digs!",
+    "Hold the door? No. Schedule tight. Sorry.",
+    "Going up! *mechanical groaning* ...Eventually.",
+    "Floor 40. End of the line. Stairs from here.",
+    "*to machinery* Good girl. Keep running. Please.",
+    "Watch your step. Gap's... bigger than usual."
+  ],
+  "cross_zone_references": {
+    "capital": "Vex uses lift. When visiting. Rare. Important when he does.",
+    "void": "Doesn't go there. Thank everything. Void stays void.",
+    "palace": "Above 40. Beyond lift. Beyond me. Sad, maybe."
+  },
+  "party_reactions": {
+    "digs": {
+      "greeting": "Lift! Betty's acting up again!",
+      "response": "*sigh* Betty and the lift. Both dramatic. Fix soon."
+    },
+    "kael": {
+      "greeting": "Conductor. Service reliable?",
+      "response": "*salutes* As reliable as Tower allows, Captain."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Regular service, busy with climbers",
+      "night": "Limited service, maintenance windows"
+    },
+    "world_state_triggers": {
+      "breakdown": "Stressed: 'Out of order! Everyone use stairs! Sorry!'",
+      "repair_complete": "Relieved: 'Running again. Good. Digs is wizard.'"
+    }
+  }
+}

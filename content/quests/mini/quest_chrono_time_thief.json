@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_time_thief",
+  "name": "Stolen Moments",
+  "zone": "chrono",
+  "giver": "barrel",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "People are losing time! Not memories—actual hours disappearing from their lives! They go to bed, wake up, and it's three days later! A time thief is draining temporal energy! Track them before they steal someone's entire lifetime!",
+      "objective": "Investigate the missing time reports and track the time thief"
+    },
+    "progress": {
+      "dialog": "The thief is a rogue Chronomancer! He's hiding in a pocket dimension, siphoning time from unsuspecting victims! You need to breach his sanctuary and stop the ritual—if he completes it, he'll become immortal at the cost of thousands of lives!",
+      "objective": "Breach the Chronomancer's pocket dimension and stop his ritual"
+    },
+    "complete": {
+      "dialog": "The Chronomancer is apprehended, the stolen time returned! His victims wake up with no memory of the lost days, but they're alive! The Temporal Guard offers you this Time-Thief's Shackles! They nullify time magic on the wearer!",
+      "rewards": {
+        "exp": 1050,
+        "gold": 950,
+        "item": "time_thiefs_shackles"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A guy stealing time? That's the worst kind of theft there is!",
+    "twist": "He wanted immortality. I showed him eternity in a cell instead.",
+    "nix7": "Temporal larceny: prevented. Justice: served across all timelines."
+  }
+}

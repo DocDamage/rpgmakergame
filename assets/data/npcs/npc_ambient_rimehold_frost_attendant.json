@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_RIMEHOLD_FROST_ATTENDANT",
+  "name": "Rimehold Frost Attendant",
+  "title": "Shrine Attendant",
+  "location": "T_RIMEHOLD_112x72",
+  "coords": [
+    95,
+    49
+  ],
+  "schedule": {
+    "day": [
+      95,
+      49
+    ],
+    "night": [
+      94,
+      50
+    ],
+    "rain": [
+      95,
+      51
+    ]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMBIENT_PRIESTESS",
+  "shop": null,
+  "quests": [],
+  "faction": "RIMEHOLD_ARCHIVES",
+  "attitude": "friendly",
+  "background": "Offers aid and ritual guidance to locals. Stationed in Rimehold.",
+  "personality": "Calm, compassionate, and steel-spined.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "blessings",
+    "healing_advice"
+  ]
+}

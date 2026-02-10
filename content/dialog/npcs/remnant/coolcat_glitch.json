@@ -1,0 +1,97 @@
+{
+  "npc_id": "coolcat_glitch_remnant",
+  "name": "STATIC_GROOVE.BAK",
+  "sprite": "coolcat_glitch",
+  "zone": "remnant",
+  "location": "Silent Plaza",
+  "personality": "fragmented_musical",
+  "occupation": "static_musician",
+  "dialog": {
+    "greeting": [
+      "*crackling static* ...welcome...",
+      "Mid...night... ERR... Groove...",
+      "You... vi...bin... NULL...",
+      "The... Lounge... ERR... gone...",
+      "RED... means... ERR... static...",
+      "Wel...come... ERR... listen...",
+      "Street... ERR... music... NULL..."
+    ],
+    "performance_offer": "To...day's... set... ERR... Si...lence... Voi...d... and... my... bang...er... NULL... POINTER...",
+    "static_appreciation": "Li...king... the... ERR... sound...? Th...row... coin... if... coins... ERR... existed...",
+    "broken_philosophy": "Wh...ite... ERR... cat... plays... no... thing... I... play... sta...tic...",
+    "haggle": [
+      "These... beats... ERR... price...less...",
+      "Big... ERR... tip...? I'll... play... your... re...quest...",
+      "Ev...ery... ERR... coin... helps...",
+      "E...ven... ERR... cop...per..."
+    ],
+    "tip_received": [
+      "YO... ERR... APPRE...CIATED...",
+      "The... peo...ple... ERR... spoke...",
+      "Now... ERR... cook...ing...",
+      "You... ERR... taste..."
+    ],
+    "rumor": [
+      "Wh...ite... ERR... cat... thinks... he's... bet...ter... But... I... got... STA...TIC...",
+      "The... ERR... con...duct...or... tips... some...times... sta...tic...",
+      "He...ard... ERR... sunandmoon... dan...cing... to... my... beat... once... now... just... ERR...",
+      "The... ERR... Vault... kills... all... sound... E...ven... MINE... al...most...",
+      "Si...gn... ERR... guy... lets... me... ERR... near... his... work... draws... ERR... noth...ing..."
+    ],
+    "quest_hook": "I... need... a... new... ERR... in...stru...ment... The... Sta...tic... Box... from... the... ERR... depths... bring... me... one... and... I'll... play... your... ERR... theme... forev...er...",
+    "quest_active": "That... ERR... Sta...tic... Box... call...ing...? I... ERR... hear... it...",
+    "quest_complete": "THE... ERR... SOUL... THE... POW...ER... Your... song... The... ERR... Si...lence... An...them...",
+    "quest_reward": "Silence Anthem - Eerie music that disturbs enemies!",
+    "farewell": [
+      "Keep... the... ERR... beat... a...live...",
+      "Stay... ERR... loud...",
+      "The... ERR... streets... re...mem...ber..."
+    ],
+    "ambient_barks": [
+      "*crackling static solo*",
+      "Feel... ERR... rhythm...",
+      "Street... ERR... level...",
+      "Mu...sic... ERR... people...",
+      "GROOVE... ERR..."
+    ],
+    "time_dawn": "Ear...ly... ERR... bus...king...",
+    "time_noon": "Lunch... ERR... rush...",
+    "time_dusk": "Rush... ERR... hour...",
+    "time_night": "Night... ERR... jams..."
+  },
+  "party_reactions": {
+    "kade": "Do you... do you even know you're broken?",
+    "nix7": "Audio output corrupted. 89% static. Recommend ear protection.",
+    "twist": "Your music is... crackly. Like a fire! But sad.",
+    "korr": "Even the song is wounded here. This place is cursed.",
+    "renna": "Acoustic degradation. The physics here are... wrong.",
+    "suresh": "Music without harmony. A spirit without peace.",
+    "sova": "Static. Good for covering sounds. Bad for everything else.",
+    "grit": "Finally! Music that matches this place! Broken!",
+    "ashka": "You sound like a fire dying out. Not the good kind.",
+    "senna": "The static is good cover. For... things.",
+    "callum": "This is so sad! You used to be so happy!",
+    "petra": "Broken sound. Like wind through broken stone."
+  },
+  "relationship_dialog": {
+    "stranger": "New... ERR... face...",
+    "acquaintance": "The... ERR... reg...u...lar...",
+    "friend": "My... ERR... best... fan...",
+    "best_friend": "We... ERR... FAM...I...LY..."
+  },
+  "mini_quest": {
+    "id": "static_box",
+    "title": "Broken Instrument",
+    "description": "Find a Static Box from Vault depths for STATIC_GROOVE",
+    "stages": {
+      "hook": "Sta...tic... Box... ERR... from... depths...",
+      "active": "Deeps... of... ERR... Vault...",
+      "complete": "SI...LENCE... ERR... AN...THEM..."
+    },
+    "reward": {
+      "item": "silence_anthem",
+      "gold": 400,
+      "reputation": "static_family"
+    }
+  }
+}

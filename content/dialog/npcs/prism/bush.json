@@ -1,0 +1,83 @@
+{
+  "npc_id": "bush_prism",
+  "name": "Verdant 'The Gardener' Thicket",
+  "sprite": "bush",
+  "zone": "prism",
+  "location": "Crystal Gardens",
+  "personality": "patient_nurturing_mysterious",
+  "occupation": "crystal_gardener",
+  "schedule": {
+    "morning": "tending_gardens",
+    "day": "cultivating_formations",
+    "evening": "singing_to_crystals"
+  },
+  "dialog": {
+    "greeting": [
+      "Shhh. The young crystals are listening.",
+      "Verdant Thicket. I garden. But not plants. Crystals.",
+      "See how they grow? Slowly. Beautifully. Patiently.",
+      "The crystals need care. Love. Time. I provide all three.",
+      "Welcome to the garden. Walk softly. Speak softer.",
+      "Each crystal is a world. I help them bloom.",
+      "Gardening crystals is like gardening flowers. Except slower. Much slower.",
+      "The formations here took centuries. I plan centuries ahead."
+    ],
+    "crystal_gardening": "Pruning. Shaping. Encouraging growth in desired directions. Crystals respond to intention. To music. To love. Yes, love.",
+    "crystal_lifecycle": "They grow. They sing. Sometimes, they dream. Old crystals have memories. Young crystals have potential. I nurture both.",
+    "backstory": "Came from a family of farmers. Grew flowers. Then discovered crystal formations respond to the same care. Better, even. Been gardening crystals ever since. Decades. The crystals know me now.",
+    "rumors": [
+      "The twins sing to the crystals too. Different songs. Same intention. We should compare notes.",
+      "That blue tunneler - the one who found the Great Prism - he doesn't understand. You can't rush crystals. You can't force them.",
+      "The aeronaut sees patterns from above. Growth patterns. I see them from within. Both perspectives matter.",
+      "The old prospector has stories about crystal forests. Places where they grow wild. Free. I'd love to see such places."
+    ],
+    "ambient_barks": [
+      "Grow, little ones...",
+      "Patience brings beauty...",
+      "Listen to the singing...",
+      "Shape with love...",
+      "Time is a garden...",
+      "Crystals remember..."
+    ],
+    "time_of_day": {
+      "morning": "Morning dew. Crystals drink. I watch.",
+      "noon": "Midday sun. Crystals shine. I smile.",
+      "evening": "Evening songs. Crystals hum. I harmonize.",
+      "night": "Night growth. Crystals dream. I guard."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "rare_formation",
+    "quest_name": "The Star Bloom",
+    "stage_1_hook": "I'm trying to cultivate something new. A star formation. Crystals growing in stellar patterns. Requires a seed crystal from the Echo Caverns. A specific one. Singular. Hard to find. Worth it.",
+    "stage_1_active": "Echo Caverns. Look for a crystal that hums in five-part harmony. That's the one. Bring it carefully.",
+    "stage_2_progress": "Seeking the star seed? Be gentle. It's fragile. Precious.",
+    "stage_2_item_needed": "star_formation_seed_crystal",
+    "stage_3_complete": "The star seed! Perfect! Listen to it sing! Now the real work begins. Decades of cultivation. But you've given me the start. Here. My finest formation. A crystal flower. Grown with love. For you.",
+    "reward": "crystal_flower_formation"
+  },
+  "party_reactions": {
+    "kade": "Peaceful. After everything else in Prism, peaceful is good.",
+    "nix7": "Crystal growth manipulation: undocumented phenomenon. Recommend further study.",
+    "twist": "He talks to the crystals and they LISTEN! That's MAGIC!",
+    "korr": "A warrior understands discipline. This one disciplines growth itself. Admirable.",
+    "renna": "She channels natural magic through the crystals. Unconscious but powerful.",
+    "suresh": "She understands that all things grow with patience. A universal truth.",
+    "sova": "Quiet. Calm. Good place to rest. Even for me.",
+    "grit": "Reminds me of field hospitals. Quiet places. Healing places.",
+    "ashka": "She tends growing things. I destroy. Opposites. But both necessary.",
+    "senna": "The crystals tell her things. She doesn't realize. Useful.",
+    "callum": "I sat with her for an hour. Just... being quiet. It was really nice."
+  },
+  "relationship_dialog": {
+    "stranger": "Welcome. Walk softly. The crystals are young.",
+    "acquaintance": "You return. The crystals remember you. I can tell.",
+    "friend": "My favorite visitor. The crystals sing louder when you're near.",
+    "best_friend": "You understand. The patience. The care. The love. Here. My most precious formation. Grown over twenty years. For you."
+  },
+  "cross_npc_connections": [
+    "twins_white_prism: The echo oracles. They sing to crystals too. We share techniques.",
+    "tunneler_blue_prism: The finder of the Great Prism. He doesn't understand patience. Pity.",
+    "coolcat_white_prism: Opal. The light artist. We collaborate. Light makes crystals sing."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "npc_id": "master_engineer_gearhart",
+  "name": "Master Engineer Gearhart",
+  "title": "Systems Operator",
+  "zone": "obsidian",
+  "location": "The Ironclad Offer Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "pragmatic_clockwork_intense",
+  "occupation": "field_engineer",
+  "dialog": {
+    "greeting": [
+      "Master Engineer Gearhart on comms. Stage 5: The Ironclad Offer. Keep formation tight and decisions tighter.",
+      "We are running Gears of Industry. Objective drift gets teams buried.",
+      "A pigeon outranked three commanders here last week. Merit system is broken.",
+      "Action first, panic never. Start with: Convince Gearhart to join."
+    ],
+    "quest_hook": "Objective stack: Convince Gearhart to join; Help them make amends; Integrate their knowledge with the Crystals. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Recruit the master engineer who designed the factories. Immediate move: Convince Gearhart to join.",
+    "quest_complete": "Stage 5 resolved: The Ironclad Offer. Primary objective secured and route stabilized. Prepare for North to Frost.",
+    "rumor": [
+      "A maintenance drone keeps painting arrows toward sealed furnaces.",
+      "People keep repeating one clue from The Ironclad Offer: 'Integrate their knowledge with the Crystals'.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go."
+    ],
+    "ambient_barks": [
+      "Check pressure.",
+      "Keep the line hot.",
+      "Tighten the bracket.",
+      "No loose bolts."
+    ],
+    "time_dawn": "Dawn shift change in Obsidian is your cleanest infiltration window.",
+    "time_noon": "Noon overloads lines and tempers alike. Expect mechanical failures.",
+    "time_dusk": "Dusk smog reduces range. Move by waypoint, not by horizon.",
+    "time_night": "Night whistles from broken pipes mimic voices. Confirm identities before opening doors."
+  },
+  "party_reactions": {
+    "kade": "Master Engineer Gearhart sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Master Engineer Gearhart accepted. Probability of success improves with compliance.",
+    "twist": "Master Engineer Gearhart talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "obsidian_gears_industry"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+    "world_break_aware": true
+  }
+}

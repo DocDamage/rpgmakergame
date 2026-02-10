@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_storm_chase",
+  "name": "Riders of the Storm",
+  "zone": "aetherreach",
+  "giver": "aeronaut_blue",
+  "type": "combat",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "There's a storm born different—alive, some say, or inhabited. It prowls the upper atmosphere, striking without warning, vanishing before response. The Storm Chasers guild wants to catch it, study it, maybe stop it. We need pilots crazy enough to fly into that and skilled enough to fly back out.",
+      "objective": "Join the Storm Chasers and locate the living storm"
+    },
+    "progress": {
+      "dialog": "Storm located, and the stories were true—there's something inside it, directing its fury. Ancient Progenitor defense system gone rogue, or something from beyond the sky? We need to get close enough to deploy sensors, learn its patterns, find a weakness. This is where it gets dangerous.",
+      "objective": "Deploy sensors and gather data on the living storm"
+    },
+    "complete": {
+      "dialog": "Data gathered, storm analyzed, mystery revealed. It was a Progenitor weather control system, damaged in the World Break, operating on corrupted protocols. We've transmitted shutdown codes. The storm dissipates, the sky clears, and we understand our world a little better. Science and courage, Kade. That's what changes things.",
+      "rewards": {
+        "exp": 27000,
+        "gold": 6000,
+        "item": "storm_chaser_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Flying into a living storm. Definitely the craziest thing I've done. And I've done some crazy things.",
+    "renna": "The Progenitor weather system was more sophisticated than we imagined. Capable of continental-scale climate control.",
+    "nix7": "Corrupted weather protocols neutralized. Atmospheric stability in the region should improve by 34% within one week."
+  },
+  "lore_unlocks": ["living_storms", "progenitor_weather_control"]
+}

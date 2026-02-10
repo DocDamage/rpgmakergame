@@ -1,0 +1,483 @@
+{
+  "id": "Q_SIDE_STORIES",
+  "quests": [
+    {
+      "id": "Q_MISSING_SCAVENGERS",
+      "name": "Missing Scavengers",
+      "type": "side",
+      "giver": "NPC_MIRA_THORN",
+      "prerequisites": [
+        "Q_PROLOGUE"
+      ],
+      "description": "Several scavengers went to the Supply Depot and never returned. Find them.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Search the Supply Depot",
+          "target_location": "MIC_R01B_96x40",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Find the missing scavengers in the ruins",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "rescue"
+        },
+        {
+          "id": 3,
+          "description": "Return to Mira Thorn",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk"
+        }
+      ],
+      "rewards": {
+        "xp": 500,
+        "gil": 200,
+        "items": [
+          {
+            "item": "ITEM_POTION",
+            "count": 3
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_DEBT_COLLECTORS"
+      ],
+      "flags_set": [
+        "Q_MISSING_SCAVENGERS_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_DEBT_COLLECTORS",
+      "name": "Debt Collectors",
+      "type": "side",
+      "giver": "NPC_MIRA_THORN",
+      "prerequisites": [
+        "Q_MISSING_SCAVENGERS"
+      ],
+      "description": "The Ironhawk Syndicate is pressuring Mira for payment. Help her deal with them.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Confront the debt collectors in Dusthaven",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "defeat"
+        },
+        {
+          "id": 2,
+          "description": "Negotiate with Broker Vane",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk"
+        },
+        {
+          "id": 3,
+          "description": "Return to Mira",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk"
+        }
+      ],
+      "rewards": {
+        "xp": 800,
+        "gil": 500,
+        "items": [
+          {
+            "item": "ITEM_GOLD_RING",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_FAMILY_HEIRLOOM"
+      ],
+      "flags_set": [
+        "Q_DEBT_COLLECTORS_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_FAMILY_HEIRLOOM",
+      "name": "Family Heirloom",
+      "type": "side",
+      "giver": "NPC_MIRA_THORN",
+      "prerequisites": [
+        "Q_DEBT_COLLECTORS"
+      ],
+      "description": "Mira's family heirloom was lost in the ruins. Recover it for her.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Search D1 Ruins for the heirloom",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "collect"
+        },
+        {
+          "id": 2,
+          "description": "Return the heirloom to Mira",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk"
+        }
+      ],
+      "rewards": {
+        "xp": 1000,
+        "gil": 0,
+        "items": [
+          {
+            "item": "ITEM_MIRA_REST_DISCOUNT",
+            "count": 1
+          }
+        ],
+        "unlocks": [
+          "MIRA_CONFIDANT_PATH"
+        ]
+      },
+      "flags_set": [
+        "Q_FAMILY_HEIRLOOM_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_RECRUIT_KORR",
+      "name": "Marshal in Chains",
+      "type": "character",
+      "act": 2,
+      "giver": "NPC_CAPTAIN_VARROS",
+      "prerequisites": [
+        "Q_WORLD_BREACHED"
+      ],
+      "description": "After the World Break, Marshal Korr attempts to defect from Dominion command. Extract her before loyalists retake her.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Coordinate extraction with Captain Varros",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk"
+        },
+        {
+          "id": 2,
+          "description": "Intercept Korr's convoy on the Blackglass Haulroad",
+          "target_location": "MIC_R10_104x56",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Hold the line against Dominion loyalists",
+          "target_location": "MIC_R10_104x56",
+          "objective": "defeat"
+        },
+        {
+          "id": 4,
+          "description": "Escort Korr to the Gravemark safehouse",
+          "target_location": "T_GRAVEMARK_112x72",
+          "objective": "escort"
+        }
+      ],
+      "rewards": {
+        "xp": 2600,
+        "gil": 1400,
+        "unlocks": [
+          "CHARACTER_KORR"
+        ]
+      },
+      "unlocks": [
+        "Q_KORR_LIBERATION"
+      ],
+      "flags_set": [
+        "KORR_RECRUITED"
+      ]
+    },
+    {
+      "id": "Q_KORR_LIBERATION",
+      "name": "Cut the Signal",
+      "type": "character",
+      "act": 2,
+      "giver": "NPC_CAPTAIN_VARROS",
+      "prerequisites": [
+        "Q_RECRUIT_KORR",
+        "Q_SIXTH_RELIC"
+      ],
+      "description": "Nix detects an Omega-sigil tether in Korr's command augments. Break the control signal so she can fight by choice.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Gather dampener components from Grimjaw",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW"
+        },
+        {
+          "id": 2,
+          "description": "Recover an anchor lens from Obsidian Quarry",
+          "target_location": "D6_OBSIDIAN_96x96",
+          "objective": "collect"
+        },
+        {
+          "id": 3,
+          "description": "Run recalibration with Nix at the Chronowake terminal",
+          "target_location": "T_CHRONOWAKE_112x72",
+          "objective": "story_event",
+          "target_npc": "NPC_TERMINAL_OPERATOR"
+        },
+        {
+          "id": 4,
+          "description": "Confirm Korr's freedom with Varros",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_CAPTAIN_VARROS"
+        }
+      ],
+      "rewards": {
+        "xp": 4800,
+        "gil": 2200,
+        "items": [
+          {
+            "item": "ITEM_HERO_MEDAL",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_SEVENTH_RELIC"
+      ],
+      "flags_set": [
+        "Q_KORR_LIBERATION_COMPLETE",
+        "KORR_LIBERATED"
+      ]
+    },
+    {
+      "id": "Q_OLD_KELLS_MAPS",
+      "name": "The Cartographer's Request",
+      "type": "side",
+      "giver": "NPC_OLD_KELL",
+      "prerequisites": [
+        "Q_THIRD_RELIC"
+      ],
+      "description": "Old Kell needs surveying data from the highlands. Help him complete his maps.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Survey the crystal formations",
+          "target_location": "MIC_R05_112x56",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Map the cliffside paths",
+          "target_location": "MIC_R06_64x36",
+          "objective": "investigate"
+        },
+        {
+          "id": 3,
+          "description": "Return the data to Old Kell",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objective": "talk"
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gil": 800,
+        "items": [
+          {
+            "item": "ITEM_WORLD_MAP",
+            "count": 1
+          }
+        ]
+      },
+      "flags_set": [
+        "Q_OLD_KELLS_MAPS_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_SUNKEN_TREASURE",
+      "name": "Sunken City Treasure",
+      "type": "side",
+      "giver": "NPC_DOCKMASTER_SARAI",
+      "prerequisites": [
+        "Q_FIFTH_RELIC"
+      ],
+      "description": "Legends speak of a sunken city with legendary treasures. Explore it.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Acquire a submersible",
+          "target_location": "T_BRINEGATE_112x72",
+          "objective": "acquire"
+        },
+        {
+          "id": 2,
+          "description": "Navigate to the Sunken City",
+          "target_location": "HID_SUNKEN_96x64",
+          "objective": "enter"
+        },
+        {
+          "id": 3,
+          "description": "Find the legendary weapon",
+          "target_location": "HID_SUNKEN_96x64",
+          "objective": "collect"
+        }
+      ],
+      "rewards": {
+        "xp": 5000,
+        "gil": 2000,
+        "items": [
+          {
+            "item": "ITEM_LEGENDARY_WEAPON",
+            "count": 1
+          }
+        ]
+      },
+      "flags_set": [
+        "Q_SUNKEN_TREASURE_COMPLETE",
+        "SUNKEN_CITY_CLEARED"
+      ]
+    },
+    {
+      "id": "Q_DRAGONS_GRAVEYARD",
+      "name": "Dragon's Graveyard",
+      "type": "side",
+      "giver": "NPC_FORGE_MASTER_GRIMJAW",
+      "prerequisites": [
+        "Q_SIXTH_RELIC"
+      ],
+      "description": "A graveyard of ancient dragons holds a powerful summon. Dare you disturb it?",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Find the hidden path to the graveyard",
+          "target_location": "MIC_R08_72x40",
+          "objective": "find_hidden"
+        },
+        {
+          "id": 2,
+          "description": "Enter the Dragon's Graveyard",
+          "target_location": "HID_DRAGON_96x64",
+          "objective": "enter"
+        },
+        {
+          "id": 3,
+          "description": "Pay respects and receive the dragon's blessing",
+          "target_location": "HID_DRAGON_96x64",
+          "objective": "story_event"
+        }
+      ],
+      "rewards": {
+        "xp": 6000,
+        "gil": 3000,
+        "unlocks": [
+          "SUMMON_ANCIENT_DRAKE"
+        ]
+      },
+      "flags_set": [
+        "Q_DRAGONS_GRAVEYARD_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_SHRINE_TRIALS",
+      "name": "The Shrine Trials",
+      "type": "bounty",
+      "giver": "NPC_SEAM_WARDEN",
+      "prerequisites": [
+        "Q_EIGHTH_RELIC"
+      ],
+      "description": "Complete all eight shrine challenges to prove your mastery of the Foundations.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Complete Pyreheart Reliquary",
+          "target_location": "SHR_HEAT_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 2,
+          "description": "Complete Verdant Covenant Grove",
+          "target_location": "SHR_GROWTH_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Complete Prismwrit Chapel",
+          "target_location": "SHR_LIGHT_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 4,
+          "description": "Complete Kinetic Vow Atrium",
+          "target_location": "SHR_MOTION_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 5,
+          "description": "Complete Gravestone Monad",
+          "target_location": "SHR_MASS_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 6,
+          "description": "Complete Chronicle Loom",
+          "target_location": "SHR_TIME_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 7,
+          "description": "Complete Umbral Ledger Sepulcher",
+          "target_location": "SHR_SHADOW_64x48",
+          "objective": "defeat"
+        },
+        {
+          "id": 8,
+          "description": "Complete Marinus's Sanctum",
+          "target_location": "SHR_TIDE_64x48",
+          "objective": "defeat"
+        }
+      ],
+      "rewards": {
+        "xp": 10000,
+        "gil": 5000,
+        "items": [
+          {
+            "item": "ITEM_SEAM_WARDEN_BLESSING",
+            "count": 1
+          }
+        ]
+      },
+      "flags_set": [
+        "ALL_SHRINES_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_BOUNTY_DUSTBELT",
+      "name": "Dustbelt Bandits",
+      "type": "bounty",
+      "act": 1,
+      "giver": "NPC_CAPTAIN_VARROS",
+      "prerequisites": [
+        "Q_PROLOGUE"
+      ],
+      "description": "Clear out the bandit camps plaguing the Dustbelt Track.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Defeat bandits at Camp Alpha",
+          "target_location": "MIC_R01B_96x40",
+          "objective": "defeat"
+        },
+        {
+          "id": 2,
+          "description": "Defeat bandits at Camp Beta",
+          "target_location": "MIC_R01B_96x40",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Return to Captain Varros",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk"
+        }
+      ],
+      "rewards": {
+        "xp": 600,
+        "gil": 300
+      },
+      "flags_set": [
+        "Q_BOUNTY_DUSTBELT_COMPLETE"
+      ]
+    }
+  ]
+}

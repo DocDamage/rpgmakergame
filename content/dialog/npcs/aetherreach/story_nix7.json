@@ -1,0 +1,54 @@
+{
+  "npc_id": "nix7",
+  "name": "Nix-7",
+  "title": "Systems Companion",
+  "zone": "aetherreach",
+  "location": "Nix7's Origin Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_literal_dryhumored",
+  "occupation": "android_analyst",
+  "dialog": {
+    "greeting": [
+      "Nix-7 on comms. Stage 4: Nix7's Origin. Keep formation tight and decisions tighter.",
+      "We are running Sky Sanctuary. Objective drift gets teams buried.",
+      "I met my future self and we argued about shoe durability.",
+      "Action first, panic never. Start with: Search the Aetherreach archives."
+    ],
+    "quest_hook": "Objective stack: Search the Aetherreach archives; Uncover Nix7's origin story; Help Nix7 integrate their past. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Discover Nix7's true origins in the Aetherreach archives. Immediate move: Search the Aetherreach archives.",
+    "quest_complete": "Stage 4 resolved: Nix7's Origin. Primary objective secured and route stabilized. Prepare for Sanctuary of Peace.",
+    "rumor": [
+      "Someone is tuning the old observatory bells to match heartbeat rhythms.",
+      "People keep repeating one clue from Nix7's Origin: 'Help Nix7 integrate their past'.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm."
+    ],
+    "ambient_barks": [
+      "Keep moving.",
+      "We can do this.",
+      "Breathe and focus.",
+      "One step, then next."
+    ],
+    "time_dawn": "Dawn in Aetherreach is clear-sky math: low noise, high visibility, best scouting window.",
+    "time_noon": "Noon stacks wind traffic and patrol traffic together. Plan your crossings.",
+    "time_dusk": "Dusk paints false horizons here. Verify every ledge before committing.",
+    "time_night": "Night turns cloud light into mirages. Keep formation and call targets out loud."
+  },
+  "party_reactions": {
+    "kade": "Nix-7 sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Self-assessment accepted. Tone module remains under active calibration.",
+    "twist": "Nix-7 talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "aetherreach_sky_sanctuary"
+    ],
+    "fallback_dialog_tree": "DT_FALLBACK_MISC",
+    "world_break_aware": true
+  }
+}

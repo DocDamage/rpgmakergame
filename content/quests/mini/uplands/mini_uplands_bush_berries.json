@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_bush_berries",
+  "name": "Berry Good Friends",
+  "zone": "uplands",
+  "giver": "Bush Green",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "[Rustling happily] Berries! I love berries! But I can't reach the cliff berries! Too high! Too scary! You tall! You help! Bring me cliff berries! I give you... bush secrets!",
+      "objective": "Harvest cliff berries from dangerous ledges in the Uplands"
+    },
+    "progress": {
+      "dialog": "[Waving branches excitedly] Berries! Berries! Did you find any?",
+      "objective": "Continue climbing to reach more cliff berry patches"
+    },
+    "complete": {
+      "dialog": "[Rustling with joy] BERRIES! So sweet! So juicy! Here - bush secret! The old cave behind the waterfall! Has shiny things! But scary things too! Be careful!",
+      "rewards": {"gold": 200, "item": "waterfall_cave_map", "reputation": 8}
+    }
+  },
+  "party_comments": {
+    "kade": "A bush that eats berries. That's... not how I thought plants worked.",
+    "twist": "It's so CUTE! I want to hug it!",
+    "renna": "Fascinating. A mobile photosynthetic organism with apparent preferences."
+  },
+  "hidden_outcome": "If you bring rare golden berries, Bush Green evolves into 'Berry Bush' and gives you permanent HP regeneration when standing near vegetation"
+}

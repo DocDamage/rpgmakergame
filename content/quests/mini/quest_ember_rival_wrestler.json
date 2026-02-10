@@ -1,0 +1,30 @@
+{
+  "quest_id": "mini_ember_rival_wrestler",
+  "name": "Brotherhood of the Mask",
+  "zone": "ember",
+  "giver": "lucha_blue",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My brother... he wears the mask of El Diablo Rojo, but his heart has grown cold. He seeks to win the tournament by any means—even cheating! This is not the lucha way. Talk to him, make him remember our father's teachings. He respects strength—defeat him honorably in a sparring match!",
+      "objective": "Challenge El Diablo Rojo to an honor duel"
+    },
+    "progress": {
+      "dialog": "You fight with honor! But my brother still refuses to listen. He says only victory matters. Show him that the mask means more than winning—spare him when you have him beaten. That is the true way of the lucha!",
+      "objective": "Defeat El Diablo Rojo and show mercy"
+    },
+    "complete": {
+      "dialog": "You... spared me? After I cheated? *tears in mask* You are right, hermano. I have forgotten the teachings. From this day, I fight with honor! Take this—my father's training manual. May it serve you as it once served me!",
+      "rewards": {
+        "exp": 750,
+        "item": "lucha_master_manual"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "This is what fighting should be about—honor, not just winning!",
+    "twist": "Touching reunion. Can we go now?",
+    "nix7": "Emotional resolution achieved. Behavioral correction: successful."
+  }
+}

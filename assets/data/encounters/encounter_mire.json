@@ -1,0 +1,100 @@
+{
+  "id": "MIRE_ENCOUNTERS",
+  "region": "mire",
+  "maps": [
+    "MIC_R03_104x56",
+    "MIC_R04_56x36",
+    "T_MIREWATCH_112x72"
+  ],
+  "encounter_rate": 0.13,
+  "min_steps": 9,
+  "max_steps": 21,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_LEECHLING"
+      ],
+      "weight": 30,
+      "min_steps": 8,
+      "gil_range": [
+        15,
+        25
+      ],
+      "xp": 32
+    },
+    {
+      "enemies": [
+        "ENEMY_LEECHLING",
+        "ENEMY_LEECHLING",
+        "ENEMY_LEECHLING"
+      ],
+      "weight": 22,
+      "min_steps": 11,
+      "gil_range": [
+        45,
+        75
+      ],
+      "xp": 90
+    },
+    {
+      "enemies": [
+        "ENEMY_SPORELING"
+      ],
+      "weight": 20,
+      "min_steps": 12,
+      "gil_range": [
+        22,
+        40
+      ],
+      "xp": 45
+    },
+    {
+      "enemies": [
+        "ENEMY_MIRE_BULLY"
+      ],
+      "weight": 15,
+      "min_steps": 15,
+      "gil_range": [
+        40,
+        70
+      ],
+      "xp": 70
+    },
+    {
+      "enemies": [
+        "ENEMY_SPORELING",
+        "ENEMY_LEECHLING",
+        "ENEMY_LEECHLING"
+      ],
+      "weight": 10,
+      "min_steps": 14,
+      "gil_range": [
+        55,
+        95
+      ],
+      "xp": 108
+    },
+    {
+      "enemies": [
+        "ENEMY_MIRE_BULLY",
+        "ENEMY_SPORELING"
+      ],
+      "weight": 7,
+      "min_steps": 18,
+      "rare": true,
+      "gil_range": [
+        65,
+        110
+      ],
+      "xp": 112
+    }
+  ],
+  "modifiers": {
+    "weather": {
+      "mist": {
+        "encounter_rate": 0.2,
+        "enemy_buff": "evasion_up"
+      }
+    }
+  }
+}

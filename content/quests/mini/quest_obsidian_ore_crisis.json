@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_ore_crisis",
+  "name": "The Vein Runs Dry",
+  "zone": "obsidian",
+  "giver": "tunneler_gray",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The main Obsidian vein is running low! If it dries up, the whole zone's economy collapses! But geologists say there should be centuries of ore left. Something's wrong down there. Investigate the deep shafts—find out why production is dropping!",
+      "objective": "Investigate the depleted Obsidian vein in the deep shafts"
+    },
+    "progress": {
+      "dialog": "Void corruption! It's seeping into the ore, making it brittle and useless! Someone or something opened a fissure to the Void deep below! You need to seal it before the corruption spreads to the entire mine!",
+      "objective": "Seal the Void fissure in the deepest shaft"
+    },
+    "complete": {
+      "dialog": "The fissure sealed, the corruption purged! The vein will recover in time! The Mining Consortium is saved! They award you this Void-Resistant Pickaxe! It mines any material and glows near Void corruption!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 850,
+        "item": "void_resistant_pickaxe"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Void in the mines. It's spreading everywhere, isn't it?",
+    "twist": "The fissure was deliberate. Someone is weaponizing the Void against industry.",
+    "nix7": "Void contamination source: neutralized. Mining operations: secured."
+  }
+}

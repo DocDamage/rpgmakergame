@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_BRINEGATE_RUN_SCOUT",
+  "name": "Brinegate Run Wayfarer",
+  "title": "Dock Sailor",
+  "location": "MIC_S01_72x40",
+  "coords": [
+    36,
+    20
+  ],
+  "schedule": {
+    "day": [
+      36,
+      20
+    ],
+    "night": [
+      34,
+      19
+    ],
+    "rain": [
+      38,
+      20
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_SAILOR",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "friendly",
+  "background": "Works sea lanes and harbor logistics. Assigned to Brinegate Run.",
+  "personality": "Blunt, weathered, and darkly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "sea_routes",
+    "dock_rumors"
+  ]
+}

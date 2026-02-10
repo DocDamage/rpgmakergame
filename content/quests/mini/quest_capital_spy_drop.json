@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_spy_drop",
+  "name": "The Dead Letter",
+  "zone": "capital",
+  "giver": "trenchcoat_gray",
+  "type": "investigation",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "One of our best operatives missed her drop. Package contains Dominion troop movements—if they catch her with it, she'll vanish into the Black Cells. Find the drop site in the old library, recover the package, and get it to the safehouse.",
+      "objective": "Locate the spy drop in the abandoned library"
+    },
+    "progress": {
+      "dialog": "You found the package, but it's been tampered with. Someone's tracking it—likely Dominion counter-intelligence. I need you to lead them on a chase while we extract the real intel. Make noise in the merchant district, then lose them in the slums.",
+      "objective": "Lure Dominion agents into ambush at the slums"
+    },
+    "complete": {
+      "dialog": "Perfect. We extracted the real data while you led their hounds on a merry chase. The troop movements reveal a supply convoy route ripe for disruption. You've saved our agent and dealt a blow to Dominion logistics.",
+      "rewards": {
+        "exp": 9200,
+        "gold": 1500,
+        "item": "dominion_cipher_key"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Spy games and dead drops. Never thought I'd be running courier for a resistance movement.",
+    "twist": "That tracking magic was sophisticated. Dominion's got some serious arcane counter-intelligence.",
+    "korr": "I know those convoy routes. If they're moving supplies there, they're planning something in the southern sectors."
+  },
+  "lore_unlocks": ["dominion_black_cells", "capital_undercity"]
+}

@@ -1,0 +1,92 @@
+{
+  "bgm": {
+    "town_themes": [
+      {"id": "bgm_town_dusthaven", "name": "Dust and Dreams", "mood": "frontier, hopeful", "loop": true, "file": "bgm_town_dusthaven.ogg"},
+      {"id": "bgm_town_ashveil", "name": "Sanctuary Light", "mood": "peaceful, warm", "loop": true, "file": "bgm_town_ashveil.ogg"},
+      {"id": "bgm_town_mirewatch", "name": "Stilt Town", "mood": "mysterious, damp", "loop": true, "file": "bgm_town_mirewatch.ogg"},
+      {"id": "bgm_town_prismridge", "name": "Crystal Heights", "mood": "ethereal, bright", "loop": true, "file": "bgm_town_prismridge.ogg"},
+      {"id": "bgm_town_cinderstep", "name": "Forge Fire", "mood": "industrial, hot", "loop": true, "file": "bgm_town_cinderstep.ogg"},
+      {"id": "bgm_town_brinegate", "name": "Salt and Sea", "mood": "maritime, breezy", "loop": true, "file": "bgm_town_brinegate.ogg"},
+      {"id": "bgm_town_rimehold", "name": "Frozen Sanctuary", "mood": "cold, ancient", "loop": true, "file": "bgm_town_rimehold.ogg"},
+      {"id": "bgm_town_chronowake", "name": "Time's Edge", "mood": "temporal, uneasy", "loop": true, "file": "bgm_town_chronowake.ogg"},
+      {"id": "bgm_town_meridian", "name": "Crossroads", "mood": "bustling, central", "loop": true, "file": "bgm_town_meridian.ogg"},
+      {"id": "bgm_town_lumencrest_outer", "name": "Fallen Glory", "mood": "somber, ruined", "loop": true, "file": "bgm_town_lumencrest.ogg"},
+      {"id": "bgm_town_aetherreach", "name": "Sky Sanctuary", "mood": "celestial, peaceful", "loop": true, "file": "bgm_town_aetherreach.ogg"}
+    ],
+    "field_themes": [
+      {"id": "bgm_field_dustbelt", "name": "Wandering the Wastes", "mood": "adventure, dusty", "loop": true, "file": "bgm_field_dustbelt.ogg"},
+      {"id": "bgm_field_uplands", "name": "High Road", "mood": "open, windy", "loop": true, "file": "bgm_field_uplands.ogg"},
+      {"id": "bgm_field_marsh", "name": "Mist Walk", "mood": "mysterious, damp", "loop": true, "file": "bgm_field_marsh.ogg"},
+      {"id": "bgm_field_frost", "name": "Frozen March", "mood": "cold, determined", "loop": true, "file": "bgm_field_frost.ogg"},
+      {"id": "bgm_field_capital", "name": "Ruin Approach", "mood": "ominous, tense", "loop": true, "file": "bgm_field_capital.ogg"},
+      {"id": "bgm_overworld", "name": "Orion's Edge", "mood": "epic, adventurous", "loop": true, "file": "bgm_overworld.ogg"}
+    ],
+    "dungeon_themes": [
+      {"id": "bgm_dungeon_ruins", "name": "Ancient Halls", "mood": "mysterious, ancient", "loop": true, "file": "bgm_dungeon_ruins.ogg"},
+      {"id": "bgm_dungeon_fungal", "name": "Spore Depths", "mood": "alien, bioluminescent", "loop": true, "file": "bgm_dungeon_fungal.ogg"},
+      {"id": "bgm_dungeon_crystal", "name": "Prismatic Caverns", "mood": "ethereal, sharp", "loop": true, "file": "bgm_dungeon_crystal.ogg"},
+      {"id": "bgm_dungeon_skyspire", "name": "Temple Ascent", "mood": "sacred, windy", "loop": true, "file": "bgm_dungeon_skyspire.ogg"},
+      {"id": "bgm_dungeon_abyss", "name": "Crushing Dark", "mood": "deep, pressure", "loop": true, "file": "bgm_dungeon_abyss.ogg"},
+      {"id": "bgm_dungeon_obsidian", "name": "Molten Core", "mood": "industrial, hot", "loop": true, "file": "bgm_dungeon_obsidian.ogg"},
+      {"id": "bgm_dungeon_frozen", "name": "Icebound Citadel", "mood": "frozen, timeless", "loop": true, "file": "bgm_dungeon_frozen.ogg"},
+      {"id": "bgm_dungeon_void", "name": "Null Space", "mood": "void, oppressive", "loop": true, "file": "bgm_dungeon_void.ogg"}
+    ],
+    "battle_themes": [
+      {"id": "bgm_battle_normal", "name": "First Strike", "mood": "action, tense", "loop": true, "file": "bgm_battle_normal.ogg"},
+      {"id": "bgm_battle_boss", "name": "Worthy Opponent", "mood": "epic, challenging", "loop": true, "file": "bgm_battle_boss.ogg"},
+      {"id": "bgm_boss_the_bloom", "name": "Growth Unbound", "mood": "nature, corrupted", "loop": true, "file": "bgm_boss_the_bloom.ogg"},
+      {"id": "bgm_boss_mercer", "name": "Mercer's Legacy", "mood": "tragic, intense", "loop": true, "file": "bgm_boss_mercer.ogg"},
+      {"id": "bgm_boss_alexander", "name": "The Gate Stands", "mood": "divine, imposing", "loop": true, "file": "bgm_boss_alexander.ogg"},
+      {"id": "bgm_boss_progenitor_engine_final", "name": "Origin's End", "mood": "final, cosmic", "loop": true, "file": "bgm_boss_progenitor.ogg"}
+    ],
+    "special_themes": [
+      {"id": "bgm_title", "name": "Chroma's Edge", "mood": "title, epic", "loop": false, "file": "bgm_title.ogg"},
+      {"id": "bgm_game_over", "name": "Fallen", "mood": "defeat, somber", "loop": false, "file": "bgm_game_over.ogg"},
+      {"id": "bgm_victory", "name": "Victory", "mood": "triumph", "loop": false, "file": "bgm_victory.ogg"},
+      {"id": "bgm_ending", "name": "New Dawn", "mood": "resolution, hopeful", "loop": false, "file": "bgm_ending.ogg"}
+    ]
+  },
+  "sfx": {
+    "ui_sounds": [
+      {"id": "sfx_ui_select", "trigger": "menu_select", "file": "sfx_ui_select.wav"},
+      {"id": "sfx_ui_confirm", "trigger": "menu_confirm", "file": "sfx_ui_confirm.wav"},
+      {"id": "sfx_ui_cancel", "trigger": "menu_cancel", "file": "sfx_ui_cancel.wav"},
+      {"id": "sfx_ui_open", "trigger": "menu_open", "file": "sfx_ui_open.wav"},
+      {"id": "sfx_ui_close", "trigger": "menu_close", "file": "sfx_ui_close.wav"},
+      {"id": "sfx_ui_equip", "trigger": "equip_item", "file": "sfx_ui_equip.wav"},
+      {"id": "sfx_ui_save", "trigger": "save_game", "file": "sfx_ui_save.wav"}
+    ],
+    "combat_sounds": [
+      {"id": "sfx_atk_sword", "trigger": "sword_attack", "file": "sfx_atk_sword.wav"},
+      {"id": "sfx_atk_gun", "trigger": "gun_attack", "file": "sfx_atk_gun.wav"},
+      {"id": "sfx_atk_magic", "trigger": "magic_cast", "file": "sfx_atk_magic.wav"},
+      {"id": "sfx_hit_physical", "trigger": "physical_hit", "file": "sfx_hit_physical.wav"},
+      {"id": "sfx_hit_critical", "trigger": "critical_hit", "file": "sfx_hit_critical.wav"},
+      {"id": "sfx_hit_fire", "trigger": "fire_damage", "file": "sfx_hit_fire.wav"},
+      {"id": "sfx_hit_ice", "trigger": "ice_damage", "file": "sfx_hit_ice.wav"},
+      {"id": "sfx_hit_thunder", "trigger": "thunder_damage", "file": "sfx_hit_thunder.wav"},
+      {"id": "sfx_buff_cast", "trigger": "buff_cast", "file": "sfx_buff_cast.wav"},
+      {"id": "sfx_heal", "trigger": "heal", "file": "sfx_heal.wav"},
+      {"id": "sfx_limit_charge", "trigger": "limit_break_ready", "file": "sfx_limit_charge.wav"},
+      {"id": "sfx_victory_fanfare", "trigger": "battle_win", "file": "sfx_victory.wav"}
+    ],
+    "ambient_loops": [
+      {"id": "amb_wind", "trigger": "windy_area", "file": "amb_wind.ogg", "loop": true},
+      {"id": "amb_rain", "trigger": "rain", "file": "amb_rain.ogg", "loop": true},
+      {"id": "amb_fire", "trigger": "fire_area", "file": "amb_fire.ogg", "loop": true},
+      {"id": "amb_water", "trigger": "water_area", "file": "amb_water.ogg", "loop": true},
+      {"id": "amb_machinery", "trigger": "industrial_area", "file": "amb_machinery.ogg", "loop": true}
+    ]
+  },
+  "voice": {
+    "battle_quotes": [
+      {"character": "Kade", "id": "vo_kade_atk", "trigger": "attack", "file": "vo_kade_atk.wav"},
+      {"character": "Kade", "id": "vo_kade_damage", "trigger": "take_damage", "file": "vo_kade_damage.wav"},
+      {"character": "Kade", "id": "vo_kade_limit", "trigger": "limit_break", "file": "vo_kade_limit.wav"},
+      {"character": "Kade", "id": "vo_kade_win", "trigger": "victory", "file": "vo_kade_win.wav"}
+    ],
+    "story_vo": [
+      {"id": "vo_prologue_01", "scene": "prologue", "line": 1, "file": "vo_prologue_01.wav"}
+    ]
+  }
+}

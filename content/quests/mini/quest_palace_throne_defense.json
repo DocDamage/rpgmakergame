@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_throne_defense",
+  "name": "Defending the Crown",
+  "zone": "palace",
+  "giver": "signguy",
+  "type": "combat",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Throne of Stars is under assault—not physically, but conceptually. Void entities are trying to corrupt its meaning, twist its symbolism into something dark. If they succeed, the Palace itself may turn against us. Defend the Throne chamber, repel the corruption, preserve the light.",
+      "objective": "Defend the Throne chamber from Void corruption entities"
+    },
+    "progress": {
+      "dialog": "Corruption repelled, but a Void Herald has manifested—an entity of pure concept, feeding on the Throne's significance. This isn't a physical battle; we need to reinforce the Throne's meaning through action and declaration. Show the Palace what the Throne truly represents.",
+      "objective": "Defeat the Void Herald by reinforcing the Throne's meaning"
+    },
+    "complete": {
+      "dialog": "Herald banished, Throne purified, meaning restored. The Throne of Stars shines brighter than before, its symbolism reinforced by our defense. The Palace recognizes us as true protectors now, not just visitors. Whatever happens with the Engine, the Throne will endure. We ensured that.",
+      "rewards": {
+        "exp": 38000,
+        "gold": 11000,
+        "item": "throne_defender_crest"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fighting concepts with meaning. That's some next-level combat. But we did it—the Throne stands pure.",
+    "vex": "Defending a throne's honor against corruption. This is what knighthood meant in ages past. An honor to participate.",
+    "petra": "Void Heralds are terrifying—beings that eat meaning itself. Beating one... that proves we're more than just flesh."
+  },
+  "lore_unlocks": ["void_heralds", "throne_of_stars_symbolism"]
+}

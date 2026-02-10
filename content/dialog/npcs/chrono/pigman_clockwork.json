@@ -1,0 +1,107 @@
+{
+  "npc_id": "pigman_clockwork_chrono",
+  "name": "Automaton Hogsworth",
+  "sprite": "pigman_clockwork",
+  "zone": "chrono",
+  "location": "The Winding Hog Inn",
+  "personality": "mechanical_polite_precise",
+  "occupation": "automaton_innkeeper",
+  "dialog": {
+    "greeting": [
+      "*whir-click* Welcome to The Winding Hog! *tick-tock*",
+      "Automaton Hogsworth! At your service! *gear-grind*",
+      "The clockwork? ENHANCEMENT! For EFFICIENCY! *spring-snap*",
+      "New guest! Or returning guest! Hard to track! Memory gears! *whir*",
+      "*ding* Room available! Food available! HOSPITALITY available!",
+      "Welcome! I am WINDING down! Or up! Depending on TIME! *click*",
+      "Hogsworth! The CLOCKWORK Hogsworth! Different design! Same SNOUT! *tock*",
+      "How may I ASSIST? *whir-click* Literally! ASSISTANCE is my FUNCTION!"
+    ],
+    "room_offer": "Rooms with TEMPORAL amenities! Past views! Future heating! Present COMFORT!",
+    "food_offer": "Special: 'Time-Loop Stew!' Same taste! Every BITE! Consistent! *ding*",
+    "haggle": [
+      "Prices are MECHANICALLY set! Non-negotiable! *click*",
+      "Hero discount? 20%! Pre-programmed! *whir*",
+      "Best deal? Extended stay! Automatic WINDING! *tock*"
+    ],
+    "purchase_success": [
+      "Excellent! Room ASSIGNED! *gear-grind* Enjoy your TEMPORAL stay!",
+      "TRANSACTION complete! *ding* Satisfaction: MANDATORY!",
+      "Return anytime! ANY time! *click* Literal!"
+    ],
+    "purchase_fail": [
+      "Insufficient FUNDS! *buzz* Alternative: WORK for STAY!",
+      "Credit not RECOGNIZED! *whir* Coin only! Temporal or OTHERWISE!",
+      "Return when FLUSH! *tick* Clockwork pun! Humor subroutine!"
+    ],
+    "rumor": [
+      "Tempus? The conductor? Regular guest! Punctual PAYMENT!",
+      "Yesterday? The time agent? Orders room service! SAME order! Every TIME!",
+      "The black hunter? TOO intense! Stresses my GEARS!",
+      "The other Hogsworths? Cousins! Different ERAS! Same HOSPITALITY!",
+      "Frost innkeeper? Thaw? ORGANIC! Less EFFICIENT! But WARM!"
+    ],
+    "quest_hook": "Winding mechanism! STICKY! Needs LUBRICATION! Special temporal OIL! Find some?!",
+    "quest_active": "Still STICKY! Gears GRINDING! Temporal oil! ESSENTIAL!",
+    "quest_complete": "LUBRICATED! Smooth operation! RESTORED! Here! Temporal key! For ALL my INNS! Across TIME!",
+    "farewell": [
+      "*whir-click* Come again! Or BEFORE!",
+      "Stay TEMPORAL! Stay COMFORTABLE!",
+      "The Winding Hog: ALWAYS open! Literally!"
+    ],
+    "ambient_barks": [
+      "*ding* Welcome!",
+      "*tick-tock* Time passes!",
+      "*whir* Hospitality!",
+      "*click* Rooms ready!",
+      "*gear-grind* Assistance!",
+      "*tock* Winding!"
+    ],
+    "time_dawn": "Morning! *ding* Optimal WINDING! Peak EFFICIENCY!",
+    "time_noon": "Midday! *whir* Peak traffic! Maximum HOSPITALITY!",
+    "time_dusk": "Evening! *click* Winding DOWN! Or UP! Relative!",
+    "time_night": "Night! *tick* Quiet mode! Minimal POWER!",
+    "rival_mention": "Thaw? In Frost? ORGANIC counterpart! LESS efficient! But WARM!",
+    "post_quest_greeting": "The LUBRICATOR! Mechanism SMOOTH! Gratitude PROTOCOL!"
+  },
+  "party_reactions": {
+    "kade": "A clockwork innkeeper! Of course! Why not?!",
+    "nix7": "Mechanical hospitality: Efficient. Social subroutines: Developing. Service: Adequate.",
+    "twist": "You're a ROBOT PIG?! That's AMAZING! Can I WIND you?!",
+    "korr": "He serves through mechanism. Different path. Same purpose.",
+    "renna": "The clockwork is magically enhanced. Temporal stability. Impressive.",
+    "suresh": "He creates comfort through technology. Interesting path.",
+    "sova": "Interesting. Predictable. I'd stay here. Reliable.",
+    "grit": "Automated logistics. Useful. If impersonal.",
+    "ashka": "He ticks. Like fire crackles. Comforting.",
+    "senna": "He hears everything. Records everything. Carefully.",
+    "callum": "His maintenance schedules! EXACT! Admirable!"
+  },
+  "relationship_dialog": {
+    "stranger": "*whir* NEW guest! Welcome! *click*",
+    "acquaintance": "*ding* RETURNING guest! Recognized! *tock*",
+    "friend": "*whir-click* PRIORITY guest! Special SERVICE!",
+    "best_friend": "*gear-grind* HONORED guest! Here! Master KEY! For ALL my INNS!"
+  },
+  "mini_quest": {
+    "id": "temporal_oil",
+    "title": "The Sticky Gears",
+    "description": "Help Automaton Hogsworth find special temporal oil for his winding mechanism",
+    "stages": {
+      "hook": "Winding mechanism! STICKY! *grind* Needs temporal OIL! Special! Find some?!",
+      "active": "Check the Time-Train! Maintenance! They have SUPPLIES!",
+      "complete": "LUBRICATED! *whir* Smooth! Here! Master key! For ALL my INNS! Across TIME! *ding*"
+    },
+    "reward": {
+      "item": "hogsworth_master_key",
+      "gold": 350,
+      "reputation": "clockwork_inn_friend"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus! Regular guest! Punctual! Appreciated! *ding*",
+    "pigman_white_frost: Thaw! ORGANIC counterpart! LESS efficient! But WARM!",
+    "pigman_industrial_obsidian: Industrial cousin! SCRIP only! BAD programming!",
+    "trenchcoat_brown_chrono: Yesterday! Same order! EVERY time! Predictable!"
+  ]
+}

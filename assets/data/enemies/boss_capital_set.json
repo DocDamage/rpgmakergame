@@ -1,0 +1,70 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_ARCHIVE_GUARDIAN",
+      "name": "Archive Guardian",
+      "dungeon": "D_ARCHIVE_112x96",
+      "type": "capital",
+      "sprite": "spr_boss_void_architect",
+      "stats": {
+        "hp": 12000,
+        "mp": 500,
+        "atk": 62,
+        "def": 44,
+        "mag": 58,
+        "spr": 42,
+        "spd": 19
+      },
+      "weaknesses": {
+        "light": 1.3,
+        "thunder": 1.2
+      },
+      "resists": {
+        "dark": 0.6,
+        "time": 0.7
+      },
+      "abilities": [
+        "record_slash",
+        "seal_writ",
+        "null_archive",
+        "chrono_lance"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "guard_stance",
+          "abilities": [
+            "record_slash",
+            "seal_writ"
+          ]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 45,
+          "behavior": "purge_protocol",
+          "abilities": [
+            "null_archive",
+            "chrono_lance",
+            "record_slash"
+          ]
+        }
+      ],
+      "loot": [
+        {
+          "item": "ITEM_CROWN_ALLOY_SHARD",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "ITEM_ARCHIVE_KEY",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 2600,
+      "xp": 4200,
+      "music": "bgm_boss_archive_guardian"
+    }
+  ]
+}

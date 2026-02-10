@@ -1,0 +1,99 @@
+{
+  "npc_id": "aeronaut_white_frost",
+  "name": "Cloud-Watcher Cirrus",
+  "sprite": "aeronaut_white",
+  "zone": "frost",
+  "location": "Weather Tower, Peak Station",
+  "personality": "anxious_dedicated_metropolitan",
+  "occupation": "weather_observer",
+  "dialog": {
+    "greeting": [
+      "The clouds... they're wrong today. Can you feel it?",
+      "Cirrus. Weather observation. Someone has to watch the sky.",
+      "Storm's coming. Always coming. We just watch and warn.",
+      "You're not from the Weather Corps. Good. They don't listen anyway.",
+      "Cloud-Watcher Cirrus. The white uniform means senior observer. Means I survived.",
+      "New face. New... pressure reading? No? Just visiting? Pity.",
+      "The frost collects on everything. Even hope. Especially hope.",
+      "Up here, the sky talks. Most don't understand the language."
+    ],
+    "work_complaint": [
+      "Equipment fails. Cold does that. Corporate won't replace. 'Budget constraints.'",
+      "The blizzards are getting worse. More frequent. Something's... changing."
+    ],
+    "professional_pride": "I've predicted seventeen major storms. Saved hundreds of lives. They gave me a certificate. Paper freezes up here.",
+    "technique": "Watch the cirrus formations. High clouds tell the future. Low clouds tell the present. Both tell danger.",
+    "break_chat": "Break means hot tea. The only thing that keeps fingers working. That and stubbornness.",
+    "labor_concerns": "Blue wants to fly supplies in this weather. Suicide. But he's... determined. Like his brother was.",
+    "retirement": "Retirement? To where? This is all I know. All that's left.",
+    "rumor": [
+      "Blue's planning something. A supply run. In the storm. His brother died the same way.",
+      "The twins in the ice caves? They predicted 'a visitor from warmth.' That's you, isn't it?",
+      "Heard from Obsidian: my brother Grayson sends regards. Tell him... tell him I'm still watching.",
+      "That snake charmer in the visitor's hut? Strange rock he's got. Warm. Too warm for these parts.",
+      "Chrono sent a message. Through time, they said. Weather report from next week. Confusing."
+    ],
+    "quest_hook": "Blue's gone. Into the storm. After supplies. Or after... I don't know. Find him? Please?",
+    "quest_active": "Any sign of Blue? The storm's getting worse. His balloon... blue, like his name. Hard to miss.",
+    "quest_complete": "You found him! Alive! Battered, but alive! Here - my weather crystal. Predicts storms twelve hours out. Life saver. Literally.",
+    "farewell": [
+      "Watch the skies. They watch back.",
+      "Stay warm. Stay alive. Same thing, up here.",
+      "Go with the wind. Not against it."
+    ],
+    "ambient_barks": [
+      "Pressure dropping...",
+      "Storm front approaching...",
+      "Wind speed increasing...",
+      "Clouds gathering...",
+      "Temperature falling...",
+      "Bad weather coming..."
+    ],
+    "time_dawn": "Morning readings. The day's story, written in vapor.",
+    "time_noon": "Midday. Usually calmest. Usually.",
+    "time_dusk": "Evening. When the cold comes down from the peaks.",
+    "time_night": "Night. The stars are cold. Distant. Like everything else.",
+    "family_mention": "Grayson. My brother. The miner. We chose different depths. Both dark.",
+    "post_quest_greeting": "The rescuer! Blue won't stop talking about you. Rare for him to talk at all."
+  },
+  "party_reactions": {
+    "kade": "He's so... sad. But dedicated. Saving lives in this cold.",
+    "nix7": "Meteorological expertise: Advanced. Psychological state: Concerning. Support recommended.",
+    "twist": "You watch CLOUDS?! That's so COOL! ...Cold. I mean COLD!",
+    "korr": "A sentinel who watches the sky. Noble. Lonely. Necessary.",
+    "renna": "The weather patterns here are magically influenced. He senses it but doesn't understand.",
+    "suresh": "His suffering is the suffering of responsibility. He bears it well.",
+    "sova": "I'd go crazy up here. Alone. Watching. He's stronger than he looks.",
+    "grit": "Weather corps. Saved my unit once. Storm warning. Good people.",
+    "ashka": "He understands cold. True cold. The cold that waits.",
+    "senna": "He knows when danger comes. Useful. If you can get him to share.",
+    "callum": "His equipment needs maintenance. I should offer. If he'd accept help."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Up here? Either brave or foolish.",
+    "acquaintance": "You return. Not many do. The cold drives them away.",
+    "friend": "I trust you. Hard won, up here. Don't waste it.",
+    "best_friend": "You're... warm. Figuratively. Here. My private journal. Weather patterns. Secrets. Yours now."
+  },
+  "mini_quest": {
+    "id": "blizzard_rescue",
+    "title": "Blizzard Rescue",
+    "description": "Rescue Blue, the supply balloonist who went into a storm",
+    "stages": {
+      "hook": "Blue's gone. Into the white. After his brother's route. Suicide mission. Find him? Please? Before I lose him too?",
+      "active": "North ridge. That's where his brother... that's where he went. Look for blue fabric. The balloon.",
+      "complete": "You brought him back! He's alive! Thank you. Thank you. Here - my weather crystal. It's... everything I have."
+    },
+    "reward": {
+      "item": "cirrus_weather_crystal",
+      "gold": 400,
+      "reputation": "weather_corps_gratitude"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_blue_frost: My... colleague. Young. Reckless. Like his brother was. Like I was.",
+    "twins_white_frost: Oracles. They see things. Don't always understand them.",
+    "snakecharmer_frost: Strange visitor. Warm rock. Warmer than he should be.",
+    "tunneler_gray_obsidian: My brother. Tell him... tell him the clouds still speak."
+  ]
+}

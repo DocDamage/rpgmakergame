@@ -1,0 +1,34 @@
+{
+  "id": "ITEM_NAME",
+  "name": "Item Display Name",
+  "type": "consumable|weapon|armor|accessory|material|key",
+  "rarity": 1,
+  "icon": "icon_item_name",
+  "description": "Short mechanical description.",
+  "flavor": "Flavor text for lore.",
+  "effect": {
+    "type": "heal|damage|buff|debuff|revive|escape",
+    "target": "single|all|self",
+    "amount": 0,
+    "stat": "hp|mp|atk|def|mag|spr|spd",
+    "duration": 0
+  },
+  "buy_price": 0,
+  "sell_price": 0,
+  "stack_size": 99,
+  "usable_in": ["battle", "field"],
+  "recipe": {
+    "requires": [
+      {"item": "MATERIAL_ID", "count": 1}
+    ],
+    "alchemy_level": 1
+  },
+  "equipable_by": ["all"],
+  "stats": {
+    "atk": 0,
+    "def": 0,
+    "mag": 0,
+    "spr": 0,
+    "spd": 0
+  }
+}

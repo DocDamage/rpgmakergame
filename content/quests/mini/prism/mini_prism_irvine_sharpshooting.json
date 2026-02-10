@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_irvine_sharpshooting",
+  "name": "Sniper's Eye",
+  "zone": "prism",
+  "giver": "Irvine (SeeD Sniper)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Hey there, gorgeous. Wanna test your aim? The Prism formations make for tricky shooting - lots of reflections. Hit 10 targets through the crystal maze and I'll share some premium ammo.",
+      "objective": "Shoot 10 targets through the crystal reflection maze"
+    },
+    "progress": {
+      "dialog": "Nice shooting! The refraction angle changes based on crystal type. Adjust accordingly!",
+      "objective": "Continue hitting targets using crystal reflections"
+    },
+    "complete": {
+      "dialog": "Bullseye every time! You've got natural talent! Here - AP ammo, Pulse ammo, and my special: Shotgun ammo. Use 'em wisely, cowboy.",
+      "rewards": {"gold": 450, "item": "premium_ammo_set", "reputation": 13}
+    }
+  },
+  "party_comments": {
+    "kade": "Trick shots through crystals. That's impressive marksmanship.",
+    "twist": "BANG! Did you see that ricochet?!",
+    "nix7": "Ballistic trajectory calculation: complex. Success rate: impressive."
+  },
+  "hidden_outcome": "If you hit all targets with headshots, Irvine gives you 'Exeter' - his ultimate rifle"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "NPC_BLACKSMITH_KELLEN",
+  "name": "Blacksmith Kellen",
+  "title": "Smith",
+  "location": "T_DUSTHAVEN_112x72",
+  "coords": [80, 45],
+  "schedule": {
+    "day": [80, 45],
+    "night": [80, 45],
+    "rain": [80, 45]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_kellen_portrait",
+  "dialog_tree": "DT_KELLEN_MAIN",
+  "shop": "SHOP_KELLEN_SMITH",
+  "quests": ["Q_BETTER_GEAR", "Q_RARE_MATERIALS"],
+  "faction": "DUSTHAVEN_CRAFTERS",
+  "attitude": "friendly",
+  "background": "Master smith who refuses to work for the Dominion.",
+  "personality": "Gruff exterior, soft heart. Passionate about craft.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null,
+    "upgrades_available": ["weapons", "armor"]
+  },
+  "services": ["shop", "crafting", "upgrades"],
+  "voice_lines": {
+    "greet": "vo_kellen_greet",
+    "farewell": "vo_kellen_farewell",
+    "craft": "vo_kellen_craft"
+  }
+}

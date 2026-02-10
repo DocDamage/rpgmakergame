@@ -1,0 +1,96 @@
+{
+  "npc_id": "signguy_obsidian",
+  "name": "Wiley Warning",
+  "sprite": "signguy",
+  "zone": "obsidian",
+  "location": "Shaft Entrances, All Levels",
+  "personality": "literal_meticulous_anxious",
+  "occupation": "safety_sign_painter",
+  "dialog": {
+    "greeting": [
+      "DANGER! I mean, hello! I paint DANGER! Professionally!",
+      "Wiley Warning. Safety signage. If it's yellow and terrifying, it's MINE!",
+      "Signs! I make signs! 'Hard Hat Required!' 'Fall Risk!' 'Do Not Enter!' Beautiful, right?",
+      "You! Are you wearing proper PPE? I have a SIGN about that!",
+      "Welcome to Obsidian! Where the signs are clear and the hazards are numerous!",
+      "I'm the reason you know where NOT to step. You're welcome.",
+      "Yellow and black. My colors. Nature's warning. MY warning!",
+      "New face! Need directions? I have SIGNS for that! Literal signs!"
+    ],
+    "work_pride": "That 'Caution: Unstable Ground' sign? Mine. Saved three lives this year. Three!",
+    "technique": "Font choice is CRITICAL. Arial Bold for warnings. Impact for DANGER. Comic Sans for... nothing. EVER.",
+    "sign_types": "Falling rock signs. Gas leak signs. 'Management Is Watching' signs. That last one's unofficial. But accurate.",
+    "break_chat": "Lunch break. Eating away from my paints. Safety first. Even for me.",
+    "labor_concerns": "They want FEWER signs. 'Cost cutting,' they say. 'Let them learn from experience.' MONSTERS.",
+    "retirement": "I'll die painting one last warning. 'Caution: Deceased Sign Painter.' Circle of life.",
+    "rumor": [
+      "That OSHA inspector from the capital? Disappeared in Tunnel 7. Did I make a sign? No. Too soon.",
+      "Corporate wants me to paint 'Safety Is Everyone's Responsibility.' That's BUNK! Safety is MANAGEMENT'S responsibility!",
+      "The union rep Coolcat? She APPRECIATES signage. Properly formatted signage. A woman of TASTE.",
+      "Bruno, that shift supervisor? Removed three of my signs. 'In the way,' he said. IN THE WAY OF WHAT?! DYING?!",
+      "Chrono needs signs too, apparently. 'Now Entering: Tuesday.' Time zones are COMPLICATED."
+    ],
+    "quest_hook": "VANDALISM! Someone's DEFACING my signs! 'Hard Hat Required' became 'Hard Heart Required!' NOT THE SAME! Catch them!",
+    "quest_active": "The vandal strikes at night. Changes words. Makes mockery! Protect my BABIES!",
+    "quest_complete": "Caught them! Barrelgob! Thought it was 'funny!' IT'S NOT FUNNY! Well, a LITTLE funny. Here's a custom sign. For YOU.",
+    "farewell": [
+      "Watch your step! There's a SIGN!",
+      "Safety first! Second! And THIRD!",
+      "If you see something, say something! If you see nothing, you're not looking hard enough!"
+    ],
+    "ambient_barks": [
+      "Caution! Wet floor!",
+      "Hard hats mandatory!",
+      "Yield to oncoming traffic!",
+      "Do not feed the wildlife!",
+      "Safety is no accident!",
+      "Signs save lives! MY signs!"
+    ],
+    "time_dawn": "Morning! New shift! Fresh signs! Fresh DANGER!",
+    "time_noon": "Midday inspection! Are my signs VISIBLE?! They BETTER be!",
+    "time_dusk": "Evening. Shift change. Maximum confusion. Maximum signage NEEDED!",
+    "time_night": "Night. The vandal strikes. I'm WATCHING. Always watching.",
+    "rival_mention": "That Chrono sign guy? 'Now Entering: Tuesday?' TIME ISN'T A PLACE! Irresponsible!",
+    "post_quest_greeting": "The sign defender! Protector of signage! I have a HERO SIGN ready!"
+  },
+  "party_reactions": {
+    "kade": "He's really passionate about... signs. That's... good? Safety first!",
+    "nix7": "His signage follows industrial standards precisely. Admirable attention to protocol.",
+    "twist": "Can I help paint signs?! I want to make a BIG ONE!",
+    "korr": "Communication of hazard information. Essential for team survival. I approve.",
+    "renna": "The signs have minor enchantments. Repulsion fields. Clever.",
+    "suresh": "His dedication to preventing harm is noble. His anxiety is... understandable.",
+    "sova": "I'd follow his signs. They're clear. Unlike most things in life.",
+    "grit": "Every unit needs someone like him. Keeps you alive when you forget how.",
+    "ashka": "He marks the dangerous places. Useful. I avoid those.",
+    "senna": "He knows where everything is. And where it ISN'T safe. Useful.",
+    "callum": "Finally! Someone who understands REGULATIONS!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Read the signs. ALL the signs. They're important!",
+    "acquaintance": "You're back! Did you see my new 'Falling Rock' sign? Dramatic, right?",
+    "friend": "My favorite safety-conscious individual! I made you a PERSONAL warning sign!",
+    "best_friend": "You GET it. Safety. Communication. PREVENTION. Here - my masterwork. 'Hero Crossing.' Custom made."
+  },
+  "mini_quest": {
+    "id": "sign_vandal",
+    "title": "The Sign Defacer",
+    "description": "Help Wiley catch the person vandalizing his safety signs",
+    "stages": {
+      "hook": "VANDALISM! My beautiful signs! Defaced! 'Authorized Personnel Only' became 'Authorized PerSNELL Only!' NOT FUNNY!",
+      "active": "Night shift. Watch the Level 3 signs. The vandal strikes between 2 and 4 AM. Catch them!",
+      "complete": "Barrelgob! I KNEW it! 'Comic relief,' he says! Safety is NOT COMEDY! ...Okay, 'PerSNELL' was a LITTLE funny. Here's your reward."
+    },
+    "reward": {
+      "item": "custom_hero_warning_sign",
+      "gold": 225,
+      "reputation": "safety_advocate"
+    }
+  },
+  "cross_npc_connections": [
+    "coolcat_industrial: Appreciates proper signage. Union meetings have EXCELLENT warning labels.",
+    "tunneler_brown: Removed my signs! SAFETY SABOTEUR! ...Probably just careless.",
+    "signguy_chrono: My CHRONOLOGICAL counterpart! We correspond! 'Now Entering: Tuesday!' Genius!",
+    "barrelgob_black: The VANDAL! But... he's sorry. And he helps repaint. So... forgiven?"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "NPC_OLD_KELL",
+  "name": "Old Kell",
+  "title": "Cartographer",
+  "location": "T_PRISMRIDGE_112x72",
+  "coords": [60, 25],
+  "schedule": {
+    "day": [60, 25],
+    "night": [70, 30],
+    "rain": [55, 20]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_kell_portrait",
+  "dialog_tree": "DT_KELL_MAIN",
+  "shop": null,
+  "quests": ["Q_THIRD_RELIC", "Q_OLD_KELLS_MAPS", "Q_LOST_SURVEY"],
+  "faction": "CARTOGRAPHERS_GUILD",
+  "attitude": "friendly",
+  "background": "Legendary cartographer mapping the changed world. Knows secrets of the land.",
+  "personality": "Eccentric, curious, speaks in riddles sometimes.",
+  "flags": {
+    "unlocked_by": "Q_SECOND_RELIC_COMPLETE",
+    "disappears_on": null,
+    "sells_maps": true
+  },
+  "services": ["maps", "lore", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_kell_greet",
+    "farewell": "vo_kell_farewell"
+  }
+}

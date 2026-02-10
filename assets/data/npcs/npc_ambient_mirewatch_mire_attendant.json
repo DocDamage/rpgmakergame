@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MIREWATCH_MIRE_ATTENDANT",
+  "name": "Mirewatch Mire Attendant",
+  "title": "Shrine Attendant",
+  "location": "T_MIREWATCH_112x72",
+  "coords": [
+    20,
+    24
+  ],
+  "schedule": {
+    "day": [
+      20,
+      24
+    ],
+    "night": [
+      19,
+      25
+    ],
+    "rain": [
+      20,
+      26
+    ]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMBIENT_PRIESTESS",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "friendly",
+  "background": "Offers aid and ritual guidance to locals. Stationed in Mirewatch.",
+  "personality": "Calm, compassionate, and steel-spined.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "blessings",
+    "healing_advice"
+  ]
+}

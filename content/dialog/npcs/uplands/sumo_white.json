@@ -1,0 +1,95 @@
+{
+  "npc_id": "sumo_white_uplands",
+  "name": "Hashimoto",
+  "sprite": "sumo_white",
+  "zone": "uplands",
+  "location": "Temple of Still Stones",
+  "personality": "stoic_centered",
+  "occupation": "temple_guardian",
+  "dialog": {
+    "greeting": [
+      "*silent nod*",
+      "The mountain is still. As am I.",
+      "Hashimoto. Guardian. Welcome.",
+      "You bring noise. And questions.",
+      "The temple opens for the worthy.",
+      "Stillness is strength. Remember.",
+      "*deep breath* Enter. If ready."
+    ],
+    "shop_open": "I offer training. Techniques. Stillness in motion.",
+    "shop_prompt": "Guardian teachings. Defensive arts. Balance techniques.",
+    "haggle": [
+      "Knowledge has fixed price. Effort.",
+      "No bargaining. Only commitment.",
+      "Your dedication is payment.",
+      "For serious students? Special rate."
+    ],
+    "purchase_success": [
+      "Learn well. Practice daily.",
+      "Technique is yours. Master it.",
+      "The mountain accepts your effort.",
+      "Good. Return when ready for more."
+    ],
+    "purchase_fail": [
+      "Uncommitted. Come back ready.",
+      "Wasted opportunity. Regret it.",
+      "The mountain waits. Patiently."
+    ],
+    "rumor": [
+      "The twins understand unity. I study alone. Both paths valid.",
+      "The black coat knows too much. Unhealthy. Balance lost.",
+      "The flute player has rhythm but no center. Sad.",
+      "I trained with monks from Dustbelt. Before the fall."
+    ],
+    "quest_hook": "My meditation stone was taken. By wind? No. Stolen. To the Crag Thieves. Retrieve it. Learn balance through action.",
+    "quest_active": "Crag Thieves. Northern cliffs. Stone is smooth. Black. Heavy.",
+    "quest_complete": "My stone. Thank you. You understand now. Stillness requires action to protect. Here. My personal technique.",
+    "quest_reward": "Mountain Stance - Ultimate Defense Skill",
+    "farewell": [
+      "*bow* Return stronger.",
+      "Walk with weight. With purpose.",
+      "The mountain remains. As do I."
+    ],
+    "ambient_barks": [
+      "*deep breathing*",
+      "*stillness*",
+      "Balance...",
+      "*meditative hum*",
+      "Center yourself...",
+      "*mountain-like presence*"
+    ],
+    "time_dawn": "Morning practice. Best time for beginners.",
+    "time_noon": "Peak heat. Test of endurance. Of will.",
+    "time_dusk": "Evening reflection. Review the day.",
+    "time_night": "Night meditation. Deepest stillness.",
+    "post_quest_greeting": "Stone-finder. Student and teacher now."
+  },
+  "party_reactions": {
+    "kade": "I will definitely not be challenging you to any contests.",
+    "nix7": "Mass: considerable. Combat potential: significant.",
+    "twist": "You're BIG! Like a mountain! Can I climb you?",
+    "korr": "True mastery. I sense it.",
+    "renna": "The stillness has power. Ancient power."
+  },
+  "relationship_dialog": {
+    "stranger": "New student. Unproven.",
+    "acquaintance": "Returning. Showing dedication.",
+    "friend": "Trusted student. Progress clear.",
+    "best_friend": "Successor. The teaching continues."
+  },
+  "mini_quest": {
+    "id": "stolen_meditation_stone",
+    "title": "The Guardian's Center",
+    "description": "Retrieve Hashimoto's stolen meditation stone from the Crag Thieves",
+    "stages": {
+      "hook": "Meditation stone was taken. To Crag Thieves. Retrieve it. Learn balance through necessary action.",
+      "active": "Northern cliffs. Crag Thieves' hideout. Stone is smooth, black, heavy. Personal.",
+      "complete": "My stone. You understand now. Stillness requires action to protect. Here - my personal technique. Mountain Stance. Master it."
+    },
+    "reward": {
+      "item": "mountain_stance_manual",
+      "gold": 500,
+      "reputation": "guardian_student"
+    }
+  }
+}

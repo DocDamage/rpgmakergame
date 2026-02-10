@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_pigman_mudbath",
+  "name": "Royal Mud Treatment",
+  "zone": "mire",
+  "giver": "Pigman Brown",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! My mud bath! Need special minerals! Three kinds - black, green, and gold! From different Mire pools! Bring them? I give you mud treatment too! Good for skin! Oink!",
+      "objective": "Collect black, green, and gold mud from three different Mire pools"
+    },
+    "progress": {
+      "dialog": "Missing some mud! Need all three colors! For PERFECT mud bath! Oink!",
+      "objective": "Find the remaining special mud locations"
+    },
+    "complete": {
+      "dialog": "Perfect mud! Look at this consistency! This temperature! You try! *splashes mud* Feel that? REJUVENATING! Here - mud treatment voucher! Anytime!",
+      "rewards": {"gold": 250, "item": "pigman_mud_treatment_voucher", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "I'm... not sure about this.",
+    "twist": "Mud! I love mud! Let's all jump in!",
+    "nix7": "Mineral content: therapeutic. Social acceptability: questionable."
+  },
+  "hidden_outcome": "If you bring rare 'Rainbow Mud' from a hidden pool, Pigman gives you 'Mire Blessing' - permanent poison resistance"
+}

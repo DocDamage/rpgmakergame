@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_mammoth_herd",
+  "name": "Giants of the Tundra",
+  "zone": "frost",
+  "giver": "pigman_white",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! The mammoth herd is migrating early! They're heading toward the village, and if they stampede, they'll destroy everything! We need to guide them around the settlement—but mammoths don't listen to just anyone!",
+      "objective": "Meet with the mammoth herd and guide their migration path"
+    },
+    "progress": {
+      "dialog": "The matriarch remembers you from when you helped her calf! She'll follow your lead! Guide the herd through the Ice Bridge Pass—it adds a day to their journey, but it keeps the village safe!",
+      "objective": "Lead the mammoth herd through Ice Bridge Pass"
+    },
+    "complete": {
+      "dialog": "The herd passed safely! The village is intact! The matriarch trumpeted her thanks! She shed this Mammoth Tusk Splinter for you—it grants incredible strength and cold resistance!",
+      "rewards": {
+        "exp": 850,
+        "gold": 700,
+        "item": "mammoth_tusk_splinter"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I'm a mammoth whisperer! They really are gentle giants!",
+    "twist": "Their thoughts are... simple but profound. I learned much.",
+    "nix7": "Proboscidean communication: established. Migration: successful."
+  }
+}

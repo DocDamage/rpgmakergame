@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_reality_anchor",
+  "name": "Stitching the World",
+  "zone": "void",
+  "giver": "trenchcoat_void",
+  "type": "exploration",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "Reality is fraying at the edges. I've found three places where the Void seeps through—thin spots where existence itself is unraveling. The Progenitors left Reality Anchors to stabilize these points, but they're failing. Reactivate them, before the tears become permanent.",
+      "objective": "Locate and reactivate the three failing Reality Anchors"
+    },
+    "progress": {
+      "dialog": "Two anchors stabilized, but the third... it's been tampered with. Someone deliberately corrupted the alignment. This is sabotage, not decay. We need to find who did this and stop them before they damage more anchors.",
+      "objective": "Investigate the sabotage and repair the final anchor"
+    },
+    "complete": {
+      "dialog": "All anchors restored, reality stabilized. The saboteur was a Void cultist—someone who thinks the Void's consumption is 'natural evolution.' We stopped them, but there are more like them. The battle for reality itself continues, one anchor at a time.",
+      "rewards": {
+        "exp": 13500,
+        "gold": 2200,
+        "item": "reality_anchor_fragment"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Reality anchors? Progenitor tech holding the world together? That's bigger than anything I signed up for.",
+    "nix7": "Reality stabilization protocols confirmed. These anchors are Lattice infrastructure—critical for planetary integrity.",
+    "sova": "Void cultists believe in 'beautiful oblivion.' They're not evil, just... wrong. Tragically, terminally wrong."
+  },
+  "lore_unlocks": ["reality_anchors", "void_cultists"]
+}

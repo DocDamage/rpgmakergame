@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_foundation_tuning",
+  "name": "Harmonic Convergence",
+  "zone": "palace",
+  "giver": "twins",
+  "type": "investigation",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The eight Foundations are like instruments in a cosmic orchestra—each must be perfectly tuned for the whole to function. The Palace contains the Master Tuning Chamber, where all eight can be adjusted simultaneously. But the tuning has drifted over millennia. We need to restore perfect harmony.",
+      "objective": "Access the Master Tuning Chamber and assess Foundation alignment"
+    },
+    "progress": {
+      "dialog": "Assessment complete, and it's worse than expected. Three Foundations are significantly out of tune—Mass, Shadow, and Time. Re-tuning them requires solving complex harmonic puzzles, each attuned to the Foundation's nature. Mistakes cascade, amplifying errors. Precision is everything.",
+      "objective": "Solve the harmonic puzzles to re-tune the three misaligned Foundations"
+    },
+    "complete": {
+      "dialog": "Perfect harmony achieved, all eight Foundations singing as one. The Master Tuning Chamber resonates with pure cosmic music, and the effects ripple outward—across the Palace, across Orion, across reality itself. The Progenitor Engine will face us at full strength, but so will we. Balanced. Ready.",
+      "rewards": {
+        "exp": 36000,
+        "gold": 9500,
+        "item": "foundation_harmony_crystal"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Tuning reality like an instrument. My head's still ringing from the harmonics, but damn if it doesn't feel right.",
+    "nix7": "Foundation harmonics now at optimal frequencies. This will enhance all Foundation-based abilities system-wide.",
+    "senna": "The harmony... I can feel it in my chi. All eight Foundations, balanced and whole. This is how the world should feel."
+  },
+  "lore_unlocks": ["master_tuning_chamber", "foundation_harmonics"]
+}

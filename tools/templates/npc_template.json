@@ -1,0 +1,24 @@
+{
+  "id": "NPC_NAME",
+  "name": "NPC Display Name",
+  "location": "MAP_ID",
+  "coords": [0, 0],
+  "schedule": {
+    "day": [0, 0],
+    "night": [0, 0],
+    "rain": [0, 0]
+  },
+  "sprite": "NPC_SPRITE_ID",
+  "dialog_tree": "DT_NAME_MAIN",
+  "shop": "SHOP_ID",
+  "quests": ["Q_QUEST_1", "Q_QUEST_2"],
+  "faction": "FACTION_NAME",
+  "attitude": "friendly|neutral|hostile|quest_related",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null,
+    "required_quest": null,
+    "required_flag": null
+  },
+  "notes": ""
+}

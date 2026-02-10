@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_signguy_mural",
+  "name": "Painting the Desert",
+  "zone": "dustbelt",
+  "giver": "Sign Guy Sam",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Dustbelt needs ART! I'm painting a mural - the biggest sign EVER! But I need pigments! Red desert clay, yellow sand-flower pollen, and cactus juice for green! Bring 'em and I'll paint YOU into it!",
+      "objective": "Collect red desert clay, yellow sand-flower pollen, and cactus juice"
+    },
+    "progress": {
+      "dialog": "Got any of those pigments? The wall is PREPPED! Just waiting on COLORS!",
+      "objective": "Gather the remaining pigment ingredients"
+    },
+    "complete": {
+      "dialog": "PERFECT colors! Look at this RED! This YELLOW! This... slightly stinging GREEN! The mural will be LEGENDARY! Here's your portrait sketch - come back when it's done!",
+      "rewards": {"gold": 180, "item": "mural_portrait_sketch", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "Art... not my strong suit, but I respect the work.",
+    "ashka": "Desert colors have their own beauty. He's capturing that.",
+    "twist": "I want to be painted as a HERO! With a cape!"
+  },
+  "hidden_outcome": "If you bring rare blue cactus juice, Sam paints you with a 'mysterious aura' that grants +1 Charisma when standing near the completed mural"
+}

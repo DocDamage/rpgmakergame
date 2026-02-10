@@ -1,0 +1,135 @@
+{
+  "id": "ENEMY_UPLANDS_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_ROCK_BRUTE",
+      "name": "Rock Brute",
+      "family": "uplands",
+      "sprite": "spr_enemy_rock_brute",
+      "stats": {
+        "hp": 250,
+        "mp": 0,
+        "atk": 25,
+        "def": 20,
+        "mag": 0,
+        "spr": 10,
+        "spd": 5
+      },
+      "weaknesses": {
+        "water": 1.5,
+        "wind": 1.0,
+        "earth": 0.5,
+        "fire": 1.0
+      },
+      "resists": {
+        "physical": 0.75,
+        "earth": 0.5
+      },
+      "abilities": [
+        "attack",
+        "rock_slam",
+        "harden"
+      ],
+      "loot": [
+        {
+          "item": "STONE_CHUNK",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        30,
+        50
+      ],
+      "xp": 55
+    },
+    {
+      "id": "ENEMY_WIND_CASTER",
+      "name": "Wind Caster",
+      "family": "uplands",
+      "sprite": "spr_enemy_wind_caster",
+      "stats": {
+        "hp": 150,
+        "mp": 80,
+        "atk": 8,
+        "def": 6,
+        "mag": 25,
+        "spr": 15,
+        "spd": 14
+      },
+      "weaknesses": {
+        "earth": 1.5,
+        "ice": 1.2
+      },
+      "resists": {
+        "wind": 0.0
+      },
+      "absorbs": [
+        "wind"
+      ],
+      "abilities": [
+        "aero",
+        "aerora",
+        "wind_barrier"
+      ],
+      "loot": [
+        {
+          "item": "WIND_ESSENCE",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": [
+        25,
+        45
+      ],
+      "xp": 50
+    },
+    {
+      "id": "ENEMY_STRAY_WISP",
+      "name": "Stray Wisp",
+      "family": "uplands",
+      "sprite": "spr_enemy_stray_wisp",
+      "stats": {
+        "hp": 60,
+        "mp": 40,
+        "atk": 5,
+        "def": 3,
+        "mag": 20,
+        "spr": 20,
+        "spd": 18
+      },
+      "weaknesses": {
+        "dark": 1.5,
+        "physical": 1.2
+      },
+      "resists": {
+        "magic": 0.5,
+        "light": 0.5
+      },
+      "abilities": [
+        "light_burst",
+        "confuse",
+        "flash"
+      ],
+      "loot": [
+        {
+          "item": "WISP_DUST",
+          "chance": 0.3,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        15,
+        30
+      ],
+      "xp": 35
+    }
+  ]
+}

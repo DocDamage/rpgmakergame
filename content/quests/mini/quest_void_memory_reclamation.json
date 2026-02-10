@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_memory_reclamation",
+  "name": "Lost Memories",
+  "zone": "void",
+  "giver": "twins_void",
+  "type": "exploration",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "The Void doesn't just destroy—it preserves, in its own twisted way. Memories, moments, fragments of lives consumed. We seek our past, twin to twin, but the Void has scattered our history across its domain. Help us reclaim our memories from the Void's embrace.",
+      "objective": "Collect scattered memory fragments from three Void locations"
+    },
+    "progress": {
+      "dialog": "Two memories recovered, but the third is guarded. Something has taken root in it—an entity feeding on the memory's emotional resonance. We must defeat it to free the memory, or our past remains forever trapped.",
+      "objective": "Defeat the memory parasite and reclaim the final fragment"
+    },
+    "complete": {
+      "dialog": "All memories restored. We remember who we were, who we are, why we fight the Void's spread. You have given us back ourselves—a gift beyond price. The Void takes, but today, we took back. Balance, however small, has been restored.",
+      "rewards": {
+        "exp": 13200,
+        "gold": 2100,
+        "item": "preserved_memory_crystal"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Seeing someone else's memories... that's intimate. Felt like I knew them better than I know myself.",
+    "nix7": "Memory storage in crystalline format. Fascinating data preservation method. Comparable to my own backup systems.",
+    "petra": "Memories are all we really are. Take them, and we're nothing. Give them back, and we're whole. Beautiful work."
+  },
+  "lore_unlocks": ["void_memory_preservation", "twins_void_origin"]
+}

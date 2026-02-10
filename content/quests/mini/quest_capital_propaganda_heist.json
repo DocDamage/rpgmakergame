@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_propaganda_heist",
+  "name": "Voice of Truth",
+  "zone": "capital",
+  "giver": "signguy",
+  "type": "investigation",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "The Dominion controls the broadcast towers—every voice in the Capital speaks their lies. But the old printing press in the abandoned factory district still works. We need someone to recover the press plates and help us spread the truth about what's really happening beyond the walls.",
+      "objective": "Recover the resistance printing press from the factory district"
+    },
+    "progress": {
+      "dialog": "Press plates secured! Now we need the truth to print. Infiltrate the Dominion archives and photograph their casualty reports, their supply shortages, their failing campaigns. The people deserve to know the Dominion is losing.",
+      "objective": "Infiltrate Dominion archives and photograph evidence"
+    },
+    "complete": {
+      "dialog": "The first broadsheets hit the streets this morning. People are reading about Dominion defeats, about the war turning. It's small, but it's a crack in their armor. Information is a weapon, and you just armed the resistance.",
+      "rewards": {
+        "exp": 9500,
+        "gold": 1400,
+        "item": "truth_broadsheets"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Never thought I'd be a journalist. But lies need to be countered, and people need hope.",
+    "sova": "Information warfare is as old as civilization. The Dominion's propaganda is sophisticated but brittle—one truth breaks the spell.",
+    "nix7": "Propaganda analysis: Dominion messaging relies on authority assertion. Counter-messaging via evidence-based argumentation shows 89% effectiveness in controlled populations."
+  },
+  "lore_unlocks": ["dominion_propaganda_machine", "capital_information_networks"]
+}

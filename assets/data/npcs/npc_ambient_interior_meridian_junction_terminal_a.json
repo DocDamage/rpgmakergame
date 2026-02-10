@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_TERMINAL_A",
+  "name": "Meridian Junction Terminal Resident",
+  "title": "Field Scholar",
+  "location": "I_HALL_40x28",
+  "coords": [
+    20,
+    14
+  ],
+  "schedule": {
+    "day": [
+      20,
+      14
+    ],
+    "night": [
+      19,
+      16
+    ],
+    "rain": [
+      21,
+      15
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR",
+  "shop": null,
+  "quests": [],
+  "faction": "MERIDIAN_JUNCTION",
+  "attitude": "neutral",
+  "background": "Studies Foundation instability and terminal anomalies. Based inside I_HALL_40x28.",
+  "personality": "Curious, methodical, and occasionally unhinged.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "lore",
+    "analysis"
+  ]
+}

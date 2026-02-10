@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_sky_pirates",
+  "name": "Raiders of the Clouds",
+  "zone": "aetherreach",
+  "giver": "pigman_pink",
+  "type": "combat",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Sky pirates have been hitting merchant routes—fast drakes, skilled riders, no mercy. The Council's done nothing; merchants are arming themselves, which means more danger for everyone. We need someone to track these pirates, find their base, and end their reign. You look like you can handle rough flying and rougher combat.",
+      "objective": "Track the sky pirates to their hidden base"
+    },
+    "progress": {
+      "dialog": "Base located on a camouflaged floating island—clever, almost impossible to spot from below. They've got a dozen drakes, twice that many crew, and hostages from the last raid. Direct assault risks hostages. Better to infiltrate, free the prisoners, then hit them when they're scattered.",
+      "objective": "Infiltrate the base, free the hostages, and defeat the pirates"
+    },
+    "complete": {
+      "dialog": "Pirates broken, hostages freed, routes safe again. The merchants are celebrating, the Council is embarrassed into action, and Aetherreach owes you a debt. Sky piracy won't end overnight, but you've struck a blow they'll remember. The clouds belong to honest folk again.",
+      "rewards": {
+        "exp": 29000,
+        "gold": 7500,
+        "item": "pirate_captain_sabre"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Taking down pirates, freeing hostages. Classic hero work, and it never gets old.",
+    "twist": "Their security was sloppy. A real pirate crew would've been tougher. These were desperate people, not professionals.",
+    "korr": "Pirates are parasites on commerce and order. Eliminating them serves justice and protects the innocent. Good work."
+  },
+  "lore_unlocks": ["sky_pirates", "aetherreach_security"]
+}

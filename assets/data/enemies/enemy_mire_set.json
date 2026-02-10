@@ -1,0 +1,129 @@
+{
+  "id": "ENEMY_MIRE_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_LEECHLING",
+      "name": "Leechling",
+      "family": "mire",
+      "sprite": "spr_enemy_leechling",
+      "stats": {
+        "hp": 70,
+        "mp": 0,
+        "atk": 12,
+        "def": 4,
+        "mag": 0,
+        "spr": 3,
+        "spd": 16
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "ice": 1.0,
+        "thunder": 1.0
+      },
+      "resists": {
+        "water": 0.5
+      },
+      "abilities": [
+        "attack",
+        "leech",
+        "swarm"
+      ],
+      "loot": [
+        {
+          "item": "SLIMY_HIDE",
+          "chance": 0.3,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        12,
+        22
+      ],
+      "xp": 28
+    },
+    {
+      "id": "ENEMY_SPORELING",
+      "name": "Sporeling",
+      "family": "mire",
+      "sprite": "spr_enemy_sporeling",
+      "stats": {
+        "hp": 110,
+        "mp": 50,
+        "atk": 8,
+        "def": 6,
+        "mag": 18,
+        "spr": 12,
+        "spd": 10
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "wind": 1.2
+      },
+      "resists": {
+        "earth": 0.75,
+        "water": 0.75
+      },
+      "abilities": [
+        "spore_burst",
+        "poison_cloud",
+        "confuse_spores"
+      ],
+      "loot": [
+        {
+          "item": "SPORE_POD",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": [
+        18,
+        32
+      ],
+      "xp": 40
+    },
+    {
+      "id": "ENEMY_MIRE_BULLY",
+      "name": "Mire Bully",
+      "family": "mire",
+      "sprite": "spr_enemy_mire_bully",
+      "stats": {
+        "hp": 300,
+        "mp": 0,
+        "atk": 30,
+        "def": 15,
+        "mag": 0,
+        "spr": 8,
+        "spd": 6
+      },
+      "weaknesses": {
+        "ice": 1.3,
+        "thunder": 1.2
+      },
+      "resists": {
+        "water": 0.5,
+        "earth": 0.75
+      },
+      "abilities": [
+        "attack",
+        "tongue_lash",
+        "body_slam",
+        "swallow"
+      ],
+      "loot": [
+        {
+          "item": "BULLY_HIDE",
+          "chance": 0.35,
+          "count": 1
+        }
+      ],
+      "gil": [
+        35,
+        60
+      ],
+      "xp": 65
+    }
+  ]
+}

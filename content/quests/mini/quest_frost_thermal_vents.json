@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_thermal_vents",
+  "name": "Warmth in the Wastes",
+  "zone": "frost",
+  "giver": "barrelman_wood",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The outpost's heating crystal shattered! Without it, we'll freeze in days! There are natural thermal vents in the Frostburn Valley, but they're guarded by steam elementals. Collect enough thermal crystals to power our heaters!",
+      "objective": "Journey to Frostburn Valley and collect thermal crystals"
+    },
+    "progress": {
+      "dialog": "The steam elementals are territorial but not evil! Try negotiating—offer them ice flowers from the valley rim in exchange for safe passage to the vents!",
+      "objective": "Trade ice flowers with the steam elementals for thermal crystals"
+    },
+    "complete": {
+      "dialog": "The heaters work! The outpost is warm again! The steam elementals even promised to warn us of approaching storms! Here's the Thermal Collection Reward—and this Steamweave Scarf! It keeps you warm in any cold!",
+      "rewards": {
+        "exp": 800,
+        "gold": 650,
+        "item": "steamweave_scarf"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Trading flowers for warmth. Frost survival is weird and wonderful!",
+    "twist": "The elementals had excellent taste in floral arrangements.",
+    "nix7": "Elemental diplomacy: successful. Thermal acquisition: complete."
+  }
+}

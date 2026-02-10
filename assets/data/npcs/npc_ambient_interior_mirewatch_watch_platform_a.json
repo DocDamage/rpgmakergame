@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_MIREWATCH_WATCH_PLATFORM_A",
+  "name": "Mirewatch Watch_Platform Resident",
+  "title": "Resistance Scout",
+  "location": "I_SECRET_24x18",
+  "coords": [
+    12,
+    9
+  ],
+  "schedule": {
+    "day": [
+      12,
+      9
+    ],
+    "night": [
+      15,
+      7
+    ],
+    "rain": [
+      14,
+      10
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Based inside I_SECRET_24x18.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

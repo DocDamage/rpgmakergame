@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_sanity_test",
+  "name": "The Mind's Labyrinth",
+  "zone": "void",
+  "giver": "sunandmoon_dark",
+  "type": "investigation",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "The Void tests more than flesh—it tests mind and soul. There's a place where reality folds inward, creating a labyrinth of pure thought. Those who enter face their deepest fears, their greatest regrets. Survive, and you'll understand the Void's true nature. Fail, and you'll join the lost ones.",
+      "objective": "Enter the Mind's Labyrinth and face your inner trials"
+    },
+    "progress": {
+      "dialog": "You're deeper than anyone has gone before. The labyrinth shows you truths you hid from yourself—failures, losses, the price of heroism. Most would break here. But you're still standing. Find the center. Face the reflection. Complete the trial.",
+      "objective": "Reach the center of the labyrinth and defeat your shadow reflection"
+    },
+    "complete": {
+      "dialog": "You faced yourself and didn't flinch. The labyrinth recognizes your strength, offers its secrets. The Void isn't just destruction—it's transformation, potential, the space between moments. You understand now. That's rare. That's dangerous. That's powerful.",
+      "rewards": {
+        "exp": 16000,
+        "gold": 3000,
+        "item": "labyrinth_insight"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I saw... everyone I couldn't save. Every failure. But I also saw why I keep fighting. That's what matters.",
+    "twist": "My labyrinth was full of closed doors and locked chests. And behind every one, someone I betrayed. Not my favorite experience.",
+    "callum": "The drake within me has its own labyrinth—ancestral memories, ancient regrets. Facing that was... illuminating."
+  },
+  "lore_unlocks": ["minds_labyrinth", "void_psychology"]
+}

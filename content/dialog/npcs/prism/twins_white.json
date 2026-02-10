@@ -1,0 +1,82 @@
+{
+  "npc_id": "twins_white_prism",
+  "name": "Harmonia and Discordia Echo",
+  "sprite": "twins_white",
+  "zone": "prism",
+  "location": "Resonance Chamber",
+  "personality": "mystical_synchronized_enigmatic",
+  "occupation": "echo_oracles",
+  "schedule": {
+    "day": "listening_to_echoes",
+    "night": "interpreting_visions"
+  },
+  "dialog": {
+    "greeting": [
+      "We hear the echoes. Do you?",
+      "Harmonia speaks first. Discordia... disagrees. Always.",
+      "The crystals sing. We translate. Imperfectly.",
+      "Two voices. One message. Listen carefully.",
+      "The past speaks. The future whispers. We hear both.",
+      "Welcome to the resonance. Stay silent. The echoes are faint.",
+      "We are the Echo twins. Bound by birth. By gift. By curse.",
+      "Speak your question. We will answer. One truth. One... interpretation."
+    ],
+    "echo_abilities": "Harmonia hears the past. What was. Discordia hears the future. What might be. Together... we hear what is. The resonance of now.",
+    "crystal_communion": "The crystals remember. Everything. Every footstep. Every word. Every death. We listen to their memory. It is... overwhelming. Sometimes.",
+    "backstory": "Born together. Gifted together. Cursed together. Our mother heard echoes too. She taught us. Then the echoes took her. We continue her work. Carefully.",
+    "rumors": [
+      "The blue tunneler - he hears now too. The Great Prism speaks to him. We try to help him understand.",
+      "The aeronaut's partner still echoes. In the deep. He is not dead. Not alive. Between. We hear him crying.",
+      "The bush gardener sings to crystals. Good songs. Gentle songs. We sing harmony.",
+      "The white coolcat - Opal - she sees echoes of light. We hear echoes of sound. Sister arts."
+    ],
+    "ambient_barks": [
+      "Listen...",
+      "The echoes come...",
+      "Harmony...",
+      "Discord...",
+      "The crystals sing...",
+      "We hear you..."
+    ],
+    "time_of_day": {
+      "morning": "Morning echoes. The night's dreams linger.",
+      "noon": "Midday resonance. Many voices. Complex patterns.",
+      "evening": "Evening song. The day's memories settle.",
+      "night": "Night whispers. The deep speaks loudest. We listen."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "crystal_harmony",
+    "quest_name": "Crystal Harmony",
+    "stage_1_hook": "The Great Prism is out of tune. Discordant. Something interferes. The tower, we think. Or something worse. We need to restore harmony. But we need components. Tuning crystals. From the highest peak.",
+    "stage_1_active": "The peaks above Prism. Where the air is thin. Crystals there resonate with sky, not earth. Bring us three. We will attune the Prism.",
+    "stage_2_progress": "You seek the sky crystals? Dangerous. Beautiful. Worth it.",
+    "stage_2_item_needed": "sky_resonance_crystals",
+    "stage_3_complete": "The sky crystals! Perfect! Listen - already the Great Prism responds! The harmony returns! You have saved... so much. Here. Our blessing. The Echo's Grace. You will hear what others miss.",
+    "reward": "echo_blessing_grace"
+  },
+  "party_reactions": {
+    "kade": "Twins. Oracles. I've seen this before. Sometimes they're real. Sometimes... these two are real.",
+    "nix7": "Dual consciousness. Shared sensory input. Precognition probability: 34%. Postcognition probability: 67%. Fascinating.",
+    "twist": "TWO LADIES! THAT LOOK THE SAME! AND THEY TALK TO CRYSTALS! BEST! DAY! EVER!",
+    "korr": "They touch the spirit world. Dangerous gift. Powerful gift.",
+    "renna": "Genuine oracles. Their magic is innate, untrained, potent. Respect them.",
+    "suresh": "Voices of the divine. Messengers. We should listen.",
+    "sova": "Know things they shouldn't. Useful. Creepy. But useful.",
+    "grit": "Seen battlefield oracles. Usually frauds. These two... might be real.",
+    "ashka": "They burn with inner light. Cold fire. Like crystals.",
+    "senna": "Know secrets. Past and future. Valuable. Dangerous to cross.",
+    "callum": "They finished each other's sentences. It was amazing. And slightly scary."
+  },
+  "relationship_dialog": {
+    "stranger": "You bring noise. But also... curiosity. We accept this.",
+    "acquaintance": "You return. Your echo is... pleasant. Harmonious.",
+    "friend": "Our favorite listener. You respect the silence between words.",
+    "best_friend": "You have restored harmony. To the Prism. To us. Here. Our most precious gift. The ability to hear your own echo. Know yourself. Always."
+  },
+  "cross_npc_connections": [
+    "tunneler_blue_prism: The finder. He hears now too. We guide him. As we can.",
+    "aeronaut_blue_prism: The searcher. We hear his partner. In the echoes. We have told him. He does not listen.",
+    "coolcat_white_prism: Opal. Light echoes. Sound echoes. We should sing together."
+  ]
+}

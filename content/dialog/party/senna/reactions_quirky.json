@@ -1,0 +1,139 @@
+{
+  "character": "Senna",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Rogue, sneaky, witty, always looking for angles and exits",
+  "dialog": {
+    "first_meet_generic": [
+      "Who are you? And more importantly, what do you have worth taking?",
+      "Senna. I acquire things. Sometimes people notice.",
+      "You're... different. I like different. Different has value.",
+      "This is either a trap or an opportunity. Which is it?"
+    ],
+    "barrelman": [
+      "Barrels. Good for hiding. Good for smuggling.",
+      "Gnew-proof? What about Senna-proof?",
+      "Competition's fierce. I respect that.",
+      "Got any with false bottoms? Asking for a friend."
+    ],
+    "snakecharmer": [
+      "Snake's worth something. Venom's valuable.",
+      "Mr. Whiskers? Cute name. Deadly pet. I like it.",
+      "Keep him away from my pockets. He might find things.",
+      "You trust a snake? Brave. Or stupid."
+    ],
+    "lucha": [
+      "Mask hides identity. Smart. But distinctive.",
+      "Strong. But strength makes noise. I prefer quiet.",
+      "The cape is a liability. Easy to grab.",
+      "Wrestle? No thanks. I fight to win, not perform."
+    ],
+    "ironchef": [
+      "Cooking in armor. No one suspects the chef.",
+      "Loud. Very loud. Good cover for other activities.",
+      "All that shouting. Distracting. Useful.",
+      "Can you poison food? Hypothetically."
+    ],
+    "trenchcoat": [
+      "Fourteen pockets. I've counted. Respect.",
+      "Mystery is a business model. What's your angle?",
+      "You know things. Information is currency.",
+      "We should talk. Private."
+    ],
+    "sumo": [
+      "Low center. Hard to knock over. Impressive.",
+      "Stillness is patience. Patience is dangerous.",
+      "Wouldn't fight you. Wouldn't need to.",
+      "You block doors just by standing there. Useful."
+    ],
+    "foodboys": [
+      "Food distracts. Good for diversions.",
+      "Which one? Doesn't matter. Both busy.",
+      "Every town? Supply chain knowledge. Valuable.",
+      "Can you poison chili? Asking for... research."
+    ],
+    "coolcat": [
+      "Too relaxed. Suspiciously relaxed.",
+      "Jazz covers sounds. Good for sneaking.",
+      "Sunglasses hide the eyes. Eyes tell truths.",
+      "What's under the cool? Everyone has angles."
+    ],
+    "pigman": [
+      "Inn has multiple exits? Good. Always need exits.",
+      "Pork is fine. Information is better.",
+      "Guests talk. You listen. What do you know?",
+      "Room with a window. And a fire escape."
+    ],
+    "tunneler": [
+      "Underground. Secret paths. Interesting.",
+      "Your back hurts? Try lighter loads.",
+      "Found anything valuable down there? Share?",
+      "Tunnels connect places. Useful information."
+    ],
+    "bush": [
+      "That's a bush. Why are we-- wait. Clever.",
+      "Camouflage. Decent. I've seen better.",
+      "You're hiding. Professionally? Or just shy?",
+      "I could use a bush like you. For reasons."
+    ],
+    "aeronaut": [
+      "Balloons. High access. Unconventional entry.",
+      "Quiet? Mostly. Wind covers noise. Good.",
+      "How high can you go? Asking for... sightseeing.",
+      "Ever drop things? From way up?"
+    ],
+    "onionboss": [
+      "Boss. Means access. Means keys.",
+      "Workers complain. Information flows up.",
+      "You're management. That means bribable.",
+      "Layers. Like your namesake. What's underneath?"
+    ],
+    "astronaut": [
+      "Underwater. Quiet. Isolated. Perfect.",
+      "That suit. Bulky. But concealing.",
+      "What's down there? Treasure? Secrets?",
+      "Rather stay dry. Where I can run."
+    ],
+    "conductor": [
+      "Train. Multiple stops. Multiple opportunities.",
+      "On schedule? Predictable. Predictable is exploitable.",
+      "Where does it go? Everywhere? Good.",
+      "Uniform has pockets. How many?"
+    ],
+    "shoewoman": [
+      "Shoes. Quiet ones. That's what I need.",
+      "Desert-ready soles. Good for sand. And rooftops.",
+      "Can I run silently? That's the only question.",
+      "Give me two pairs. No questions."
+    ],
+    "signguy": [
+      "Signs mark routes. I use them. Sometimes change them.",
+      "Hand-painted. Takes time. Time to... observe.",
+      "Ever make wrong-way signs? For... artistic reasons?",
+      "Your work is everywhere. So are my... activities."
+    ],
+    "cobra": [
+      "Venomous. Fast. Quiet. Perfect.",
+      "Keep distance. Twenty feet. Minimum.",
+      "Snakes don't judge. They just strike. I respect that.",
+      "Beautiful and deadly. Like me."
+    ],
+    "barrelgob": [
+      "Living in a barrel. Mobile hiding spot.",
+      "Scavenger. Finds things. Sells things. My kind.",
+      "What's in the barrel? Anything valuable?",
+      "I could use a barrel. For storage."
+    ],
+    "twins": [
+      "Two bodies. One target? Or two?",
+      "Synced. Predictable together. Unpredictable apart?",
+      "Finish each other's... heists? No? Should try it.",
+      "Creepy. But creepy distracts. Useful."
+    ],
+    "sunandmoon": [
+      "Fortune teller. Knows things. Or fakes it.",
+      "Predict my future? 'Don't get caught.' Good advice.",
+      "That headdress. Impractical. But concealing.",
+      "Stars don't care. But people who read them do."
+    ]
+  }
+}

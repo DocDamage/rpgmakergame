@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ASHVEIL_SANCTUARY_ATTENDANT",
+  "name": "Ashveil Sanctuary Attendant",
+  "title": "Shrine Attendant",
+  "location": "T_ASHVEIL_112x72",
+  "coords": [
+    18,
+    25
+  ],
+  "schedule": {
+    "day": [
+      18,
+      25
+    ],
+    "night": [
+      17,
+      26
+    ],
+    "rain": [
+      18,
+      27
+    ]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMBIENT_PRIESTESS",
+  "shop": null,
+  "quests": [],
+  "faction": "ASHVEIL_SANCTUARY",
+  "attitude": "friendly",
+  "background": "Offers aid and ritual guidance to locals. Stationed in Ashveil.",
+  "personality": "Calm, compassionate, and steel-spined.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "blessings",
+    "healing_advice"
+  ]
+}

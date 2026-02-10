@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_lost_expedition",
+  "name": "The Vanished Company",
+  "zone": "void",
+  "giver": "barrelgob_void",
+  "type": "exploration",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "Twelve explorers entered the Void three months ago. Dominion-funded, best equipment, experienced team. Not a word since. Their families deserve closure, and their logs might contain valuable data. Find the expedition, recover what you can, learn their fate.",
+      "objective": "Track the lost Dominion expedition into the Void"
+    },
+    "progress": {
+      "dialog": "Found their camp—abandoned, supplies intact, no signs of struggle. It's like they just... walked away. Following their trail leads deeper than anyone's mapped. They were chasing something. Something that didn't want to be found.",
+      "objective": "Follow the expedition trail to its end"
+    },
+    "complete": {
+      "dialog": "Found them. All twelve, frozen in a moment, suspended between existing and not. The Void claimed them not through violence, but through fascination. They reached too deep, saw too much. Their logs are recovered, their families will know. Another warning etched into the darkness.",
+      "rewards": {
+        "exp": 14800,
+        "gold": 3200,
+        "item": "expedition_logs"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Frozen between moments. Not dead, not alive. That's worse than any monster I've seen.",
+    "suresh": "The medical readings... their hearts still beat, once every few minutes. They might be recoverable, with the right technology.",
+    "korr": "Dominion lost good people here. People I might have trained. The Void doesn't care about uniforms or allegiance—it takes all equally."
+  },
+  "lore_unlocks": ["dominion_void_expeditions", "void_temporal_anomalies"]
+}

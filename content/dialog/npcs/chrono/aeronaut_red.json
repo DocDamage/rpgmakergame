@@ -1,0 +1,96 @@
+{
+  "npc_id": "aeronaut_red_chrono",
+  "name": "Aether-Rider Crimson",
+  "sprite": "aeronaut_red",
+  "zone": "chrono",
+  "location": "Aether Balloon Dock",
+  "personality": "daring_aristocratic_adventurous",
+  "occupation": "aether_balloonist",
+  "dialog": {
+    "greeting": [
+      "Crimson! Aether-Rider! At your temporal service!",
+      "The red uniform? Aether Corps! Elite! For multiversal navigation!",
+      "New face! First time in the aether? Or... this aether?",
+      "Aether balloons! Not just for SKY! For TIME! For POSSIBILITY!",
+      "Crimson. I ride the winds BETWEEN moments. Between WORLDS!",
+      "Welcome to the aether dock! Where balloons float... across!",
+      "You're just in time! Or... just in TIME! For DEPARTURE!",
+      "Aether travel! Expensive! Exhilarating! ESSENTIAL!"
+    ],
+    "aether_info": "The aether connects all. All WHERES. All WHENS. All MIGHT-BES.",
+    "balloon_info": "My balloon? Aether-touched. Floats on POSSIBILITY! And helium. Mostly helium.",
+    "flights": "Flights to: Yesterday! Tomorrow! That Tuesday! The one with the THING!",
+    "break_chat": "Break? I take them in PARALLEL dimensions. This me is ALWAYS working!",
+    "labor_concerns": "Aether Corps wants STANDARD routes. I want EXPLORATION! Compromise: I explore. They pay. Sometimes.",
+    "retirement": "Retirement? When I've seen ALL aethers! So... NEVER!",
+    "rumor": [
+      "The conductor? Tempus? Good chap! Punctual! Across ALL timelines!",
+      "Yesterday? The time agent? Rides aether sometimes. Chasing targets!",
+      "The black hunter? AVOIDS aether. 'Too chaotic,' he says! COWARD!",
+      "Azure? In Frost? Surface balloonist! Admirable! Limited!",
+      "The barrel? Contains aether? Maybe! EXPLOSIVE potential!"
+    ],
+    "quest_hook": "Aether storm! Disrupted my route! Lost cargo! Important! Temporal! Fetch it?!",
+    "quest_active": "Still LOST! Somewhere in the aether! Between THEN and THERE!",
+    "quest_complete": "RECOVERED! Cargo intact! Temporal integrity RESTORED! Here! Aether compass! For YOUR travels!",
+    "farewell": [
+      "Fair aether! And following winds!",
+      "Stay grounded! Or don't! Your choice!",
+      "Return! For aetheric ADVENTURE!"
+    ],
+    "ambient_barks": [
+      "Aether BALLOON!",
+      "To the SKIES! And BEYOND!",
+      "Multiversal DEPARTURES!",
+      "Aether Corps! ELITE!",
+      "Balloon ready!",
+      " POSSIBILITY awaits!"
+    ],
+    "time_dawn": "Morning! Best aether currents! Peak POSSIBILITY!",
+    "time_noon": "Midday! Stable! Boring! But PROFITABLE!",
+    "time_dusk": "Evening! Romantic! And AETHERIC!",
+    "time_night": "Night! Stars! Across ALL dimensions! Beautiful!",
+    "rival_mention": "Azure? In Frost? Surface balloonist! Good! But LIMITED!",
+    "post_quest_greeting": "The cargo rescuer! Aether storm SURVIVOR! Welcome!"
+  },
+  "party_reactions": {
+    "kade": "Aether balloons! Through time AND space! Why not?!",
+    "nix7": "Multiversal balloon physics: Theoretical. His execution: Impressive. Enthusiasm: Maximum.",
+    "twist": "You fly through AETHER?! Can I RIDE?! PLEASE?!",
+    "korr": "He explores the unknown. Noble. Brave. Possibly foolish.",
+    "renna": "The balloon is aether-attuned. Magically multiversal. Remarkable.",
+    "suresh": "He finds joy in exploration. The Middle Path... ballooning.",
+    "sova": "I'd ride with him. Good view. Of everything.",
+    "grit": "Aerial recon. Multi-temporal. Useful. If expensive.",
+    "ashka": "He rides the highest fires. Aether fire. Respect.",
+    "senna": "He knows multiple dimensions. Secrets everywhere.",
+    "callum": "His safety protocols! EXTENSIVE! Across ALL realities!"
+  },
+  "relationship_dialog": {
+    "stranger": "First flight? Aether-sickness common! Don't worry!",
+    "acquaintance": "Returning passenger! You enjoy the MULTIVERSE!",
+    "friend": "Favorite traveler! I save the BEST aether currents!",
+    "best_friend": "AETHER PARTNER! Here! My spare balloon! For YOUR explorations!"
+  },
+  "mini_quest": {
+    "id": "aether_cargo",
+    "title": "Lost in the Aether",
+    "description": "Help Crimson recover cargo lost in an aether storm",
+    "stages": {
+      "hook": "Aether storm! Cargo LOST! Important! Temporal! Fetch it?! Please?!",
+      "active": "Somewhere in the aether! Between THEN and THERE! Use this tracker!",
+      "complete": "RECOVERED! All accounted for! Here! Aether compass! For YOUR multiversal travels!"
+    },
+    "reward": {
+      "item": "aether_navigation_compass",
+      "gold": 450,
+      "reputation": "aether_corps_ally"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus! Good chap! Punctual! Across timelines!",
+    "aeronaut_blue_frost: Azure! Surface balloonist! Limited! But admirable!",
+    "trenchcoat_brown_chrono: Yesterday! Rides aether! Chasing targets!",
+    "barrel_chrono: The Barrel! Aether potential? EXPLOSIVE! Interesting!"
+  ]
+}

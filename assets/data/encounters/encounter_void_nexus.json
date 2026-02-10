@@ -1,0 +1,77 @@
+{
+  "id": "VOID_NEXUS_ENCOUNTERS",
+  "region": "void",
+  "maps": [
+    "D8_VOID_112x96",
+    "D8_GARDENS_OF_ABSENCE_96x80"
+  ],
+  "encounter_rate": 0.09,
+  "min_steps": 13,
+  "max_steps": 31,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE"
+      ],
+      "weight": 30,
+      "min_steps": 12,
+      "gil_range": [
+        42,
+        72
+      ],
+      "xp": 78
+    },
+    {
+      "enemies": [
+        "ENEMY_PHASE_SCUTTLER"
+      ],
+      "weight": 28,
+      "min_steps": 12,
+      "gil_range": [
+        36,
+        62
+      ],
+      "xp": 72
+    },
+    {
+      "enemies": [
+        "ENEMY_DRONE"
+      ],
+      "weight": 24,
+      "min_steps": 13,
+      "gil_range": [
+        28,
+        50
+      ],
+      "xp": 58
+    },
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE",
+        "ENEMY_DRONE"
+      ],
+      "weight": 12,
+      "min_steps": 19,
+      "gil_range": [
+        72,
+        122
+      ],
+      "xp": 136
+    },
+    {
+      "enemies": [
+        "ENEMY_CHRONO_SCRIBE",
+        "ENEMY_PHASE_SCUTTLER",
+        "ENEMY_DRONE"
+      ],
+      "weight": 5,
+      "min_steps": 24,
+      "rare": true,
+      "gil_range": [
+        106,
+        182
+      ],
+      "xp": 198
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "I_HALL_SANCTUARY_40x28",
+  "display_name": "Hall (sanctuary)",
+  "type": "interior",
+  "dimensions": {
+    "width": 40,
+    "height": 28,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Grand",
+  "music": "bgm_hall_theme",
+  "lighting": "grand",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        20,
+        27
+      ]
+    }
+  ],
+  "events": [
+    "MAJOR_QUEST_TURNIN",
+    "STORY_SCENE"
+  ],
+  "layout": {
+    "description": "Open floor, central desk/altar, seating rows, impressive scale",
+    "key_elements": [
+      {
+        "type": "altar",
+        "coords": [
+          20,
+          6
+        ],
+        "npc": "NPC_OFFICIAL"
+      },
+      {
+        "type": "desk",
+        "coords": [
+          20,
+          10
+        ]
+      },
+      {
+        "type": "seating_row",
+        "coords": [
+          10,
+          16
+        ]
+      },
+      {
+        "type": "seating_row",
+        "coords": [
+          30,
+          16
+        ]
+      },
+      {
+        "type": "seating_row",
+        "coords": [
+          10,
+          20
+        ]
+      },
+      {
+        "type": "seating_row",
+        "coords": [
+          30,
+          20
+        ]
+      },
+      {
+        "type": "decorative",
+        "coords": [
+          5,
+          6
+        ]
+      },
+      {
+        "type": "decorative",
+        "coords": [
+          35,
+          6
+        ]
+      },
+      {
+        "type": "exit",
+        "coords": [
+          20,
+          27
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "variants": [
+    "sanctuary",
+    "townhall",
+    "command"
+  ],
+  "variant": "sanctuary",
+  "source_template": "I_HALL_40x28_base"
+}

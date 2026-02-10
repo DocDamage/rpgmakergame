@@ -1,0 +1,139 @@
+{
+  "character": "Renna",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Mage, intellectual, skeptical, values logic and evidence",
+  "dialog": {
+    "first_meet_generic": [
+      "Interesting. Another anomaly in an anomalous world.",
+      "You defy categorization. I find that... irritating. And fascinating.",
+      "I am Renna. I study the arcane. You appear to be a subject.",
+      "My initial hypothesis: you are unusual. Testing required."
+    ],
+    "barrelman": [
+      "A barrel monopoly? Economically fascinating. Practically absurd.",
+      "Gnew-resistant? Is that a significant problem?",
+      "The competition with wood is... petty. I respect that.",
+      "Do you have a business license? Not that it matters here."
+    ],
+    "snakecharmer": [
+      "The snake is not actually charmed. It's responding to vibration. Obviously.",
+      "Mr. Whiskers? Taxonomically incorrect. Moray eels have whiskers. Cobras don't.",
+      "The flute frequency is... actually quite precise. Impressive.",
+      "Have you considered the snake's perspective in this arrangement?"
+    ],
+    "lucha": [
+      "The mask serves no protective function. Purely psychological.",
+      "Your muscle mass suggests training regimens I cannot fathom.",
+      "Wrestling as performance art. Anthropologically interesting.",
+      "The cape creates drag. Suboptimal for combat."
+    ],
+    "ironchef": [
+      "Cooking in full plate. The thermal regulation must be... challenging.",
+      "Lava-cooking? Possible. Impractical. But possible.",
+      "Does the armor not conduct heat directly to your skin?",
+      "Your dedication to aesthetic over function is... committed."
+    ],
+    "trenchcoat": [
+      "Mystery is a performance. You perform well.",
+      "Fourteen pockets. I counted. Excessive.",
+      "You know something. But knowing and understanding differ.",
+      "The coat is theatrical. I appreciate theatricality."
+    ],
+    "sumo": [
+      "Center of gravity optimization. Mathematically sound.",
+      "Your mass distribution suggests specific dietary requirements.",
+      "Stillness as defense. Efficient. Passive. Effective.",
+      "I calculate I could not move you. Interesting challenge."
+    ],
+    "foodboys": [
+      "Identical? Fraternal? The genetic question gnaws at me.",
+      "Every town simultaneously? Teleportation? Clones? Illusion?",
+      "Your supply chain logistics baffle conventional economics.",
+      "Which one are you? Does it matter? Probably not."
+    ],
+    "coolcat": [
+      "Thermal regulation garments indoors. Pointless. Deliberately so.",
+      "Jazz is improvisational mathematics. I can appreciate that.",
+      "Your 'cool' is constructed. But well-constructed.",
+      "The sunglasses serve no function here. Statement piece. Noted."
+    ],
+    "pigman": [
+      "The thematic consistency is... committed. To a fault.",
+      "Do you consume pork? Philosophically fraught question.",
+      "The inn's structural integrity concerns me. Floating and all.",
+      "Your dedication to the bit is scientifically interesting."
+    ],
+    "tunneler": [
+      "Spinal compression at L4 and L5. Predictable. Preventable.",
+      "Mining efficiency could improve 40% with proper equipment.",
+      "Two years to retirement? The math is not in your favor.",
+      "Underground work. Limited light. Psychological effects likely."
+    ],
+    "bush": [
+      "That is not photosynthesizing. Or it's photosynthesizing wrong.",
+      "Optical illusion? Transmutation? Dimensional overlap?",
+      "The bush appears sentient. Bushes should not be sentient.",
+      "I have seventeen theories. All unlikely. All possible."
+    ],
+    "aeronaut": [
+      "Balloon physics in this atmosphere. Calculating... fragile.",
+      "Helium? Hydrogen? The latter would be... unfortunate.",
+      "Navigation by wind currents. Unpredictable. Exciting. Unwise.",
+      "Your life expectancy interests me. Professionally speaking."
+    ],
+    "onionboss": [
+      "Management styles vary. Yours appears... authoritarian.",
+      "The onion shape is not flattering. Functionally or aesthetically.",
+      "Union negotiations would benefit both parties. Logically.",
+      "Worker satisfaction appears low. Measured by complaints."
+    ],
+    "astronaut": [
+      "Deep sea pressure at 200 meters. 20 atmospheres. Suit concerns.",
+      "Retro technology. Charming. Likely fatal at depth.",
+      "What do you see down there? Things we haven't catalogued?",
+      "The suit's oxygen recycling. Efficiency calculations?"
+    ],
+    "conductor": [
+      "Floating tracks. Magnetic? Magical? Both violate physics.",
+      "Scheduling precision. Admirable. Rare in this world.",
+      "Where does it actually go? 'Everywhere' is not a destination.",
+      "The uniform suggests authority. Actual authority: debatable."
+    ],
+    "shoewoman": [
+      "Biomechanical foot protection. Important. Underappreciated.",
+      "Desert-appropriate soles. Smart engineering.",
+      "Cobbler as profession. Declining. Your persistence: noted.",
+      "Size variations interest me. Foot morphology is fascinating."
+    ],
+    "signguy": [
+      "Hand-painted in this economy? Inefficient. Romantic.",
+      "Your error rate is 23% by my count. Unacceptable. Improve.",
+      "Who commissions all these? Demand analysis requested.",
+      "Typography choices. Discussable. Criticizable. Fixable."
+    ],
+    "cobra": [
+      "Naja naja. Venomous. Lethal. Beautiful evolutionary design.",
+      "The hood expansion is threat display. We should retreat.",
+      "Scale patterns are unique. Like fingerprints. But snakier.",
+      "Cold-blooded metabolism. Efficient. Slow. Patient."
+    ],
+    "barrelgob": [
+      "Living in a barrel. Space efficiency: maximum.",
+      "Scavenger lifestyle. Resource utilization. Interesting.",
+      "Have you considered a tent? Similar portability. Better dignity.",
+      "I detect fungal colonies. Fourteen distinct species. Impressive."
+    ],
+    "twins": [
+      "Genetic duplication? Behavioral synchronization? Unclear.",
+      "Sentence completion suggests shared neural pathways.",
+      "One consciousness or two? Philosophically unresolved.",
+      "Synchronized movement. Choreographed? Innate? Study needed."
+    ],
+    "sunandmoon": [
+      "Astronomical data is 300 years outdated. Shall I correct you?",
+      "The stars do not predict fate. But belief shapes reality.",
+      "Your headdress is 40% of body mass. Neck strain: likely.",
+      "Constellation mapping is inaccurate. Shall I demonstrate?"
+    ]
+  }
+}

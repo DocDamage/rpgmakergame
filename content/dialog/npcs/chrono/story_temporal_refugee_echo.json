@@ -1,0 +1,54 @@
+{
+  "npc_id": "temporal_refugee_echo",
+  "name": "Temporal Refugee Echo",
+  "title": "Echo Witness",
+  "zone": "chrono",
+  "location": "Where Time Folds Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Temporal Refugee Echo on comms. Stage 1: Where Time Folds. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Navigate the temporal instabilities."
+    ],
+    "quest_hook": "Objective stack: Navigate the temporal instabilities; Locate the Chronos Spire; Avoid temporal duplicates of yourself. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Enter Chrono and experience temporal anomalies. Immediate move: Navigate the temporal instabilities.",
+    "quest_complete": "Stage 1 resolved: Where Time Folds. Primary objective secured and route stabilized. Prepare for The Fractured Guardian.",
+    "rumor": [
+      "Clockmakers insist one alley runs thirteen minutes faster than the rest of town.",
+      "People keep repeating one clue from Where Time Folds: 'Avoid temporal duplicates of yourself'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Temporal Refugee Echo sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Temporal Refugee Echo accepted. Probability of success improves with compliance.",
+    "twist": "Temporal Refugee Echo talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

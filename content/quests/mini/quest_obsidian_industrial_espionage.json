@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_industrial_espionage",
+  "name": "Secrets of Steel",
+  "zone": "obsidian",
+  "giver": "trenchcoat_brown",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A rival foundry is stealing our designs! Someone inside is selling secrets. I need proof before we can act. Can you infiltrate the workforce, gain their trust, and find out who the mole is?",
+      "objective": "Infiltrate the rival foundry and identify the mole"
+    },
+    "progress": {
+      "dialog": "You've identified the suspect—Shift Supervisor Krell! But we need hard evidence. Sneak into his office during the shift change and photograph the stolen blueprints with this Aether-Camera!",
+      "objective": "Photograph evidence of the stolen blueprints"
+    },
+    "complete": {
+      "dialog": "Krell is arrested! The stolen designs recovered! Our foundry's secrets are safe! The Industrial Security Council pays you a substantial reward—and this Stealth Weave Coat for your covert services!",
+      "rewards": {
+        "exp": 900,
+        "gold": 950,
+        "item": "stealth_weave_coat"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Undercover work! I should grow a mustache for disguise.",
+    "twist": "The mole was obvious. He was wearing shoes two sizes too big for secrets.",
+    "nix7": "Industrial espionage investigation: successful. Counterintelligence: effective."
+  }
+}

@@ -1,0 +1,1081 @@
+{
+  "id": "OW_TOWNS_ACT2_3_1x1",
+  "maps": [
+    {
+      "id": "T_GRAVEMARK_112x72",
+      "display_name": "Gravemark Outpost",
+      "type": "town",
+      "act": 2,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_FrostCitadel",
+      "music": "bgm_town_gravemark",
+      "lighting": "dim",
+      "weather": "cold_wind",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "MIC_R10_104x56",
+          "coords": [
+            56,
+            71
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_R11_120x56",
+          "coords": [
+            56,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        }
+      ],
+      "interiors": [
+        {
+          "type": "office",
+          "target": "I_HALL_40x28",
+          "coords": [
+            56,
+            25
+          ],
+          "npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_GRAVEMARK_OUTPOST_OFFICE_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        },
+        {
+          "type": "supply_depot",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            30,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_GRAVEMARK_OUTPOST_SUPPLY_DEPOT_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "barracks",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            85,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_GRAVEMARK_OUTPOST_BARRACKS_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA"
+      ],
+      "services": [
+        "shop",
+        "rail_hub"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_GRAVEMARK_RAIL_MECHANIC",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_MECHANIC"
+        },
+        {
+          "npc": "NPC_AMBIENT_GRAVEMARK_FREIGHT_COURIER",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        },
+        {
+          "npc": "NPC_AMBIENT_GRAVEMARK_CONTRACT_CLERK",
+          "coords": [
+            72,
+            23
+          ],
+          "dialog_tree": "DT_AMBIENT_BOUNTY_CLERK"
+        },
+        {
+          "npc": "NPC_AMBIENT_GRAVEMARK_NIGHT_WATCH",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN"
+        }
+      ]
+    },
+    {
+      "id": "T_RIMEHOLD_112x72",
+      "display_name": "Rimehold",
+      "type": "town",
+      "act": 2,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_FrostCitadel",
+      "music": "bgm_town_rimehold",
+      "lighting": "cold",
+      "weather": "snow",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "MIC_R11_120x56",
+          "coords": [
+            56,
+            71
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_R12_112x56",
+          "coords": [
+            56,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D7_SPIRE_OF_ETERNITY_80x96",
+          "coords": [
+            56,
+            10
+          ],
+          "condition": "D6_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "inn",
+          "target": "I_INN_NORTHERN_32x24",
+          "coords": [
+            30,
+            35
+          ],
+          "npc": "NPC_ARCHIVIST_VELM",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_RIMEHOLD_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            70,
+            30
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_RIMEHOLD_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            20,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_RIMEHOLD_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_B_24x18",
+          "coords": [
+            85,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_RIMEHOLD_HOUSE_B",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_ARCHIVIST_VELM"
+      ],
+      "services": [
+        "shop",
+        "inn",
+        "lore"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_RIMEHOLD_HALL_SCHOLAR",
+          "coords": [
+            18,
+            23
+          ],
+          "dialog_tree": "DT_AMBIENT_SCHOLAR"
+        },
+        {
+          "npc": "NPC_AMBIENT_RIMEHOLD_LEDGER_SCRIBE",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SCRIBE"
+        },
+        {
+          "npc": "NPC_AMBIENT_RIMEHOLD_SNOW_TRACKER",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_TRACKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_RIMEHOLD_FROST_ATTENDANT",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_PRIESTESS"
+        }
+      ]
+    },
+    {
+      "id": "T_CHRONOWAKE_112x72",
+      "display_name": "Chronowake Pier",
+      "type": "town",
+      "act": 3,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ChronoPier",
+      "music": "bgm_town_chronowake",
+      "lighting": "temporal",
+      "weather": "time_distortion",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "MIC_R14_128x56",
+          "coords": [
+            56,
+            71
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "MIC_R15_72x40",
+          "coords": [
+            90,
+            30
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        }
+      ],
+      "interiors": [
+        {
+          "type": "terminal",
+          "target": "I_HALL_40x28",
+          "coords": [
+            56,
+            25
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CHRONOWAKE_PIER_TERMINAL_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        },
+        {
+          "type": "market",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            30,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CHRONOWAKE_PIER_MARKET_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            80,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CHRONOWAKE_PIER_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_TERMINAL_OPERATOR"
+      ],
+      "services": [
+        "shop",
+        "terminal",
+        "time_travel"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_CHRONOWAKE_PHASE_SCHOLAR",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_SCHOLAR"
+        },
+        {
+          "npc": "NPC_AMBIENT_CHRONOWAKE_CLOCK_MECHANIC",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_MECHANIC"
+        },
+        {
+          "npc": "NPC_AMBIENT_CHRONOWAKE_SEAM_COURIER",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        },
+        {
+          "npc": "NPC_AMBIENT_CHRONOWAKE_PIER_PROPHET",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_STREET_PROPHET"
+        }
+      ]
+    },
+    {
+      "id": "T_MERIDIAN_112x72",
+      "display_name": "Meridian Junction",
+      "type": "town",
+      "act": 3,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ChronoPier",
+      "music": "bgm_town_meridian",
+      "lighting": "bright",
+      "weather": "none",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R15_72x40",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R16_136x56",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_LUMENCREST_OUTER_112x72",
+          "coords": [
+            56,
+            20
+          ],
+          "condition": "D7_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "emporium",
+          "target": "I_ITEMSHOP_PREMIUM_32x24",
+          "coords": [
+            30,
+            35
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_EMPORIUM_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "armory",
+          "target": "I_SMITH_32x24",
+          "coords": [
+            75,
+            30
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_ARMORY_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_SMITH"
+            }
+          ]
+        },
+        {
+          "type": "alchemy",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            55,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_ALCHEMY_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        },
+        {
+          "type": "inn",
+          "target": "I_INN_32x24",
+          "coords": [
+            20,
+            25
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "target": "I_HALL_40x28",
+          "coords": [
+            85,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_TERMINAL_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_MERCHANT_PREMIUM"
+      ],
+      "services": [
+        "premium_shop",
+        "inn",
+        "fast_travel"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_MERIDIAN_TRANSIT_BROKER",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_BROKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_MERIDIAN_TERMINAL_SCRIBE",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SCRIBE"
+        },
+        {
+          "npc": "NPC_AMBIENT_MERIDIAN_PLATFORM_CAPTAIN",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN"
+        },
+        {
+          "npc": "NPC_AMBIENT_MERIDIAN_JUNCTION_CARAVANER",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_CARAVANER"
+        }
+      ]
+    },
+    {
+      "id": "T_LUMENCREST_OUTER_112x72",
+      "display_name": "Old Lumencrest: Outer Wards",
+      "type": "town",
+      "act": 3,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "music": "bgm_town_lumencrest_outer",
+      "lighting": "dim",
+      "weather": "ash_fall",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R16_136x56",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_GRAND_BOULEVARD_80x40",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "T_CROWN_HUB_112x72",
+          "coords": [
+            111,
+            36
+          ],
+          "condition": "D7_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "safe_house",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            25,
+            30
+          ],
+          "npc": "NPC_RESISTANCE_CONTACT",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_SAFE_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        },
+        {
+          "type": "basement",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            60,
+            50
+          ],
+          "hidden": true,
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_BASEMENT_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        },
+        {
+          "type": "ruined_shop",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            85,
+            35
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_RUINED_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "ruined_house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            15,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_RUINED_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
+      ],
+      "services": [
+        "black_market",
+        "resistance_intel"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_LUMENCREST_OUTER_SAFEHOUSE_SCOUT",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+        },
+        {
+          "npc": "NPC_AMBIENT_LUMENCREST_OUTER_BARRIER_TECH",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_WARD_TECH"
+        },
+        {
+          "npc": "NPC_AMBIENT_LUMENCREST_OUTER_SHADOW_BROKER",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_BROKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_LUMENCREST_OUTER_RUIN_SCAVENGER",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "T_CROWN_HUB_112x72",
+      "display_name": "Crown District Hub",
+      "type": "town",
+      "act": 3,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "music": "bgm_town_crown_hub",
+      "lighting": "ominous",
+      "weather": "none",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_CROWN_APPROACH_96x40",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_CROWN_TO_PALACE_56x32",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D8_VOID_112x96",
+          "coords": [
+            56,
+            20
+          ],
+          "condition": "D7_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "office",
+          "target": "I_HALL_40x28",
+          "coords": [
+            56,
+            25
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CROWN_DISTRICT_HUB_OFFICE_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        },
+        {
+          "type": "restricted",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            30,
+            50
+          ],
+          "hidden": true,
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CROWN_DISTRICT_HUB_RESTRICTED_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL"
+      ],
+      "services": [],
+      "restrictions": [
+        "limited_access"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_CROWN_HUB_CROWN_GUARD",
+          "coords": [
+            18,
+            23
+          ],
+          "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN"
+        },
+        {
+          "npc": "NPC_AMBIENT_CROWN_HUB_ARCHIVE_SCRIBE",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SCRIBE"
+        },
+        {
+          "npc": "NPC_AMBIENT_CROWN_HUB_DISTRICT_COURIER",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        },
+        {
+          "npc": "NPC_AMBIENT_CROWN_HUB_PLAZA_PROPHET",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_STREET_PROPHET"
+        }
+      ]
+    },
+    {
+      "id": "T_AETHERREACH_112x72",
+      "display_name": "Aetherreach",
+      "type": "town",
+      "act": "post_game",
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Aetherreach",
+      "music": "bgm_town_aetherreach",
+      "lighting": "ethereal",
+      "weather": "cloud_drift",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "south",
+          "target": "MIC_SCHOLARIUM_96x64",
+          "coords": [
+            56,
+            71
+          ]
+        }
+      ],
+      "interiors": [
+        {
+          "type": "emporium",
+          "target": "I_ITEMSHOP_ENDGAME_32x24",
+          "coords": [
+            30,
+            35
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_AETHERREACH_EMPORIUM_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "sky_garden",
+          "target": "I_HALL_40x28",
+          "coords": [
+            56,
+            25
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_AETHERREACH_SKY_GARDEN_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_PRIESTESS"
+            }
+          ]
+        },
+        {
+          "type": "vault",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            85,
+            50
+          ],
+          "npc": "NPC_SEAM_WARDEN",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_AETHERREACH_VAULT_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            20,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_AETHERREACH_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_SEAM_WARDEN"
+      ],
+      "services": [
+        "endgame_shop",
+        "remnant_vault_access",
+        "seam_warden_quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_AETHERREACH_SKY_ARCHIVIST",
+          "coords": [
+            18,
+            23
+          ],
+          "dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER"
+        },
+        {
+          "npc": "NPC_AMBIENT_AETHERREACH_CLOUD_ATTENDANT",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_PRIESTESS"
+        },
+        {
+          "npc": "NPC_AMBIENT_AETHERREACH_SEAM_TRACKER",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_TRACKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_AETHERREACH_ASCENT_CLERK",
+          "coords": [
+            95,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_BOUNTY_CLERK"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "mcp__plugin_serena_serena__list_dir"
+    ]
+  }
+}

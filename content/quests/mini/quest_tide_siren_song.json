@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_siren_song",
+  "name": "Voices from the Deep",
+  "zone": "tide",
+  "giver": "cobra",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Sailors are going missing near the Singing Rocks—they claim to hear beautiful voices calling them into the water! Some say it's sirens, but I think it's something else. Investigate, but don't get enchanted yourself!",
+      "objective": "Investigate the disappearances near the Singing Rocks"
+    },
+    "progress": {
+      "dialog": "Not sirens—Void-tainted dolphins! The Collapse left pockets of corruption underwater. They're singing a psychic distress call! You need to purify the water around them using these Aether Crystals!",
+      "objective": "Use Aether Crystals to purify the Void-tainted water"
+    },
+    "complete": {
+      "dialog": "The dolphins are healed! They're swimming circles around you in gratitude! One left you a gift—a Sirenscale that can emit a sonic blast! And the sailors have stopped disappearing!",
+      "rewards": {
+        "exp": 800,
+        "gold": 500,
+        "item": "sirenscale_horn"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I almost jumped in after that song... good thing Nix7 grabbed me!",
+    "twist": "The Void reaches even beneath the waves. Terrifying.",
+    "nix7": "Psychic aquatic mammalian distress: resolved. Void contamination: neutralized."
+  }
+}

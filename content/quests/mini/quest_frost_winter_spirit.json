@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_winter_spirit",
+  "name": "The Cold That Gives",
+  "zone": "frost",
+  "giver": "barrelman_wood",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Winter Spirit hasn't blessed our village in years! The elders say we offended her somehow, but no one knows how! Without her blessing, the hunting is poor and the winters harsher! Please, find her sanctuary and make amends!",
+      "objective": "Locate the Winter Spirit's sanctuary in the Frozen Woods"
+    },
+    "progress": {
+      "dialog": "The Spirit is sad, not angry! Her favorite ice rose garden was destroyed by careless hunters! If you replant the garden using seeds from the ancient grove, she might forgive the village!",
+      "objective": "Gather ice rose seeds and replant the Spirit's garden"
+    },
+    "complete": {
+      "dialog": "The ice roses bloom again! The Spirit smiles! She blesses the village with gentle winters and abundant game! She gifts you this Winter Spirit's Kiss! It can freeze any liquid instantly and summon gentle snowfall!",
+      "rewards": {
+        "exp": 800,
+        "gold": 650,
+        "item": "winter_spirits_kiss"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Gardening for a spirit. Sometimes heroism is quiet work.",
+    "twist": "The Spirit was lonely more than angry. We should visit more often.",
+    "nix7": "Elemental entity emotional state: improved. Blessing: restored."
+  }
+}

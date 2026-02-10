@@ -1,0 +1,39 @@
+{
+  "id": "ENCOUNTER_TABLE_NAME",
+  "maps": ["MAP_ID_1", "MAP_ID_2"],
+  "encounter_rate": 0.15,
+  "min_steps": 5,
+  "max_steps": 20,
+  "entries": [
+    {
+      "enemies": ["ENEMY_ID"],
+      "weight": 40,
+      "min_steps": 5,
+      "rare": false
+    },
+    {
+      "enemies": ["ENEMY_ID", "ENEMY_ID"],
+      "weight": 30,
+      "min_steps": 8,
+      "rare": false
+    },
+    {
+      "enemies": ["RARE_ENEMY_ID"],
+      "weight": 10,
+      "min_steps": 15,
+      "rare": true
+    }
+  ],
+  "special": {
+    "boss_trigger": {
+      "condition": "at_coords|flag_set|item_used",
+      "coords": [0, 0],
+      "boss": "BOSS_ID"
+    }
+  },
+  "modifiers": {
+    "weather": {},
+    "time_of_day": {},
+    "party_level": {}
+  }
+}

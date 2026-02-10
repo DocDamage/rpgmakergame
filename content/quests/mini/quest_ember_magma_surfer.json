@@ -1,0 +1,30 @@
+{
+  "quest_id": "mini_ember_magma_surfer",
+  "name": "Ride the Molten Wave",
+  "zone": "ember",
+  "giver": "barrelgob_red",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Wanna try something CRAZY? The lava flows in the Magma Chasm create natural waves—if you time it right, you can surf them! I've got a heatproof board, but I ain't brave enough. You look crazy though! What do you say?",
+      "objective": "Learn to magma surf from the Barrel Goblin"
+    },
+    "progress": {
+      "dialog": "You got the basics! Now the real challenge—the Great Flow. It's a three-minute ride through boiling rapids, geysers, and a jump over the Magma Falls! Stick the landing and you'll be a legend!",
+      "objective": "Complete the Great Flow magma surf course"
+    },
+    "complete": {
+      "dialog": "THAT WAS AMAZING! Did you see that jump?! The crowd went wild! You're officially the Magma Surfing Champion! Here's your trophy—a Magma Surfer's Charm. It makes you immune to floor lava damage!",
+      "rewards": {
+        "exp": 800,
+        "item": "magma_surfer_charm"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "BEST. QUEST. EVER! Let's do it again!",
+    "twist": "I nearly died seven times. I hate everything about this.",
+    "nix7": "Warning: Extreme thermal hazard. Exhilaration levels: surprisingly high."
+  }
+}

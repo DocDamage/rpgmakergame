@@ -1,0 +1,54 @@
+{
+  "npc_id": "frost_warden_glacius",
+  "name": "Frost Warden Glacius",
+  "title": "Field Commander",
+  "zone": "frost",
+  "location": "Spire of Frozen Eternity Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "disciplined_guarded_decisive",
+  "occupation": "security_lead",
+  "dialog": {
+    "greeting": [
+      "Frost Warden Glacius on comms. Stage 3: Spire of Frozen Eternity. Keep formation tight and decisions tighter.",
+      "We are running The Frozen Path. Objective drift gets teams buried.",
+      "I met my future self and we argued about shoe durability.",
+      "Action first, panic never. Start with: Climb the Spire of Frozen Eternity."
+    ],
+    "quest_hook": "Objective stack: Climb the Spire of Frozen Eternity; Survive the Wardens' trials; Prove worthy of Endurance. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Climb the ancient ice tower and face the Frost Wardens. Immediate move: Climb the Spire of Frozen Eternity.",
+    "quest_complete": "Stage 3 resolved: Spire of Frozen Eternity. Primary objective secured and route stabilized. Prepare for The Warmth Within.",
+    "rumor": [
+      "Villagers report hearing a lullaby inside frozen walls.",
+      "People keep repeating one clue from Spire of Frozen Eternity: 'Prove worthy of Endurance'.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm."
+    ],
+    "ambient_barks": [
+      "Eyes front.",
+      "Hold the line.",
+      "No drift.",
+      "Confirm the lane."
+    ],
+    "time_dawn": "Dawn gives hard snow and readable tracks. Best time to cross open ground.",
+    "time_noon": "Noon glare can blind you faster than a storm. Shade your optics.",
+    "time_dusk": "Dusk fog rises from cracked ice. Ropes out, spacing tight.",
+    "time_night": "Night cold punishes hesitation. Rotate watch and check each other for frostbite."
+  },
+  "party_reactions": {
+    "kade": "Frost Warden Glacius sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Frost Warden Glacius accepted. Probability of success improves with compliance.",
+    "twist": "Frost Warden Glacius talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "frost_frozen_path"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "npc_id": "twins_tower",
+  "name": "Alpha and Omega",
+  "title": "Progenitor Echoes",
+  "zone": "tower",
+  "location": "The Mirror Hall Floor 41, Chroma Tower",
+  "description": "Twin figures representing beginning and end, testing climbers' understanding of purpose before the final ascent.",
+  "sprite_variant": "twins_tower",
+  "greeting_variants": [
+    "*speaking in stereo* We are the threshold. The last gate.",
+    "*one* Above us: the end. *other* Below us: the beginning.",
+    "Many climb. Few understand why. Do you?",
+    "*mirrored movements* We are Alpha. We are Omega. We are.",
+    "The Void Twins echo us. Distort us. We pity them.",
+    "*in unison* Purpose. Truth. Understanding. Required.",
+    "Top floor awaits. Palace awaits. But are you ready?",
+    "*finishing each other* The climb/ends. The truth/begins."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*perfect synchronization* We are the Progenitor Echoes. First and last. Beginning and end. We guard the threshold. Test understanding. The Palace is not a place. It is a... transformation. One must be ready.",
+          "options": [
+            {"text": "What is the test?", "goto": "test_description"},
+            {"text": "What happens at the Palace?", "goto": "palace_truth"},
+            {"text": "Tell me about the Void Twins.", "goto": "void_connection"},
+            {"text": "I'm ready.", "goto": "readiness_check"}
+          ]
+        },
+        {
+          "id": "test_description",
+          "text": "* Alpha* Not of strength. You passed Monolith. *Omega* Not of knowledge. The Tower teaches. *Together* Test of purpose. Why do you climb? What do you seek? What will you sacrifice? Truth. Only truth passes.",
+          "party_reactions": {
+            "kael": "I seek to end the Void. Protect the people.",
+            "twins": "*assessing* Noble. But insufficient. Deeper. Go deeper."
+          },
+          "options": [
+            {"text": "I seek answers.", "goto": "answer_seeker"},
+            {"text": "I seek to save everyone.", "goto": "savior_complex"},
+            {"text": "I don't know anymore.", "goto": "honest_confusion"}
+          ]
+        },
+        {
+          "id": "palace_truth",
+          "text": "*hesitant* The Palace is... source. Of power. Of the tear. Of everything changed. *Alpha* The Progenitor resides there. *Omega* The First. The one who... *trails off* ...who remembers what was. Before zones. Before Void.",
+          "options": [
+            {"text": "The Progenitor?", "goto": "progenitor_info"},
+            {"text": "Before the zones?", "goto": "before_time"}
+          ]
+        },
+        {
+          "id": "void_connection",
+          "text": "*sadness* They are... spread. Diffuse. The Void took our unity. Gave them... multiplicity. They see all paths. All possibilities. It breaks them. We remain... singular. Focused. Grateful.",
+          "options": [
+            {"text": "Can you help them?", "goto": "help_void_twins"},
+            {"text": "Why are you different?", "goto": "difference_explanation"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_truth",
+    "title": "The Climb - Truth of Purpose",
+    "description": "Face the final test of the Alpha and Omega to prove your understanding of your true purpose before entering the Palace.",
+    "objectives": [
+      "Confront your deepest motivations",
+      "Acknowledge your greatest fears",
+      "Accept what you must sacrifice",
+      "Speak your truth to the Twins",
+      "Receive the blessing of Alpha and Omega"
+    ],
+    "rewards": {
+      "experience": 900,
+      "reputation": {"tower_guardians": 45, "progenitor_cult": 40},
+      "items": ["alpha_omega_blessing", "palace_entry_token"],
+      "unlock": "palace_access"
+    },
+    "prerequisites": ["completed_monolith_trials"]
+  },
+  "ambient_barks": [
+    "*in perfect unison* Beginning. End. Circle. Complete.",
+    "The Void Twins suffer. We feel. Distant. Sharp.",
+    "*Alpha* Climbers come. *Omega* Climbers go. *Together* Few remain.",
+    "Purpose must be pure. Truth must be absolute.",
+    "*contemplating* The Progenitor waits. Has waited. Will wait.",
+    "Above: everything changes. Below: everything began.",
+    "*mirrored movements* We are one. We are two. We are.",
+    "The final question approaches. Are you ready?"
+  ],
+  "cross_zone_references": {
+    "void": "Our echoes suffer there. We send strength. They receive... fragments.",
+    "palace": "Above. Beyond. The source. The end. The beginning.",
+    "capital": "Boulder knows duty. Vex knows leadership. Good people. Limited."
+  },
+  "party_reactions": {
+    "twins_void": {
+      "greeting": "*reaching out* We are here. We remember. We are whole.",
+      "response": "*yearning* Whole... focused... we miss... we become..."
+    },
+    "mira": {
+      "greeting": "Your unified quantum state is remarkable!",
+      "response": "*amused* Science. Words. We simply are."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Testing climbers, philosophical discourse",
+      "night": "Communing with Void Twins, meditation"
+    },
+    "world_state_triggers": {
+      "worthy_climber": "Grants passage: 'Truth spoken. Purpose clear. Ascend.'",
+      "unready_climber": "Blocks with compassion: 'Grow. Learn. Return when ready.'"
+    }
+  }
+}

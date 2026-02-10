@@ -1,0 +1,44 @@
+{
+  "id": "NPC_RAIL_CAPTAIN_DORSA",
+  "name": "Captain Dorsa",
+  "title": "Rail Captain",
+  "location": "T_GRAVEMARK_112x72",
+  "coords": [
+    56,
+    25
+  ],
+  "schedule": {
+    "day": [
+      56,
+      25
+    ],
+    "night": [
+      56,
+      25
+    ],
+    "rain": [
+      56,
+      25
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_rail_captain_dorsa_portrait",
+  "dialog_tree": "DT_RAIL_CAPTAIN_DORSA_MAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "RAIL_CORPS",
+  "attitude": "professional",
+  "background": "Veteran rail commander managing Gravemark freight and northern convoy defense.",
+  "personality": "Disciplined and dry-humored under pressure.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "rail_hub",
+    "route_info"
+  ],
+  "voice_lines": {
+    "greet": "vo_rail_captain_dorsa_greet"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "npc_id": "onionboss_purple_mire",
+  "name": "Union Leader Allium V. Purple",
+  "sprite": "onionboss_purple",
+  "zone": "mire",
+  "location": "Dockworkers Union Hall",
+  "personality": "passionate_idealistic_stubborn",
+  "occupation": "union_leader",
+  "schedule": {
+    "morning": "organizing_workers",
+    "day": "negotiations",
+    "evening": "planning_strategy"
+  },
+  "dialog": {
+    "greeting": [
+      "Workers unite! Dignity for all! Fair wages now!",
+      "Allium Purple, Union Leader. You stand with labor, or with oppression?",
+      "These docks run on the backs of good people! Time they got their due!",
+      "Another day, another battle for basic rights! Join the struggle!",
+      "The Foreman says 'efficiency.' I say 'dignity!' Which matters more?",
+      "Equal rights for all dockworkers! Even the weird ones! ESPECIALLY the weird ones!",
+      "Power to the people! And the goblins! And whoever else is working!",
+      "Bulbus White thinks he owns these docks. He doesn't. WE do!"
+    ],
+    "union_goals": "We want breaks that don't require medical attention. Stools that don't cause permanent damage. Wages that let workers afford the food they transport! Is that too much to ask?",
+    "white_conflict": "Bulbus White... he's not evil. Just trapped in 'the way things have always been done.' I'm trying to drag him, kicking and screaming, into a better future.",
+    "backstory": "I started as a dockworker. Hauled crates for ten years. Saw friends injured, broken, discarded. Decided enough was enough. Organized. Unionized. Now I fight for those who can't fight for themselves.",
+    "rumors": [
+      "The barrelgob sees things at night. Things the bosses don't want known. I've been protecting him.",
+      "The foodboys are talking about unionizing too. Solidarity! Even if their food is questionable!",
+      "I hear the snakecharmer once organized a traveling performers' guild. Might have advice for me.",
+      "That iron chef on the road? Ex-dockworker. Left because of conditions. Sound familiar?"
+    ],
+    "ambient_barks": [
+      "Power to the people!",
+      "Fair wages now!",
+      "White won't win!",
+      "Solidarity forever!",
+      "Workers' rights!",
+      "Dignity for all!"
+    ],
+    "time_of_day": {
+      "morning": "Morning shift change! Perfect time for organizing!",
+      "noon": "Lunch break organizing! Even rebels need sandwiches!",
+      "evening": "Evening strategy session. The fight never sleeps!",
+      "night": "Night shift workers need representation too! I'm always on call!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "union_dispute_purple",
+    "quest_name": "The Workers' Champion",
+    "stage_1_hook": "White is stonewalling us again. Claims 'budget constraints.' I need proof that safe working conditions SAVE money in the long run. There's a report in the Dustbelt - some merchant's guild study. Get it for me?",
+    "stage_1_active": "The Dustbelt Merchant Guild's 'Safety and Profitability Report.' Should be in their archive. Prove that safety pays.",
+    "stage_2_progress": "The Dustbelt, eh? Hot place. Find that report yet? It could change everything here.",
+    "stage_2_item_needed": "merchant_guild_safety_report",
+    "stage_3_complete": "THE REPORT! Look at these numbers! Safety INCREASES productivity! White can't argue with math! ...Well, he can, but he'll look foolish doing it! Thank you, friend! Here - a union badge. Shows you stand with labor.",
+    "reward": "dockworkers_union_badge"
+  },
+  "party_reactions": {
+    "kade": "Finally, someone fighting for the little guy. I respect that.",
+    "nix7": "Analysis: Labor movement demonstrates logical efficiency arguments. Admirable organizational structure.",
+    "twist": "He's SO ENTHUSIASTIC! I don't understand everything he's saying, but I want to help!",
+    "korr": "A warrior for the working class. There are many kinds of battles.",
+    "renna": "His passion is genuine. His cause is just. But magic would solve this faster.",
+    "suresh": "In my homeland, we had those who spoke for the voiceless. He reminds me of them.",
+    "sova": "Fights with words instead of weapons. Brave. Maybe foolish. But brave.",
+    "grit": "I've seen what happens when workers get desperate. Better to negotiate now than fight later.",
+    "ashka": "He burns with passion. I like that. Even if he's not literally burning.",
+    "senna": "Knows everyone's secrets. Workers talk to him. Useful ally.",
+    "callum": "He's really intense. But he seems nice! Just... loud nice."
+  },
+  "relationship_dialog": {
+    "stranger": "New face! You look strong! Ever think about workers' rights?",
+    "acquaintance": "Back again! You listen! Most people just nod and back away slowly!",
+    "friend": "Comrade! The struggle continues, but with friends like you, I know we'll win!",
+    "best_friend": "You've done so much for the workers. For ME. I'm not good with... emotions. But thank you. Truly."
+  },
+  "cross_npc_connections": [
+    "onionboss_white: Bulbus. My counterpart. Stubborn. Traditional. But... I think he cares. Deep down.",
+    "barrelgob_green: Little guy sees everything. My best source of dock gossip. And incident reports.",
+    "foodboys_blue: Flip's been sympathetic to the cause. Brings us food during strikes."
+  ]
+}

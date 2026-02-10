@@ -1,0 +1,289 @@
+{
+  "id": "OW_HIDDEN_SHRINES_1x1",
+  "maps": [
+    {
+      "id": "HID_SUNKEN_96x64",
+      "display_name": "Sunken City",
+      "type": "hidden",
+      "unlock_condition": "After D5, aquatic travel",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "encounter_table": "TIDE_ENCOUNTERS",
+      "music": "bgm_dungeon_sunken",
+      "lighting": "underwater",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "T_BRINEGATE_112x72",
+          "coords": [
+            48,
+            63
+          ],
+          "condition": "submersible"
+        }
+      ],
+      "events": [
+        "SUNKEN_CITY_DISCOVERED",
+        "LEGENDARY_WEAPON_FOUND"
+      ]
+    },
+    {
+      "id": "HID_DRAGON_96x64",
+      "display_name": "Dragon's Graveyard",
+      "type": "hidden",
+      "unlock_condition": "After D6, flight/mountain access",
+      "dimensions": {
+        "width": 96,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "encounter_table": "EMBER_ENCOUNTERS",
+      "music": "bgm_dungeon_dragon_graveyard",
+      "lighting": "sacred",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_R08_72x40",
+          "coords": [
+            48,
+            63
+          ],
+          "condition": "flight"
+        }
+      ],
+      "events": [
+        "DRAGON_GRAVEYARD_DISCOVERED",
+        "SUMMON_ANCIENT_DRAKE_UNLOCKED"
+      ]
+    },
+    {
+      "id": "SHR_HEAT_64x48",
+      "display_name": "Pyreheart Reliquary",
+      "type": "shrine",
+      "foundation": "heat",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "boss": "BOSS_HEAT_ELEMENTAL",
+      "music": "bgm_shrine_heat",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_HEAT_CLEARED",
+        "HEAT_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_GROWTH_64x48",
+      "display_name": "Verdant Covenant Grove",
+      "type": "shrine",
+      "foundation": "growth",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_AshveilStone",
+      "boss": "BOSS_GROWTH_WARDEN",
+      "music": "bgm_shrine_growth",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_GROWTH_CLEARED",
+        "GROWTH_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_LIGHT_64x48",
+      "display_name": "Prismwrit Chapel",
+      "type": "shrine",
+      "foundation": "light",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_PrismHighland",
+      "boss": "BOSS_LIGHT_SERAPH",
+      "music": "bgm_shrine_light",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_LIGHT_CLEARED",
+        "LIGHT_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_MOTION_64x48",
+      "display_name": "Kinetic Vow Atrium",
+      "type": "shrine",
+      "foundation": "motion",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_AshveilStone",
+      "boss": "BOSS_MOTION_SYLPH",
+      "music": "bgm_shrine_motion",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_MOTION_CLEARED",
+        "MOTION_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_MASS_64x48",
+      "display_name": "Gravestone Monad",
+      "type": "shrine",
+      "foundation": "mass",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ObsidianIndustrial",
+      "boss": "BOSS_MASS_GOLEM",
+      "music": "bgm_shrine_mass",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_MASS_CLEARED",
+        "MASS_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_TIME_64x48",
+      "display_name": "Chronicle Loom",
+      "type": "shrine",
+      "foundation": "time",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ChronoPier",
+      "boss": "BOSS_TIME_WEAVER",
+      "music": "bgm_shrine_time",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_TIME_CLEARED",
+        "TIME_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_SHADOW_64x48",
+      "display_name": "Umbral Ledger Sepulcher",
+      "type": "shrine",
+      "foundation": "shadow",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_VoidNexus",
+      "boss": "BOSS_SHADOW_WRAITH",
+      "music": "bgm_shrine_shadow",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_SHADOW_CLEARED",
+        "SHADOW_BLESSING"
+      ]
+    },
+    {
+      "id": "SHR_TIDE_64x48",
+      "display_name": "Marinus's Sanctum",
+      "type": "shrine",
+      "foundation": "tide",
+      "dimensions": {
+        "width": 64,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "boss": "BOSS_TIDE_LEVIATHAN",
+      "music": "bgm_shrine_tide",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            32,
+            47
+          ]
+        }
+      ],
+      "events": [
+        "SHRINE_TIDE_CLEARED",
+        "TIDE_BLESSING"
+      ]
+    }
+  ]
+}

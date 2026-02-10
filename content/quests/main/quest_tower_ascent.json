@@ -1,0 +1,129 @@
+{
+  "quest_id": "tower_ascent",
+  "name": "The Ascent",
+  "zone": "tower",
+  "act": 5,
+  "prerequisites": [
+    "void_into_darkness"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The First Steps",
+      "description": "Begin climbing the Tower of the Progenitors",
+      "npc": "nix7",
+      "dialog_start": "The Tower defies measurement. My sensors say it's 100 meters tall. Also 100,000 meters. Also infinite. The Crystals are our only navigation—follow their resonance upward. Don't look down. Don't look sideways. Just up. Always up.",
+      "objectives": [
+        "Enter the Tower",
+        "Begin the ascent",
+        "Adapt to shifting gravity"
+      ],
+      "dialog_complete": "First level complete. The gravity here... changes. Sometimes you're walking on walls. Sometimes ceilings. The Progenitors didn't build for mortal convenience. They built to challenge. To test. We passed. Onward.",
+      "rewards": {
+        "exp": 2500,
+        "item": "gravity_anchor"
+      },
+      "target_location_id": "TWR_LOBBY_96x64"
+    },
+    {
+      "stage": 2,
+      "name": "Trials of the Makers",
+      "description": "Face challenges designed to test the Progenitors' successors",
+      "npc": "tower_warden_construct",
+      "dialog_start": "[Ancient mechanisms activate, voice synthesized from starlight] SUCCESSORS DETECTED. CARRYING CRYSTAL RESONANCE. INITIATING TRIALS OF WORTHINESS. CREATION. DESTRUCTION. PRESERVATION. TRANSCENDENCE. PASS ALL FOUR TO ASCEND. FAIL AND... WELL. THERE ARE ALWAYS MORE CANDIDATES.",
+      "objectives": [
+        "Trial of Creation: Build what the Void destroys",
+        "Trial of Destruction: Unmake Void corruption",
+        "Trial of Preservation: Protect the innocent at cost to self",
+        "Trial of Transcendence: Choose the greater good over personal desire"
+      ],
+      "dialog_complete": "[The Construct's tone shifts, almost respectful] ALL TRIALS PASSED. CHARACTER CONFIRMED: WORTHY. THE PROGENITORS WOULD BE... PROUD? IS THAT THE CORRECT EMOTIONAL RESPONSE? REGARDLESS. PROCEED. THE MAKER AWAITS.",
+      "rewards": {
+        "exp": 3000,
+        "item": "progenitor_approval_sigil"
+      },
+      "target_location_id": "TWR_ARENA_F75_64x64"
+    },
+    {
+      "stage": 3,
+      "name": "Memories in Stone",
+      "description": "Witness holographic records of the Progenitors' final days",
+      "npc": "holographic_archivist",
+      "dialog_start": "[A ghost of light, flickering with age] Record 10,847. Final days of the Progenitor civilization. We created the Void to fight the Unraveling—a force from beyond reality that consumed worlds. But the Void was too hungry. It turned on us. We sealed it with the Crystals, but the seal weakens. To whoever finds this: forgive us. And finish what we could not.",
+      "objectives": [
+        "Activate the ancient records",
+        "Learn the truth of the Unraveling",
+        "Understand the Progenitors' sacrifice"
+      ],
+      "dialog_complete": "[The Archivist's form solidifies, becoming almost real] You understand now. The Void was a weapon. A dangerous, uncontrollable weapon. The Unraveling still exists—out there, beyond reality. The Void kept it at bay, even as it consumed us. Balance. Terrible balance. Your choice at the peak will determine everything.",
+      "rewards": {
+        "exp": 2800,
+        "item": "unraveling_lore_mastery"
+      },
+      "target_location_id": "TWR_ARENA_F90_64x64"
+    },
+    {
+      "stage": 4,
+      "name": "The Penultimate Step",
+      "description": "Face the last guardian before the peak",
+      "npc": "final_guardian_apex",
+      "dialog_start": "[A being of pure light, sorrowful and ancient] I am Apex. Last of the Progenitor Guardians. I have watched this Tower for ten thousand years. Watched candidates climb. Watched them fall. You are different. You carry hope, not just power. But hope is heavy. Are you strong enough to bear the truth at the peak? The choice that awaits?",
+      "objectives": [
+        "Battle Apex to prove final readiness",
+        "Demonstrate understanding of the burden",
+        "Earn the right to face the Maker"
+      ],
+      "dialog_complete": "[Apex bows, their light dimming in respect] You fight not to win, but to protect. Not to dominate, but to preserve. You are what we hoped for. What we feared we'd never see. Go. Face the Maker. Make the choice we could not. And know that whatever happens... we are grateful.",
+      "rewards": {
+        "exp": 3500,
+        "item": "apex_blessing"
+      },
+      "target_location_id": "TWR_ARENA_F100_64x64"
+    },
+    {
+      "stage": 5,
+      "name": "The Threshold of Creation",
+      "description": "Reach the peak and prepare for the final confrontation",
+      "npc": "kade",
+      "dialog_start": "This is it. The peak. I can feel... everything. The whole world, every life, every moment. Connected. The Crystals are singing, ready for their final purpose. Whatever's behind that door—it started all this. Made the Void. Made the Unraveling threat. Made us. It's time to meet our maker. Literally.",
+      "objectives": [
+        "Reach the Tower's peak",
+        "Prepare the Seven Crystals",
+        "Open the Final Door"
+      ],
+      "dialog_complete": "[The door opens, revealing... a garden. Sunlight. Life. And a figure sitting peacefully among flowers] I wondered when you'd arrive. Please, sit. We have much to discuss, you and I. About creation. About mistakes. About redemption. Welcome home, my child.",
+      "rewards": {
+        "exp": 3000,
+        "gold": 2500,
+        "unlock": "zone_palace"
+      },
+      "target_location_id": "TWR_THRESHOLD_CREATION_96x80"
+    }
+  ],
+  "story_beats": [
+    "The Tower tests the party with trials of Creation, Destruction, Preservation, and Transcendence",
+    "Ancient records reveal the Void was created to fight the 'Unraveling'—an external threat",
+    "The Progenitors sacrificed their civilization to create the seal holding both Void and Unraveling at bay",
+    "Apex, the final guardian, recognizes the party's worthiness",
+    "At the peak awaits the Progenitor who started everything—a being of creation itself"
+  ],
+  "party_reactions": {
+    "kade": "The Trials... they weren't about power. They were about choices. Hard choices. I had to choose between saving one person I loved and saving a hundred strangers. I chose the strangers. I don't know if that makes me good or just... practical. Either way, I passed.",
+    "nix7": "The holographic records contained data from before the Shattering. Complete star maps, lost histories, extinct species. I've expanded my database by 400%. If we survive, I'm writing a book. A very long book. With footnotes.",
+    "skysong": "Apex fought like... like they were trying to lose. Testing our hearts, not our skills. When I realized that, I stopped fighting to win and started fighting to understand. That was the real test. Clever ancient beings and their clever tests.",
+    "vesper": "THE UNRAVELING! An extra-dimensional threat that consumes reality itself! The Void was a DEFENSE MECHANISM! This changes EVERYTHING! If we destroy the Void, we might unleash something WORSE! We need data. More data. ALL the data!",
+    "ven": "I grew things in the Trial of Creation. Actual living things, from seeds the Tower provided. Watching them grow... it felt more powerful than any spell. More meaningful than any battle. I think I understand the Progenitors a little. Creation is magic.",
+    "pyra": "The Trial of Destruction required me to unmake something precious. A flame I'd nurtured. I cried. First time since I was a child. But I understood—sometimes we must let go of what we love to save what matters. Heavy lesson. Important lesson.",
+    "abyssal": "Apex remembered me. From before. Said I was 'the one who chose to remember.' Ten thousand years, and they remembered. The Progenitors built well. Built for eternity. I hope we can honor that legacy.",
+    "gearhart": "The Trial of Preservation made me choose between saving my greatest invention or a stranger's child. I chose the child. Obviously. But the fact that I hesitated... I'm still working through that. Being an engineer means valuing creation. Being human means valuing life. I choose life.",
+    "blizzard": "Transcendence. Letting go of my need for revenge against the Void. Accepting that justice matters more than vengeance. Apex said I 'graduated from winter to spring.' I didn't understand. Then I felt warm for the first time in decades. Spring. Yes.",
+    "echo": "I recorded everything. The trials, the records, the conversations. This is history. The most important history. If we don't make it, someone will find my records. Know that we tried. That we climbed. That we reached the peak.",
+    "sovereign": "The Trial of Transcendence asked if I'd sacrifice my crown to save my people. I said yes before I even thought. That's when I knew—I was never meant to rule from a throne. I'm meant to serve. From the front lines, if necessary."
+  },
+  "unlocks": [
+    "zone_palace",
+    "quest_palace_progenitor_will",
+    "tower_conquered_blessing",
+    "unraveling_revealed"
+  ]
+}

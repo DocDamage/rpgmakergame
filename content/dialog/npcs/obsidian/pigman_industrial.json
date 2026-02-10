@@ -1,0 +1,108 @@
+{
+  "npc_id": "pigman_industrial_obsidian",
+  "name": "Hogarth 'Hammer' Hogsworth",
+  "sprite": "pigman_industrial",
+  "zone": "obsidian",
+  "location": "Company Store, Surface Level",
+  "personality": "jovial_exploitative_smooth",
+  "occupation": "company_store_keeper",
+  "dialog": {
+    "greeting": [
+      "Welcome to Hogsworth's! Everything a miner needs! At... competitive prices!",
+      "Hammer Hogsworth, at your service! Company store. Company pride!",
+      "New face! New customer! New opportunity! FOR YOU! And me. Mostly me.",
+      "The Company Store! Where scrip becomes GOODS! Magic!",
+      "Everything's in stock! Food! Tools! Hope! ...Hope's backordered.",
+      "Welcome! Paycheck burning a hole? I can fix that!",
+      "Hogsworth. I keep the miners supplied. And the company profitable. Balance!",
+      "Come in! Come in! Don't mind the prices! Quality costs!"
+    ],
+    "shop_open": "Take your time! Browse! Everything's marked up... I mean, MARKED! Clearly!",
+    "room_offer": "Lodging? We got bunks! Shared! Communal! Builds character! And immunity!",
+    "food_offer": "Company food! Nutritious! Filling! ...Identifiable? Mostly!",
+    "haggle": [
+      "Prices set by corporate! My hands are tied! ...Loosely!",
+      "Best I can do? Company discount! 5%! For HEROES! 2% for others!",
+      "You drive a hard bargain! How about... a free company pen?"
+    ],
+    "purchase_success": [
+      "Pleasure doing business! Come back when you need MORE!",
+      "Excellent choice! That item has a 30-day warranty! Hours vary!",
+      "Sold! Your scrip is always good here! Literally! Only good here!"
+    ],
+    "purchase_fail": [
+      "No scrip, no sale! Company policy! MY policy!",
+      "Credit? We don't do credit! This isn't a CHARITY!",
+      "Come back with legal tender! Company legal tender!"
+    ],
+    "rumor": [
+      "Grayson's a good customer. Pays on time. Doesn't complain about prices.",
+      "Bruno? Always asking for discounts. Ambitious AND cheap.",
+      "That union rep Coolcat? Tells workers to buy elsewhere. WHERE?! There's nowhere else!",
+      "The corporate spy? Bought a VERY expensive coat here. Cash. Suspicious.",
+      "Frost has it better. Company stores there accept COIN. Real coin! Luxury!"
+    ],
+    "quest_hook": "Inventory problem. Tools walking out the back door. Security? Onyx won't help. 'Not his jurisdiction.' Find my thief?",
+    "quest_active": "Any leads on my missing inventory? Check the tailings. Scraps knows everyone.",
+    "quest_complete": "Barrelgob! Should've known! Trading tools for... what? Doesn't matter. Recovered! Here's a 'finder's fee.' Generous!",
+    "farewell": [
+      "Come again! Scrip never expires! Company guarantee!",
+      "Satisfaction guaranteed! Or your scrip back! ...Minus processing fee!",
+      "Hogsworth's: For all your material needs!"
+    ],
+    "ambient_barks": [
+      "Company store! Best prices! Only prices!",
+      "Scrip accepted here! Only here!",
+      "Quality goods! Quality!",
+      "Everything must flow! Upward!",
+      "Miners need STUFF! I have STUFF!",
+      "Credit available! Terms apply! Forever!"
+    ],
+    "time_dawn": "Morning rush! Fresh paychecks! Fresh SPENDING!",
+    "time_noon": "Midday lull. Workers working. Profits... waiting.",
+    "time_dusk": "Evening rush! Post-shift SHOPPING! Maximum OPPORTUNITY!",
+    "time_night": "Night. Counting scrip. The sweet sound of commerce.",
+    "rival_mention": "That pigman in Frost? 'The Thawing Pig?' Sells for COIN. Unfair competition!",
+    "post_quest_greeting": "The inventory recovery specialist! Any more thefts? Keep watching! Commission basis!"
+  },
+  "party_reactions": {
+    "kade": "He's... friendly. But the prices! Company scrip only? That's rough.",
+    "nix7": "Monopolistic practices detected. Price gouging: Confirmed. Profit margin: Excessive.",
+    "twist": "You have SNACKS?! I'll take ALL the snacks!",
+    "korr": "Exploitation packaged as convenience. Corruption in merchant form.",
+    "renna": "The scrip has minor enchantments. Tracking spells. Of course.",
+    "suresh": "He creates suffering through economic chains. But provides necessities. Complex karma.",
+    "sova": "I'd rob him. But he'd probably file insurance claims. WITH the stolen goods.",
+    "grit": "Company store. Seen 'em in every army. Same scam, different uniform.",
+    "ashka": "He smells of greed. And pork. Mostly greed.",
+    "senna": "He knows everyone's business. What they buy. What they need.",
+    "callum": "This is... this is EXTORTION! Someone should REPORT this!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time! Welcome! Your scrip's good here!",
+    "acquaintance": "Regular customer! I'll... remember your preferences!",
+    "friend": "Preferred patron! Special treatment! Slightly better prices!",
+    "best_friend": "My BEST customer! Here! Company store VIP card! 10% off! I'm generous!"
+  },
+  "mini_quest": {
+    "id": "company_thief",
+    "title": "The Missing Inventory",
+    "description": "Help Hogarth recover stolen inventory from the company store",
+    "stages": {
+      "hook": "Tools walking out! Not selling out! THEFT! Find who's taking my GOODS!",
+      "active": "Check the tailings. Scraps the barrelgob knows everything. And everyone.",
+      "complete": "Barrelgob! Trading my tools for... shiny rocks? Whatever. RECOVERED! Here's your reward! Minus 'consultation fee!'"
+    },
+    "reward": {
+      "item": "company_store_credit",
+      "gold": 250,
+      "reputation": "company_merchant_contact"
+    }
+  },
+  "cross_npc_connections": [
+    "barrelgob_black: Thief! But useful thief. I keep him... supplied. For information.",
+    "sumo_black_onyx: Security. Won't help with 'petty theft.' His words! PETTY!",
+    "coolcat_industrial: Tells workers I'm 'exploitative.' I'm a BUSINESSMAN!",
+    "pigman_white_frost: My cousin. Sells for REAL MONEY. Showoff."
+  ]
+}

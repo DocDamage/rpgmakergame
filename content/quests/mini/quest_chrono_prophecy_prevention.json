@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_prophecy_prevention",
+  "name": "Unwritten Fate",
+  "zone": "chrono",
+  "giver": "sunandmoon",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A terrible prophecy comes to pass tomorrow—unless we change it! But prophecies are tricky; trying to prevent them often causes them! We need to fulfill the letter of the prophecy while violating its spirit! Can you help me thread this needle?",
+      "objective": "Study the prophecy and find a way to subvert its outcome"
+    },
+    "progress": {
+      "dialog": "The prophecy says 'The hero falls at dawn, and darkness rises.' So... arrange for the hero to fall into a soft bed at dawn, while someone else rises from a crouch into standing position! The words are satisfied, the meaning subverted!",
+      "objective": "Execute the plan to fulfill the prophecy literally but not figuratively"
+    },
+    "complete": {
+      "dialog": "It worked! The prophecy is satisfied, the disaster averted! Words are powerful, but intent is everything! You have mastered the art of temporal manipulation! Take this Prophecy Breaker's Quill! It can alter written destiny once!",
+      "rewards": {
+        "exp": 950,
+        "gold": 850,
+        "item": "prophecy_breakers_quill"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "We beat fate with wordplay. Take that, destiny!",
+    "twist": "Prophecies are self-fulfilling by design. Clever to use that against them.",
+    "nix7": "Prophetic subversion: successful. Destiny: rewritten."
+  }
+}

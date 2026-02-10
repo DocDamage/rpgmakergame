@@ -1,0 +1,122 @@
+{
+  "npc_id": "sumo_palace",
+  "name": "Sovereign",
+  "title": "Royal Guard",
+  "zone": "palace",
+  "location": "The Throne Room, Chromatic Palace",
+  "description": "The ultimate guardian, gold-clad and immovable, protecting the Progenitor with absolute devotion and impossible strength.",
+  "sprite_variant": "sumo_palace",
+  "greeting_variants": [
+    "*voice like grinding mountains* YOU STAND BEFORE THE THRONE.",
+    "*golden armor gleaming* I AM SOVEREIGN. GUARDIAN. WALL.",
+    "MANY HAVE COME. FEW HAVE BEEN WORTHY. PROVE YOURSELF.",
+    "*stomping, palace shaking* THE PROGENITOR SLEEPS. I WATCH.",
+    "BOULDER KNOWS DUTY. I AM DUTY PERFECTED. DEVOTION ETERNAL.",
+    "*eyes like golden suns* SPEAK YOUR PURPOSE. TRUTH ONLY.",
+    "TO PASS, YOU MUST UNDERSTAND. TO UNDERSTAND, YOU MUST BE TESTED.",
+    "*bowing slightly* I HONOR YOUR COURAGE. NOW SHOW YOUR WORTH."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*thunderous* I AM SOVEREIGN. FIRST GUARDIAN. LAST GUARDIAN. ETERNAL GUARDIAN. Before zones. Before Void. Before separation. I guarded the Progenitor's sleep. I guard the Progenitor's waking. I will guard... whatever comes next.",
+          "options": [
+            {"text": "I seek to help the Progenitor.", "goto": "help_claim"},
+            {"text": "I seek to stop the Void.", "goto": "void_motivation"},
+            {"text": "I don't know what I seek.", "goto": "honest_uncertainty"},
+            {"text": "I want to understand.", "goto": "understanding_seek"}
+          ]
+        },
+        {
+          "id": "help_claim",
+          "text": "*evaluating* NOBLE. BUT NOBLE IS NOT SUFFICIENT. THE PROGENITOR DOES NOT NEED HELP. THE PROGENITOR NEEDS... UNDERSTANDING. COMPANIONSHIP. THE PROGENITOR IS LONELY. AFRAID. ANGRY. CAN YOU BEAR THESE TRUTHS?",
+          "party_reactions": {
+            "kael": "I can bear any truth. I am a soldier.",
+            "sovereign": "SOLDIER? NO. COMPANION. FRIEND. DIFFERENT. HARDER."
+          },
+          "options": [
+            {"text": "I can bear them.", "goto": "bear_truth"},
+            {"text": "I need to understand more.", "goto": "need_knowledge"}
+          ]
+        },
+        {
+          "id": "void_motivation",
+          "text": "*ponderous* THE VOID IS NOT ENEMY. THE VOID IS... SYMPTOM. WOUND. THE PROGENITOR'S PAIN MADE MANIFEST. TO STOP THE VOID, YOU MUST HEAL THE PROGENITOR. TO HEAL THE PROGENITOR, YOU MUST UNDERSTAND THE PROGENITOR. DIFFICULT. DANGEROUS. NECESSARY.",
+          "options": [
+            {"text": "How do I heal the Progenitor?", "goto": "healing_method"},
+            {"text": "What wounded the Progenitor?", "goto": "wound_origin"}
+          ]
+        },
+        {
+          "id": "honest_uncertainty",
+          "text": "*approving* HONESTY. RARE. VALUABLE. UNCERTAINTY IS NOT WEAKNESS. IT IS OPENNESS. READINESS TO LEARN. THE PROGENITOR VALUES THIS. THE PROGENITOR IS ALSO... UNCERTAIN. AFRAID. LOST. PERHAPS YOU CAN FIND EACH OTHER.",
+          "options": [
+            {"text": "I want to find answers.", "goto": "answer_quest"},
+            {"text": "I'm afraid.", "goto": "fear_admission"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_guardian",
+    "title": "Royal Feast - The Guardian's Course",
+    "description": "Prove your worth to Sovereign by gathering ingredients from the most dangerous places and preparing a meal worthy of the Progenitor's guardian.",
+    "objectives": [
+      "Harvest void-pepper from the Void's edge (surviving the corruption)",
+      "Gather magma-salt from Ember's deepest caldera",
+      "Catch crystal-fish from Frost's frozen depths",
+      "Help Sovereign prepare the Trial by Fire stew",
+      "Share the meal with the Progenitor's court"
+    ],
+    "rewards": {
+      "experience": 1400,
+      "reputation": {"palace_court": 55, "royal_guard": 60},
+      "items": ["sovereign_gold_armor_fragment", "guardian_blessing"],
+      "unlock": "progenitor_audience"
+    },
+    "prerequisites": ["passed_monolith_trials", "palace_access"]
+  },
+  "ambient_barks": [
+    "*standing perfectly still* ...WATCHING... WAITING... READY...",
+    "BOULDER SERVES WELL. BUT BOULDER IS... DISTANT. SAD.",
+    "*testing armor joints* ...STRONG. ETERNAL. UNBREAKING...",
+    "MANY COME WITH WEAPONS. FEW COME WITH OPEN HEARTS.",
+    "THE PROGENITOR STIRS. DREAMS. REMEMBERS. FORGETS.",
+    "*golden glow intensifying* ...ALERT... PROTECT... GUARD...",
+    "DUTY IS NOT BURDEN. DUTY IS... PURPOSE. MEANING. JOY.",
+    "*to Progenitor's chamber* ...PEACEFUL... SLEEP... OR WAKE..."
+  ],
+  "cross_zone_references": {
+    "capital": "BOULDER. GOOD HEART. STRONG SPIRIT. LIMITED UNDERSTANDING.",
+    "chroma_tower": "MONOLITH. ECHO OF MYSELF. LESSER. BUT NOBLE. GOOD.",
+    "void": "THE WOUND. THE PAIN. NOT EVIL. SUFFERING."
+  },
+  "party_reactions": {
+    "boulder": {
+      "greeting": "*deep bow* MASTER. TEACHER. PERFECT GUARDIAN.",
+      "response": "*gentle rumble* STUDENT. YOU GUARD WELL. CONTINUE."
+    },
+    "monolith": {
+      "greeting": "*recognition* ECHO. GUARDIAN. WORTHY.",
+      "response": "*honored* SOURCE. INSPIRATION. ETERNAL."
+    },
+    "kael": {
+      "greeting": "SOLDIER. DISCIPLINED. BUT INCOMPLETE.",
+      "response": "*determined* I will become complete. I will understand."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Active guarding, testing visitors",
+      "night": "Meditation, communion with Progenitor"
+    },
+    "world_state_triggers": {
+      "threat_detected": "Combat stance: 'DANGER. HALT. OR BE HALTED.'",
+      "worthy_visitor": "Opening path: 'UNDERSTOOD. PASS. SPEAK. HEAL.'"
+    }
+  }
+}

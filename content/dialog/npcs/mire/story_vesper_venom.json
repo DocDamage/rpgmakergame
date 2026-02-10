@@ -1,0 +1,54 @@
+{
+  "npc_id": "vesper_venom",
+  "name": "Vesper Venom",
+  "title": "Field Scavenger",
+  "zone": "mire",
+  "location": "Venom's Truth Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "scrappy_wry_survivor",
+  "occupation": "salvage_runner",
+  "dialog": {
+    "greeting": [
+      "Vesper Venom on comms. Stage 4: Venom's Truth. Keep formation tight and decisions tighter.",
+      "We are running The Sinking Truth. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Find Vesper's hidden laboratory."
+    ],
+    "quest_hook": "Objective stack: Find Vesper's hidden laboratory; Gather Blight samples for study; Convince Vesper to share her research. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Recruit the exiled alchemist who knows how to fight the Blight. Immediate move: Find Vesper's hidden laboratory.",
+    "quest_complete": "Stage 4 resolved: Venom's Truth. Primary objective secured and route stabilized. Prepare for Cauterizing the Wound.",
+    "rumor": [
+      "Boardwalk crews say the swamp now mirrors stars from the wrong season.",
+      "People keep repeating one clue from Venom's Truth: 'Convince Vesper to share her research'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Scrap tells stories.",
+      "Nothing wasted.",
+      "Eyes on exits.",
+      "Keep what works."
+    ],
+    "time_dawn": "Dawn mist sits low in the Mire; good for stealth, bad for footing.",
+    "time_noon": "Noon stirs the boardwalk gases. Keep sparks and spells controlled.",
+    "time_dusk": "Dusk wakes the sink patches. Test every plank before weight transfer.",
+    "time_night": "Night in swamp country means sound carries wrong. Use lantern codes."
+  },
+  "party_reactions": {
+    "kade": "Vesper Venom sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Vesper Venom accepted. Probability of success improves with compliance.",
+    "twist": "Vesper Venom talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "mire_sinking_truth"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCAVENGER",
+    "world_break_aware": true
+  }
+}

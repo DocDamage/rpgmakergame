@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_pearl_diver",
+  "name": "Mother of Pearls",
+  "zone": "tide",
+  "giver": "coolcat_blue",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Grand Pearl is missing! It's the largest pearl ever found, stolen from the Ocean's Heart exhibit! It was last seen near the Diving Banks—someone must have dropped it. Can you search the depths? It's worth a kingdom!",
+      "objective": "Dive to the Diving Banks and search for the Grand Pearl"
+    },
+    "progress": {
+      "dialog": "You found the pearl! But it's stuck in a giant clam's mouth! And the clam won't open! Try tickling its mantle with this feather, or use some bioluminescent bait to make it sneeze!",
+      "objective": "Retrieve the Grand Pearl from the giant clam"
+    },
+    "complete": {
+      "dialog": "The Grand Pearl! You found it! The museum will be thrilled! Here's the reward—and they gave me this to give you: a Pearl Diving Bell! It creates a pocket of air underwater for up to an hour!",
+      "rewards": {
+        "exp": 750,
+        "gold": 900,
+        "item": "pearl_diving_bell"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Tickling a giant clam. My adventuring resume grows stranger by the day.",
+    "twist": "I tried magic first. The clam seemed offended.",
+    "nix7": "Mollusk behavioral manipulation: successful. Retrieval: complete."
+  }
+}

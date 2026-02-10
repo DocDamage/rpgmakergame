@@ -1,0 +1,54 @@
+{
+  "npc_id": "the_first_progenitor",
+  "name": "The First Progenitor",
+  "title": "Prime Architect",
+  "zone": "palace",
+  "location": "The Garden of Origin Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "origin_engine_architect",
+  "dialog": {
+    "greeting": [
+      "The First Progenitor on comms. Stage 1: The Garden of Origin. Keep formation tight and decisions tighter.",
+      "We are running The Progenitor's Will. Objective drift gets teams buried.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm.",
+      "Action first, panic never. Start with: Meet the First Progenitor."
+    ],
+    "quest_hook": "Objective stack: Meet the First Progenitor; Hear their story; Understand the true nature of the threat. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Meet the First Progenitor in their sanctuary. Immediate move: Meet the First Progenitor.",
+    "quest_complete": "Stage 1 resolved: The Garden of Origin. Primary objective secured and route stabilized. Prepare for The Three Choices.",
+    "rumor": [
+      "Palace mirrors reportedly show exits one breath before they open.",
+      "People keep repeating one clue from The Garden of Origin: 'Understand the true nature of the threat'.",
+      "I saw gravity file for overtime in this sector. Management approved."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn in the palace refracts through crystal halls; false routes are common.",
+    "time_noon": "Noon activates old systems and old defenses. Assume every tile is listening.",
+    "time_dusk": "Dusk makes memory projections bolder. Do not negotiate with every ghost.",
+    "time_night": "Night at the engine core is quiet and dangerous. Keep your purpose fixed."
+  },
+  "party_reactions": {
+    "kade": "The First Progenitor sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for The First Progenitor accepted. Probability of success improves with compliance.",
+    "twist": "The First Progenitor talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "palace_progenitor_will"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_tunneler_collapse",
+  "name": "Rescue from the Deep",
+  "zone": "prism",
+  "giver": "Tunneler Blue",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My partner! Tunneler Purple! Cave collapsed on him in the deep mines! I hear him tapping! But can't reach! Too dangerous! You strong! You help?",
+      "objective": "Navigate the collapsed mines and rescue Tunneler Purple"
+    },
+    "progress": {
+      "dialog": "Still hear tapping! Morse code! He says... 'hurry' and 'hungry'! Please!",
+      "objective": "Clear rubble and defeat cave creatures to reach the trapped tunneler"
+    },
+    "complete": {
+      "dialog": "You saved him! My partner! My friend! Here - rare Prism diamonds! Best quality! From our secret vein! You family now!",
+      "rewards": {"gold": 550, "item": "prism_diamonds_x5", "reputation": 20}
+    }
+  },
+  "party_comments": {
+    "kade": "Never leave a partner behind. Good motto.",
+    "grit": "Mining accidents are serious. Glad we could help.",
+    "vex": "Loyalty to comrades. Admirable quality."
+  },
+  "hidden_outcome": "If you rescue Purple within 5 minutes (speed run), you gain access to the 'Secret Diamond Vein' - unlimited rare gem mining spot"
+}

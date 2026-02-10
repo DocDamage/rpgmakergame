@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_tifa_materia",
+  "name": "Mire Materia Hunt",
+  "zone": "mire",
+  "giver": "Tifa (Materia Hunter)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Heard there's a special materia hidden in the Mire. Something ancient. Probably from before the cataclysm. Help me find it? I'll teach you some martial arts in exchange!",
+      "objective": "Search the Mire for ancient materia hidden in the depths"
+    },
+    "progress": {
+      "dialog": "The readings are strongest near the old ruins. But the mud makes it hard to pinpoint exactly.",
+      "objective": "Continue searching near the old ruins"
+    },
+    "complete": {
+      "dialog": "There it is! 'Bio' materia! Nature magic. Fitting for this place. Here - as promised. A martial arts manual. Some of my favorite techniques.",
+      "rewards": {"gold": 450, "item": "martial_arts_manual", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "She's tough. Glad she's on our side.",
+    "twist": "I want to learn to fight like her! So cool!",
+    "grit": "Efficient striking form. Good for close quarters."
+  },
+  "hidden_outcome": "If you find a second 'Summon' materia nearby, Tifa gives you her 'Premium Heart' gloves - her ultimate weapon"
+}

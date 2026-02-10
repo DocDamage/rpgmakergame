@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_MERIDIAN_JUNCTION_INN_A",
+  "name": "Meridian Junction Inn Resident",
+  "title": "Inn Steward",
+  "location": "I_INN_32x24",
+  "coords": [
+    16,
+    12
+  ],
+  "schedule": {
+    "day": [
+      16,
+      12
+    ],
+    "night": [
+      16,
+      11
+    ],
+    "rain": [
+      17,
+      12
+    ]
+  },
+  "sprite": "NPC_INNKEEPER_F",
+  "portrait": "spr_mira_portrait",
+  "dialog_tree": "DT_AMBIENT_INNKEEPER",
+  "shop": null,
+  "quests": [],
+  "faction": "MERIDIAN_JUNCTION",
+  "attitude": "friendly",
+  "background": "Runs local lodging and keeps tabs on travelers. Based inside I_INN_32x24.",
+  "personality": "Warm, observant, and quietly protective.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "rumors",
+    "rest_info"
+  ]
+}

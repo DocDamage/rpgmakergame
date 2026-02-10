@@ -1,0 +1,70 @@
+{
+  "npc_id": "signguy_tide",
+  "name": "Harbor-Hank",
+  "sprite": "signguy",
+  "zone": "tide",
+  "location": "Harbor District",
+  "personality": "nautical_practical",
+  "occupation": "harbor_signage_painter",
+  "schedule": "daytime_work",
+  "dialog": {
+    "greeting": [
+      "Signs! Signs! Everywhere there's signs!",
+      "Harbor-Hank! I paint what you need to KNOW!",
+      "You look lost! Good thing I'm HERE!",
+      "Back again? New signs went up! Notice them?",
+      "Welcome to the harbor! Follow the SIGNS!",
+      "New face! Need directions? I make directions!",
+      "I paint warnings! Instructions! Advertisements! ALL OF IT!",
+      "The harbor speaks through my brushes! Listen!"
+    ],
+    "sign_examples": "'NO SWIMMING.' 'WATCH FOR FALLING CRATES.' 'FRESH FISH THIS WAY.' 'DON'T FEED THE SEAGULLS.' They keep adding rules!",
+    "paint_preferences": "Blue for water! Red for danger! Yellow for... caution? Optimism? Both!",
+    "weather_problems": "Salt air RUINS paint. I repaint monthly. Job security!",
+    "nautical_symbols": "Anchor means dock! Wavy lines mean water! Skull means... bad business. Rare. But happens.",
+    "rumor": [
+      "Tide's harbor is BUSY. Signs everywhere. I'm EXHAUSTED.",
+      "Mire's signs SINK. They need BOUY signs. Floating warnings.",
+      "Aetherreach signs are in the CLOUDS. Impossible to read.",
+      "Frost's signs are ICE-carved. Beautiful. Melty."
+    ],
+    "favorite_sign": "My masterpiece? 'NO RUNNING ON DECKS.' Painted it forty times. Perfected the waves in the background.",
+    "farewell": [
+      "Read the signs! Stay safe!",
+      "Follow the arrows! They point to TRUTH!",
+      "Safe harbor! Watch for new signage!",
+      "Come back! I'll have new paint!"
+    ],
+    "ambient_barks": [
+      "Signs here! Fresh signs!",
+      "Wet paint! Watch out!",
+      "Brush strokes! Perfect!",
+      "Blue for water!",
+      "Red for danger!",
+      "Read the signs!"
+    ],
+    "time_dawn": "Morning touch-ups! Overnight salt damage!",
+    "time_noon": "Peak painting! Everyone sees my work!",
+    "time_dusk": "Evening lettering! Best light for detail!",
+    "time_night": "Closed! Signs sleep! So do I!"
+  },
+  "party_reactions": {
+    "kade": "Clear signage saves lives. Good work.",
+    "nix7": "Visual communication efficiency: 82%. Acceptable.",
+    "twist": "Can I paint one?! PLEASE?! I'll be CAREFUL!",
+    "korr": "A well-marked harbor is a safe harbor.",
+    "renna": "Do you ever use magical paints? Glowing letters?",
+    "suresh": "Guidance helps the lost find their way. Noble work.",
+    "sova": "I appreciate clear directions. Especially for exits.",
+    "grit": "Clear signs won battles. 'Hold here.' 'Retreat there.' Vital.",
+    "ashka": "Signs are good. But fire teaches faster.",
+    "senna": "I read all signs. Then decide which to ignore.",
+    "callum": "The fish sign is my favorite! So realistic!"
+  },
+  "relationship_dialog": {
+    "stranger": "New here? Follow the blue signs!",
+    "acquaintance": "You're back! Notice my new work?",
+    "friend": "My friend! I'll paint you a PERSONAL sign!",
+    "best_friend": "You! I named a sign after you! 'HERO PARKING!' Exclusive!"
+  }
+}

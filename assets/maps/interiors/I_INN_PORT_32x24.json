@@ -1,0 +1,89 @@
+{
+  "id": "I_INN_PORT_32x24",
+  "display_name": "Inn (port)",
+  "type": "interior",
+  "dimensions": {
+    "width": 32,
+    "height": 24,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Generic",
+  "music": "bgm_inn_theme",
+  "lighting": "warm",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        16,
+        23
+      ]
+    }
+  ],
+  "events": [
+    "INN_REST",
+    "INN_SHOP"
+  ],
+  "layout": {
+    "description": "Counter at north wall, 3-4 tables center, stairs east (implied upper floor), warm lighting",
+    "key_elements": [
+      {
+        "type": "counter",
+        "coords": [
+          16,
+          4
+        ],
+        "npc": "NPC_INNKEEPER"
+      },
+      {
+        "type": "table",
+        "coords": [
+          8,
+          12
+        ]
+      },
+      {
+        "type": "table",
+        "coords": [
+          16,
+          14
+        ]
+      },
+      {
+        "type": "table",
+        "coords": [
+          24,
+          12
+        ]
+      },
+      {
+        "type": "stairs",
+        "coords": [
+          28,
+          8
+        ],
+        "destination": "implied_upper_floor"
+      },
+      {
+        "type": "exit",
+        "coords": [
+          16,
+          23
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "variants": [
+    "desert",
+    "sanctuary",
+    "swamp",
+    "port",
+    "highland",
+    "volcanic",
+    "northern",
+    "chrono"
+  ],
+  "variant": "port",
+  "source_template": "I_INN_32x24_base"
+}

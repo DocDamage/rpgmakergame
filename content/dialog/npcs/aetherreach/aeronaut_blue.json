@@ -1,0 +1,101 @@
+{
+  "npc_id": "aeronaut_blue_aetherreach",
+  "name": "Cirrus Cloudsworth",
+  "sprite": "aeronaut_blue",
+  "zone": "aetherreach",
+  "location": "Sky-Dock Seven",
+  "personality": "dreamy_entrepreneurial",
+  "occupation": "balloon_merchant",
+  "dialog": {
+    "greeting": [
+      "Up, up, and away! That's my motto. And my business model!",
+      "Welcome to the skies! Need a lift? I've got balloons!",
+      "Cirrus Cloudsworth, at your service! Balloons for every occasion!",
+      "Feeling grounded? I can fix that!",
+      "The sky isn't the limit - it's just the beginning!",
+      "Blue balloons, blue skies! It's a theme! I have themes!",
+      "Ever wanted to touch a cloud? I can get you close!"
+    ],
+    "shop_open": "Balloons of all sizes! Weather-resistant! Mostly crash-proof! Satisfaction guaranteed or your altitude back!",
+    "shop_prompt": "Looking to ascend? I've got single-riders, double-deckers, and the deluxe cloud-cruiser!",
+    "haggle": [
+      "These prices are already sky-high! Get it? ...I'll do ten percent off.",
+      "For a fellow dreamer? Special discount!",
+      "Balloons aren't cheap to fill! But... okay, five percent.",
+      "You drive a hard bargain! I respect that in a customer!"
+    ],
+    "purchase_success": [
+      "Excellent choice! She's a real floater!",
+      "Remember: don't pop it! That's bad!",
+      "Careful in high winds! Actually, avoid all winds!",
+      "Your ticket to the clouds! Literally!"
+    ],
+    "purchase_fail": [
+      "No coin, no climb! Harsh but true!",
+      "Balloons cost money! Helium costs money!",
+      "Come back when you've saved up! The sky can wait!"
+    ],
+    "rumor": [
+      "They say the sunandmoon can predict storms a week early. Useful for ballooning!",
+      "Red's balloons are cheaper, but mine are SAFER. Probably.",
+      "The sky-train conductor claims to have seen the edge of the world. Doubtful!",
+      "Something weird happening at the Remnant Vault. Balloons won't fly over it!",
+      "The twins gave me a fortune: 'Beware of sharp objects.' Very helpful!"
+    ],
+    "quest_hook": "I need quality canvas from the ground-dwellers! My supplier dried up. Bring me three bolts of Cloud-Silk Canvas and I'll make it worth your while!",
+    "quest_active": "Find that Cloud-Silk Canvas yet? My business is deflating here!",
+    "quest_complete": "THE CANVAS! Beautiful! I can make the BIGGEST balloon now! Here - take this Cloud-Hopper. Custom made!",
+    "quest_reward": "Cloud-Hopper Deluxe - Superior altitude and comfort!",
+    "farewell": [
+      "Safe flights! Mind the wind shear!",
+      "Come back anytime! The sky is always open!",
+      "Keep reaching for the clouds!"
+    ],
+    "ambient_barks": [
+      "Balloons! Get your balloons here!",
+      "Best altitude in town!",
+      "Blue is the color of the SKY!",
+      "Don't look down! Look UP!",
+      "Helium is my life!"
+    ],
+    "time_dawn": "Morning ascensions are the prettiest! The sunrise from 500 feet!",
+    "time_noon": "Thermal currents are strong today! Watch your drift!",
+    "time_dusk": "Evening flights! The sunset balloons are romantic!",
+    "time_night": "Night flying? Not recommended! But possible! For a price!"
+  },
+  "party_reactions": {
+    "kade": "Balloons. You're serious about the balloons.",
+    "nix7": "Helium or hydrogen? Please say helium.",
+    "twist": "I want to go HIGHER! Can we go higher?!",
+    "korr": "A noble pursuit. The sky calls to all dreamers.",
+    "renna": "The physics of this seem... questionable.",
+    "suresh": "To float above the earth is to see the world anew.",
+    "sova": "I'd rather keep my feet on the ground, thanks.",
+    "grit": "Hydrogen balloons. In a lightning zone. Genius.",
+    "ashka": "Can you make FIRE balloons? That would be AMAZING!",
+    "senna": "Ever drop anything valuable? From way up high?",
+    "callum": "It looks... precarious. But beautiful!",
+    "petra": "Solid ground. That's all I need."
+  },
+  "relationship_dialog": {
+    "stranger": "First time buying altitude? I explain everything!",
+    "acquaintance": "Back for more sky? I knew you had good taste!",
+    "friend": "My favorite customer! I've got a special balloon just for you!",
+    "best_friend": "You! My business partner in dreaming! Let's go UP together!"
+  },
+  "mini_quest": {
+    "id": "cloud_silk_canvas",
+    "title": "The Canvas Run",
+    "description": "Bring Cloud-Silk Canvas to Cirrus for his balloon business",
+    "stages": {
+      "hook": "I need Cloud-Silk Canvas! Three bolts! My balloon business depends on it!",
+      "active": "The weavers in Tide have the best canvas. Or try the Dustbelt traders!",
+      "complete": "PERFECT! With this, I can craft something truly special! Here - my finest work!"
+    },
+    "reward": {
+      "item": "cloud_hopper_deluxe",
+      "gold": 250,
+      "reputation": "sky_merchant_friend"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "npc_id": "trenchcoat_gray",
+  "name": "Shade",
+  "title": "Void-Touched Informant",
+  "zone": "capital",
+  "location": "Shadow Market, Southern Ruins",
+  "description": "A twitchy figure in a gray trenchcoat that seems to absorb light. Eyes occasionally flicker with violet static.",
+  "sprite_variant": "trenchcoat_gray",
+  "greeting_variants": [
+    "*head twitches unnaturally* You see it too, don't you? The... spaces between?",
+    "Shhh. The walls are listening. The Void remembers everything.",
+    "*giggles* Black coat Vex thinks I'm crazy. Maybe. But I see TRUE.",
+    "You're... solid. Most people here are getting... fuzzy. At the edges.",
+    "*whispers* The Tower sings at night. Did you know? Sings to the sky.",
+    "Don't trust the shadows. Except me. I'm... mostly trustworthy.",
+    "*stares past you* Something followed you here. From the... other place.",
+    "Have you spoken to the echoes? They know things. Things before."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I was... normal. Once. Before I fell through. The Void doesn't just take you—it keeps part. But gives something back. Knowledge. Whispers. TRUTH.",
+          "options": [
+            {"text": "Fell through?", "goto": "void_fall"},
+            {"text": "What truth?", "goto": "void_truth"},
+            {"text": "Are you dangerous?", "goto": "danger_assessment"},
+            {"text": "I'll leave you be.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "void_fall",
+          "text": "The tear opened right beneath my feet. I dropped for... hours? Days? Time doesn't... flow right there. When I climbed out, I brought something with me. *taps temple* Voices. But useful ones.",
+          "party_reactions": {
+            "mira": "Temporal displacement with cognitive retention... remarkable.",
+            "kael": "You survived the Void itself? Few have that strength.",
+            "shade": "Strength? No. Luck. Pure, purple luck."
+          },
+          "options": [
+            {"text": "What do the voices say?", "goto": "voices_info"},
+            {"text": "Can you control it?", "goto": "control_check"}
+          ]
+        },
+        {
+          "id": "void_truth",
+          "text": "The Void isn't empty. It's... full. Of everything that could have been. Every choice unmade. Every path not taken. And something lives there. Something OLD. It wants IN.",
+          "options": [
+            {"text": "What does it want?", "goto": "void_desire"},
+            {"text": "How do we stop it?", "goto": "void_solution"}
+          ]
+        },
+        {
+          "id": "danger_assessment",
+          "text": "*laughs, sound echoing slightly* I don't know. Sometimes I wake up places with no memory. Sometimes... *shows hands, briefly transparent* ...I fade. But I haven't hurt anyone. Yet. Vex watches me. I don't blame him.",
+          "options": [
+            {"text": "I trust you.", "goto": "trust_given", "flags": {"shade_trusted": true}},
+            {"text": "Stay away from me.", "goto": "distrust"}
+          ]
+        },
+        {
+          "id": "trust_given",
+          "text": "*eyes widen, genuine emotion breaking through* You... thank you. Most people... look, if you're going to the Void proper, find me first. I can... navigate. A little. The voices know paths.",
+          "unlocks": {"service": "void_navigation"},
+          "options": [
+            {"text": "I might take you up on that.", "goto": "exit"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "reality_anchor",
+    "title": "Stabilize the Glitched",
+    "description": "Help Shade construct a reality anchor to stabilize another void-touched survivor who's losing cohesion.",
+    "objectives": [
+      "Collect 3 resonance crystals from the ruins",
+      "Find a power cell in the hazmat storage",
+      "Help Shade calibrate the anchor",
+      "Use the anchor on the fading survivor"
+    ],
+    "rewards": {
+      "experience": 600,
+      "reputation": {"resistance": 20, "void_touched": 30},
+      "items": ["void_resonator", "reality_anchor_schematic"],
+      "unlock": "shade_companion_void_zone"
+    },
+    "prerequisites": ["shade_trusted"]
+  },
+  "ambient_barks": [
+    "*mumbling to self* ...seven floors up, then the twist, then...",
+    "Don't eat the purple mushrooms. I learned that... the hard way.",
+    "The Twins in the Tower? They're not really twins. You'll see.",
+    "*sudden shout* WATCH OUT! ...sorry. False alarm. I think.",
+    "If you meet me in the Void, don't trust me there. I won't be... me.",
+    "The Palace clock stopped at 3:33. When it moves again... bad things.",
+    "*counting on fingers* One, one, two, three, five, eight, thirteen...",
+    "Your shadow's wrong. Has been since you arrived. Just... so you know."
+  ],
+  "cross_zone_references": {
+    "void_nexus": "I can hear it calling. Constantly. Sometimes I answer. Just to see what it wants.",
+    "chroma_tower": "The echoes there... they're not ghosts. They're... echoes of tomorrow. Of what will be.",
+    "palace": "Don't go. Please. What lives there... what lives there made the Void. Made ALL of this."
+  },
+  "party_reactions": {
+    "mira": {
+      "greeting": "Fascinating! Your quantum state is partially decoherent!",
+      "response": "*pleased* Finally, someone who speaks sense! Yes! Decoherent! Exactly!"
+    },
+    "kael": {
+      "greeting": "*hand on weapon* You're one of the touched.",
+      "response": "*sad smile* Yes. And you're one of the afraid. It's okay. Most are."
+    },
+    "garret": {
+      "greeting": "Hey, uh, your eyes are doing that... static thing again.",
+      "response": "*rubs eyes* Thanks. Doesn't hurt, but it's rude to stare. At myself."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "More lucid, able to hold conversations",
+      "night": "Agitated, speaks in riddles, occasionally phases through objects"
+    },
+    "world_state_triggers": {
+      "void_expansion": "Panics: 'It's accelerating! The tear is growing!'",
+      "tower_activated": "Calms noticeably: 'The song... it changed. Became hopeful.'",
+      "near_void_zone": "Becomes more coherent, almost normal: 'I can... breathe easier here'"
+    }
+  }
+}

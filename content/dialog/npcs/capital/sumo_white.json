@@ -1,0 +1,117 @@
+{
+  "npc_id": "sumo_white",
+  "name": "Boulder",
+  "title": "Camp Guardian",
+  "zone": "capital",
+  "location": "Camp Entrance, Main Gate",
+  "description": "A massive sumo wrestler in white mawashi, standing as an immovable guardian of the refugee camp.",
+  "sprite_variant": "sumo_white",
+  "greeting_variants": [
+    "*slams foot* HALT! State business!",
+    "Camp is safe. Boulder keeps safe. You safe here.",
+    "*crosses arms* Strong look weak. Weak look strong. You?",
+    "Many try enter. Boulder stop. Every time.",
+    "*sniffs* You smell... like fighter. Good. We need.",
+    "Boulder was champion. Now Boulder is wall. Both good.",
+    "*stomps, ground shakes* Warning to enemies. Comfort to friends.",
+    "You small. But small can be mighty. Boulder knows."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Boulder. Camp guardian. Before, ring fighter. Champion! Now... *pats chest* ...different ring. Different fight. Same heart.",
+          "options": [
+            {"text": "You're imposing.", "goto": "compliment"},
+            {"text": "Ever have trouble here?", "goto": "threats"},
+            {"text": "Want to spar?", "goto": "sparring"},
+            {"text": "Goodbye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "compliment",
+          "text": "*pleased rumble* Thank. Size is gift. But mind is weapon too. Boulder reads people. Watches. Knows who threatens. Who helps. You? *studies you* ...you help. Boulder sees.",
+          "options": [
+            {"text": "You can read people?", "goto": "reading"},
+            {"text": "Who's threatened?", "goto": "past_threats"}
+          ]
+        },
+        {
+          "id": "threats",
+          "text": "Barrelgobs. Sometimes. Void-touched. Rare, but bad. Worst? Desperate people. Hungry. Afraid. They do bad things. Boulder understands. But still stops. Protects those inside.",
+          "party_reactions": {
+            "kael": "A guardian with compassion. Rare.",
+            "boulder": "Compassion is strength. Boulder knows this."
+          },
+          "options": [
+            {"text": "That's noble.", "goto": "nobility"},
+            {"text": "Need help guarding?", "goto": "guard_help"}
+          ]
+        },
+        {
+          "id": "sparring",
+          "text": "*eyes light up* Spar? Yes! Boulder miss ring! But... careful. Boulder strong. Even holding back. You sure?",
+          "options": [
+            {"text": "I'm sure.", "goto": "spar_start", "flags": {"spar_initiated": true}},
+            {"text": "Maybe later.", "goto": "exit"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "guard_training",
+    "title": "Train the Guards",
+    "description": "Help Boulder train refugee volunteers in basic defense to protect the camp.",
+    "objectives": [
+      "Gather training supplies from Onionboss",
+      "Help Boulder demonstrate defensive stances",
+      "Spar with 3 trainee guards",
+      "Lead a patrol around the camp perimeter",
+      "Report to Vex on trainee progress"
+    ],
+    "rewards": {
+      "experience": 400,
+      "reputation": {"resistance": 25, "guards": 30},
+      "items": ["boulder_belt", "sumo_stance_manual"]
+    },
+    "prerequisites": ["spar_initiated"]
+  },
+  "ambient_barks": [
+    "*cracking knuckles* Boulder ready. Always ready.",
+    "*staring down a barrelgob* Small. Fast. But Boulder patient.",
+    "Camp sleeps. Boulder watches. Every night.",
+    "*practicing stomps* Train body. Train mind. Both strong.",
+    "You need help carrying? Boulder carry much.",
+    "*sniffing air* Something wrong. Boulder smells it.",
+    "White is pure. Boulder keeps camp pure. Safe.",
+    "*gentle voice to child* Little one. Lost? Boulder help find mama."
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "Tower has sumo too. Gold one. Royal guard. Boulder heard stories.",
+    "palace": "Boulder guarded Palace once. Long ago. Before tear.",
+    "ember": "Ember has strong fighters. Boulder respects."
+  },
+  "party_reactions": {
+    "kael": {
+      "greeting": "Guardian. Your vigilance honors you.",
+      "response": "*formal bow* Captain. Your honor honors you."
+    },
+    "garret": {
+      "greeting": "Boulder! My favorite immovable object!",
+      "response": "*rumbles with laughter* Garret! Movable jokester!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Guarding entrance, training volunteers",
+      "night": "Night watch, patrolling camp perimeter"
+    },
+    "world_state_triggers": {
+      "attack_imminent": "Takes defensive position, warns camp: 'Boulder holds. You run if needed.'",
+      "threat_eliminated": "Relaxes slightly, offers healing/rest to party"
+    }
+  }
+}

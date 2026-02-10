@@ -1,0 +1,54 @@
+{
+  "npc_id": "regent_caelum",
+  "name": "Regent Caelum",
+  "title": "Command Figure",
+  "zone": "prism",
+  "location": "The Regent's Revelation Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Regent Caelum on comms. Stage 2: The Regent's Revelation. Keep formation tight and decisions tighter.",
+      "We are running Shattered Light. Objective drift gets teams buried.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking.",
+      "Action first, panic never. Start with: Present your case to Regent Caelum."
+    ],
+    "quest_hook": "Objective stack: Present your case to Regent Caelum; Submit to the Truth Prism; Reveal your true intentions. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Meet with Regent Caelum and learn of the Crystal of Truth. Immediate move: Present your case to Regent Caelum.",
+    "quest_complete": "Stage 2 resolved: The Regent's Revelation. Primary objective secured and route stabilized. Prepare for Mirror of the Soul.",
+    "rumor": [
+      "A shattered lens was heard chanting the same warning in seven languages.",
+      "People keep repeating one clue from The Regent's Revelation: 'Reveal your true intentions'.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn light in Prism reveals hidden seams in mirrored stone.",
+    "time_noon": "Noon overcharges reflection grids. Angle your approach, do not rush centerline.",
+    "time_dusk": "Dusk doubles your silhouette count. Track teammate positions verbally.",
+    "time_night": "Night turns crystal caverns into echo mazes. Keep line-of-sight discipline."
+  },
+  "party_reactions": {
+    "kade": "Regent Caelum sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Regent Caelum accepted. Probability of success improves with compliance.",
+    "twist": "Regent Caelum talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "prism_shattered_light"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

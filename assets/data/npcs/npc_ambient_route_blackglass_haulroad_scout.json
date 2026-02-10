@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_BLACKGLASS_HAULROAD_SCOUT",
+  "name": "Blackglass Haulroad Wayfarer",
+  "title": "Route Tracker",
+  "location": "MIC_R10_104x56",
+  "coords": [
+    52,
+    28
+  ],
+  "schedule": {
+    "day": [
+      52,
+      28
+    ],
+    "night": [
+      55,
+      26
+    ],
+    "rain": [
+      54,
+      28
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Assigned to Blackglass Haulroad.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

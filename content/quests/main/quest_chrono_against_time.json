@@ -1,0 +1,146 @@
+{
+  "quest_id": "chrono_against_time",
+  "name": "Against Time",
+  "zone": "chrono",
+  "act": 3,
+  "prerequisites": [
+    "frost_frozen_path"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Where Time Folds",
+      "description": "Enter Chrono and experience temporal anomalies",
+      "npc": "temporal_refugee_echo",
+      "dialog_start": "You—you're not frozen! You're moving! Like me! I'm Echo—I was a scientist, I think, or I will be? Time is broken here. I witnessed the Shattering. Or I'm about to. The Crystal of Time is failing. Without it, all moments become one moment. Forever. You have to fix it. Please. I don't want to be stuck in yesterday forever.",
+      "objectives": [
+        "Navigate the temporal instabilities",
+        "Locate the Chronos Spire",
+        "Avoid temporal duplicates of yourself"
+      ],
+      "dialog_complete": "You made it! You actually made it through the Looping Fields! The Chronos Spire is just ahead—but beware. Time has fractured into... personalities. Past, Present, Future. They were one entity, the Chronos Guardian. Now they're fighting each other. And the Void is feeding on the chaos.",
+      "rewards": {
+        "exp": 1400,
+        "item": "temporal_anchor_charm"
+      },
+      "target_location_id": "MIC_R14_128x56"
+    },
+    {
+      "stage": 2,
+      "name": "The Fractured Guardian",
+      "description": "Meet the three aspects of the Chronos Guardian",
+      "npc": "chronos_past",
+      "dialog_start": "[A voice heavy with memory and regret] You come too late. Everything has already happened. The Shattering. The mistakes. The Void's creation. I remember it all. I remember the pain. Why would anyone want to move forward when the past holds only sorrow? Stay with me. Remember what was lost. Grieve forever.",
+      "objectives": [
+        "Speak with Chronos Past",
+        "Speak with Chronos Present",
+        "Speak with Chronos Future"
+      ],
+      "dialog_complete": "Three voices, one truth: We were whole once. We guarded the flow. But the Void's touch wounded us, split us into moments. We cannot recombine while the wound festers. You carry healing—Truth, Strength, Depth, Industry, Endurance. Perhaps... perhaps you can heal time itself.",
+      "rewards": {
+        "exp": 1500,
+        "item": "chrono_aspect_fragments"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 3,
+      "name": "Healing the Flow",
+      "description": "Use the five Crystals to reunite the Chronos Guardian",
+      "npc": "chronos_present",
+      "dialog_start": "[A voice of immediacy, of NOW] The moment is all that exists. Past is memory. Future is possibility. Only NOW is real. But my siblings—them I miss. We were meant to be one. The Void knew this. Exploited our fracture. You want the Crystal of Time? Help us become whole again. Heal the wound in the flow.",
+      "objectives": [
+        "Channel the five Crystals' power",
+        "Heal the temporal wound",
+        "Merge the three aspects"
+      ],
+      "dialog_complete": "[A single, harmonious voice] WE ARE CHRONOS. GUARDIAN OF FLOW, KEEPER OF MOMENTS. YOU HAVE RESTORED WHAT WAS BROKEN. THE CRYSTAL OF TIME IS YOURS. USE IT WISELY, BEARER. TIME IS PRECIOUS. IRREPLACEABLE. DO NOT WASTE IT.",
+      "rewards": {
+        "exp": 2000,
+        "item": "crystal_of_time"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Future That Waits",
+      "description": "Witness visions of possible futures",
+      "npc": "chronos_future",
+      "dialog_start": "[A voice of possibility, of MIGHT BE] You want to see what happens if you succeed? If you fail? I see all paths. Victory. Defeat. Sacrifice. Redemption. The future is not fixed, Bearer. Every choice you make branches reality. I will show you what waits. But know this: seeing the future changes it. Choose carefully what you learn.",
+      "objectives": [
+        "Witness the Victory vision",
+        "Witness the Defeat vision",
+        "Choose your path forward"
+      ],
+      "dialog_complete": "[The vision fades, leaving resolve] You saw. You understand now. Victory requires sacrifice. Not just yours—those you love. The Void knows this. It will offer you deals. Compromises. Half-measures. To win, you must be willing to lose everything. Are you prepared for that price, Bearer?",
+      "rewards": {
+        "exp": 1800,
+        "item": "future_sight_blessing"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 5,
+      "name": "Capital Intrigue",
+      "description": "Learn that the final Crystal is in the Capital, controlled by the corrupt regime",
+      "npc": "echo",
+      "dialog_start": "The Chronos Spire records everything. I found it—the location of the seventh Crystal! It's in the Capital! But... that's terrible news. The Capital's government is the most corrupt in Chroma. They've been collaborating with the Void for YEARS. They call it 'managed coexistence.' It's surrender. And they have the Crystal of Unity—the most powerful of all.",
+      "objectives": [
+        "Study the Capital's defenses",
+        "Learn of the resistance movement",
+        "Plan the infiltration"
+      ],
+      "dialog_complete": "There's a resistance—the Fallen Crown. They oppose the Void-collaborators. If you can find them, ally with them... you might have a chance. But the Capital is heavily defended. And the Void's influence there is... total. This won't be like the other zones. This is enemy territory.",
+      "rewards": {
+        "exp": 1600,
+        "item": "resistance_contact_codes"
+      },
+      "target_location_id": "T_MERIDIAN_112x72"
+    },
+    {
+      "stage": 6,
+      "name": "All Roads Lead",
+      "description": "Gather allies and prepare for the assault on the Capital",
+      "npc": "chronos",
+      "dialog_start": "[The unified voice resonates with new strength] Six Crystals. Six aspects of existence bound to your soul. The world feels your gathering. The Void feels it. It will throw everything at you now. But you are not alone. Call your allies. Rally your forces. The final battle for Chroma's soul begins in the Capital. Make haste, Bearer. Time, finally, is on your side.",
+      "objectives": [
+        "Rally all zone allies",
+        "Consolidate the alliance forces",
+        "March on the Capital"
+      ],
+      "dialog_complete": "The army of the alliance stands ready. Dustbelt scavengers, Upland scholars, Mire healers, Prism warriors, Ember champions, Tide hydromancers, Obsidian workers, Frost wardens, and Chrono refugees—all united under your banner. Six Crystals blaze at your side. The world holds its breath. The Capital awaits.",
+      "rewards": {
+        "exp": 1900,
+        "gold": 1300,
+        "unlock": "zone_capital"
+      },
+      "target_location_id": "T_LUMENCREST_OUTER_112x72"
+    }
+  ],
+  "story_beats": [
+    "Chrono exists in a state of temporal flux due to the fractured Chronos Guardian",
+    "The party heals the Guardian by merging Past, Present, and Future aspects",
+    "The Crystal of Time is obtained—the sixth of Seven",
+    "Visions reveal that victory will require great sacrifice",
+    "The final Crystal is in the Capital, held by the Void-collaborating government"
+  ],
+  "party_reactions": {
+    "kade": "I saw the future. I saw myself... alone. Holding all seven Crystals, but everyone else was gone. I don't know if that's what WILL happen or what MIGHT happen. But it scared me. I'm doing this to save people, not to be the last one standing. I won't let that future come true.",
+    "nix7": "Temporal mechanics are no longer theoretical. I experienced yesterday and tomorrow simultaneously. My processors... adapted. I am no longer strictly bound by linear time. Fascinating. Concerning. I may need a firmware update.",
+    "skysong": "I saw my ship destroyed. I saw myself drowning. But I also saw myself old, surrounded by people I helped save. Both futures felt real. I'm choosing to believe the second one. The future isn't fixed—we make it, moment by moment.",
+    "vesper": "The temporal energy readings were OFF THE CHARTS! I recorded data that should be impossible! Past and future matter occupying the same space! If I can replicate this in a controlled environment—what? Yes, yes, I know we don't have time. But SCIENCE!",
+    "ven": "I talked to myself. From tomorrow. He—I mean, I—warned me about a trap in the Capital. Said I'd know it when I saw 'the golden door.' Then he disappeared. Time travel is weird. I'm just going to roll with it.",
+    "pyra": "The Chronos Guardian's past aspect remembered the Progenitors. Said they were 'kind but frightened.' They made the Void because they were afraid of something worse. I want to know what. If we're fighting the wrong enemy... no. No, the Void is destroying everything. That makes it the enemy. But I'm keeping questions open.",
+    "abyssal": "I am old. Very old. But in Chrono, I met myself from before the Shattering. Young, arrogant, certain of my immortality. I tried to warn me. Past-me wouldn't listen. Some lessons can only be learned through pain. I remember that pain now. It makes me kinder to these young ones.",
+    "gearhart": "The Chronos records showed me Obsidian's future. If we win: green towers, clean air, workers thriving. If we lose: ash and silence. I know which future I'm building toward. The machines I'm designing now—they'll help, not exploit. That's my promise to time itself.",
+    "blizzard": "I saw Frosthold thriving. Trading with the other zones, the ice barrier melted by friendship instead of fire. That's the future I want. That's why I'm here. Not just for the world—for my home. For the hope of connection.",
+    "echo": "I'm not fading anymore! Time is flowing forward again! I don't know when I am, exactly, but I'm MOVING! Thank you, all of you! I'm coming with you to the Capital. Someone needs to document this. History is watching, and I intend to give it a good show!"
+  },
+  "unlocks": [
+    "zone_capital",
+    "quest_capital_fallen_crown",
+    "crystal_time_ability",
+    "companion_echo",
+    "alliance_army"
+  ]
+}

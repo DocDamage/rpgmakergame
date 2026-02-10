@@ -1,0 +1,54 @@
+{
+  "npc_id": "spy_master_veil",
+  "name": "Spy Master Veil",
+  "title": "Core Companion",
+  "zone": "capital",
+  "location": "Shadows in the Palace Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "adaptive_direct_grounded",
+  "occupation": "story_companion",
+  "dialog": {
+    "greeting": [
+      "Spy Master Veil on comms. Stage 2: Shadows in the Palace. Keep formation tight and decisions tighter.",
+      "We are running The Fallen Crown. Objective drift gets teams buried.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions.",
+      "Action first, panic never. Start with: Infiltrate the Ministry of Unity."
+    ],
+    "quest_hook": "Objective stack: Infiltrate the Ministry of Unity; Steal the Grand Unification plans; Escape undetected. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Gather intelligence on the Void's final plan. Immediate move: Infiltrate the Ministry of Unity.",
+    "quest_complete": "Stage 2 resolved: Shadows in the Palace. Primary objective secured and route stabilized. Prepare for The Usurper's Throne.",
+    "rumor": [
+      "Patrol routes keep changing to avoid one unlit corridor no one claims to have seen.",
+      "People keep repeating one clue from Shadows in the Palace: 'Escape undetected'.",
+      "A pigeon outranked three commanders here last week. Merit system is broken."
+    ],
+    "ambient_barks": [
+      "Keep moving.",
+      "We can do this.",
+      "Breathe and focus.",
+      "One step, then next."
+    ],
+    "time_dawn": "Dawn gives the cleanest sightlines in the capital ruins. Move before crowds regroup.",
+    "time_noon": "Noon is surveillance peak. Assume every lane is observed.",
+    "time_dusk": "Dusk favors ambush teams and rumor storms. Confirm every briefing twice.",
+    "time_night": "Night in the crown district means quiet knives and loud mistakes. Stay disciplined."
+  },
+  "party_reactions": {
+    "kade": "Spy Master Veil sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Spy Master Veil accepted. Probability of success improves with compliance.",
+    "twist": "Spy Master Veil talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "capital_fallen_crown"
+    ],
+    "fallback_dialog_tree": "DT_FALLBACK_MISC",
+    "world_break_aware": true
+  }
+}

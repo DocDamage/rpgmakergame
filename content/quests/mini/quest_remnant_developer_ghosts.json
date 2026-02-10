@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_developer_ghosts",
+  "name": "Voices from Beyond",
+  "zone": "remnant",
+  "giver": "signguy",
+  "type": "investigation",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "The Remnant holds echoes—not just of the game world, but of its creation. Developer ghosts, they call them—fragments of intent, design notes, creator thoughts left embedded in the code. I've found traces of three such echoes. Find them, hear them, understand the hands that shaped our world.",
+      "objective": "Locate and interact with three developer echoes"
+    },
+    "progress": {
+      "dialog": "Two echoes found—insights into character creation, world-building decisions, abandoned ideas. The third echo is different. It's not from a developer—it's from the world itself, somehow aware of being created. It has questions for you, Kade. About purpose, existence, what it means to be 'real.'",
+      "objective": "Answer the world's questions about existence and purpose"
+    },
+    "complete": {
+      "dialog": "Echoes heard, questions answered, understanding achieved. The developers built this world with love, with care, with intention. And the world they built has become something more—a place that matters, that lives, that asks its own questions. You've spoken with creators and creation alike. Few can claim that.",
+      "rewards": {
+        "exp": 45000,
+        "gold": 12000,
+        "item": "creator_insight"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Talking to the people who made me... weird doesn't begin to cover it. But they seemed nice. Cared about their work.",
+    "sova": "Meta-textual awareness in a game world. Fascinating philosophical implications about fiction, reality, and meaning.",
+    "callum": "If we're characters in a story, then let's make it a good one. That's all any of us can do, creator or created."
+  },
+  "lore_unlocks": ["developer_ghosts", "meta_narrative"]
+}

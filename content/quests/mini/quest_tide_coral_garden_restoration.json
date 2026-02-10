@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_coral_garden_restoration",
+  "name": "Garden of Living Stone",
+  "zone": "tide",
+  "giver": "foodboys_blue",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The coral gardens are dying! Pollution from the ironworks is killing the rainbow coral! If it dies, the whole reef ecosystem collapses! We need to plant cleansing sponges to filter the water, but the deep currents are dangerous!",
+      "objective": "Collect cleansing sponges from the Deep Vent fields"
+    },
+    "progress": {
+      "dialog": "Good! Now we need to plant them in specific spots—marked by ancient statues. But watch out for reef sharks! They're protective of their territory. Plant all five sponges to restore the filtration!",
+      "objective": "Plant cleansing sponges at all 5 marked locations"
+    },
+    "complete": {
+      "dialog": "The coral is already looking healthier! The Merfolk send their thanks—they've blessed you with a Coralheart Pendant! It lets you breathe underwater for short periods and communicates with sea life!",
+      "rewards": {
+        "exp": 700,
+        "gold": 400,
+        "item": "coralheart_pendant"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Saving the ocean one sponge at a time! The coral really is beautiful!",
+    "twist": "I got bit by something. I'm developing a rash.",
+    "nix7": "Ecosystem restoration: successful. Marine biodiversity: preserved."
+  }
+}

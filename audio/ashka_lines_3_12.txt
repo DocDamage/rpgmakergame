@@ -1,0 +1,45 @@
+chroma_edge_script_part3.md:164:Dominion patrols shifted.
+chroma_edge_script_part3.md:330:(doesn't lower the scope)
+chroma_edge_script_part3.md:344:What are you taking?
+chroma_edge_script_part3.md:352:Then I'm in.
+chroma_edge_script_part3.md:596:Two snipers. Elevated left.
+chroma_edge_script_part3.md:910:This isn't nature.
+chroma_edge_script_part3.md:973:…It worked.
+chroma_edge_script_part4.md:7:This used to be bright country.
+chroma_edge_script_part4.md:617:New passages just opened.
+chroma_edge_script_part5.md:21:Two spotters on the bow. One aft gun.
+chroma_edge_script_part5.md:180:Movement in the tunnels.
+chroma_edge_script_part6.md:655:…That's in the corrupted zones.
+chroma_edge_script_part6.md:663:And that's where my brother disappeared.
+chroma_edge_script_part6.md:674:Then we're going.
+chroma_edge_script_part6.md:686:We'll see what's left.
+chroma_edge_script_part7.md:19:Wind patterns shifted.
+chroma_edge_script_part7.md:26:You listen.
+chroma_edge_script_part7.md:39:Zephyros…
+chroma_edge_script_part7.md:49:(whisper)
+chroma_edge_script_part7.md:55:Kellen went missing on a Dominion patrol sweep.
+chroma_edge_script_part7.md:66:If he's alive…
+chroma_edge_script_part7.md:75:Then I bring back what's left.
+chroma_edge_script_part7.md:175:…That's his voice.
+chroma_edge_script_part7.md:185:Kellen…
+chroma_edge_script_part7.md:200:Then let's find him.
+chroma_edge_script_part7.md:259:Kellen!
+chroma_edge_script_part7.md:269:Come home.
+chroma_edge_script_part7.md:288:You're not a lock. You're my brother.
+chroma_edge_script_part7.md:321:Then I'll remind you what you are.
+chroma_edge_script_part7.md:375:I'm here.
+chroma_edge_script_part7.md:421:Thank you.
+chroma_edge_script_part7.md:429:I learned from you.
+chroma_edge_script_part7.md:449:Then borrow my hands.
+chroma_edge_script_part7.md:454:Stay.
+chroma_edge_script_part7.md:521:NO.
+chroma_edge_script_part7.md:593:Don't you dare die.
+chroma_edge_script_part7.md:604:Yeah.
+chroma_edge_script_part9.md:58:Tell him… nothing.
+chroma_edge_script_part12.md:434:Kellen.
+chroma_edge_script_part12.md:452:You're not supposed to be here.
+chroma_edge_script_part12.md:492:Then why are you blocking us?
+chroma_edge_script_part12.md:520:Don't you dare make me fight you again.
+chroma_edge_script_part12.md:537:Stop doing that. Stop almost dying like it's heroic.
+chroma_edge_script_part12.md:580:So you're staying.
+chroma_edge_script_part12.md:596:Don't.

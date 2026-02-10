@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_shadow_hunt",
+  "name": "Hunting the Shadow",
+  "zone": "void",
+  "giver": "coolcat_void",
+  "type": "combat",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "Something's stalking the Void-touched travelers. Not a monster—something smarter, something that learns. I've seen the bodies: drained, hollow, marked with symbols that hurt to look at. It's hunting, and we're the prey. Turn the tables. Hunt the hunter.",
+      "objective": "Investigate the hunter attacks and track the creature"
+    },
+    "progress": {
+      "dialog": "Tracks lead to the Shattered Cathedral—a place where the Void first broke through centuries ago. The hunter has made its lair there, surrounded by trophies of its kills. It's aware of you now. The hunt has become a duel. Only one predator leaves alive.",
+      "objective": "Confront and defeat the Void hunter in the Shattered Cathedral"
+    },
+    "complete": {
+      "dialog": "The hunter is dead, its lair burned, its trophies released. The Shattered Cathedral is a little less haunted tonight. You proved that even in the deepest dark, the hunter can become the hunted. Travelers will sleep safer because of what you did.",
+      "rewards": {
+        "exp": 14500,
+        "gold": 2800,
+        "item": "hunter_trophy"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "That thing was fast. Smart. Almost got me twice. Good hunt—worthwhile prey.",
+    "ashka": "Tracking in the Void is like tracking through a nightmare. The rules keep changing. Impressive work, Kade.",
+    "vex": "A predator that preys on the innocent. There's a special place in the dark for such creatures. We sent it there."
+  },
+  "lore_unlocks": ["void_hunters", "shattered_cathedral"]
+}

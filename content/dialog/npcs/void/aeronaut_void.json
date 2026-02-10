@@ -1,0 +1,118 @@
+{
+  "npc_id": "aeronaut_void",
+  "name": "Drift",
+  "title": "Void Balloonist",
+  "zone": "void",
+  "location": "The Floating Platform, Void Skies",
+  "description": "A daring aeronaut navigating the impossible winds of the Void in a balloon that shouldn't be able to fly.",
+  "sprite_variant": "aeronaut_void",
+  "greeting_variants": [
+    "*adjusting rigging* Ho there! Didn't expect visitors at this altitude!",
+    "Drift, at your service! Navigator of nowhere!",
+    "*balloon creaking ominously* She flies on hope and hot air. Mostly hope.",
+    "The winds here... wrong direction. All directions. No directions.",
+    "*waving from basket* Come up! View's terrible! Fascinating, but terrible!",
+    "Ballooning in the Void. Madness? Yes. But what else to do?",
+    "*checking instruments, all spinning* Navigation... challenging. Exciting!",
+    "I map what cannot be mapped. Someone has to."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Drift! Aeronaut extraordinaire! Or... was. Grounded by the Void, but not defeated! Built this beauty—*pats balloon* —from salvage. She flies on Void-winds. Unpredictable. Dangerous. But flying!",
+          "options": [
+            {"text": "How does it fly?", "goto": "flight_mechanics"},
+            {"text": "What do you see from up there?", "goto": "observations"},
+            {"text": "Can you give me a ride?", "goto": "ride_request"},
+            {"text": "Good luck up there.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "flight_mechanics",
+          "text": "*grins* Magic! No, science! No... both? The Void has currents. Like air, but not. Like water, but not. My balloon catches them. Rides them. Sometimes where I want. Sometimes... elsewhere. Adventure!",
+          "party_reactions": {
+            "mira": "Void-current aeronautics? Theoretically fascinating!",
+            "drift": "Theory keeps me alive! Barely! Worth it!"
+          },
+          "options": [
+            {"text": "Isn't that dangerous?", "goto": "danger"},
+            {"text": "Where have you been?", "goto": "destinations"}
+          ]
+        },
+        {
+          "id": "observations",
+          "text": "*eyes gleam* Wonders! Horrors! The Void... it goes on. Forever? Layers. Like onion. Like cake. Like... geometry defying description. And the Palace—*points up* —always up there. Always distant. Always watching.",
+          "options": [
+            {"text": "Tell me about the Palace from above.", "goto": "palace_view"},
+            {"text": "What wonders?", "goto": "wonders"}
+          ]
+        },
+        {
+          "id": "ride_request",
+          "text": "*excited* Passenger? YES! Weight is... concern. But courage! Come aboard! Hold tight! Scream if you need to! I certainly do!",
+          "options": [
+            {"text": "Let's fly!", "goto": "flight_start"},
+            {"text": "Actually, I'm good.", "goto": "exit"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "chart_the_skies",
+    "title": "Chart the Void Skies",
+    "description": "Accompany Drift on an aerial survey to map the shifting geography of the Void from above.",
+    "objectives": [
+      "Board Drift's balloon",
+      "Survey the First Layer from above",
+      "Navigate through a Void storm",
+      "Document the shifting landmarks",
+      "Return safely with the charts"
+    ],
+    "rewards": {
+      "experience": 600,
+      "reputation": {"aeronauts": 35, "explorers": 30},
+      "items": ["void_compass", "drift_goggles"],
+      "unlock": "void_fast_travel"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*adjusting sails* Wind's changing! Always changing!",
+    "Beautiful! Terrifying! Beautiful because terrifying!",
+    "*checking altitude* Up? Down? Both? Wonderful!",
+    "Balloon holds! Patch 47 still holding! Good patch!",
+    "See that? *pointing* No? Gone now. Was amazing.",
+    "*singing while working* Oh I fly through the void so dark...",
+    "Navigation impossible! Therefore: adventure!",
+    "*shouting down* Hello ground! Still there? Hard to tell!"
+  ],
+  "cross_zone_references": {
+    "capital": "Flew over once. Saw the camp. Small. Brave. Like ants. Noble ants.",
+    "chroma_tower": "Tower pierces clouds! Even Void clouds! Impressive!",
+    "palace": "Always above. Always distant. Goal! Destination! Mystery!"
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Drift! You absolute madman!",
+      "response": "*delighted* Garret! Fellow appreciator of madness!"
+    },
+    "mira": {
+      "greeting": "Your aerial data would be invaluable!",
+      "response": "Data! Charts! Science! Yes! Come fly! Record!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Higher altitude flying, better visibility",
+      "night": "Lower, more cautious, instruments unreliable"
+    },
+    "world_state_triggers": {
+      "storm_approach": "Excited preparation: 'Storm! Void storm! Thrilling!'",
+      "clear_skies": "Disappointed: 'Calm. Boring. Safe. Boring.'"
+    }
+  }
+}

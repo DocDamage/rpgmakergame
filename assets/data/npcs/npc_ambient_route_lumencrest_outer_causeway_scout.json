@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_LUMENCREST_OUTER_CAUSEWAY_SCOUT",
+  "name": "Lumencrest Outer Causeway Wayfarer",
+  "title": "Resistance Scout",
+  "location": "MIC_R16_136x56",
+  "coords": [
+    68,
+    28
+  ],
+  "schedule": {
+    "day": [
+      68,
+      28
+    ],
+    "night": [
+      71,
+      26
+    ],
+    "rain": [
+      70,
+      29
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Assigned to Lumencrest Outer Causeway.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

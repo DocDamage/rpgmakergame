@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MIREWATCH_STILT_DOCKHAND",
+  "name": "Mirewatch Stilt Dockhand",
+  "title": "Dock Worker",
+  "location": "T_MIREWATCH_112x72",
+  "coords": [
+    48,
+    52
+  ],
+  "schedule": {
+    "day": [
+      48,
+      52
+    ],
+    "night": [
+      45,
+      52
+    ],
+    "rain": [
+      49,
+      53
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_DOCKWORKER",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "friendly",
+  "background": "Handles cargo movement and port staging. Stationed in Mirewatch.",
+  "personality": "Hard-working, practical, and sarcastic.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "cargo_info",
+    "route_status"
+  ]
+}

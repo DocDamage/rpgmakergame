@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CROWN_SPIRE_CONDUIT_SCOUT",
+  "name": "Crown Spire Conduit Wayfarer",
+  "title": "Resistance Scout",
+  "location": "MIC_CONDUIT_64x32",
+  "coords": [
+    32,
+    16
+  ],
+  "schedule": {
+    "day": [
+      32,
+      16
+    ],
+    "night": [
+      35,
+      14
+    ],
+    "rain": [
+      34,
+      17
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Assigned to Crown Spire Conduit.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

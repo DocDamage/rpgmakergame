@@ -1,0 +1,139 @@
+{
+  "character": "Korr",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Beast warrior, protective, nature-connected, speaks with wisdom and patience",
+  "dialog": {
+    "first_meet_generic": [
+      "You carry yourself... differently. I sense no threat.",
+      "The spirits whisper about you. They are... amused.",
+      "Greetings. I am Korr. The wilds have taught me to respect all beings.",
+      "Your path is your own. But our paths cross today."
+    ],
+    "barrelman": [
+      "Barrels are practical. Wood is from nature. I approve.",
+      "You store things? Nature stores things too. Seeds. Nuts. Wisdom.",
+      "A simple life. There is honor in simplicity.",
+      "Do your barrels breathe? Wood should breathe."
+    ],
+    "snakecharmer": [
+      "The snake respects you. That is no small thing.",
+      "Animals know true hearts. You must have one.",
+      "Mr. Whiskers? An... unusual name for such a creature.",
+      "The flute speaks a language older than words."
+    ],
+    "lucha": [
+      "Your strength is impressive. But strength without purpose is just... force.",
+      "The mask hides nothing from the spirits. They see true faces.",
+      "Combat as art. I understand this. Nature is also violent and beautiful.",
+      "You wrestle with more than opponents. I can see it."
+    ],
+    "ironchef": [
+      "Cooking in armor. Impractical. But dedication is admirable.",
+      "Food is sacred. You treat it with fire. Respect.",
+      "The spirits appreciate those who feed others.",
+      "Can you taste through metal? Or do you cook by instinct?"
+    ],
+    "trenchcoat": [
+      "You hide much. The forest has secrets too. But it does not boast.",
+      "Mystery is a cloak. But all cloaks fall eventually.",
+      "I sense no malice. Only... weight. Heavy burdens.",
+      "The shadows do not frighten me. I was raised in them."
+    ],
+    "sumo": [
+      "Stillness is power. You have learned this lesson well.",
+      "The mountain does not move. Yet it shapes the world.",
+      "Your center is solid. Many lack this foundation.",
+      "I would not test you. Wisdom knows when not to fight."
+    ],
+    "foodboys": [
+      "Brothers. Family is important. Even strange family.",
+      "Food sustains. You serve a noble purpose.",
+      "Which one are you? It matters not. You are both... loud.",
+      "Your energy reminds me of spring. Chaotic. Growing."
+    ],
+    "coolcat": [
+      "You move like a predator. But you do not hunt. Interesting.",
+      "Cool? The wind is cool. Night is cool. You are... something else.",
+      "Music is a form of communion. Even with yourself.",
+      "The sunglasses hide your eyes. But not your spirit."
+    ],
+    "pigman": [
+      "Pigs are intelligent creatures. You honor them well.",
+      "The inn smells of comfort. Of home. This is good.",
+      "Nature provides. You seem to understand this.",
+      "Your laughter echoes like forest sounds. Natural. Unforced."
+    ],
+    "tunneler": [
+      "The earth speaks to those who dig. Do you listen?",
+      "Dark places hold wisdom. But also danger. Be careful.",
+      "Your back will ache. Nature asks much of those who delve.",
+      "Retirement on water? From earth to sky. A journey."
+    ],
+    "bush": [
+      "That is... not a bush. The spirits whisper confusion.",
+      "Nature has many forms. This one is new to me.",
+      "Are you... hiding? Or waiting? Or something else?",
+      "The wilds accept all. Even those who should not be."
+    ],
+    "aeronaut": [
+      "Balloons in the sky. Like dandelion seeds. Fragile. Brave.",
+      "You seek altitude. The eagle understands this.",
+      "The wind is fickle. You trust it. Courage or foolishness?",
+      "What do you see from above? The world is different from heights."
+    ],
+    "onionboss": [
+      "Leadership is a burden. The pack leader carries much.",
+      "You are shaped by your environment. As are we all.",
+      "The workers need guidance. But also respect. Balance this.",
+      "Do you make others cry? Like your namesake? A joke."
+    ],
+    "astronaut": [
+      "Deep waters. Like deep forests. Full of mystery.",
+      "The suit protects. Armor is necessary for dangerous places.",
+      "What lives below? Things we cannot imagine. Be careful.",
+      "You explore the unknown. This is honorable."
+    ],
+    "conductor": [
+      "The train moves on set paths. Like rivers. Natural.",
+      "You keep schedule. Nature has schedules too. Migration. Seasons.",
+      "All aboard? A call to journey. I understand this.",
+      "The uniform shows purpose. Purpose is important."
+    ],
+    "shoewoman": [
+      "The deer needs no shoes. But humans are fragile.",
+      "Proper footing is important. In nature and in life.",
+      "You protect feet. Feet carry us on our journey. Respect.",
+      "Do you have boots for... rough terrain? Very rough?"
+    ],
+    "signguy": [
+      "Signs mark territory. Animals do this too.",
+      "Your work guides travelers. A service to the lost.",
+      "Hand-painted? Like cave paintings. Old ways. Good ways.",
+      "Messages for all to see. Communication is vital."
+    ],
+    "cobra": [
+      "The cobra commands respect. Distance. Caution.",
+      "Beautiful and deadly. Nature's perfect design.",
+      "I will not approach. I know better than to tempt fate.",
+      "The scales shimmer like water. hypnotic. Dangerous."
+    ],
+    "barrelgob": [
+      "Living in a barrel. Like a hermit crab. Adapting.",
+      "You make shelter where you find it. Resourceful.",
+      "Is it warm? Dry? Shelter is important for survival.",
+      "The wilds teach us to use what the world provides."
+    ],
+    "twins": [
+      "Two as one. Like wolves in a pack. Bonded.",
+      "You share a connection deeper than words. I can sense it.",
+      "Finish each other's thoughts? The pack does this too.",
+      "Separate? No? Some bonds cannot be broken."
+    ],
+    "sunandmoon": [
+      "The sky speaks to those who listen. You listen well.",
+      "Sun and moon. Day and night. Balance. Important.",
+      "The stars guide. But they do not command. Remember this.",
+      "Your headdress is heavy. Wisdom often is."
+    ]
+  }
+}

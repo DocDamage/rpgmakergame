@@ -1,0 +1,107 @@
+{
+  "npc_id": "barrelman_wood_frost",
+  "name": "Frozen Barrel Finn",
+  "sprite": "barrelman_wood",
+  "zone": "frost",
+  "location": "Ice Cellar Storage",
+  "personality": "reserved_cold_practical",
+  "occupation": "ice_storage_cellar_keeper",
+  "dialog": {
+    "greeting": [
+      "Finn. Ice cellar. Everything frozen. Including me.",
+      "Cold storage. Literally. What needs keeping?",
+      "Frozen Barrel Finn. The wood handles better than metal. Up here.",
+      "You're not frozen. Yet. How can I help?",
+      "New face. Heat source. Please don't melt the inventory.",
+      "The cellar stays cold. I stay with it. Symbiosis.",
+      "Finn. I keep things preserved. Food. Memories. Hope.",
+      "Welcome to the ice cellar. Warmest place in Frost. Ironically."
+    ],
+    "shop_open": "Storage available. Perishable goods. Temperature-sensitive materials. Ice sculptures.",
+    "shop_prompt": "Wooden barrels. Insulated. For cold storage. Superior to metal. In this climate.",
+    "haggle": [
+      "Prices fixed. By ice. Unnegotiable.",
+      "Discount? For heroes? 5%. Warmth tax.",
+      "Best deal? Long-term storage. Cold preserves. Patience rewards."
+    ],
+    "purchase_success": [
+      "Stored. Secure. Frozen.",
+      "Good choice. That barrel's been here for decades. Proven.",
+      "Return when needed. It'll wait. Cold is patient."
+    ],
+    "purchase_fail": [
+      "No funds? No freeze. Simple.",
+      "Credit freezes too. Up here.",
+      "Return when solvent. Or warm. Whichever comes first."
+    ],
+    "rumor": [
+      "The foodboys store here. Both colors. Soup. Fish. Everything.",
+      "Azure wanted to store something. Personal. I refused. Too warm. Emotionally.",
+      "The twins? They store... ice. Special ice. From deep. Old ice.",
+      "Snake charmer's rock? Too warm for storage. Rejected his application.",
+      "Cousin in Dustbelt. Barrelman Bob. Wood too. Family tradition."
+    ],
+    "quest_hook": "Temperature fluctuation. Unusual. Cellar warming. Source unknown. Investigation?",
+    "quest_active": "Still warming. Find source. Before inventory spoils. Before I melt.",
+    "quest_complete": "Source found. Hot spring vent. Sealed. Temperatures restored. Here. Ancient ice. From deep. Never melts.",
+    "farewell": [
+      "Stay cold. Survive.",
+      "The ice preserves. Remember that.",
+      "Return. Or don't. Cold remains."
+    ],
+    "ambient_barks": [
+      "Temperature stable.",
+      "Storage available.",
+      "Cold preserved.",
+      "Ice maintained.",
+      "Barrels sealed.",
+      "Freeze eternal."
+    ],
+    "time_dawn": "Morning check. Temperature log. Consistent.",
+    "time_noon": "Midday. Warmest. Relative term.",
+    "time_dusk": "Evening. Cooling. Better.",
+    "time_night": "Night. Optimal cold. Peaceful.",
+    "rival_mention": "Metal Barrel Mike? Cousin. Different philosophy. Wrong climate.",
+    "post_quest_greeting": "The temperature detective. Cellar stable. Thanks."
+  },
+  "party_reactions": {
+    "kade": "He's... one with the cold. Kind of zen? Frozen zen?",
+    "nix7": "Thermal management: Optimal. Social skills: Minimal. Acceptable tradeoff.",
+    "twist": "You're FROZEN! Like a POPSICLE! Can I LICK you?! ...No? Okay.",
+    "korr": "He accepts his environment. Adapts. Survives. Respectable.",
+    "renna": "The ice here is magically preserved. Ancient enchantments.",
+    "suresh": "He has found peace in stillness. The cold as meditation.",
+    "sova": "Good storage. Secure. I'd cache supplies here.",
+    "grit": "Logistics guy. Every unit needs one. Keeps supplies safe.",
+    "ashka": "He IS cold. Not just acts it. Interesting.",
+    "senna": "He knows what people store. What they value. Secrets in ice.",
+    "callum": "His temperature logs! EXACT! Admirable!"
+  },
+  "relationship_dialog": {
+    "stranger": "New. State business. Quickly. Warmth escapes.",
+    "acquaintance": "Return. Have you considered cold storage? For your... heat.",
+    "friend": "Trusted. I have... warmer barrels. Relatively. For you.",
+    "best_friend": "You understand. Cold isn't death. Cold is... waiting. Here. Deepest ice. Share it."
+  },
+  "mini_quest": {
+    "id": "warming_cellar",
+    "title": "The Thawing Cellar",
+    "description": "Investigate why the ice cellar is warming up and fix the problem",
+    "stages": {
+      "hook": "Temperature rising. Unusual. Cellar warming. Source unknown. Find it. Fix it. Please.",
+      "active": "Check walls. Check floor. Hot spring nearby? Vent? Possible source.",
+      "complete": "Hot spring vent. Sealed. Temperatures normal. Preserved. Here. Deepest ice. Never melts. Gratitude."
+    },
+    "reward": {
+      "item": "ancient_everfrost",
+      "gold": 300,
+      "reputation": "cellar_keeper_friend"
+    }
+  },
+  "cross_npc_connections": [
+    "foodboys_white_frost: Good customers. Store soup. Temperature critical.",
+    "foodboys_blue_frost: Store fish. Also critical. Different temperature. Same care.",
+    "twins_white_frost: Store special ice. Deep ice. Don't ask contents.",
+    "barrelman_wood_dustbelt: Cousin. Bob. Warmer climate. Same dedication."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "npc_id": "foodboys_red_aetherreach",
+  "name": "Chili Chuck",
+  "sprite": "foodboys_red",
+  "zone": "aetherreach",
+  "location": "Sky Market",
+  "personality": "spicy_intense",
+  "occupation": "chili_vendor",
+  "dialog": {
+    "greeting": [
+      "SPICY! HOT! CHILI! Get it here!",
+      "Chili Chuck! Serving heat at high altitude!",
+      "Welcome! Like it HOT? You've come to the RIGHT place!",
+      "RED means SPICY! That's the rule! I'm VERY red!",
+      "Chili so hot it'll clear your sinuses! And your soul!",
+      "Need warming up? The sky is cold but my chili is FIRE!",
+      "Step right up! Bold flavors for bold adventurers!"
+    ],
+    "menu_offer": "Today's pots: Sky-Scorcher Supreme! Cloud-Kicker Classic! And the infamous Aether Inferno! Warning: may cause visions!",
+    "spice_warning": "How hot? Mild? Medium? HOT? Or 'Please call a healer before I finish?'",
+    "chili_philosophy": "Chili is life! Spice is passion! Bland food is SURRENDER!",
+    "haggle": [
+      "Good chili costs good coin! No exceptions!",
+      "For a heat-seeker? Ten percent off! And a free antacid!",
+      "Bulk chili? Family size? Twenty percent!",
+      "Fine! Free crackers! But that's my final offer!"
+    ],
+    "purchase_success": [
+      "ONE HOT BOWL! Coming up! Enjoy the burn!",
+      "Excellent choice! Your tongue may never forgive you!",
+      "SPICE! GLORIOUS SPICE!",
+      "Tissues on the side! You'll need them!"
+    ],
+    "purchase_fail": [
+      "No coin? No chili! Ingredients cost money!",
+      "Even spice has a price!",
+      "Come back when you're ready to pay the heat!"
+    ],
+    "rumor": [
+      "Green serves... salad. In Aetherreach. At altitude. Who wants SALAD?!",
+      "The conductor can handle my HOTTEST chili. Impressive digestive system!",
+      "The sunandmoon once predicted 'fire in the belly.' I provided it!",
+      "Red aeronaut tried the Aether Inferno. Steam came out his ears!",
+      "Something about the Vault makes all food taste like... nothing. Scary."
+    ],
+    "quest_hook": "I need Ember-Peppers! The HOTTEST kind! From the volcano! Three peppers and I'll teach you my SECRET recipe!",
+    "quest_active": "Those Ember-Peppers burning in your pocket? I can smell them!",
+    "quest_complete": "THE HEAT! PERFECT! My secret recipe! 'Chuck's Nuclear Chili!' Write it down!",
+    "quest_reward": "Chuck's Nuclear Chili Recipe - Ultimate spice! Ultimate power!",
+    "farewell": [
+      "Stay spicy!",
+      "Keep the fire burning! In your belly!",
+      "Come back hungry! Leave burning!"
+    ],
+    "ambient_barks": [
+      "HOT CHILI! COLD SKY!",
+      "Spice up your life!",
+      "Feel the BURN!",
+      "Red means HOT!",
+      "Chili! Get your chili!"
+    ],
+    "time_dawn": "Breakfast chili! Traditional! Spicy!",
+    "time_noon": "Lunch rush! Hot bowls! Happy burn victims!",
+    "time_dusk": "Dinner chili! Hearty! Satisfying! Painful!",
+    "time_night": "Late night heat! For the insomniacs!"
+  },
+  "party_reactions": {
+    "kade": "Which one are you? I can't tell the brothers apart.",
+    "nix7": "Nutritional content: suboptimal. Flavor profile: acceptable.",
+    "twist": "FOOD?! WHERE?! I'm starving!",
+    "korr": "A warrior's meal. Simple. Strong. Like nature intended.",
+    "renna": "Capsaicin content dangerously high. Proceed with caution.",
+    "suresh": "Fire in the belly can warm the spirit. Or burn it.",
+    "sova": "Practical food. Filling. Hot enough to keep you awake on watch.",
+    "grit": "Finally! Food with ACTUAL flavor! Not that green nonsense!",
+    "ashka": "YES! SPICE! HEAT! FIRE IN FOOD FORM!",
+    "senna": "Can you make it... less spicy? My stomach can't handle it.",
+    "callum": "It's so red! So vibrant! So... painful!",
+    "petra": "Solid fuel. Hot. Good for cold climates."
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Start with Mild! Trust me!",
+    "acquaintance": "Back for more heat? Building tolerance!",
+    "friend": "My spice sibling! Ready for the HOT stuff?",
+    "best_friend": "Family! Chili family! Secret menu unlocked!"
+  },
+  "mini_quest": {
+    "id": "ember_pepper_heat",
+    "title": "Pepper Hunt",
+    "description": "Collect Ember-Peppers from Ember's volcano for Chuck's recipe",
+    "stages": {
+      "hook": "Ember-Peppers! Three! The volcano kind! Hottest there is!",
+      "active": "Deep in Ember's caldera! Red and smoking! You'll know!",
+      "complete": "THE FIRE! My SECRET RECIPE! Nuclear Chili!"
+    },
+    "reward": {
+      "item": "nuclear_chili_recipe",
+      "gold": 300,
+      "reputation": "chili_family"
+    }
+  }
+}

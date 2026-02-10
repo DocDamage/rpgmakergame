@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_ice_sculpture",
+  "name": "Fingers of Frost",
+  "zone": "frost",
+  "giver": "coolcat_white",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Winter Festival needs a champion ice sculptor! The competition is fierce—artists from across Frost compete! You'll need to carve something magnificent from a single ice block. Care to try your hand at frozen art, meow?",
+      "objective": "Enter the Winter Festival ice sculpting competition"
+    },
+    "progress": {
+      "dialog": "Your sculpture takes shape, but the competition is using heat spells to sabotage others' work! Protect your piece while finishing it! Use cold magic or physical shields to keep your ice solid!",
+      "objective": "Complete your ice sculpture while protecting it from sabotage"
+    },
+    "complete": {
+      "dialog": "FIRST PLACE! Your sculpture moved the judges to tears! A masterpiece of frozen art! Here's the Crystal Chisel Trophy—and this Ice Sculptor's Glove! It lets you shape ice and snow with your bare hands!",
+      "rewards": {
+        "exp": 700,
+        "gold": 600,
+        "item": "ice_sculptors_glove"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I carved a dragon! It had scales and everything!",
+    "twist": "The saboteurs were crude. My ice shield held perfectly.",
+    "nix7": "Artistic expression through frozen medium: unexpected success."
+  }
+}

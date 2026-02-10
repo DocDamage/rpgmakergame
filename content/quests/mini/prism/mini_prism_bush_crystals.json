@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_bush_crystals",
+  "name": "Shiny Bush",
+  "zone": "prism",
+  "giver": "Bush (Prism)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "[Excited rustling] Shiny! So shiny here! Want to be shiny too! Collect small crystals! Stick to branches! Make me PRETTIEST bush! Please?",
+      "objective": "Collect 20 small Prism crystals to decorate the Bush"
+    },
+    "progress": {
+      "dialog": "[Waving hopefully] More shiny? More pretty? Make me sparkle!",
+      "objective": "Continue gathering small crystals for the Bush"
+    },
+    "complete": {
+      "dialog": "[Shimmering with joy] SO SPARKLY! Prettiest bush EVER! Here - found this near roots! Shiny thing! For you!",
+      "rewards": {"gold": 300, "item": "prism_root_gem", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "We're decorating a bush. This is my life now.",
+    "twist": "It's so sparkly! Like a Christmas tree!",
+    "renna": "Crystal adhesion to organic matter. Interesting."
+  },
+  "hidden_outcome": "If you bring 50 crystals, the Bush evolves into 'Crystal Guardian' and follows you as a cosmetic pet"
+}

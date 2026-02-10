@@ -1,0 +1,107 @@
+{
+  "npc_id": "foodboys_white_frost",
+  "name": "Soup & Broth",
+  "sprite": "foodboys_white",
+  "zone": "frost",
+  "location": "Hot Springs Plaza",
+  "personality": "energetic_warm_complementary",
+  "occupation": "hot_soup_stand_operators",
+  "dialog": {
+    "greeting": [
+      "SOUP! Get your HOT SOUP here!",
+      "Soup and Broth! At your service! I'm Soup! He's Broth!",
+      "Warmth in a bowl! Only in Frost!",
+      "New face! Frozen face! We can FIX that! With SOUP!",
+      "The white uniforms mean we're licensed! For soup! Important distinction!",
+      "Hot soup! Cold day! Perfect combination!",
+      "Soup: 'Welcome!' Broth: 'To our stand!' Both: 'BEST SOUP IN FROST!'",
+      "You're shivering! We have JUST the thing! It's... SOUP!"
+    ],
+    "shop_open": "Today's specials! Minestrone! Chowder! And Broth's experimental 'Mystery Steam!'",
+    "food_offer": "Hot soup! Warms the body! Warms the SOUL! Probably!",
+    "haggle": [
+      "Prices are FIRM! But WARM!",
+      "Best we can do? Extra crackers! Unlimited! Within reason!",
+      "For heroes? Hero discount! 10%! Because you're SAVING us!"
+    ],
+    "purchase_success": [
+      "ENJOY! Don't burn your tongue! But burning means it's WORKING!",
+      "Excellent choice! That batch is PARTICULARLY steamy!",
+      "Come back when you're cold! Which should be ALWAYS!"
+    ],
+    "purchase_fail": [
+      "No coin? No PROBLEM! ...Wait, yes problem. Small problem.",
+      "Soup costs money! Steam costs COAL! We have COSTS!",
+      "Come back with WARM money! Cold coins are hard to count!"
+    ],
+    "rumor": [
+      "The hot springs are NATURAL! Probably! Maybe! Don't ask questions!",
+      "Cirrus the weather watcher? Always ordering the SPICIEST soup! Wants to FEEL something!",
+      "Azure the balloonist? Never eats. Just... stares at the sky. Sad.",
+      "The twins? Ice oracles? They drink our broth! For VISIONS! We don't ask.",
+      "That snake charmer's rock? Keeps his soup hot! ALL day! We want one!"
+    ],
+    "quest_hook": "Supply problem! Azure's grounded! No supplies! We're running LOW! Find him? Help him? For SOUP!",
+    "quest_active": "Any word on Azure? We need those supplies! Specifically: POTATOES! And: HOPE!",
+    "quest_complete": "Azure's flying! Supplies coming! You saved our STAND! Free soup! FOREVER! (Limit: reasonable amounts)",
+    "farewell": [
+      "Stay WARM! Stay FED! Stay EXCELLENT!",
+      "SOUP solves EVERYTHING! ...Most things! ...Some things!",
+      "Roll on back! Like a warm barrel!"
+    ],
+    "ambient_barks": [
+      "HOT SOUP here!",
+      "Warm your BONES!",
+      "Soup of the DAY!",
+      "Fresh bread! FRESH!",
+      "Coal-fired goodness!",
+      "Cold outside! HOT inside!"
+    ],
+    "time_dawn": "Morning soup! For morning cold! Rise and SHINE! Or just rise!",
+    "time_noon": "Midday rush! Lunch break! SOUP BREAK!",
+    "time_dusk": "Evening soup! Sunset special! Romantic! If you like SOUP!",
+    "time_night": "Night shift soup! For night workers! And the COLD-HEARTED!",
+    "rival_mention": "Our blue counterparts? Ice fishing? COLD soup! Different market!",
+    "post_quest_greeting": "The SOUP SAVIOR! Azure's flying! Supplies flowing! Have a bowl! ON US!"
+  },
+  "party_reactions": {
+    "kade": "They're so... enthusiastic. About SOUP. It's infectious!",
+    "nix7": "Nutritional analysis: Adequate. Thermal properties: Optimal. Service: Overwhelming.",
+    "twist": "SOUP?! I LOVE SOUP! ALL THE SOUP! GIVE ME SOUP!",
+    "korr": "Warmth shared freely. This is how communities survive.",
+    "renna": "The soup has minor warming enchantments. Subtle. Effective.",
+    "suresh": "They alleviate suffering through nourishment. Simple. Noble.",
+    "sova": "I'd eat here. Good position. Clear sightlines. Hot food.",
+    "grit": "Field kitchen quality. Which is high praise.",
+    "ashka": "They understand heat. Proper application. I approve.",
+    "senna": "They hear everything. Customers talk. Soup listens.",
+    "callum": "Finally! Proper food safety standards! And ENTHUSIASM!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? First soup's on us! ...Not really! But WELCOME!",
+    "acquaintance": "Returning customer! We have your REGULAR ready! ...Do you have a regular? You SHOULD!",
+    "friend": "Soup FRIEND! We made you a SPECIAL BLEND! Secret recipe!",
+    "best_friend": "SOULMATE! Through SOUP! Here! Our grandmother's ladle! Pass it on! To OTHER soup lovers!"
+  },
+  "mini_quest": {
+    "id": "supply_soup",
+    "title": "The Soup Supply",
+    "description": "Help Soup & Broth secure supply lines by getting Azure flying again",
+    "stages": {
+      "hook": "Azure's grounded! No balloon! No supplies! We're down to BROTH! Just BROTH! Find him! Help him! For CIVILIZATION!",
+      "active": "Lower peak! Balloon dock! His burner needs parts! Company store in Obsidian!",
+      "complete": "He's FLYING! Supplies INCOMING! You saved FROST! Free soup! FOR LIFE! (Terms and conditions apply!)"
+    },
+    "reward": {
+      "item": "foodboys_secret_recipe",
+      "gold": 300,
+      "reputation": "soup_savior"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_blue_frost: Azure! Our SUPPLIER! Our HERO! Currently: GROUNDED!",
+    "foodboys_blue_frost: Our COLD counterparts! Ice fishers! Different philosophy! Same ENERGY!",
+    "pigman_white_frost: The innkeeper! Sometimes we TRADE! Soup for BEDS!",
+    "ironchef_industrial_obsidian: Our CULINARY rival! Steam-powered COOKING! Unconventional!"
+  ]
+}

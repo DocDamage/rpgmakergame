@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CROWN_HUB_PLAZA_PROPHET",
+  "name": "Crown Hub Plaza Prophet",
+  "title": "Street Prophet",
+  "location": "T_CROWN_HUB_112x72",
+  "coords": [
+    95,
+    49
+  ],
+  "schedule": {
+    "day": [
+      95,
+      49
+    ],
+    "night": [
+      96,
+      48
+    ],
+    "rain": [
+      96,
+      51
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_kell_portrait",
+  "dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+  "shop": null,
+  "quests": [],
+  "faction": "DOMINION",
+  "attitude": "eccentric",
+  "background": "Public eccentric who tracks odd weather and omen patterns. Stationed in Crown Hub.",
+  "personality": "Theatrical, intense, and oddly accurate.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "omens",
+    "warnings"
+  ]
+}

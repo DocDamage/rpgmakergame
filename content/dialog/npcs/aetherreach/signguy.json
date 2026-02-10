@@ -1,0 +1,102 @@
+{
+  "npc_id": "signguy_aetherreach",
+  "name": "Brushmaster Banner",
+  "sprite": "signguy",
+  "zone": "aetherreach",
+  "location": "Sign District",
+  "personality": "artistic_perfectionist",
+  "occupation": "billboard_painter",
+  "dialog": {
+    "greeting": [
+      "Signs! Signs! Everywhere there's signs! And I paint them ALL!",
+      "Brushmaster Banner, at your brush! Billboard artist extraordinaire!",
+      "Welcome! Need signage? I'm your guy! Any size! Any message!",
+      "The sky is my canvas! The buildings are my... slightly smaller canvases!",
+      "Looking for visibility? I make VISIBLE!",
+      "Signs tell stories! I tell them with paint!",
+      "Hello! Admiring my work? It's everywhere! Literally!"
+    ],
+    "commission_offer": "Need a sign? I do hand-painted! Digital! Animated! Sky-writing! You name it!",
+    "portfolio_show": "See that one? 'Cloud Nails!' And that one? 'Sky-High Sweets!' I'm EVERYWHERE!",
+    "paint_philosophy": "A sign without soul is just... a board. I give them SOUL! With color! With flair!",
+    "haggle": [
+      "Art is priceless! But my time costs money!",
+      "For you? I'll throw in extra sparkles! Free!",
+      "Bulk discount! Three signs, ten percent off!",
+      "Fine! Twenty percent! But I keep the creative control!"
+    ],
+    "commission_accept": [
+      "EXCELLENT! Your vision! My brush! Magic!",
+      "This will be my masterpiece! One of many!",
+      "Prepare for visibility! Maximum visibility!",
+      "Sign me up! Get it? Sign? I'll paint now!"
+    ],
+    "commission_reject": [
+      "No budget? No billboard! Harsh reality!",
+      "Paint costs money! Dreams cost less, but still something!",
+      "Save up! Good signs are worth it!"
+    ],
+    "rumor": [
+      "Painted a sign for the twins once. They wanted TWO identical ones. Creepy.",
+      "The trenchcoat person's sign changes when I'm not looking. Impossible, but true!",
+      "Crimson's sign keeps catching fire. Design flaw?",
+      "Something near the Vault makes my paint... wrong. Colors don't work there!",
+      "The sunandmoon wanted a celestial mural. Still working on it!"
+    ],
+    "quest_hook": "I need Pigment Crystals! From the Prism Caves! For my ULTIMATE palette! Three crystals and I'll paint you a personal masterpiece!",
+    "quest_active": "Those crystals gleaming yet? I can almost see the colors!",
+    "quest_complete": "THE SPECTRUM! So pure! So vibrant! Your portrait! In my BEST work yet!",
+    "quest_reward": "Banner's Masterpiece - Portrait that boosts reputation in all zones!",
+    "farewell": [
+      "Keep your eyes UP! That's where my work is!",
+      "Sign off! ...Get it? Paint you later!",
+      "May your message be seen! By everyone!"
+    ],
+    "ambient_barks": [
+      "Signs! Get your signs!",
+      "Visibility is key!",
+      "Every building needs a face!",
+      "Paint! Brush! ART!",
+      "Look up! That's my work!"
+    ],
+    "time_dawn": "Morning light! Best for seeing true colors!",
+    "time_noon": "Bright sun! Colors pop! Visibility maximum!",
+    "time_dusk": "Golden hour! My favorite painting light!",
+    "time_night": "Night painting! With luminescent pigments! Glow signs!"
+  },
+  "party_reactions": {
+    "kade": "Your work is... everywhere.",
+    "nix7": "Your work has a 23% error rate. I have been counting.",
+    "twist": "I saw your signs! They're EVERYWHERE!",
+    "korr": "A craftsman of visibility. Honorable work.",
+    "renna": "The color theory is... adequate. The scale is impressive.",
+    "suresh": "Every sign marks a point in someone's journey. Meaningful.",
+    "sova": "Good for navigation. I use them as landmarks.",
+    "grit": "Paint? In this economy? Digital is cheaper.",
+    "ashka": "Can you make signs with FIRE? That would be AWESOME!",
+    "senna": "Ever paint a 'wrong way' sign? For... reasons?",
+    "callum": "So talented! So many colors! So BIG!",
+    "petra": "Solid craftsmanship. Sturdy brushwork."
+  },
+  "relationship_dialog": {
+    "stranger": "Need a sign? I'm your artist!",
+    "acquaintance": "Returning customer! Or admirer! Both good!",
+    "friend": "My favorite patron! I have ideas for you!",
+    "best_friend": "Creative soulmate! Let's paint the town! Literally!"
+  },
+  "mini_quest": {
+    "id": "pigment_crystals",
+    "title": "Prismatic Pigments",
+    "description": "Find Pigment Crystals from Prism Caves for Banner's ultimate palette",
+    "stages": {
+      "hook": "Pigment Crystals! Three of them! For my MASTERPIECE palette!",
+      "active": "Prism Caves! Deep and colorful! You'll know them!",
+      "complete": "THE COLORS! Your portrait! My finest work!"
+    },
+    "reward": {
+      "item": "banners_masterpiece",
+      "gold": 320,
+      "reputation": "sign_vip"
+    }
+  }
+}

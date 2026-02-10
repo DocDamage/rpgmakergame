@@ -1,0 +1,31 @@
+{
+  "id": "NPC_RESISTANCE_CONTACT",
+  "name": "Varin",
+  "title": "Resistance Contact",
+  "location": "T_LUMENCREST_OUTER_112x72",
+  "coords": [30, 40],
+  "schedule": {
+    "day": [30, 40],
+    "night": [25, 45],
+    "rain": [35, 35]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_VARIN_MAIN",
+  "shop": "SHOP_BLACK_MARKET",
+  "quests": ["Q_EIGHTH_RELIC", "Q_RESISTANCE_PLOT", "Q_ASSASSINATION"],
+  "faction": "RESISTANCE",
+  "attitude": "cautious",
+  "background": "Underground resistance leader in the capital. Former Dominion officer.",
+  "personality": "Paranoid, calculating, willing to sacrifice for the cause.",
+  "flags": {
+    "unlocked_by": "ACT3_UNLOCKED",
+    "disappears_on": null,
+    "secret_identity": true
+  },
+  "services": ["black_market", "resistance_intel", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_varin_greet",
+    "warn": "vo_varin_warn"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "DROPS_BOSSES",
+  "tables": [
+    {
+      "id": "DROPS_BOSS_THE_BLOOM",
+      "enemy": "BOSS_THE_BLOOM",
+      "entries": [
+        {
+          "item": "ITEM_RELIC_GROWTH_FOUNDATION",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_BLOOM_SEED",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_HEARTROOT_SAPLING",
+          "chance": 0.5,
+          "count": 1
+        },
+        {
+          "item": "ITEM_MEGA_POTION",
+          "chance": 1.0,
+          "count": 3,
+          "guaranteed": true
+        }
+      ],
+      "gil": 500,
+      "first_clear_bonus": {
+        "item": "ITEM_GROWTH_RING",
+        "count": 1
+      }
+    },
+    {
+      "id": "DROPS_BOSS_THE_SPOROCYTE",
+      "enemy": "BOSS_THE_SPOROCYTE",
+      "entries": [
+        {
+          "item": "ITEM_RELIC_MOTION_FOUNDATION",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_SPOROCYTE_NUCLEUS",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_GRAVITY_STONE",
+          "chance": 0.4,
+          "count": 1
+        }
+      ],
+      "gil": 750
+    },
+    {
+      "id": "DROPS_BOSS_THE_PRISM",
+      "enemy": "BOSS_THE_PRISM",
+      "entries": [
+        {
+          "item": "ITEM_RELIC_LIGHT_FOUNDATION",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_PRISM_CORE",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_PRISM_STAFF",
+          "chance": 0.3,
+          "count": 1
+        }
+      ],
+      "gil": 1000
+    },
+    {
+      "id": "DROPS_BOSS_MERCER",
+      "enemy": "BOSS_MERCER",
+      "entries": [
+        {
+          "item": "ITEM_TOWER_KEY_F55",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_MERCER_LEGACY",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_MERCER_BLADE",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 3000
+    },
+    {
+      "id": "DROPS_BOSS_PROGENITOR_ENGINE",
+      "enemy": "BOSS_PROGENITOR_ENGINE",
+      "entries": [
+        {
+          "item": "ITEM_TRUE_ENDING_KEY",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_PROGENITOR_CROWN",
+          "chance": 1.0,
+          "count": 1,
+          "guaranteed": true
+        },
+        {
+          "item": "ITEM_OMEGA_WEAPON",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": 25000
+    }
+  ]
+}

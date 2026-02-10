@@ -1,0 +1,92 @@
+{
+  "npc_id": "barrel_chrono",
+  "name": "The Temporal Barrel",
+  "sprite": "barrel",
+  "zone": "chrono",
+  "location": "Temporal Storage Annex",
+  "personality": "contained_ancient_powerful",
+  "occupation": "temporal_energy_container",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*temporal hum*",
+      "*whir of contained time*",
+      "...waiting...",
+      "*resonance*",
+      "...energy...",
+      "*chronal vibration*",
+      "...contained..."
+    ],
+    "contained": "...time... contained... power... waiting...",
+    "temporal_energy": "...moments... stored... past... future... now...",
+    "purpose": "...vessel... of... when... keeper... of... then...",
+    "rumor": [
+      "...the conductor... knows...",
+      "...the hunter... fears...",
+      "...the twins... see... inside...",
+      "...foodboys... want... power... for... cooking...",
+      "...you... can... hear... rare..."
+    ],
+    "quest_hook": "...seal... weakening... time... leaking... help... stabilize...",
+    "quest_active": "...still... leaking... temporal... energy... dangerous...",
+    "quest_complete": "...sealed... stabilized... gratitude... here... temporal... essence... for... you...",
+    "farewell": [
+      "...remain... vigilant...",
+      "...time... remembers...",
+      "...return... if... needed..."
+    ],
+    "ambient_barks": [
+      "...hum...",
+      "...tick...",
+      "...tock...",
+      "...waiting...",
+      "...contained...",
+      "...power..."
+    ],
+    "time_dawn": "...morning... of... time...",
+    "time_noon": "...midday... temporal... peak...",
+    "time_dusk": "...evening... of... eras...",
+    "time_night": "...night... of... ages...",
+    "post_quest_greeting": "...stabilizer... returns... seal... holds... thanks..."
+  },
+  "party_reactions": {
+    "kade": "It's... a talking barrel? Of TIME? Sure. Why not.",
+    "nix7": "Temporal energy containment: Ancient. Power level: Significant. Sentience: Surprising.",
+    "twist": "A TIME BARREL?! That's WEIRD! I LOVE IT!",
+    "korr": "A vessel of great power. Wise. Patient. Dangerous if broken.",
+    "renna": "The barrel contains temporal essence. Ancient. Conscious. Remarkable.",
+    "suresh": "It contains the energy of ages. A lesson in containment. In patience.",
+    "sova": "I'd guard it. Important. And... interesting.",
+    "grit": "High-value target. Temporal WMD. Needs protection.",
+    "ashka": "It contains time. Like I contain fire. Respect.",
+    "senna": "It knows secrets. Of all time. Valuable.",
+    "callum": "Its containment protocols! ANCIENT! But EFFECTIVE!"
+  },
+  "relationship_dialog": {
+    "stranger": "...new... listener...",
+    "acquaintance": "...returning... friend...",
+    "friend": "...trusted... ally...",
+    "best_friend": "...guardian... here... temporal... shield... for... you..."
+  },
+  "mini_quest": {
+    "id": "seal_the_barrel",
+    "title": "The Leaking Time",
+    "description": "Help stabilize the Temporal Barrel's weakening seal to prevent temporal energy leakage",
+    "stages": {
+      "hook": "...seal... weakening... time... leaking... dangerous... help... stabilize...",
+      "active": "...find... temporal... anchors... three... places... station...",
+      "complete": "...sealed... stabilized... safe... gratitude... here... temporal... essence... power..."
+    },
+    "reward": {
+      "item": "temporal_essence_shard",
+      "gold": 500,
+      "reputation": "temporal_guardian"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus... knows... watches... protects...",
+    "trenchcoat_black_chrono: hunter... fears... wants... destroy...",
+    "twins_chrono: oracles... see... inside... understand...",
+    "foodboys_chrono: want... power... for... cooking... amusing..."
+  ]
+}

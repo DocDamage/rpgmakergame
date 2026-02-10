@@ -1,0 +1,70 @@
+{
+  "npc_id": "barrelman_metal_tide",
+  "name": "Cooper-Klaus",
+  "sprite": "barrelman_metal",
+  "zone": "tide",
+  "location": "Cooperage Workshop",
+  "personality": "craftsman_proud",
+  "occupation": "cooper_barrel_maker",
+  "schedule": "daytime_work",
+  "dialog": {
+    "greeting": [
+      "Barrels! Barrels! Get your custom barrels!",
+      "Cooper-Klaus! I make containers that HOLD things!",
+      "You look like you need storage! I make STORAGE!",
+      "Back for another barrel? Running out of space?",
+      "Welcome to my cooperage! Where wood becomes WONDER!",
+      "New customer? Need a barrel? Cask? Keg? I make 'em ALL!",
+      "Metal or wood! Your choice! Both hold liquid!",
+      "The finest barrels in Tide! Waterproof! Mostly!"
+    ],
+    "barrel_offer": "Standard barrels! Wine casks! Waterproof tubs! Even barrel backpacks! For the adventurous!",
+    "cooper_craft": "It's an ART! Steam the wood! Bend the staves! Hoops hold it all! MAGIC! Well, physics. But STILL!",
+    "metal_vs_wood": "Wood breathes! Metal's strong! Both have PURPOSE! Don't let Bob tell you otherwise!",
+    "dustbelt_rivalry": "Barrelman Bob in Dustbelt? Thinks wood is BEST. I say: METAL HOOPS on wood! BEST of BOTH!",
+    "rumor": [
+      "Tide's humidity is HELL on wood. Good for business! Constant repairs!",
+      "Mire needs barrels that FLOAT. Special order. Challenging.",
+      "Frost's barrels FREEZE. Crack the wood. Poor design.",
+      "Ember tried metal barrels. MELTED. Classic Ember."
+    ],
+    "crafting_philosophy": "A good barrel is like a good friend! Dependable! Holds your secrets! ...And your wine!",
+    "farewell": [
+      "Roll on back! Ha! Barrel humor!",
+      "May your barrels never leak!",
+      "Safe travels! Store things responsibly!",
+      "Come back when you need MORE containment!"
+    ],
+    "ambient_barks": [
+      "Hoops here! Iron hoops!",
+      "Staves! Fresh staves!",
+      "Bend the wood!",
+      "Waterproofing! Best in Tide!",
+      "Custom orders welcome!",
+      "Round and round!"
+    ],
+    "time_dawn": "Early crafting! Wood steams best in morning!",
+    "time_noon": "Peak production! Hammering! Shaping!",
+    "time_dusk": "Evening finishing! Varnish time!",
+    "time_night": "Closed! Barrels need rest too!"
+  },
+  "party_reactions": {
+    "kade": "Another barrel specialist. This zone has storage needs.",
+    "nix7": "Container engineering: adequate. Metal reinforcement: wise.",
+    "twist": "Can I get a barrel BACKPACK?! REALLY?!",
+    "korr": "Good craftsmanship shows in the details. Yours show well.",
+    "renna": "Do you make magical containers? Warded barrels?",
+    "suresh": "To make something both useful and beautiful is a gift.",
+    "sova": "I need a quiver. Waterproof. Possible?",
+    "grit": "Good barrels saved supplies in the war. Important work.",
+    "ashka": "Wood burns. Metal doesn't. Just saying.",
+    "senna": "Barrels make good hiding spots. Good for smuggling.",
+    "callum": "The hoops are so shiny! Nice work!"
+  },
+  "relationship_dialog": {
+    "stranger": "New face! Need a barrel?",
+    "acquaintance": "Regular customer! How's that cask holding up?",
+    "friend": "My friend! Discount on all repairs!",
+    "best_friend": "You! Lifetime warranty! Best I offer!"
+  }
+}

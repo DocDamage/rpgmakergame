@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_dominion_squad",
+  "name": "The Pursuers",
+  "zone": "tower",
+  "giver": "trenchcoat",
+  "type": "combat",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Dominion sent a special squad up the Tower after you—elite soldiers, trained for Tower conditions. They're on Floor 52, establishing a forward base. If they get entrenched, they'll harass your climb all the way to the top. Deal with them now, or fight them later when you're exhausted.",
+      "objective": "Locate the Dominion forward base on Floor 52"
+    },
+    "progress": {
+      "dialog": "Base located, defenses assessed. They've got heavy weapons, barricades, even a construct they've somehow repurposed. Direct assault is costly. Better to sabotage their supplies first, draw them out, then hit them when they're scattered. Classic divide and conquer.",
+      "objective": "Sabotage Dominion supplies and defeat the scattered squad"
+    },
+    "complete": {
+      "dialog": "Base destroyed, squad broken, pursuit ended. The Dominion won't stop sending hunters, but you've bought time and sent a message. The Tower doesn't belong to them. Every step you take upward is a step they can't follow. Keep climbing. Leave them in your dust.",
+      "rewards": {
+        "exp": 23000,
+        "gold": 5500,
+        "item": "dominion_tower_intel"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "They just don't learn. The Tower isn't theirs to control. Every time they try, we knock them back down.",
+    "korr": "Those were good soldiers, following bad orders. I recognize the unit insignia—I trained some of them. War makes enemies of us all.",
+    "vex": "Defending the innocent from pursuers. This is the essence of the oath. They shall not pass."
+  },
+  "lore_unlocks": ["dominion_tower_operations", "tower_warfare"]
+}

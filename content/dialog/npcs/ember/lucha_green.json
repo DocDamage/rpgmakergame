@@ -1,0 +1,86 @@
+{
+  "npc_id": "lucha_green_ember",
+  "name": "Verde Viento - The Emerald Challenger",
+  "sprite": "lucha_green",
+  "zone": "ember",
+  "location": "Cinder Arena Training Grounds",
+  "personality": "determined_underdog",
+  "occupation": "aspiring_challenger",
+  "schedule": "always_training",
+  "dialog": {
+    "greeting": [
+      "H-hi there! I'm Verde Viento! The Emerald Challenger! ...Still working on the name.",
+      "Training! Always training! One day I'll beat El Scorcho!",
+      "You look like you've seen battles. Any... wrestling tips?",
+      "Another day, another bruise. But I'm getting BETTER!",
+      "They laugh now. But Verde Viento will have the LAST LAUGH! ...When I actually win.",
+      "Welcome to the training grounds! Watch your step, I just did 500 squats here.",
+      "I'm not tired! I'm... strategically catching my breath!",
+      "The green mask represents GROWTH! And... it was on sale."
+    ],
+    "training_progress": "I'm up to 47 pushups! El Scorcho does 500. But I started at ZERO! That's INFINITE improvement!",
+    "el_scorcho_opinion": "He's... really good. Like, REALLY good. But I have something he doesn't! ...Determination! Also, better flexibility. I stretch.",
+    "championship_dream": "One day, I'll wear that belt. The crowd will chant 'VERDE! VERDE!' And El Scorcho will shake my hand and say 'Good match, kid.' That's the dream.",
+    "underdog_confession": "Everyone says I'm too small. Too weak. Too... green. But green means GO! And I'm GOING to win!",
+    "rumor": [
+      "I heard there's a wrestler in Frost who's never lost. Maybe I should challenge them first?",
+      "The referee knows all El Scorcho's weaknesses. But he won't tell me. Professional ethics or something.",
+      "Some say the old champion retired to Prism. Wonder if he'd train me?"
+    ],
+    "championship_belt_quest_hook": "I need to prove myself! But I'm not ready to face El Scorcho alone. If you could... help me train? Maybe talk to him? Get me a REAL match? Not a squash? Please?",
+    "championship_belt_quest_active": "Still working on my suplex. The dummy keeps winning. Any advice?",
+    "championship_belt_quest_complete": "I DID IT! Well, I didn't WIN. But I lasted three rounds! That's a MORAL VICTORY! And it's all thanks to you! Here - take my lucky wristband. I don't need luck anymore. I have SKILL! ...And luck. But mostly skill!",
+    "farewell": [
+      "Back to training! Verde Viento NEVER STOPS! Except for meals. Meals are important.",
+      "Wish me luck! Not that I need it! ...Okay, I need it. Wish me luck.",
+      "Remember: Green means GO! That's my motto! I made it up!",
+      "Come watch my next match! I'll be in the opening bout! Small letters on the poster!"
+    ],
+    "ambient_barks": [
+      "One! Two! Three! VERDE!",
+      "Stretching prevents injury! Smart wrestling!",
+      "I will be champion! SOMEDAY!",
+      "Ow. That mat is harder than it looks.",
+      "El Scorcho makes it look so easy...",
+      "Hydration! Very important!"
+    ],
+    "time_dawn": "Early morning cardio! Before the arena opens!",
+    "time_noon": "Peak training! When the heat builds CHARACTER!",
+    "time_dusk": "Evening drills! Perfecting my technique!",
+    "time_night": "Rest time! Muscles grow when you SLEEP!"
+  },
+  "party_reactions": {
+    "kade": "You've got heart, kid. That's more important than size.",
+    "nix7": "Statistical probability of victory: 12.4%. But determination is... admirable.",
+    "twist": "You're gonna be GREAT! I can tell! Let's TRAIN TOGETHER!",
+    "korr": "Persistence matters more than strength. Keep training.",
+    "renna": "The mask looks good on you. Confidence is the best armor.",
+    "suresh": "The tallest oak was once an acorn. Or... a small tree. You understand.",
+    "sova": "You're small. That's not an insult. Use it. Be faster.",
+    "grit": "Reminds me of a private I knew. Scrawny kid. Became a hero.",
+    "ashka": "Fire burns in you too! Never let it fade!",
+    "senna": "Underdog. I respect that. Most don't see it coming.",
+    "callum": "Want me to cheer for you? I can be loud!"
+  },
+  "relationship_dialog": {
+    "stranger": "Hi! I'm training to be a champion!",
+    "acquaintance": "You're back! Did you see my last match? I almost won!",
+    "friend": "My supporter! Thanks for believing in me!",
+    "best_friend": "You! My cornerman! If I ever get a real match, you're ringside!"
+  },
+  "mini_quest": {
+    "id": "championship_belt",
+    "title": "Championship Belt",
+    "description": "Help Verde Viento challenge El Scorcho for the championship",
+    "stages": {
+      "hook": "I need to prove myself! But I'm not ready to face El Scorcho alone. If you could... help me train? Maybe talk to him?",
+      "active": "Talk to El Scorcho! Convince him to give me a REAL match! Three rounds minimum!",
+      "complete": "I lasted three rounds! That's a MORAL VICTORY! And it's all thanks to you! Here - take my lucky wristband. I don't need luck anymore. I have SKILL!"
+    },
+    "reward": {
+      "item": "verdes_lucky_wristband",
+      "gold": 200,
+      "reputation": "arena_insider"
+    }
+  }
+}

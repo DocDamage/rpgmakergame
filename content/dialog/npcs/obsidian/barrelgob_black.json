@@ -1,0 +1,100 @@
+{
+  "npc_id": "barrelgob_black_obsidian",
+  "name": "Scraps",
+  "sprite": "barrelgob_black",
+  "zone": "obsidian",
+  "location": "Tailings Pile, East Sector",
+  "personality": "paranoid_clever_survivor",
+  "occupation": "scrap_scavenger",
+  "dialog": {
+    "greeting": [
+      "Shh! Quiet! They'll hear! Who? THEM! The deep ones!",
+      "Scraps. That's me. I take scraps. Live in scraps. AM scraps. Nice to meet.",
+      "You're new. New is good. New means not-corporate. Not-corporate is SAFE.",
+      "The tailings speak, you know. Whisper. Sometimes SCREAM. I listen.",
+      "Scraps, at your service. Don't tell anyone you saw me. Please.",
+      "Shiny! You're shiny. Not metal-shiny. Hero-shiny. Different shiny.",
+      "Down here. In the dark. Where they don't look. That's where Scraps lives.",
+      "You won't tell management, right? About me? About... what I found?"
+    ],
+    "work_complaint": [
+      "Corporate keeps taking the good scrap! Leaves me DREGS! Insult to dregs!",
+      "The machines don't sleep. Hiss. Steam. Hiss. Can't sleep either."
+    ],
+    "professional_pride": "I found a PULLEY last week. Intact! Corporate missed it! SCRAPS IS BEST!",
+    "technique": "The trick is timing. When do they dump? When do they LEAVE? Then: SCRAMBLE!",
+    "break_chat": "Break? No breaks. If I stop, I think. If I think, I remember. Bad idea.",
+    "labor_concerns": "No union for goblins. 'Pest problem,' they say. I'll show them PEST! ...Quietly.",
+    "retirement": "Retirement? I'll die in a barrel. Already picked which one. Comfortable."
+    ,
+    "rumor": [
+      "Tunnel 7. SEALED. I know why. Found something in the tailings. OLD.ANGRY.",
+      "The trenchcoat man? He's LOOKING for something. The same thing I found, maybe.",
+      "Brutalia the chef? Her 'secret ingredient?' Not secret. I saw. Won't tell. Too gross.",
+      "Coolcat's nice. Gives me food. Real food. Not scraps. Well, sometimes scraps.",
+      "Frost has cold. Obsidian has DEEP. Chrono has... weird. Everything's weird somewhere."
+    ],
+    "quest_hook": "I found something. Shiny. OLD. Wrong. In the tailings. Took it. Shouldn't have. Now... dreams. Bad dreams. Take it? Please?",
+    "quest_active": "The shiny thing. In my barrel. Top one. Red. Don't open at night. TRUST ME.",
+    "quest_complete": "GONE! It's GONE! Sleep now. Maybe. Here's what I found it WITH. Old. Useful. Yours.",
+    "farewell": [
+      "Go quietly. The rock has EARS.",
+      "Don't tell them where I am. PLEASE.",
+      "Shiny day, shiny hero! ...Sorry. Weird. I'm weird."
+    ],
+    "ambient_barks": [
+      "Shiny!... No. Just rock.",
+      "Did you HEAR that?!",
+      "Quiet... must be quiet...",
+      "Not here! Not here!",
+      "Mine! All mine!... Sorry.",
+      "Deep. Too deep. Bad deep."
+    ],
+    "time_dawn": "Dawn! They dump the night scrap! SCRAMBLE TIME!",
+    "time_noon": "Midday. Hot. Steamy. Hard to breathe. Harder to hide.",
+    "time_dusk": "Evening. Shift change. Opportunities! And dangers!",
+    "time_night": "Night. The dark. The DEEP dark. Don't look down. Don't look UP.",
+    "secret_mention": "The shiny thing. Ancient. Wrong. Please take it. I want to sleep again.",
+    "post_quest_greeting": "You took it! The shiny! Gone! Dreaming normal now. Ish. Thank. THANK."
+  },
+  "party_reactions": {
+    "kade": "Poor guy's terrified. What did he find down here?",
+    "nix7": "Goblin stress indicators: Maximum. Object he found: Likely anomalous.",
+    "twist": "I like him! He's small! Like me! We should be friends!",
+    "korr": "Survival instinct: Impressive. Social integration: Concerning.",
+    "renna": "He's magically sensitive. Probably why the artifact affected him so strongly.",
+    "suresh": "Suffering creature. Desperate. In need of compassion.",
+    "sova": "He's seen something. I'd get it out of him. Nicely or... otherwise.",
+    "grit": "Seen soldiers crack like this. Usually after the war. He's living IN it.",
+    "ashka": "He knows fire. Fire keeps the dark away. Smart goblin.",
+    "senna": "Secrets. Fear. Useful combination. I should cultivate this.",
+    "callum": "Someone should check on his labor rights. Is he... employed?"
+  },
+  "relationship_dialog": {
+    "stranger": "New. Shiny. Don't hurt me?",
+    "acquaintance": "You came back! Not to arrest? Good. Goodgood.",
+    "friend": "Friend! I have FRIEND! Not just barrel-friend! Real friend!",
+    "best_friend": "Best friend. Knows my secret. Keeps it. Here - found this. Special. For you."
+  },
+  "mini_quest": {
+    "id": "cursed_shiny",
+    "title": "The Whispering Artifact",
+    "description": "Help Scraps get rid of a cursed artifact he found in the mine tailings",
+    "stages": {
+      "hook": "Found shiny. Ancient. WHISPERS. Take it? Please? Before I go CRAZY?",
+      "active": "In the red barrel. Don't open at night. Don't listen. DON'T LISTEN.",
+      "complete": "GONE! Quiet now. Finally quiet. Found this WITH the shiny. Old tool. Take. As thanks. As SLEEP."
+    },
+    "reward": {
+      "item": "ancient_mining_charm",
+      "gold": 150,
+      "reputation": "goblin_alliance"
+    }
+  },
+  "cross_npc_connections": [
+    "coolcat_industrial: Nice lady. Shares food. Doesn't kick. Rare.",
+    "trenchcoat_gray: Looking man. Asking questions. Makes Scraps NERVOUS.",
+    "barrelman_metal_obsidian: Buys my scrap. Fair prices. For corporate.",
+    "barrelgob_green_dustbelt: Cousin? Maybe. All goblins look alike. Even to goblins."
+  ]
+}

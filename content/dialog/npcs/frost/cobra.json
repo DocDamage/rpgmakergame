@@ -1,0 +1,99 @@
+{
+  "npc_id": "cobra_frost",
+  "name": "Mr. Whiskers",
+  "sprite": "cobra",
+  "zone": "frost",
+  "location": "Visitor's Hut, Warming Lamp",
+  "personality": "cold_lethargic_dreaming",
+  "occupation": "companion_needing_warmth",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*weak hiss*",
+      "*shivering*",
+      "...cold...",
+      "*coils tighter*",
+      "...sssssleep...",
+      "...warm... need...",
+      "*dreamy blink*"
+    ],
+    "cold_complaint": [
+      "...ssssso... cold...",
+      "...blood... slow...",
+      "...summer... remember..."
+    ],
+    "warming_request": "...lamp... need... lamp...",
+    "dream_state": "...the warm rock... speaks... in colors...",
+    "if_pet": "*weak contentment* ...ssssoft...",
+    "if_fed": "*slow swallow* ...food... warm food...",
+    "rumor": [
+      "...the warm rock... calls...",
+      "...Sssilas... protects...",
+      "...Mire... home... warm...",
+      "...twin oracles... see me... in ice...",
+      "...Chrono... time is... warm?..."
+    ],
+    "quest_hook": "...lamp... broken... need... new...",
+    "quest_active": "...still... cold...",
+    "quest_complete": "...warm... again... thank...",
+    "farewell": [
+      "...ssssleep...",
+      "...keep... warm...",
+      "...return... with... sun..."
+    ],
+    "ambient_barks": [
+      "...ssssshiver...",
+      "...cold...",
+      "...sleep...",
+      "...dream...",
+      "...rock... speaks...",
+      "...warm... soon..."
+    ],
+    "time_dawn": "...sun... weak...",
+    "time_noon": "...warmest... still... cold...",
+    "time_dusk": "...night... comes...",
+    "time_night": "...deepest... cold...",
+    "warmth_mention": "...the rock... warmer... than lamp...",
+    "post_quest_greeting": "...warm... friend... thank..."
+  },
+  "party_reactions": {
+    "kade": "Poor snake. So cold. Hope the lamp helps.",
+    "nix7": "Reptilian cold-blooded physiology. Requires external heat. Simple biology.",
+    "twist": "OH NO! The SNAKE is COLD! Can I HUG him?! Would that HELP?!",
+    "korr": "The creature suffers. Through no fault of its own.",
+    "renna": "The snake senses the rock's magic. Bonded, perhaps.",
+    "suresh": "All beings seek comfort. Even scaled ones. Especially scaled ones.",
+    "sova": "I'd help. If only to see what happens when he's warm.",
+    "grit": "Seen worse conditions. He'll make it. Tough little guy.",
+    "ashka": "He knows cold. True cold. Fire would help.",
+    "senna": "The snake knows secrets. When warm, he might share.",
+    "callum": "His habitat requirements! SPECIFIC! Temperature CRITICAL!"
+  },
+  "relationship_dialog": {
+    "stranger": "...new... cold...",
+    "acquaintance": "...return... warmer...",
+    "friend": "...friend... warm... hand...",
+    "best_friend": "...best... friend... warm... heart... hiss..."
+  },
+  "mini_quest": {
+    "id": "warm_the_snake",
+    "title": "Cold-Blooded Comfort",
+    "description": "Help keep Mr. Whiskers warm by finding a working heating lamp",
+    "stages": {
+      "hook": "...lamp... broke... cold... coming... help...",
+      "active": "...new lamp... need... healer... might... know...",
+      "complete": "...warm... sleep... dream... thank... friend..."
+    },
+    "reward": {
+      "item": "mr_whiskers_shed_skin",
+      "gold": 200,
+      "reputation": "snake_friend"
+    }
+  },
+  "cross_npc_connections": [
+    "snakecharmer_frost: Sssilas... keeper... warm... protector...",
+    "snakecharmer_mire: ...other... self... warm... home...",
+    "warm_rock_frost: ...speaks... colors... warm...",
+    "healer_glacier_frost: ...helped... lamp... warm..."
+  ]
+}

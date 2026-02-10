@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_ashveil_mystery",
+  "name": "The Ashveil Phantom",
+  "zone": "ember",
+  "giver": "signguy",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Strange things happening in Ashveil Sanctuary, friend. Folks claim they see a phantom—ash and smoke, wandering the halls. Scaring the pilgrims. The priests say it's just superstition, but... I've seen it too. Find out what's really going on, would you?",
+      "objective": "Investigate the phantom sightings at Ashveil Sanctuary"
+    },
+    "progress": {
+      "dialog": "You've tracked it to the old catacombs! Wait... that's not a ghost. That's a smoke mephit—trapped down here, probably attracted by the sacred fires. Poor thing's just scared and confused. Can you help it escape without hurting it?",
+      "objective": "Guide the smoke mephit to freedom through the ventilation shaft"
+    },
+    "complete": {
+      "dialog": "A smoke mephit! Well, I'll be. The priests are embarrassed, but grateful. They'll perform proper containment rituals so it doesn't happen again. Here's a donation for your kindness—and a Smokestep Cloak, infused with mephit essence!",
+      "rewards": {
+        "exp": 900,
+        "gold": 350,
+        "item": "smokestep_cloak"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Not a ghost, just a confused elemental. Glad we didn't have to fight!",
+    "twist": "I can't believe I was worried about a 'phantom.'",
+    "nix7": "Mephit behavior consistent with trapped wildlife patterns. Resolution logical."
+  }
+}

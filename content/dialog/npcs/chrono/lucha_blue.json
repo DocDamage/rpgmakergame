@@ -1,0 +1,102 @@
+{
+  "npc_id": "lucha_blue_chrono",
+  "name": "El Tiempo Terrible",
+  "sprite": "lucha_blue",
+  "zone": "chrono",
+  "location": "Temporal Arena",
+  "personality": "dramatic_historical_flamboyant",
+  "occupation": "temporal_wrestler",
+  "dialog": {
+    "greeting": [
+      "BEHOLD! The CHRONOLOGICAL CHAMPION! El TIEMPO TERRIBLE!",
+      "I wrestle THROUGH time! Against HISTORY itself!",
+      "The blue mask? TEMPORAL! I fight in EVERY era! SIMULTANEOUSLY!",
+      "AUDIENCE! You witness GREATNESS! Across ALL timelines!",
+      "El Tiempo! I have BATTLED Caeser! Napoleon! Your MOM! (Temporal joke!)",
+      "Welcome to the TEMPORAL ARENA! Where PAST meets PRESENT! And LOSES!",
+      "You! YES you! Have you considered TEMPORAL WRESTLING?!",
+      "I am FROM the future! OF wrestling! Here to EDUCATE the PAST!"
+    ],
+    "performance_start": [
+      "FROM the year 3000! Of LUCHA! I give you... EL TIEMPO TERRIBLE!",
+      "The CHRONOLOGICAL CRUSHER! Undefeated! Across TIME!"
+    ],
+    "crowd_work": [
+      "You there! YES you! I wrestled your ANCESTOR! They were BETTER!",
+      "The lady in the BACK! From the FUTURE! I KNOW you! We DATED!"
+    ],
+    "show_climax": "AND NOW! The TEMPORAL TAKEDOWN! Past, PRESENT, and FUTURE! SIMULTANEOUSLY!",
+    "tips_request": "If the TEMPORAL performance PLEASED you! The mask accepts ALL currencies! Including FUTURE money!",
+    "quiet_moment": "Between us? I'm not REALLY from 3000. I'm from TUESDAY. The FUTURE of Tuesday. Still counts.",
+    "backstory": "I trained under Master CRONOS! In the TIMELESS mountains! Learned to wrestle MOMENTS! And PEOPLE!",
+    "rumor": [
+      "Tempus? The conductor? Good audience! Punctual APPLAUSE!",
+      "Yesterday? The time agent? Wrestled him ONCE! He CHEATED! With TIME!",
+      "The black hunter? No match! TOO serious! Wrestling requires JOY!",
+      "The Obsidian lucha? El Minero? We should COMPETE! Cross-temporal CHAMPIONSHIP!",
+      "The twins? They saw my VICTORY! Before it HAPPENED! Spoilers!"
+    ],
+    "quest_hook": "The ULTIMATE CHALLENGE! Wrestle a PARADOX! Person living TWO timelines! Help me FIND them!",
+    "quest_active": "Still seeking! The paradox wrestler! ELUSIVE! In TWO places!",
+    "quest_complete": "WRESTLED! The paradox! To a DRAW! Both timelines! RESPECT! Here! Temporal championship BELT! Miniature!",
+    "farewell": [
+      "FLY like the AETHER! STRIKE like TIME!",
+      "In the ARENA of LIFE! Always go for the PIN!",
+      "El Tiempo AWAITS your RETURN! In ALL eras!"
+    ],
+    "ambient_barks": [
+      "TEMPORAL wrestling!",
+      "HISTORY is my OPPONENT!",
+      "TIME to RUMBLE!",
+      "Chronological CHAMPION!",
+      "Who's ready to RUMBLE?!",
+      "Across TIME and SPACE!"
+    ],
+    "time_dawn": "Morning! TEMPORAL training! In MULTIPLE timezones!",
+    "time_noon": "Midday! LUCHA HOUR! Peak TEMPORAL!",
+    "time_dusk": "Evening! Championship BOUTS! Maximum DRAMA!",
+    "time_night": "Night! Midnight MATCHES! Against the PAST!",
+    "rival_mention": "El Minero? In Obsidian? Cross-temporal CHAMPIONSHIP! Coming SOON!",
+    "post_quest_greeting": "The paradox PARTNER! Draw to REMEMBER! In BOTH timelines!"
+  },
+  "party_reactions": {
+    "kade": "A time-wrestler! This keeps getting BETTER!",
+    "nix7": "Wrestling skill: Impressive. Temporal claims: Unverifiable. Entertainment: Maximum.",
+    "twist": "OH MAN! A TIME WRESTLER! Can we WRESTLE?! PLEASE?!",
+    "korr": "He brings joy to combat. Across time itself. Admirable.",
+    "renna": "The mask is temporally attuned. Minor prophecy. Major style.",
+    "suresh": "He finds joy in struggle. The Middle Path... in spandex.",
+    "sova": "I'd watch him wrestle. Good show. Good technique.",
+    "grit": "Entertainment troop. Morale matters. Even through time.",
+    "ashka": "He burns with passion. Temporal passion. Interesting.",
+    "senna": "He knows temporal combat. Secrets in his moves.",
+    "callum": "His safety standards! SURPRISINGLY good! For LUCHA!"
+  },
+  "relationship_dialog": {
+    "stranger": "NEW face! First show is FREE! Tips APPRECIATED!",
+    "acquaintance": "RETURNING fan! El Tiempo REMEMBERS! Probably!",
+    "friend": "CHAMPIONSHIP material! You! Special move! Just for YOU!",
+    "best_friend": "TAG TEAM partner! Through TIME! Here! My training MASK! Sacred TRUST!"
+  },
+  "mini_quest": {
+    "id": "wrestle_paradox",
+    "title": "The Paradox Match",
+    "description": "Help El Tiempo find and wrestle a person living in two timelines simultaneously",
+    "stages": {
+      "hook": "ULTIMATE challenge! Wrestle a PARADOX! Person in TWO timelines! Help me FIND them!",
+      "active": "The paradox hides! In plain SIGHT! Two places! Same TIME! Find them!",
+      "complete": "WRESTLED! To a DRAW! Both TIMELINES! RESPECT! Here! Miniature championship BELT! For YOU!"
+    },
+    "reward": {
+      "item": "el_tiempo_miniature_belt",
+      "gold": 350,
+      "reputation": "temporal_lucha_fan"
+    }
+  },
+  "cross_npc_connections": [
+    "lucha_gray_obsidian: El Minero! Cross-temporal CHAMPIONSHIP! Coming SOON!",
+    "trenchcoat_brown_chrono: Yesterday! Wrestled him! He CHEATED! With TIME!",
+    "twins_chrono: Oracles! Saw my VICTORY! Before it happened! SPOILERS!",
+    "conductor_chrono: Tempus! Good AUDIENCE! Punctual APPLAUSE!"
+  ]
+}

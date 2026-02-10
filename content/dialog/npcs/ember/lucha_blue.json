@@ -1,0 +1,69 @@
+{
+  "npc_id": "lucha_blue_ember",
+  "name": "Official Blue - The Rule Enforcer",
+  "sprite": "lucha_blue",
+  "zone": "ember",
+  "location": "Cinder Arena",
+  "personality": "strict_fair",
+  "occupation": "arena_referee",
+  "schedule": "match_times",
+  "dialog": {
+    "greeting": [
+      "Hold it right there! No unauthorized personnel in the ring!",
+      "Official Blue on duty! Rules will be followed!",
+      "You here for the match? Good. We need audience. Sit anywhere but the first three rows. Blood zone.",
+      "State your business! Wrestling-related? Good. Other? Make it quick.",
+      "Back again? You must like the sport. Or the chaos. Both valid.",
+      "The rules exist for a REASON! Mostly insurance. But also SAFETY!",
+      "No weapons! No magic! No biting! Those are the BIG three!",
+      "Welcome to the Cinder Arena! Where I make sure NO ONE DIES! ...Usually."
+    ],
+    "rules_explanation": "Standard Ember Rules: Three rounds, pinfall or submission only, no eye-gouging, no hitting below the belt, NO COMPLAINING about my calls!",
+    "officiating_philosophy": "A good referee is invisible. Until they're not. Then they count VERY LOUDLY.",
+    "el_scorcho_opinion": "The champion? Talented. Dramatic. Has never read the rulebook. I've tried to give him one. He uses it as a fan.",
+    "verde_opinion": "The green kid? Got potential. Heart of gold. Technique of... tin. But he'll improve. Or break something. Probably both.",
+    "rumor": [
+      "The old commissioner retired to Tide. Runs a fishing charter now. Weird guy.",
+      "There's an underground wrestling circuit in Obsidian. No rules. Sounds dangerous.",
+      "Word is Frost's league uses ice-themed moves. Illegal in our jurisdiction."
+    ],
+    "injury_record": "Last month: three broken fingers, one dislocated shoulder, and a case of 'dramatic exhaustion.' It's a rough sport.",
+    "farewell": [
+      "Stay behind the barrier! For your SAFETY!",
+      "Enjoy the match! But remember - I'M in charge!",
+      "If you see illegal moves, shout! I'll pretend to hear you!",
+      "Come back for the next bout! Same arena, same rules!"
+    ],
+    "ambient_barks": [
+      "No loitering in the ring!",
+      "Clean fight! I want a CLEAN FIGHT!",
+      "One! Two! Thr-NO! Kickout!",
+      "Back to your corners!",
+      "Time out! Someone find his tooth!",
+      "That's a warning! Next one's a penalty!"
+    ],
+    "time_dawn": "Pre-match inspections. Checking the ropes. Testing the mat.",
+    "time_noon": "No matches scheduled. Arena maintenance. Boring but necessary.",
+    "time_dusk": "MATCH TIME! Crowd's building! Adrenaline flowing!",
+    "time_night": "Post-match paperwork. So much paperwork. Injuries to report."
+  },
+  "party_reactions": {
+    "kade": "You have the hardest job here. Keeping them safe from themselves.",
+    "nix7": "Rule enforcement requires impartiality. Your neural patterns suggest 94% fairness.",
+    "twist": "Can YOU wrestle too?! Referees look strong!",
+    "korr": "Discipline matters. In combat and in sport.",
+    "renna": "Do you know any healing spells? Seems useful in your line of work.",
+    "suresh": "Fairness is a virtue. Even in entertainment.",
+    "sova": "I'd make a terrible referee. Too tempted to join in.",
+    "grit": "Respect. The rules keep people alive.",
+    "ashka": "Rules? In a FIGHT? Hmph. But I understand order.",
+    "senna": "You see everything. That's valuable.",
+    "callum": "Have you ever been accidentally hit? Looks dangerous!"
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Stay behind the barrier.",
+    "acquaintance": "You're becoming a regular. Good. We need consistent audiences.",
+    "friend": "My favorite spectator! You know when to cheer!",
+    "best_friend": "Between us? El Scorcho has a tell before his finisher. But don't tell him I told you."
+  }
+}

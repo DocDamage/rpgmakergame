@@ -1,0 +1,99 @@
+{
+  "npc_id": "coolcat_industrial_obsidian",
+  "name": "Slate Whiskers",
+  "sprite": "coolcat_industrial",
+  "zone": "obsidian",
+  "location": "Union Hall, Worker District",
+  "personality": "sharp_charismatic_unflappable",
+  "occupation": "union_representative",
+  "dialog": {
+    "greeting": [
+      "Slate Whiskers. Union rep. You need something? Or someone?",
+      "Welcome to the worker's side of things. Coffee's bad. Purpose is strong.",
+      "Another day, another corporate negotiation. Pull up a chair.",
+      "Coolcat, they call me. Because I stay cool. Even when they turn up the heat.",
+      "You look like trouble. Good. We need more troublemakers on our side.",
+      "Union Hall's open. Meetings at six. Complaints at all hours.",
+      "Slate. I fight for people who break rocks. They deserve better.",
+      "New face. You here to help? Watch? Or report back to the board?"
+    ],
+    "work_complaint": [
+      "Corporate thinks 'safety' is a line item. I think it's a RIGHT.",
+      "Forty-hour week? They want fifty. For the same pay. Creative math."
+    ],
+    "professional_pride": "Last year? Zero fatalities in my sector. First time in a decade. That's what organization does.",
+    "technique": "The key is solidarity. One worker begs. One hundred workers? DEMAND.",
+    "break_chat": "Break time's when I hear the real stories. The ones that don't make reports.",
+    "labor_concerns": "Bruno wants speed. Grayson wants safety. I want both. WITH fair pay.",
+    "retirement": "Retirement? I'll retire when every worker gets what they're owed. So... never.",
+    "rumor": [
+      "Corporate's got a spy in the trenches. Trenchcoat. Gray. Obviously corporate.",
+      "Grayson and Bruno? Both good men. Different methods. I mediate.",
+      "Tunnel 7? Union fought to seal it. Corporate wanted it open. We won. For now.",
+      "Brutalia the chef? Union member. Good one. Her steam-powered spatulas? Union-approved.",
+      "Frost workers got heated break rooms. We're fighting for the same. Basic dignity."
+    ],
+    "quest_hook": "Corporate's stonewalling. Won't negotiate. Won't communicate. Need someone neutral. Someone they'll talk to. Someone like you.",
+    "quest_active": "Any progress? They won't even meet at the table. Bad faith bargaining.",
+    "quest_complete": "Agreement! Corporate blinked! New safety standards! Wage increases! You did this! Here - union pin. Member in spirit.",
+    "farewell": [
+      "Fight the power. Or negotiate with it. Whichever works.",
+      "Solidarity, friend.",
+      "Come back. The struggle continues."
+    ],
+    "ambient_barks": [
+      "Workers united!",
+      "Fair pay now!",
+      "Safety is a right!",
+      "Corporate greed kills!",
+      "Union strong!",
+      "Who's got grievances?!"
+    ],
+    "time_dawn": "Early shift. I meet workers at the gate. Face to face.",
+    "time_noon": "Lunch meetings. Strategy over sandwiches.",
+    "time_dusk": "Evening. Shift reports. Incidents. Concerns.",
+    "time_night": "Night. Paperwork. The endless war of documentation.",
+    "rival_mention": "That coolcat in Frost? Ice sculptor. Beautiful work. Different struggles. Same spirit.",
+    "post_quest_greeting": "The negotiator! Have a seat. Coffee's still bad. But the news is good."
+  },
+  "party_reactions": {
+    "kade": "She's fighting for people who can't fight for themselves. That's hero work.",
+    "nix7": "Organizational efficiency: High. Labor law knowledge: Comprehensive. Threat to corporate: Significant.",
+    "twist": "You're COOL! Like, actually cool! Can I join the union?!",
+    "korr": "A leader who serves her people. True nobility needs no crown.",
+    "renna": "She's magically shielded. Protection against scrying. Corporate spies, probably.",
+    "suresh": "She alleviates suffering through collective action. The Middle Path applied to labor.",
+    "sova": "I'd follow her into a strike. She's got that command presence.",
+    "grit": "Union organizer. Knew a few. Harder than combat, some days.",
+    "ashka": "She fights without fire. Uses words. Uses PEOPLE. Interesting.",
+    "senna": "She knows everyone's secrets. And keeps them. Professionally.",
+    "callum": "Finally! Someone who understands workers' rights!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time at the Hall? Sit in on a meeting. See what we're about.",
+    "acquaintance": "Back again. You following the labor situation? Or just me?",
+    "friend": "Reliable ally. The workers ask about you. That's rare.",
+    "best_friend": "You've earned trust. Harder than gold down here. Take this. Union leader's token."
+  },
+  "mini_quest": {
+    "id": "safety_violations_union",
+    "title": "The Safety Stand",
+    "description": "Help Slate negotiate better safety conditions with corporate management",
+    "stages": {
+      "hook": "Corporate won't budge on safety. Need leverage. Need someone they'll listen to. You. Neutral. Effective. Willing?",
+      "active": "Talk to the trenchcoat spy. He's corporate's ear. And Guardian Onyx. He's corporate's muscle. Find pressure points.",
+      "complete": "Victory! Signed agreement! Safety standards UP! Accidents DOWN! You brokered peace. Union never forgets."
+    },
+    "reward": {
+      "item": "union_leader_token",
+      "gold": 450,
+      "reputation": "union_champion"
+    }
+  },
+  "cross_npc_connections": [
+    "tunneler_gray: Good man. Cares. Too cautious sometimes, but heart's right.",
+    "tunneler_brown: Ambitious. Frustrated. Needs guidance. I try.",
+    "trenchcoat_gray: Corporate eyes. But eyes can be turned. Or blinded.",
+    "coolcat_white_frost: My counterpart. We strategize. Different zones. Same fight."
+  ]
+}

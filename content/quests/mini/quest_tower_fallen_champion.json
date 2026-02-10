@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_fallen_champion",
+  "name": "Honor the Fallen",
+  "zone": "tower",
+  "giver": "aeronaut",
+  "type": "exploration",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Fifty years ago, a champion named Silas climbed higher than anyone before—Floor 89, they say. Then he vanished. They found his body last week, perfectly preserved in a stasis field. He deserves proper rites, his effects returned to his family. Will you recover him?",
+      "objective": "Locate and recover Silas's remains from Floor 89 area"
+    },
+    "progress": {
+      "dialog": "Body recovered, but his effects tell a story. Silas didn't fall—he stopped. Found something on Floor 89, a revelation that made him choose to end his climb. His journal mentions a 'truth that unravels the world.' We need to know what he learned, even if it changes everything.",
+      "objective": "Deliver Silas's remains and journal to his family"
+    },
+    "complete": {
+      "dialog": "Silas is home, his family has closure, and his secret... his family chose to burn the journal unread. Some truths, they said, are meant to stay buried. Silas died protecting the world from knowledge it wasn't ready for. Honor his choice. Climb your own path.",
+      "rewards": {
+        "exp": 21000,
+        "gold": 5000,
+        "item": "silas_memento"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Choosing to stop at Floor 89... that takes more courage than climbing to 100. He found his limit and respected it.",
+    "sova": "A truth that unravels the world. I desperately want to know what Silas discovered. But perhaps... perhaps it's better unknown.",
+    "korr": "Duty, honor, and knowing when to stop. Silas was a soldier in spirit. His family honored him well."
+  },
+  "lore_unlocks": ["silas_champion", "tower_floor_89_mystery"]
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_whiskers_lunch",
+  "name": "Dining with Whiskers",
+  "zone": "dustbelt",
+  "giver": "Sssilas the Serpent Speaker",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "BEHOLD! Mr. Whiskers needs SPECIAL desert lizards! For... dietary reasons! Bring me FIVE and I'll perform a PRIVATE show! Just for YOU! The spotted ones! From the dunes near the bazaar!",
+      "objective": "Collect 5 spotted desert lizards from the dunes near the bazaar"
+    },
+    "progress": {
+      "dialog": "Those lizards! Mr. Whiskers is PECKISH! Well, snake-ish! Five spotted ones! He won't eat the plain ones - too BORING!",
+      "objective": "Continue searching the dunes for spotted desert lizards"
+    },
+    "complete": {
+      "dialog": "PERFECT lizards! Mr. Whiskers is PLEASED! See how his eyes sparkle! Or... don't see, because snakes don't have expressive faces! Here - a SNAKE CHARM! Real magic! Probably!",
+      "rewards": {"gold": 200, "item": "serpent_blessing_charm", "reputation": 10}
+    }
+  },
+  "party_comments": {
+    "kade": "That snake looks... surprisingly well-behaved?",
+    "twist": "CAN I PET HIM?! PLEASE?! I'LL BE GENTLE!",
+    "nix7": "Scanning: Snake is... not poisonous? False advertising detected."
+  },
+  "hidden_outcome": "If you bring 10 lizards instead of 5, Mr. Whiskers becomes overstuffed and Sssilas gives you the 'Snake Charmer's Flute' instrument item"
+}

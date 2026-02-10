@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_starfall_recovery",
+  "name": "Tears of Heaven",
+  "zone": "aetherreach",
+  "giver": "signguy",
+  "type": "exploration",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Starfall last night—celestial debris raining through the atmosphere. Most burns up, but some lands. Progenitor alloys, Foundation-touched materials, stuff you can't find anywhere else. I tracked three pieces to landing zones in the lower cloud layers. Retrieve them, and we'll split the value. Fair deal?",
+      "objective": "Retrieve three starfall fragments from the lower cloud layers"
+    },
+    "progress": {
+      "dialog": "Two fragments recovered, but the third landed in a restricted zone—old Progenitor defense systems still active. Getting close triggered automated responses. We need to disable or bypass the defenses without destroying the fragment. Delicate work. You up for some high-stakes salvage?",
+      "objective": "Bypass the Progenitor defenses and recover the final fragment"
+    },
+    "complete": {
+      "dialog": "All fragments recovered, defenses bypassed, fortune made. The materials are extraordinary—Progenitor-era alloys that modern smiths can only dream of. Scholars and craftsmen are already bidding. You've brought pieces of the stars down to earth, Kade. That's the kind of story legends are made of.",
+      "rewards": {
+        "exp": 25500,
+        "gold": 9000,
+        "item": "starfall_fragment"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Salvaging star-metal from active defense zones. This is why I became an adventurer.",
+    "renna": "These alloys are beyond current metallurgical science. Given to the right researchers, they could revolutionize materials engineering.",
+    "sova": "Starfall often carries residual Foundation energy. Handle carefully—uncontrolled release could be catastrophic."
+  },
+  "lore_unlocks": ["starfall_materials", "progenitor_alloys"]
+}

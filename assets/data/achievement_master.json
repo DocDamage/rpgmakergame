@@ -1,0 +1,238 @@
+{
+  "achievements": [
+    {
+      "id": "ACH_FIRST_STEP",
+      "name": "First Step",
+      "description": "Complete the prologue",
+      "type": "story",
+      "secret": false,
+      "points": 10,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_FIRST_FOUNDATION",
+      "name": "Foundation Bearer",
+      "description": "Acquire the Growth Foundation",
+      "type": "story",
+      "secret": false,
+      "points": 15,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_ALL_FOUNDATIONS",
+      "name": "Collector of Eight",
+      "description": "Acquire all eight Foundations",
+      "type": "story",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_TOWER_CLEAR",
+      "name": "Ascended",
+      "description": "Defeat Alexander at the top of the Tower",
+      "type": "story",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_GAME_CLEAR",
+      "name": "World's Edge",
+      "description": "Defeat the Progenitor Engine",
+      "type": "story",
+      "secret": false,
+      "points": 100,
+      "icon": "icon_achievement_gold"
+    },
+    {
+      "id": "ACH_TRUE_ENDING",
+      "name": "True Savior",
+      "description": "Witness the true ending",
+      "type": "story",
+      "secret": true,
+      "points": 100,
+      "icon": "icon_achievement_gold"
+    },
+    {
+      "id": "ACH_RECRUIT_ALL",
+      "name": "Full House",
+      "description": "Recruit all 13 party members",
+      "type": "character",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_MIRA_CONFIDANT",
+      "name": "Shelter of Trust",
+      "description": "Complete Mira's confidant arc",
+      "type": "character",
+      "secret": true,
+      "points": 25,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_LEVEL_50",
+      "name": "Veteran",
+      "description": "Reach level 50 with any character",
+      "type": "combat",
+      "secret": false,
+      "points": 25,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_LEVEL_99",
+      "name": "Master",
+      "description": "Reach level 99 with any character",
+      "type": "combat",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_LIMIT_BREAK_1",
+      "name": "Breaking Limits",
+      "description": "Use a Limit Break for the first time",
+      "type": "combat",
+      "secret": false,
+      "points": 10,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_BOSS_NO_DAMAGE",
+      "name": "Flawless Victory",
+      "description": "Defeat a boss without taking damage",
+      "type": "combat",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_SECRET_BOSS_1",
+      "name": "Depths Explorer",
+      "description": "Defeat the hidden boss in the Sunken City",
+      "type": "exploration",
+      "secret": true,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_SECRET_BOSS_2",
+      "name": "Dragon's Bane",
+      "description": "Defeat the hidden boss in the Dragon's Graveyard",
+      "type": "exploration",
+      "secret": true,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_REMNANT_CUSTODIAN",
+      "name": "Ultimate Challenge",
+      "description": "Defeat the Remnant Custodian",
+      "type": "exploration",
+      "secret": true,
+      "points": 100,
+      "icon": "icon_achievement_platinum"
+    },
+    {
+      "id": "ACH_ALL_SHRINES",
+      "name": "Shrine Master",
+      "description": "Complete all eight shrine trials",
+      "type": "exploration",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_TREASURE_HUNTER",
+      "name": "Treasure Hunter",
+      "description": "Open 100 treasure chests",
+      "type": "collection",
+      "secret": false,
+      "points": 25,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_WEAPON_COLLECTOR",
+      "name": "Arsenal",
+      "description": "Collect all ultimate weapons",
+      "type": "collection",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_BESTIARY_COMPLETE",
+      "name": "Monster Scholar",
+      "description": "Complete the bestiary",
+      "type": "collection",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_GIL_MILLIONAIRE",
+      "name": "Millionaire",
+      "description": "Accumulate 1,000,000 Gil",
+      "type": "collection",
+      "secret": false,
+      "points": 25,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_ALCHEMY_100",
+      "name": "Master Alchemist",
+      "description": "Craft 100 items",
+      "type": "collection",
+      "secret": false,
+      "points": 25,
+      "icon": "icon_achievement_bronze"
+    },
+    {
+      "id": "ACH_QUEST_COMPLETE",
+      "name": "Helper",
+      "description": "Complete 50 side quests",
+      "type": "collection",
+      "secret": false,
+      "points": 50,
+      "icon": "icon_achievement_silver"
+    },
+    {
+      "id": "ACH_SPEEDRUN",
+      "name": "Speedrunner",
+      "description": "Complete the game in under 20 hours",
+      "type": "challenge",
+      "secret": false,
+      "points": 100,
+      "icon": "icon_achievement_gold"
+    },
+    {
+      "id": "ACH_NO_ESCAPE",
+      "name": "No Retreat",
+      "description": "Complete the game without escaping from battles",
+      "type": "challenge",
+      "secret": false,
+      "points": 100,
+      "icon": "icon_achievement_gold"
+    },
+    {
+      "id": "ACH_LOW_LEVEL",
+      "name": "Minimalist",
+      "description": "Complete the game with average party level under 50",
+      "type": "challenge",
+      "secret": false,
+      "points": 100,
+      "icon": "icon_achievement_gold"
+    },
+    {
+      "id": "ACH_PLATINUM",
+      "name": "Chroma's Edge Master",
+      "description": "Unlock all other achievements",
+      "type": "platinum",
+      "secret": false,
+      "points": 0,
+      "icon": "icon_achievement_platinum"
+    }
+  ]
+}

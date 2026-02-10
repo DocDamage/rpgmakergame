@@ -1,0 +1,54 @@
+{
+  "npc_id": "echo",
+  "name": "Echo",
+  "title": "Echo Witness",
+  "zone": "chrono",
+  "location": "Capital Intrigue Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Echo on comms. Stage 5: Capital Intrigue. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Study the Capital's defenses."
+    ],
+    "quest_hook": "Objective stack: Study the Capital's defenses; Learn of the resistance movement; Plan the infiltration. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Learn that the final Crystal is in the Capital, controlled by the corrupt regime. Immediate move: Study the Capital's defenses.",
+    "quest_complete": "Stage 5 resolved: Capital Intrigue. Primary objective secured and route stabilized. Prepare for All Roads Lead.",
+    "rumor": [
+      "Citizens keep meeting tomorrow versions of themselves and borrowing bad advice.",
+      "People keep repeating one clue from Capital Intrigue: 'Plan the infiltration'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Echo sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Echo accepted. Probability of success improves with compliance.",
+    "twist": "Echo talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

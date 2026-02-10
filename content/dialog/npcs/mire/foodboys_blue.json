@@ -1,0 +1,83 @@
+{
+  "npc_id": "foodboys_blue_mire",
+  "name": "Finn 'Flip' Frymaster",
+  "sprite": "foodboys_blue",
+  "zone": "mire",
+  "location": "Dockside Fry Stand",
+  "personality": "energetic_friendly_competitive",
+  "occupation": "fish_fry_vendor",
+  "schedule": {
+    "morning": "catching_fish",
+    "day": "frying_and_selling",
+    "evening": "cleaning_up"
+  },
+  "dialog": {
+    "greeting": [
+      "Fresh catch! Fried to perfection! Get your fish fry here!",
+      "Flip's the name, frying's the game! What'll it be?",
+      "Best fish in the Mire! Don't listen to my brothers - they're just jealous!",
+      "Step right up! The oil's hot and the fish is fresh!",
+      "You look hungry! Good! Hunger makes everything taste better!",
+      "Today's special: Whatever I caught this morning! Surprise!",
+      "Fry stand's open! Bring coin and an empty stomach!",
+      "Hey you! Yeah, you! Want some fish? Of course you do!"
+    ],
+    "fish_varieties": "Got mud-skipper, got bog-bass, got the occasional weird thing that might be fish. All of it crispy! All of it delicious!",
+    "secret_batter": "My batter's secret! Family recipe! Involves twelve herbs, three spices, and something yellow I found in the swamp. Don't ask.",
+    "backstory": "Me and my brothers - Corny and Heat - we run the boardwalk food scene. I'm the oldest, so naturally I'm in charge. We compete for customers, but at the end of the day, we're family. Even if Corny's cornbread is dry and Heat's sauce is basically assault.",
+    "rumors": [
+      "The snakecharmer's cobra? I feed it scraps sometimes. Good snake. Better than some customers.",
+      "Word is the dock bosses are fighting over territory again. Might affect my fish supply if they block the waterways.",
+      "That barrelgob creeps around the docks at night. Says he sees things. Probably just swamp gas.",
+      "The iron chef on the road? Amateur. I've been frying fish since before he lit his first grill."
+    ],
+    "ambient_barks": [
+      "Fish fry! Getcha fish fry!",
+      "Oil's perfect today!",
+      "Nice catch this morning!",
+      "Corny's cornbread is dry!",
+      "Heat's sauce is too hot!",
+      "Flip's fish is the best!"
+    ],
+    "time_of_day": {
+      "morning": "Just setting up! Oil's heating! Fish is... somewhere!",
+      "noon": "Lunch rush! The best time! Everyone's hungry!",
+      "evening": "Evening service! Last chance for fresh fish!",
+      "night": "Closed! Fish don't fry themselves, and I need sleep!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_catch",
+    "quest_name": "The Perfect Catch",
+    "stage_1_hook": "Look, I'll level with you. The bog-bass aren't biting like they used to. Something's stirring them up in the Deep Muck. If you could catch me a trophy bog-bass - the big one with the scar - my reputation would be SET.",
+    "stage_1_active": "The big bog-bass has a scar across his dorsal fin. Mean old fish. Hangs out near the sunken logs in Deep Muck.",
+    "stage_2_progress": "Heard you been to the Muck! Seen my fish yet? That scarred old monster is wily!",
+    "stage_2_item_needed": "scarred_bog_bass",
+    "stage_3_complete": "THAT'S HIM! The old scarred devil! Look at the size of him! I'll mount him! Fry him! BOTH! Here, take this - my special batter mix. And free fries for life!",
+    "reward": "flips_secret_batter_recipe"
+  },
+  "party_reactions": {
+    "kade": "Best food I've had in this swamp. By a wide margin.",
+    "nix7": "Nutritional value: acceptable. Taste: surprisingly optimal. Grease content: 400% of recommended daily.",
+    "twist": "FISH! CRISPY FISH! GIVE ME ALL THE FISH!",
+    "korr": "Simple food, honestly prepared. Refreshing.",
+    "renna": "There's no magic in this. Just skill and good oil. I appreciate that.",
+    "suresh": "Reminds me of coastal villages. Fresh fish, fried simply. Good memories.",
+    "sova": "Fills the belly. That's all I ask.",
+    "grit": "Reminds me of camp cooking. Messy, greasy, perfect.",
+    "ashka": "The oil... it could be hotter. I could show him. If he wants.",
+    "senna": "Good location. Sees everyone coming and going. Smart.",
+    "callum": "This is AMAZING! How does he get it so crispy?!"
+  },
+  "relationship_dialog": {
+    "stranger": "First timer! First fish is half price! Gotta hook you somehow!",
+    "acquaintance": "Back again! Knew my fish would get ya!",
+    "friend": "My best customer! Got the biggest piece set aside just for you!",
+    "best_friend": "You get it. You really get it. The fry is life. Here, come back after hours. I'll show you the REAL secret."
+  },
+  "cross_npc_connections": [
+    "foodboys_yellow: Corny. My brother. His cornbread is... fine. If you like dry things.",
+    "foodboys_red: Heat. Youngest brother. His sauce is a weapon. Literally.",
+    "snakecharmer_mire: Sssilas's snake gets my scraps. Good arrangement."
+  ]
+}

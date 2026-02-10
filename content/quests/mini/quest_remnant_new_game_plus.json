@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_new_game_plus",
+  "name": "Begin Again",
+  "zone": "remnant",
+  "giver": "coolcat_glitch",
+  "type": "social",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "You've beaten the game. Saved the world. But the Remnant offers something more—New Game Plus. Start over, keep your experience, face harder challenges, find new secrets. It's the journey you love, with the knowledge you've earned. Or you could rest. Your choice. Heroes deserve peace, if they want it.",
+      "objective": "Choose whether to begin New Game Plus or remain in the completed world"
+    },
+    "progress": {
+      "dialog": "If you're choosing NG+, there are preparations—legacy items to select, bonuses to choose, starting conditions to set. The Remnant lets you customize your return. Make it harder, make it different, make it yours. Every new beginning is a chance to be better.",
+      "objective": "Configure New Game Plus settings and prepare for the new journey"
+    },
+    "complete": {
+      "dialog": "Choice made, preparations complete, the cycle continues. Whether you're beginning anew or staying to savor your victory, know this: the world you saved will remember you. The people you helped will tell your stories. And if you do begin again... we'll be waiting. Same world. New chances. Forever.",
+      "rewards": {
+        "exp": 75000,
+        "gold": 25000,
+        "item": "new_game_plus_blessing"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Starting over, but keeping everything I learned. This time, I'll be faster, stronger, save more people.",
+    "nix7": "New Game Plus parameters selected. Probability of improved outcome: 89%. Let us optimize this timeline.",
+    "twist": "Doing it all again? Sounds exhausting. But... maybe this time I can fix my mistakes. Worth a shot."
+  },
+  "lore_unlocks": ["new_game_plus_lore", "temporal_cycles"]
+}

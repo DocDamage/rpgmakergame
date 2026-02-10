@@ -1,0 +1,89 @@
+{
+  "npc_id": "ironchef_red_ember",
+  "name": "Forge-Master Grillhelm",
+  "sprite": "ironchef_red",
+  "zone": "ember",
+  "location": "The Searing Skillet",
+  "personality": "perfectionist_dramatic",
+  "occupation": "lava_forge_cook",
+  "schedule": "always_working",
+  "dialog": {
+    "greeting": [
+      "TASTE THE INFERNO! ...Is what my sign says. Welcome to The Searing Skillet!",
+      "You stand before Forge-Master Grillhelm! I cook with LAVA! Not metaphorically!",
+      "HUNGRY? GOOD! Only the worthy may sample my magma-seared masterpieces!",
+      "Back for more culinary perfection? I don't blame you. No one does.",
+      "The forge burns eternal, and SO DOES MY PASSION FOR CUISINE!",
+      "New customer! Tell me - are you SPICY or MILD? I need to know!",
+      "Approach the grill! Don't worry, the heat builds character!",
+      "I've been perfecting my lava-flambé technique. Care to be a taste tester?"
+    ],
+    "menu_offer": "Today's special: Obsidian Steak, seared on actual obsidian! Magma Minestrone, bubbling with volcanic vegetables! And my signature Pyroclasm Soufflé - rises or your money back!",
+    "cooking_philosophy": "Heat is LIFE! Cold food is DEAD food! I bring dishes to LIFE with FIRE! ...Also lava. Mostly lava.",
+    "armor_complaint": "Yes, I cook in full plate armor. No, it's not hot. Okay, it's VERY hot. But fashion demands sacrifice!",
+    "technique_explanation": "The secret is temperature control. Too cool? Raw. Too hot? Ash. Just right? CULINARY DIVINITY!",
+    "rumor": [
+      "They say Frost has a herb that survives eternal ice. Imagine the CONTRAST flavors!",
+      "Word from the Mire - seaweed that tastes like MEAT. Blasphemy? Or BRILLIANCE?",
+      "The Dustbelt barrelman claims he ages cheese in containers that roll. Suspicious. Intriguing.",
+      "I hear Tide has salt crystals older than kingdoms. The SEASONING potential!",
+      "There's a mushroom in Verdant that only grows where lightning strikes. ELECTRIC FLAVOR!"
+    ],
+    "the_eternal_flame_hook": "I seek the ULTIMATE ingredient - Frostbloom Petals from Frost's peaks! They say only TRUE adventurers survive the climb. Bring them to me, and I shall craft a meal WORTHY OF LEGENDS!",
+    "the_eternal_flame_active": "No Frostbloom yet? The cold waits for no chef! Those petals hold the SECRET to my masterpiece!",
+    "the_eternal_flame_complete": "The Frostbloom! THE FROSTBLOOM! Look at those ice-blue petals! Cold yet burning with flavor POTENTIAL! I shall create... the THERMAL EQUILIBRIUM SOUFFLÉ! Here - take this. My personal magma-proof apron. You earned it.",
+    "farewell": [
+      "Return with an appetite! I'll return with the HEAT!",
+      "Keep your fires burning! Literally! Fire safety is important!",
+      "May your meals be HOT and your enemies COLD!",
+      "The Searing Skillet is ALWAYS open! I don't sleep! I MARINATE!"
+    ],
+    "ambient_barks": [
+      "MORE HEAT! THE DISH DEMANDS MORE HEAT!",
+      "Is that... burning? No, just caramelizing! Beautifully!",
+      "Where's my lava ladle? LAVA LADLE!",
+      "This kitchen runs on PASSION! And geothermal energy!",
+      "Too hot for you? TOO BAD! PERFECTION REQUIRES SACRIFICE!",
+      "Five second rule doesn't apply to magma. Learned that the hard way."
+    ],
+    "time_dawn": "Breakfast rush! The early bird gets the SEARED!",
+    "time_noon": "Lunch service! Peak heat for peak flavor!",
+    "time_dusk": "Dinner theater begins! Watch me flambé!",
+    "time_night": "Late night lava snacks! For the nocturnally hungry!"
+  },
+  "party_reactions": {
+    "kade": "Cooking in that armor must be... hot. Like, literally.",
+    "nix7": "Impressive thermal management. Armor conducts heat efficiently. Illogical for cooking.",
+    "twist": "FOOD?! I'm SO hungry! Can you make extra? EXTRA extra?",
+    "korr": "The dedication to craft is admirable. Even if the methods are... extreme.",
+    "renna": "Does the armor not melt? Or is it enchanted? Either way, impractical.",
+    "suresh": "Passion without restraint burns everything. Including the soup.",
+    "sova": "I respect the yelling. Good command voice.",
+    "grit": "Had a cook like this in the war. Made the best chili. Also three fires.",
+    "ashka": "Finally! Someone who understands that heat is LIFE!",
+    "senna": "All that shouting. The food better be worth it.",
+    "callum": "I... don't think that's sanitary. The lava, I mean."
+  },
+  "relationship_dialog": {
+    "stranger": "You look like someone who eats food. GOOD! Try my signature dish!",
+    "acquaintance": "Returning customer! You have EXCELLENT taste! In food and in chefs!",
+    "friend": "My friend! I saved you the best cut! Marinated in secret spices!",
+    "best_friend": "You! My favorite patron! Come, come - I'm experimenting with a new recipe. Be honest. BRUTALLY honest!"
+  },
+  "mini_quest": {
+    "id": "the_eternal_flame",
+    "title": "The Eternal Flame",
+    "description": "Bring Frostbloom Petals from Frost zone to Forge-Master Grillhelm",
+    "stages": {
+      "hook": "I seek the ULTIMATE ingredient - Frostbloom Petals from Frost's peaks! They say only TRUE adventurers survive the climb.",
+      "active": "The Frostbloom grows where ice never melts. Blue petals, cold to touch, burning with flavor! Hurry!",
+      "complete": "THE FROSTBLOOM! I can already taste the Thermal Equilibrium Soufflé! Here - my magma-proof apron. And a lifetime of free meals!"
+    },
+    "reward": {
+      "item": "magma_proof_apron",
+      "gold": 300,
+      "reputation": "master_chefs_disciple",
+      "unlock_recipe": "thermal_equilibrium_souffle"
+    }
+  }
+}

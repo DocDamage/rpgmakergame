@@ -1,0 +1,29 @@
+{
+  "id": "TYPE_NAME_SIZExSIZE",
+  "display_name": "Display Name",
+  "type": "overworld|town|dungeon|route|shrine|tower|palace|hidden|interior",
+  "dimensions": {
+    "width": 96,
+    "height": 96,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Name",
+  "encounter_table": "ENCOUNTER_TABLE_ID",
+  "boss": "BOSS_ID",
+  "music": "bgm_theme_name",
+  "ambience": "amb_env_name",
+  "connections": [
+    {
+      "direction": "north|south|east|west|special",
+      "target": "TARGET_MAP_ID",
+      "coords": [0, 0],
+      "trigger": "always|puzzle_solved|key_item|quest_flag"
+    }
+  ],
+  "events": ["EVENT_FLAG_1", "EVENT_FLAG_2"],
+  "lighting": "bright|dim|dark|bioluminescent|warm|cold",
+  "weather": "none|rain|snow|ash|dust|mist",
+  "loot_table": "LOOT_TABLE_ID",
+  "parent_region": "optional_region_id",
+  "notes": ""
+}

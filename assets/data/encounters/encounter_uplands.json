@@ -1,0 +1,91 @@
+{
+  "id": "UPLANDS_ENCOUNTERS",
+  "region": "uplands",
+  "maps": [
+    "MIC_R02_80x48",
+    "T_ASHVEIL_112x72"
+  ],
+  "encounter_rate": 0.1,
+  "min_steps": 11,
+  "max_steps": 26,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_ROCK_BRUTE"
+      ],
+      "weight": 30,
+      "min_steps": 10,
+      "gil_range": [
+        35,
+        60
+      ],
+      "xp": 60
+    },
+    {
+      "enemies": [
+        "ENEMY_WIND_CASTER"
+      ],
+      "weight": 25,
+      "min_steps": 12,
+      "gil_range": [
+        30,
+        55
+      ],
+      "xp": 55
+    },
+    {
+      "enemies": [
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 20,
+      "min_steps": 8,
+      "gil_range": [
+        18,
+        35
+      ],
+      "xp": 40
+    },
+    {
+      "enemies": [
+        "ENEMY_ROCK_BRUTE",
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 15,
+      "min_steps": 15,
+      "gil_range": [
+        55,
+        95
+      ],
+      "xp": 100
+    },
+    {
+      "enemies": [
+        "ENEMY_WIND_CASTER",
+        "ENEMY_WIND_CASTER"
+      ],
+      "weight": 10,
+      "min_steps": 18,
+      "rare": true,
+      "gil_range": [
+        60,
+        110
+      ],
+      "xp": 102
+    },
+    {
+      "enemies": [
+        "ENEMY_ROCK_BRUTE",
+        "ENEMY_WIND_CASTER",
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 6,
+      "min_steps": 20,
+      "rare": true,
+      "gil_range": [
+        85,
+        150
+      ],
+      "xp": 140
+    }
+  ]
+}

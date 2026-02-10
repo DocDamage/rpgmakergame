@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_squall_gunblade",
+  "name": "Lionheart's Legacy",
+  "zone": "prism",
+  "giver": "Squall (SeeD Mercenary)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "...Need parts for my gunblade. Lionheart isn't performing at peak. Crystal capacitors from the Prism formations should work. Get me five? I'll pay.",
+      "objective": "Collect 5 crystal capacitors from Prism formations"
+    },
+    "progress": {
+      "dialog": "...How many capacitors? Need five for the calibration. Don't want to overload the chamber.",
+      "objective": "Continue gathering crystal capacitors"
+    },
+    "complete": {
+      "dialog": "...Perfect. These will do. Gunblade will hit harder now. Thanks. Here - GF compatibility module. Lets you junction better. Don't ask how it works. Magic.",
+      "rewards": {"gold": 500, "item": "gf_compatibility_module", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Gunblade. Sword and gun combined. Interesting weapon.",
+    "nix7": "Weapon design: impractical. Combat effectiveness: undeniable.",
+    "korr": "Professional. Focused. I can work with this."
+  },
+  "hidden_outcome": "If you bring 10 capacitors, Squall trusts you enough to show 'Lionheart' his ultimate gunblade and gives you 'Pulse Ammo'"
+}

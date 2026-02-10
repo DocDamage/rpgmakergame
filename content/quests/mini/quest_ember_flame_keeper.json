@@ -1,0 +1,30 @@
+{
+  "quest_id": "mini_ember_flame_keeper",
+  "name": "Keeper of the Eternal Flame",
+  "zone": "ember",
+  "giver": "ironchef_blue",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Eternal Flame in Cinderstep Cathedral is dying! It needs sacred kindling from all four Ember regions to reignite. I'm too busy with my restaurant—can you gather them? North, South, East, and Central Ember each have a unique wood!",
+      "objective": "Collect sacred kindling from all four Ember regions"
+    },
+    "progress": {
+      "dialog": "Three down, one to go! Just the Southern Ashwood remains. Be careful—the southern groves are guarded by ash spirits. They don't like outsiders taking their wood!",
+      "objective": "Retrieve the Southern Ashwood from the ash spirits"
+    },
+    "complete": {
+      "dialog": "You did it! The Eternal Flame burns bright once more! The cathedral priests are eternally grateful. They've blessed you with the Flame Keeper's Mark—it grants resistance to all fire damage!",
+      "rewards": {
+        "exp": 900,
+        "item": "flame_keepers_mark"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A holy quest! I'm practically a paladin now!",
+    "twist": "The ash spirits were surprisingly chatty. Weird place.",
+    "nix7": "Flame reignition successful. Thermal output: nominal."
+  }
+}

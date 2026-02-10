@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_MIREWATCH_INFIRMARY_A",
+  "name": "Mirewatch Infirmary Resident",
+  "title": "Shrine Attendant",
+  "location": "I_HALL_40x28",
+  "coords": [
+    20,
+    14
+  ],
+  "schedule": {
+    "day": [
+      20,
+      14
+    ],
+    "night": [
+      19,
+      15
+    ],
+    "rain": [
+      20,
+      16
+    ]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMBIENT_PRIESTESS",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "friendly",
+  "background": "Offers aid and ritual guidance to locals. Based inside I_HALL_40x28.",
+  "personality": "Calm, compassionate, and steel-spined.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "blessings",
+    "healing_advice"
+  ]
+}

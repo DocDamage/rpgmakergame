@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_tifa_barrel_search",
+  "name": "Barrel Hunter's Challenge",
+  "zone": "dustbelt",
+  "giver": "Tifa (Barrel Breaker)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Hey there! Heard about the barrel tradition here - crazy, right? But fun! I'm looking for the LEGENDARY barrel. Solid iron. Said to be hidden in the Dustbelt somewhere. Help me find it?",
+      "objective": "Search the Dustbelt for the legendary iron barrel"
+    },
+    "progress": {
+      "dialog": "No luck yet? Keep looking! It's gotta be around here somewhere!",
+      "objective": "Continue searching for the iron barrel in hidden areas"
+    },
+    "complete": {
+      "dialog": "You FOUND it! Look at this thing! SOLID iron! Okay, here goes... HA! Kicked it clean in half! Thanks for the help! Take these - premium leather gloves. Good for punching things!",
+      "rewards": {"gold": 350, "item": "premium_leather_gloves", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "She kicked an IRON barrel in half? That's... impressive.",
+    "twist": "TEACH ME! I want to kick barrels too!",
+    "grit": "Solid technique. Good follow-through."
+  },
+  "hidden_outcome": "If you kick the barrel before Tifa does, she challenges you to a friendly sparring match and teaches 'Somersault Kick'"
+}

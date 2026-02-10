@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_ancient_future",
+  "name": "Tomorrow's Ruins",
+  "zone": "chrono",
+  "giver": "aeronaut_red",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A temporal distortion showed me... the future! Chrono lies in ruins, centuries from now! But I saw something—a device in the wreckage that could prevent the catastrophe! You need to travel forward, retrieve it, and bring it back without contaminating the timeline!",
+      "objective": "Enter the temporal rift and travel to future Chrono"
+    },
+    "progress": {
+      "dialog": "The future is devastated—Void consumed everything! The device is in the old clock tower, but it's guarded by temporal echoes—ghosts of the dead repeating their final moments! Avoid them or be trapped in their time!",
+      "objective": "Retrieve the Temporal Stabilizer from the ruined clock tower"
+    },
+    "complete": {
+      "dialog": "You brought it back! The Stabilizer is active—this future will never come to pass! But you carry its memories... a heavy burden. The Temporal Authority grants you this Vision of Tomorrow! It warns you of impending danger!",
+      "rewards": {
+        "exp": 1200,
+        "gold": 1000,
+        "item": "vision_of_tomorrow"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I saw our future. We lose. But we can change it. We WILL change it.",
+    "twist": "The Void wins in that timeline. We must prevent that at all costs.",
+    "nix7": "Alternate timeline observation: recorded. Prevention protocol: initiated."
+  }
+}

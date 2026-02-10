@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_CROWN_TO_PALACE_CORRIDOR_SCOUT",
+  "name": "Crown to Palace Corridor Wayfarer",
+  "title": "Resistance Scout",
+  "location": "MIC_CROWN_TO_PALACE_56x32",
+  "coords": [
+    28,
+    16
+  ],
+  "schedule": {
+    "day": [
+      28,
+      16
+    ],
+    "night": [
+      31,
+      14
+    ],
+    "rain": [
+      30,
+      17
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Assigned to Crown to Palace Corridor.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

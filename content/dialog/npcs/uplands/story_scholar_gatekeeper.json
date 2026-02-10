@@ -1,0 +1,54 @@
+{
+  "npc_id": "scholar_gatekeeper",
+  "name": "Scholar Gatekeeper",
+  "title": "Lore Keeper",
+  "zone": "uplands",
+  "location": "The Floating Scholarium Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_precise_obsessive",
+  "occupation": "researcher",
+  "dialog": {
+    "greeting": [
+      "Scholar Gatekeeper on comms. Stage 1: The Floating Scholarium. Keep formation tight and decisions tighter.",
+      "We are running Echoes of the Past. Objective drift gets teams buried.",
+      "I met my future self and we argued about shoe durability.",
+      "Action first, panic never. Start with: Present Marn's pendant."
+    ],
+    "quest_hook": "Objective stack: Present Marn's pendant; Navigate the Scholarium; Meet with High Scholar Vael. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Reach the High Scholarium and request an audience. Immediate move: Present Marn's pendant.",
+    "quest_complete": "Stage 1 resolved: The Floating Scholarium. Primary objective secured and route stabilized. Prepare for The Archives Awaken.",
+    "rumor": [
+      "Farmhands heard thunder reciting names of forgotten routes.",
+      "People keep repeating one clue from The Floating Scholarium: 'Meet with High Scholar Vael'.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm."
+    ],
+    "ambient_barks": [
+      "Pattern noted.",
+      "Archive that.",
+      "Evidence first.",
+      "Hypothesis holding."
+    ],
+    "time_dawn": "Dawn upland winds are gentle enough for long-range scouting.",
+    "time_noon": "Noon crosswinds can throw gliders and arrows alike. Brace for drift.",
+    "time_dusk": "Dusk over the cliffs creates blind pockets. Sweep before advancing.",
+    "time_night": "Night uplands favor sentries and snipers. Move with cover rhythm."
+  },
+  "party_reactions": {
+    "kade": "Scholar Gatekeeper sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Scholar Gatekeeper accepted. Probability of success improves with compliance.",
+    "twist": "Scholar Gatekeeper talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "uplands_echoes_past"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_floating_market",
+  "name": "Market in the Mist",
+  "zone": "aetherreach",
+  "giver": "foodboys_green",
+  "type": "social",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Floating Market only appears when conditions are perfect—specific humidity, wind speed, and celestial position. It's happening tomorrow, and I've got exclusive goods to sell. Problem is, my supplier got grounded by a storm. Need someone to fly the route, pick up the cargo, get back before the market opens.",
+      "objective": "Fly to the supplier and retrieve the market cargo"
+    },
+    "progress": {
+      "dialog": "Cargo acquired, but the storm's worse than forecast. Direct route is suicide. I know a path through the cloud canyons—tight, dangerous, but sheltered from the worst winds. Follow my coordinates exactly. One deviation and we lose the cargo, the market opportunity, and possibly our lives.",
+      "objective": "Navigate the cloud canyon route and deliver the cargo before market opens"
+    },
+    "complete": {
+      "dialog": "Market opened, cargo delivered, profits made. The Floating Market was a success, and your flying under pressure is legendary now. Merchants are already asking for your courier services. Aetherreach always needs skilled pilots. You've found another calling, if you want it.",
+      "rewards": {
+        "exp": 22000,
+        "gold": 8000,
+        "item": "floating_market_voucher"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Flying cargo through a storm to hit a deadline. It's like my Rusthaven smuggling days, but with better views.",
+    "twist": "The cloud canyon route required precision I didn't think you had. Color me impressed, Kade.",
+    "renna": "Atmospheric conditions in those canyons create unique pressure dynamics. Risky but scientifically fascinating route."
+  },
+  "lore_unlocks": ["floating_market", "cloud_canyon_routes"]
+}

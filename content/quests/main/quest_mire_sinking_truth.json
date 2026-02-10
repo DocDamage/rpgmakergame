@@ -1,0 +1,140 @@
+{
+  "quest_id": "mire_sinking_truth",
+  "name": "The Sinking Truth",
+  "zone": "mire",
+  "act": 1,
+  "prerequisites": [
+    "uplands_echoes_past"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Fetid Approach",
+      "description": "Navigate through the corrupted swamp to reach the Marshfolk villages",
+      "npc": "marsh_guide_ven",
+      "dialog_start": "Surface-dwellers? Here? You're either brave, foolish, or both. I'm Ven—what's left of the Marshfolk guides. The swamp's sick, stranger. Waters that once healed now rot from within. My people are dying, and the elders blame 'outsiders.' But I think... I think something worse is happening.",
+      "objectives": [
+        "Follow Ven through safe paths",
+        "Avoid the Blighted waters",
+        "Reach Marshfolk Village"
+      ],
+      "dialog_complete": "You made it! And that lens you carry—it reacts to the corruption! By the Old Gods, you really have come to help. The elders won't listen to me, but they might listen to someone with Progenitor artifacts. Come, I'll sneak you into the council.",
+      "rewards": {
+        "exp": 700,
+        "item": "marshfolk_disguise"
+      },
+      "target_location_id": "MIC_R03_104x56"
+    },
+    {
+      "stage": 2,
+      "name": "Council of Despair",
+      "description": "Convince the Marshfolk Council that the Void is the true threat",
+      "npc": "elder_bogwhisper",
+      "dialog_start": "Outsiders! Ven, you fool, you've brought surface poison into our midst! We know your kind—you bring industry, you bring 'progress,' you bring DEATH! The waters rot because of YOUR people, not ours! Guards, seize them!",
+      "objectives": [
+        "Defend against hostile guards",
+        "Use the True Lens to reveal Void tendrils",
+        "Convince the Council with evidence"
+      ],
+      "dialog_complete": "By the spirits... the lens shows it clearly. Violet veins, pulsing beneath our sacred waters. This is no surface poison. This is... ancient. Evil. Forgive us, travelers. We are a proud people, but pride has blinded us. What must we do?",
+      "rewards": {
+        "exp": 1100,
+        "item": "marshfolk_alliance_token"
+      },
+      "target_location_id": "T_MIREWATCH_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "Heart of the Blight",
+      "description": "Investigate the source of corruption at the sunken temple",
+      "npc": "ven",
+      "dialog_start": "The elders speak of a sunken temple—older than the Marshfolk, older than memory. The Blight spreads from there. I've never dared approach, but with you... with that lens... maybe we can see what's really down there. I'm coming with you. My swamp, my responsibility.",
+      "objectives": [
+        "Navigate the Deep Mire",
+        "Breach the Sunken Temple",
+        "Identify the corruption source"
+      ],
+      "dialog_complete": "That's... that's no natural creature. It's a Wound—living Void given physical form! The records said the Void was sealed, but this... this is bleeding through! Kade, it's feeding on the temple's ley line! If we don't stop it, the entire Mire will become a gateway!",
+      "rewards": {
+        "exp": 1300,
+        "item": "void_wound_sample"
+      },
+      "target_location_id": "D2_FUNGAL_96x96"
+    },
+    {
+      "stage": 4,
+      "name": "Venom's Truth",
+      "description": "Recruit the exiled alchemist who knows how to fight the Blight",
+      "npc": "vesper_venom",
+      "dialog_start": "Well, well. Outsiders with Progenitor toys, poking around my swamp. Brave or stupid? Bit of both, I'd wager. Name's Vesper—yes, THAT Vesper. The 'mad alchemist' the Council exiled for 'dangerous practices.' But you know what? My 'dangerous' research is exactly what you need to fight that Blight.",
+      "objectives": [
+        "Find Vesper's hidden laboratory",
+        "Gather Blight samples for study",
+        "Convince Vesper to share her research"
+      ],
+      "dialog_complete": "You're serious about this. Actually serious. Fine—you want to know the truth? The Blight IS the Void's blood. I've spent five years developing a compound that can cauterize these Wounds. It'll cost you my weight in gold, OR... you take me with you. I want to see this fight through.",
+      "rewards": {
+        "exp": 1200,
+        "item": "vesper_companion_unlocked"
+      },
+      "target_location_id": "D2_FUNGAL_96x96"
+    },
+    {
+      "stage": 5,
+      "name": "Cauterizing the Wound",
+      "description": "Use Vesper's compound to destroy the Void Wound",
+      "npc": "ven",
+      "dialog_start": "The compound works! I saw it dissolve a Blight-touched frog instantly. But the main Wound is massive—we'll need to get close. Very close. Kade, this might be a one-way trip. If you're having second thoughts, now's the time.",
+      "objectives": [
+        "Infiltrate the Sunken Temple",
+        "Apply Vesper's Voidbane compound",
+        "Destroy the Void Wound"
+      ],
+      "dialog_complete": "It... it's shrinking! The waters are clearing! You did it! The swamp will take years to fully heal, but... hope. We have hope again. I don't know how to thank you. My life is yours, Kade. Where you go, I follow.",
+      "rewards": {
+        "exp": 1800,
+        "item": "ven_companion_unlocked"
+      },
+      "target_location_id": "D2_FUNGAL_96x96"
+    },
+    {
+      "stage": 6,
+      "name": "The Prism Beckons",
+      "description": "Learn of the Crystal of Truth hidden in the Prism City",
+      "npc": "elder_bogwhisper",
+      "dialog_start": "You have saved our people when we showed you only hostility. The debt can never be repaid, but we can offer guidance. The Progenitor records speak of a Crystal of Truth, hidden in a city of light and glass—Prism. Find it, and the Void's lies will crumble before you.",
+      "objectives": [
+        "Receive the location of Prism",
+        "Gather supplies for the journey",
+        "Prepare to leave the Mire"
+      ],
+      "dialog_complete": "The path to Prism lies through the Shimmering Pass—dangerous, but passable with the right guide. Ven will show you. And Kade... the spirits whisper your name now. They say you carry the weight of worlds. Walk carefully, Bearer of Hope.",
+      "rewards": {
+        "exp": 1000,
+        "gold": 700,
+        "unlock": "zone_prism"
+      },
+      "target_location_id": "T_PRISMRIDGE_112x72"
+    }
+  ],
+  "story_beats": [
+    "The Marshfolk initially blame outsiders for the Blight, requiring diplomacy",
+    "The party discovers 'Void Wounds'—physical manifestations of the Void bleeding into reality",
+    "Vesper the alchemist and Ven the guide join the party",
+    "The first major victory against the Void is achieved by destroying the Wound",
+    "The Crystal of Truth in Prism is identified as the next objective"
+  ],
+  "party_reactions": {
+    "kade": "We actually pushed back the Void. It felt impossible, but we did it. That Wound... the way it screamed when it died... I don't think I'll ever forget that sound. But the swamp is healing. That's what matters.",
+    "nix7": "Vesper's compound represents a significant tactical advantage. Recommend prioritizing acquisition of additional Progenitor artifacts. The Void Wounds appear to be focal points—we should expect more as we approach Crystals.",
+    "skysong": "Never thought I'd see a Void monstrosity get dissolved by SCIENCE. Vesper's crazy, but she's OUR crazy. And Ven—kid's got heart. Reminds me of me, back when I still thought one person could change the world.",
+    "vesper": "Finally! Field testing! Do you know how long I've waited to see my theories in action? Five years of exile, five years of being called 'mad.' Who's mad now, Council? WHO'S MAD NOW?! ...Ahem. Team player. I'm a team player.",
+    "ven": "I was born in that swamp. Thought I'd die there too, probably eaten by something hungry. Now I'm... what, a hero? An adventurer? It feels strange. Good strange. Like I'm finally becoming who I was meant to be."
+  },
+  "unlocks": [
+    "zone_prism",
+    "quest_prism_shattered_light",
+    "companions_vesper_ven",
+    "voidbane_craftable"
+  ]
+}

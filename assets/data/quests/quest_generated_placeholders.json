@@ -1,0 +1,841 @@
+{
+  "id": "Q_GENERATED_PLACEHOLDERS",
+  "quests": [
+    {
+      "id": "Q_ALL_RELICS",
+      "name": "Convergence of Foundations",
+      "type": "main",
+      "giver": "AUTO_START",
+      "prerequisites": [
+        "Q_EIGHTH_RELIC",
+        "Q_KORR_LIBERATION"
+      ],
+      "description": "With all eight Foundations recovered, complete the final attunement protocol and open the Tower ascent lock.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Travel to Aetherreach",
+          "target_location": "T_AETHERREACH_112x72",
+          "objective": "travel"
+        },
+        {
+          "id": 2,
+          "description": "Speak with the Seam Warden",
+          "target_location": "T_AETHERREACH_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_SEAM_WARDEN"
+        },
+        {
+          "id": 3,
+          "description": "Attune all Foundation relics at the Sky Spire",
+          "target_location": "T_AETHERREACH_112x72",
+          "objective": "story_event"
+        }
+      ],
+      "rewards": {
+        "xp": 9000,
+        "gil": 5000,
+        "items": [
+          {
+            "item": "ITEM_SEAM_WARDEN_BLESSING",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_TOWER_ASCENT"
+      ],
+      "flags_set": [
+        "Q_ALL_RELICS_COMPLETE",
+        "ALL_FOUNDATIONS_COLLECTED"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_ARCHIVE_KEY",
+      "name": "Archive Writ",
+      "type": "side",
+      "giver": "NPC_ARCHIVIST_VELM",
+      "prerequisites": [
+        "Q_LOST_HISTORY"
+      ],
+      "description": "Velm authorizes access to sealed records after you recover ledger fragments.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Recover two ledger fragments from the capital outskirts",
+          "target_location": "MIC_R16_136x56",
+          "objective": "collect"
+        },
+        {
+          "id": 2,
+          "description": "Deliver fragments to Velm",
+          "target_location": "T_RIMEHOLD_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_ARCHIVIST_VELM"
+        }
+      ],
+      "rewards": {
+        "xp": 3000,
+        "gil": 1800,
+        "items": [
+          {
+            "item": "ITEM_ARCHIVE_KEY",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_ARCHIVE_KEY_COMPLETE"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_ASSASSINATION",
+      "name": "Quiet Blade, Loud Signal",
+      "type": "side",
+      "giver": "NPC_RESISTANCE_CONTACT",
+      "prerequisites": [
+        "Q_RESISTANCE_PLOT"
+      ],
+      "description": "Take down a Dominion executioner cell before they can strike resistance shelters.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Receive target dossier from Varin",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_RESISTANCE_CONTACT"
+        },
+        {
+          "id": 2,
+          "description": "Neutralize the strike team at Crown District approach",
+          "target_location": "MIC_R16_136x56",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Report operation success",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_RESISTANCE_CONTACT"
+        }
+      ],
+      "rewards": {
+        "xp": 4200,
+        "gil": 2600,
+        "items": [
+          {
+            "item": "ITEM_SHADOW_FOUNDATION_BLESSING",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_ASSASSINATION_COMPLETE"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_BETTER_GEAR",
+      "name": "Better Gear",
+      "type": "side",
+      "giver": "NPC_BLACKSMITH_KELLEN",
+      "prerequisites": [
+        "Q_PROLOGUE"
+      ],
+      "description": "Kellen needs salvage to reinforce party starter equipment.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Bring Iron Scrap x3",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_IRON_SCRAP"
+        },
+        {
+          "id": 2,
+          "description": "Bring Rusty Bolt x2",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_RUSTY_BOLT"
+        },
+        {
+          "id": 3,
+          "description": "Deliver to Kellen",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BLACKSMITH_KELLEN"
+        }
+      ],
+      "rewards": {
+        "xp": 650,
+        "gil": 350,
+        "items": [
+          {
+            "item": "ITEM_STEEL_INGOT",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_RARE_MATERIALS"
+      ],
+      "flags_set": [
+        "Q_BETTER_GEAR_COMPLETE"
+      ],
+      "act": 1
+    },
+    {
+      "id": "Q_EPILOGUE",
+      "name": "After the Crown Falls",
+      "type": "main",
+      "giver": "AUTO_START",
+      "prerequisites": [
+        "Q_PALACE_OF_FATE"
+      ],
+      "description": "Resolve post-palace fallout across allied settlements and secure the route to Aetherreach endgame content.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Check in at Ashveil",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_MIRA_THORN"
+        },
+        {
+          "id": 2,
+          "description": "Check in at Rimehold",
+          "target_location": "T_RIMEHOLD_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_ARCHIVIST_VELM"
+        },
+        {
+          "id": 3,
+          "description": "Return to Aetherreach for final debrief",
+          "target_location": "T_AETHERREACH_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_SEAM_WARDEN"
+        }
+      ],
+      "rewards": {
+        "xp": 7000,
+        "gil": 2000,
+        "items": [
+          {
+            "item": "ITEM_AETHERREACH_PASS",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_EPILOGUE_COMPLETE"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_FIFTH_RELIC",
+      "name": "The Tide Foundation",
+      "type": "main",
+      "giver": "NPC_DOCKMASTER_SARAI",
+      "prerequisites": [
+        "Q_FOURTH_RELIC"
+      ],
+      "description": "Descend through Brinegate lanes into the Abyss and claim the Tide Foundation.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Prepare submersible at Brinegate",
+          "target_location": "T_BRINEGATE_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_DOCKMASTER_SARAI"
+        },
+        {
+          "id": 2,
+          "description": "Navigate Brinegate Run",
+          "target_location": "MIC_S01_72x40",
+          "objective": "travel"
+        },
+        {
+          "id": 3,
+          "description": "Cross Abyss Descent Channel",
+          "target_location": "MIC_S02_80x44",
+          "objective": "travel"
+        },
+        {
+          "id": 4,
+          "description": "Defeat The Depthcaller",
+          "target_location": "D5_ABYSS_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_DEPTHCALLER"
+        },
+        {
+          "id": 5,
+          "description": "Claim the Tide Foundation",
+          "target_location": "D5_ABYSS_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_TIDE_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 5200,
+        "gil": 2800,
+        "items": [
+          {
+            "item": "ITEM_DEPTHCALLER_PEARL",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_SIXTH_RELIC",
+        "Q_SUNKEN_TREASURE"
+      ],
+      "flags_set": [
+        "Q_FIFTH_RELIC_COMPLETE",
+        "D5_CLEARED"
+      ],
+      "act": 2
+    },
+    {
+      "id": "Q_IRONHAWK_DEALINGS",
+      "name": "Ironhawk Dealings",
+      "type": "side",
+      "giver": "NPC_BROKER_VANE",
+      "prerequisites": [
+        "Q_PROLOGUE"
+      ],
+      "description": "Broker Vane needs leverage on an Ironhawk courier route before negotiations collapse.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Get route intel from Vane",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BROKER_VANE"
+        },
+        {
+          "id": 2,
+          "description": "Intercept courier cache on Dustbelt Track",
+          "target_location": "MIC_R01B_96x40",
+          "objective": "collect"
+        },
+        {
+          "id": 3,
+          "description": "Return dossier to Vane",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BROKER_VANE"
+        }
+      ],
+      "rewards": {
+        "xp": 1000,
+        "gil": 800,
+        "items": [
+          {
+            "item": "ITEM_SEAL_WAX_SCRAP",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_IRONHAWK_DEALINGS_COMPLETE"
+      ],
+      "act": 1
+    },
+    {
+      "id": "Q_LOST_HISTORY",
+      "name": "Lost History",
+      "type": "side",
+      "giver": "NPC_ARCHIVIST_VELM",
+      "prerequisites": [
+        "Q_SEVENTH_RELIC"
+      ],
+      "description": "Recover fractured records that explain the Dominion purge of old Lumencrest.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Search archive markers in Crown approach",
+          "target_location": "MIC_R16_136x56",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Retrieve one deep record from Archive district",
+          "target_location": "D_ARCHIVE_112x96",
+          "objective": "collect"
+        },
+        {
+          "id": 3,
+          "description": "Deliver records to Velm",
+          "target_location": "T_RIMEHOLD_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_ARCHIVIST_VELM"
+        }
+      ],
+      "rewards": {
+        "xp": 3600,
+        "gil": 2000,
+        "items": [
+          {
+            "item": "ITEM_CROWN_ALLOY_SHARD",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_ARCHIVE_KEY"
+      ],
+      "flags_set": [
+        "Q_LOST_HISTORY_COMPLETE"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_LOST_SURVEY",
+      "name": "Lost Survey",
+      "type": "side",
+      "giver": "NPC_OLD_KELL",
+      "prerequisites": [
+        "Q_OLD_KELLS_MAPS"
+      ],
+      "description": "Old Kell misplaced a high-altitude survey cache near Crystal Gate Pass.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Search Crystal Gate Pass",
+          "target_location": "MIC_R06_64x36",
+          "objective": "collect"
+        },
+        {
+          "id": 2,
+          "description": "Return recovered charts to Old Kell",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_OLD_KELL"
+        }
+      ],
+      "rewards": {
+        "xp": 1900,
+        "gil": 1000,
+        "items": [
+          {
+            "item": "ITEM_WORLD_MAP",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_LOST_SURVEY_COMPLETE"
+      ],
+      "act": 1
+    },
+    {
+      "id": "Q_MARSHLAND_MYSTERIES",
+      "name": "Marshland Mysteries",
+      "type": "side",
+      "giver": "NPC_SISTER_AMARA",
+      "prerequisites": [
+        "Q_FIRST_RELIC"
+      ],
+      "description": "Investigate abnormal spores spreading beyond Mirewatch borders.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Inspect infected pools near Mirewatch",
+          "target_location": "MIC_R04_56x36",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Defeat fungal nests in Depth outskirts",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Report findings to Sister Amara",
+          "target_location": "T_MIREWATCH_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_SISTER_AMARA"
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gil": 800,
+        "items": [
+          {
+            "item": "ITEM_FUNGAL_CAP",
+            "count": 3
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_PLAGUE_CURE"
+      ],
+      "flags_set": [
+        "Q_MARSHLAND_MYSTERIES_COMPLETE"
+      ],
+      "act": 1
+    },
+    {
+      "id": "Q_MASTER_WORK",
+      "name": "Master Work",
+      "type": "side",
+      "giver": "NPC_FORGE_MASTER_GRIMJAW",
+      "prerequisites": [
+        "Q_SIXTH_RELIC",
+        "Q_KORR_LIBERATION"
+      ],
+      "description": "Grimjaw will craft a master-grade weapon if you gather rare boss residues.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Bring Colossus Core",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_COLOSSUS_CORE"
+        },
+        {
+          "id": 2,
+          "description": "Bring Inferno Heart",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_INFERNO_HEART"
+        },
+        {
+          "id": 3,
+          "description": "Commission master forging",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW"
+        }
+      ],
+      "rewards": {
+        "xp": 4200,
+        "gil": 2200,
+        "items": [
+          {
+            "item": "ITEM_LEGENDARY_WEAPON",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_MASTER_WORK_COMPLETE"
+      ],
+      "act": 2
+    },
+    {
+      "id": "Q_PLAGUE_CURE",
+      "name": "Plague Cure",
+      "type": "side",
+      "giver": "NPC_SISTER_AMARA",
+      "prerequisites": [
+        "Q_MARSHLAND_MYSTERIES"
+      ],
+      "description": "Collect high-grade spore reagents so Amara can stabilize the infirmary cure stock.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Collect Spore Pod x3",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "collect",
+          "target_item": "ITEM_SPORE_POD"
+        },
+        {
+          "id": 2,
+          "description": "Collect Clean Water x2",
+          "target_location": "T_MIREWATCH_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_CLEAN_WATER"
+        },
+        {
+          "id": 3,
+          "description": "Deliver reagents to Amara",
+          "target_location": "T_MIREWATCH_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_SISTER_AMARA"
+        }
+      ],
+      "rewards": {
+        "xp": 2300,
+        "gil": 1200,
+        "items": [
+          {
+            "item": "ITEM_REMEDY",
+            "count": 2
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_PLAGUE_CURE_COMPLETE"
+      ],
+      "act": 1
+    },
+    {
+      "id": "Q_RARE_MATERIALS",
+      "name": "Rare Materials",
+      "type": "side",
+      "giver": "NPC_BLACKSMITH_KELLEN",
+      "prerequisites": [
+        "Q_BETTER_GEAR"
+      ],
+      "description": "Kellen requests elite forge inputs recovered from late Act I and Act II routes.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Bring Stone Chunk x2",
+          "target_location": "MIC_R08_72x40",
+          "objective": "collect",
+          "target_item": "ITEM_STONE_CHUNK"
+        },
+        {
+          "id": 2,
+          "description": "Bring Clockwork Gear x2",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "collect",
+          "target_item": "ITEM_CLOCKWORK_GEAR"
+        },
+        {
+          "id": 3,
+          "description": "Deliver materials to Kellen",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BLACKSMITH_KELLEN"
+        }
+      ],
+      "rewards": {
+        "xp": 2300,
+        "gil": 1200,
+        "items": [
+          {
+            "item": "ITEM_STEEL_PLATE",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_RARE_MATERIALS_COMPLETE"
+      ],
+      "act": 2
+    },
+    {
+      "id": "Q_RECRUIT_MARINUS",
+      "name": "Recruit Marinus",
+      "type": "character",
+      "giver": "NPC_DOCKMASTER_SARAI",
+      "prerequisites": [
+        "Q_FIFTH_RELIC"
+      ],
+      "description": "Track down Marinus in the sea lanes and convince him to join the expedition.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Locate Marinus beacon near Brinegate Run",
+          "target_location": "MIC_S01_72x40",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Rescue Marinus from abyss ambush",
+          "target_location": "MIC_S02_80x44",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Return with Marinus to Brinegate",
+          "target_location": "T_BRINEGATE_112x72",
+          "objective": "escort"
+        }
+      ],
+      "rewards": {
+        "xp": 3600,
+        "gil": 2000,
+        "unlocks": [
+          "CHARACTER_MARINUS"
+        ]
+      },
+      "unlocks": [],
+      "flags_set": [
+        "Q_RECRUIT_MARINUS_COMPLETE",
+        "MARINUS_RECRUITED"
+      ],
+      "act": 2
+    },
+    {
+      "id": "Q_RESISTANCE_PLOT",
+      "name": "Resistance Plot",
+      "type": "side",
+      "giver": "NPC_RESISTANCE_CONTACT",
+      "prerequisites": [
+        "Q_WORLD_BREACHED"
+      ],
+      "description": "Aid Varin in building a coordinated resistance network in Old Lumencrest.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Gather supply manifests from ruined wards",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objective": "collect"
+        },
+        {
+          "id": 2,
+          "description": "Clear patrol scouts on Crown approach",
+          "target_location": "MIC_R16_136x56",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Return to Varin",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_RESISTANCE_CONTACT"
+        }
+      ],
+      "rewards": {
+        "xp": 3400,
+        "gil": 2100,
+        "items": [
+          {
+            "item": "ITEM_VOID_ARCHITECT_PLANS",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_ASSASSINATION"
+      ],
+      "flags_set": [
+        "Q_RESISTANCE_PLOT_COMPLETE"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_SEVENTH_RELIC",
+      "name": "The Time Foundation",
+      "type": "main",
+      "giver": "NPC_ARCHIVIST_VELM",
+      "prerequisites": [
+        "Q_SIXTH_RELIC",
+        "Q_KORR_LIBERATION"
+      ],
+      "description": "Brave Rimehold approaches and frozen corridors to secure the Time Foundation.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Consult Velm and prepare cold route maps",
+          "target_location": "T_RIMEHOLD_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_ARCHIVIST_VELM"
+        },
+        {
+          "id": 2,
+          "description": "Cross Cairnwind and Citadel approaches",
+          "target_location": "MIC_R12_112x56",
+          "objective": "travel"
+        },
+        {
+          "id": 3,
+          "description": "Defeat Elder Mordai",
+          "target_location": "D7_FROZEN_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_ELDER_MORDAI"
+        },
+        {
+          "id": 4,
+          "description": "Claim the Time Foundation",
+          "target_location": "D7_FROZEN_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_TIME_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 6200,
+        "gil": 3400,
+        "items": [
+          {
+            "item": "ITEM_MORDAIS_HOURGLASS",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_EIGHTH_RELIC",
+        "Q_LOST_HISTORY"
+      ],
+      "flags_set": [
+        "Q_SEVENTH_RELIC_COMPLETE",
+        "D7_CLEARED"
+      ],
+      "act": 3
+    },
+    {
+      "id": "Q_SIXTH_RELIC",
+      "name": "The Mass Foundation",
+      "type": "main",
+      "giver": "NPC_FORGE_MASTER_GRIMJAW",
+      "prerequisites": [
+        "Q_FIFTH_RELIC"
+      ],
+      "description": "Push through Cinderstep mining routes and defeat The Colossus in Obsidian Quarry.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Meet Grimjaw in Cinderstep",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW"
+        },
+        {
+          "id": 2,
+          "description": "Secure Ember Stair Approach",
+          "target_location": "MIC_R08_72x40",
+          "objective": "defeat"
+        },
+        {
+          "id": 3,
+          "description": "Defeat The Colossus",
+          "target_location": "D6_OBSIDIAN_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_COLOSSUS"
+        },
+        {
+          "id": 4,
+          "description": "Claim the Mass Foundation",
+          "target_location": "D6_OBSIDIAN_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_MASS_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 5600,
+        "gil": 3000,
+        "items": [
+          {
+            "item": "ITEM_COLOSSUS_CORE",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_KORR_LIBERATION",
+        "Q_SEVENTH_RELIC",
+        "Q_DRAGONS_GRAVEYARD"
+      ],
+      "flags_set": [
+        "Q_SIXTH_RELIC_COMPLETE",
+        "D6_CLEARED"
+      ],
+      "act": 2
+    }
+  ]
+}

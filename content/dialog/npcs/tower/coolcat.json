@@ -1,0 +1,119 @@
+{
+  "npc_id": "coolcat_tower",
+  "name": "Blues",
+  "title": "Wandering Minstrel",
+  "zone": "tower",
+  "location": "Various Floors, Chroma Tower",
+  "description": "A traveling musician moving between Tower floors, playing songs that echo through the vertical expanse.",
+  "sprite_variant": "coolcat_tower",
+  "greeting_variants": [
+    "*playing blues riff* Hey there, climber. Taking a break?",
+    "Blues. I wander. I play. Tower's got good acoustics.",
+    "*tuning guitar* Floor 20 today. Maybe 30 tomorrow. Who knows?",
+    "Heard you coming. Tower carries sound. And secrets.",
+    "*strumming* Jazz is in the Capital. Echo's in the Void. I'm here.",
+    "Music makes the climb easier. Want a song?",
+    "*listening to shaft* Tower's humming today. Happy? Angry? Both?",
+    "Forty-seven floors, one Blues. Fair trade."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Blues. Minstrel. Wanderer. I move through the Tower, playing for climbers, for echoes, for the stones themselves. Tower likes music. Responds to it. Sometimes... *lowers voice* ...sometimes it plays back.",
+          "options": [
+            {"text": "The Tower plays music?", "goto": "tower_music"},
+            {"text": "Play me something.", "goto": "play_request"},
+            {"text": "You know Jazz and Echo?", "goto": "other_musicians"},
+            {"text": "Keep walking.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "tower_music",
+          "text": "*nods* At night. Deep in the shaft. Sounds like... whale song? Organ music? Both? Echoes travel up from below. Down from above. Meet somewhere. Make harmony. Or dissonance. Depends on... mood, I guess.",
+          "party_reactions": {
+            "mira": "Acoustic phenomena? Or something more?",
+            "blues": "Something more. Definitely something more."
+          },
+          "options": [
+            {"text": "Have you investigated?", "goto": "investigation"},
+            {"text": "That's eerie.", "goto": "eerie_agreement"}
+          ]
+        },
+        {
+          "id": "play_request",
+          "text": "*plays a melancholy tune* This is 'The Climb.' For everyone going up. Not everyone coming down. *switches to upbeat* And this is 'Steel's Stew.' Bad food, good heart. *grins* I write what I see.",
+          "effect": "party_morale_boost",
+          "options": [
+            {"text": "You're talented.", "goto": "compliment"},
+            {"text": "Play another?", "goto": "second_song"}
+          ]
+        },
+        {
+          "id": "other_musicians",
+          "text": "*smiles* Jazz—Capital. Hope and defiance. Good energy. Echo—Void. Possibility and sadness. Beautiful but heavy. Me? I'm... middle. Transition. Climbing music. Between places. Between states.",
+          "options": [
+            {"text": "Three musicians, three zones.", "goto": "musician_connection"},
+            {"text": "Ever play together?", "goto": "ensemble"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_serenade",
+    "title": "The Climb - A Song for the Journey",
+    "description": "Help Blues compose a song that captures the spirit of the Tower climb by gathering inspiration from each floor.",
+    "objectives": [
+      "Experience the commissary on Floor 12",
+      "Witness the observation deck on Floor 34",
+      "Survive the trials at Floor 25",
+      "Help Blues write verses for each experience",
+      "Perform the completed song for the climbers"
+    ],
+    "rewards": {
+      "experience": 500,
+      "reputation": {"tower_residents": 25, "musicians": 30},
+      "items": ["blues_guitar_pick", "tower_ballad_scroll"],
+      "unlock": "blues_companion_bard"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*improvising* Commissary floor, steel-gray stew...",
+    "*listening* Hear that? Tower's singing again.",
+    "Jazz plays hope. Echo plays might. I play... what is.",
+    "*tuning* Floor 35 next. Gravity weird there. Affects sound.",
+    "Music travels up. And down. Tower carries it. All of it.",
+    "*playing for climbers* Rest your legs, ease your mind...",
+    "The Twins like music. Hum along sometimes. Creepy. Nice.",
+    "Top floor's quiet. Too quiet. Music dies there. Sad."
+  ],
+  "cross_zone_references": {
+    "capital": "Jazz keeps hope alive. Important work. Harder than mine.",
+    "void": "Echo's songs haunt me. Beautiful. Dangerous. Like Void.",
+    "palace": "Can't play there. Tried. Sound... disappears. Absorbed."
+  },
+  "party_reactions": {
+    "jazz_capital": {
+      "greeting": "*mutual recognition* Brother in song.",
+      "response": "*respectful nod* Different paths. Same purpose."
+    },
+    "echo_void": {
+      "greeting": "*stares* I could have been you.",
+      "response": "*gentle* And I could have been you. Both chose."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Playing for climbers on various floors",
+      "night": "Listening to Tower's own music, composing"
+    },
+    "world_state_triggers": {
+      "climber_struggles": "Plays encouraging music: 'Keep going. Almost there.'",
+      "tower_music_strong": "Joins in, harmonizing with the structure"
+    }
+  }
+}

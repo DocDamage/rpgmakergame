@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CROWN_HUB_ARCHIVE_SCRIBE",
+  "name": "Crown Hub Archive Scribe",
+  "title": "Contract Scribe",
+  "location": "T_CROWN_HUB_112x72",
+  "coords": [
+    44,
+    50
+  ],
+  "schedule": {
+    "day": [
+      44,
+      50
+    ],
+    "night": [
+      42,
+      51
+    ],
+    "rain": [
+      44,
+      52
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCRIBE",
+  "shop": null,
+  "quests": [],
+  "faction": "DOMINION",
+  "attitude": "neutral",
+  "background": "Records transactions, permits, and legal notices. Stationed in Crown Hub.",
+  "personality": "Formal, exact, and unexpectedly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "paperwork",
+    "records"
+  ]
+}

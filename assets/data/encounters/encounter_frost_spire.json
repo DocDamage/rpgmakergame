@@ -1,0 +1,75 @@
+{
+  "id": "FROST_SPIRE_ENCOUNTERS",
+  "region": "frost",
+  "maps": [
+    "D7_SPIRE_OF_ETERNITY_80x96"
+  ],
+  "encounter_rate": 0.08,
+  "min_steps": 14,
+  "max_steps": 31,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_FROST_SKIRMISHER"
+      ],
+      "weight": 34,
+      "min_steps": 13,
+      "gil_range": [
+        32,
+        56
+      ],
+      "xp": 60
+    },
+    {
+      "enemies": [
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 28,
+      "min_steps": 14,
+      "gil_range": [
+        35,
+        62
+      ],
+      "xp": 64
+    },
+    {
+      "enemies": [
+        "ENEMY_FROZEN_WATCHER"
+      ],
+      "weight": 20,
+      "min_steps": 17,
+      "gil_range": [
+        40,
+        68
+      ],
+      "xp": 72
+    },
+    {
+      "enemies": [
+        "ENEMY_FROST_SKIRMISHER",
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 12,
+      "min_steps": 21,
+      "gil_range": [
+        68,
+        118
+      ],
+      "xp": 122
+    },
+    {
+      "enemies": [
+        "ENEMY_FROZEN_WATCHER",
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 5,
+      "min_steps": 25,
+      "rare": true,
+      "gil_range": [
+        76,
+        128
+      ],
+      "xp": 130
+    }
+  ]
+}

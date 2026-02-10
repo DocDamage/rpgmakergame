@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_temporal_merchant",
+  "name": "The Cross-Time Trader",
+  "zone": "chrono",
+  "giver": "signguy",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A merchant from the future needs rare goods from our time—items that won't exist soon due to the Void! He's willing to pay in future currency and technology! But he's stuck in a temporal eddy! Deliver his shopping list and collect the payment!",
+      "objective": "Gather items from the merchant's list across Chrono"
+    },
+    "progress": {
+      "dialog": "You have all the goods! Now find the temporal eddy—it's a shimmering spot near the old clock tower. Step through carefully—time eddies can displace you by decades if you're not careful!",
+      "objective": "Enter the temporal eddy and complete the trade with the future merchant"
+    },
+    "complete": {
+      "dialog": "The trade is complete! The merchant returns to his time with his precious cargo! Your payment: future gold (worth a fortune now) and this Temporal Ledger! It records transactions before they happen, warning you of scams!",
+      "rewards": {
+        "exp": 850,
+        "gold": 1200,
+        "item": "temporal_ledger"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I met a guy from the future! He had a floating hat!",
+    "twist": "Future gold is oddly warm. Temporal radiation, I suspect.",
+    "nix7": "Cross-temporal commerce: executed. Temporal economics: fascinating."
+  }
+}

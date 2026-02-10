@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_PRISMRIDGE_CRYSTAL_SMITH",
+  "name": "Prismridge Crystal Smith",
+  "title": "Guild Smith",
+  "location": "T_PRISMRIDGE_112x72",
+  "coords": [
+    73,
+    24
+  ],
+  "schedule": {
+    "day": [
+      73,
+      24
+    ],
+    "night": [
+      71,
+      25
+    ],
+    "rain": [
+      74,
+      24
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_kellen_portrait",
+  "dialog_tree": "DT_AMBIENT_SMITH",
+  "shop": null,
+  "quests": [],
+  "faction": "CARTOGRAPHERS_GUILD",
+  "attitude": "friendly",
+  "background": "Maintains frontier equipment and salvage tools. Stationed in Prismridge.",
+  "personality": "Gruff, efficient, and quietly kind.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "equipment_tips",
+    "repair_advice"
+  ]
+}

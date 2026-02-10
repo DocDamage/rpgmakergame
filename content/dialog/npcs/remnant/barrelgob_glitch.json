@@ -1,0 +1,102 @@
+{
+  "npc_id": "barrelgob_glitch_remnant",
+  "name": "BARREL_GOBLIN_NULL",
+  "sprite": "barrelgob_glitch",
+  "zone": "remnant",
+  "location": "Scrap Heap Sector",
+  "personality": "scattered_scavenger",
+  "occupation": "glitch_scavenger",
+  "dialog": {
+    "greeting": [
+      "Y-you... live... in... ERR... barrel...?",
+      "Is... ERR... co...zy...",
+      "Vis...it... ERR... bring...",
+      "You're... ERR... her...mit... crab...",
+      "I... ERR... try... bar...rel...",
+      "You... ERR... co...zy... look...",
+      "Like... ERR... lit...tle... house..."
+    ],
+    "barrel_confusion": "Bar...rel... ERR... home...? Or... home... ERR... bar...rel...? Both...? Nei...ther...?",
+    "scavenging_offer": "Found... ERR... things... in... here... want... ERR... things...?",
+    "comfort_delusion": "So... ERR... co...zy... like... lit...tle... ERR... house... for... gob...lin... crab...",
+    "haggle": [
+      "Scav...enged... ERR... price... less...",
+      "For... ERR... you... dis...count...",
+      "Bar...ter... ERR... ac...cep...ted...",
+      "Co...zy... ERR... deal..."
+    ],
+    "purchase_success": [
+      "En...joy... ERR... trash...",
+      "Good... ERR... scav...enge...",
+      "Bar...rel... ERR... treas...ure...",
+      "Co...zy... ERR... pur...chase..."
+    ],
+    "purchase_fail": [
+      "No... ERR... coin...",
+      "Bar...rels... ERR... cost...",
+      "Come... ERR... back..."
+    ],
+    "rumor": [
+      "Bar...rel... ERR... Mike... was... cus...tom...er... now... just... bar...rel...",
+      "Deep... ERR... Dig... Dan... found... some... thing... me...tal... now... just... ERR... scrap...",
+      "Bar...rel... ERR... gob...lin... was... cus...tom...er... now... is... ERR... bar...rel...",
+      "Sign... ERR... guy... owes... me... re...flec...tion...",
+      "The... ERR... Vault... makes... all... bar...rels... emp...ty..."
+    ],
+    "quest_hook": "I... ERR... need... new... bar...rel... ma...te...ri...al... St...ar...tle...ss... Steel... ERR... from... deep... three... sheets...",
+    "quest_active": "That... ERR... steel... shin...ing... yet...",
+    "quest_complete": "SHINY... ERR... new... home... ma...te...ri...al... co...zy... take... this...",
+    "quest_reward": "Glitch-Steel Scrap - Crafting material with strange properties!",
+    "farewell": [
+      "Co...zy... ERR... good...bye...",
+      "Re...turn... ERR... to... bar...rel...",
+      "Stay... ERR... co...zy..."
+    ],
+    "ambient_barks": [
+      "Bar...rels... ERR...",
+      "Co...zy... ERR... home...",
+      "Scav...enge... ERR...",
+      "Lit...tle... ERR... house...",
+      "Gob...lin... ERR... crab..."
+    ],
+    "time_dawn": "Ear...ly... ERR... scav...enge...",
+    "time_noon": "Hot... ERR... bar...rel...",
+    "time_dusk": "Cool... ERR... bar...rel...",
+    "time_night": "Night... ERR... co...zy..."
+  },
+  "party_reactions": {
+    "kade": "You live in a barrel? That's... you already said that.",
+    "nix7": "Living in cylindrical container: space efficiency maximized. Hygiene: irrelevant.",
+    "twist": "You... live in... barrel... I want to... try... no, that's wrong.",
+    "korr": "Even goblins deserve dignity. This one has lost even that.",
+    "renna": "Circular logic in a cylindrical container. Fitting.",
+    "suresh": "Trapped in a shell, unaware of the trap. Sadness upon sadness.",
+    "sova": "At least the barrel keeps it contained. Mostly.",
+    "grit": "Barrel life. In the Vault. Things are weird here.",
+    "ashka": "Can you... can the barrel burn? Probably.",
+    "senna": "What's in the barrel? Anything valuable?",
+    "callum": "You seem... confused. Are you okay in there?",
+    "petra": "Small home. Cracked mind. Heavy burden."
+  },
+  "relationship_dialog": {
+    "stranger": "New... ERR... in... bar...rel...",
+    "acquaintance": "Back... ERR... for... co...zy...",
+    "friend": "Fav...or...ite... ERR... vis...i...tor...",
+    "best_friend": "Fam...i...ly... ERR... bar...rel... fam...i...ly..."
+  },
+  "mini_quest": {
+    "id": "starless_steel",
+    "title": "Barrel Material",
+    "description": "Find Starless Steel from Vault depths for barrel repairs",
+    "stages": {
+      "hook": "Star...less... ERR... Steel... three... sheets...",
+      "active": "Deep... ERR... in... Vault...",
+      "complete": "SHI...NY... ERR... take... this..."
+    },
+    "reward": {
+      "item": "glitch_steel_scrap",
+      "gold": 350,
+      "reputation": "barrel_friend"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_younger_self",
+  "name": "Meeting Yesterday",
+  "zone": "chrono",
+  "giver": "trenchcoat_brown",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A temporal rift opened in my basement! My younger self just stepped through—ten years ago me! He can't go back until the rift stabilizes, and we CAN'T interact too much or we'll cause a paradox! Hide him, keep him safe, and DON'T let him meet me!",
+      "objective": "Protect the time-traveler's younger self without causing paradoxes"
+    },
+    "progress": {
+      "dialog": "He's curious about his future! Every question risks changing history! Distract him with era-appropriate entertainment—keep him busy until the rift reopens! And stop him from buying those stocks—he wasn't supposed to be rich!",
+      "objective": "Keep the younger self entertained for 24 hours without revealing future knowledge"
+    },
+    "complete": {
+      "dialog": "He's gone back, and nothing changed! The timeline is stable! You handled that perfectly—most people accidentally create alternate dimensions in this situation! Here's a Paradox Prevention Ring! It stabilizes temporal anomalies around you!",
+      "rewards": {
+        "exp": 950,
+        "gold": 800,
+        "item": "paradox_prevention_ring"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Meeting my past self? Thankfully that didn't happen. I'd hate myself.",
+    "twist": "I told him magic becomes more common. Hope that wasn't too much.",
+    "nix7": "Temporal displacement protocol: successful. Paradox risk: avoided."
+  }
+}

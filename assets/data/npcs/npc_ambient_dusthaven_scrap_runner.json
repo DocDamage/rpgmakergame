@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_DUSTHAVEN_SCRAP_RUNNER",
+  "name": "Dusthaven Scrap Runner",
+  "title": "Salvage Runner",
+  "location": "T_DUSTHAVEN_112x72",
+  "coords": [
+    96,
+    50
+  ],
+  "schedule": {
+    "day": [
+      96,
+      50
+    ],
+    "night": [
+      99,
+      50
+    ],
+    "rain": [
+      98,
+      52
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_AMBIENT_SCAVENGER",
+  "shop": null,
+  "quests": [],
+  "faction": "DUSTHAVEN",
+  "attitude": "neutral",
+  "background": "Recovers useful scraps from unstable routes. Stationed in Dusthaven.",
+  "personality": "Reckless, witty, and survival-smart.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "salvage_tips",
+    "field_rumors"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "npc_id": "sumo_white_prism",
+  "name": "Gan 'The Gentle Mountain' Crystalback",
+  "sprite": "sumo_white",
+  "zone": "prism",
+  "location": "Glowstone Tavern",
+  "personality": "gentle_wise_resigned",
+  "occupation": "cave_guardian_former_miner",
+  "schedule": {
+    "day": "resting_at_tavern",
+    "night": "patrolling_entrance"
+  },
+  "dialog": {
+    "greeting": [
+      "Ah, visitors. Please, sit. The stone bench holds all.",
+      "Gan Crystalback. Once a miner. Now... a guardian of sorts.",
+      "The caves sing at night. I listen. Someone must.",
+      "Welcome to the Glowstone. Best ale in Prism. I should know. I drink most of it.",
+      "My back is broken. But my spirit? My spirit stands tall.",
+      "You seek the depths? Be careful. The depths seek you too.",
+      "I was strong, once. Strongest in the mines. Now... I am wise. Wisdom lasts longer.",
+      "Sit. Share a drink. Tell me of the world above."
+    ],
+    "mining_accident": "A cave-in. Eastern tunnel. I held up the ceiling while twenty workers escaped. The ceiling won. Eventually. My back did not.",
+    "current_duty": "I guard the tavern now. The back entrance to the caves. Keep trouble out. Keep worse things in. A gentle guardian for gentle people.",
+    "backstory": "Came to Prism young. Strong. Proud. Miner for fifteen years. The mountain taught me humility. Taught me that strength is not just muscle. I teach others now. When they listen.",
+    "rumors": [
+      "The red sumo at the mine entrance? My cousin. Young. Eager. Reminds me of myself. Worrying.",
+      "That tunneler who found the Great Prism? He came to me after. Shaken. Said he heard singing. Deep singing.",
+      "The twins in the crystal cave? They know things. Old things. I bring them tea. They tell me stories.",
+      "The aeronaut's partner... I knew him. Good man. The caves took him. As they take all, eventually."
+    ],
+    "ambient_barks": [
+      "The caves sing...",
+      "Rest your bones...",
+      "Stone remembers...",
+      "Gentle now...",
+      "Wisdom over strength...",
+      "Sit with me..."
+    ],
+    "time_of_day": {
+      "morning": "Morning meditation. The stone speaks softly.",
+      "noon": "Lunchtime. The appetite remains, even if strength fades.",
+      "evening": "Evening ale. Stories shared. Wisdom passed.",
+      "night": "Night watch. The caves are loudest now. I listen."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "lost_memories",
+    "quest_name": "The Miner's Memorial",
+    "stage_1_hook": "Many died in the cave-in that broke my back. Good people. Friends. No memorial. The company moves on. But I remember. I want to build something. In the eastern tunnel. Need stone from my home province. White marble. Can you find some?",
+    "stage_1_active": "White marble. From the northern quarries. Carries memories well. Holds names forever.",
+    "stage_2_progress": "Seeking the marble? It must be pure. White. Like snow. Like memory.",
+    "stage_2_item_needed": "northern_white_marble",
+    "stage_3_complete": "The marble. Beautiful. Perfect. I will carve their names. Twenty names. Twenty lives. Thank you. Here. My mining pick. From my strongest days. May it serve you as it served me.",
+    "reward": "gans_heirloom_pickaxe"
+  },
+  "party_reactions": {
+    "kade": "There's strength in him still. Different kind. Deeper.",
+    "nix7": "Physically compromised. Mentally exceptional. Wisdom quotient: remarkable.",
+    "twist": "He's so BIG and GENTLE! Like a giant teddy bear!",
+    "korr": "A warrior who found peace. There is no greater victory.",
+    "renna": "He senses the crystal resonance. More clearly than most. His injury opened his other senses.",
+    "suresh": "He carries his burden with grace. A lesson for all.",
+    "sova": "Could've been great. Still is, in his way.",
+    "grit": "Seen soldiers break like him. Not all of them came back whole. He did. Mostly.",
+    "ashka": "He understands endurance. Fire that burns low but steady.",
+    "senna": "Listens more than he speaks. Knows more than he shares.",
+    "callum": "He told me stories about the mines for hours. Fascinating. Sad. But fascinating."
+  },
+  "relationship_dialog": {
+    "stranger": "Sit. You look tired. The stone is cold but honest.",
+    "acquaintance": "You return. Good. I have new stories. Do you?",
+    "friend": "My favorite listener. Your visits brighten the Glowstone.",
+    "best_friend": "You have done what few would. For memory. For honor. You are family now."
+  },
+  "cross_npc_connections": [
+    "sumo_red_prism: Crimson. My cousin. Young, strong, foolish. I worry.",
+    "tunneler_blue_prism: The finder of the Great Prism. He visits. We talk of the deep.",
+    "twins_white_prism: The echo oracles. They comfort me. I comfort them."
+  ]
+}

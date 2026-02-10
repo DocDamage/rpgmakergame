@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ASHVEIL_QUIET_SCRIBE",
+  "name": "Ashveil Quiet Scribe",
+  "title": "Contract Scribe",
+  "location": "T_ASHVEIL_112x72",
+  "coords": [
+    94,
+    53
+  ],
+  "schedule": {
+    "day": [
+      94,
+      53
+    ],
+    "night": [
+      92,
+      54
+    ],
+    "rain": [
+      94,
+      55
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCRIBE",
+  "shop": null,
+  "quests": [],
+  "faction": "ASHVEIL_SANCTUARY",
+  "attitude": "neutral",
+  "background": "Records transactions, permits, and legal notices. Stationed in Ashveil.",
+  "personality": "Formal, exact, and unexpectedly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "paperwork",
+    "records"
+  ]
+}

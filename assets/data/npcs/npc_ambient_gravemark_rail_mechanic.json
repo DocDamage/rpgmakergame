@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_GRAVEMARK_RAIL_MECHANIC",
+  "name": "Gravemark Rail Mechanic",
+  "title": "Rail Mechanic",
+  "location": "T_GRAVEMARK_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      16,
+      25
+    ],
+    "rain": [
+      19,
+      26
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_MECHANIC",
+  "shop": null,
+  "quests": [],
+  "faction": "RAIL_CORPS",
+  "attitude": "professional",
+  "background": "Maintains rail hardware, engines, and field terminals. Stationed in Gravemark.",
+  "personality": "Calm, technical, and dry-humored.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "machine_advice",
+    "infrastructure_status"
+  ]
+}

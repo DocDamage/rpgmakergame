@@ -1,0 +1,122 @@
+{
+  "npc_id": "barrelgob_void",
+  "name": "Scramble",
+  "title": "Void Scavenger",
+  "zone": "void",
+  "location": "The Scavenger's Walk, Void Fringes",
+  "description": "A desperate barrelgob clinging to existence at the edge of the Void, scavenging what the darkness discards.",
+  "sprite_variant": "barrelgob_void",
+  "greeting_variants": [
+    "*hiding in barrel* Not food! Not food! Just Scramble!",
+    "Shiny? You have? Void-shiny? Different shiny?",
+    "*peeking out* You... solid. Real. Not like... others here.",
+    "Scramble find things. Void-things. Weird-things. Trade?",
+    "*shivering* Cold here. Wrong-cold. Not good-cold.",
+    "You strong? Kill void-beasts? Scramble pay!",
+    "*counting on fingers, losing count* Many... many dangers. Scramble survive. Somehow.",
+    "Home was... other place. Forget. Must forget. To live."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Scramble. Scavenger. Not Scritch—different! Scritch smart, stay safe-place. Scramble... curious. Came here. Regret. But can't leave. Lost. Always lost. Find things instead. Trade. Survive.",
+          "options": [
+            {"text": "You know Scritch?", "goto": "scritch_connection"},
+            {"text": "What do you find?", "goto": "findings"},
+            {"text": "Why can't you leave?", "goto": "trapped"},
+            {"text": "Good luck.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "scritch_connection",
+          "text": "*perks up* Scritch! Barrel-brother! Smart one! Finds good shinies! Scramble... finds weird shinies. Void-shinies. Scritch would be... *sad* ...proud? Scared? Both?",
+          "party_reactions": {
+            "scritch": "*if present* *emotional chittering* Brother! Found!",
+            "scramble": "*shocked* Scritch! Here?! No! Danger! Go!"
+          },
+          "options": [
+            {"text": "I can tell Scritch you're okay.", "goto": "message_offer"},
+            {"text": "Want to go home?", "goto": "escape_offer"}
+          ]
+        },
+        {
+          "id": "findings",
+          "text": "Weird things. Shiny-things that move. Memory-things. Someone's lost... something. Happy. Sad. Both. Void keeps. Discards. Scramble collects. Trades. Survives.",
+          "shop": {
+            "available": true,
+            "currency": "void_shinies",
+            "items": ["memory_crystal", "void_essence", "reality_fragment", "lost_locket", "echo_stone"]
+          },
+          "options": [
+            {"text": "Show me what you have.", "goto": "shop_open"},
+            {"text": "Memory things?", "goto": "memory_items"}
+          ]
+        },
+        {
+          "id": "trapped",
+          "text": "*shivering* Tried leave. Many times. Paths... shift. Move. Lead back here. Always here. Void wants Scramble? Needs Scramble? Don't know. Just... stay. Scavenge. Hope.",
+          "options": [
+            {"text": "I'll find a way out for you.", "goto": "rescue_promise"},
+            {"text": "That's terrifying.", "goto": "fear_acknowledge"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "scramble_escape",
+    "title": "The Lost Scavenger",
+    "description": "Help Scramble find a way out of the Void and reunite with Scritch in the Capital.",
+    "objectives": [
+      "Map the shifting paths around Scramble's location",
+      "Find a stable exit point",
+      "Gather supplies for the journey",
+      "Escort Scramble through the Void",
+      "Reunite Scramble with Scritch in the Capital"
+    ],
+    "rewards": {
+      "experience": 600,
+      "reputation": {"barrelgobs": 40, "resistance": 25},
+      "items": ["scramble_treasure_map", "void_scavenger_pouch"],
+      "unlock": "scramble_void_shop"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*hoarding sounds* Mine. All mine. Finders keepers.",
+    "*hiding* Something comes. Big. Wrong. Quiet!",
+    "Scritch... miss Scritch...",
+    "*examining find* Shiny? No. Weird. Keep anyway.",
+    "Hungry. Always hungry. Void food... bad. Wrong.",
+    "*whimpering* Want go home. Home gone. Forgot.",
+    "Trade? Please? Need food. Real food.",
+    "*listening to echo* Voices. Not Scramble. Someone else. Lost."
+  ],
+  "cross_zone_references": {
+    "capital": "Home. Was home. Green. Safe. Miss. So much miss.",
+    "chroma_tower": "Tall. Saw once. Through... crack? Window? Don't remember."
+  },
+  "party_reactions": {
+    "scritch": {
+      "greeting": "*emotional reunion* Brother! Found!",
+      "response": "*crying* Scritch! Here! Real! Not dream!"
+    },
+    "garret": {
+      "greeting": "Hey little guy. You okay?",
+      "response": "*nervous* Okay? No. Alive? Yes. Good enough."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Scavenging, trading, hiding",
+      "night": "Terrified, barely functional, clinging to barrel"
+    },
+    "world_state_triggers": {
+      "danger_near": "Paralyzed with fear, whimpers",
+      "rescue_imminent": "Hopeful for first time: 'Go home? Really home?'"
+    }
+  }
+}

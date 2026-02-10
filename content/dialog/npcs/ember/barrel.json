@@ -1,0 +1,58 @@
+{
+  "npc_id": "barrel_ember",
+  "name": "The Warmth Barrels",
+  "sprite": "barrel",
+  "zone": "ember",
+  "location": "Various - Heat Stations",
+  "personality": "inanimate_warm",
+  "occupation": "heat_source",
+  "schedule": "always_present",
+  "dialog": {
+    "greeting": [
+      "The barrel radiates comforting warmth. Heat shimmers rise from its surface.",
+      "Warmth emanates from the barrel. The metal bands glow faintly orange.",
+      "A gentle heat pulses from the barrel. Safe to stand near. Comforting.",
+      "The barrel crackles softly. Magma-heated stones inside maintain the temperature.",
+      "Warmth welcomes you. The barrel stands as a silent guardian against the chill.",
+      "Heat radiates steadily. The barrel's purpose is simple but vital.",
+      "Standing near the barrel, you feel the edge taken off the zone's ambient heat.",
+      "The barrel hums with contained thermal energy. A beacon of comfort."
+    ],
+    "examine_warmth": "The barrel contains heated stones from the magma chambers. They stay warm for days, slowly releasing their heat to anyone nearby.",
+    "examine_construction": "Reinforced iron bands hold the wooden staves together. Designed to withstand thermal expansion. Practical engineering.",
+    "zone_context": "In Ember, these barrels serve as rest stops. Travelers warm themselves, dry wet gear, or simply pause in the gentle heat.",
+    "safety_check": "The barrel is warm but not hot to touch. Safe for barrels, humans, and careful barrelgobs.",
+    "rest_prompt": "Standing here, you feel your energy returning. The warmth seeps into tired muscles. A moment of peace.",
+    "farewell": [
+      "You step away from the barrel's warmth. The heat lingers for a moment.",
+      "The barrel continues its silent vigil. Providing comfort to the next traveler.",
+      "Warmth remains, even as you depart. A small kindness in a harsh zone.",
+      "The heat calls you back. But adventure awaits."
+    ],
+    "ambient_descriptions": [
+      "The barrel crackles softly.",
+      "Warmth pulses gently.",
+      "Heat shimmers rise.",
+      "The metal bands ping as they expand.",
+      "A comforting glow emanates.",
+      "The stones inside settle with a soft clink."
+    ],
+    "time_dawn": "The barrel's warmth contrasts with the cool dawn air. A welcoming beacon.",
+    "time_noon": "In the peak heat, the barrel is less noticeable. But still appreciated by the discerning traveler.",
+    "time_dusk": "As the sun sets, the barrel's glow becomes more prominent. A warm lighthouse.",
+    "time_night": "In darkness, the barrel provides both warmth and faint illumination. Comfort in the night."
+  },
+  "party_reactions": {
+    "kade": "Ahh. That's nice. Simple pleasures.",
+    "nix7": "Thermal output: 42 degrees Celsius. Optimal comfort range.",
+    "twist": "WARM! Like a hug from a fire! But safer!",
+    "korr": "Reminds me of campfires on cold nights. Peaceful.",
+    "renna": "The thermal enchantment is... elegantly simple.",
+    "suresh": "Even in destruction, warmth can be found. Hope.",
+    "sova": "Good for drying bowstrings. Practical.",
+    "grit": "We had these at the front. Little comforts matter.",
+    "ashka": "Fire gives. Fire warms. This is good.",
+    "senna": "Useful. I'd steal it if it weren't so heavy.",
+    "callum": "Can... can we stay here a bit longer? It's nice."
+  }
+}

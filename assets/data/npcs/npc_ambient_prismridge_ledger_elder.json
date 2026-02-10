@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_PRISMRIDGE_LEDGER_ELDER",
+  "name": "Prismridge Ledger Elder",
+  "title": "Elder Archivist",
+  "location": "T_PRISMRIDGE_112x72",
+  "coords": [
+    45,
+    50
+  ],
+  "schedule": {
+    "day": [
+      45,
+      50
+    ],
+    "night": [
+      44,
+      51
+    ],
+    "rain": [
+      45,
+      51
+    ]
+  },
+  "sprite": "NPC_SCHOLAR_ELDER",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+  "shop": null,
+  "quests": [],
+  "faction": "CARTOGRAPHERS_GUILD",
+  "attitude": "neutral",
+  "background": "Preserves oral and written records through the crisis. Stationed in Prismridge.",
+  "personality": "Measured, cryptic, and deeply patient.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "history",
+    "archives"
+  ]
+}

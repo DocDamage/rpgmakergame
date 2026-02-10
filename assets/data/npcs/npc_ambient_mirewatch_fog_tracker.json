@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MIREWATCH_FOG_TRACKER",
+  "name": "Mirewatch Fog Tracker",
+  "title": "Route Tracker",
+  "location": "T_MIREWATCH_112x72",
+  "coords": [
+    97,
+    49
+  ],
+  "schedule": {
+    "day": [
+      97,
+      49
+    ],
+    "night": [
+      100,
+      47
+    ],
+    "rain": [
+      99,
+      49
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Stationed in Mirewatch.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

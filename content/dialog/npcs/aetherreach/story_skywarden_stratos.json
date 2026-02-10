@@ -1,0 +1,54 @@
+{
+  "npc_id": "skywarden_stratos",
+  "name": "Skywarden Stratos",
+  "title": "Field Commander",
+  "zone": "aetherreach",
+  "location": "Beyond the Clouds Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "disciplined_guarded_decisive",
+  "occupation": "security_lead",
+  "dialog": {
+    "greeting": [
+      "Skywarden Stratos on comms. Stage 1: Beyond the Clouds. Keep formation tight and decisions tighter.",
+      "We are running Sky Sanctuary. Objective drift gets teams buried.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking.",
+      "Action first, panic never. Start with: Ascend to Aetherreach."
+    ],
+    "quest_hook": "Objective stack: Ascend to Aetherreach; Meet the Aetherguard; Learn of the celestial threats. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Ascend to Aetherreach and discover the floating sanctuaries. Immediate move: Ascend to Aetherreach.",
+    "quest_complete": "Stage 1 resolved: Beyond the Clouds. Primary objective secured and route stabilized. Prepare for Stellar Observers.",
+    "rumor": [
+      "Someone is tuning the old observatory bells to match heartbeat rhythms.",
+      "People keep repeating one clue from Beyond the Clouds: 'Learn of the celestial threats'.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps."
+    ],
+    "ambient_barks": [
+      "Eyes front.",
+      "Hold the line.",
+      "No drift.",
+      "Confirm the lane."
+    ],
+    "time_dawn": "Dawn in Aetherreach is clear-sky math: low noise, high visibility, best scouting window.",
+    "time_noon": "Noon stacks wind traffic and patrol traffic together. Plan your crossings.",
+    "time_dusk": "Dusk paints false horizons here. Verify every ledge before committing.",
+    "time_night": "Night turns cloud light into mirages. Keep formation and call targets out loud."
+  },
+  "party_reactions": {
+    "kade": "Skywarden Stratos sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Skywarden Stratos accepted. Probability of success improves with compliance.",
+    "twist": "Skywarden Stratos talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "aetherreach_sky_sanctuary"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+    "world_break_aware": true
+  }
+}

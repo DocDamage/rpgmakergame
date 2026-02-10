@@ -1,0 +1,54 @@
+{
+  "npc_id": "blizzard",
+  "name": "Blizzard",
+  "title": "Pathfinder",
+  "zone": "frost",
+  "location": "Echoes of the Before Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "alert_resourceful_tenacious",
+  "occupation": "trail_guide",
+  "dialog": {
+    "greeting": [
+      "Blizzard on comms. Stage 5: Echoes of the Before. Keep formation tight and decisions tighter.",
+      "We are running The Frozen Path. Objective drift gets teams buried.",
+      "A pigeon outranked three commanders here last week. Merit system is broken.",
+      "Action first, panic never. Start with: Excavate the Progenitor outpost."
+    ],
+    "quest_hook": "Objective stack: Excavate the Progenitor outpost; Decipher the ancient records; Learn the truth of the Shattering. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Discover an ancient Progenitor outpost in the deep ice. Immediate move: Excavate the Progenitor outpost.",
+    "quest_complete": "Stage 5 resolved: Echoes of the Before. Primary objective secured and route stabilized. Prepare for Chrono Anomalies.",
+    "rumor": [
+      "Villagers report hearing a lullaby inside frozen walls.",
+      "People keep repeating one clue from Echoes of the Before: 'Learn the truth of the Shattering'.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go."
+    ],
+    "ambient_barks": [
+      "Tracks are fresh.",
+      "Wind just shifted.",
+      "Stay on my heel.",
+      "Read the ground."
+    ],
+    "time_dawn": "Dawn gives hard snow and readable tracks. Best time to cross open ground.",
+    "time_noon": "Noon glare can blind you faster than a storm. Shade your optics.",
+    "time_dusk": "Dusk fog rises from cracked ice. Ropes out, spacing tight.",
+    "time_night": "Night cold punishes hesitation. Rotate watch and check each other for frostbite."
+  },
+  "party_reactions": {
+    "kade": "Blizzard sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Blizzard accepted. Probability of success improves with compliance.",
+    "twist": "Blizzard talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "frost_frozen_path"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_tifa_bar_fight",
+  "name": "Seventh Heaven Uplands",
+  "zone": "uplands",
+  "giver": "Tifa (Bar Owner)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Setting up a new bar here in the Uplands! But some local thugs keep causing trouble. I can handle myself, but I need someone to watch my back while I... convince them to leave. Interested?",
+      "objective": "Help Tifa deal with thugs harassing her new bar"
+    },
+    "progress": {
+      "dialog": "They'll be back soon. Three of them. Big guys. I hope you're ready!",
+      "objective": "Defend the bar from the thug attack"
+    },
+    "complete": {
+      "dialog": "Thanks for the backup! Those guys won't bother anyone anymore. Here - premium bar supplies. Healing drinks, status cures, the good stuff. On the house!",
+      "rewards": {"gold": 400, "item": "premium_bar_supplies_x5", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "She fights like a pro. And runs a bar? Impressive.",
+    "twist": "Did you see those moves?! I want to learn to fight like that!",
+    "grit": "Efficient combat style. Economy of motion."
+  },
+  "hidden_outcome": "If you defeat the thugs without Tifa taking damage, she teaches you 'Dolphin Blow' - a powerful aquatic-themed attack"
+}

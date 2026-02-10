@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_AETHERREACH_CLOUD_ATTENDANT",
+  "name": "Aetherreach Cloud Attendant",
+  "title": "Shrine Attendant",
+  "location": "T_AETHERREACH_112x72",
+  "coords": [
+    44,
+    50
+  ],
+  "schedule": {
+    "day": [
+      44,
+      50
+    ],
+    "night": [
+      43,
+      51
+    ],
+    "rain": [
+      44,
+      52
+    ]
+  },
+  "sprite": "NPC_PRIESTESS",
+  "portrait": "spr_amara_portrait",
+  "dialog_tree": "DT_AMBIENT_PRIESTESS",
+  "shop": null,
+  "quests": [],
+  "faction": "AETHERREACH",
+  "attitude": "friendly",
+  "background": "Offers aid and ritual guidance to locals. Stationed in Aetherreach.",
+  "personality": "Calm, compassionate, and steel-spined.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "blessings",
+    "healing_advice"
+  ]
+}

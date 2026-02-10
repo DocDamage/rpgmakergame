@@ -1,0 +1,99 @@
+{
+  "npc_id": "tunneler_brown_obsidian",
+  "name": "Shift-Boss Bruno",
+  "sprite": "tunneler_brown",
+  "zone": "obsidian",
+  "location": "Shaft 9 Loading Bay",
+  "personality": "ambitious_frustrated_young",
+  "occupation": "shift_supervisor",
+  "dialog": {
+    "greeting": [
+      "Bruno. Shift supervisor. Second-in-command. For now.",
+      "You want Grayson, he's in the deep tunnels. Me? I'm the future.",
+      "New face. Looking for work? Got openings. High turnover. You'll figure out why.",
+      "Bruno. I run the night shift. The REAL work happens at night.",
+      "Heroes, huh? We could use heroes. Or just someone who can swing a pick.",
+      "Grayson's old school. I'm new school. School of: get it DONE.",
+      "Shift-Boss Bruno. Remember that name. You'll be hearing it more.",
+      "What do you want? I'm supervising. That's what supervisors do. Supervise."
+    ],
+    "work_complaint": [
+      "Grayson won't retire. Won't promote. 'Not ready,' he says. I've been ready for YEARS.",
+      "Safety this, safety that. Meanwhile, quotas don't fill themselves."
+    ],
+    "professional_pride": "My crew hits targets. Every shift. Grayson's crew? 'Careful,' they say. Careful doesn't pay bills.",
+    "technique": "Speed and volume. That's the modern way. Grayson's 'listening to the rock?' The rock doesn't have a mortgage.",
+    "break_chat": "Break's for complainers. I eat while I walk. Time management.",
+    "labor_concerns": "Look, I want the workers safe too. But safe AND productive. Is that too much to ask?",
+    "retirement": "Retirement? Please. I'll die in this uniform. But I'll die as CHIEF.",
+    "rumor": [
+      "Grayson talks about Tunnel 7. 'Something down there.' Probably just wants it for himself.",
+      "That union rep Coolcat? She's playing both sides. Mark my words.",
+      "Corporate spy's been asking about production numbers. Someone's getting fired. Or promoted.",
+      "Barrelgob in the scrapyard? Claims he found something 'shiny' in the tailings. Probably garbage.",
+      "Heard the Frost miners got new heating systems. We get broken fans. Priorities."
+    ],
+    "quest_hook": "You want to help? Prove Grayson's methods are outdated. Get me production numbers from the new drill. Show him modern mining works.",
+    "quest_active": "Get those drill readings yet? Grayson won't listen to me. Maybe he'll listen to DATA.",
+    "quest_complete": "Numbers don't lie! New drill's 40% faster! ...What do you mean the tunnel collapsed? Small price! PROGRESS!",
+    "farewell": [
+      "Keep your head down. Literally. Low ceilings in Section C.",
+      "Efficiency, friend. That's the key.",
+      "Tell Grayson I said hi. Or don't. Better you don't."
+    ],
+    "ambient_barks": [
+      "Faster! The quota won't meet itself!",
+      "Those supports look FINE!",
+      "Move that ore!",
+      "Grayson's slowing us down!",
+      "Modern methods! Modern RESULTS!",
+      "Who's on break?! TOO LONG!"
+    ],
+    "time_dawn": "Day shift starting. My crew's clocking out. We did the REAL work.",
+    "time_noon": "Midday. Grayson's shift. Slow and steady. Boring.",
+    "time_dusk": "Evening. MY time. The night shift AWAKENS!",
+    "time_night": "Night. Dark. Productive. This is when legends are made.",
+    "rival_mention": "Grayson. Old. Slow. But the workers love him. Why? Because he's SOFT.",
+    "post_quest_greeting": "You're back. With more 'safety concerns,' I bet. I've got QUOTAS, hero."
+  },
+  "party_reactions": {
+    "kade": "He really wants that promotion. Hope he doesn't rush into trouble.",
+    "nix7": "Ambition: High. Experience: Moderate. Judgment: Questionable.",
+    "twist": "He talks fast! Like he's running out of time!",
+    "korr": "Impatience is dangerous in leadership. For him and his crew.",
+    "renna": "He's magically sensitive but doesn't know it. Could be dangerous.",
+    "suresh": "Ambition without wisdom is a path to suffering. I should warn him.",
+    "sova": "I'd rather follow Grayson into battle. This one? He'd sacrifice the squad for glory.",
+    "grit": "Seen his type in the ranks. Eager. Reckless. Usually dead before promotion.",
+    "ashka": "He burns hot. Fast. Will burn out faster.",
+    "senna": "Useful ally. Dangerous enemy. The best kind.",
+    "callum": "Someone needs to teach him about sustainable labor practices..."
+  },
+  "relationship_dialog": {
+    "stranger": "First time in the deep? Stay behind the yellow line.",
+    "acquaintance": "Back again. You following me? Or Grayson?",
+    "friend": "You get it. Results matter. Grayson's a good man, but... times change.",
+    "best_friend": "Okay, listen. Tunnel 7? Grayson's hiding something there. Help me find out what, and I'll make it worth your while."
+  },
+  "mini_quest": {
+    "id": "productivity_proof",
+    "title": "The Modern Miner",
+    "description": "Help Bruno prove that modern drilling techniques are superior to Grayson's traditional methods",
+    "stages": {
+      "hook": "Grayson won't acknowledge the new drill specs. Get me hard data from Shaft 14. Prove modern methods work.",
+      "active": "Shaft 14's got the experimental drill. Readings should show 40% efficiency gain. Get those numbers!",
+      "complete": "The data! Look at those yields! Grayson HAS to listen now! ...Wait, there was a cave-in? Minor detail! Success!"
+    },
+    "reward": {
+      "item": "experimental_drill_schematic",
+      "gold": 300,
+      "reputation": "modern_mining_advocate"
+    }
+  },
+  "cross_npc_connections": [
+    "tunneler_gray: Chief. Legend. Obstacle. All three.",
+    "coolcat_industrial: Union rep. She's... persuasive. Watch your wallet AND your vote.",
+    "barrelgob_black: That goblin found something in the scrap. Might be useful. Might be trash.",
+    "trenchcoat_gray: Corporate's watching. Good. Means we're important."
+  ]
+}

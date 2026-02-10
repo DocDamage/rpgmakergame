@@ -1,0 +1,83 @@
+{
+  "npc_id": "foodboys_yellow_mire",
+  "name": "Cornelius 'Corny' Crumble",
+  "sprite": "foodboys_yellow",
+  "zone": "mire",
+  "location": "Boardwalk Cornbread Corner",
+  "personality": "proud_defensive_dedicated",
+  "occupation": "cornbread_baker",
+  "schedule": {
+    "morning": "grinding_corn",
+    "day": "baking_and_selling",
+    "evening": "recipe_experiments"
+  },
+  "dialog": {
+    "greeting": [
+      "Cornbread! Fresh cornbread! Golden, sweet, and perfect!",
+      "Corny's Cornbread Corner! Ignore my brothers - THIS is the best food on the boardwalk!",
+      "You want dry? Go to Flip. You want spicy? Go to Heat. You want PERFECT? Come to Corny!",
+      "The secret's in the corn! And the love! But mostly the corn!",
+      "Step right up! Taste the golden goodness!",
+      "Hot cornbread! Fresh from the oven! Burns your fingers but warms your soul!",
+      "My cornbread has won awards! Okay, one award! From my mom! But still!",
+      "Don't listen to Flip! His fish is greasy! Mine is wholesome!"
+    ],
+    "cornbread_varieties": "Got classic sweet, got savory herb, got experimental blue-corn! The blue one's... an acquired taste. Tastes like sadness. But interesting sadness!",
+    "baking_philosophy": "Baking is science! Baking is art! Baking is... mostly about not burning things. I've gotten good at not burning things.",
+    "backstory": "Middle child syndrome is REAL. Flip's the oldest, gets all the attention. Heat's the baby, gets away with everything. Me? I had to find my niche. And that niche is CORNBREAD. The best niche.",
+    "rumors": [
+      "Flip claims his fish is fresh? Ha! I saw him buying from the dock goblin yesterday. Day-old at best!",
+      "Heat's hot sauce once melted a metal spoon. How is that food safe? It's NOT. I've told him. He doesn't listen.",
+      "The snakecharmer tried my cornbread once. Said it was 'adequate.' I'll take it.",
+      "I heard the onionbosses arguing about bread. MY bread. I don't sell to them anymore. Politics ruins everything."
+    ],
+    "ambient_barks": [
+      "Fresh cornbread!",
+      "Golden and good!",
+      "Flip's fish is greasy!",
+      "Heat's sauce is dangerous!",
+      "Corny cares about quality!",
+      "Secret family recipe!"
+    ],
+    "time_of_day": {
+      "morning": "Early batch just came out! Still steaming!",
+      "noon": "Lunch rush! Perfect time for cornbread! Pairs with everything!",
+      "evening": "Last loaves of the day! Get 'em before they're gone!",
+      "night": "Closed! Even cornbread needs its beauty sleep!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_corn",
+    "quest_name": "Golden Harvest",
+    "stage_1_hook": "My cornbread could be LEGENDARY. I just need better corn. The sweetcorn in the Uplands? That's the good stuff. But I can't leave my stand. Catch-22. Unless... you could bring me some?",
+    "stage_1_active": "Uplands sweetcorn. Gold-colored, silver tassels, tastes like sunshine. A bushel would change EVERYTHING.",
+    "stage_2_progress": "Any luck in the Uplands? I'm dreaming about that corn. Literally. It's weird.",
+    "stage_2_item_needed": "uplands_sweetcorn_bushel",
+    "stage_3_complete": "THE CORN! It's beautiful! Perfect! I'm going to make the best batch ever! Here - my special honey-butter recipe. And free cornbread whenever you're in town!",
+    "reward": "cornys_honey_butter_recipe"
+  },
+  "party_reactions": {
+    "kade": "It's... actually really good cornbread. Moist. Sweet. Perfect with fish.",
+    "nix7": "Grain-based carbohydrate delivery system. Efficient. Pleasant texture.",
+    "twist": "It's like cake but NOT cake! confusing but DELICIOUS!",
+    "korr": "Simple food. Honest food. Good.",
+    "renna": "He doesn't use magic, but there's something... comforting about his baking.",
+    "suresh": "Cornbread. A humble food, elevated by care.",
+    "sova": "Fills you up. Good for long watches.",
+    "grit": "My gran used to make cornbread. This reminds me of hers. Almost.",
+    "ashka": "The sweetness is... nice. Different from spice. I like different.",
+    "senna": "Good position. Sees everything. And the bread's not bad.",
+    "callum": "I could eat this all day! Is that bad? I don't care!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Try the classic! If you don't like it, I'll... be very sad. Please like it.",
+    "acquaintance": "Back for more! Knew you'd see reason! Cornbread is LIFE!",
+    "friend": "My favorite customer! Saving you the best loaves!",
+    "best_friend": "You... you really get it. The cornbread. The passion. The DRAMA of baking. Here. My actual secret recipe. Don't tell my brothers."
+  },
+  "cross_npc_connections": [
+    "foodboys_blue: Flip. Grease merchant. Claims he's the 'real' cook. Ha!",
+    "foodboys_red: Heat. My baby brother. Sweet kid. Terrifying condiments.",
+    "pigman_purple: Percy the chef? He respects my craft. We talk fermentation sometimes."
+  ]
+}

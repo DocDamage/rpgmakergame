@@ -1,0 +1,94 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_REMNANT_CUSTODIAN",
+      "name": "Remnant Custodian",
+      "location": "RV_CORE_64x64",
+      "type": "superboss",
+      "sprite": "spr_boss_remnant_custodian",
+      "stats": {
+        "hp": 80000,
+        "mp": 3000,
+        "atk": 140,
+        "def": 100,
+        "mag": 140,
+        "spr": 100,
+        "spd": 25
+      },
+      "weaknesses": {
+        "none": "adaptive"
+      },
+      "resists": {
+        "all": 0.6
+      },
+      "abilities": [
+        "custodian_sweep",
+        "data_erasure",
+        "reality_glitch",
+        "foundation_mastery",
+        "glitch_burst",
+        "system_restore",
+        "ultimate_deletion"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "name": "System Check",
+          "hp_threshold": 100,
+          "behavior": "analyzing",
+          "abilities": ["custodian_sweep", "data_erasure"]
+        },
+        {
+          "phase": 2,
+          "name": "Glitch Manifestation",
+          "hp_threshold": 80,
+          "behavior": "corrupted",
+          "abilities": ["reality_glitch", "glitch_burst"]
+        },
+        {
+          "phase": 3,
+          "name": "Foundation Mastery",
+          "hp_threshold": 60,
+          "behavior": "all_foundations",
+          "abilities": ["foundation_mastery", "all_elemental_spells"]
+        },
+        {
+          "phase": 4,
+          "name": "System Restore",
+          "hp_threshold": 40,
+          "behavior": "healing_and_buffs",
+          "abilities": ["system_restore", "full_heal", "stat_boost"]
+        },
+        {
+          "phase": 5,
+          "name": "Ultimate Protocol",
+          "hp_threshold": 20,
+          "behavior": "desperate_finale",
+          "abilities": ["ultimate_deletion", "all_previous"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "CUSTODIAN_CORE",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "TRUE_PROGENITOR_WEAPON",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "GOLD_TROPHY",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 50000,
+      "xp": 75000,
+      "music": "bgm_boss_remnant_custodian",
+      "unlock_condition": "Complete all post-game content",
+      "story_significance": "ultimate_superboss"
+    }
+  ]
+}

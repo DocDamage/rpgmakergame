@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_sumo_diet",
+  "name": "Champion's Feast",
+  "zone": "uplands",
+  "giver": "Sumo Red",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Sumo HUNGRY! Need training food! Special upland truffles - ten of them! Grow near the cliff roots! Find for me? I give you... SUMO WISDOM! And maybe cookie!",
+      "objective": "Collect 10 upland truffles from cliff root areas"
+    },
+    "progress": {
+      "dialog": "Still hungry! Need MORE truffles! Big ones! Juicy ones!",
+      "objective": "Continue gathering upland truffles"
+    },
+    "complete": {
+      "dialog": "SO MANY TRUFFLES! Sumo HAPPY! You strong! You wise! Take this - Sumo Belt! Make you PUSH like SUMO! Very powerful! Very stylish!",
+      "rewards": {"gold": 350, "item": "sumo_training_belt", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "That's... a lot of food for one person.",
+    "twist": "He's like a big cuddly mountain!",
+    "grit": "Sumo training requires serious calories. Respect."
+  },
+  "hidden_outcome": "If you bring 20 truffles, Sumo Red declares you his 'apprentice' and teaches the 'Earth Shaker' body slam technique"
+}

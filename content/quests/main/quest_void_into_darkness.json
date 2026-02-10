@@ -1,0 +1,128 @@
+{
+  "quest_id": "void_into_darkness",
+  "name": "Into Darkness",
+  "zone": "void",
+  "act": 4,
+  "prerequisites": [
+    "capital_fallen_crown"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Threshold",
+      "description": "Cross into the Void Zone, where reality frays",
+      "npc": "nix7",
+      "dialog_start": "We're crossing the threshold. From here on, physics as we know it... changes. The Crystals will protect us, but they can't shield us from everything. Stay close. Stay focused. And whatever you do—don't listen to the whispers. The Void speaks lies that sound like truth.",
+      "objectives": [
+        "Cross into the Void Zone",
+        "Maintain Crystal barriers",
+        "Resist the Void's whispers"
+      ],
+      "dialog_complete": "We're through. The Crystals hold. But look around—this place was once part of Chroma. A city, maybe. Now it's... unraveling. Matter dissolving into potential. Time flowing backwards in pockets. This is what the Void wants for everything.",
+      "rewards": {
+        "exp": 2000,
+        "item": "void_resistance_field"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 2,
+      "name": "Gardens of Absence",
+      "description": "Navigate through the surreal landscape of un-creation",
+      "npc": "ven",
+      "dialog_start": "The plants here... they're wrong. Not dead. Not alive. Just... stopped. Frozen mid-growth, mid-decay, both at once. And the sounds—like screaming, but backwards. Like something being unmade. Keep moving. Don't look too closely at anything. Trust me on this.",
+      "objectives": [
+        "Navigate the Gardens of Absence",
+        "Avoid the unmaking storms",
+        "Find the path to the Core"
+      ],
+      "dialog_complete": "We made it through. But I swear—I saw faces in the nothing. People I knew. People I lost. The Void showed them to me. Offered to bring them back if I just... stopped. Let go. I almost did. But then I remembered why we're here. For everyone. Not just my ghosts.",
+      "rewards": {
+        "exp": 2200,
+        "item": "absence_immunity_charm"
+      },
+      "target_location_id": "D8_GARDENS_OF_ABSENCE_96x80"
+    },
+    {
+      "stage": 3,
+      "name": "Echoes of the Lost",
+      "description": "Face manifestations of everyone who has fallen to the Void",
+      "npc": "shadow_of_marn",
+      "dialog_start": "[A voice that is and isn't Elder Marn's] Kade. Child. Why do you fight? I found peace here. No pain. No loss. Just... rest. Join me. Rest. You've fought so hard. So long. Don't you deserve peace? [The voice multiplies, becoming hundreds—thousands—of familiar voices, all offering the same]",
+      "objectives": [
+        "Resist the call of the Lost",
+        "Use Truth to reveal the deception",
+        "Free the trapped souls"
+      ],
+      "dialog_complete": "[The shadows dissipate, leaving only gratitude] They're free. The Crystal of Truth cut through the illusion—they weren't at peace. They were being consumed, slowly, their essence feeding the Void. We saved them. Or... saved what was left. They thanked us, at the end.",
+      "rewards": {
+        "exp": 2500,
+        "item": "souls_released_blessing"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Hunger Itself",
+      "description": "Confront the Avatar of the Void",
+      "npc": "avatar_of_void",
+      "dialog_start": "[A voice that is no voice, speaking directly into the mind] AT LAST. THE BEARER COMES. YOU CARRY LIGHT INTO DARKNESS. HOPE INTO DESPAIR. HOW... QUAINT. I AM THE VOID. THE HUNGER BEFORE CREATION. THE SILENCE AFTER. I OFFER YOU ONE CHANCE, MORTAL: SURRENDER THE CRYSTALS. JOIN THE PEACE OF OBLIVION. OR BE UNMADE.",
+      "objectives": [
+        "Confront the Void Avatar",
+        "Resist its offers of peace",
+        "Battle for Chroma's future"
+      ],
+      "dialog_complete": "[The Avatar screams as the Crystals' light pierces it] IMPOSSIBLE! I AM ETERNAL! I AM INEVITABLE! AND YET... YOU... HURT... ME... [It dissipates, but its voice echoes] THIS AVATAR WAS NOTHING. THE TRUE VOID AWAITS IN THE TOWER. CLIMB, IF YOU DARE. SEE WHAT YOUR PROGENITORS FEARED.",
+      "rewards": {
+        "exp": 3000,
+        "item": "void_avatar_essence"
+      },
+      "target_location_id": "D8_VOID_112x96"
+    },
+    {
+      "stage": 5,
+      "name": "The Tower Revealed",
+      "description": "Discover the true nature of the Tower and what awaits at its peak",
+      "npc": "abyssal",
+      "dialog_start": "I remember now. The Tower. It was always there, even before the Shattering. The Progenitors built it to reach... something. Someone. They called it 'The Bridge.' A way to speak to the force that existed before reality. They thought they could control it. They were wrong. And now you must climb what they built.",
+      "objectives": [
+        "Locate the Tower entrance",
+        "Understand the Tower's purpose",
+        "Prepare for the final ascent"
+      ],
+      "dialog_complete": "The Tower waits. It reaches beyond Chroma, beyond the Void, into spaces that have no names. At its peak lies the Progenitor who started all this. The one who made the Void. Who made the Crystals. Who set this cycle in motion. Your final confrontation awaits.",
+      "rewards": {
+        "exp": 2500,
+        "gold": 2000,
+        "unlock": "zone_tower"
+      },
+      "target_location_id": "TWR_LOBBY_96x64"
+    }
+  ],
+  "story_beats": [
+    "The Void Zone is a place where reality itself is dissolving",
+    "The Void offers false peace—consumption disguised as rest",
+    "The party frees trapped souls rather than leaving them to the Void",
+    "The Avatar of the Void is defeated, but reveals a greater power in the Tower",
+    "The Tower is revealed as a bridge to the Progenitor who created everything"
+  ],
+  "party_reactions": {
+    "kade": "I saw my parents in the Gardens. They begged me to stop fighting. To rest. But it wasn't them. It was the Void wearing their faces. Using my grief against me. I'm done grieving. I'm done being the orphan who needs saving. I'm the one who does the saving now.",
+    "nix7": "The Void offered me something too. Perfect logic. No more emotions, no more messy feelings. Just pure calculation. For 0.3 seconds, I considered it. Then I remembered what feelings gave me—friendship, purpose, hope. I'll take messy over empty any day.",
+    "skysong": "The Avatar offered to undo my mistakes. All the people I hurt, the crimes I committed. Said I could just... not have done them. But that's not how it works, is it? We are our choices. Good and bad. I choose to make better ones going forward. Not erase the past—learn from it.",
+    "vesper": "It offered me perfect knowledge. Every mystery solved, every question answered. No more wondering, no more searching. Just... knowing. I almost took it. Then I realized—the search is the point. The questions matter more than the answers. So I told it to stuff its omniscience.",
+    "ven": "It showed me the swamp, healed. My people thriving. All I had to do was stop. Go home. Let someone else save the world. For a moment... I wanted to. But then I looked at all of you. My friends. My family. And I knew I couldn't abandon you. Even for paradise.",
+    "pyra": "The Void knows fire. It burns too, in its way. It offered to make me the greatest warrior in history. Undefeated. Unmatched. Alone. Because no one could stand beside me. I told it I'd rather lose with friends than win alone. It didn't understand. It doesn't understand anything.",
+    "abyssal": "It showed me the world before the Shattering. Whole. Beautiful. Unbroken. All I had to do was go back to sleep. Let the cycle continue. But I've slept long enough. Ten thousand years of dreams. It's time to wake up. Time to finish what the Progenitors started.",
+    "gearhart": "It offered to make me the greatest inventor ever. All my creations perfect, all my machines benevolent. No more mistakes. No more accidents. But mistakes teach us. My greatest failures taught me more than any success. I chose to keep failing forward.",
+    "blizzard": "It showed me my family. Alive. Happy. Waiting for me. All I had to do was stay. Accept the illusion. But I've learned to see through ice and snow, through lies and mirrors. I said goodbye. Properly this time. And walked forward.",
+    "echo": "It offered me a fixed timeline. No more flux, no more uncertainty. One clear path. I almost took it. But then I remembered—uncertainty means possibility. Hope. If everything is fixed, nothing can get better. I choose possibility.",
+    "sovereign": "It showed me the Capital thriving. My people safe. My crown secure. All I had to do was abandon the alliance. Rule a perfect kingdom while the rest of the world burned. I refused. A true ruler doesn't abandon their people—or their allies."
+  },
+  "unlocks": [
+    "zone_tower",
+    "quest_tower_ascent",
+    "void_resistance_mastered",
+    "souls_freed_blessing"
+  ]
+}

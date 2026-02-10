@@ -1,0 +1,95 @@
+{
+  "npc_id": "trenchcoat_black_chrono",
+  "name": "The Paradox Hunter",
+  "sprite": "trenchcoat_black",
+  "zone": "chrono",
+  "location": "Temporal Fracture Zone",
+  "personality": "obsessed_ruthless_broken",
+  "occupation": "paradox_hunter",
+  "dialog": {
+    "greeting": [
+      "...You're a paradox. I can smell it.",
+      "Paradox Hunter. No name. Names are... anchors. I cut them.",
+      "The black coat? Absorbs light. And time. Useful.",
+      "New face. Or anomaly? Hard to tell. Anomalies look normal. Until they don't.",
+      "I'm hunting paradoxes. Some of them are people. Some of them... used to be.",
+      "Time Corps wants 'stability.' I want PURITY. Clean time. No exceptions.",
+      "The hunter. That's what they call me. Also: monster. Fanatic. Both fair.",
+      "You've met Yesterday. My... former partner. He's SOFT. I'm not."
+    ],
+    "mission": "Paradoxes are CANCER. Temporal tumors. I excise them. For time's sake. For ours.",
+    "paradox_view": "A man meets himself. Kills himself. Becomes himself. PARADOX. Must be... resolved.",
+    "break_chat": "Breaks? Time doesn't break. Neither do I.",
+    "labor_concerns": "Time Corps wants RESULTS. I give them. Don't ask HOW.",
+    "retirement": "Retirement? I'm already erased. From birth records. From memory. From CAUSALITY. Only mission remains.",
+    "rumor": [
+      "Yesterday? He's following ME now. Thinks I'M the threat. Maybe he's right.",
+      "The twins? They see paradoxes. Don't stop them. COMPLICIT.",
+      "Ironchef's 'Yesterday's Lunch?' PARADOX CUISINE! Should be EXTERMINATED!",
+      "The Barrel? Temporal energy? UNSTABLE! DANGEROUS! Must be contained!",
+      "You. You're... interesting. Temporal signature fuzzy. Potential anomaly."
+    ],
+    "quest_hook": "Paradox detected. Nearby. A GLITCH. Someone living two timelines. Find them. Help me... resolve them.",
+    "quest_active": "Still hunting. The paradox hides. In plain sight. Clever.",
+    "quest_complete": "Resolved. Paradox... stabilized. Not eliminated. Compromise. Unusual. Here - paradox detector. For your own... investigation.",
+    "farewell": [
+      "Watch yourself. Literally. If you see YOU, RUN.",
+      "Time remembers. Even when we don't.",
+      "Don't become what I hunt."
+    ],
+    "ambient_barks": [
+      "Paradox detected...",
+      "Time is... wrong...",
+      "Must... resolve...",
+      "Anomaly... nearby...",
+      "The past... bleeds...",
+      "Exterminate... paradox..."
+    ],
+    "time_dawn": "Morning. Fresh timeline. Before contamination.",
+    "time_noon": "Midday. Peak paradox activity. Vulnerable time.",
+    "time_dusk": "Evening. Shadows blend. Paradoxes hide.",
+    "time_night": "Night. Temporal currents visible. Hunting time.",
+    "rival_mention": "Yesterday. My partner. My FAILURE. He's WEAK. I'm... necessary.",
+    "post_quest_greeting": "The assistant. Helpful. Unusual. Most fear me."
+  },
+  "party_reactions": {
+    "kade": "He's terrifying. Obsessed. But... maybe necessary? Time stuff is weird.",
+    "nix7": "Psychological profile: Obsessive. Mission parameters: Extreme. Morality: Compromised. Danger: Maximum.",
+    "twist": "You're SCARY! But... you protect time? That's GOOD? Right?",
+    "korr": "He sacrifices everything for duty. Including himself. Tragic. Dangerous.",
+    "renna": "His temporal magic is... self-destructive. He's burning himself across time.",
+    "suresh": "He creates suffering to prevent greater suffering. Karmic complexity. Dangerous path.",
+    "sova": "I'd avoid him. Unless necessary. He's... unstable.",
+    "grit": "Seen his type. Fanatics. Useful until they're not. Then: dangerous.",
+    "ashka": "He burns himself. Across all time. Fire consuming fire.",
+    "senna": "He knows paradox secrets. Valuable. If he could be... persuaded.",
+    "callum": "His methods! EXTREME! Extralegal! But... effective?"
+  },
+  "relationship_dialog": {
+    "stranger": "...Identify. Before I identify YOU.",
+    "acquaintance": "Recognized. You're... stable. Surprisingly.",
+    "friend": "Useful. Unafraid. Rare. I... appreciate that.",
+    "best_friend": "You've helped. More than most. More than... him. Here - my only anchor. Photo. From when I existed."
+  },
+  "mini_quest": {
+    "id": "paradox_resolution",
+    "title": "Paradox Resolution",
+    "description": "Help the Paradox Hunter resolve a temporal glitch where someone is living two timelines",
+    "stages": {
+      "hook": "Paradox detected. GLITCH. Someone living TWO timelines. Dangerous to them. To TIME. Find them. Help me... fix this.",
+      "active": "Look for duplicates. Déjà vu. Déjà vécu. Things that happened... differently. Both true.",
+      "complete": "Resolved. Merged. Not eliminated. COMPROMISE. Unusual. Satisfying? Here. Paradox detector. Find others. Before I do."
+    },
+    "reward": {
+      "item": "paradox_detector",
+      "gold": 500,
+      "reputation": "paradox_hunter_acolyte"
+    }
+  },
+  "cross_npc_connections": [
+    "trenchcoat_brown_chrono: Yesterday. Former partner. Now HUNTING me. Thinks I'm the threat.",
+    "twins_chrono: ORACLES! They SEE paradoxes! Let them HAPPEN! Complicit!",
+    "barrel_chrono: The Barrel! Temporal energy! UNSTABLE! Must be... monitored.",
+    "conductor_chrono: Tempus. Knows paradoxes. Ignores them. For schedule. FOOL."
+  ]
+}

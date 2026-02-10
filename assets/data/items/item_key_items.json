@@ -1,0 +1,292 @@
+{
+  "id": "ITEM_KEY_ITEMS",
+  "items": [
+    {
+      "id": "ITEM_RELIC_GROWTH_FOUNDATION",
+      "name": "Growth Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_growth",
+      "description": "The first Foundation. Represents life, growth, and nature.",
+      "flavor": "From this seed, all life springs.",
+      "story_significance": "dungeon1_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_MOTION_FOUNDATION",
+      "name": "Motion Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_motion",
+      "description": "The Foundation of movement and change.",
+      "flavor": "Nothing is still. Everything flows.",
+      "story_significance": "dungeon2_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_LIGHT_FOUNDATION",
+      "name": "Light Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_light",
+      "description": "The Foundation of illumination and truth.",
+      "flavor": "In light, all things are seen.",
+      "story_significance": "dungeon3_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_HEAT_FOUNDATION",
+      "name": "Heat Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_heat",
+      "description": "The Foundation of energy and passion.",
+      "flavor": "The spark that ignites change.",
+      "story_significance": "dungeon4_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_TIDE_FOUNDATION",
+      "name": "Tide Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_tide",
+      "description": "The Foundation of water and adaptability.",
+      "flavor": "Eternal ebb and flow.",
+      "story_significance": "dungeon5_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_MASS_FOUNDATION",
+      "name": "Mass Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_mass",
+      "description": "The Foundation of substance and weight.",
+      "flavor": "That which cannot be moved.",
+      "story_significance": "dungeon6_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_TIME_FOUNDATION",
+      "name": "Time Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_time",
+      "description": "The Foundation of moments and memory.",
+      "flavor": "The river that flows in all directions.",
+      "story_significance": "dungeon7_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_RELIC_SHADOW_FOUNDATION",
+      "name": "Shadow Foundation",
+      "type": "key_item",
+      "subtype": "foundation",
+      "rarity": 5,
+      "icon": "icon_relic_shadow",
+      "description": "The Foundation of darkness and potential.",
+      "flavor": "Without shadow, light has no meaning.",
+      "story_significance": "dungeon8_reward",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_TOWER_KEY_F15",
+      "name": "Tower Key F15",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 4,
+      "icon": "icon_tower_key",
+      "description": "Unlocks floors 11-15 of the Tower.",
+      "flavor": "Permission to ascend.",
+      "story_significance": "tower_progression",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_TOWER_KEY_F35",
+      "name": "Tower Key F35",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 4,
+      "icon": "icon_tower_key",
+      "description": "Unlocks floors 26-35 of the Tower.",
+      "flavor": "Higher and higher.",
+      "story_significance": "tower_progression",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_TOWER_KEY_F55",
+      "name": "Tower Key F55",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 4,
+      "icon": "icon_tower_key",
+      "description": "Unlocks floors 36-55 of the Tower.",
+      "flavor": "Halfway to the sky.",
+      "story_significance": "tower_progression",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_TOWER_KEY_F85",
+      "name": "Tower Key F85",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 4,
+      "icon": "icon_tower_key",
+      "description": "Unlocks floors 76-85 of the Tower.",
+      "flavor": "The summit approaches.",
+      "story_significance": "tower_progression",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_TOWER_CLEARANCE",
+      "name": "Tower Clearance",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 5,
+      "icon": "icon_tower_clearance",
+      "description": "Proof of conquering the Tower. Grants Palace access.",
+      "flavor": "You have proven your worth.",
+      "story_significance": "tower_complete",
+      "unlocks": [
+        "PALACE_ACCESS"
+      ],
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_ARCHIVE_KEY",
+      "name": "Archive District Key",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 4,
+      "icon": "icon_archive_key",
+      "description": "Grants access to the Archive District dungeon.",
+      "flavor": "Knowledge is power, and power is guarded.",
+      "story_significance": "capital_progression",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_TRUE_ENDING_KEY",
+      "name": "True Ending Key",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 5,
+      "icon": "icon_true_ending_key",
+      "description": "Unlocks the path to the true ending.",
+      "flavor": "The choice is yours.",
+      "story_significance": "true_ending",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_WORLD_MAP",
+      "name": "World Map",
+      "type": "key_item",
+      "subtype": "tool",
+      "rarity": 2,
+      "icon": "icon_world_map",
+      "description": "Shows discovered locations on the overworld.",
+      "flavor": "The world unfolds before you.",
+      "story_significance": "navigation",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_AETHERREACH_PASS",
+      "name": "Aetherreach Pass",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 5,
+      "icon": "icon_aetherreach_pass",
+      "description": "Grants access to the post-game hub.",
+      "flavor": "For those who would touch the sky.",
+      "story_significance": "post_game_unlock",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_FISHING_ROD",
+      "name": "Fishing Rod",
+      "type": "key_item",
+      "subtype": "tool",
+      "rarity": 2,
+      "icon": "icon_fishing_rod",
+      "description": "Allows fishing at designated spots.",
+      "flavor": "Patience brings rewards.",
+      "story_significance": "minigame",
+      "buy_price": 100,
+      "sell_price": 50
+    },
+    {
+      "id": "ITEM_CHOCOBO_WHISTLE",
+      "name": "Chocobo Whistle",
+      "type": "key_item",
+      "subtype": "tool",
+      "rarity": 3,
+      "icon": "icon_chocobo_whistle",
+      "description": "Summon a mount for faster travel.",
+      "flavor": "A faithful companion awaits.",
+      "story_significance": "transportation",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "ITEM_AIRSHIP_KEY",
+      "name": "Airship Key",
+      "type": "key_item",
+      "subtype": "key",
+      "rarity": 5,
+      "icon": "icon_airship_key",
+      "description": "Grants access to the airship for worldwide travel.",
+      "flavor": "The skies are yours.",
+      "story_significance": "late_game_transport",
+      "buy_price": 0,
+      "sell_price": 0
+    }
+  ]
+}

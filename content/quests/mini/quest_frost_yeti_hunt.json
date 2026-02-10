@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_yeti_hunt",
+  "name": "Shadows on the Ice",
+  "zone": "frost",
+  "giver": "sumo_white",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A Yeti has been raiding the outlying villages! Not killing, but stealing food and livestock. The hunters want it dead, but I think it's just hungry and desperate. Track it, but try not to kill it—drive it back to the high peaks where it belongs!",
+      "objective": "Track the Yeti to its lair in the Frozen Peaks"
+    },
+    "progress": {
+      "dialog": "You found it—a massive female, nursing cubs! She's only stealing to feed them! Scare her off without harming the cubs! Use loud noises, fire, show of strength—but don't hurt her!",
+      "objective": "Drive the Yeti family back to the high peaks without harming them"
+    },
+    "complete": {
+      "dialog": "They've returned to the peaks! The villages are safe, the Yetis are alive! True harmony with nature! The village elders gift you this Yeti Fur Cloak—warm as a furnace, soft as silk!",
+      "rewards": {
+        "exp": 900,
+        "gold": 700,
+        "item": "yeti_fur_cloak"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I didn't want to hurt her anyway. She was just being a mom!",
+    "twist": "The cubs were adorable. I nearly kept one as a pet.",
+    "nix7": "Wildlife relocation: successful. Ecological balance: maintained."
+  }
+}

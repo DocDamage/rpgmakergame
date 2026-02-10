@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_rikku_treasure_hunt",
+  "name": "Al Bhed Treasures",
+  "zone": "uplands",
+  "giver": "Rikku (Al Bhed Mechanic)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Hey hey! Heard there's old Al Bhed tech hidden in these mountains! My people were here way back! Help me find it? I'll make it worth your while!",
+      "objective": "Search the Uplands mountains for hidden Al Bhed technology"
+    },
+    "progress": {
+      "dialog": "The tech should be in a hidden cache! Look for the lightning-bolt symbol! That's us!",
+      "objective": "Continue searching for Al Bhed symbols and caches"
+    },
+    "complete": {
+      "dialog": "You found it! Look at this tech! Ancient but still functional! Here, take this - a fully upgraded Al Bhed potion. Mix of healing and buffs! Best of both worlds!",
+      "rewards": {"gold": 400, "item": "al_bhed_mega_potion", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "She's got a lot of energy. And knows her machines.",
+    "nix7": "Al Bhed technology. Compatible with my systems. Interesting.",
+    "twist": "Can I press the buttons?! Please?!"
+  },
+  "hidden_outcome": "If you find all three hidden caches, Rikku gives you 'Godhand' - a legendary claw weapon"
+}

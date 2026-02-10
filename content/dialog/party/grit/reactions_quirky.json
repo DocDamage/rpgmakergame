@@ -1,0 +1,139 @@
+{
+  "character": "Grit",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Engineer, technical, cynical, war veteran, practical to a fault",
+  "dialog": {
+    "first_meet_generic": [
+      "Another weirdo. Great. Just what we needed.",
+      "I'm Grit. I fix things. And break things. Sometimes people.",
+      "You gonna be useful? Or just decorative?",
+      "Seen stranger things in the war. Not many, but some."
+    ],
+    "barrelman": [
+      "Metal beats wood. That's just engineering.",
+      "Gnew-proof? That's your selling point? Weak.",
+      "Competition is good. Keeps you honest.",
+      "Got any industrial-grade drums? Heavy duty?"
+    ],
+    "snakecharmer": [
+      "Snake's not charmed. Just confused by the vibration.",
+      "Mr. Whiskers? Cute name for a deadly predator.",
+      "Keep that thing away from my equipment.",
+      "Flute's not bad. Could use some tuning."
+    ],
+    "lucha": [
+      "The mask is a target. I'd aim for it.",
+      "Muscle's fine. Armor's better. You have neither.",
+      "Wrestling's for when you run out of bullets.",
+      "Showy. But showy gets you killed."
+    ],
+    "ironchef": [
+      "Cooking in armor. Stupid. But the heat management's impressive.",
+      "Lava? For cooking? Finally, someone gets it.",
+      "All that yelling. Unnecessary. But efficient for crowd control.",
+      "Had a cook like you in the war. Made the best chili. Also three fires."
+    ],
+    "trenchcoat": [
+      "Seen a hundred like you in the war. Spies. Traitors. Heroes. Can't tell which.",
+      "Fourteen pockets. Good for concealed carry.",
+      "You know something. Everyone knows something.",
+      "Less mystery, more facts. Facts keep you alive."
+    ],
+    "sumo": [
+      "Low center of gravity. Good tactical position.",
+      "Wouldn't want to fight you. Wouldn't need to. Just walk around.",
+      "Stillness is a tactic. Patience wins wars.",
+      "You'd make excellent cover. Just saying."
+    ],
+    "foodboys": [
+      "Food. Finally, something useful.",
+      "Chili's better than salad. War taught me that.",
+      "Every town? Supply chain must be nightmare.",
+      "Which one? Don't care. Feed me."
+    ],
+    "coolcat": [
+      "Too smooth. Suspiciously smooth.",
+      "Jazz is fine. But does it do anything?",
+      "Sunglasses indoors. Tactical disadvantage.",
+      "Cool doesn't stop bullets. Remember that."
+    ],
+    "pigman": [
+      "Inn's structurally sound? Floating? Concerning.",
+      "Pork? Good protein. Hard to spoil.",
+      "The heating system here is... inventive. I approve.",
+      "Room with good sight lines. And an exit."
+    ],
+    "tunneler": [
+      "Underground work. Seen that. Bad for the lungs.",
+      "Your back's wrecked. Get a harness. Proper one.",
+      "Found anything useful down there? Tools? Parts?",
+      "Boat retirement? Hope you like seasickness."
+    ],
+    "bush": [
+      "That's not a bush. Bushes don't talk.",
+      "Camouflage? Decent. Not great.",
+      "If you're hiding, you're doing it wrong.",
+      "Weird. But I've seen weirder."
+    ],
+    "aeronaut": [
+      "Balloons. Hydrogen? Please say no.",
+      "Navigation by wind. Unreliable. Exciting. Stupid.",
+      "Good for recon. Bad for combat.",
+      "One spark and you're falling. Remember that."
+    ],
+    "onionboss": [
+      "Management. Never met a good one.",
+      "Workers need tools. Not speeches.",
+      "Union? Hah. Good luck with that.",
+      "Shape like an onion. Personality too. Layers of bad."
+    ],
+    "astronaut": [
+      "That suit. Vintage. Charming. Probably leaks.",
+      "Underwater pressure. Calculated it once. Don't recommend.",
+      "Retro tech. Beautiful. Likely fatal.",
+      "Rather be on the surface. Where I can breathe."
+    ],
+    "conductor": [
+      "Train on floating tracks. Engineering nightmare.",
+      "Scheduling. Important in war. Important now.",
+      "Where's it actually go? 'Everywhere' ain't an answer.",
+      "Uniform's sharp. Good for morale."
+    ],
+    "shoewoman": [
+      "Boots. Good boots. Hard to find.",
+      "Desert-ready soles. Smart engineering.",
+      "Can I run in them? Climb? Fight? Good.",
+      "Give me three pairs. War taught me: always have spares."
+    ],
+    "signguy": [
+      "Hand-painted? Inefficient. But effective.",
+      "Signs save lives. Good signs, anyway.",
+      "Ever made directional signs? For... strategic purposes?",
+      "Paint's slow. But it doesn't run out of batteries."
+    ],
+    "cobra": [
+      "Venomous. Fast. Patient. Respect.",
+      "Keep distance. Twenty feet minimum.",
+      "Don't need to fight everything. Remember that.",
+      "Beautiful design. Evolution knew what it was doing."
+    ],
+    "barrelgob": [
+      "Living in a barrel. Resourceful. Sad, but resourceful.",
+      "Scavenger lifestyle. Surviving. I get it.",
+      "Consider a tent. Better tactical position.",
+      "I don't judge. War makes us all do strange things."
+    ],
+    "twins": [
+      "Two of you. One mind? Or two? Doesn't matter.",
+      "Finish each other's sentences. Efficient. Annoying, but efficient.",
+      "Synced movement. Good for combat. If you fought.",
+      "Creepy. But useful creepy, maybe."
+    ],
+    "sunandmoon": [
+      "Fortune teller. Waste of time.",
+      "Stars don't care about us. Physics does.",
+      "That headdress. Impractical. But impressive.",
+      "Predict the future? Predict where my next bullet goes."
+    ]
+  }
+}

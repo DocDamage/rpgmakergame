@@ -1,0 +1,95 @@
+{
+  "npc_id": "twins_chrono",
+  "name": "Now & Then",
+  "sprite": "twins",
+  "zone": "chrono",
+  "location": "Temporal Observatory",
+  "personality": "synchronized_temporal_enigmatic",
+  "occupation": "temporal_oracles",
+  "dialog": {
+    "greeting": [
+      "Now: 'They arrive.' Then: 'As we saw.' Both: 'Welcome, travelers of time.'",
+      "We are Now. And Then. The temporal twins. Seers of was and will be.",
+      "New faces. But not new to us. We've seen your... possibilities.",
+      "The timeline shows us. What was. What is. What might be.",
+      "Now: 'You have questions.' Then: 'We have answers.' Both: 'Neither are when you expect.'",
+      "Welcome to the observatory. Where time watches itself.",
+      "We speak. Together. Apart. Always. Never. In time.",
+      "You stand before us. As we stood before you. Will stand. Have stood."
+    ],
+    "cryptic_hint": "The future that comes is not the future you fear. The future you fear has already passed. Or will. Depending.",
+    "refusal": "Some timelines must be lived. Not known. Knowing would change them. Collapse them.",
+    "secret_quest": "Yesterday will hunt. Tomorrow will hide. You will mediate. Or won't. Both create time. Both destroy it.",
+    "ominous": "Beware the hunter in black. He seeks purity. Finds only ash. In all timelines.",
+    "farewell": [
+      "Now: 'Go.' Then: 'Return.' Both: 'As timed.'",
+      "The timeline remembers you. Even when you forget.",
+      "What will be, was. What was, will be."
+    ],
+    "if_exposed": "You see through our temporal veil? Good. The veil is for others. For linear comfort.",
+    "rumor": [
+      "Yesterday: He will catch his target. Or become it. We see both. Neither.",
+      "The hunter in black: He will find purity. Or oblivion. Same outcome. Different paths.",
+      "Ironchef: He will cook. Has cooked. Will have been cooking. Time cuisine.",
+      "The Frost twins: Our counterparts. Ice sees time differently. Same vision. Different medium.",
+      "You: You will make a choice. Two paths. Both right. Both wrong. Both. Neither."
+    ],
+    "quest_hook": "Now: 'A temporal disturbance.' Then: 'Unresolved.' Both: 'Your presence... stabilizes. Help us focus?'",
+    "quest_active": "Now: 'Still unclear.' Then: 'But temporalizing.' Both: 'Stay. Let time show us.'",
+    "quest_complete": "Now: 'We see!' Then: 'The timeline!' Both: 'Thank you. Here. Temporal lens. For your own... observation.'",
+    "ambient_barks": [
+      "Now: 'I see...'",
+      "Then: 'It was...'",
+      "Both: 'As predicted.'",
+      "Now: 'Time speaks.'",
+      "Then: 'Eternity answers.'",
+      "Both: 'Truth temporalizes.'"
+    ],
+    "time_dawn": "Now: 'Morning visions.' Then: 'Were clear.' Both: 'Linear time.'",
+    "time_noon": "Now: 'Midday.' Then: 'Will be hazy.' Both: 'Temporal overlap.'",
+    "time_dusk": "Now: 'Evening.' Then: 'Was complex.' Both: 'Possibilities expand.'",
+    "time_night": "Now: 'Night.' Then: 'Deep sight.' Both: 'Time speaks clearly.'",
+    "rival_mention": "The Frost twins? Our ice counterparts. Same sight. Different phase. Never meet. Paradox risk.",
+    "post_quest_greeting": "Now: 'The stabilizer returns.' Then: 'As we knew.' Both: 'Welcome back. Always.'"
+  },
+  "party_reactions": {
+    "kade": "Time oracles. Speaking in unison. About timelines. My head hurts.",
+    "nix7": "Precognitive temporal abilities: Confirmed. Accuracy: Probabilistic. Presentation: Even more dramatic.",
+    "twist": "TWO of you! Talking in TIME! That's SO COOL! Can I try?!",
+    "korr": "They see possibilities across time. Not certainties. Important distinction.",
+    "renna": "The observatory is temporally active. Ancient. Powerful. Dangerous to use.",
+    "suresh": "They teach impermanence of time itself. The Middle Path... temporally.",
+    "sova": "Useful. If vague. I'd rather know certainties. In time.",
+    "grit": "Intel with temporal conditions. Seen it before. Still useful.",
+    "ashka": "They see through time. Like I through shadow. But further. In all directions.",
+    "senna": "They know temporal secrets. Won't share directly. Frustrating.",
+    "callum": "Their temporal predictions! DOCUMENTED! Across ERAS!"
+  },
+  "relationship_dialog": {
+    "stranger": "Now: 'New.' Then: 'Unknown.' Both: 'Interesting.'",
+    "acquaintance": "Now: 'Returning.' Then: 'As expected.' Both: 'Progress.'",
+    "friend": "Now: 'Known.' Then: 'Predictable.' Both: 'Comfortable.'",
+    "best_friend": "Now: 'Clear.' Then: 'Certain.' Both: 'You are... fixed. In our timeline. Here. Our temporal focus. For you.'"
+  },
+  "mini_quest": {
+    "id": "temporal_clarity",
+    "title": "The Unclear Timeline",
+    "description": "Help the temporal twins clarify a vision by providing a stabilizing temporal presence",
+    "stages": {
+      "hook": "Now: 'A temporal vision.' Then: 'Clouded.' Both: 'Your presence... temporalizes. Helps. Will help?'",
+      "active": "Now: 'Stay.' Then: 'Breathe.' Both: 'Let time show us. Has shown us.'",
+      "complete": "Now: 'We see!' Then: 'The timeline!' Both: 'Yesterday and Black. Resolution. Here. Temporal lens. For your own... observation.'"
+    },
+    "reward": {
+      "item": "temporal_observation_lens",
+      "gold": 450,
+      "reputation": "temporal_oracle_confidant"
+    }
+  },
+  "cross_npc_connections": [
+    "trenchcoat_brown_chrono: Yesterday. We saw him catch his target. Become it. Both.",
+    "trenchcoat_black_chrono: The hunter. We saw his purity. His ash. Same outcome.",
+    "twins_white_frost: Our ice counterparts. Same sight. Different when. Never meet.",
+    "conductor_chrono: Tempus. Sees all time. Says little. Wise."
+  ]
+}

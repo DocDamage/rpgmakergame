@@ -1,0 +1,136 @@
+{
+  "quest_id": "palace_progenitor_will",
+  "name": "The Progenitor's Will",
+  "zone": "palace",
+  "act": 5,
+  "prerequisites": [
+    "tower_ascent"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Garden of Origin",
+      "description": "Meet the First Progenitor in their sanctuary",
+      "npc": "the_first_progenitor",
+      "dialog_start": "[A voice like mothers' lullabies and fathers' pride] Welcome, children. Welcome, Bearer. I have waited so long. Watched so many try and fail. But you... you brought them all. The Seven. Unified. Harmonized. I am the First. The one who dreamed Chroma into being. And I am so, so sorry for the nightmares I created.",
+      "objectives": [
+        "Meet the First Progenitor",
+        "Hear their story",
+        "Understand the true nature of the threat"
+      ],
+      "dialog_complete": "[The First weeps light] I made the Void to protect Chroma from the Unraveling. I made the Crystals to control the Void. But I was proud. Arrogant. I thought I could manage the balance forever. Instead, I trapped my children in a cycle of suffering. Please—forgive me. And help me end it properly.",
+      "rewards": {
+        "exp": 3000,
+        "item": "first_progenitor_truth"
+      },
+      "target_location_id": "PAL_GARDEN_OF_ORIGIN_96x80"
+    },
+    {
+      "stage": 2,
+      "name": "The Three Choices",
+      "description": "Learn the three possible endings to the cycle",
+      "npc": "the_first_progenitor",
+      "dialog_start": "[Three paths illuminate in the garden] Choice One: Destroy the Void. Kill the hunger, save the world. But the Unraveling will come. Reality itself will dissolve. Choice Two: Merge with the Void. Become its master, use it to fight the Unraveling forever. But lose your humanity. Become hunger itself. Choice Three: Transcendence. Remake the world. Combine Void and Light into something new. But the old world ends. Everyone starts over. What will you choose, Bearer?",
+      "objectives": [
+        "Understand the Destroy option",
+        "Understand the Merge option",
+        "Understand the Transcend option"
+      ],
+      "dialog_complete": "[The First nods, sad but understanding] No choice is perfect. Each costs something precious. I could not choose—my pride demanded a perfect solution. So I waited. Failed. Now the choice falls to you. And whatever you decide... I will support. It is time for the parent to trust the children.",
+      "rewards": {
+        "exp": 3500,
+        "item": "three_paths_knowledge"
+      },
+      "target_location_id": "PAL_F5_80x80"
+    },
+    {
+      "stage": 3,
+      "name": "The Council of Allies",
+      "description": "Consult with all companions before making the final choice",
+      "npc": "kade",
+      "dialog_start": "I can't make this alone. This choice affects everyone. Everything. I need to hear from all of you. What do you think? What do you feel? What do you choose? I'm not a king or a god—I'm just someone who cares. Help me do right by the world.",
+      "objectives": [
+        "Hear Nix7's analysis",
+        "Hear Skysong's wisdom",
+        "Hear Vesper's research",
+        "Hear Ven's heart",
+        "Hear Pyra's fire",
+        "Hear Abyssal's memory",
+        "Hear Gearhart's innovation",
+        "Hear Blizzard's endurance",
+        "Hear Echo's perspective",
+        "Hear Sovereign's leadership"
+      ],
+      "dialog_complete": "[Each companion offers their perspective, their hopes, their fears] You've heard them all. Their voices, their hearts. Now you must weigh them. Balance them. And choose. Whatever you decide, know this—they will stand with you. To the end. Whatever end that is.",
+      "rewards": {
+        "exp": 4000,
+        "item": "unanimous_alliance_bond"
+      },
+      "target_location_id": "PAL_REWARD_48x32"
+    },
+    {
+      "stage": 4,
+      "name": "The Choice Made",
+      "description": "Make the final decision that will reshape reality",
+      "npc": "the_first_progenitor",
+      "dialog_start": "[The garden falls silent, waiting] The moment has come. Speak your choice, Bearer. Give it voice. Give it power. And know that whatever happens next—you have done more than I ever dared. You have faced the impossible and refused to look away. Whatever you choose... thank you.",
+      "objectives": [
+        "Make the final choice",
+        "Commit to the path",
+        "Activate the Seven Crystals for the last time"
+      ],
+      "dialog_complete": "[The Crystals respond to your will, blazing with ultimate power] IT IS DONE. THE CHOICE IS MADE. REALITY RESHAPES ITSELF. CARRY YOUR DECISION INTO THE NEW WORLD, BEARER. AND REMEMBER—EVEN GODS WERE ONCE MORTAL WHO CHOSE TO CARE.",
+      "rewards": {
+        "exp": 5000,
+        "item": "reality_reshaped"
+      },
+      "target_location_id": "PAL_GARDEN_OF_ORIGIN_96x80"
+    },
+    {
+      "stage": 5,
+      "name": "The New Dawn",
+      "description": "Witness the consequences of your choice and begin the new world",
+      "npc": "kade",
+      "dialog_start": "[Light. Sound. Sensation. Everything, all at once, then... peace] We did it. Whatever 'it' was—we did it. Look. The world. It's... different. But alive. We made it. Together. All of us. Whatever comes next... we'll face it. Together.",
+      "objectives": [
+        "Witness the new world",
+        "Reunite with surviving companions",
+        "Begin the next chapter"
+      ],
+      "dialog_complete": "[The screen fades to the title: 'CHROMA'S EDGE: A New Beginning'] The story of Kade and the Crystal Bearers has reached its conclusion. But Chroma's story continues. In Aetherreach, the sky calls. In Remnant, mysteries await. The edge of one story is the beginning of another.",
+      "rewards": {
+        "exp": 10000,
+        "gold": 5000,
+        "unlock": "post_game_content"
+      },
+      "target_location_id": "OW_ORION_320x180"
+    }
+  ],
+  "story_beats": [
+    "The First Progenitor is revealed as a tragic figure who made mistakes from love",
+    "Three endings are possible: Destroy (sacrifice the world to kill the Void), Merge (sacrifice humanity to control the Void), or Transcend (sacrifice the current world for a new beginning)",
+    "Every companion offers their perspective on the choice, adding emotional weight",
+    "The player makes the final decision that determines the ending",
+    "The main story concludes, but post-game content unlocks"
+  ],
+  "party_reactions": {
+    "kade": "I chose. I actually chose. It felt like the weight of every world on my shoulders. But I didn't carry it alone—I had all of you. Whatever comes next, we face it together. That's what family means. That's what we are now. Family.",
+    "nix7": "Analysis of the three paths: Destroy had 0% long-term survival probability. Merge had 100% survival, 0% quality of life. Transcend had... unknown variables. I advised transcendence. Not because of data. Because of hope. Illogical. Correct.",
+    "skysong": "I've lived my whole life running from consequences. This time, I helped MAKE the consequences. Helped shape the world. Scary as hell. Also... kind of amazing? I think I'm finally growing up. About time, honestly.",
+    "vesper": "The scientific implications of our choice are STAGGERING! A whole new field of study! Reality engineering! I need a bigger lab. A MUCH bigger lab. Also, tenure. Definitely tenure. I'm going to be VERY famous. Posthumously, possibly, but still.",
+    "ven": "I didn't understand half of what the First said. Cosmic threats, reality engineering, philosophical implications... too big for me. But I understood one thing: we mattered. Our choices mattered. Little people from nowhere, changing everything. That's beautiful.",
+    "pyra": "The First reminded me of my father. Powerful, loving, flawed. I think... I think parents always try their best. Even when they fail. Especially when they fail. Forgiveness matters. Moving forward matters. We did both today.",
+    "abyssal": "I remember the First from before. They were so bright, so certain. Now they're tired. Ready to rest. I think... I think I've been carrying anger for ten thousand years. Time to set it down. Time to swim in new waters.",
+    "gearhart": "I built things that hurt people. The First built things that hurt worlds. We're not so different. But we both tried to fix it. That counts for something. That has to count for something.",
+    "blizzard": "I was born in the cold. Thought I'd die there. Instead, I helped birth a new world. Warm. Connected. Full of possibility. I don't know what to do with hope this big. Guess I'll learn.",
+    "echo": "I recorded the end of one world and the birth of another. First historian of the new age! Assuming I survived. I think I survived. Hard to tell with temporal transitions. Either way—WORTH IT!",
+    "sovereign": "I came to reclaim a throne. Instead, I helped build a future. Much better trade. The Capital will be different in this new world. Better. Because we'll build it together, not rule it apart."
+  },
+  "unlocks": [
+    "zone_aetherreach",
+    "zone_remnant",
+    "ending_cinematic",
+    "post_game_content",
+    "new_game_plus"
+  ]
+}

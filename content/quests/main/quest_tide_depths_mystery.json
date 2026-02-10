@@ -1,0 +1,143 @@
+{
+  "quest_id": "tide_depths_mystery",
+  "name": "Depths of Mystery",
+  "zone": "tide",
+  "act": 2,
+  "prerequisites": [
+    "ember_trial_by_fire"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Silent Harbor",
+      "description": "Investigate why Tide has gone silent",
+      "npc": "harbor_master_marin",
+      "dialog_start": "Thank the currents you're here! Tide's been dark for three weeks—no messages, no trade ships, nothing but debris washing ashore. We sent scouts. None returned. Something's wrong down there. Deep wrong. You carry the Crystals? Maybe... maybe you can succeed where we failed.",
+      "objectives": [
+        "Prepare deep-sea diving equipment",
+        "Descend to Tide's upper levels",
+        "Investigate the silence"
+      ],
+      "dialog_complete": "The pressure locks engaged... you're cleared for descent. The Crystal of Strength should help you withstand the depths, but be careful. Tide was built on ancient technology—Progenitor remnants that let us breathe underwater. If that's been compromised...",
+      "rewards": {
+        "exp": 1000,
+        "item": "deep_sea_suit"
+      },
+      "target_location_id": "T_BRINEGATE_112x72"
+    },
+    {
+      "stage": 2,
+      "name": "Sunken City of Tides",
+      "description": "Explore the underwater metropolis and find survivors",
+      "npc": "survivor_coral",
+      "dialog_start": "*bubbles of relief* A rescue! I mean—over here! Don't shoot! I'm Coral, junior hydromancer. The city... the city's WRONG. The water itself turned against us. Something's controlling the currents, making them... hungry. The Crystal of Depths was supposed to protect us, but then the High Tide Council... they changed.",
+      "objectives": [
+        "Navigate the flooded districts",
+        "Rescue trapped survivors",
+        "Investigate the High Tide Council"
+      ],
+      "dialog_complete": "You saved my whole sector! I thought I was dead for sure. Look, the High Tide Council—they were good people once. Then the Void-touched envoy came from the Capital, offering 'protection.' They accepted. Now... now they serve something else. The Crystal is in the Abyssal Vault, but you'll never get past the Council's guards.",
+      "rewards": {
+        "exp": 1300,
+        "item": "hydromancer_blessing"
+      },
+      "target_location_id": "D5_SUNKEN_CITY_TIDES_96x96"
+    },
+    {
+      "stage": 3,
+      "name": "The Corrupted Council",
+      "description": "Confront the Void-touched High Tide Council",
+      "npc": "coral",
+      "dialog_start": "That's the Council Spire. See the violet glow? That's not natural light—that's Void corruption. The Council members are in there, but they're... different now. Empty. Like their souls were scooped out and replaced with... hunger. Use the Crystal of Truth—maybe it can show them what they've become.",
+      "objectives": [
+        "Infiltrate the Council Spire",
+        "Use Truth to reveal the corruption",
+        "Free the Council from Void control"
+      ],
+      "dialog_complete": "[The Council members gasp as the Truth burns away the Void] What... what have we done? The envoy... they said they were from the Capital, but... they were HOLLOW. Empty shells wearing faces. The Crystal! They took the Crystal of Depths to the Abyssal Vault! It's the key to something terrible!",
+      "rewards": {
+        "exp": 1600,
+        "item": "council_redemption_oath"
+      },
+      "target_location_id": "D5_SUNKEN_CITY_TIDES_96x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Deep Walker",
+      "description": "Recruit the ancient guardian of the abyss",
+      "npc": "ancient_abyssal",
+      "dialog_start": "[A voice echoes from the crushing darkness] Who dares swim in my domain? The young races, invading my silence... wait. You carry the Light of Truth. And the Flame of Strength. Impossible. The Progenitors' weapons walk again. Perhaps... perhaps the cycle can be broken. I am Abyssal, First Diver. And I will help you recover what was stolen.",
+      "objectives": [
+        "Prove worthy of Abyssal's aid",
+        "Navigate the Crushing Depths",
+        "Descend to the Abyssal Vault"
+      ],
+      "dialog_complete": "You swim well for surface-dwellers. The Abyssal Vault was built by my kind, long before your kind crawled onto land. The Void-touched ones desecrate it with their presence. We go to reclaim what is ours—and to stop them from awakening what should sleep forever.",
+      "rewards": {
+        "exp": 1400,
+        "item": "abyssal_companion_unlocked"
+      },
+      "target_location_id": "D5_ABYSS_96x96"
+    },
+    {
+      "stage": 5,
+      "name": "The Abyssal Vault",
+      "description": "Descend into the deepest ocean trench to stop the Void ritual",
+      "npc": "abyssal",
+      "dialog_start": "[The darkness here is absolute, even the Crystals' light struggles to penetrate] Below us lies the Vault—and the Void's servants. They seek to use the Crystal of Depths to open a gateway. Not a small Wound, like in your swamp. A Door. If they succeed, the Void itself will pour through. We must be swift. We must be silent. We must be deadly.",
+      "objectives": [
+        "Infiltrate the Abyssal Vault",
+        "Disrupt the Void gateway ritual",
+        "Prevent the Door from opening"
+      ],
+      "dialog_complete": "[The ritual collapses as the last Void-priest falls] The Door remains closed. This time. But they will try again. They always try again. The Crystal of Depths—it calls to you. Take it, Bearer. Adapt to any environment, survive any pressure. You have earned the Deep's respect.",
+      "rewards": {
+        "exp": 2200,
+        "item": "crystal_of_depths"
+      },
+      "target_location_id": "D5_ABYSSAL_VAULT_80x80"
+    },
+    {
+      "stage": 6,
+      "name": "Rising Tide",
+      "description": "Help rebuild Tide and learn of the next Crystal",
+      "npc": "high_tide_councilor",
+      "dialog_start": "We are... deeply ashamed. The Void offered us safety, and we were afraid. We forgot that safety bought with freedom is just a slower death. Thank you for reminding us what courage looks like. Tide owes you our lives. Our fleets, our hydromancers, our very breath—you command them.",
+      "objectives": [
+        "Accept Tide's allegiance",
+        "Learn of the Crystal of Industry",
+        "Plan the journey to Obsidian"
+      ],
+      "dialog_complete": "Three Crystals! Three-fifths of the awakening! The next lies in Obsidian—the industrial heartland. But beware—the Obsidian Consortium cares only for profit. They may not believe your warnings... or they may already be compromised by the Void's promises of wealth.",
+      "rewards": {
+        "exp": 1500,
+        "gold": 1000,
+        "unlock": "zone_obsidian"
+      },
+      "target_location_id": "T_BRINEGATE_112x72"
+    }
+  ],
+  "story_beats": [
+    "Tide has been silenced by Void corruption of its leadership",
+    "The Crystal of Truth can cure Void corruption, saving the Council members",
+    "Abyssal, an ancient Deep Walker, joins the party",
+    "The party stops a ritual to open a full gateway for the Void",
+    "The Crystal of Depths is obtained—the third of Seven"
+  ],
+  "party_reactions": {
+    "kade": "Being underwater... it's terrifying and beautiful at the same time. I saw things down there—creatures that have never seen sunlight. Ancient things. It makes you realize how small we are. But also how connected. The same water that fills our blood once covered the whole world.",
+    "nix7": "Pressure readings at 1,100 atmospheres. Temperature: 2°C. Visibility: effectively zero. And yet, life persists. Adaptation is... remarkable. The Crystal of Depths appears to provide physiological modifications at the cellular level. I am... envious of organic adaptability.",
+    "skysong": "I thought flying was freedom. But swimming? Swimming is like flying in three dimensions. I could get used to this. Though the whole 'crushing pressure that could kill you instantly' thing is less fun. Still—Abyssal's a fascinating conversationalist. Been alive for ten thousand years, apparently. Good stories.",
+    "vesper": "The physiological modifications from the Crystal of Depths are REVOLUTIONARY! Cellular membrane restructuring, oxygen extraction from water, pressure-resistant protein folding! I must document everything! Also, Abyssal's biology defies known science. I want to study them. Politely. Very politely.",
+    "ven": "I grew up in a swamp, so water's not new to me. But THIS water? It's alive. I can feel it responding to the Crystal, moving with us, protecting us. Coral taught me some basic hydromancy. I made a bubble! It was very exciting.",
+    "pyra": "Fire and water don't mix, they say. But working with Abyssal... it's not about the elements. It's about the will behind them. They understand duty. They've been alone in the dark for millennia, still protecting secrets. That's commitment. I respect that.",
+    "abyssal": "The young races are... surprising. Loud. Frantic. But genuine. The Bearer carries a weight I remember from the Progenitors themselves—the burden of hope. I will swim with them a while longer. The darkness has been lonely."
+  },
+  "unlocks": [
+    "zone_obsidian",
+    "quest_obsidian_gears_industry",
+    "crystal_depths_ability",
+    "companion_abyssal",
+    "tide_alliance"
+  ]
+}

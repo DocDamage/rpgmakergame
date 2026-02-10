@@ -1,0 +1,118 @@
+{
+  "npc_id": "ironchef_tower",
+  "name": "Steel",
+  "title": "Rations Cook",
+  "zone": "tower",
+  "location": "Commissary Level 12, Chroma Tower",
+  "description": "A stern chef in iron-gray uniform, efficiently converting tower rations into edible meals for climbers.",
+  "sprite_variant": "ironchef_tower",
+  "greeting_variants": [
+    "*chopping mechanically* Name's Steel. Food's steel-gray. Life's steel-gray. Order up.",
+    "Rations. Nutrients. Sustenance. Don't expect flavor.",
+    "*without looking up* Line forms. No special orders. No exceptions.",
+    "You climb. You eat. You climb more. Simple.",
+    "Floor 12. Halfway up. Halfway rations. Math.",
+    "*tasting broth* Bland. Perfect. Emotions complicate digestion.",
+    "Chef Boarne? Knew him. Before. Different world. Different rules.",
+    "Eat fast. Climb fast. Don't think. Thinking slows you down."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Steel. Chef. Twelve years on this floor. Feed climbers. They go up. Few come down. Those who do... changed. Food doesn't change. Food is constant. Reliable. I am reliable.",
+          "options": [
+            {"text": "Sounds depressing.", "goto": "depression"},
+            {"text": "Can you make anything good?", "goto": "good_food"},
+            {"text": "What happens to climbers?", "goto": "climber_fates"},
+            {"text": "Just feed me.", "goto": "quick_food"}
+          ]
+        },
+        {
+          "id": "depression",
+          "text": "*shrugs* Is what is. Tower is hard. Life is hard. Food is fuel. Emotions are... inefficient. I was different once. Soft. Now? Steel. Appropriate.",
+          "options": [
+            {"text": "What happened?", "goto": "backstory"},
+            {"text": "Can I help?", "goto": "help_offer"}
+          ]
+        },
+        {
+          "id": "good_food",
+          "text": "*almost smiles* Good? No. Nutritious? Yes. But... *lowers voice* ...I remember recipes. Real recipes. From before Tower duty. If someone brought... ingredients. Special ingredients. From up there. Or down there.",
+          "options": [
+            {"text": "I could find ingredients.", "goto": "ingredient_quest"},
+            {"text": "What kind?", "goto": "ingredient_types"}
+          ]
+        },
+        {
+          "id": "climber_fates",
+          "text": "*stops chopping* Some reach top. Become... echoes. Some fall. Obvious. Some stay. Like me. Stuck between. Some go back down. Changed. Carrying something. Weight of knowledge. Burden of sight.",
+          "party_reactions": {
+            "kael": "What knowledge? What sight?",
+            "steel": "They don't say. Can't say. Won't say."
+          },
+          "options": [
+            {"text": "What do they see?", "goto": "top_mystery"},
+            {"text": "I'll be careful.", "goto": "caution_accept"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_nutrition",
+    "title": "Fuel for the Ascent",
+    "description": "Help Steel gather special ingredients from various Tower floors to create climbing rations that boost endurance.",
+    "objectives": [
+      "Collect luminescent mushrooms from Floor 15",
+      "Harvest wind-berries from the external gardens (Floor 23)",
+      "Find crystallized honey from the abandoned apiary (Floor 8)",
+      "Help Steel prepare the enhanced rations",
+      "Distribute samples to climbers"
+    ],
+    "rewards": {
+      "experience": 500,
+      "reputation": {"tower_residents": 25, "climbers": 30},
+      "items": ["steel_special_rations", "endurance_boost_recipe"],
+      "unlock": "steel_improved_shop"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*chopping rhythmically* One-two. One-two. Predictable.",
+    "Floor 15 needs delivery. Always needs.",
+    "Another climber. More rations. Same routine.",
+    "*tasting* Bland. Acceptable. Serve.",
+    "Chef Boarne would weep. I don't weep. Anymore.",
+    "Eat. Climb. Don't think. Safer.",
+    "*checking inventory* Supplies holding. For now.",
+    "Top floor. Forty-seven. Wonder what's there. Don't wonder."
+  ],
+  "cross_zone_references": {
+    "capital": "Boarne. Good chef. Good heart. Soft. Like I was.",
+    "palace": "The Palace kitchens... marble and copper. Dream. Memory.",
+    "mire": "Mire has mushrooms. Good ones. If you survive the swamp."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Steel! Cheer up, friend!",
+      "response": "*flat* I am cheered. Optimally. Functionally."
+    },
+    "mira": {
+      "greeting": "The nutritional content of your rations—",
+      "response": "*interrupts* Balanced. Complete. Boring. Next."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Preparing bulk rations, managing inventory",
+      "night": "Slower pace, experimental cooking, remembering"
+    },
+    "world_state_triggers": {
+      "successful_climber_returns": "Brief emotion: 'They made it. Unchanged. Miracles happen.'",
+      "supplies_low": "Stressed: 'Rationing. Again. Climbers will suffer.'"
+    }
+  }
+}

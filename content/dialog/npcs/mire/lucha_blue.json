@@ -1,0 +1,82 @@
+{
+  "npc_id": "lucha_blue_mire",
+  "name": "El Azul Magnifico",
+  "sprite": "lucha_blue",
+  "zone": "mire",
+  "location": "Traveling - Currently Boardwalk",
+  "personality": "dramatic_confident_honorable",
+  "occupation": "traveling_fighter",
+  "schedule": {
+    "day": "training_and_performing",
+    "night": "resting"
+  },
+  "dialog": {
+    "greeting": [
+      "BEHOLD! El Azul Magnifico! Champion of the Ring! Traveler of Worlds!",
+      "The mask holds power! The body holds strength! The heart holds COURAGE!",
+      "You face a LUCHADOR! Prepare for SPLENDOR!",
+      "I fight for honor! For glory! For the perfect high-flying maneuver!",
+      "The blue mask sees all! Knows all! Fights all!",
+      "Step into my ring! Test your might! Or just watch me train! Either works!",
+      "I have fought in the Scorched Wastes! In the Uplands! In DREAMS!",
+      "El Azul Magnifico accepts all challenges! From worthy opponents!"
+    ],
+    "fighting_style": "Lucha libre! High flying! Dramatic poses! Technical mastery! The crowd must be ENTERTAINED!",
+    "traveling_life": "A luchador must test himself against all challengers! All regions! All styles! The Mire is... damp. But has spirit!",
+    "backstory": "Trained in the Temple of the Mask. Learned that fighting is performance! Performance is ART! Art is LIFE! Now I travel, seeking the ultimate match!",
+    "rumors": [
+      "The foodboy Heat? He challenged me to eat his sauce! I WON! But respect his FIRE!",
+      "The iron chef makes good fuel for fighters! Grilled meat! Perfect!",
+      "I hear there's another luchador in Prism. Red mask. We must meet!",
+      "The snakecharmer moves well! Almost like a wrestler! Perhaps we should collaborate!"
+    ],
+    "ambient_barks": [
+      "Training time!",
+      "Feel the burn!",
+      "Masks hold power!",
+      "For honor!",
+      "High flying!",
+      "El Azul!"
+    ],
+    "time_of_day": {
+      "morning": "Morning training! The mask demands discipline!",
+      "noon": "Peak performance! The sun fuels my magnificence!",
+      "evening": "Evening exhibition! The crowd gathers!",
+      "night": "Rest time! Even champions need sleep!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "worthy_opponent",
+    "quest_name": "The Ultimate Match",
+    "stage_1_hook": "I need a worthy opponent! Not to fight YOU - though you look capable! No, I speak of the legendary Swamp Golem! A being of mud and mystery! I must test my skills against it! But I cannot find it.",
+    "stage_1_active": "The Swamp Golem dwells in the deepest part of the Deep Muck. Bring me proof you found it! A fragment of its clay!",
+    "stage_2_progress": "You seek the Golem? Be careful! It is powerful! Ancient!",
+    "stage_2_item_needed": "swamp_golem_clay_fragment",
+    "stage_3_complete": "YOU FOUND IT! The Golem exists! Now I know where to find my ultimate match! Here - my mask contains power. This fragment of it will protect you. As you have helped me.",
+    "reward": "azul_mask_fragment_charm"
+  },
+  "party_reactions": {
+    "kade": "He's... a lot. But genuinely skilled. I'll give him that.",
+    "nix7": "Combat capability: high. Dramatic flair: excessive. Threat assessment: minimal.",
+    "twist": "CAN I HAVE A MASK TOO?! PLEASE?! I'LL BE EL ROJO EXCELLENTE!",
+    "korr": "A warrior's spirit burns bright in this one. Perhaps too bright.",
+    "renna": "The mask is magically enhanced. Minor strength and agility buffs. Clever.",
+    "suresh": "He understands that battle is theater. There is wisdom in this.",
+    "sova": "Good fighter. Loud, but good. Could use in a brawl.",
+    "grit": "Showy. But I've seen showy fighters take down real threats. Don't underestimate him.",
+    "ashka": "He moves like fire! Fast! Unpredictable! I like him!",
+    "senna": "Entertaining. But the mask hides his face. Useful for deception.",
+    "callum": "He's SO COOL! The poses! The mask! THE EVERYTHING!"
+  },
+  "relationship_dialog": {
+    "stranger": "You wish to witness magnificence? Watch! But do not touch the mask!",
+    "acquaintance": "You return! You appreciate the art of lucha! Good!",
+    "friend": "Amigo! You understand the way of the mask! We should train together!",
+    "best_friend": "You... you are a true friend. In this world, that is rarer than any championship. Here. Take this. A replica of my mask. Wear it with honor."
+  },
+  "cross_npc_connections": [
+    "foodboys_red: Heat! The sauce man! A worthy opponent at the eating table!",
+    "ironchef_mire: Gus makes the best training fuel! Meat! Iron! Perfect!",
+    "sumo_red_prism: I hear there's a red sumo in Prism. We must meet! Mask versus mawashi!"
+  ]
+}

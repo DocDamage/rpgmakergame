@@ -1,0 +1,118 @@
+{
+  "npc_id": "pigman_tower",
+  "name": "Stash",
+  "title": "Supply Keeper",
+  "zone": "tower",
+  "location": "Supply Vault Floor 18, Chroma Tower",
+  "description": "A methodical pigman managing the Tower's supply reserves with obsessive organization.",
+  "sprite_variant": "pigman_tower",
+  "greeting_variants": [
+    "*checking inventory* Name's Stash. Supplies. Organization. Order.",
+    "Everything in its place. Place for everything. Important.",
+    "*cataloging* You need something? I have something. Probably.",
+    "Tower stockpile. For climbers. For emergencies. For... later.",
+    "Boarne was my teacher. Before. Good teacher. Messy. But good.",
+    "*rearranging shelf* Alphabetical? No. Practical. Function over form.",
+    "Forty-seven floors need supplies. I supply. Organized. Efficient.",
+    "Don't touch! Look with eyes. Request with words. Receive with hands."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Stash. Supply keeper. Learned from Boarne in Capital. He cooked. I... organize. Both important. Tower needs structure. Needs inventory. Needs someone who knows where everything is. That's me.",
+          "options": [
+            {"text": "Can I get supplies?", "goto": "supply_request"},
+            {"text": "How's Boarne doing?", "goto": "boarne_update"},
+            {"text": "Everything organized?", "goto": "organization_pride"},
+            {"text": "Keep up the good work.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "supply_request",
+          "text": "*assesses you* Climber. Going up. Need: rope, rations, light source, emergency beacon. Have all. *pulls items from seemingly random places with precision* Rope, grade A. Rations, Steel's. Light, glow-crystal. Beacon, standard.",
+          "shop": {
+            "available": true,
+            "currency": ["climber_tokens", "salvage"],
+            "items": ["climbing_rope", "emergency_rations", "glow_crystal", "distress_beacon", "repair_kit"]
+          },
+          "options": [
+            {"text": "Let me see what else you have.", "goto": "shop_browse"},
+            {"text": "That's exactly what I need.", "goto": "exact_supplies"}
+          ]
+        },
+        {
+          "id": "boarne_update",
+          "text": "*soft smile* Still cooking. Still feeding people. Happy. Worried. Supplies low in Capital. I send what I can. Through Digs. Secret tunnels. *taps nose* Organization includes... alternative routes.",
+          "options": [
+            {"text": "Can you send more?", "goto": "supply_help"},
+            {"text": "You're a good friend.", "goto": "friendship"}
+          ]
+        },
+        {
+          "id": "organization_pride",
+          "text": "*brightens* Oh yes! Every item cataloged! Every shelf labeled! Every route mapped! I know where everything is. When it arrived. Who needs it. When they'll need it. *satisfied oink* Beautiful. Efficient. Perfect.",
+          "options": [
+            {"text": "That's impressive.", "goto": "impressed"},
+            {"text": "What about the top floors?", "goto": "upper_supply"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_supplies",
+    "title": "The Climb - Stock the Upper Floors",
+    "description": "Help Stash establish supply caches on the upper Tower floors to support climbers on the final ascent.",
+    "objectives": [
+      "Gather supplies from the vault",
+      "Establish cache at Floor 30",
+      "Establish cache at Floor 35",
+      "Establish cache at Floor 40 (end of lift)",
+      "Create inventory system for each cache"
+    ],
+    "rewards": {
+      "experience": 500,
+      "reputation": {"tower_residents": 30, "climbers": 35},
+      "items": ["stash_master_key", "supply_cache_map"],
+      "unlock": "emergency_supply_access"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*counting* One hundred twenty-three. One hundred twenty-four...",
+    "Alphabetical? No. Practical. Use-frequency based.",
+    "*reorganizing* Moved. Wrong spot. Correct now.",
+    "Rope. Shelf B. Section 4. Always there. Always.",
+    "*checking expiration* Old. Replace. Efficient.",
+    "Boarne taught: care for supplies, supplies care for you.",
+    "*satisfied* Perfect. Order. Structure. Safety.",
+    "Touch nothing! Look. Request. Receive. Order."
+  ],
+  "cross_zone_references": {
+    "capital": "Boarne there. Teaching. Cooking. Helping. Proud.",
+    "palace": "No supplies go there. None return. Dead zone. Inventory."
+  },
+  "party_reactions": {
+    "boarne": {
+      "greeting": "Stash! My organized friend!",
+      "response": "*happy oink* Teacher! Messy! But wise!"
+    },
+    "kael": {
+      "greeting": "Your inventory system is... impressive.",
+      "response": "*proud* Military precision. Best compliment."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Inventory management, supply distribution",
+      "night": "Restocking, cataloging, route planning"
+    },
+    "world_state_triggers": {
+      "disorganization": "Panic: 'Moved! Who moved! Must fix! Now!'",
+      "perfect_order": "Calm, satisfied: 'Beautiful. Perfect. As should be.'"
+    }
+  }
+}

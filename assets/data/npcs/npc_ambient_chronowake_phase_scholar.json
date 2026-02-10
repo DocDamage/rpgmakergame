@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CHRONOWAKE_PHASE_SCHOLAR",
+  "name": "Chronowake Phase Scholar",
+  "title": "Field Scholar",
+  "location": "T_CHRONOWAKE_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      17,
+      26
+    ],
+    "rain": [
+      19,
+      25
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR",
+  "shop": null,
+  "quests": [],
+  "faction": "CHRONOWAKE",
+  "attitude": "neutral",
+  "background": "Studies Foundation instability and terminal anomalies. Stationed in Chronowake.",
+  "personality": "Curious, methodical, and occasionally unhinged.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "lore",
+    "analysis"
+  ]
+}

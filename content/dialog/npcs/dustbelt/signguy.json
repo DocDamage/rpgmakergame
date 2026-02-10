@@ -1,0 +1,96 @@
+{
+  "npc_id": "signguy_dustbelt",
+  "name": "Signmaster Steve",
+  "sprite": "signguy",
+  "zone": "dustbelt",
+  "location": "Sign District",
+  "personality": "eccentric_perfectionist",
+  "occupation": "universal_sign_painter",
+  "dialog": {
+    "greeting": [
+      "Signs! Signs! Everywhere there's signs!",
+      "Steve the Sign Guy! Punctuating the world, one board at a time!",
+      "Need a sign? OF COURSE you do! Everyone needs signs!",
+      "Your face needs a sign! 'Hero for Hire!' Am I wrong?",
+      "Signs tell stories! Signs sell! Signs... SIGNIFY!",
+      "Hand-painted! Custom fonts! Reasonable rates!",
+      "Saw your party coming! Made a welcome sign! ...Want to buy it?"
+    ],
+    "shop_open": "What message needs broadcasting? Danger? Commerce? Romance? I do it ALL!",
+    "shop_prompt": "Sign menu! Warnings, advertisements, directions, threats!",
+    "haggle": [
+      "Art has value! But I'll add an exclamation point free!",
+      "Bulk discount! Two signs, slightly less money!",
+      "For you? Because your name deserves beautiful letters!",
+      "I'll match any competitor! If you find another sign guy! You won't!"
+    ],
+    "purchase_success": [
+      "Splendid choice! That message will CHANGE LIVES!",
+      "Hand-lettered with LOVE! And paint!",
+      "Where will you hang it? Somewhere VISIBLE, I hope!",
+      "Another satisfied signer! Spread the word!"
+    ],
+    "purchase_fail": [
+      "Signs cost money! Paint costs money! EXISTENCE costs money!",
+      "Come back when you value COMMUNICATION!",
+      "Your loss! The world needs more signs!"
+    ],
+    "rumor": [
+      "Metal Barrel Mike's sign? Says 'Metal Barels.' He THINKS I made a typo. I didn't. Revenge for unpaid work.",
+      "Deep-Dig Dan wants a warning sign for cave-ins. I've made seventeen. He keeps losing them.",
+      "The luchador wants a championship belt painted. I suggested a sign instead. Luchadors love signs.",
+      "Barrelman Bob's sign? 'Barrels Unlimited!' There's a LIMIT. I've counted."
+    ],
+    "quest_hook": "Need rare pigment! Blue desert flower, only blooms at midnight! Brings signs to LIFE! Literally! Okay, not literally, but vibrantly! Bring me flowers, get a SIGN with SOUL!",
+    "quest_active": "Those midnight flowers! Watch for sand snakes! They like the blooms too!",
+    "quest_complete": "PERFECT pigment! Look at this hue! Here - custom hero sign! 'Certified Do-Gooder!' Free mounting hardware!",
+    "quest_reward": "Hero's Sign - Reputation bonus in all zones",
+    "farewell": [
+      "Sign off! Get it? SIGN off?",
+      "May your message be clear!",
+      "Keep reading! Keep signing!"
+    ],
+    "ambient_barks": [
+      "Signs! Get your signs!",
+      "Warning! Danger! Sale!",
+      "Punctuation matters!",
+      "Font is life!",
+      "I paint therefore I am!",
+      "Read the signs!"
+    ],
+    "time_dawn": "Good light for yellows! Morning sun inspires!",
+    "time_noon": "Harsh light! Perfect for testing sign visibility!",
+    "time_dusk": "Golden hour! Best for romantic signs! 'Be Mine' season!",
+    "time_night": "Night painting! By lantern! VERY dramatic!",
+    "post_quest_greeting": "The flower-finder! Want to see my new blue masterpiece?",
+    "font_lecture": "Serif for tradition! Sans for modern! Script for elegance! Comic for... crimes against design!"
+  },
+  "party_reactions": {
+    "kade": "Your work is... everywhere.",
+    "nix7": "Communication efficiency: optimal. Aesthetic value: subjective.",
+    "twist": "Can you make me a sign? With sparkles?",
+    "korr": "Clear warnings save lives. Good work.",
+    "renna": "Ever make a typo? No? Perfect record?"
+  },
+  "relationship_dialog": {
+    "stranger": "First commission? I'll go easy on the jargon!",
+    "acquaintance": "Returning client! You appreciate QUALITY signage!",
+    "friend": "For you? Rush jobs! Priority treatment!",
+    "best_friend": "My muse! Your adventures inspire my BEST work!"
+  },
+  "mini_quest": {
+    "id": "midnight_pigment",
+    "title": "The Blue Hour",
+    "description": "Collect rare midnight-blooming desert flowers for sign pigment",
+    "stages": {
+      "hook": "Need rare pigment! Blue desert flowers, only bloom at midnight! Brings signs to LIFE! Well, vibrantly!",
+      "active": "Eastern dunes! Midnight blooms! Watch for sand snakes! They like pretty things too!",
+      "complete": "This color! MAGNIFICENT! Here - custom sign! 'Certified Hero!' Plus free mounting bracket! Every hero needs proper signage!"
+    },
+    "reward": {
+      "item": "hero_sign_plaque",
+      "gold": 175,
+      "reputation": "signmaster_friend"
+    }
+  }
+}

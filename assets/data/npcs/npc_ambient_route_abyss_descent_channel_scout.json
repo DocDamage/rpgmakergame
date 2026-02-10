@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_ABYSS_DESCENT_CHANNEL_SCOUT",
+  "name": "Abyss Descent Channel Wayfarer",
+  "title": "Dock Sailor",
+  "location": "MIC_S02_80x44",
+  "coords": [
+    40,
+    22
+  ],
+  "schedule": {
+    "day": [
+      40,
+      22
+    ],
+    "night": [
+      38,
+      21
+    ],
+    "rain": [
+      42,
+      22
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_SAILOR",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "friendly",
+  "background": "Works sea lanes and harbor logistics. Assigned to Abyss Descent Channel.",
+  "personality": "Blunt, weathered, and darkly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "sea_routes",
+    "dock_rumors"
+  ]
+}

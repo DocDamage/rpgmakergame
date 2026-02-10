@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_resistance_cell",
+  "name": "Underground Network",
+  "zone": "capital",
+  "giver": "trenchcoat_black",
+  "type": "social",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "The Dominion watches every street corner, every whisper. But we watch them back. I need someone with your... reputation to help establish a new resistance cell in the Undercity. Three contacts are waiting for signals. Will you be our courier?",
+      "objective": "Deliver resistance signals to three Undercity contacts"
+    },
+    "progress": {
+      "dialog": "Two contacts reached, one to go. The tavern keeper at The Rusted Crown has your final signal. Be careful—the Dominion doubled patrols near the market district. Use the sewers if you must.",
+      "objective": "Deliver final signal to the Rusted Crown tavern keeper"
+    },
+    "complete": {
+      "dialog": "All signals delivered, no casualties. The Undercity cell is operational. With your help, we've expanded our network into the merchant quarter. The resistance lives on, thanks to you.",
+      "rewards": {
+        "exp": 8500,
+        "gold": 1200,
+        "item": "resistance_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Reminds me of my smuggling days in Rusthaven. Always watch the shadows, trust no one wearing too much purple.",
+    "twist": "I've worked with resistance cells before. These guys are organized... maybe too organized. Keep your guard up.",
+    "nix7": "Resistance network topology suggests 73% efficiency rating. Recommend establishing dead drops for asynchronous communication."
+  },
+  "lore_unlocks": ["capital_resistance_history", "dominion_surveillance_methods"]
+}

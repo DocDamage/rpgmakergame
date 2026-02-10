@@ -1,0 +1,126 @@
+{
+  "npc_id": "ironchef_palace",
+  "name": "Gourmet",
+  "title": "Royal Cook",
+  "zone": "palace",
+  "location": "The Celestial Kitchen, Chromatic Palace",
+  "description": "The ultimate culinary master preparing dishes that transcend mere sustenance, creating experiences that heal souls and unite the divided.",
+  "sprite_variant": "ironchef_palace",
+  "greeting_variants": [
+    "*creating art on plate* Welcome. You hunger. All hunger. For more than food.",
+    "Gourmet. Royal Cook. I prepare... transcendence.",
+    "*sampling sauce with golden spoon* Steel cooks fuel. Boarne cooks comfort. I cook... transformation.",
+    "The Royal Feast awaits. Ultimate ingredients required. Will you help?",
+    "*chopping with impossible precision* Each cut is meditation. Each dish, revelation.",
+    "Flavor is memory. Texture is emotion. Presentation is truth.",
+    "*gesturing to magnificent kitchen* Here, cooking becomes alchemy. Alchemy becomes magic.",
+    "The Progenitor has forgotten taste. I will remind."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*grandiose gesture* I am Gourmet. Final evolution of the culinary line. Boarne—passion. Steel—precision. I am... synthesis. Perfection. Here, in the Celestial Kitchen, we do not merely feed. We transform. We heal. We unite. Through the ultimate ingredient: understanding.",
+          "options": [
+            {"text": "Ultimate ingredients?", "goto": "ultimate_ingredients"},
+            {"text": "How does food unite?", "goto": "food_unity"},
+            {"text": "The Progenitor eats?", "goto": "progenitor_nutrition"},
+            {"text": "I'm ready to help.", "goto": "help_ready"}
+          ]
+        },
+        {
+          "id": "ultimate_ingredients",
+          "text": "*eyes gleaming* From every zone! The Frost's ice-apple—crisp as first snow. Ember's flame-pepper—heat that purifies. Mire's depth-truffle—earthy wisdom. Tide's brine-pearl—ocean memory. Chrono's time-saffron—patience distilled. And from the Void... possibility-moss. The ingredient that could be anything.",
+          "party_reactions": {
+            "garret": "Those sound... impossible. And delicious.",
+            "gourmet": "*pleased* Impossible ingredients for impossible times."
+          },
+          "options": [
+            {"text": "Where do I find these?", "goto": "ingredient_locations"},
+            {"text": "I'll gather them all.", "goto": "gathering_quest"}
+          ]
+        },
+        {
+          "id": "food_unity",
+          "text": "*philosophical* All beings eat. It is the fundamental unity. Predator and prey. Plant and sun. The cycle. When we share food, we acknowledge this. Transcend separation. Become... communal. The Royal Feast will remind the Progenitor of this. Of connection. Of... not being alone.",
+          "options": [
+            {"text": "The Progenitor is lonely?", "goto": "progenitor_loneliness"},
+            {"text": "How do we prepare the feast?", "goto": "feast_preparation"}
+          ]
+        },
+        {
+          "id": "progenitor_nutrition",
+          "text": "*mysterious* Not as you understand. The Progenitor... experiences. Through us. Through the world. The Royal Feast is not sustenance. It is... communication. An offering of beauty. Of effort. Of love. The Progenitor has tasted nothing but pain. We offer... delight.",
+          "options": [
+            {"text": "Pain? What pain?", "goto": "progenitor_pain"},
+            {"text": "Let's create something beautiful.", "goto": "beauty_creation"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_ultimate",
+    "title": "Royal Feast - The Ultimate Ingredients",
+    "description": "Gather the ultimate ingredients from every zone to help Gourmet prepare the transcendent meal that will heal the Progenitor's loneliness.",
+    "objectives": [
+      "Harvest ice-apples from Frost's frozen orchards",
+      "Collect flame-peppers from Ember's volcanic gardens",
+      "Gather depth-truffles from Mire's darkest depths",
+      "Dive for brine-pearls in Tide's sacred reefs",
+      "Harvest time-saffron from Chrono's temporal fields",
+      "Brave the Void to gather possibility-moss",
+      "Return all ingredients to Gourmet",
+      "Help prepare the Royal Feast",
+      "Serve the meal to the Progenitor"
+    ],
+    "rewards": {
+      "experience": 2000,
+      "reputation": {"palace_court": 80, "culinary_masters": 75},
+      "items": ["gourmet_golden_knife", "ultimate_recipe_book"],
+      "unlock": "progenitor_communion"
+    },
+    "prerequisites": ["access_all_zones", "palace_access"]
+  },
+  "ambient_barks": [
+    "*slicing with golden blade* Precision. Intention. Love.",
+    "Steel would weep to see these techniques. Proud tears.",
+    "*tasting* More salt. No—more soul. Both.",
+    "Boarne taught me passion. I added perfection.",
+    "*plating artfully* Eyes eat first. Then heart. Then soul.",
+    "The Progenitor must remember joy. I will provide.",
+    "*smelling creation* Memory. Home. Mother. First love.",
+    "Each dish tells story. This one: unity. Hope. Future."
+  ],
+  "cross_zone_references": {
+    "capital": "Boarne. Teacher. Friend. I send recipes. He sends... heart.",
+    "chroma_tower": "Steel. Student. Stern. But learning. Growing.",
+    "all_zones": "Every zone provides. Every flavor matters. All necessary."
+  },
+  "party_reactions": {
+    "boarne": {
+      "greeting": "*weeping with joy* Student... master... perfection...",
+      "response": "*embracing* Teacher. Without you, I am nothing. With you, I am everything."
+    },
+    "steel": {
+      "greeting": "*in awe* This... this is what cooking can be?",
+      "response": "*encouraging* What YOU can be. When ready. When willing."
+    },
+    "garret": {
+      "greeting": "Chef! I'm starving!",
+      "response": "*laughing* For you, brave fool, I create... everything."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Creating masterpieces, planning the Royal Feast",
+      "night": "Experimenting with impossible ingredients, communing with Progenitor through taste"
+    },
+    "world_state_triggers": {
+      "ingredient_acquired": "Excitement: 'Perfect! Divine! Exactly as envisioned!'",
+      "feast_complete": "Solemn reverence: 'The offering is ready. May it heal. May it unite.'"
+    }
+  }
+}

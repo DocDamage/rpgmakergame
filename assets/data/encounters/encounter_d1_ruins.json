@@ -1,0 +1,88 @@
+{
+  "id": "D1_ENCOUNTERS",
+  "region": "dungeon",
+  "dungeon": "D1_RUINS_96x96",
+  "maps": [
+    "D1_RUINS_96x96",
+    "D1_LOWER",
+    "D1_PUZZLE_WINGS"
+  ],
+  "encounter_rate": 0.17,
+  "min_steps": 12,
+  "max_steps": 28,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_GROWTH_LURKER"
+      ],
+      "weight": 38,
+      "min_steps": 12,
+      "gil_range": [
+        25,
+        45
+      ],
+      "xp": 50
+    },
+    {
+      "enemies": [
+        "ENEMY_GROWTH_LURKER",
+        "ENEMY_GROWTH_LURKER"
+      ],
+      "weight": 28,
+      "min_steps": 15,
+      "gil_range": [
+        50,
+        90
+      ],
+      "xp": 100
+    },
+    {
+      "enemies": [
+        "ENEMY_VINE_SNAKE"
+      ],
+      "weight": 22,
+      "min_steps": 18,
+      "gil_range": [
+        30,
+        55
+      ],
+      "xp": 60
+    },
+    {
+      "enemies": [
+        "ENEMY_BLOOM_SPROUT"
+      ],
+      "weight": 9,
+      "min_steps": 25,
+      "rare": true,
+      "gil_range": [
+        50,
+        80
+      ],
+      "xp": 85
+    },
+    {
+      "enemies": [
+        "ENEMY_GROWTH_LURKER",
+        "ENEMY_VINE_SNAKE"
+      ],
+      "weight": 13,
+      "min_steps": 16,
+      "gil_range": [
+        60,
+        105
+      ],
+      "xp": 115
+    }
+  ],
+  "special": {
+    "boss_trigger": {
+      "condition": "at_coords",
+      "coords": [
+        80,
+        80
+      ],
+      "boss": "BOSS_THE_BLOOM"
+    }
+  }
+}

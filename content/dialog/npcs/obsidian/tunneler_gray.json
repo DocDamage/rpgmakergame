@@ -1,0 +1,99 @@
+{
+  "npc_id": "tunneler_gray_obsidian",
+  "name": "Deep-Dig Grayson",
+  "sprite": "tunneler_gray",
+  "zone": "obsidian",
+  "location": "Shaft 12-B, Main Quarry",
+  "personality": "weary_principled_protective",
+  "occupation": "quarry_chief",
+  "dialog": {
+    "greeting": [
+      "Another day. Another hundred tons. What do you need?",
+      "Grayson. I run this dig. What management THINKS they run is another matter.",
+      "You're the ones asking questions. Make it quick. Shift's wasting.",
+      "Deep-Dig Grayson. Twenty years in the dark. Still got all my fingers. Most of 'em.",
+      "Heard about you. Heroes or troublemakers? Hard to tell the difference these days.",
+      "If you're from corporate, save your breath. Safety isn't negotiable.",
+      "The rock don't care who you are. Treat it with respect.",
+      "What brings you down to our level? Above ground too sunny for you?"
+    ],
+    "work_complaint": [
+      "Management wants production up, costs down. Simple math. Deadly math.",
+      "Three collapses this month. 'Natural instability,' they say. I say: shortcuts."
+    ],
+    "professional_pride": "See that seam? Running pure obsidian. Deepest cut in three generations. My grandfather started it. I'll finish it.",
+    "technique": "The trick is listening. Rock talks. Groans. Creaks. You learn the language, or you learn to fly. Briefly.",
+    "break_chat": "Break's sacred. Even heroes don't interrupt a man's sandwich. Especially not Brutalia's sandwiches. They're... dense.",
+    "labor_concerns": "Union's all we've got. Management's cutting corners. I've buried too many friends. Not. One. More.",
+    "retirement": "Two more years. Gonna buy a boat. Something that FLOATS. Above ground. Where there's SUN.",
+    "rumor": [
+      "Trenchcoat in the executive tunnels? Corporate spy. Count on it.",
+      "Tunnel 7's sealed for a reason. Something down there. Something that ain't rock.",
+      "Coolcat's fighting for us in the meetings. Good soul. Don't know if it'll be enough.",
+      "Brown, my shift supervisor? He wants my job. Let him have it. Sooner the better.",
+      "Heard from Frost - they found something in the ice. Old. Older than old. Keep your pick sharp."
+    ],
+    "quest_hook": "Safety violations everywhere. Management won't listen. Workers won't work. Someone's gotta bridge the gap. Someone neutral. Someone like you.",
+    "quest_active": "Still no word from the board? Figures. They count coins. We count casualties.",
+    "quest_complete": "You actually did it. Agreement signed. New safety protocols. Here - my grandfather's pick head. It's seen worse than this. Make it see better.",
+    "farewell": [
+      "Watch your head. And your back.",
+      "Don't trust the easy path. It's usually a collapse waiting to happen.",
+      "Go with the rock, not against it."
+    ],
+    "ambient_barks": [
+      "Timber! ...Old habit.",
+      "Check your gear!",
+      "Air quality's dropping...",
+      "Shift change in thirty!",
+      "Supports look good... today.",
+      "Who ordered the new drill heads?"
+    ],
+    "time_dawn": "Morning shift. Best light for spotting cracks.",
+    "time_noon": "Midday. Halfway to freedom. Or the next level down.",
+    "time_dusk": "Evening. Long shadows in the tunnels. Watch your step.",
+    "time_night": "Night crew's on. The deep hours. That's when things get... interesting.",
+    "family_mention": "My brother works Frost. Weather balloonist. Says it's cold. I say he doesn't know what work is.",
+    "post_quest_greeting": "The negotiator. Brought us peace. Brought me hope. Rare commodities down here."
+  },
+  "party_reactions": {
+    "kade": "This guy's carrying the weight of the whole operation. I respect that.",
+    "nix7": "Experience level: Expert. Stress indicators: Elevated. Solution: Unclear.",
+    "twist": "He's like a grumpy mountain! I like mountains!",
+    "korr": "A leader who listens. Rare in any world.",
+    "renna": "The magical residue here is... old. Ancient. He's right to be cautious.",
+    "suresh": "His burden reminds me of temple guardians. Same quiet strength.",
+    "sova": "Twenty years digging? I'd go crazy. He's already halfway there.",
+    "grit": "Reminds me of my old sergeant. Seen too much, still showing up.",
+    "ashka": "Dark down here. Good. Comfortable.",
+    "senna": "He knows where all the bodies are buried. Literally, probably.",
+    "callum": "Someone should tell him about workers' rights in the capital..."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Stay clear of the active cuts.",
+    "acquaintance": "You're persistent. That's good. In this job, persistence keeps you breathing.",
+    "friend": "I trust you. That's not something I say easy. You've got honest eyes.",
+    "best_friend": "Listen... Tunnel 7. The sealed one. You want to know why? I'll show you. But not today. Soon."
+  },
+  "mini_quest": {
+    "id": "safety_violations",
+    "title": "Safety Violations",
+    "description": "Help the tunnel workers negotiate better safety conditions with corporate management",
+    "stages": {
+      "hook": "Workers won't dig unsafe. Management won't pay for safety. Stalemate. Someone needs to talk sense. Both sides. You willing?",
+      "active": "Talk to the corporate spy in the trenchcoat. And Brutalia - she knows management's weaknesses. Find leverage. Find common ground.",
+      "complete": "Agreement reached. Signed and sealed. First real win we've had in years. My grandfather's pick - it's yours. Use it for good work."
+    },
+    "reward": {
+      "item": "graysons_heirloom_pick_head",
+      "gold": 400,
+      "reputation": "tunnel_workers_respect"
+    }
+  },
+  "cross_npc_connections": [
+    "tunneler_brown: Wants my job. Good at the work, bad with people. He'll learn. Or he won't.",
+    "coolcat_industrial: Union rep. Sharp mind. Fighting for us in the boardroom.",
+    "trenchcoat_gray: Corporate eyes. But you? You might reach him. Worth a try.",
+    "aeronaut_white_frost: My brother. Send him my regards. Tell him the dark isn't so bad."
+  ]
+}

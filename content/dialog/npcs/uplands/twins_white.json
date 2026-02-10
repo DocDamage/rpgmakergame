@@ -1,0 +1,111 @@
+{
+  "npc_id": "twins_white_uplands",
+  "name": "Luna and Sol",
+  "sprite": "twins_white",
+  "zone": "uplands",
+  "location": "Shrine of Twin Moons",
+  "personality": "synchronized_mystical",
+  "occupation": "shrine_maidens",
+  "dialog": {
+    "greeting": [
+      "Welcome, traveler. We are Luna--",
+      "--and Sol. Together we--",
+      "--greet you. How may we--",
+      "--serve? We finish each--",
+      "--other's thoughts. It is our--",
+      "--gift. And sometimes our--",
+      "--curse. But mostly gift."
+    ],
+    "shop_open": "We sell blessings. Charms. Items blessed by--twin moons. Power doubled--through unity. Like us.",
+    "shop_prompt": "Twin-blessed items. Moon charms. Sun--medallions. Together stronger.",
+    "haggle": [
+      "Our prices are fair. Two minds--",
+      "--agreed upon. One price.",
+      "For you? A twin discount.--",
+      "--Because you appreciate unity.",
+      "Haggling takes two. We are--",
+      "--always two. Final offer.",
+      "Sister says yes. So I--",
+      "--say yes. Deal made."
+    ],
+    "purchase_success": [
+      "Blessed by both. Twice the--",
+      "--protection. Twice the grace.",
+      "Use it well. We feel--",
+      "--what you feel. Through it.",
+      "Yours now. But our blessing--",
+      "--remains. Always connected."
+    ],
+    "purchase_fail": [
+      "Not meant for you. We both--",
+      "--sense it. Another time.",
+      "Our items choose their--",
+      "--owners. You were not chosen.",
+      "Return when ready. We will--",
+      "--both be waiting. Always."
+    ],
+    "rumor": [
+      "The sun and moon reader knows--",
+      "--our secret. We know his.",
+      "Hashimoto trains alone. But--",
+      "--he dreams of partners. Like us.",
+      "The brown coat walked here once.--",
+      "--He understood separation. And unity.",
+      "Our red sisters tend different--",
+      "--shrine. Same mountain. Different path."
+    ],
+    "quest_hook": "The Echo Chamber needs resonance. Our voices alone cannot--complete the ritual. Need three voices. Three points. Help us--sing to the mountain. Reward: the Twin's Blessing. Rare. Powerful.",
+    "quest_active": "The chamber waits. Three points. Triangle formation.--Sing when we sing. Harmonize. The mountain will answer.",
+    "quest_complete": "Perfect harmony! The mountain sings back! Here--take this. Our combined blessing. You are twin-friend now.",
+    "quest_reward": "Twin's Blessing - Shared buffs with allies",
+    "farewell": [
+      "Go with both sun and moon--",
+      "--guiding your path. Farewell.",
+      "We will remember you. Both--",
+      "--of us. Always together.",
+      "Return to us. Together or--",
+      "--alone. We accept all."
+    ],
+    "ambient_barks": [
+      "*harmonized humming*",
+      "--moon rises--",
+      "--sun sets--",
+      "*synchronized movement*",
+      "Together always...",
+      "*twin laughter*"
+    ],
+    "time_dawn": "Between night and day--our favorite time. Balance.",
+    "time_noon": "Sun high. Sol's power--peaks. I support from shadow.",
+    "time_dusk": "Twilight belongs to both--of us. Perfect equality.",
+    "time_night": "Moon reigns. Luna leads--I follow. Then we switch.",
+    "post_quest_greeting": "The harmonizer returns! The mountain--still remembers your voice. Beautiful."
+  },
+  "party_reactions": {
+    "kade": "Which one...? No, don't tell me. I'll figure it out.",
+    "nix7": "Dual consciousness detected. Fascinating. Efficient.",
+    "twist": "You finish each other's... everything? COOL!",
+    "korr": "Unity in duality. Ancient wisdom.",
+    "renna": "A magical bond. Rare and precious."
+  },
+  "relationship_dialog": {
+    "stranger": "New presence. We sense--you together. Interesting.",
+    "acquaintance": "Returning. Both of us--recognize you. Welcome back.",
+    "friend": "Twin-friend. Trusted by--both. Rare and honored.",
+    "best_friend": "You are our third. Not by blood--but by spirit. Family."
+  },
+  "mini_quest": {
+    "id": "echo_chamber",
+    "title": "Echo Chamber",
+    "description": "Help the twins complete the resonance ritual in the Echo Chamber",
+    "stages": {
+      "hook": "Echo Chamber needs resonance. Our voices alone cannot complete ritual. Need three voices. Three points. Help us sing to the mountain?",
+      "active": "The chamber waits. Three points. Triangle formation. Sing when we sing. Harmonize. Mountain will answer.",
+      "complete": "Perfect harmony! Mountain sings back! Take our combined blessing. You are twin-friend now. Rare honor."
+    },
+    "reward": {
+      "item": "twin_blessing_charm",
+      "gold": 400,
+      "reputation": "twin_blessed"
+    }
+  }
+}

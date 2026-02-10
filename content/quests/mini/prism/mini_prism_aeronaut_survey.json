@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_aeronaut_survey",
+  "name": "Aerial Survey",
+  "zone": "prism",
+  "giver": "Aeronaut Blue",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Mapping the Prism from above! But need ground confirmation! See those crystal formations? Need you to mark the ones that resonate! Use these survey markers!",
+      "objective": "Place survey markers on resonating crystal formations throughout Prism"
+    },
+    "progress": {
+      "dialog": "Getting good data from above! How's the ground work? Found any strong resonance points?",
+      "objective": "Continue placing markers on crystal formations"
+    },
+    "complete": {
+      "dialog": "Survey complete! The data is... fascinating! The crystals are aligning with something! Here - take this sky chart. Shows hidden routes above the clouds!",
+      "rewards": {"gold": 450, "item": "secret_sky_chart", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "Interesting... the crystals form a pattern. Like a map.",
+    "ashka": "Sky routes. Could be useful for my drake.",
+    "nix7": "Crystal alignment suggests artificial formation. Investigation warranted."
+  },
+  "hidden_outcome": "If you mark all 10 hidden formations (not just the 5 required), the Aeronaut gives you 'Aether Wings' - permanent slow-fall ability"
+}

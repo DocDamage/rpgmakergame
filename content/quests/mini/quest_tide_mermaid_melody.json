@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_mermaid_melody",
+  "name": "Songs of the Silver Scale",
+  "zone": "tide",
+  "giver": "signguy",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A mermaid has been spotted near the docks, singing a haunting melody! Sailors are enchanted, leaping into the water to follow her! But she's not trying to drown them—she's crying for help! Her voice lures people unconsciously! Someone needs to communicate with her!",
+      "objective": "Approach the mermaid and learn why she sings"
+    },
+    "progress": {
+      "dialog": "Her pearl was stolen by a deep-sea witch! Without it, she can't control her song! The witch dwells in the Kelp Forest Abyss! Dive deep, find the witch, and retrieve the pearl—but beware, the witch commands schools of venomous fish!",
+      "objective": "Defeat the sea witch and recover the mermaid's pearl"
+    },
+    "complete": {
+      "dialog": "The pearl restored! Her song is now controlled and beautiful! She gifts you this Mermaid's Tear! It's a pearl that lets you breathe underwater and understand the speech of sea creatures!",
+      "rewards": {
+        "exp": 850,
+        "gold": 700,
+        "item": "mermaids_tear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A real mermaid! And I got to help her! This is the best!",
+    "twist": "The witch was quite formidable. Deep-sea magic is potent.",
+    "nix7": "Aquatic humanoid communication: successful. Artifact recovery: complete."
+  }
+}

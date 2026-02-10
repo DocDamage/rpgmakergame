@@ -1,0 +1,96 @@
+{
+  "npc_id": "tunneler_brown_dustbelt",
+  "name": "Deep-Dig Dan",
+  "sprite": "tunneler_brown",
+  "zone": "dustbelt",
+  "location": "Deep Shaft Entrance",
+  "personality": "excitable_obsessive",
+  "occupation": "lead_prospector",
+  "dialog": {
+    "greeting": [
+      "DIG! DIG! DIG! Find the shiny!",
+      "Dan's the name, depth's the game! How deep you wanna go?",
+      "You! You look like you've got good burrowing instincts!",
+      "The earth speaks, friend! She says there's TREASURE down there!",
+      "Two years to retirement! Two years to the BIG FIND!",
+      "Deepest digger in the Dustbelt! That's me! Official record!",
+      "Come to watch? Come to dig? Come to hear about the Hollow Earth?"
+    ],
+    "shop_open": "Got maps! Charts! Survey data! Locations of previous cave-ins! It's all valuable!",
+    "shop_prompt": "Selling dig licenses, cave maps, and my famous 'Surviving a Collapse' pamphlet!",
+    "haggle": [
+      "These prices are DIRT cheap! Get it? Dirt?!",
+      "For a fellow depth enthusiast? Ten percent off!",
+      "Information is power! Power costs money!",
+      "I'll throw in a glow-stick! Free! Already half-used!"
+    ],
+    "purchase_success": [
+      "Wise investment! The depths reward the prepared!",
+      "That map shows the safe route! Mostly safe!",
+      "Remember: three taps means RUN!",
+      "She's all yours! Happy digging!"
+    ],
+    "purchase_fail": [
+      "Can't dig without tools, friend!",
+      "Surface dwellers... no vision...",
+      "Your loss! The big find is DOWN THERE!"
+    ],
+    "rumor": [
+      "Heard Barrelman Bob's barrels are haunted. Old digger wisdom: don't store picks in haunted wood.",
+      "The eastern shaft? Closed off. Something down there. Something that WHISPERS.",
+      "My cousin in the mines saw a barrel walk by itself. Likely heatstroke. OR WAS IT?",
+      "Metal Barrel Mike wants my survey data. Won't give it. Trade secrets!"
+    ],
+    "quest_hook": "Lost my lucky pick in the Old North Tunnel! Cave-in sealed it off, but I KNOW it's in there! Family heirloom! Bring it back and I'll share coordinates to the BIG vein!",
+    "quest_active": "Find that pick yet? It's got 'DAN'S LUCK' carved in the handle! Can't dig without luck!",
+    "quest_complete": "MY PICK! You BEAUTIFUL surface-walkers! Here - the vein coordinates! And take this helmet! Saved my life three times!",
+    "quest_reward": "Miner's Lucky Helmet - +5 to Digging",
+    "farewell": [
+      "Keep your head down and your pick up!",
+      "The earth awaits! Always!",
+      "DIG! DIG! DIG!"
+    ],
+    "ambient_barks": [
+      "DIG! DIG! DIG!",
+      "Shiny things below!",
+      "The deeper the better!",
+      "Surface is overrated!",
+      "Cave-in? Just a minor setback!",
+      "Two years! TWO YEARS!"
+    ],
+    "time_dawn": "Best digging light! Early morning shadows show the cracks!",
+    "time_noon": "Too hot up here! Cooler in the tunnels! Let's GO!",
+    "time_dusk": "Evening means evening shift! Never stop digging!",
+    "time_night": "Night digging! Spookier! Better! More shadows!",
+    "post_quest_greeting": "The pick-finder! Hero of the depths! What can Dan do for you?",
+    "deep_earth_theory": "The world is HOLLOW, friend! Full of ancient treasures! Ancient dangers! ANCIENT DIGGING OPPORTUNITIES!"
+  },
+  "party_reactions": {
+    "kade": "Two years to retirement. Classic last words.",
+    "nix7": "Digging efficiency: questionable. Enthusiasm: maximum.",
+    "twist": "Can I dig too? I want to find something SHINY!",
+    "korr": "Respect for the profession. The earth gives and takes.",
+    "renna": "Does he ever... stop shouting? No? Okay."
+  },
+  "relationship_dialog": {
+    "stranger": "New digger? Got your own equipment? No? Buy some!",
+    "acquaintance": "You're back! Got the digging itch, eh? I KNEW it!",
+    "friend": "My favorite surface consultant! Want exclusive dig rights to Shaft 7?",
+    "best_friend": "When I retire, I'm giving you my maps. ALL of them. The secrets of the deep!"
+  },
+  "mini_quest": {
+    "id": "lucky_pick_recovery",
+    "title": "Dan's Lucky Pick",
+    "description": "Retrieve Deep-Dig Dan's family heirloom pickaxe from the collapsed North Tunnel",
+    "stages": {
+      "hook": "Lost my lucky pick in the Old North Tunnel! Cave-in sealed it off! Family heirloom! 'DAN'S LUCK' on the handle!",
+      "active": "The pick's in there! Watch for unstable sections! Three taps means RUN!",
+      "complete": "MY PICK! You beautiful heroes! Take these coordinates - leads to the biggest vein I've ever found! And this helmet! Three lives saved!"
+    },
+    "reward": {
+      "item": "ancient_vein_map",
+      "gold": 300,
+      "reputation": "deep_dig_friend"
+    }
+  }
+}

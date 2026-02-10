@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_heatwave_festival",
+  "name": "Festival of Eternal Summer",
+  "zone": "ember",
+  "giver": "sumo_white",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Heatwave Festival approaches, but we have a problem! The Eternal Flame carriers from all four Ember cities must arrive at exactly the same moment for the ceremony to work. But the North Road is blocked by lava flows! Help clear a path?",
+      "objective": "Clear the lava blockage on the North Road"
+    },
+    "progress": {
+      "dialog": "The road is clear—excellent! But now we need someone to coordinate the carriers. You're an outsider, they'll listen to you. Make sure each city's representative departs at the right time so they arrive simultaneously!",
+      "objective": "Coordinate the Eternal Flame carriers' departure times"
+    },
+    "complete": {
+      "dialog": "Perfect synchronization! The flames merge into a pillar of golden fire! The festival can begin! Here—take this Festival Token. It grants free food and lodging at any Ember city during celebrations!",
+      "rewards": {
+        "exp": 650,
+        "gold": 300,
+        "item": "ember_festival_token"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A festival! I love festivals! Especially ones with free food!",
+    "twist": "I'm not coordinating anything. Nix7, you do the math.",
+    "nix7": "Timing calculations complete. Synchronization: optimal."
+  }
+}

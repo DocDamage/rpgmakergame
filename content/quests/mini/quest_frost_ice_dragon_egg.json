@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_ice_dragon_egg",
+  "name": "Mother of Frost",
+  "zone": "frost",
+  "giver": "cobra",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "A frost dragon has abandoned her nest near the glacier! Hunters want the egg, but if they take it, the species loses another breeding female! The mother left because of Void-corrupted ice nearby. Cleanse the corruption, and she might return!",
+      "objective": "Locate the abandoned frost dragon nest"
+    },
+    "progress": {
+      "dialog": "The egg is intact but cold! The Void corruption is in the ice itself—use Aether fire to melt it, then channel pure cold to restore the nest! Work fast—hunters are approaching!",
+      "objective": "Cleanse the Void corruption before the hunters arrive"
+    },
+    "complete": {
+      "dialog": "The mother returns! She circles overhead, then lands gently, nuzzling her egg! She leaves you a gift—a Frost Dragon Scale! It grants ice magic resistance and can freeze water instantly!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 800,
+        "item": "frost_dragon_scale"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A dragon thanked me. A real dragon! Best day ever!",
+    "twist": "The hunters left angry. They'll be back. We should warn the locals.",
+    "nix7": "Draconic maternal behavior: observed. Conservation: successful."
+  }
+}

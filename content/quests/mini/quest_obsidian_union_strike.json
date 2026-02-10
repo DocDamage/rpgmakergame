@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_union_strike",
+  "name": "The Foundry Walkout",
+  "zone": "obsidian",
+  "giver": "tunneler_brown",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The workers are striking! Three days now, and management won't budge on safety conditions! We need someone neutral to mediate—someone who doesn't work for the company or the union. Can you help us find common ground?",
+      "objective": "Meet with both the union representative and the foundry manager"
+    },
+    "progress": {
+      "dialog": "Both sides have valid points! The workers want safety gear, the manager needs to meet quotas. Here's a compromise—if you can retrieve the old safety equipment schematics from the Deep Archives, we can prove modern gear is cheaper than accident costs!",
+      "objective": "Retrieve the safety equipment schematics from the Deep Archives"
+    },
+    "complete": {
+      "dialog": "An agreement! New safety standards AND production bonuses! The workers return to their posts, and the manager saves face! You've proven that dialogue works better than deadlock! Here's a union-made Industrial Toolbelt!",
+      "rewards": {
+        "exp": 900,
+        "gold": 700,
+        "item": "industrial_toolbelt"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Negotiating beats fighting, I guess. Everyone seemed happy!",
+    "twist": "Finally, some civilized conflict resolution.",
+    "nix7": "Labor dispute analytics: optimal resolution achieved. Efficiency: maximized."
+  }
+}

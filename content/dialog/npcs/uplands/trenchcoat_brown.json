@@ -1,0 +1,96 @@
+{
+  "npc_id": "trenchcoat_brown_uplands",
+  "name": "Walker",
+  "sprite": "trenchcoat_brown",
+  "zone": "uplands",
+  "location": "Pilgrim's Path",
+  "personality": "wandering_philosopher",
+  "occupation": "pilgrim_wanderer",
+  "dialog": {
+    "greeting": [
+      "The path brings us together. For now.",
+      "Walker. No other name needed.",
+      "You walk with purpose. Rare, these days.",
+      "The Uplands whisper secrets. I listen.",
+      "Pilgrim, traveler, or seeker?",
+      "The coat has seen many roads. As have I.",
+      "No destination. Only journey."
+    ],
+    "shop_open": "I carry small things. Useful things. Traded from road to road.",
+    "shop_prompt": "Travel goods. Maps. Rumors. Silence, if you prefer.",
+    "haggle": [
+      "Value is where you find it.",
+      "Fair trade moves both forward.",
+      "The road teaches: nothing is free, but much is cheap.",
+      "For a fellow walker? Consider it a gift."
+    ],
+    "purchase_success": [
+      "May it serve you well.",
+      "Travel light. Travel far.",
+      "Another step on your path.",
+      "The road provides."
+    ],
+    "purchase_fail": [
+      "Not meant to be.",
+      "Another time, perhaps.",
+      "The road will bring you back."
+    ],
+    "rumor": [
+      "The black coat watches. Has always watched. Will always watch.",
+      "The twins complete each other. Separate them, and both fade.",
+      "Hashimoto guards more than stone. He guards memory.",
+      "I walked through Dustbelt once. The barrels... they remember too."
+    ],
+    "quest_hook": "Lost my walking stick at the Moon Viewpoint. Ancient wood. Gift from a sage. Retrieve it, and I'll share what I know of the secret paths.",
+    "quest_active": "The Moon Viewpoint. Eastern overlook. Staff of oak, carved with moons.",
+    "quest_complete": "My staff. Thank you. Here - a map of the hidden ways. Known only to wanderers.",
+    "quest_reward": "Wanderer's Path Map - Secret routes revealed",
+    "farewell": [
+      "Walk well. Walk true.",
+      "The path rises to meet you.",
+      "Until our roads cross again."
+    ],
+    "ambient_barks": [
+      "*distant wind*",
+      "*footsteps on stone*",
+      "The road calls...",
+      "*contemplative silence*",
+      "Always walking...",
+      "*coat flapping*"
+    ],
+    "time_dawn": "Morning mist. Best time for walking.",
+    "time_noon": "Sun high. Rest in shade. Walk in shadow.",
+    "time_dusk": "Evening light. The golden hour of travelers.",
+    "time_night": "Night walking. Stars as guides. Moon as companion.",
+    "post_quest_greeting": "The staff-finder. A fellow traveler, truly.",
+    "wisdom": "Every step away is also a step toward. The path is a circle."
+  },
+  "party_reactions": {
+    "kade": "Why do I feel like they know more than they're saying?",
+    "nix7": "Movement pattern: continuous. Purpose: unclear.",
+    "twist": "Where are you walking TO? ...Nowhere? Just walking? Wow!",
+    "korr": "The stillness in motion. I understand.",
+    "renna": "Classic mysterious stranger. Bet they have a tragic backstory."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. New story. I'm listening.",
+    "acquaintance": "We meet again. The path is smaller than it seems.",
+    "friend": "Reliable companion on the road of life.",
+    "best_friend": "Walk with me awhile. I have much to share."
+  },
+  "mini_quest": {
+    "id": "lost_walking_staff",
+    "title": "The Pilgrim's Staff",
+    "description": "Retrieve Walker's ancient walking stick from Moon Viewpoint",
+    "stages": {
+      "hook": "Lost my walking stick at the Moon Viewpoint. Ancient oak. Gift from a sage. Retrieve it?",
+      "active": "Moon Viewpoint, eastern overlook. Staff carved with moon phases.",
+      "complete": "My staff. Thank you. Here - map of hidden ways. Known only to those who walk without destination."
+    },
+    "reward": {
+      "item": "wanderers_path_map",
+      "gold": 250,
+      "reputation": "fellow_walker"
+    }
+  }
+}

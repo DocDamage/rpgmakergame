@@ -1,0 +1,119 @@
+{
+  "npc_id": "coolcat_void",
+  "name": "Echo",
+  "title": "Echo Musician",
+  "zone": "void",
+  "location": "The Resonant Cavern, Void Depths",
+  "description": "A musician whose songs exist in multiple states simultaneously, creating harmonies that shouldn't be possible.",
+  "sprite_variant": "coolcat_void",
+  "greeting_variants": [
+    "*playing chord that echoes backward in time* Welcome. Or... will welcome. Tenses are... difficult here.",
+    "Echo. I play what was. What is. What will be. All at once.",
+    "*listening* Do you hear it? The music of the spheres? Broken. But beautiful.",
+    "Your heartbeat. A rhythm. I can work with rhythm.",
+    "*tuning impossible instrument* Void plays us, you know. We are its instruments.",
+    "Silence here is not empty. It's... waiting. Listening. For song.",
+    "*plays melody in minor key* Sad songs. The Void likes sad songs.",
+    "I was Jazz. Once. Now I'm... possibilities. Echoes."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Jazz went into the Void. Brave. Foolish. Searching for something. Found... everything. Every version. Every choice. I'm one of many. The musician who stayed. Who became... this. Echo of what was. Shadow of what could be.",
+          "options": [
+            {"text": "You're Jazz? From the Capital?", "goto": "jazz_identity"},
+            {"text": "Every version?", "goto": "multiverse"},
+            {"text": "Play me something.", "goto": "play_request"},
+            {"text": "This is too strange.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "jazz_identity",
+          "text": "*sad smile* I remember being him. The certainty. The hope. He's still out there. Playing for refugees. Keeping spirits up. I'm what happened if he went deeper. If he... listened too long. The Void gives gifts. Takes payment.",
+          "party_reactions": {
+            "jazz_capital": "*if present* *stares in shock* Is that... me?",
+            "echo": "*nods* You. Me. We. All possible."
+          },
+          "options": [
+            {"text": "Can you go back?", "goto": "return_question"},
+            {"text": "What payment?", "goto": "payment"}
+          ]
+        },
+        {
+          "id": "multiverse",
+          "text": "The Void shows possibilities. Every choice, branching. Every moment, multiplied. I see Jazes who died. Jazes who conquered. Jazes who... *shivers* ...became Void entirely. I'm the one who makes music. Who finds... harmony in chaos.",
+          "options": [
+            {"text": "What do your songs do?", "goto": "song_power"},
+            {"text": "Can you see my possibilities?", "goto": "player_futures"}
+          ]
+        },
+        {
+          "id": "play_request",
+          "text": "*plays a chord that seems to resonate in your bones* This is the Song of What Was. *plays another, eerily familiar* This is the Song of What Is. *begins a third, haunting, incomplete* This... this is the Song of What Will Be. Unfinished. Until you choose.",
+          "effect": "party_contemplation",
+          "options": [
+            {"text": "That's beautiful.", "goto": "beauty"},
+            {"text": "Finish it.", "goto": "finish_song"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "symphony_of_possibilities",
+    "title": "Symphony of Possibilities",
+    "description": "Help Echo complete the Song of What Will Be by making choices that resonate across possibilities.",
+    "objectives": [
+      "Gather chords from three alternate reality echoes",
+      "Help Echo reconcile with the Jazz of the Capital",
+      "Make a defining choice that shapes the final melody",
+      "Perform the completed symphony",
+      "Witness the reality-shaping power of music"
+    ],
+    "rewards": {
+      "experience": 750,
+      "reputation": {"void_artists": 40, "musicians": 35},
+      "items": ["echo_instrument", "symphony_of_possibilities_score"],
+      "unlock": "echo_reality_manipulation"
+    },
+    "prerequisites": ["met_jazz_capital"]
+  },
+  "ambient_barks": [
+    "*playing discordant notes* Wrong. Try again. Different reality.",
+    "The Void hums. Constant. Low. Hungry.",
+    "*listening to silence* Shh. It's composing. Always composing.",
+    "Jazz plays hope. I play... acceptance. Both valid.",
+    "*tuning* Sharp here. Flat there. Multiple places. At once.",
+    "Music is math. Math is structure. Structure resists Void.",
+    "*singing wordlessly* Harmony in chaos. Order in noise.",
+    "Your story has many endings. Which will you choose?"
+  ],
+  "cross_zone_references": {
+    "capital": "Jazz plays there. Still. Hopeful. I envy. I celebrate.",
+    "chroma_tower": "The Twins understand. Multiple. Same. Different. Harmony.",
+    "palace": "The Palace... no songs there. Silence. Deep silence."
+  },
+  "party_reactions": {
+    "jazz_capital": {
+      "greeting": "*stunned silence* You're... me.",
+      "response": "*gentle smile* I'm possibility. You're choice. Both needed."
+    },
+    "mira": {
+      "greeting": "The quantum resonance of your music—",
+      "response": "*interrupts with chord* Feel. Don't think. Here, feeling is truth."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "More focused on present, clearer songs",
+      "night": "Fading between possibilities, songs echo from nowhere"
+    },
+    "world_state_triggers": {
+      "player_choice_moment": "Songs intensify, reflecting possible outcomes",
+      "reality_shift": "Adapts immediately, new songs for new truths"
+    }
+  }
+}

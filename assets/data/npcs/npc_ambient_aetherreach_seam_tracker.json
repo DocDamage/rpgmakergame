@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_AETHERREACH_SEAM_TRACKER",
+  "name": "Aetherreach Seam Tracker",
+  "title": "Route Tracker",
+  "location": "T_AETHERREACH_112x72",
+  "coords": [
+    72,
+    24
+  ],
+  "schedule": {
+    "day": [
+      72,
+      24
+    ],
+    "night": [
+      75,
+      22
+    ],
+    "rain": [
+      74,
+      24
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "AETHERREACH",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Stationed in Aetherreach.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

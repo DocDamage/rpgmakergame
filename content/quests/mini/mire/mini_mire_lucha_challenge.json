@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_lucha_challenge",
+  "name": "Blue Thunder's Challenge",
+  "zone": "mire",
+  "giver": "Lucha Blue (El Azul)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "EL SCORCHO thinks he's the best! But I, EL AZUL, am the TRUE champion! You look tough! Fight me! If you win, I teach you my SPECIAL move! If you lose... you tell everyone I won! Deal?",
+      "objective": "Defeat El Azul in a wrestling match"
+    },
+    "progress": {
+      "dialog": "Ready? The ring is prepared! The crowd waits! Let us RUMBLE!",
+      "objective": "Enter the ring and defeat El Azul"
+    },
+    "complete": {
+      "dialog": "IMPRESSIVE! You move like LIGHTNING! Here - BLUE THUNDER DROP! My signature! Use it with HONOR!",
+      "rewards": {"gold": 400, "item": "blue_thunder_drop_manual", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "These luchadors are serious about their wrestling.",
+    "twist": "THAT WAS AWESOME! Do it again!",
+    "grit": "Good technique. The blue one favors speed over power."
+  },
+  "hidden_outcome": "If you win without using items, El Azul declares you his 'eternal rival' and gives you 'Blue Mask of Thunder' accessory"
+}

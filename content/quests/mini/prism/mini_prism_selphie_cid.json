@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_selphie_cid",
+  "name": "The End Fan Club",
+  "zone": "prism",
+  "giver": "Selphie (SeeD Trainee)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Omigosh! The Prism caves are PERFECT for a concert! The acoustics! The lighting! Help me set up? I need to find the perfect spot and spread the word! This is gonna be GREAT!",
+      "objective": "Help Selphie find the perfect concert location in the Prism and distribute flyers"
+    },
+    "progress": {
+      "dialog": "The crystals really amplify the sound! And the light show potential! This is so exciting!",
+      "objective": "Distribute flyers to 10 NPCs in the Prism area"
+    },
+    "complete": {
+      "dialog": "The concert was AMAZING! Best ever! Thanks for all the help! Here - take this. It's a rare spell I found. 'The End' - super powerful! Just for you!",
+      "rewards": {"gold": 400, "item": "the_end_spell", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "A concert in crystal caves. Actually... that sounds pretty cool.",
+    "twist": "That was the BEST CONCERT EVER! Wooo!",
+    "nix7": "Acoustic properties of Prism formations: exceptional."
+  },
+  "hidden_outcome": "If you get 20+ NPCs to attend (full house), Selphie gives you 'Strange Vision' - her ultimate nunchaku"
+}

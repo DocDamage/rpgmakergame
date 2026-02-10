@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_ancient_trial",
+  "name": "Progenitor's Test",
+  "zone": "tower",
+  "giver": "wins",
+  "type": "investigation",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Floor 73 holds a sealed chamber—a trial left by the Progenitors for those they deemed 'potentially worthy.' No one has passed it in recorded history. The door opens for you specifically; we felt the recognition when you approached. Destiny calls, Kade. Will you answer?",
+      "objective": "Enter and investigate the sealed Progenitor chamber on Floor 73"
+    },
+    "progress": {
+      "dialog": "The trial is not combat—it's judgment. The Progenitors test your choices, your values, the weight of your decisions. Every answer shapes the path forward. There are no wrong choices, only true ones. Be honest with yourself, whatever the cost.",
+      "objective": "Complete the Progenitor judgment trial"
+    },
+    "complete": {
+      "dialog": "Judgment rendered, trial completed, truth revealed. The Progenitors saw something in you—potential, purpose, a role yet to play. Their knowledge becomes yours: insights into the Engine, the Foundations, the true nature of your quest. You are marked now, Kade. A Progenitor's choice.",
+      "rewards": {
+        "exp": 25000,
+        "gold": 6000,
+        "item": "progenitor_insight"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "They asked me why I fight. Simple answer: because someone has to. Apparently, that was the right one.",
+    "callum": "The Progenitors were said to be able to see potential futures. If they chose Kade... then I'm honored to follow.",
+    "sova": "Progenitor judgment protocols. I thought they were myth. To witness actual functioning Progenitor cognition... extraordinary."
+  },
+  "lore_unlocks": ["progenitor_judgment", "tower_sealed_chambers"]
+}

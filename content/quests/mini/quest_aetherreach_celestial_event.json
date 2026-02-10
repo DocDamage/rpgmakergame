@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_celestial_event",
+  "name": "When Stars Align",
+  "zone": "aetherreach",
+  "giver": "sunandmoon",
+  "type": "investigation",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "A celestial convergence approaches—seven bodies aligning in a pattern not seen for ten thousand years. The Progenitors built Aetherreach to observe such events, but the observation equipment is damaged. Repair the Great Telescope, calibrate the sensors, witness what the ancients designed this place to see.",
+      "objective": "Repair the Great Telescope and calibrate the celestial sensors"
+    },
+    "progress": {
+      "dialog": "Equipment functional, alignment beginning, but there's an anomaly. The convergence is opening something—a rift, a doorway, a communication channel. Ancient Progenitor codes are transmitting through the rift. We need to record everything, decode what we can. This is first contact with the Progenitor age.",
+      "objective": "Record and analyze the Progenitor transmissions"
+    },
+    "complete": {
+      "dialog": "Alignment complete, data recorded, history made. The transmissions were status reports from other Progenitor installations—some still active across the stars. We're not alone, Kade. The Progenitors were part of something vast, and their network endures. Aetherreach has purpose again. We're part of a cosmos, not just a world.",
+      "rewards": {
+        "exp": 28000,
+        "gold": 7000,
+        "item": "celestial_alignment_data"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Other Progenitor installations. Across the stars. That's... bigger than Orion. Bigger than anything.",
+    "sova": "The implications are staggering. The Progenitors had interstellar capability. What happened to them? Why did they focus on Orion?",
+    "nix7": "Interstellar network detected. Progenitor civilization spanned multiple star systems. Orion may be a preservation project, not a prison."
+  },
+  "lore_unlocks": ["celestial_convergence", "progenitor_interstellar_network"]
+}

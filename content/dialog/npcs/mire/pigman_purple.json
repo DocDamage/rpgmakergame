@@ -1,0 +1,83 @@
+{
+  "npc_id": "pigman_purple_mire",
+  "name": "Percival 'Percy' Swinetooth",
+  "sprite": "pigman_purple",
+  "zone": "mire",
+  "location": "The Oily Eel Tavern Kitchen",
+  "personality": "eccentric_artistic_secretive",
+  "occupation": "chef",
+  "schedule": {
+    "morning": "preparing_breakfast",
+    "day": "cooking_experiments",
+    "night": "guarding_secret_recipe"
+  },
+  "dialog": {
+    "greeting": [
+      "Shhh! The sauce is reducing! One wrong move and it's ruined!",
+      "You're early! Or late! Time is an illusion in the kitchen!",
+      "Percy the Purple, culinary genius! That's what the menu says, and the menu never lies!",
+      "Have you ever tasted true perfection? No? Good. Keeps you humble.",
+      "The kitchen is my domain! Enter at your own peril! And appetite!",
+      "Ingredients speak to me. Mostly they say 'cook me,' but sometimes... darker things.",
+      "A true chef never reveals his secrets! But I might. For a price. Or a really good mushroom.",
+      "Food is art! Art that you eat! And sometimes regret!"
+    ],
+    "secret_recipe": "My secret sauce? Ha! Passed down through seventeen generations of Swinetooths! It requires... ingredients. Rare ingredients. From places you wouldn't believe.",
+    "kitchen_rules": "Rule one: Don't touch my knives. Rule two: Don't touch my sauces. Rule three: Especially don't touch the purple sauce. That's for... special occasions.",
+    "backstory": "I trained under the Grand Chef of the Crystal Spire. Exiled for 'creative differences.' They said my mushroom soufflé was 'too alive.' As if that's a bad thing! The Mire appreciates true art.",
+    "rumors": [
+      "The foodboys on the boardwalk? Amateurs! Their hot sauce is just... hot. No nuance! No artistry!",
+      "I hear the barrelgob knows where to find truffles. Real truffles. The kind that whisper.",
+      "The onionbosses' dispute? Started over lunch, I bet. Bad food makes bad tempers.",
+      "Someone told me the luchador fighter eats nothing but raw eggs. Barbaric. Delicious, but barbaric."
+    ],
+    "ambient_barks": [
+      "Needs more salt!",
+      "The soufflé! It lives!",
+      "Don't touch that!",
+      "Is it... glowing? Good!",
+      "Where's my whisk?",
+      "The secret ingredient is... love! And arsenic! Kidding! Mostly!"
+    ],
+    "time_of_day": {
+      "morning": "Breakfast! The most important meal! Mine's experimental porridge. Results vary!",
+      "noon": "Lunch is serious business. I take it very seriously. You should too.",
+      "evening": "Dinner service! The chaos! The drama! The DELICIOUSNESS!",
+      "night": "Late night is when I experiment. The kitchen is quiet. The ingredients... suggestible."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "secret_ingredient",
+    "quest_name": "The Perfect Ingredient",
+    "stage_1_hook": "My secret sauce needs one final component. Whispercap mushrooms. Only grow in the Echo Caverns, and nobody goes there because of the... echoes. But for true culinary perfection, I must have them!",
+    "stage_1_active": "Whispercap mushrooms. White caps, blue gills, faint humming sound. Three should do it. Don't eat them raw. Trust me.",
+    "stage_2_progress": "The caverns give up their treasures grudgingly, eh? Keep looking! The sauce depends on it!",
+    "stage_2_item_needed": "whispercap_mushroom",
+    "stage_3_complete": "THE WHISPERCAPS! Listen to them hum! Perfect! Here - taste the sauce now. This is culinary divinity! And here's a little something for your trouble.",
+    "reward": "percys_secret_recipe_book"
+  },
+  "party_reactions": {
+    "kade": "His food is... actually really good. Weird, but good.",
+    "nix7": "Culinary analysis: 40% probability of edible outcome. 60% probability of gastric distress. Worth it?",
+    "twist": "He said I could lick the bowl! BEST DAY EVER!",
+    "korr": "A warrior respects any who masters their craft. This one has mastered... something.",
+    "renna": "There's actual magic in that kitchen. Subtle, but there. He doesn't even know he's doing it.",
+    "suresh": "The purple sauce... I recognize that flavor. Old magic. Dangerous, but delicious.",
+    "sova": "Food's food. As long as it fills the gut, I don't ask questions.",
+    "grit": "Reminds me of my old cook. Crazy as a loon, but could make shoe leather taste like steak.",
+    "ashka": "The kitchen is a fire hazard. I offered to help. He said I 'lacked subtlety.'",
+    "senna": "He knows things he shouldn't. The mushrooms tell him secrets.",
+    "callum": "I tried the 'surprise stew.' I'm still not sure what surprised me more - the taste or the texture."
+  },
+  "relationship_dialog": {
+    "stranger": "New customer! Try the daily special! It's always a surprise! Literally - I decide when you order!",
+    "acquaintance": "Back for more! You have adventurous taste buds! I respect that!",
+    "friend": "My favorite diner! I have something special planned for you today! Don't ask what!",
+    "best_friend": "You... you actually appreciate my art. The others just eat. You UNDERSTAND. Here. The real secret recipe. Guard it well."
+  },
+  "cross_npc_connections": [
+    "pigman_brown: Gristle! My business partner! He handles the money, I handle the magic!",
+    "foodboys_red: That hot sauce vendor thinks he knows heat! I'll show him heat! One day!",
+    "barrelgob_green: The goblin claims to know where rare ingredients grow. Might be worth pursuing."
+  ]
+}

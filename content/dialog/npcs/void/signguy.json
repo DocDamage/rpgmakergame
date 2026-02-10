@@ -1,0 +1,117 @@
+{
+  "npc_id": "signguy",
+  "name": "Shift",
+  "title": "Shifting Signs",
+  "zone": "void",
+  "location": "The Unstable Crossroads, Void Maze",
+  "description": "Signs that change when unobserved, warnings that contradict themselves, directions that lead everywhere and nowhere.",
+  "sprite_variant": "signguy_void",
+  "greeting_variants": [
+    "*sign reads: 'WELCOME' then 'GO AWAY' then 'HELP' then gibberish*",
+    "The signs speak. When they want. What they want.",
+    "*arrow points left, then right, then up, then through itself*",
+    "Reading is dangerous here. Understanding more so.",
+    "*sign drips like liquid* WARNING: DO NOT... [rest illegible]",
+    "I paint. The signs change. I paint again. They change again.",
+    "*multiple conflicting messages overlapping* Safe/Danger/Here/There/Now/Then",
+    "Words have power. Here, they have too much."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I was Ward. Am Ward? Will be? The signs... I paint truth. Reality... changes it. Now I am Shift. The signs and I... merged. I feel them change. Want them to help. They want... to be honest? But honesty shifts here.",
+          "options": [
+            {"text": "You're Ward from the Capital?", "goto": "ward_identity"},
+            {"text": "What do the signs say?", "goto": "sign_meanings"},
+            {"text": "Can you control them?", "goto": "control"},
+            {"text": "I should go.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "ward_identity",
+          "text": "*moment of clarity* Ward. Yes. Saved lives. Warning signs. Clear. True. Then... the Void. Needed signs here too. Painted truth. But truth... moves. Shifts. Now I'm... part of the message. The medium. The confusion.",
+          "party_reactions": {
+            "ward_capital": "*if present* ...Shift? Is that... me?",
+            "shift": "*sad* You. Me. Truth. Lies. Both. Neither."
+          },
+          "options": [
+            {"text": "Can you come back?", "goto": "return_possible"},
+            {"text": "Keep trying to help.", "goto": "encouragement"}
+          ]
+        },
+        {
+          "id": "sign_meanings",
+          "text": "They try to warn. To guide. But meaning... slides. 'DANGER' becomes 'WELCOME' becomes 'MEMORY' becomes nothing. The Void corrupts communication. Intent. I fight. Keep painting. Signs keep... becoming.",
+          "options": [
+            {"text": "Is there a pattern?", "goto": "pattern"},
+            {"text": "How can I trust any sign?", "goto": "trust"}
+          ]
+        },
+        {
+          "id": "control",
+          "text": "*laughs, sound like scratching on wood* Control? I am controlled. By the changing. The shifting. I paint CLEAR. WARN. REALITY makes it... else. I am brush. Paint. Not artist. Not anymore.",
+          "options": [
+            {"text": "That's horrible.", "goto": "sympathy"},
+            {"text": "Fight it.", "goto": "fight_encouragement"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "stable_the_message",
+    "title": "Stabilize the Warnings",
+    "description": "Help Shift create signs that resist the Void's corruption to guide lost travelers.",
+    "objectives": [
+      "Gather void-resistant materials",
+      "Find a stable point for anchoring",
+      "Help Shift focus their intent",
+      "Create 3 stable warning signs",
+      "Test the signs against Void shifting"
+    ],
+    "rewards": {
+      "experience": 550,
+      "reputation": {"void_survivors": 30},
+      "items": ["stable_brush", "truth_ink"],
+      "unlock": "void_navigation_aid"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*sign spontaneously changes* No! Was clear! Was TRUE!",
+    "*painting frantically* Hold. Please hold.",
+    "The words... they want to mean something. I help them.",
+    "*reading shifting sign* Danger. Safe. Danger. Both.",
+    "Paint. Dry. Change. Cry. Repeat.",
+    "*sign bleeds* Even 'HELP' becomes... something else.",
+    "I remember... clear messages. Miss them.",
+    "*whispering to sign* Stay true. Please. For them."
+  ],
+  "cross_zone_references": {
+    "capital": "Clear signs. True signs. Miss. Every moment.",
+    "chroma_tower": "Tower has order. Structure. Signs there... obey. Envy."
+  },
+  "party_reactions": {
+    "ward_capital": {
+      "greeting": "*horrified* What... what happened to me?",
+      "response": "*gentle* You stayed true. I... became else."
+    },
+    "mira": {
+      "greeting": "The semiotic instability is fascinating!",
+      "response": "*tired* Fascinating. Yes. Painful. Also yes."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Signs slightly more stable, more readable",
+      "night": "Chaos, signs shift constantly, gibberish predominates"
+    },
+    "world_state_triggers": {
+      "sign_stable": "Brief joy: 'Held! It held! For a moment!'",
+      "major_shift": "Despair: 'Gone. All clear. Gone. Again.'"
+    }
+  }
+}

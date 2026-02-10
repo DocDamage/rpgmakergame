@@ -1,0 +1,54 @@
+{
+  "npc_id": "chronos_present",
+  "name": "Chronos Present",
+  "title": "Present Incarnation",
+  "zone": "chrono",
+  "location": "Healing the Flow Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Chronos Present on comms. Stage 3: Healing the Flow. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Channel the five Crystals' power."
+    ],
+    "quest_hook": "Objective stack: Channel the five Crystals' power; Heal the temporal wound; Merge the three aspects. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Use the five Crystals to reunite the Chronos Guardian. Immediate move: Channel the five Crystals' power.",
+    "quest_complete": "Stage 3 resolved: Healing the Flow. Primary objective secured and route stabilized. Prepare for The Future That Waits.",
+    "rumor": [
+      "Citizens keep meeting tomorrow versions of themselves and borrowing bad advice.",
+      "People keep repeating one clue from Healing the Flow: 'Merge the three aspects'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Chronos Present sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Chronos Present accepted. Probability of success improves with compliance.",
+    "twist": "Chronos Present talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_aeris_flower_bed",
+  "name": "Garden of Ancients",
+  "zone": "uplands",
+  "giver": "Aeris (Flower Seller)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The flowers here are so unique! I'm trying to cultivate a garden of ancient species. But I need special soil from the highest peaks. Would you help me gather some?",
+      "objective": "Collect ancient soil from three different high peaks in the Uplands"
+    },
+    "progress": {
+      "dialog": "The soil needs to be from untouched places. Where the ancients walked. Can you feel the difference?",
+      "objective": "Continue gathering soil from sacred high places"
+    },
+    "complete": {
+      "dialog": "This soil... it's perfect! I can feel the ancient whispers in it. Thank you. Here - a staff carved from the World Tree. It will help you hear what the planet is saying.",
+      "rewards": {"gold": 450, "item": "world_tree_staff", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "She talks to flowers. And they seem to listen.",
+    "renna": "She has an innate connection to the Growth Foundation. Rare gift.",
+    "suresh": "One with nature. A kindred spirit."
+  },
+  "hidden_outcome": "If you bring soil from a fourth 'forbidden' peak, Aeris grows a special flower that grants 'Holy' magic when carried"
+}

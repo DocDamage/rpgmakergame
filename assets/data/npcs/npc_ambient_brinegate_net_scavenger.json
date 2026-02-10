@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_BRINEGATE_NET_SCAVENGER",
+  "name": "Brinegate Net Scavenger",
+  "title": "Salvage Runner",
+  "location": "T_BRINEGATE_112x72",
+  "coords": [
+    96,
+    49
+  ],
+  "schedule": {
+    "day": [
+      96,
+      49
+    ],
+    "night": [
+      99,
+      49
+    ],
+    "rain": [
+      98,
+      51
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_AMBIENT_SCAVENGER",
+  "shop": null,
+  "quests": [],
+  "faction": "BRINEGATE_DOCKWORKERS",
+  "attitude": "neutral",
+  "background": "Recovers useful scraps from unstable routes. Stationed in Brinegate.",
+  "personality": "Reckless, witty, and survival-smart.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "salvage_tips",
+    "field_rumors"
+  ]
+}

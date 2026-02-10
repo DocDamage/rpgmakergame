@@ -1,0 +1,96 @@
+{
+  "npc_id": "coolcat_black_chrono",
+  "name": "Midnight Whiskers",
+  "sprite": "coolcat_black",
+  "zone": "chrono",
+  "location": "Jazz Chronology Club",
+  "personality": "smooth_temporal_musical",
+  "occupation": "jazz_chronologist",
+  "dialog": {
+    "greeting": [
+      "...Welcome to the Jazz Chronology. Where the beat... is timeless.",
+      "Midnight Whiskers. I play time. Literally. The rhythms of eras.",
+      "The black suit? For the club. And for... what I play. Dark matter. Dark time.",
+      "New face. First time? Or... returning from later? Hard to tell here.",
+      "Jazz Chronology. We don't just play music. We play... WHEN.",
+      "Midnight. The hour between. Between day and night. Between then and now.",
+      "You're on time. Or... time is on you. Both work.",
+      "Sit. Listen. The music... travels."
+    ],
+    "performance": "I play the chronology of jazz. Birth in New Orleans. Death in... hasn't happened yet. Evolution. All at once.",
+    "temporal_music": "Some notes are from next week. Some from last century. Together: NOW.",
+    "instrument": "My sax? Temporal wood. From a tree that hasn't grown. That never will. Plays... across.",
+    "break_chat": "Break? The music doesn't stop. I just... pause. Between phrases.",
+    "labor_concerns": "The club wants COVERS. Standards. I want to play the FUTURE. Compromise: we play both.",
+    "retirement": "Retirement? When the last note... fades. Hasn't happened. Won't. Might.",
+    "rumor": [
+      "The conductor? Tempus? Swings by sometimes. Has rhythm. Surprising.",
+      "Yesterday? The time agent? Requests the same song. Every time. 'Yesterday.' Fitting.",
+      "The hunter in black? Came once. Music... stopped. His presence. Too... sharp.",
+      "The twins? They hear the music. Before I play it. After. Both.",
+      "Slate, in Obsidian? My industrial counterpart. Different rhythm. Same soul."
+    ],
+    "quest_hook": "Lost chord. Temporal dissonance. A note from... elsewhere. Disrupting the flow. Find its source?",
+    "quest_active": "Still searching? The note... echoes. From somewhere. Somewhen.",
+    "quest_complete": "Found! The source! A temporal anomaly! Resolved! Here! My sheet music. 'Temporal Blues.' For you.",
+    "farewell": [
+      "Keep time. Or let it keep you.",
+      "The music... remembers you.",
+      "Return. When the rhythm... calls."
+    ],
+    "ambient_barks": [
+      "...all that jazz...",
+      "...temporal swing...",
+      "...the beat goes...",
+      "...whenever, wherever...",
+      "...chronology, baby...",
+      "...time to swing..."
+    ],
+    "time_dawn": "Morning. Wrong tempo. Too fast. Too bright.",
+    "time_noon": "Midday. The club sleeps. I practice. Alone.",
+    "time_dusk": "Evening. Opening time. The music... wakes.",
+    "time_night": "Night. Peak temporal. Past and future... jamming.",
+    "rival_mention": "Slate, in Obsidian? Industrial counterpart. Different beat. Same heart.",
+    "post_quest_greeting": "The chord-seeker. Dissonance resolved. Harmony restored."
+  },
+  "party_reactions": {
+    "kade": "Jazz... through time? This is the coolest thing I've ever heard.",
+    "nix7": "Temporal acoustic physics: Fascinating. Musical talent: Significant. Vibe: Immaculate.",
+    "twist": "JAZZ! From TIME! Can you play something FAST?!",
+    "korr": "He channels time through art. Noble. Beautiful.",
+    "renna": "The saxophone is temporally attuned. Ancient magic. Modern jazz.",
+    "suresh": "He finds peace in temporal flow. The Middle Path... swinging.",
+    "sova": "Interesting. I'd listen. For intel. And... enjoyment.",
+    "grit": "Music in war zones. Morale. He's got the right idea.",
+    "ashka": "He plays with time's rhythm. Like fire's dance. Respect.",
+    "senna": "He hears things. Across time. I should ask what.",
+    "callum": "His temporal notation! EXACT! And SWINGING!"
+  },
+  "relationship_dialog": {
+    "stranger": "First set? Sit close. The time... travels.",
+    "acquaintance": "Returning. You feel the rhythm. In your... timeline.",
+    "friend": "Regular. I play... for you. Sometimes. Special requests.",
+    "best_friend": "You GET it. The chronology. The jazz. Here. My sax reed. From the future. Of music."
+  },
+  "mini_quest": {
+    "id": "lost_chord",
+    "title": "The Temporal Dissonance",
+    "description": "Help Midnight find the source of a temporal dissonance disrupting his music",
+    "stages": {
+      "hook": "Lost chord. Temporal dissonance. Disrupting the flow. Find its source? Please?",
+      "active": "Listen. Throughout the station. The note... echoes. From somewhere. Somewhen.",
+      "complete": "Found! The source! Temporal anomaly! Resolved! Here! 'Temporal Blues.' My composition. For you."
+    },
+    "reward": {
+      "item": "temporal_blues_sheet_music",
+      "gold": 350,
+      "reputation": "jazz_chronology_insider"
+    }
+  },
+  "cross_npc_connections": [
+    "conductor_chrono: Tempus. Swings by. Has rhythm. Surprising. For a conductor.",
+    "coolcat_industrial_obsidian: Slate. Industrial counterpart. Different beat. Same struggle.",
+    "trenchcoat_brown_chrono: Yesterday. Always requests 'Yesterday.' Fitting.",
+    "twins_chrono: They hear my music. Before I play. After. Both."
+  ]
+}

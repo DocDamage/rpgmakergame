@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_wind_riders",
+  "name": "The Wind Rider Trials",
+  "zone": "aetherreach",
+  "giver": "lucha_blue",
+  "type": "combat",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Aetherreach has its own martial tradition—the Wind Riders, aerial combatants who fight from drake-back. They're recruiting, and the trials are open to outsiders. Pass, and you earn their respect, their techniques, maybe even a drake of your own. Fail, and you fall. Interested in testing your sky-combat skills?",
+      "objective": "Register for and begin the Wind Rider trials"
+    },
+    "progress": {
+      "dialog": "Initial trials passed—basic flight maneuvers, combat formations, aerial tactics. Now the real test: the Gauntlet Run. Navigate the obstacle course, defeat the trial opponents, reach the finish with your flag intact. Only one in ten pass. Show them why you're different.",
+      "objective": "Complete the Gauntlet Run and earn Wind Rider status"
+    },
+    "complete": {
+      "dialog": "Gauntlet conquered, flag intact, Wind Rider status earned. They haven't seen a performance like yours in decades. The Wind Riders welcome you as one of their own—different style, same spirit. Ride the winds, Kade. You've earned your place in the sky.",
+      "rewards": {
+        "exp": 26000,
+        "gold": 6500,
+        "item": "wind_rider_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "That gauntlet was intense! Flying through rings while fighting opponents? Best combat training I've ever had.",
+    "ashka": "You have natural aptitude for aerial combat. The Wind Riders recognized it. I'm proud to fly with you, Kade.",
+    "korr": "Aerial tactics are crucial for modern warfare. These techniques complement my ground command experience. Valuable training."
+  },
+  "lore_unlocks": ["wind_riders", "aerial_combat_traditions"]
+}

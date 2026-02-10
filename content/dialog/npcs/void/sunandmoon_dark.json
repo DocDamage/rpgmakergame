@@ -1,0 +1,118 @@
+{
+  "npc_id": "sunandmoon_dark",
+  "name": "Eclipse",
+  "title": "Dark Astronomer",
+  "zone": "void",
+  "location": "The Observatory Remains, Void Edge",
+  "description": "A robed figure studying the twisted heavens from the edge of nothingness, seeking meaning in the dark stars.",
+  "sprite_variant": "sunandmoon_dark",
+  "greeting_variants": [
+    "*not looking away from sky* The stars are wrong tonight. More wrong than usual.",
+    "Shh. The dark is speaking. Listen.",
+    "Eclipse. I watch what cannot be watched. Study what cannot be known.",
+    "*pointing upward* See that? No, you don't. No one does. But it's there.",
+    "The sun and moon fear this place. I do not. Anymore.",
+    "*scribbling notes* The constellations... they form faces. Hungry faces.",
+    "You've come to look? To see? Careful. Seeing is dangerous.",
+    "*lowers telescope* Ah. A visitor. How... solid of you."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I was an astronomer. Before. Studied the sky, the stars, the movements of celestial bodies. Now? *laughs* Now I study the absence. The dark between. The Void has its own astronomy. Its own... geometry.",
+          "options": [
+            {"text": "What have you learned?", "goto": "discoveries"},
+            {"text": "Is it safe to study?", "goto": "safety"},
+            {"text": "What about the real sky?", "goto": "true_sky"},
+            {"text": "I'll leave you to it.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "discoveries",
+          "text": "The Void isn't empty. It's... structured. Layered. Like an onion of unreality. Each layer closer to... something. A center. A truth. The Palace, I think. The tear connects. This—*gestures around* —is just the... atmosphere.",
+          "party_reactions": {
+            "mira": "Structured unreality? That contradicts current Void theory!",
+            "eclipse": "Theory means nothing here. Only observation. Only... witnessing."
+          },
+          "options": [
+            {"text": "What's at the center?", "goto": "center_truth"},
+            {"text": "Can we map it?", "goto": "mapping"}
+          ]
+        },
+        {
+          "id": "safety",
+          "text": "*laughs, slightly mad* No. Not safe. I haven't slept in... *counts on fingers, runs out* ...long time. The dreams here are dangerous. The visions... persistent. But knowledge requires sacrifice. Understanding demands cost.",
+          "options": [
+            {"text": "You're risking your sanity.", "goto": "sanity_concern"},
+            {"text": "What have you sacrificed?", "goto": "sacrifice"}
+          ]
+        },
+        {
+          "id": "true_sky",
+          "text": "*sad smile* Forgotten. The real sun, the real moon... they're memories now. Fairy tales. The sky here is honest. Shows what is. Emptiness. Hunger. The truth beneath reality's mask.",
+          "options": [
+            {"text": "That's depressing.", "goto": "depression"},
+            {"text": "There must be hope.", "goto": "hope"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "map_the_void",
+    "title": "Chart the Darkness",
+    "description": "Help Eclipse map the shifting geometry of the Void by visiting specific observation points.",
+    "objectives": [
+      "Reach the First Observation Point (The Shattered Spire)",
+      "Document the star patterns at the Second Point (The Inverted Falls)",
+      "Record the celestial geometry at the Third Point (The Möbius Ridge)",
+      "Return data to Eclipse",
+      "Witness Eclipse's revelation"
+    ],
+    "rewards": {
+      "experience": 650,
+      "reputation": {"void_researchers": 35, "astronomers": 30},
+      "items": ["void_star_chart", "eclipse_telescope_lens"],
+      "unlock": "void_navigation_map"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*muttering calculations* Pi... but wrong. Everything wrong.",
+    "The stars moved again. They do that. Watch back.",
+    "*sketching frantically* This pattern... seen before. Where?",
+    "Silence here is loud. Deafening. Beautiful.",
+    "Sun and Moon fear to look here. Cowards. I am brave.",
+    "*pointing at nothing* There! Did you see? No. No one does.",
+    "The geometry hurts. Good hurt. Understanding hurt.",
+    "*whispering to self* It's watching. Always watching."
+  ],
+  "cross_zone_references": {
+    "capital": "The real observatory... used to visit. Real telescopes. Real stars.",
+    "palace": "The Palace blocks everything. Even Void sight. Important. Significant.",
+    "chrono": "Time moves strange here. Like Chrono. But... deeper."
+  },
+  "party_reactions": {
+    "mira": {
+      "greeting": "Your research—may I review your notes?",
+      "response": "*shoves notebook forward* Take them. Add to them. Understand."
+    },
+    "kael": {
+      "greeting": "Scholar. You look... unwell.",
+      "response": "*laughs* Unwell? I am transfigured! Enlightened!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Observing, sketching, muttering",
+      "night": "Deeper communion with the Void sky, less coherent"
+    },
+    "world_state_triggers": {
+      "celestial_event": "Frantic excitement: 'It moves! It ACKNOWLEDGES!'",
+      "pattern_decoded": "Moment of clarity: 'I see it now. I SEE IT.'"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_time_capsule",
+  "name": "Message to the Past",
+  "zone": "chrono",
+  "giver": "pigman_clockwork",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I buried a time capsule fifty years ago with a message to my future self! But I never found it! Can you help me locate it? The temporal coordinates are encrypted in this childhood diary! Solve the puzzle, find the capsule!",
+      "objective": "Decrypt the childhood diary to find the time capsule location"
+    },
+    "progress": {
+      "dialog": "The coordinates point to what is now the town square fountain! But it's buried deep, and the town won't let us dig without proof! Find another way—maybe a temporal phase shift to reach it without disturbing the fountain!",
+      "objective": "Use temporal phasing to retrieve the time capsule non-destructively"
+    },
+    "complete": {
+      "dialog": "The capsule! My childhood treasures! And the letter... *tears* I had forgotten my childhood dreams. Thank you for returning them to me. Here, take this Time Capsule Token! It can store items outside of time—retrieve them anytime, anywhere!",
+      "rewards": {
+        "exp": 700,
+        "gold": 600,
+        "item": "time_capsule_token"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "He cried reading his own letter. I'm not crying, you're crying!",
+    "twist": "Messages across time are powerful. The child he was spoke truth.",
+    "nix7": "Personal time capsule retrieval: successful. Emotional value: high."
+  }
+}

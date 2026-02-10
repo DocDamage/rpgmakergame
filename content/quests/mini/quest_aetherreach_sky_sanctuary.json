@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_sky_sanctuary",
+  "name": "Haven in the Heavens",
+  "zone": "aetherreach",
+  "giver": "trenchcoat_gray",
+  "type": "social",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Aetherreach was founded as a sanctuary for those fleeing the world's troubles—refugees, exiles, dreamers. But we've grown insular, forgotten our purpose. There are refugees below, in the Dustbelt, fleeing Dominion purges. We have room, resources, safety. Help me convince the Council to open our doors again.",
+      "objective": "Gather support from Aetherreach citizens to accept refugees"
+    },
+    "progress": {
+      "dialog": "Support growing, but the Council needs proof we can handle the influx—housing, food, integration. I've identified unused terrace sectors that could be converted. Help me clean them, prepare them, show the Council that sanctuary isn't just a word in our history books.",
+      "objective": "Prepare the unused terrace sectors for refugee housing"
+    },
+    "complete": {
+      "dialog": "Terraces ready, Council convinced, Aetherreach reborn as sanctuary. The first refugees arrive next week—families who'll know safety for the first time in years. You've reminded us who we are, Kade. We're not just sky-dwellers; we're guardians of hope. The highest ground carries the highest responsibility.",
+      "rewards": {
+        "exp": 24000,
+        "gold": 5000,
+        "item": "sanctuary_renewal decree"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Helping people find safety—that's what this was always about. From Rusthaven to Aetherreach, same mission.",
+    "suresh": "Medical facilities prepared for refugee intake. I'll personally oversee the health screenings. Everyone deserves care.",
+    "vex": "Sanctuary for the persecuted. This is the highest calling of strength—to protect those who cannot protect themselves."
+  },
+  "lore_unlocks": ["aetherreach_history", "sky_refugees"]
+}

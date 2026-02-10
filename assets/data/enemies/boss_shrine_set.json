@@ -1,0 +1,323 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_HEAT_ELEMENTAL",
+      "name": "Heat Elemental",
+      "shrine": "SHR_HEAT_64x48",
+      "type": "shrine",
+      "foundation": "heat",
+      "sprite": "spr_boss_heat_elemental",
+      "stats": {
+        "hp": 4000,
+        "mp": 300,
+        "atk": 60,
+        "def": 30,
+        "mag": 50,
+        "spr": 25,
+        "spd": 16
+      },
+      "weaknesses": {
+        "water": 1.5,
+        "ice": 1.5
+      },
+      "resists": {
+        "fire": 0.0,
+        "earth": 0.5
+      },
+      "absorbs": ["fire"],
+      "abilities": [
+        "inferno",
+        "heat_wave",
+        "combustion",
+        "flame_pillar"
+      ],
+      "loot": [
+        {
+          "item": "HEAT_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_GROWTH_WARDEN",
+      "name": "Growth Warden",
+      "shrine": "SHR_GROWTH_64x48",
+      "type": "shrine",
+      "foundation": "growth",
+      "sprite": "spr_boss_growth_warden",
+      "stats": {
+        "hp": 4500,
+        "mp": 350,
+        "atk": 45,
+        "def": 40,
+        "mag": 45,
+        "spr": 35,
+        "spd": 12
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "ice": 1.2
+      },
+      "resists": {
+        "earth": 0.25,
+        "water": 0.5
+      },
+      "abilities": [
+        "natures_wrath",
+        "entangle",
+        "regenerate",
+        "thorn_barrier"
+      ],
+      "loot": [
+        {
+          "item": "GROWTH_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_LIGHT_SERAPH",
+      "name": "Light Seraph",
+      "shrine": "SHR_LIGHT_64x48",
+      "type": "shrine",
+      "foundation": "light",
+      "sprite": "spr_boss_light_seraph",
+      "stats": {
+        "hp": 4000,
+        "mp": 400,
+        "atk": 40,
+        "def": 35,
+        "mag": 60,
+        "spr": 50,
+        "spd": 20
+      },
+      "weaknesses": {
+        "dark": 1.5
+      },
+      "resists": {
+        "light": 0.0
+      },
+      "absorbs": ["light"],
+      "abilities": [
+        "holy_burst",
+        "sanctify",
+        "blinding_light",
+        "seraph_wings"
+      ],
+      "loot": [
+        {
+          "item": "LIGHT_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_MOTION_SYLPH",
+      "name": "Motion Sylph",
+      "shrine": "SHR_MOTION_64x48",
+      "type": "shrine",
+      "foundation": "motion",
+      "sprite": "spr_boss_motion_sylph",
+      "stats": {
+        "hp": 3500,
+        "mp": 350,
+        "atk": 50,
+        "def": 20,
+        "mag": 40,
+        "spr": 30,
+        "spd": 28
+      },
+      "weaknesses": {
+        "earth": 1.5,
+        "ice": 1.2
+      },
+      "resists": {
+        "wind": 0.0
+      },
+      "absorbs": ["wind"],
+      "abilities": [
+        "gale_force",
+        "swift_strike",
+        "evasion",
+        "wind_dance"
+      ],
+      "loot": [
+        {
+          "item": "MOTION_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_MASS_GOLEM",
+      "name": "Mass Golem",
+      "shrine": "SHR_MASS_64x48",
+      "type": "shrine",
+      "foundation": "mass",
+      "sprite": "spr_boss_mass_golem",
+      "stats": {
+        "hp": 8000,
+        "mp": 200,
+        "atk": 70,
+        "def": 60,
+        "mag": 20,
+        "spr": 20,
+        "spd": 4
+      },
+      "weaknesses": {
+        "wind": 1.3,
+        "water": 1.2
+      },
+      "resists": {
+        "physical": 0.4,
+        "earth": 0.25
+      },
+      "abilities": [
+        "colossal_slam",
+        "gravity_well",
+        "harden",
+        "earthquake"
+      ],
+      "loot": [
+        {
+          "item": "MASS_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_TIME_WEAVER",
+      "name": "Time Weaver",
+      "shrine": "SHR_TIME_64x48",
+      "type": "shrine",
+      "foundation": "time",
+      "sprite": "spr_boss_time_weaver",
+      "stats": {
+        "hp": 4500,
+        "mp": 500,
+        "atk": 35,
+        "def": 30,
+        "mag": 55,
+        "spr": 45,
+        "spd": 18
+      },
+      "weaknesses": {
+        "lightning": 1.3
+      },
+      "resists": {
+        "time": 0.0
+      },
+      "abilities": [
+        "time_stop",
+        "rewind",
+        "haste",
+        "slow",
+        "temporal_shift"
+      ],
+      "loot": [
+        {
+          "item": "TIME_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_SHADOW_WRAITH",
+      "name": "Shadow Wraith",
+      "shrine": "SHR_SHADOW_64x48",
+      "type": "shrine",
+      "foundation": "shadow",
+      "sprite": "spr_boss_shadow_wraith",
+      "stats": {
+        "hp": 4200,
+        "mp": 400,
+        "atk": 55,
+        "def": 25,
+        "mag": 50,
+        "spr": 35,
+        "spd": 24
+      },
+      "weaknesses": {
+        "light": 1.5
+      },
+      "resists": {
+        "dark": 0.0
+      },
+      "absorbs": ["dark"],
+      "abilities": [
+        "shadow_claw",
+        "darkness",
+        "life_drain",
+        "phantom_strike"
+      ],
+      "loot": [
+        {
+          "item": "SHADOW_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    },
+    {
+      "id": "BOSS_TIDE_LEVIATHAN",
+      "name": "Tide Leviathan",
+      "shrine": "SHR_TIDE_64x48",
+      "type": "shrine",
+      "foundation": "tide",
+      "sprite": "spr_boss_tide_leviathan",
+      "stats": {
+        "hp": 6000,
+        "mp": 350,
+        "atk": 55,
+        "def": 45,
+        "mag": 45,
+        "spr": 35,
+        "spd": 10
+      },
+      "weaknesses": {
+        "thunder": 1.5,
+        "ice": 1.0
+      },
+      "resists": {
+        "water": 0.0,
+        "fire": 0.25
+      },
+      "absorbs": ["water"],
+      "abilities": [
+        "tsunami",
+        "whirlpool",
+        "crushing_depths",
+        "tidal_pull"
+      ],
+      "loot": [
+        {
+          "item": "TIDE_FOUNDATION_BLESSING",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1200,
+      "xp": 2000
+    }
+  ]
+}

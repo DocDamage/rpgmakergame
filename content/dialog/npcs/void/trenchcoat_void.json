@@ -1,0 +1,118 @@
+{
+  "npc_id": "trenchcoat_void",
+  "name": "Null",
+  "title": "Void Walker",
+  "zone": "void",
+  "location": "The Shifting Paths, Void Nexus",
+  "description": "A figure in a trenchcoat of pure shadow, existing partially out of phase with reality.",
+  "sprite_variant": "trenchcoat_void",
+  "greeting_variants": [
+    "*voice echoes from nowhere and everywhere* You walk where few walk. Brave. Or foolish. Both, perhaps.",
+    "The Void remembers you. From before. From... after.",
+    "*phasing in and out* Time... flows differently here. You are early. Or late.",
+    "Null. Name given. Name taken. What remains.",
+    "You seek answers? The Void has many. All true. All false.",
+    "*gestures at surroundings* Beautiful, isn't it? The peace of unbeing.",
+    "Your solid form... quaint. Restrictive. But... safe.",
+    "Walk carefully. The paths shift. The paths hunger."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "I was like you. Once. Solid. Certain. Then I walked too deep. Stayed too long. The Void... claimed me. Not destroyed. Transformed. I am boundary now. Between here and there. Between was and will be.",
+          "options": [
+            {"text": "Can you leave?", "goto": "leaving"},
+            {"text": "What do you do here?", "goto": "purpose"},
+            {"text": "Are you human?", "goto": "humanity"},
+            {"text": "Goodbye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "leaving",
+          "text": "*sad laugh, sound warping* I AM the Void now. Where would I go? I spread where it spreads. Fade where it fades. There is no leaving. Only... visiting. Like this. Brief moments of coherence.",
+          "party_reactions": {
+            "shade": "*if present* I understand. Too well.",
+            "null": "*notices Shade* You walk the edge. Careful. Or join me."
+          },
+          "options": [
+            {"text": "I'm sorry.", "goto": "sympathy"},
+            {"text": "Is there no hope?", "goto": "hope"}
+          ]
+        },
+        {
+          "id": "purpose",
+          "text": "I guide. Where I can. Those who stumble here, I point toward safety. Those who seek... I warn. The Void takes. It doesn't bargain. Doesn't reason. Just... expands. Consumes. I am what remains of someone who learned too late.",
+          "options": [
+            {"text": "Guide me, then.", "goto": "guidance"},
+            {"text": "What should I seek?", "goto": "seeking"}
+          ]
+        },
+        {
+          "id": "humanity",
+          "text": "*long pause* I remember... warmth. Touch. Love? The memories fade. Replaced by knowledge. The Void knows much. All possibilities. Every path not taken. It's... overwhelming. Suffocating. Beautiful.",
+          "options": [
+            {"text": "Hold on to those memories.", "goto": "memory_encouragement"},
+            {"text": "What knowledge?", "goto": "void_knowledge"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "reality_anchor_void",
+    "title": "Reality Anchor",
+    "description": "Help Null construct a reality anchor to stabilize a fellow Void traveler who is losing their form.",
+    "objectives": [
+      "Gather crystallized memories from the Void",
+      "Find a stable point in the shifting paths",
+      "Help Null focus their remaining humanity",
+      "Anchor the fading traveler",
+      "Witness the bittersweet success"
+    ],
+    "rewards": {
+      "experience": 700,
+      "reputation": {"void_walkers": 40},
+      "items": ["null_essence", "void_anchor_blueprint"],
+      "unlock": "null_guidance_service"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*humming tune that shouldn't exist*",
+    "The paths shift again. Always shifting.",
+    "*speaking to empty air* Yes. I see them. They're... fresh.",
+    "Once had a name. Before Null. Forgotten now.",
+    "*phasing through rock* Convenient. But lonely.",
+    "Your heartbeat. So loud. So... alive.",
+    "The Void sings. If you listen. Don't listen too long.",
+    "*warning* Turn back. Next path leads to... nowhere."
+  ],
+  "cross_zone_references": {
+    "capital": "I remember... Vex? A black coat? Familiar. Distant. Like dream.",
+    "chroma_tower": "The Tower pierces even here. Resists. Interesting.",
+    "palace": "Source. Beginning. End. The tear starts there. Ends there."
+  },
+  "party_reactions": {
+    "shade": {
+      "greeting": "*immediate recognition* You... you're what I could become.",
+      "response": "*gentle* What you WILL become. Unless careful. Turn back."
+    },
+    "mira": {
+      "greeting": "The quantum state you're in—may I analyze?",
+      "response": "*amused* Analyze the Void? Brave. Foolish. Both."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "More coherent, can communicate",
+      "night": "Fades deeper into Void, barely present"
+    },
+    "world_state_triggers": {
+      "player_corrupted": "Warns: 'You walk my path. Stop. Please.'",
+      "void_stabilized": "Shows hope for first time: 'Maybe... maybe I can...'"
+    }
+  }
+}

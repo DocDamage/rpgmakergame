@@ -1,0 +1,161 @@
+{
+  "character": "Twist",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Enthusiastic, simple, loves fighting/food/animals, innocent, loyal",
+  "dialog": {
+    "first_meet_generic": [
+      "WHOA! Look at THAT! Can I touch it?",
+      "You're the weirdest thing I've seen today! And that's saying something!",
+      "I like your style! Weird but confident!",
+      "Are you friendly? You look friendly! I'm friendly too!",
+      "What ARE you?! I mean that in a good way!"
+    ],
+    "barrelman": [
+      "Can I hide in a barrel? Like in the stories?",
+      "I want the BIGGEST barrel! For hiding! And surprise attacks!",
+      "Do you have any barrels for wrestling practice?",
+      "I rolled down a hill in a barrel once! It was GREAT! Until it stopped."
+    ],
+    "snakecharmer": [
+      "CAN I PET HIM?! PLEASE?! I'LL BE GENTLE! LOOK! GENTLE HANDS!",
+      "Mr. Whiskers! What a GREAT name! Can we be friends, Mr. Whiskers?",
+      "Does he want to wrestle? I bet snakes are good wrestlers!",
+      "He's so SCALY! And SLITHERY! I love him!",
+      "Can I hold the flute? I want to make him dance too!"
+    ],
+    "lucha": [
+      "OH MAN OH MAN OH MAN! Can we wrestle?! PLEASE?!",
+      "I could take you! No offense! I just love wrestling!",
+      "Best wrestler I ever saw was a guy named 'The Octopus.' Had eight arms! Wait, that was two guys.",
+      "Your mask is SCARY! I love it! Can I try it on?!",
+      "FIGHT ME! Or teach me! Or both!"
+    ],
+    "ironchef": [
+      "FOOD?! You're making FOOD?! What kind?!",
+      "Can I taste it? I'll taste ANYTHING!",
+      "Cooking in armor is SMART! No burns on your arms!",
+      "Make me something PROTEIN! I need MUSCLES!",
+      "I'll chop vegetables! I can chop REAL fast! Watch! ...Oops. Sorry about the table."
+    ],
+    "trenchcoat": [
+      "Why are you hiding in that coat? Are you cold?",
+      "You look mysterious! Are you a spy? Can I be a spy too?!",
+      "Is that coat heavy? It looks heavy!",
+      "Are you hiding candy in there? I bet you're hiding candy!",
+      "I could totally be a spy! I'm sneaky! Watch! ...Did you see me? No? I'M THAT GOOD!"
+    ],
+    "sumo": [
+      "WHOA! You're BIG! Can you teach me to be big like you?!",
+      "Let's have a pushing contest! I bet I can move you! ...Maybe!",
+      "You're like a MOUNTAIN! But a person! A PERSON MOUNTAIN!",
+      "Can you lift me? I want to see how high you can throw!",
+      "You're so STILL! Are you sleeping with your eyes open? That's COOL!"
+    ],
+    "foodboys": [
+      "FOOD?! WHERE?! I'm starving!",
+      "I'll take three of everything! I'm a growing boy!",
+      "Is this protein? I need protein! For the muscles!",
+      "This looks DELICIOUS! You're the best cooks EVER!",
+      "Can I eat while I'm waiting? I'm already hungry again!",
+      "FOOOOOOD!"
+    ],
+    "coolcat": [
+      "You're COOL! I want to be cool like you!",
+      "Is that music? Can you teach me to play? I can learn!",
+      "Your sunglasses are SHINY! Can I see myself?",
+      "You're so RELAXED! How do you do that?!",
+      "Can we hang out? You seem CHILL! That's what cool people say, right? CHILL?"
+    ],
+    "pigman": [
+      "PIGS! I love pigs! They're PINK and SNORTY!",
+      "Your inn smells DELICIOUS! Like BACON!",
+      "Do you have a pet pig? Can I pet it?",
+      "I want the pork special! ALL of it!",
+      "You look like a pig! But a person! That's FUNNY! ...In a good way!"
+    ],
+    "tunneler": [
+      "You dig HOLES? That's HARD work! You're STRONG!",
+      "Can I dig with you? I'll be careful!",
+      "Found any cool rocks? I like shiny rocks!",
+      "You're going to get a BOAT? Boats are FUN! Unless they sink!",
+      "Be careful down there! Don't get squished!"
+    ],
+    "bush": [
+      "That's a nice bush! Very... bushy!",
+      "Wait. Did the bush just... talk?",
+      "You're hiding! I love hiding! Can we play hide and seek?!",
+      "You're really good at being a bush! I thought you were a REAL bush!",
+      "Can you teach me to be a bush? I want to surprise people!"
+    ],
+    "aeronaut": [
+      "BALLOONS! You're flying with BALLOONS!",
+      "Can I ride?! PLEASE?! I'll hold on TIGHT!",
+      "What happens if they pop? Do you fall? That would be BAD!",
+      "You're so HIGH up! Isn't it SCARY?!",
+      "I want a balloon! A BIG one! To carry me!"
+    ],
+    "onionboss": [
+      "You look like an ONION! But angry!",
+      "Are you going to make me cry? Like a real onion? Ha!",
+      "Being the boss is HARD! Everyone wants stuff!",
+      "Your miners are LUCKY to have you! Probably!",
+      "Don't be too mean! Mean bosses are NO FUN!"
+    ],
+    "astronaut": [
+      "You go UNDERWATER?! That's SCARY!",
+      "What do you see down there? Monsters? Treasure? BOTH?!",
+      "That suit looks HEAVY! You're STRONG to wear it!",
+      "Have you seen a KRAKEN? I want to see a kraken! From FAR away!",
+      "Can I try the helmet on? Just for a second?!"
+    ],
+    "conductor": [
+      "ALL ABOARD! I always wanted to say that!",
+      "Where are we going? Is it somewhere FUN?!",
+      "Can I drive? I promise I won't crash! Much!",
+      "Your uniform is SHARP! Very official!",
+      "CHOO CHOO! ...Is that the right sound? CHOO CHOO!"
+    ],
+    "shoewoman": [
+      "SHOES! I need new shoes! Mine have HOLES!",
+      "These are PRETTY! Can I try them on?",
+      "I need STRONG shoes! For KICKING! And WALKING!",
+      "Do they come in EXTRA large? I have BIG feet!",
+      "If they fit, I want TEN pairs!"
+    ],
+    "signguy": [
+      "I saw your signs! They're EVERYWHERE!",
+      "Can you make me a sign? That says 'TWIST IS AWESOME'?!",
+      "You must be TIRED! All that painting!",
+      "Ever paint a sign WRONG? That would be FUNNY!",
+      "You're like a traveling ARTIST! But with WORDS!"
+    ],
+    "cobra": [
+      "HELLO SNAKE FRIEND! Can we be FRIENDS?!",
+      "You're so SCALY! And SNAKEY! I LOVE IT!",
+      "Don't bite me, okay? I'm NICE! See? NICE!",
+      "Can I pet you? Just a little? On the head?",
+      "You're TONGUE is weird! It goes in and out! FAST!"
+    ],
+    "barrelgob": [
+      "You live in a BARREL?! That's so COOL!",
+      "Is it cozy? It looks cozy! Like a little house!",
+      "Can I visit? I'll bring snacks!",
+      "You're like a hermit crab! But a goblin! A goblin crab!",
+      "I want to try living in a barrel! For a day!"
+    ],
+    "twins": [
+      "TWO of you! That look the SAME! That's CRAZY!",
+      "How do you know which one is which?",
+      "Can you read each other's minds?! DO IT! Prove it!",
+      "You finish each other's... SANDWICHES?! Ha!",
+      "If I punch one, does the other feel it? ...Can I test it?"
+    ],
+    "sunandmoon": [
+      "You can tell the FUTURE?! Tell me mine!",
+      "Am I going to be STRONG? I want to be the STRONGEST!",
+      "The stars are PRETTY! But far away!",
+      "Your hat is TALL! Does it help you see the stars better?",
+      "I want a star! Can you get me one?!"
+    ]
+  }
+}

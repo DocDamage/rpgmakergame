@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_tunneler_maps",
+  "name": "Lost Tunnel Routes",
+  "zone": "dustbelt",
+  "giver": "Deep-Dig Dan",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Lost my tunnel maps! Three generations of digging routes! Last time I had 'em was near the collapsed shaft west of here. Find 'em and I'll share something REAL valuable - the location of the Crystal Caverns!",
+      "objective": "Search the collapsed shaft west of the bazaar for lost tunnel maps"
+    },
+    "progress": {
+      "dialog": "Those maps show EVERYTHING! Secret passages, mineral veins, dangerous zones! I NEED 'em back!",
+      "objective": "Continue searching the collapsed shaft area"
+    },
+    "complete": {
+      "dialog": "MAPS! You FOUND 'em! Look at these routes - beautiful! Here's the key to the Crystal Caverns. Rare gems there, but watch out for tunnel crawlers!",
+      "rewards": {"gold": 300, "item": "crystal_caverns_key", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "Underground routes could be useful for avoiding patrols.",
+    "grit": "Three generations of mining knowledge. That's valuable.",
+    "nix7": "Maps likely to contain geological instability data."
+  },
+  "hidden_outcome": "The maps contain a hidden route to a Progenitor cache that Dan never noticed - marked with a strange symbol"
+}

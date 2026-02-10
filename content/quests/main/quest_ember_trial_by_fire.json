@@ -1,0 +1,160 @@
+{
+  "quest_id": "ember_trial_by_fire",
+  "name": "Trial by Fire",
+  "zone": "ember",
+  "act": 2,
+  "prerequisites": [
+    "prism_shattered_light"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Scorched Path",
+      "description": "Cross the volcanic wastes to reach the Ember Kingdom",
+      "npc": "ash_walker_korrin",
+      "dialog_start": "You carry the Crystal of Truth? Bold. Dangerous. The Emberfolk will either worship you or kill you—sometimes both, depending on the day. I'm Korrin, last of the Ash Walkers. I guide travelers through the fire plains. For a price. But for a Crystal-bearer... I'll offer a discount.",
+      "objectives": [
+        "Hire Korrin as a guide",
+        "Survive the ash storms",
+        "Reach the Ember Kingdom gates"
+      ],
+      "dialog_complete": "You handle heat well—for surface-dwellers. The gates ahead lead to the Forge City, heart of the Ember Kingdom. But the real trial begins there. Their arenas aren't for sport. They're for judgment. Pray you're strong enough to survive the verdict.",
+      "rewards": {
+        "exp": 900,
+        "item": "ash_resistant_gear"
+      },
+      "target_location_id": "MIC_R07_104x56"
+    },
+    {
+      "stage": 2,
+      "name": "The Forge City's Welcome",
+      "description": "Enter the arena and prove your combat prowess",
+      "npc": "arena_master_titan",
+      "dialog_start": "OUTSIDERS! You stand in the Forge City, where weakness is melted away and only strength remains! You want our Crystal? Our sacred treasure? Then bleed for it! Show us you are WORTHY of its power! The Trial of Ashes begins at dawn—prepare your souls!",
+      "objectives": [
+        "Register for the Trial of Ashes",
+        "Win preliminary combat rounds",
+        "Survive the Culling"
+      ],
+      "dialog_complete": "You fight like caged thunder! Blood and fire, that's what we respect! You've earned the right to face the true Trial—the Test of the Burning Heart. But be warned: it is not merely combat. It is sacrifice. It is pain. It is transformation.",
+      "rewards": {
+        "exp": 1200,
+        "item": "arena_champion_badge"
+      },
+      "target_location_id": "T_CINDERSTEP_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "The Burning Heart",
+      "description": "Endure the mystical Trial that tests inner strength",
+      "npc": "flame_seer_ignis",
+      "dialog_start": "I am Ignis, Seer of the Eternal Flame. The Trial of the Burning Heart does not test your sword-arm. It tests your resolve. You will face your greatest fears, rendered in fire. You will feel your greatest failures, burning without end. Only those who refuse to break may proceed.",
+      "objectives": [
+        "Enter the Burning Heart chamber",
+        "Endure visions of your worst fears",
+        "Emerge unbroken"
+      ],
+      "dialog_complete": "You burn, yet you do not turn to ash. Remarkable. The last outsider to endure the Burning Heart was... well, let's just say we needed new carpets. You have proven your inner strength matches your outer might. The Ember King will see you now.",
+      "rewards": {
+        "exp": 1500,
+        "item": "heart_of_flame_blessing"
+      },
+      "target_location_id": "D4_BURNING_HEART_64x64"
+    },
+    {
+      "stage": 4,
+      "name": "King of Fire and Ash",
+      "description": "Meet the Ember King and learn the Crystal's location",
+      "npc": "ember_king_infernus",
+      "dialog_start": "You stand before Infernus, King of Ember and Keeper of the Second Flame. You survived the Trials—few do. But survival is not enough. The Crystal of Strength sleeps in the Caldera of Trials, guarded by the Fire Primordial. To claim it, you must defeat the undefeated. Are you truly prepared?",
+      "objectives": [
+        "Swear the Oath of Flame",
+        "Receive the King's blessing",
+        "Learn the path to the Caldera"
+      ],
+      "dialog_complete": "The Oath is sealed in fire! You are bound now—if you succeed, Ember fights beside you. If you fail... well, the fire claims all debts eventually. My daughter, Princess Pyra, will guide you to the Caldera. Do not disappoint her. She has a temper.",
+      "rewards": {
+        "exp": 1000,
+        "item": "oath_of_flame_bond"
+      },
+      "target_location_id": "T_CINDERSTEP_112x72"
+    },
+    {
+      "stage": 5,
+      "name": "Princess of the Pyre",
+      "description": "Journey with Princess Pyra to the Caldera of Trials",
+      "npc": "princess_pyra",
+      "dialog_start": "So you're the 'great hero' everyone's whispering about. You don't look like much. But Father believes in you, and his judgment is usually sound. I'm Pyra. I know every inch of the Caldera, and I've studied the Fire Primordial's patterns. Stick with me, follow my lead, and you might survive.",
+      "objectives": [
+        "Follow Pyra through lava tubes",
+        "Solve ancient Ember puzzles",
+        "Reach the Fire Primordial's lair"
+      ],
+      "dialog_complete": "You keep up better than I expected. And your tactics during that lava surge—impressive. Maybe Father's right about you. The Fire Primordial awaits below. It's... not what you expect. Ancient, yes. Powerful, absolutely. But also... lonely. Remember that.",
+      "rewards": {
+        "exp": 1300,
+        "item": "pyra_companion_unlocked"
+      },
+      "target_location_id": "D4_CALDERA_TRIALS_96x80"
+    },
+    {
+      "stage": 6,
+      "name": "The Fire Primordial",
+      "description": "Face the ancient guardian and earn the Crystal of Strength",
+      "npc": "fire_primordial_pyros",
+      "dialog_start": "[A voice like infernos and collapsing stars] ANOTHER SEEKER. ANOTHER WOULD-BE HERO. I AM PYROS, FIRST OF FLAME, GUARDIAN OF STRENGTH. YOU WOULD TAKE THE CRYSTAL? THEN SHOW ME STRENGTH BEYOND MUSCLE! SHOW ME THE STRENGTH TO PROTECT, TO SACRIFICE, TO ENDURE! FACE ME, AND BURN BRIGHT OR BURN OUT!",
+      "objectives": [
+        "Battle the Fire Primordial",
+        "Demonstrate strength of spirit",
+        "Prove worthy of the Crystal"
+      ],
+      "dialog_complete": "[The Primordial's form shifts, becoming almost gentle] YOU... YOU REMIND ME OF THE PROGENITORS. THEY TOO CARRIED HOPE INTO DARKNESS. TAKE THE CRYSTAL, BEARER. BUT KNOW THIS—STRENGTH WITHOUT WISDOM IS DESTRUCTION. WIELD IT WELL, OR WIELD IT NOT AT ALL.",
+      "rewards": {
+        "exp": 2500,
+        "item": "crystal_of_strength"
+      },
+      "target_location_id": "D4_CALDERA_TRIALS_96x80"
+    },
+    {
+      "stage": 7,
+      "name": "The Tide Calls",
+      "description": "Learn of the Crystal of Depths beneath the ocean",
+      "npc": "ember_king_infernus",
+      "dialog_start": "Two Crystals! In my lifetime! The prophecies truly awaken. The next Crystal lies in Tide—a world beneath the waves. But there is... complication. Tide has gone silent. No ships, no messengers, nothing. We fear the Void reached them before you could.",
+      "objectives": [
+        "Plan the journey to Tide",
+        "Receive Ember's fleet support",
+        "Prepare for underwater combat"
+      ],
+      "dialog_complete": "Prism's Crystal reveals truth. Ember's Crystal grants strength. But Tide's Crystal offers adaptation—the power to survive where others cannot. If Tide has truly fallen, you will need that power to retrieve it. Go with flame in your heart, Bearer. And return with the third Crystal.",
+      "rewards": {
+        "exp": 1400,
+        "gold": 900,
+        "unlock": "zone_tide"
+      },
+      "target_location_id": "MIC_R09_120x56"
+    }
+  ],
+  "story_beats": [
+    "The party must prove themselves through Ember's brutal arena trials",
+    "Princess Pyra joins as a guide and potential companion",
+    "The Fire Primordial tests not just combat ability but inner strength",
+    "The Crystal of Strength is obtained—the second of Seven",
+    "Tide zone has gone silent, suggesting the Void has struck there"
+  ],
+  "party_reactions": {
+    "kade": "I thought the Trials were just about fighting. I was wrong. When I was in the Burning Heart, I saw the moment I learned my parents were dead. Felt that pain again. But this time... I didn't let it break me. I let it fuel me. That's what strength really means.",
+    "nix7": "The Fire Primordial's energy readings defy conventional physics. It appears to be a living manifestation of thermal energy given consciousness. Fascinating. I recorded 47.3 seconds of data before my sensors overloaded. Worth it.",
+    "skysong": "Princess Pyra fights like she's got something to prove. Reminds me of... well, me, actually. I think we could be friends. Or kill each other. 50/50 odds, really.",
+    "vesper": "I've been analyzing my combat performance. 23% improvement since obtaining the Crystal of Truth. Is it psychosomatic? Placebo effect? Or do these Crystals actually enhance capabilities? Research required. Combat data delicious.",
+    "ven": "I never thought I'd be fighting in ARENAS. In front of CROWDS. Me, the kid from the swamp who talked to frogs. Now I'm... what, a gladiator? An adventurer? I like it. I really like it.",
+    "pyra": "They're not what I expected. Soft, some of them—especially the plant-person and the robot. But they've got cores of steel. And Kade... there's something about Kade. When he fights, it's not for glory. It's for everyone. That's real strength. That's what Ember needs more of."
+  },
+  "unlocks": [
+    "zone_tide",
+    "quest_tide_depths_mystery",
+    "crystal_strength_ability",
+    "companion_pyra",
+    "ember_alliance"
+  ]
+}

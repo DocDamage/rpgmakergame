@@ -1,0 +1,32 @@
+{
+  "id": "DROPS_ENEMY_NAME",
+  "entries": [
+    {
+      "item": "ITEM_ID",
+      "chance": 0.30,
+      "count": 1,
+      "condition": null
+    },
+    {
+      "item": "RARE_ITEM_ID",
+      "chance": 0.05,
+      "count": 1,
+      "condition": "flag_set"
+    },
+    {
+      "nothing": true,
+      "chance": 0.65
+    }
+  ],
+  "bonus_roll": {
+    "chance": 0.12,
+    "reward": {
+      "item": "ITEM_ID",
+      "count": 1
+    }
+  },
+  "steal_table": {
+    "common": "ITEM_ID",
+    "rare": "RARE_ITEM_ID"
+  }
+}

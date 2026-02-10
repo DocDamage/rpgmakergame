@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_parallel_rescue",
+  "name": "Infinite Possibilities",
+  "zone": "chrono",
+  "giver": "trenchcoat_black",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My daughter is trapped between timelines! A malfunctioning portal split her existence across parallel dimensions! She's simultaneously here and not here—fading from reality! You need to enter the dimensional rift and pull her back before she dissipates entirely!",
+      "objective": "Enter the dimensional rift to rescue the trapped girl"
+    },
+    "progress": {
+      "dialog": "You see her—infinite versions across infinite timelines! But Void creatures have infested the rift, feeding on the temporal energy! Fight through them, find the prime version of the girl, and guide her back to the central timeline!",
+      "objective": "Defeat the Void creatures and guide the prime version back to reality"
+    },
+    "complete": {
+      "dialog": "She's whole again! My daughter is saved! I owe you everything—across all timelines! Take this Dimensional Anchor! It prevents unwanted teleportation and keeps you grounded in your native timeline!",
+      "rewards": {
+        "exp": 1150,
+        "gold": 1000,
+        "item": "dimensional_anchor"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I saw versions of us that failed. Versions that died. We saved her. We won.",
+    "twist": "The Void feeds on temporal disruptions. We must seal such rifts.",
+    "nix7": "Parallel entity rescue: successful. Timeline integrity: maintained."
+  }
+}

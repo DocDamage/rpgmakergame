@@ -1,0 +1,116 @@
+{
+  "npc_id": "bush",
+  "name": "Thicket",
+  "title": "Hidden Survivor",
+  "zone": "capital",
+  "location": "Overgrown Garden, Northern Ruins",
+  "description": "A mysterious figure hidden among the foliage, watching and waiting for the right moment to reveal themselves.",
+  "sprite_variant": "bush",
+  "greeting_variants": [
+    "*rustling* ...who goes? Friend? Foe? Food?",
+    "Shh! Quiet! They hunt the loud ones.",
+    "*emerging slightly* You're new. New is dangerous. But... interesting.",
+    "The bush hides. The bush watches. The bush... remembers.",
+    "*snaps twig* Oops. Been here too long. Forgot how to move quiet.",
+    "You see me? Good eyes. Most walk right past.",
+    "Thicket. Once person. Now... plant? Hybrid? Survivor.",
+    "*rustling* Camouflage is life. Movement is death."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Thicket. That's my name now. Was... something else. Before. The Void changes things. Some people become monsters. Some become... this. Plant and person. Both. Neither.",
+          "options": [
+            {"text": "The Void did this?", "goto": "void_change"},
+            {"text": "How do you survive?", "goto": "survival"},
+            {"text": "Are you... okay?", "goto": "wellbeing"},
+            {"text": "I'll leave you be.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "void_change",
+          "text": "Not directly. Not... exactly. I was hiding. From the purple. Buried myself in dirt, covered with leaves. Waited for rescue. Rescue never came. But the garden... the garden accepted me. Changed me. Made me part of it.",
+          "party_reactions": {
+            "mira": "Fascinating symbiotic adaptation! The flora integrated with your biology!",
+            "thicket": "*nervous rustling* Science words. Don't understand. But... yes?"
+          },
+          "options": [
+            {"text": "Can you change back?", "goto": "reversion"},
+            {"text": "Do you want to?", "goto": "acceptance"}
+          ]
+        },
+        {
+          "id": "survival",
+          "text": "Sun. Water. Silence. I need little. The Void-touched don't see me—I'm not 'person' enough. Barrelgobs don't bother plants. Even the purple... *shivers* ...it passes over. I'm not a threat. Not food. Just... scenery.",
+          "options": [
+            {"text": "You spy on everyone?", "goto": "spying"},
+            {"text": "What have you seen?", "goto": "observations"}
+          ]
+        },
+        {
+          "id": "wellbeing",
+          "text": "*soft laugh, sounds like wind through leaves* Sometimes lonely. Sometimes peaceful. Don't feel hunger. Don't feel cold. But... miss... touch? Talking? Being seen? You see me. That's... nice. First time in... months?",
+          "options": [
+            {"text": "I'll visit again.", "goto": "promise_visit", "flags": {"thicket_friend": true}},
+            {"text": "Come to the camp.", "goto": "camp_invite"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "seeds_of_hope",
+    "title": "Seeds of Hope",
+    "description": "Help Thicket spread seeds from the overgrown garden to create new hidden safe zones throughout the ruins.",
+    "objectives": [
+      "Collect special seeds from Thicket's garden",
+      "Plant seeds at 5 strategic hiding locations",
+      "Nurture the seedlings with water and care",
+      "Report back to Thicket on the new growth"
+    ],
+    "rewards": {
+      "experience": 400,
+      "reputation": {"resistance": 20, "nature": 30},
+      "items": ["thicket_seed_pouch", "camouflage_cloak"],
+      "unlock": "thicket_safe_houses"
+    },
+    "prerequisites": ["thicket_friend"]
+  },
+  "ambient_barks": [
+    "*photosynthesizing peacefully*",
+    "*rustling* Patrol passed. Safe now. Briefly.",
+    "The roots remember water. I remember... less.",
+    "*gentle swaying* Wind feels nice. Always nice.",
+    "Bird landed on me yesterday. First friend in... time.",
+    "*whispering* Purple ones walk funny. Wrong. Avoid.",
+    "Garden grows. I grow. Garden protects. I... watch.",
+    "*soft hum* Old song. Remember? Don't remember."
+  ],
+  "cross_zone_references": {
+    "mire": "The Mire knows plants. Deep plants. Old plants. I feel... kinship.",
+    "void_nexus": "The purple-deep has no green. No life. Just... hungry. I fear."
+  },
+  "party_reactions": {
+    "mira": {
+      "greeting": "Extraordinary! A perfect plant-human symbiosis!",
+      "response": "*shy rustling* You... don't run. Don't scream. Nice."
+    },
+    "garret": {
+      "greeting": "Uh... hello? Bush? Person? Both?",
+      "response": "*amused rustling* Both. Yes. Hello, confused one."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Photosynthesizing, observing, dormant",
+      "night": "More active, moving slightly, watching"
+    },
+    "world_state_triggers": {
+      "danger_nearby": "Freezes completely, becomes indistinguishable from normal bush",
+      "safe_clear": "Relaxes, may offer information gathered while hidden"
+    }
+  }
+}

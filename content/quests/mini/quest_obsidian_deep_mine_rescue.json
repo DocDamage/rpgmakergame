@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_deep_mine_rescue",
+  "name": "Beneath the Black Stone",
+  "zone": "obsidian",
+  "giver": "tunneler_gray",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Cave-in at Shaft 12! Six miners trapped below the 400-meter mark! The tunnels are unstable, and something woke up in the depths—cave crawlers! We need someone brave enough to descend and extract the survivors!",
+      "objective": "Descend into Shaft 12 and locate the trapped miners"
+    },
+    "progress": {
+      "dialog": "You found them! But cave crawlers block the evacuation route! There are too many to fight through! Find another way out—there are old ventilation shafts that might lead to the surface!",
+      "objective": "Find an alternate escape route through the ventilation shafts"
+    },
+    "complete": {
+      "dialog": "All six rescued! Their families are weeping with joy! The Mining Guild owes you a debt of gratitude! Here's a rescue reward—and this Deep Delver's Helm with built-in breathing filter and headlamp!",
+      "rewards": {
+        "exp": 950,
+        "gold": 850,
+        "item": "deep_delvers_helm"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Pulling people from collapsed tunnels. Heavy work, but worth it!",
+    "twist": "Those cave crawlers were grotesque. I can still hear the skittering.",
+    "nix7": "Rescue operation: successful. Casualties: zero. Optimal outcome."
+  }
+}

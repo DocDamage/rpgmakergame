@@ -1,0 +1,54 @@
+{
+  "npc_id": "kade",
+  "name": "Kade",
+  "title": "Shard Bearer",
+  "zone": "palace",
+  "location": "The Council of Allies Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "resilient_curious_grounded",
+  "occupation": "protagonist",
+  "dialog": {
+    "greeting": [
+      "Kade on comms. Stage 3: The Council of Allies. Keep formation tight and decisions tighter.",
+      "We are running The Progenitor's Will. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Hear Nix7's analysis."
+    ],
+    "quest_hook": "Objective stack: Hear Nix7's analysis; Hear Skysong's wisdom; Hear Vesper's research. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Consult with all companions before making the final choice. Immediate move: Hear Nix7's analysis.",
+    "quest_complete": "Stage 3 resolved: The Council of Allies. Primary objective secured and route stabilized. Prepare for The Choice Made.",
+    "rumor": [
+      "Engine technicians heard the core whisper every companion name in order.",
+      "People keep repeating one clue from The Council of Allies: 'Hear Sovereign's leadership'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Keep moving.",
+      "We can do this.",
+      "Breathe and focus.",
+      "One step, then next."
+    ],
+    "time_dawn": "Dawn in the palace refracts through crystal halls; false routes are common.",
+    "time_noon": "Noon activates old systems and old defenses. Assume every tile is listening.",
+    "time_dusk": "Dusk makes memory projections bolder. Do not negotiate with every ghost.",
+    "time_night": "Night at the engine core is quiet and dangerous. Keep your purpose fixed."
+  },
+  "party_reactions": {
+    "kade": "Note to self: less speech, more action.",
+    "nix7": "Tactical profile for Kade accepted. Probability of success improves with compliance.",
+    "twist": "Kade mode unlocked. We do the brave thing and then eat something huge."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "palace_progenitor_will"
+    ],
+    "fallback_dialog_tree": "DT_FALLBACK_MISC",
+    "world_break_aware": true
+  }
+}

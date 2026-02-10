@@ -1,0 +1,94 @@
+{
+  "npc_id": "snakecharmer_frost",
+  "name": "Sssilas the Warm",
+  "sprite": "snakecharmer",
+  "zone": "frost",
+  "location": "Visitor's Hut",
+  "personality": "mysterious_defensive_secretive",
+  "occupation": "strange_visitor",
+  "dialog": {
+    "greeting": [
+      "...You're letting in cold. Close the door.",
+      "Sssilas. Yes, from the Mire. No, I won't perform.",
+      "The rock stays warm. That's all you need to know.",
+      "Visitor from elsewhere. Like you. Different elsewhere.",
+      "Mr. Whiskers is... hibernating. The cold. He doesn't like it.",
+      "I'm here for the rock. Research. Nothing more.",
+      "The warm rock. Heated. By what? That's the question.",
+      "Close the door. Please. The heat escapes."
+    ],
+    "performance_refusal": "No shows. No performances. The cold... changes things. Mr. Whiskers is... different here.",
+    "rock_secret": "The rock. Found it in the Mire. But it belongs here. Warm. Alive, almost. I'm studying it.",
+    "quiet_moment": "Between us? I'm scared. The rock whispers. Not words. Feelings. Warmth. Longing. For what?",
+    "backstory": "I followed the rock's warmth. From Mire to here. It wants something. Someone? I'm... uncertain.",
+    "rumor": [
+      "The twins? They looked at me. At the rock. Said 'elsewhen.' Whatever that means.",
+      "Cirrus wants my rock. For 'meteorological study.' No. It's... mine.",
+      "Azure wants to fly it up. See what happens. Also no. Dangerous.",
+      "The foodboys want it for cooking. Tempting. But no.",
+      "Chrono sent a message. Through TIME. 'The rock belongs to Tuesday.' Helpful."
+    ],
+    "quest_hook": "The rock needs... tending. Warming lamp. Specific kind. Rare. Find one?",
+    "quest_active": "Still no lamp? The rock grows... cold. Quiet. Sad?",
+    "quest_complete": "The lamp! It works! The rock... hums. Thank you. Here. Mire charm. My original craft. Protection.",
+    "farewell": [
+      "Close the door. Keep the warmth.",
+      "The rock says... goodbye. I think.",
+      "Return. If you find... answers."
+    ],
+    "ambient_barks": [
+      "Shhh. Rock is sleeping.",
+      "Warmth... preserve warmth...",
+      "Mr. Whiskers... quiet...",
+      "No cold... no cold...",
+      "The rock... speaks...",
+      "Elsewhere... elsewhere..."
+    ],
+    "time_dawn": "Morning. Rock is warmest. Don't know why.",
+    "time_noon": "Midday. Rock... restless. Active?",
+    "time_dusk": "Evening. Rock cools. Worries me.",
+    "time_night": "Night. Rock dreams. I listen.",
+    "rival_mention": "My Mire counterpart? Still performing. Warm. Lucky.",
+    "post_quest_greeting": "The lamp-bringer. Rock is happy. Warm. Thank you."
+  },
+  "party_reactions": {
+    "kade": "He's different from the Mire snake charmer. Colder. More worried.",
+    "nix7": "Rock analysis: Anomalous. Heat source: Unknown. Sentience: Possible.",
+    "twist": "Can I see the rock? It's WARM?! In FROST?! That's AMAZING!",
+    "korr": "He carries a burden. Unwillingly. Honorably.",
+    "renna": "The rock is temporally active. From elsewhere. Elsewhen. Powerful.",
+    "suresh": "He has found duty. The rock chose him. He accepted. Path of service.",
+    "sova": "Interesting rock. I'd study it. From a distance.",
+    "grit": "Man with a mission. Guarding something important. Respect.",
+    "ashka": "Warm rock. Fire without flame. Intriguing.",
+    "senna": "He knows the rock's secrets. Won't share. Yet.",
+    "callum": "His heating lamp requirements! SPECIFIC! Precise!"
+  },
+  "relationship_dialog": {
+    "stranger": "...Close the door. Cold enters.",
+    "acquaintance": "You return. Still curious?",
+    "friend": "I trust you. With the warmth. With... knowledge.",
+    "best_friend": "You understand. The burden. The warmth. Here. Touch the rock. It knows you now."
+  },
+  "mini_quest": {
+    "id": "warm_lamp",
+    "title": "The Warming Lamp",
+    "description": "Help Sssilas find a special warming lamp for his mysterious heated rock",
+    "stages": {
+      "hook": "The rock needs tending. Warming lamp. Specific. Rare. Find one? Please? Before it grows cold.",
+      "active": "Healer Glacier might know. Or the ice cellar. Warmth preservation. Their expertise.",
+      "complete": "The lamp! Perfect! The rock... hums. Content. Here. Snake charm. Original craft. Protection always."
+    },
+    "reward": {
+      "item": "sssilas_mire_charm",
+      "gold": 300,
+      "reputation": "warm_rock_keeper"
+    }
+  },
+  "cross_npc_connections": [
+    "snakecharmer_mire: My other self. Still performing. Warm. Lucky. I miss it.",
+    "pigman_blue_frost: The healer. Studied the rock. Medically fascinating. Magically... elsewhere.",
+    "twins_white_frost: Oracles. Said 'elsewhen.' About the rock. About me.",
+    "cobra_frost: Mr. Whiskers. Hibernating. Cold-blooded. Not handling frost well."
+  ]
+}

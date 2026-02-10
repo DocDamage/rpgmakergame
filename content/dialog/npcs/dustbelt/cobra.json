@@ -1,0 +1,92 @@
+{
+  "npc_id": "cobra_dustbelt",
+  "name": "Mr. Whiskers",
+  "sprite": "cobra",
+  "zone": "dustbelt",
+  "location": "With Sssilas - Dustbelt Bazaar",
+  "personality": "actually_just_a_pet",
+  "occupation": "performance_cobra",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*gentle hissing*",
+      "*confused head tilt*",
+      "*flute-directed movement*",
+      "Sssss...",
+      "*tongue flick*",
+      "*vibrations sensed*"
+    ],
+    "performance_pose": [
+      "*rises to flute vibrations*",
+      "*hood expands dramatically*",
+      "*swaying in confused rhythm*",
+      "*looks at crowd with mild concern*"
+    ],
+    "hungry": [
+      "*hunger hiss*",
+      "*looking for mice*",
+      "*sniff sniff*"
+    ],
+    "content": [
+      "*contented coil*",
+      "*warm rock appreciation*",
+      "*post-meal nap preparation*"
+    ],
+    "secret_truth": "*is actually a harmless corn snake*",
+    "favorite_things": [
+      "Warm rocks",
+      "Small mice",
+      "Flute vibrations",
+      "Twist's gentle hands",
+      "Not being touched by strangers"
+    ],
+    "rumor": [
+      "*hisses disapproval of barrel storage*",
+      "*senses lizards nearby*",
+      "*remembers a nice warm spot from last visit*"
+    ],
+    "farewell": [
+      "*departing slither*",
+      "*basket return*",
+      "*final tongue flick*"
+    ],
+    "ambient_barks": [
+      "...",
+      "Sss...",
+      "*coil adjustment*",
+      "*scales rustling*",
+      "*yawn (tiny)*"
+    ],
+    "if_twist_present": "*excited wiggle* *friend detected*",
+    "if_nix7_present": "*analyzed* *confused by scan*",
+    "if_renn_casts": "*intrigued by magic sparks*"
+  },
+  "party_reactions": {
+    "kade": "Please don't look at me.",
+    "nix7": "Subject: non-venomous colubrid. Threat level: minimal.",
+    "twist": "HELLO MR. WHISKERS! REMEMBER ME?!",
+    "korr": "A simple creature. No malice. Only instinct.",
+    "renna": "He's actually quite adorable. Don't tell Sssilas I said that."
+  },
+  "relationship_dialog": {
+    "stranger": "*wary observation*",
+    "acquaintance": "*recognized scent*",
+    "friend": "*approachable coil*",
+    "best_friend": "*seeks attention from*"
+  },
+  "mini_quest": {
+    "id": "mr_whiskers_treats",
+    "title": "Whisker's Favorite",
+    "description": "Bring Mr. Whiskers his favorite desert mouse treats",
+    "stages": {
+      "hook": "*interested sniff at mention of mice*",
+      "active": "*hunger intensifies*",
+      "complete": "*satisfied digestion* *happy tail wag*"
+    },
+    "reward": {
+      "item": "whiskers_shed_skin",
+      "gold": 50,
+      "reputation": "snake_friend"
+    }
+  }
+}

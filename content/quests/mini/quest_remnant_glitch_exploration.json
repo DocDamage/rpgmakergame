@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_glitch_exploration",
+  "name": "Through the Broken World",
+  "zone": "remnant",
+  "giver": "coolcat_glitch",
+  "type": "exploration",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "The Remnant isn't just post-game content—it's a broken reflection of everything we've done. Reality here glitches, fragments, shows what might have been. I've found three stable glitch zones that hold secrets: a world where we failed, a world where we never tried, a world where we won too completely. Explore them. Learn. Remember why we fought.",
+      "objective": "Explore the three stable glitch zones in the Remnant"
+    },
+    "progress": {
+      "dialog": "Two zones explored, and the emotional toll is real. Seeing our failures, our absences... it puts victory in perspective. The third zone is different—'perfect victory' where we saved everyone but lost ourselves. The glitch wants to trap you there, show you what 'could have been.' Resist. Remember who you are.",
+      "objective": "Resist the perfect victory trap and complete the exploration"
+    },
+    "complete": {
+      "dialog": "All zones explored, perspectives gained, reality affirmed. You chose the hard path—the real path—and that choice matters more than any perfect outcome. The Remnant shows us what we sacrificed, what we risked, what we achieved. Wear those scars with pride, Kade. They're the proof of your heroism.",
+      "rewards": {
+        "exp": 50000,
+        "gold": 15000,
+        "item": "glitch_zone_map"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Seeing the world where I never left Rusthaven... I'd be dead by now. Or worse, irrelevant. Glad I climbed.",
+    "nix7": "Alternate timeline analysis complete. Our reality shows 94% optimal outcome given initial conditions. Satisfactory.",
+    "petra": "The world where we 'won too completely'—where I embraced my mutation fully—I looked happy. But I wasn't me anymore."
+  },
+  "lore_unlocks": ["remnant_glitch_zones", "alternate_timelines"]
+}

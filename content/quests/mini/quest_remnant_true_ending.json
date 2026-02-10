@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_true_ending",
+  "name": "The Final Secret",
+  "zone": "remnant",
+  "giver": "twins_glitch",
+  "type": "exploration",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "You saw an ending. A good ending, perhaps. But not the only one. The Remnant holds the path to something more—a true ending that requires seeing everything, doing everything, being everything this world offers. We know the way, but we cannot walk it. Only you can. Are you ready for the final journey?",
+      "objective": "Begin the journey to the Remnant's true ending path"
+    },
+    "progress": {
+      "dialog": "The path requires completion—every quest, every secret, every connection forged. Check your accomplishments. What remains undone? The Remnant shows the way to what you missed. Go back. Finish what you started. Then return here, complete, whole, ready for truth.",
+      "objective": "Complete all remaining content and return to unlock the true ending"
+    },
+    "complete": {
+      "dialog": "Completion achieved, truth revealed, the true ending unlocked. You didn't just save the world—you became part of it, connected to every life, every story, every moment. The world remembers you. The world thanks you. And when you're ready to begin again, the Remnant will be here, holding everything you built. Thank you for playing, hero. Thank you for being.",
+      "rewards": {
+        "exp": 200000,
+        "gold": 100000,
+        "item": "true_ending_key"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "This is it. Everything we've done, everyone we've met, it all comes together here. What a journey.",
+    "twist": "Never thought I'd see a 'true ending.' Thought I'd die in a gutter somewhere. Thanks for proving me wrong.",
+    "nix7": "Journey analysis: 100% completion. Maximum relationship values achieved. Optimal outcome obtained. It was an honor, Kade."
+  },
+  "lore_unlocks": ["true_ending", "completion_lore"]
+}

@@ -1,0 +1,102 @@
+{
+  "npc_id": "signguy_remnant",
+  "name": "The Unnamed Signpainter",
+  "sprite": "signguy_glitch",
+  "zone": "remnant",
+  "location": "Unreadable Plaza",
+  "personality": "unreadable_shifting",
+  "occupation": "unreadable_signs",
+  "dialog": {
+    "greeting": [
+      "Si...gns... ERR... ev...er...y...where...",
+      "Brush... ERR... mas...ter...",
+      "Wel...come... ERR... read...",
+      "The... ERR... sky... can...vas...",
+      "Lo...ok... ERR... ing...",
+      "Sig...ns... ERR... tell...",
+      "Hel...lo... ERR... ev...er...y...where..."
+    ],
+    "commission_offer": "Ne...ed... ERR... sign...? I... do... ERR... hand... paint...ed...",
+    "portfolio_show": "See... ERR... that... one... 'C...loud... ERR... N...ails...' ...I... think...",
+    "paint_philosophy": "A... ERR... sign... with... out... ERR... soul... just... bo...ard...",
+    "haggle": [
+      "Art... ERR... price... less...",
+      "For... ERR... you... ex...tra... spark...les...",
+      "Bulk... ERR... dis...count...",
+      "Fine... ERR... cre...a...tive..."
+    ],
+    "commission_accept": [
+      "EX...CEL...LENT... ERR... vi...sion...",
+      "This... ERR... mas...ter... piece...",
+      "Pre...pare... ERR... vi...si...bil...i...ty...",
+      "Sign... ERR... me... up..."
+    ],
+    "commission_reject": [
+      "No... ERR... bud...get...",
+      "Paint... ERR... costs...",
+      "Save... ERR... worth... it..."
+    ],
+    "rumor": [
+      "Pain...ted... ERR... twins... once... they... wan...ted... TWO... iden...ti...cal... ERR... creep...y...",
+      "The... ERR... trench...coat... person's... sign... chang...es... when... I'm... not... ERR... look...ing...",
+      "Crim...son's... ERR... sign... catch...es... fire... de...sign... ERR... flaw...",
+      "Some...thing... ERR... near... Vault... makes... paint... wrong... col...ors... ERR... work...",
+      "The... ERR... sunandmoon... wan...ted... ce...les...ti...al... mu...ral... still... ERR... work...ing..."
+    ],
+    "quest_hook": "I... ERR... need... Pig...ment... ERR... Crys...tals... from... the... ERR... Prism... Caves... for... my... ULT...I...MATE... pal...ette...",
+    "quest_active": "Those... ERR... crys...tals... gleam...ing... yet...",
+    "quest_complete": "THE... SPEC...TRUM... ERR... so... pure... Your... por...trait... my... BEST... work... ERR... yet...",
+    "quest_reward": "Unreadable Masterpiece - Changes appearance when observed!",
+    "farewell": [
+      "Keep... ERR... eyes... UP...",
+      "Sign... ERR... off...",
+      "May... ERR... your... mes...sage... be... seen..."
+    ],
+    "ambient_barks": [
+      "Si...gns... ERR...",
+      "Vis...i...bil... ERR... i...ty...",
+      "Ev...er...y... ERR... build...ing...",
+      "Paint... ERR...",
+      "Look... ERR... up..."
+    ],
+    "time_dawn": "Morn...ing... ERR... light...",
+    "time_noon": "Bright... ERR... sun...",
+    "time_dusk": "Gold...en... ERR... hour...",
+    "time_night": "Night... ERR... paint...ing..."
+  },
+  "party_reactions": {
+    "kade": "Your work is... everywhere? I think?",
+    "nix7": "Your work has a 23% error rate. Now 100%.",
+    "twist": "I saw... your signs? They're... everywhere? Maybe?",
+    "korr": "A craftsman's work, lost to corruption. Sad.",
+    "renna": "The signs are unreadable. The art is lost.",
+    "suresh": "Messages without meaning. Communication broken.",
+    "sova": "Can't use unreadable signs as landmarks. Useless.",
+    "grit": "Paint? In this place? Even art is broken.",
+    "ashka": "Can you make... no, never mind. It's all wrong.",
+    "senna": "Shifting signs. Good for... confusion. Maybe.",
+    "callum": "What happened to your beautiful signs? This is terrible!",
+    "petra": "Craftsmanship, unreadable. Like runes worn smooth."
+  },
+  "relationship_dialog": {
+    "stranger": "Ne...ed... ERR... sign...",
+    "acquaintance": "Re...turn... ERR... cus...tom...er...",
+    "friend": "My... ERR... fa...vor...ite... pa...tron...",
+    "best_friend": "Cre...a...tive... ERR... soul... mate..."
+  },
+  "mini_quest": {
+    "id": "unreadable_pigments",
+    "title": "Shifting Pigments",
+    "description": "Find Pigment Crystals for the sign painter",
+    "stages": {
+      "hook": "Pig...ment... ERR... Crys...tals... three...",
+      "active": "Prism... ERR... Caves...",
+      "complete": "SPEC...TRUM... ERR... your... por...trait..."
+    },
+    "reward": {
+      "item": "unreadable_masterpiece",
+      "gold": 320,
+      "reputation": "shifting_artist"
+    }
+  }
+}

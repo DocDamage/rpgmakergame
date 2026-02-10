@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_twins_riddle",
+  "name": "Twin Mysteries",
+  "zone": "uplands",
+  "giver": "The Twins (Red and White)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Twin Red: We have a riddle! / Twin White: A mystery! / Twin Red: Find the three mirrored stones! / Twin White: Hidden where sky meets earth! / Both: Solve it and receive WISDOM!",
+      "objective": "Find three mirrored stones hidden where sky meets earth in the Uplands"
+    },
+    "progress": {
+      "dialog": "Twin Red: One stone found! / Twin White: Two more to go! / Twin Red: Look where clouds touch! / Twin White: Look where eagles nest!",
+      "objective": "Continue searching for the remaining mirrored stones"
+    },
+    "complete": {
+      "dialog": "Twin Red: All three! / Twin White: You see clearly! / Twin Red: Here - our mother's crystal! / Twin White: It shows the truth behind reflections! / Both: Use it wisely!",
+      "rewards": {"gold": 400, "item": "truthseeker_crystal", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Finishing each other's sentences. Kind of creepy.",
+    "nix7": "Synchronized speech patterns suggest telepathic connection.",
+    "renna": "The stones resonate with Light Foundation energy."
+  },
+  "hidden_outcome": "If you find a fourth hidden stone, the Twins reveal they are actually one person split by a Foundation anomaly"
+}

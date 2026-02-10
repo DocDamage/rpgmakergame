@@ -1,0 +1,124 @@
+{
+  "npc_id": "aeronaut_gold",
+  "name": "Zenith",
+  "title": "Sky Captain",
+  "zone": "palace",
+  "location": "The Celestial Dock, Chromatic Palace",
+  "description": "The master of aerial transcendence, commanding vessels that sail between realities and navigate the true sky.",
+  "sprite_variant": "aeronaut_gold",
+  "greeting_variants": [
+    "*balloon of golden light descending* Welcome aboard, traveler. To the true voyage.",
+    "Zenith. Sky Captain. Navigator of the All-Sky.",
+    "*checking celestial charts* Drift explores the Void. Vantage observes from Tower. I... transcend both.",
+    "The Aether Ships sail where balloons fear. Where dreams ascend.",
+    "*gesturing to magnificent vessel* She is Dawnlight. Fastest in the fleet. Only in the fleet.",
+    "From here, all zones are visible. All are small. All are precious.",
+    "The true sky awaits. Not the torn sky. The whole sky. Remembered.",
+    "*wind catching golden sails* Final boarding. For the journey beyond journeys."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*bowing with captain's grace* Zenith, at your service. Sky Captain of the Palace Aether Fleet. Drift braves the Void winds. Vantage watches from Tower height. I navigate... between. Above. Beyond. The true sky—the whole sky—still exists. Here. Protected. Preserved.",
+          "options": [
+            {"text": "True sky?", "goto": "true_sky"},
+            {"text": "Where can you sail?", "goto": "destinations"},
+            {"text": "Can I see the zones from above?", "goto": "aerial_view"},
+            {"text": "I'm ready to sail.", "goto": "sail_ready"}
+          ]
+        },
+        {
+          "id": "true_sky",
+          "text": "*gesturing upward* Before the Cataclysm, the sky was whole. Connected. Infinite. The tear you see from below—it is a wound. But the body remains. Here, above the Palace, the true sky persists. Stars in harmony. Moon and Sun at peace. The cosmos... complete.",
+          "party_reactions": {
+            "mira": "A preserved celestial sphere? Astonishing!",
+            "zenith": "*proud* Preserved. Protected. And... navigable."
+          },
+          "options": [
+            {"text": "Can the wound be healed?", "goto": "sky_healing"},
+            {"text": "What tore it?", "goto": "tearing_force"}
+          ]
+        },
+        {
+          "id": "destinations",
+          "text": "*spreading arms wide* Anywhere the true sky touches. Which is... everywhere. The zones from above. The Void from within. The Progenitor's dream from... beside. Even, perhaps, other worlds. Other dreams. The Aether Ships go where courage sails.",
+          "unlocks": {"voyage_access": ["zone_overview", "void_penetration", "dream_navigation"]},
+          "options": [
+            {"text": "Show me the zones from above.", "goto": "zone_voyage"},
+            {"text": "Can we reach the Progenitor by sky?", "goto": "progenitor_voyage"}
+          ]
+        },
+        {
+          "id": "aerial_view",
+          "text": "*nodding* From above, all zones are visible. Small. Precious. Connected beneath the tears. The Void appears as... shadow. Absence. But not evil. Just... wound. Waiting for healing. The Capital fights. The Tower reaches. All strive. All survive. Beautiful. Tragic. Hopeful.",
+          "options": [
+            {"text": "It sounds beautiful.", "goto": "beauty_agreement"},
+            {"text": "Take me up.", "goto": "ascension_request"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_arrival",
+    "title": "Royal Feast - The Grand Arrival",
+    "description": "Help Zenith coordinate the aerial arrival of dignitaries from all zones for the Royal Feast, creating a spectacle of unity.",
+    "objectives": [
+      "Prepare Dawnlight for dignitary transport",
+      "Fly to each zone and extend formal invitation",
+      "Coordinate aerial formation with zone representatives",
+      "Execute the Grand Descent to the Palace",
+      "Witness the unity of all zones arriving together"
+    ],
+    "rewards": {
+      "experience": 1300,
+      "reputation": {"palace_court": 65, "aeronauts": 60},
+      "items": ["zenith_captain_hat", "dawnlight_model"],
+      "unlock": "celestial_navigation"
+    },
+    "prerequisites": ["palace_access"]
+  },
+  "ambient_barks": [
+    "*checking rigging* Secure. Ready. Always ready.",
+    "Drift would love these winds. Void-touched but... navigable.",
+    "Vantage sees well. But from here, seeing becomes... understanding.",
+    "*wind in golden sails* The Aether carries us. Trust it.",
+    "All zones visible. Small. Precious. Worth fighting for.",
+    "*to crew* Ready about! Hard to lee! ...Old sailing terms. Tradition.",
+    "The true sky welcomes all. Has waited. Patient. Eternal.",
+    "*spotting something* There! The tear! From above, it looks... healable."
+  ],
+  "cross_zone_references": {
+    "capital": "Vex commands well. Brave people. Deserve the sky I see.",
+    "void": "Drift flies there. Brave. Mad. Both. Good aeronaut.",
+    "chroma_tower": "Vantage watches. Good eyes. But should see THIS sky.",
+    "all_zones": "All visible. All reachable. All precious. All one."
+  },
+  "party_reactions": {
+    "drift": {
+      "greeting": "*awed* Captain... this ship... these skies...",
+      "response": "*proud* Navigator Drift. You have earned these winds."
+    },
+    "vantage": {
+      "greeting": "*stunned* I thought I knew the sky...",
+      "response": "*welcoming* Now you see truly. Welcome to the All-Sky."
+    },
+    "kael": {
+      "greeting": "Soldier. Ready to see the battlefield from above?",
+      "response": "*determined* Ready. For perspective. For understanding."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Sailing the true sky, transporting dignitaries",
+      "night": "Navigating by true stars, communing with celestial harmony"
+    },
+    "world_state_triggers": {
+      "voyage_begins": "Commanding: 'Cast off! All sails! Destination: Unity!'",
+      "zones_unite": "Joyful: 'See them! All together! As it was! As it will be!'"
+    }
+  }
+}

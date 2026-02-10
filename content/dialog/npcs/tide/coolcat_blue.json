@@ -1,0 +1,70 @@
+{
+  "npc_id": "coolcat_blue_tide",
+  "name": "Shanty-Shane",
+  "sprite": "coolcat_blue",
+  "zone": "tide",
+  "location": "The Salty Anchor Tavern",
+  "personality": "melancholic_nostalgic",
+  "occupation": "sea_shanty_singer",
+  "schedule": "performs_evenings",
+  "dialog": {
+    "greeting": [
+      "*strums guitar* Ho there, traveler. Care for a shanty?",
+      "The sea gives songs. I just... sing them.",
+      "Shanty-Shane. I sing of waves and woes.",
+      "Back again? Got a favorite song? I know them ALL.",
+      "Welcome. The Anchor's quiet now. But the songs remain.",
+      "New face. You look like you've known loss. Good. Songs need SOUL.",
+      "The tide brings many things. Including you.",
+      "Sit. Listen. The sea has stories."
+    ],
+    "shanty_offer": "Old songs. New songs. Songs of home. Songs of never returning. What's your mood?",
+    "song_meaning": "Shanties aren't just songs. They're... shared pain. Shared hope. Shared work. Rhythm for the rowing.",
+    "tide_inspiration": "Every song is TRUE. Someone lived it. Someone died for it. I just remember.",
+    "instrument_care": "This guitar? Saw me through three shipwrecks. Two marriages. One particularly bad tavern brawl. She's family.",
+    "rumor": [
+      "The oldest shanty? About the Collapse. Before. When the world was... different.",
+      "Mire's songs are SLOW. Mournful. Appropriate.",
+      "Frost has no shanties. Too cold for singing. Or so they say.",
+      "Aetherreach has sky-songs. Different. But still about... distance."
+    ],
+    "requested_songs": "'Leave Her Johnny' - classic. 'The Mermaid' - hopeful. 'The Captain's Dead' - dark. Your choice.",
+    "farewell": [
+      "Fair winds follow you.",
+      "May your anchor hold.",
+      "Come back. I'll save you a song.",
+      "The tide turns. So do we."
+    ],
+    "ambient_barks": [
+      "*gentle guitar*",
+      "Way haul away...",
+      "The sea remembers...",
+      "Sing with me...",
+      "Old songs...",
+      "The waves provide..."
+    ],
+    "time_dawn": "Morning quiet. Tuning. Remembering.",
+    "time_noon": "Practice. New arrangements. Old favorites.",
+    "time_dusk": "Showtime. The workers come. The songs flow.",
+    "time_night": "Late songs. For the lonely. For the lost."
+  },
+  "party_reactions": {
+    "kade": "These songs... they really get to you.",
+    "nix7": "Musical tradition: ancient. Emotional resonance: high. Purpose: communal bonding.",
+    "twist": "*sniff* That one was SAD! I liked it!",
+    "korr": "Songs of warriors. Songs of sailors. Not so different.",
+    "renna": "The magic in old songs is subtle. But real.",
+    "suresh": "Music carries memory across generations. Preserve it.",
+    "sova": "Dark songs. Honest songs. I appreciate that.",
+    "grit": "Heard these on the march. Kept us going.",
+    "ashka": "Songs about water. Too much water.",
+    "senna": "The quiet ones hide the most. Like these songs.",
+    "callum": "*wiping tears* That was beautiful! Can you play it again?!"
+  },
+  "relationship_dialog": {
+    "stranger": "Sit. Listen. Or don't. The songs play anyway.",
+    "acquaintance": "You're back. You like the old songs.",
+    "friend": "My friend. What story shall I sing for you?",
+    "best_friend": "You understand. The sea. The songs. The sorrow. Here - my guitar pick. You're family."
+  }
+}

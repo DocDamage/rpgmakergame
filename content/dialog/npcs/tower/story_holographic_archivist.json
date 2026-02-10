@@ -1,0 +1,54 @@
+{
+  "npc_id": "holographic_archivist",
+  "name": "Holographic Archivist",
+  "title": "Lore Keeper",
+  "zone": "tower",
+  "location": "Memories in Stone Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_precise_obsessive",
+  "occupation": "researcher",
+  "dialog": {
+    "greeting": [
+      "Holographic Archivist on comms. Stage 3: Memories in Stone. Keep formation tight and decisions tighter.",
+      "We are running The Ascent. Objective drift gets teams buried.",
+      "I put fear on a schedule. It keeps missing meetings.",
+      "Action first, panic never. Start with: Activate the ancient records."
+    ],
+    "quest_hook": "Objective stack: Activate the ancient records; Learn the truth of the Unraveling; Understand the Progenitors' sacrifice. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Witness holographic records of the Progenitors' final days. Immediate move: Activate the ancient records.",
+    "quest_complete": "Stage 3 resolved: Memories in Stone. Primary objective secured and route stabilized. Prepare for The Penultimate Step.",
+    "rumor": [
+      "Arena chalk marks now redraw themselves after every storm.",
+      "People keep repeating one clue from Memories in Stone: 'Understand the Progenitors' sacrifice'.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking."
+    ],
+    "ambient_barks": [
+      "Pattern noted.",
+      "Archive that.",
+      "Evidence first.",
+      "Hypothesis holding."
+    ],
+    "time_dawn": "Dawn in the tower is maintenance hour. Security patterns are predictable.",
+    "time_noon": "Noon rotations overlap. Expect stacked encounters and less recovery time.",
+    "time_dusk": "Dusk shadowing in tower arenas hides projectile tells. Keep spacing.",
+    "time_night": "Night floor clears are endurance checks. Pace your resources."
+  },
+  "party_reactions": {
+    "kade": "Holographic Archivist sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Holographic Archivist accepted. Probability of success improves with compliance.",
+    "twist": "Holographic Archivist talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "tower_ascent"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+    "world_break_aware": true
+  }
+}

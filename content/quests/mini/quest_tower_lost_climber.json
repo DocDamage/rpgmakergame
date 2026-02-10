@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_lost_climber",
+  "name": "The Lost Ascendant",
+  "zone": "tower",
+  "giver": "tunneler",
+  "type": "exploration",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "My partner went ahead three days ago—said he found a shortcut to the upper floors. Haven't heard from him since. The Tower doesn't forgive mistakes, but I can't just leave him. If you're climbing, keep an eye out. His name's Voss, wears a red scarf. Please.",
+      "objective": "Search for the missing climber Voss in the Tower mid-sections"
+    },
+    "progress": {
+      "dialog": "Found Voss's camp at Floor 67, but he's not alone. Something's cornered him—a rogue construct that broke its programming. He's alive but trapped. We need to get past that construct to reach him, and it's not responding to standard shutdown codes.",
+      "objective": "Defeat the rogue construct and rescue Voss"
+    },
+    "complete": {
+      "dialog": "Voss is safe, shaken but alive. Says the 'shortcut' was a trap—something in the Tower wanted him isolated. He's learned a hard lesson about greed. You brought him back when you could have climbed on. That says more about you than any floor completion.",
+      "rewards": {
+        "exp": 18000,
+        "gold": 3500,
+        "item": "voss_gratitude_token"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Nobody gets left behind in the Tower. Not while I'm climbing. That's not how this works.",
+    "nix7": "Rogue construct behavior suggests Tower AI instability above Floor 60. Recommend caution in upper sections.",
+    "suresh": "Voss was dehydrated, half-starved. Another day and we would've been recovering a body. Good timing."
+  },
+  "lore_unlocks": ["tower_climbing_culture", "rogue_constructs"]
+}

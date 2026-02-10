@@ -1,0 +1,510 @@
+{
+  "id": "OW_DUNGEONS_MAIN_1x1",
+  "maps": [
+    {
+      "id": "D1_RUINS_96x96",
+      "display_name": "Ruins of Ashveil",
+      "type": "dungeon",
+      "act": 1,
+      "foundation": "growth",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_AshveilStone",
+      "encounter_table": "D1_ENCOUNTERS",
+      "boss": "BOSS_THE_BLOOM",
+      "music": "bgm_dungeon_ruins",
+      "lighting": "dim_bioluminescent",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R02_80x48",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D1_LOWER",
+          "coords": [
+            48,
+            48
+          ],
+          "trigger": "puzzle_solved"
+        }
+      ],
+      "submaps": [
+        "D1_GATEHOUSE",
+        "D1_LOWER",
+        "D1_PUZZLE_WINGS",
+        "D1_PEDESTAL_CHAMBER"
+      ],
+      "puzzles": [
+        {
+          "type": "weight_pressure",
+          "location": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "pedestal_activation",
+          "location": [
+            80,
+            80
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_GROWTH_ACQUIRED",
+        "D1_CLEARED"
+      ]
+    },
+    {
+      "id": "D2_FUNGAL_96x96",
+      "display_name": "Fungal Depths",
+      "type": "dungeon",
+      "act": 1,
+      "foundation": "motion",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_MireStilts",
+      "encounter_table": "D2_ENCOUNTERS",
+      "boss": "BOSS_THE_SPOROCYTE",
+      "music": "bgm_dungeon_fungal",
+      "lighting": "bioluminescent",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R04_56x36",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_PRISMRIDGE_112x72",
+          "coords": [
+            48,
+            95
+          ],
+          "condition": "D2_CLEARED"
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "gravity_shift",
+          "location": [
+            40,
+            40
+          ]
+        },
+        {
+          "type": "spore_maze",
+          "location": [
+            70,
+            70
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_MOTION_ACQUIRED",
+        "D2_CLEARED"
+      ]
+    },
+    {
+      "id": "D3_CRYSTAL_96x96",
+      "display_name": "Crystal Caverns",
+      "type": "dungeon",
+      "act": 1,
+      "foundation": "light",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_PrismHighland",
+      "encounter_table": "PRISM_ENCOUNTERS",
+      "boss": "BOSS_THE_PRISM",
+      "music": "bgm_dungeon_crystal",
+      "lighting": "bright_crystal",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R06_64x36",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D3_LABYRINTH_REFLECTIONS_80x80",
+          "coords": [
+            95,
+            48
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_PRISMRIDGE_112x72",
+          "coords": [
+            48,
+            95
+          ]
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "light_beam",
+          "location": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "prism_alignment",
+          "location": [
+            60,
+            60
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_LIGHT_ACQUIRED",
+        "D3_CLEARED"
+      ]
+    },
+    {
+      "id": "D4_SKYSPIRE_96x96",
+      "display_name": "Skyspire Temple",
+      "type": "dungeon",
+      "act": 2,
+      "foundation": "heat",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "encounter_table": "EMBER_ENCOUNTERS",
+      "boss": "BOSS_THE_INFERNO",
+      "music": "bgm_dungeon_skyspire",
+      "lighting": "warm",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_R07_104x56",
+          "coords": [
+            48,
+            95
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D4_BURNING_HEART_64x64",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D4_CALDERA_TRIALS_96x80",
+          "coords": [
+            95,
+            48
+          ]
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "wind_channels",
+          "location": [
+            25,
+            25
+          ]
+        },
+        {
+          "type": "gust_puzzle",
+          "location": [
+            70,
+            70
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_HEAT_ACQUIRED",
+        "D4_CLEARED",
+        "WORLD_BREAK_TRIGGERED"
+      ]
+    },
+    {
+      "id": "D5_ABYSS_96x96",
+      "display_name": "Abyssal Trench",
+      "type": "dungeon",
+      "act": 2,
+      "foundation": "tide",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "encounter_table": "TIDE_ENCOUNTERS",
+      "boss": "BOSS_THE_DEPTHCALLER",
+      "music": "bgm_dungeon_abyss",
+      "lighting": "deep_dark",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_S02_80x44",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D5_SUNKEN_CITY_TIDES_96x96",
+          "coords": [
+            95,
+            48
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D5_ABYSSAL_VAULT_80x80",
+          "coords": [
+            48,
+            0
+          ]
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "pressure_lock",
+          "location": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "sub_tech_gate",
+          "location": [
+            70,
+            70
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_TIDE_ACQUIRED",
+        "D5_CLEARED"
+      ]
+    },
+    {
+      "id": "D6_OBSIDIAN_96x96",
+      "display_name": "Obsidian Quarry",
+      "type": "dungeon",
+      "act": 2,
+      "foundation": "mass",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_ObsidianIndustrial",
+      "encounter_table": "OBSIDIAN_ENCOUNTERS",
+      "boss": "BOSS_THE_COLOSSUS",
+      "music": "bgm_dungeon_obsidian",
+      "lighting": "industrial",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_R08_72x40",
+          "coords": [
+            48,
+            95
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D6_FACTORY_OF_SOULS_96x80",
+          "coords": [
+            48,
+            0
+          ]
+        }
+      ],
+      "submaps": [
+        "D6_CORE_80x80"
+      ],
+      "puzzles": [
+        {
+          "type": "mine_cart",
+          "location": [
+            20,
+            20
+          ]
+        },
+        {
+          "type": "lava_vent",
+          "location": [
+            75,
+            75
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_MASS_ACQUIRED",
+        "D6_CLEARED"
+      ]
+    },
+    {
+      "id": "D7_FROZEN_96x96",
+      "display_name": "Frozen Citadel",
+      "type": "dungeon",
+      "act": 2,
+      "foundation": "time",
+      "dimensions": {
+        "width": 96,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_FrostCitadel",
+      "encounter_table": "FROST_ENCOUNTERS",
+      "boss": "BOSS_ELDER_MORDAI",
+      "music": "bgm_dungeon_frozen",
+      "lighting": "cold",
+      "weather": "blizzard",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_R13_64x36",
+          "coords": [
+            48,
+            95
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D7_SPIRE_OF_ETERNITY_80x96",
+          "coords": [
+            48,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D_ARCHIVE_112x96",
+          "coords": [
+            48,
+            0
+          ],
+          "condition": "D7_CLEARED"
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "time_frost",
+          "location": [
+            25,
+            25
+          ]
+        },
+        {
+          "type": "slow_zone",
+          "location": [
+            75,
+            75
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_TIME_ACQUIRED",
+        "D7_CLEARED"
+      ]
+    },
+    {
+      "id": "D8_VOID_112x96",
+      "display_name": "Void Nexus",
+      "type": "dungeon",
+      "act": 3,
+      "foundation": "shadow",
+      "dimensions": {
+        "width": 112,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_VoidNexus",
+      "encounter_table": "VOID_NEXUS_ENCOUNTERS",
+      "boss": "BOSS_THE_VOIDHOUND",
+      "music": "bgm_dungeon_void",
+      "lighting": "oppressive",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            95
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "D8_GARDENS_OF_ABSENCE_96x80",
+          "coords": [
+            56,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_MERIDIAN_112x72",
+          "coords": [
+            84,
+            95
+          ],
+          "condition": "D7_CLEARED"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_LOBBY_96x64",
+          "coords": [
+            28,
+            95
+          ],
+          "condition": "D8_CLEARED"
+        }
+      ],
+      "puzzles": [
+        {
+          "type": "glitch_seam",
+          "location": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "null_pylon",
+          "location": [
+            80,
+            80
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_SHADOW_ACQUIRED",
+        "D8_CLEARED",
+        "ALL_FOUNDATIONS_COLLECTED"
+      ]
+    }
+  ]
+}

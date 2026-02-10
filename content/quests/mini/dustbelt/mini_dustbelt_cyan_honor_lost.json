@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_cyan_honor_lost",
+  "name": "Sword of the Fallen",
+  "zone": "dustbelt",
+  "giver": "Cyan (Samurai Exile)",
+  "type": "delivery",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My lord's sword... I could not protect him. The blade was taken by marauders in the northern dunes. I am... not strong enough to face them alone. Will you help me reclaim my honor?",
+      "objective": "Accompany Cyan to defeat the marauders and recover the lord's sword"
+    },
+    "progress": {
+      "dialog": "The marauder camp is close. I can smell their fires. My hand trembles... not with fear, but with shame.",
+      "objective": "Attack the marauder camp and locate the stolen sword"
+    },
+    "complete": {
+      "dialog": "The sword... returned. My lord can rest now. And I... I can move forward. Thank you. Take this - my family's technique manual. Teach it to those who will use it with honor.",
+      "rewards": {"gold": 500, "item": "bushido_technique_manual", "reputation": 18}
+    }
+  },
+  "party_comments": {
+    "kade": "Honor is important. I'd do the same for my friends.",
+    "korr": "A soldier's bond to his lord. I understand this.",
+    "vex": "His devotion is... familiar. Painfully so."
+  },
+  "hidden_outcome": "If you recover the sword without killing any marauders (using sleep/pacify), Cyan teaches you 'Oblivion' - the ultimate bushido technique"
+}

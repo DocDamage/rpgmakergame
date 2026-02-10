@@ -1,0 +1,95 @@
+{
+  "npc_id": "twins_white_frost",
+  "name": "Frost & Future",
+  "sprite": "twins_white",
+  "zone": "frost",
+  "location": "Ice Oracle Caves",
+  "personality": "cryptic_connected_prophetic",
+  "occupation": "frost_oracles",
+  "dialog": {
+    "greeting": [
+      "Frost: 'They come.' Future: 'As we saw.' Both: 'Welcome, travelers.'",
+      "We are Frost. And Future. The white robes? Purity. Clarity. Cold truth.",
+      "New faces. But not new to us. We've seen... possibilities.",
+      "The ice shows us. What was. What is. What might be.",
+      "Frost: 'You have questions.' Future: 'We have answers.' Both: 'Neither are what you expect.'",
+      "Welcome to the caves. Where time freezes. And flows.",
+      "We speak. Together. Apart. Always. Never.",
+      "You stand before us. As we stood before you. Will stand."
+    ],
+    "cryptic_hint": "The storm that comes is not the storm you fear. The storm you fear has already passed.",
+    "refusal": "Some futures must be lived. Not known. Knowing would change them. Ruin them.",
+    "secret_quest": "Azure will fly. Into white. You will follow. Save him. Or don't. Both are true. Both matter.",
+    "ominous": "Beware the warm rock. It brings change. Change brings loss. Loss brings... transformation.",
+    "farewell": [
+      "Frost: 'Go.' Future: 'Return.' Both: 'As written.'",
+      "The ice remembers you. Even when you forget.",
+      "What will be, will be. What we saw, we saw."
+    ],
+    "if_exposed": "You see through our veil? Good. The veil is for others. For comfort.",
+    "rumor": [
+      "Cirrus: He will watch a storm. It will change him. Or end him. We see both.",
+      "Azure: He seeks his brother. He will find him. In ways he doesn't expect.",
+      "The snake charmer: His rock is from elsewhere. Elsewhen. Dangerous.",
+      "The Chrono twins: Our counterparts. They see time. We see ice. Same vision. Different medium.",
+      "You: You will stand before a choice. Two paths. Both right. Both wrong."
+    ],
+    "quest_hook": "Frost: 'A vision.' Future: 'Unclear.' Both: 'Help us focus. Your presence. Your choice. It... stabilizes.'",
+    "quest_active": "Frost: 'Still unclear.' Future: 'But closer.' Both: 'Stay. Let us see.'",
+    "quest_complete": "Frost: 'We see!' Future: 'The path!' Both: 'Thank you. Here. Our sight. In crystal. For you.'",
+    "ambient_barks": [
+      "Frost: 'I see...'",
+      "Future: 'It will...'",
+      "Both: 'As predicted.'",
+      "Frost: 'The ice speaks.'",
+      "Future: 'Time answers.'",
+      "Both: 'Truth freezes.'"
+    ],
+    "time_dawn": "Frost: 'Morning visions.' Future: 'Fresh futures.' Both: 'Clear ice.'",
+    "time_noon": "Frost: 'Midday.' Future: 'Hazy.' Both: 'Too much light.'",
+    "time_dusk": "Frost: 'Evening.' Future: 'Shadows lengthen.' Both: 'Possibilities expand.'",
+    "time_night": "Frost: 'Night.' Future: 'Deep sight.' Both: 'The ice speaks clearly.'",
+    "rival_mention": "The Chrono twins? Our counterparts. Time and ice. Different paths. Same destination.",
+    "post_quest_greeting": "Frost: 'The stabilizer returns.' Future: 'As we knew.' Both: 'Welcome back.'"
+  },
+  "party_reactions": {
+    "kade": "Twins. Talking in unison. Cryptic. Classic oracle stuff. I... kind of love it?",
+    "nix7": "Precognitive abilities: Confirmed. Accuracy: Variable. Presentation: Dramatic.",
+    "twist": "TWO of you! Talking TOGETHER! That's AMAZING! Can I try?!",
+    "korr": "They see possibilities. Not certainties. Important distinction.",
+    "renna": "The ice is scrying focus. Ancient technique. Powerful. Dangerous.",
+    "suresh": "They teach impermanence of knowledge. What is seen may not be. Wisdom.",
+    "sova": "Useful. If vague. I'd rather know certainties.",
+    "grit": "Intel with conditions. Seen it before. Still useful.",
+    "ashka": "They see through cold. Like me. But further.",
+    "senna": "They know secrets. Won't share directly. Frustrating.",
+    "callum": "Their predictions! DOCUMENTED! VERIFIED! Mostly!"
+  },
+  "relationship_dialog": {
+    "stranger": "Frost: 'New.' Future: 'Unknown.' Both: 'Interesting.'",
+    "acquaintance": "Frost: 'Returning.' Future: 'As expected.' Both: 'Progress.'",
+    "friend": "Frost: 'Known.' Future: 'Predictable.' Both: 'Comfortable.'",
+    "best_friend": "Frost: 'Clear.' Future: 'Certain.' Both: 'You are... fixed. In our sight. Here. Our focus. For you.'"
+  },
+  "mini_quest": {
+    "id": "clarity_vision",
+    "title": "The Unclear Future",
+    "description": "Help the twins clarify a vision by providing a stabilizing presence",
+    "stages": {
+      "hook": "Frost: 'A vision.' Future: 'Clouded.' Both: 'Your presence... stabilizes. Help us see?'",
+      "active": "Frost: 'Stay.' Future: 'Breathe.' Both: 'Let the ice show us.'",
+      "complete": "Frost: 'We see!' Future: 'The path!' Both: 'Azure's flight. The storm. You. Here. Crystal. Our sight. Yours now.'"
+    },
+    "reward": {
+      "item": "twin_oracle_crystal",
+      "gold": 400,
+      "reputation": "oracle_confidant"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_blue_frost: Azure. We see him fly. Into white. Into... elsewhere.",
+    "aeronaut_white_frost: Cirrus. He will watch. And change. Or end. Both true.",
+    "snakecharmer_frost: Warm rock. Elsewhere. Elsewhen. Dangerous. Important.",
+    "twins_chrono: Our counterparts. Time twins. We should not meet. Protocol."
+  ]
+}

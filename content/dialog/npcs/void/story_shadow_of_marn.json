@@ -1,0 +1,54 @@
+{
+  "npc_id": "shadow_of_marn",
+  "name": "Shadow of Marn",
+  "title": "Echo Witness",
+  "zone": "void",
+  "location": "Echoes of the Lost Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Shadow of Marn on comms. Stage 3: Echoes of the Lost. Keep formation tight and decisions tighter.",
+      "We are running Into Darkness. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Resist the call of the Lost."
+    ],
+    "quest_hook": "Objective stack: Resist the call of the Lost; Use Truth to reveal the deception; Free the trapped souls. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Face manifestations of everyone who has fallen to the Void. Immediate move: Resist the call of the Lost.",
+    "quest_complete": "Stage 3 resolved: Echoes of the Lost. Primary objective secured and route stabilized. Prepare for The Hunger Itself.",
+    "rumor": [
+      "A seam flare formed the exact outline of the old capital for six seconds.",
+      "People keep repeating one clue from Echoes of the Lost: 'Free the trapped souls'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn is mostly theoretical in the Void. Use checkpoints, not intuition.",
+    "time_noon": "Noon seam pulses spike here. Keep anti-glitch protocols active.",
+    "time_dusk": "Dusk paints safe paths that are not safe. Probe first, trust later.",
+    "time_night": "Night in the Void multiplies fear. Keep comms human and constant."
+  },
+  "party_reactions": {
+    "kade": "Shadow of Marn sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Shadow of Marn accepted. Probability of success improves with compliance.",
+    "twist": "Shadow of Marn talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "void_into_darkness"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

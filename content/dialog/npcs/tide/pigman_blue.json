@@ -1,0 +1,71 @@
+{
+  "npc_id": "pigman_blue_tide",
+  "name": "Brine-Trotter",
+  "sprite": "pigman_blue",
+  "zone": "tide",
+  "location": "The Salty Sow Inn",
+  "personality": "competitive_proud",
+  "occupation": "innkeeper",
+  "schedule": "always_working",
+  "dialog": {
+    "greeting": [
+      "Welcome to The Salty Sow! BEST inn on the coast!",
+      "Brine-Trotter's the name, hospitality's the GAME!",
+      "You look like you need a soft bed! I have BEDS!",
+      "Back again? Knew you'd prefer MY inn to... others.",
+      "The Salty Sow! Where the pork is fresh and the beds are DRY!",
+      "New guest? First drink's on the house! House is me!",
+      "Best seafood stew in Tide! Family recipe! Secret ingredients!",
+      "Stay at The Salty Sow! Leave the other inns to... lesser travelers!"
+    ],
+    "room_offer": "Rooms with OCEAN VIEWS! Hear the waves! Smell the salt! Sleep like a baby!",
+    "food_specialty": "Try my Seafarer's Stew! Seven kinds of seafood! One kind of SECRET!",
+    "sooty_hog_rivalry": "My cousin Hamhock runs The Sooty Hog in Ember. Claims HIS inn is better. HAH! Does he have OCEAN BREEZES? I think NOT! The Sooty Sow beats the Sooty Hog ANY day!",
+    "inn_history": "The Salty Sow's been here forty years! Survived hurricanes, floods, and one very organized seagull attack!",
+    "rumor": [
+      "Heard there's treasure in the deep. Divers won't shut up about it.",
+      "The aeronauts say a storm's coming. Big one. Stock up!",
+      "My cousin in Ember thinks he's SO great. Heat-shriveled pork! HAH!",
+      "Mire's inn? 'The Bogwater Bar.' Charming. NOT.",
+      "Tide and Ember inns have a... rivalry. Family thing."
+    ],
+    "travel_advice": "Heading to Mire? Waterproof EVERYTHING. That fog gets into your SOUL.",
+    "farewell": [
+      "Sweet dreams! The waves sing you to sleep!",
+      "Come back soon! The Salty Sow misses you already!",
+      "Safe travels! And tell Hamhock I'm winning!",
+      "Thanks for staying! Leave a review! Or just come back!"
+    ],
+    "ambient_barks": [
+      "Rooms! Dry rooms!",
+      "Stew! Hot stew!",
+      "Best inn in Tide!",
+      "The Salty Sow! Oink oink!",
+      "Fresh catch daily!",
+      "Hamhock who?!"
+    ],
+    "time_dawn": "Breakfast! Seaside special! Fresh fish!",
+    "time_noon": "Lunch rush! Stew's bubbling! Come get it!",
+    "time_dusk": "Dinner crowd! Best atmosphere!",
+    "time_night": "Late night! For the night owls and sailors!"
+  },
+  "party_reactions": {
+    "kade": "Another themed inn. This one smells like... low tide.",
+    "nix7": "Ambient humidity: 85%. Bedding: damp-adjacent.",
+    "twist": "STEW! I'm SO hungry! What's in it?!",
+    "korr": "A dry bed is a luxury. Even a slightly damp one.",
+    "renna": "Do you have any rooms with... less salt in the air?",
+    "suresh": "Hospitality in any environment shows character.",
+    "sova": "Got a room with a window? Need line of sight.",
+    "grit": "Better than a trench. Better than most barracks.",
+    "ashka": "So much WATER here. Prefer heat.",
+    "senna": "Back door? Good. I like options.",
+    "callum": "Is... is the floor supposed to be wet?"
+  },
+  "relationship_dialog": {
+    "stranger": "Welcome! Best inn in Tide!",
+    "acquaintance": "Back again! Getting the Salty Sow experience!",
+    "friend": "My favorite guest! Your usual room's ready!",
+    "best_friend": "You! Practically family! Stay free! Eat free! Just... leave eventually!"
+  }
+}

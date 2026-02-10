@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_underwater_ruins",
+  "name": "The Sunken City's Secret",
+  "zone": "tide",
+  "giver": "astronaut_blue",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My instruments detected anomalous readings from the ancient ruins beneath the waves. Pre-Collapse architecture—possibly from the First Age! I can't explore them myself; my suit isn't rated for deep water pressure. But you... you could investigate!",
+      "objective": "Explore the sunken ruins beneath Tidemark Bay"
+    },
+    "progress": {
+      "dialog": "Incredible! These ruins predate the Collapse by millennia! I need you to activate the central mechanism—it looks like some kind of recording device. But be careful, there are automated defenses! Ancient guardians still patrol the halls!",
+      "objective": "Activate the central mechanism and defeat the ancient guardians"
+    },
+    "complete": {
+      "dialog": "A holographic recording! This is historic! It shows... wait, this changes everything we know about pre-Collapse civilization! Here's your payment, and this Ancient Data Core. It may contain more secrets—take it to a scholar in the Uplands!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 500,
+        "item": "ancient_data_core"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Ancient technology underwater? What else is hiding down there?",
+    "twist": "Those guardians used magic I've never seen before. Fascinating.",
+    "nix7": "Pre-Collapse data storage: intact. Historical value: immeasurable."
+  }
+}

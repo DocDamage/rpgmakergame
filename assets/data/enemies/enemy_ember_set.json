@@ -1,0 +1,140 @@
+{
+  "id": "ENEMY_EMBER_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_EMBER_RUNNER",
+      "name": "Ember Runner",
+      "family": "ember",
+      "sprite": "spr_enemy_ember_runner",
+      "stats": {
+        "hp": 130,
+        "mp": 0,
+        "atk": 28,
+        "def": 8,
+        "mag": 0,
+        "spr": 5,
+        "spd": 18
+      },
+      "weaknesses": {
+        "water": 1.5,
+        "ice": 1.3,
+        "earth": 1.0
+      },
+      "resists": {
+        "fire": 0.0,
+        "physical": 0.9
+      },
+      "absorbs": [
+        "fire"
+      ],
+      "abilities": [
+        "attack",
+        "fire_trail",
+        "dash_strike",
+        "burn"
+      ],
+      "loot": [
+        {
+          "item": "FIRE_ESSENCE",
+          "chance": 0.3,
+          "count": 1
+        }
+      ],
+      "gil": [
+        25,
+        42
+      ],
+      "xp": 48
+    },
+    {
+      "id": "ENEMY_HEAT_CASTER",
+      "name": "Heat Caster",
+      "family": "ember",
+      "sprite": "spr_enemy_heat_caster",
+      "stats": {
+        "hp": 120,
+        "mp": 90,
+        "atk": 10,
+        "def": 7,
+        "mag": 28,
+        "spr": 12,
+        "spd": 12
+      },
+      "weaknesses": {
+        "water": 1.5,
+        "ice": 1.5
+      },
+      "resists": {
+        "fire": 0.0,
+        "earth": 0.8
+      },
+      "absorbs": [
+        "fire"
+      ],
+      "abilities": [
+        "fire",
+        "fira",
+        "firaga",
+        "heat_wave"
+      ],
+      "loot": [
+        {
+          "item": "MAGMA_CORE",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": [
+        30,
+        50
+      ],
+      "xp": 55
+    },
+    {
+      "id": "ENEMY_SLAG_MOTE",
+      "name": "Slag Mote",
+      "family": "ember",
+      "sprite": "spr_enemy_slag_mote",
+      "stats": {
+        "hp": 50,
+        "mp": 0,
+        "atk": 35,
+        "def": 5,
+        "mag": 0,
+        "spr": 3,
+        "spd": 8
+      },
+      "weaknesses": {
+        "water": 2.0,
+        "ice": 1.5
+      },
+      "resists": {
+        "fire": 0.0,
+        "physical": 0.75
+      },
+      "absorbs": [
+        "fire"
+      ],
+      "abilities": [
+        "self_destruct",
+        "burn",
+        "flare_up"
+      ],
+      "loot": [
+        {
+          "item": "VOLCANIC_STONE",
+          "chance": 0.4,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        15,
+        25
+      ],
+      "xp": 30
+    }
+  ]
+}

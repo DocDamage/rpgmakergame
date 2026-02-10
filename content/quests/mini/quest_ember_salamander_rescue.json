@@ -1,0 +1,30 @@
+{
+  "quest_id": "mini_ember_salamander_rescue",
+  "name": "Flame-Touched Friends",
+  "zone": "ember",
+  "giver": "coolcat_red",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Meow... my little salamander friends have scattered into the Ashfall Flats. The smoke confused them, poor things. They're drawn to heat, but the flats are dangerous right now—ash drakes hunting, you know? Please, bring them back to me?",
+      "objective": "Find and rescue 5 lost fire salamanders in Ashfall Flats"
+    },
+    "progress": {
+      "dialog": "You've found some! I can feel their warmth from here. But wait... I sense three more, deeper in the flats. Be careful—there's a drake nesting nearby. Don't become lunch, meow!",
+      "objective": "Rescue the remaining 3 salamanders (avoid the ash drake!)"
+    },
+    "complete": {
+      "dialog": "All my babies! Come to mama! Oh, thank you, thank you! Here, take this—it's a Flamecaller Whistle. Blow it, and they'll come warm you on cold nights. You're a true friend to Ember's creatures!",
+      "rewards": {
+        "exp": 600,
+        "item": "flamecaller_whistle"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Awww, they're kinda cute for lizards that are literally on fire.",
+    "twist": "I'm covered in ash and soot. This is NOT in my contract.",
+    "nix7": "Creatures exhibit fascinating bioluminescence. Data collection complete."
+  }
+}

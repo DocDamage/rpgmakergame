@@ -1,0 +1,101 @@
+{
+  "npc_id": "aeronaut_red_aetherreach",
+  "name": "Crimson Floatman",
+  "sprite": "aeronaut_red",
+  "zone": "aetherreach",
+  "location": "Sky-Dock Three",
+  "personality": "reckless_competitive",
+  "occupation": "hot_air_specialist",
+  "dialog": {
+    "greeting": [
+      "Hot air! Real hot air! None of that fancy helium garbage!",
+      "CRIMSON FLOATMAN! I use FIRE to fly!",
+      "You want altitude? I got altitude! Dangerous altitude!",
+      "Blue uses balloons. I use PASSION! And actual fire!",
+      "Welcome to the REAL way to fly!",
+      "Hot air balloons! For hot heads! Like me!",
+      "Feel the heat! That's the burners! Also my personality!"
+    ],
+    "shop_open": "Hot air specials! I've got standard baskets, deluxe gondolas, and the Inferno Cruiser! Warning: may actually be on fire!",
+    "shop_prompt": "Looking for thrills? My balloons are fifty percent cheaper and two hundred percent more exciting!",
+    "haggle": [
+      "Prices are HOT! Just like my product!",
+      "For you? I'll throw in a fire extinguisher! Free!",
+      "Already rock bottom! I cut costs on safety!",
+      "Fine! Fifteen percent! But the waiver stays!"
+    ],
+    "purchase_success": [
+      "SIGNED THE WAIVER? GOOD! Enjoy!",
+      "She's a bit temperamental! Like all beautiful things!",
+      "Keep the fire burning! Literally!",
+      "Third degree burns covered by insurance? Asking for a friend!"
+    ],
+    "purchase_fail": [
+      "No money, no lift-off!",
+      "Even hot air costs cold cash!",
+      "Come back with coin! And maybe burn cream!"
+    ],
+    "rumor": [
+      "Blue says my balloons are unsafe. They're EXCITING! There's a difference!",
+      "I once flew into a storm! Would not recommend! Would do again!",
+      "The sunandmoon warned me about 'falling stars.' I think they meant ME!",
+      "Heard the Remnant Vault has anti-gravity. No fire needed! Heresy!",
+      "Twins said I'd 'rise to the occasion' then 'fall from grace.' Vague!"
+    ],
+    "quest_hook": "I need FIRE CRYSTALS! For bigger burners! The volcano in Ember has them! Three crystals and I'll make you a balloon that'll SCARE the clouds!",
+    "quest_active": "Those fire crystals burning a hole in your pocket yet? I need them!",
+    "quest_complete": "THE HEAT! THE POWER! Look at these beauties BURN! Here's your reward - the Inferno Rider! Fastest balloon in the sky!",
+    "quest_reward": "Inferno Rider - Speed and excitement! Minor fire hazard included!",
+    "farewell": [
+      "Stay hot! Stay high!",
+      "Don't crash! The ground is LAVA! Not really! But still!",
+      "Keep the fire alive!"
+    ],
+    "ambient_barks": [
+      "FIRE! FIRE! ...Controlled fire! It's fine!",
+      "HOT AIR! CHEAP!",
+      "Blue is for cowards! Red is for WARRIORS!",
+      "Feel the BURN!",
+      "Sky's the limit! Actually, fuel is the limit!"
+    ],
+    "time_dawn": "Morning thermals are PERFECT! Grab a basket!",
+    "time_noon": "Hottest part of the day! Best flying! Literal heat!",
+    "time_dusk": "Sunset flights! Everything looks like it's on fire! Including my balloon!",
+    "time_night": "Night flying by firelight! Romantic! Terrifying! Both!"
+  },
+  "party_reactions": {
+    "kade": "This seems... significantly less safe than Blue's.",
+    "nix7": "Fire-based propulsion. Elevation capacity: high. Survival probability: questionable.",
+    "twist": "FIRE! FLYING! BEST DAY EVER!",
+    "korr": "There is such a thing as too much passion.",
+    "renna": "This is a disaster waiting to happen. Fascinating.",
+    "suresh": "Fire rises. So does reckless ambition. Both can burn.",
+    "sova": "I'll keep my boots on the ground, thanks.",
+    "grit": "Finally! Someone who understands that safety regulations are suggestions!",
+    "ashka": "YES! FIRE BALLOONS! WHY DIDN'T I THINK OF THAT?!",
+    "senna": "How many accidents have you had? I see the scars.",
+    "callum": "Should... should someone regulate this?",
+    "petra": "Solid ground. Under my feet. Always."
+  },
+  "relationship_dialog": {
+    "stranger": "First time with hot air? Sign here! And here! Initial here!",
+    "acquaintance": "Back for more? I knew you were a thrill-seeker!",
+    "friend": "My favorite lunatic! Ready to really FLY this time?",
+    "best_friend": "You and me! We'll touch the sun! What's the worst that could happen?!"
+  },
+  "mini_quest": {
+    "id": "fire_crystal_burn",
+    "title": "Crystal Inferno",
+    "description": "Collect Fire Crystals from Ember volcano for Crimson's burners",
+    "stages": {
+      "hook": "I need Fire Crystals! Three of them! My burners need MORE POWER!",
+      "active": "Ember's volcano! Deep in the caldera! Don't get melted!",
+      "complete": "BEAUTIFUL! Feel that heat! Here's the Inferno Rider - she ROARS!"
+    },
+    "reward": {
+      "item": "inferno_rider",
+      "gold": 300,
+      "reputation": "hot_air_crazy"
+    }
+  }
+}

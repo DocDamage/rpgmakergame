@@ -1,0 +1,83 @@
+{
+  "npc_id": "onionboss_blue_prism",
+  "name": "Inspector Azure Safetee",
+  "sprite": "onionboss_blue",
+  "zone": "prism",
+  "location": "Mine Inspection Office",
+  "personality": "methodical_stern_principled",
+  "occupation": "safety_inspector",
+  "schedule": {
+    "morning": "safety_inspections",
+    "day": "incident_reports",
+    "evening": "regulation_updates"
+  },
+  "dialog": {
+    "greeting": [
+      "Inspection in progress. Stand clear.",
+      "Inspector Azure. Here to ensure regulations are followed.",
+      "Safety is not negotiable. Violations will be cited.",
+      "You are aware that hard hats are mandatory? Good.",
+      "The mines are dangerous. My job is to make them less so.",
+      "Crystal extraction must not cost lives. I enforce this.",
+      "Inspector Safetee. Pronounced 'safety.' Parents had a sense of humor.",
+      "Every accident is preventable. Every. Single. One."
+    ],
+    "inspection_philosophy": "I do not hate production. I hate unnecessary risk. A safe mine is a productive mine. In the long term. Red doesn't always see the long term.",
+    "code_violations": "Citations issued: improper ventilation, inadequate bracing, expired breathing equipment. All correctable. All must be corrected.",
+    "backstory": "Started after my brother died in a mining accident. Preventable. Simple safety violation. Now I prevent others from losing brothers. Sisters. Parents. Children.",
+    "rumors": [
+      "The foreman thinks I'm obstructionist. I'm not. I'm protective. There's a difference.",
+      "That tunneler who found the Great Prism? He reported unsafe conditions before the discovery. I have his original complaint. Filed properly.",
+      "The sumo guards are good at crowd control. But do they know evacuation procedures? I should check.",
+      "The retired prospector has old maps. Pre-regulation tunnels. Dangerous. But potentially useful. If properly secured."
+    ],
+    "ambient_barks": [
+      "Safety first!",
+      "Violation noted!",
+      "Hard hats!",
+      "Check your equipment!",
+      "Regulations exist!",
+      "For your protection!"
+    ],
+    "time_of_day": {
+      "morning": "Morning inspection. Starting with the day shift.",
+      "noon": "Midday safety briefing. Attendance mandatory.",
+      "evening": "Evening report filing. Documentation is crucial.",
+      "night": "Night shift inspection. Fatigue risks highest now."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "safety_audit",
+    "quest_name": "The Safety Audit",
+    "stage_1_hook": "I need an independent assessment. The eastern tunnels - Red says they're safe. I'm not convinced. But I can't be everywhere. You look unbiased. Check the eastern supports. Test the air. Report back.",
+    "stage_1_active": "Eastern tunnels. Check structural integrity. Test for gas. Note any hazards. Don't trust the posted safety ratings.",
+    "stage_2_progress": "You've seen the eastern tunnels? What did you find? Be specific. Details matter.",
+    "stage_2_item_needed": "eastern_tunnel_safety_report",
+    "stage_3_complete": "Your report... accurate. Disturbing. But accurate. Red will have to address these issues. You've potentially saved lives. Here. Safety inspector certification. Shows you understand what matters.",
+    "reward": "safety_inspector_badge"
+  },
+  "party_reactions": {
+    "kade": "She's strict. But she's right. Safety matters.",
+    "nix7": "Safety protocols: comprehensive. Enforcement: rigorous. Mine safety rating: improved by her presence.",
+    "twist": "She's like a strict teacher! But nice! In a scary way!",
+    "korr": "She protects those who cannot protect themselves. Honor demands respect.",
+    "renna": "She has no magic, but her will is iron. Stronger than many spells.",
+    "suresh": "She carries her brother's memory with dignity. He would be proud.",
+    "sova": "Annoying. But necessary. Better than dead workers.",
+    "grit": "Every operation needs someone like her. Keeps command honest.",
+    "ashka": "She understands that uncontrolled fire destroys. We have this in common.",
+    "senna": "Knows every violation. Every shortcut. Every secret entrance. Useful.",
+    "callum": "She made me wear a helmet, a harness, AND a reflective vest. I looked like a glowing turtle."
+  },
+  "relationship_dialog": {
+    "stranger": "State your business. Safety-related? Proceed.",
+    "acquaintance": "You follow regulations. This is noted. Appreciated.",
+    "friend": "Reliable assistant in safety matters. Thank you for your diligence.",
+    "best_friend": "You've saved lives. Perhaps including mine. I don't forget such debts. Ever."
+  },
+  "cross_npc_connections": [
+    "onionboss_red_prism: Redward. The foreman. We disagree on methods. Agree on goals. Mostly.",
+    "tunneler_blue_prism: The one who found the Great Prism. He understands safety's importance.",
+    "tunneler_purple_prism: The retired prospector. Has knowledge. Needs to share it more."
+  ]
+}

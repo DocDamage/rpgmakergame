@@ -1,0 +1,2 @@
+severity,category,file,id,message
+medium,placeholder_token,assets/data/dialogs/dialog_generated_placeholders.json,,Contains placeholder/TODO/TBD markers

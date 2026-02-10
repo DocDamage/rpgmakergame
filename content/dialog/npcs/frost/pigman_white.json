@@ -1,0 +1,107 @@
+{
+  "npc_id": "pigman_white_frost",
+  "name": "Hamilton 'Thaw' Hogsworth",
+  "sprite": "pigman_white",
+  "zone": "frost",
+  "location": "The Thawing Pig Inn",
+  "personality": "hospitable_weary_kind",
+  "occupation": "innkeeper",
+  "dialog": {
+    "greeting": [
+      "Welcome to The Thawing Pig! Warmth! Food! And more warmth!",
+      "Hamilton Hogsworth. Yes, related to the Obsidian Hogsworths. Don't hold it against me.",
+      "Cold outside? Come in! Thaw! That's the name! And the game!",
+      "New face! Fresh face! FROZEN face! We can fix TWO of those!",
+      "The white apron means I'm LICENSED! To THAW! And SERVE!",
+      "Room for rent! Fire for warming! Ears for LISTENING!",
+      "Hogsworth. The THAWING Hogsworth. Different philosophy. Same SNOUT.",
+      "Welcome! How can we UNFREEZE you today?"
+    ],
+    "room_offer": "Got rooms with FIRES! Real fires! Not that 'heated stone' nonsense!",
+    "food_offer": "Special: Thawing Stew! Warms from INSIDE! Like friendship! But edible!",
+    "haggle": [
+      "Prices are FAIR! I'm not my COUSIN!",
+      "Best rate? Stay a week! Get ONE day! At regular price!",
+      "Hero discount? 20%! Because you're SAVING the WORLD! On a BUDGET!"
+    ],
+    "purchase_success": [
+      "Excellent! Room's ready! Fire's BUILT! Welcome HOME!",
+      "Smart choice! That room has the BEST chimney!",
+      "Stay warm! Stay FED! Stay as LONG as you like!"
+    ],
+    "purchase_fail": [
+      "No coin? No ROOM! But have some SOUP! On the HOUSE!",
+      "Can't do credit! Learned THAT lesson!",
+      "Return when you're FLUSH! We'll wait! We're not going ANYWHERE!"
+    ],
+    "rumor": [
+      "Cirrus? The weather guy? Drinks alone. STARES at storms. Sad man.",
+      "Azure? Won't take free food. Pride. Or grief. Hard to tell.",
+      "The twins? They come here. Before visions. Eat NOTHING. Drink HOT water. Odd.",
+      "That snake charmer? His rock? Keeps his room TOASTY. Guests COMPLAIN!",
+      "My cousin in Obsidian? Runs the company store. SCOUNDREL! Family. But SCOUNDREL!"
+    ],
+    "quest_hook": "Azure won't EAT! Just STARES! At the SKY! At NOTHING! Talk to him? Please? Before he FADES?",
+    "quest_active": "Any luck with Azure? He comes here. Sits. Leaves. Like a GHOST!",
+    "quest_complete": "He's EATING! You did it! You SAVED him! Here! Master key! ALL rooms! FOREVER!",
+    "farewell": [
+      "Come back! The fire's ALWAYS on!",
+      "Stay WARM out there!",
+      "The Thawing Pig: UNFREEZING since the Frost AGE!"
+    ],
+    "ambient_barks": [
+      "Rooms available! WARM rooms!",
+      "Fire's BLAZING!",
+      "Hot stew! HOT!",
+      "Thaw your BONES!",
+      "Welcome! WELCOME!",
+      "Cold OUT! Warm IN!"
+    ],
+    "time_dawn": "Morning! Breakfast! FIRE! Best time of DAY!",
+    "time_noon": "Midday! Lunch crowd! TRAVELERS! STORIES!",
+    "time_dusk": "Evening! Dinner! The DEEP thaw! Maximum COZINESS!",
+    "time_night": "Night! Late guests! The ETERNAL fire! Always BURNING!",
+    "rival_mention": "My cousin! In Obsidian! Company store! Scrip only! MONSTER!",
+    "post_quest_greeting": "The THERAPIST! Azure's EATING! LAUGHING! You worked MIRACLES!"
+  },
+  "party_reactions": {
+    "kade": "He's the nice Hogsworth! Warm, friendly, everything an innkeeper should be!",
+    "nix7": "Hospitality protocols: Optimal. Thermal management: Superior. Unlike his relative.",
+    "twist": "THIS Hogsworth is NICE! Can I stay FOREVER?!",
+    "korr": "True hospitality. Given freely. Not for profit. Refreshing.",
+    "renna": "The inn has warming enchantments. Ancient. Effective. Comfortable.",
+    "suresh": "He alleviates suffering through shelter. The Middle Path in action.",
+    "sova": "Good defensive position. Warm. I'd stay here.",
+    "grit": "Real inn. Real fire. Real hospitality. Like home used to be.",
+    "ashka": "He understands warmth. Shares it. Good soul.",
+    "senna": "He hears everything. Guests talk. He listens. Knows much.",
+    "callum": "FINALLY! A Hogsworth with ETHICS! And FIRE CODES!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? First drink's on me! WELCOME!",
+    "acquaintance": "Returning guest! We have your FAVORITE room ready!",
+    "friend": "FRIEND! The best room! The BIGGEST fire! On the HOUSE!",
+    "best_friend": "FAMILY! Not by blood! By HEART! Here! The inn's DEED! I'm RETIRING! To you!"
+  },
+  "mini_quest": {
+    "id": "thaw_azure",
+    "title": "The Frozen Pilot",
+    "description": "Help Hamilton get Azure to eat and recover from his grief",
+    "stages": {
+      "hook": "Azure! Won't EAT! Just STARES! At storms! At MEMORY! Talk to him? Make him REMEMBER life?",
+      "active": "Balloon dock! Lower peak! He flies to forget! Make him LAND! Emotionally!",
+      "complete": "He's EATING! LAUGHING! You SAVED him! Here! Master key! ALL rooms! You're ALWAYS welcome!"
+    },
+    "reward": {
+      "item": "thawing_pig_master_key",
+      "gold": 400,
+      "reputation": "honored_guest"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_blue_frost: Azure! Our SAD regular! Now our HAPPY regular! Thanks to YOU!",
+    "pigman_blue_frost: My sibling! The HEALER! Blue apron! Different GIFTS! Same HEART!",
+    "pigman_industrial_obsidian: My COUSIN! The THIEF! Well, not LITERALLY! But SPIRITUALLY!",
+    "foodboys_white_frost: Good lads! Feed my guests! I send them CUSTOMERS! Partnership!"
+  ]
+}

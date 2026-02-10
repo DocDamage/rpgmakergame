@@ -1,0 +1,54 @@
+{
+  "npc_id": "village_healer_spring",
+  "name": "Village Healer Spring",
+  "title": "Pathfinder",
+  "zone": "frost",
+  "location": "The Warmth Within Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "alert_resourceful_tenacious",
+  "occupation": "trail_guide",
+  "dialog": {
+    "greeting": [
+      "Village Healer Spring on comms. Stage 4: The Warmth Within. Keep formation tight and decisions tighter.",
+      "We are running The Frozen Path. Objective drift gets teams buried.",
+      "I met my future self and we argued about shoe durability.",
+      "Action first, panic never. Start with: Reach Whitehollow village."
+    ],
+    "quest_hook": "Objective stack: Reach Whitehollow village; Use the Crystals to break the Void storm; Protect the villagers. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Help a Frostfolk village survive a Void-touched blizzard. Immediate move: Reach Whitehollow village.",
+    "quest_complete": "Stage 4 resolved: The Warmth Within. Primary objective secured and route stabilized. Prepare for Echoes of the Before.",
+    "rumor": [
+      "Villagers report hearing a lullaby inside frozen walls.",
+      "People keep repeating one clue from The Warmth Within: 'Protect the villagers'.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm."
+    ],
+    "ambient_barks": [
+      "Tracks are fresh.",
+      "Wind just shifted.",
+      "Stay on my heel.",
+      "Read the ground."
+    ],
+    "time_dawn": "Dawn gives hard snow and readable tracks. Best time to cross open ground.",
+    "time_noon": "Noon glare can blind you faster than a storm. Shade your optics.",
+    "time_dusk": "Dusk fog rises from cracked ice. Ropes out, spacing tight.",
+    "time_night": "Night cold punishes hesitation. Rotate watch and check each other for frostbite."
+  },
+  "party_reactions": {
+    "kade": "Village Healer Spring sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Village Healer Spring accepted. Probability of success improves with compliance.",
+    "twist": "Village Healer Spring talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "frost_frozen_path"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_TRACKER",
+    "world_break_aware": true
+  }
+}

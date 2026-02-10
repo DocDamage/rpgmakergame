@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_blizzard_survival",
+  "name": "Whiteout Wake",
+  "zone": "frost",
+  "giver": "aeronaut_white",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The worst blizzard in decades is coming! A supply caravan is stranded in the White Wastes—without shelter, they'll freeze before dawn! The winds are too strong for air rescue. Someone needs to reach them on foot and guide them to the ice caves!",
+      "objective": "Navigate the blizzard to reach the stranded caravan"
+    },
+    "progress": {
+      "dialog": "You found them, but the ice caves are buried in snow! Use your surroundings—build windbreaks, melt snow for water, conserve body heat! Keep everyone alive until the storm breaks!",
+      "objective": "Survive the blizzard and keep the caravan members alive"
+    },
+    "complete": {
+      "dialog": "The storm has passed! Every single person survived! The caravan master weeps with gratitude! Here is the Storm Survivor's Medal—and this Thermal Weave Parka that protects against extreme cold!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 800,
+        "item": "thermal_weave_parka"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I can't feel my toes, but everyone lived! Worth it!",
+    "twist": "I created a heat bubble with magic. Best spell I've ever cast.",
+    "nix7": "Survival protocol: optimized. Casualty rate: zero."
+  }
+}

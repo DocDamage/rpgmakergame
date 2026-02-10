@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_zidane_theater",
+  "name": "Tantalus on Tour",
+  "zone": "uplands",
+  "giver": "Zidane (Theater Troupe Leader)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Tantalus Theater Troupe at your service! We're putting on a show here in the Uplands, but we need a volunteer for the lead role! You look like you've got star potential! What do you say?",
+      "objective": "Participate in the Tantalus Theater Troupe's performance"
+    },
+    "progress": {
+      "dialog": "Okay, your line is: 'Oh woe is me, for I am but a simple hero!' Then you strike a pose! Got it?",
+      "objective": "Learn your lines and perform in the play"
+    },
+    "complete": {
+      "dialog": "Bravo! Magnificent performance! The crowd loved you! Here - take this. It's a Tantalus membership card. Anytime you need a distraction or an escape... we can help.",
+      "rewards": {"gold": 350, "item": "tantalus_membership_card", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "Acting... not really my thing, but it was fun.",
+    "twist": "I want to be in the play too! Can I be the villain?!",
+    "nix7": "Theatrical performance: 73% audience satisfaction. Acceptable."
+  },
+  "hidden_outcome": "If you ad-lib new lines that make the audience cheer, Zidane recruits you officially as an honorary Tantalus member with access to their hideout"
+}

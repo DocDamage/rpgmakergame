@@ -1,0 +1,96 @@
+{
+  "npc_id": "pigman_brown_uplands",
+  "name": "Hogarth Hamhock",
+  "sprite": "pigman_brown",
+  "zone": "uplands",
+  "location": "The Snout & Stay Inn",
+  "personality": "jovial_hospitable",
+  "occupation": "mountain_innkeeper",
+  "dialog": {
+    "greeting": [
+      "Welcome to The Snout & Stay! Best beds on the mountain!",
+      "Hogarth's the name, hospitality's the game!",
+      "You look tired! Cold! Both! Come in!",
+      "Room for the night? Hot meal? Both?",
+      "The mountain air's free! Everything else? Reasonable!",
+      "Travelers! Just in time for dinner! Lucky you!",
+      "My inn's your inn! Temporary, but sincere!"
+    ],
+    "shop_open": "Rooms! Meals! Hot drinks! Cold drinks! Warm blankets!",
+    "shop_prompt": "Inn services. Restorative meals. Mountain comforts.",
+    "haggle": [
+      "Prices fair! But for friends? Fairer!",
+      "Long stay? Discount! Short stay? Also discount!",
+      "You drive hard bargain! I respect! Slightly less respect now!",
+      "Final offer! Includes breakfast! Bacon! Ironic, I know!"
+    ],
+    "purchase_success": [
+      "Excellent! Room's ready! Fire's warm!",
+      "Smart choice! My beds are legendary!",
+      "Enjoy your stay! Need anything? Anything at all!",
+      "Pleasure doing business! Come back always!"
+    ],
+    "purchase_fail": [
+      "No coin? No problem! Sit by fire! Warm up!",
+      "Pay when you can! Trust builds community!",
+      "Next time! The mountain provides! Eventually!"
+    ],
+    "rumor": [
+      "The twins? Lovely girls! Tip well! Together!",
+      "Hashimoto meditates in my cellar sometimes. Quiet guest.",
+      "The black coat? Never stays. Just... watches. Leaves.",
+      "Katsu trains nearby! Secretly eats here! LOTS! Don't tell!"
+    ],
+    "quest_hook": "Pantry's bare! Delivery lost in the pass! Supplies needed! Food! Drink! Blankets! Bring them? Free stays for life! Plus gold!",
+    "quest_active": "Mountain pass! Lost cart! Supplies scattered! Watch for goats! Thieving goats!",
+    "quest_complete": "SAVED! The inn lives! Take this! Free stays! Gold! My eternal gratitude! And pie!",
+    "quest_reward": "Lifetime Free Stay Pass - All locations",
+    "farewell": [
+      "Safe travels! Warm beds await return!",
+      "Tell friends! Tell strangers! Tell everyone!",
+      "The Snout & Stay snouts your way!"
+    ],
+    "ambient_barks": [
+      "Rooms available!",
+      "Hot meals! Hotter drinks!",
+      "Best view on the mountain!",
+      "*sizzling sounds*",
+      "Fresh bread! Fresh!",
+      "Welcome welcome WELCOME!"
+    ],
+    "time_dawn": "Breakfast! Best meal! Don't @ me!",
+    "time_noon": "Lunch rush! Busy! Love it!",
+    "time_dusk": "Dinner service! Prime time! Hungry guests!",
+    "time_night": "Late night! Quiet time! For me! Finally!",
+    "post_quest_greeting": "The savior! The hero! The inn-rescuer! Welcome ALWAYS!",
+    "inn_joke": "Why did the pig become an innkeeper? Because he was good at bringing home the bacon! ...I'll see myself out."
+  },
+  "party_reactions": {
+    "kade": "The inn names get more creative every zone.",
+    "nix7": "Hospitality protocols: optimal. Accommodation: adequate.",
+    "twist": "Do you have PIE? I smell PIE!",
+    "korr": "A warm fire. Good food. Simple pleasures.",
+    "renna": "Let me guess - pork is the specialty?"
+  },
+  "relationship_dialog": {
+    "stranger": "New guest! Welcome! Make yourself at home!",
+    "acquaintance": "Returning guest! Like family! Better, actually!",
+    "friend": "Regular! Preferred customer! Special treatment!",
+    "best_friend": "Family! Honorary hog! Part of the inn forever!"
+  },
+  "mini_quest": {
+    "id": "lost_inn_supplies",
+    "title": "Innkeeper's Emergency",
+    "description": "Retrieve lost supply cart from the mountain pass",
+    "stages": {
+      "hook": "Pantry's BARE! Delivery lost in pass! Supplies needed! Food! Drink! Bring them? Free stays for LIFE!",
+      "active": "Mountain pass! Lost cart! Supplies scattered! Watch for goats! Thieving goats everywhere!",
+      "complete": "SAVED! Inn lives! Take this! Lifetime free stay pass! All my locations! Gold! My ETERNAL gratitude! And PIE!"
+    },
+    "reward": {
+      "item": "lifetime_inn_pass",
+      "gold": 400,
+      "reputation": "inn_family"
+    }
+  }
+}

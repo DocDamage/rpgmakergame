@@ -1,0 +1,117 @@
+# Full Project Audit (2026-02-09 deep_pass_2)
+
+## Summary
+
+- issues_critical: **0**
+- issues_high: **21**
+- issues_medium: **71**
+- issues_info: **0**
+- total_issues: **92**
+
+## Coverage
+
+- maps: **89**
+- encounters: **12**
+- drops: **18**
+- items: **186**
+- enemies_total: **77**
+- bosses: **34**
+- quests: **38**
+- npcs: **17**
+- shops: **8**
+- dialogs: **20**
+
+## Findings
+
+- [HIGH] `drop_item_ref` (DROPS_BOSS_THE_BLOOM): Unknown first_clear_bonus item: ITEM_GROWTH_RING (`assets/data/drops/drop_bosses.json`)
+- [HIGH] `map_boss_ref` (D_ARCHIVE_112x96): Unknown boss ID: BOSS_ARCHIVE_GUARDIAN (`assets/data/maps/map_capital_chain.json`)
+- [HIGH] `map_encounter_ref` (D_ARCHIVE_112x96): Unknown encounter_table: ARCHIVE_ENCOUNTERS (`assets/data/maps/map_capital_chain.json`)
+- [HIGH] `map_encounter_ref` (D_PALACE_128x96): Unknown encounter_table: PALACE_ENCOUNTERS (`assets/data/maps/map_capital_chain.json`)
+- [HIGH] `map_encounter_ref` (MIC_CONDUIT_64x32): Unknown encounter_table: CONDUIT_ENCOUNTERS (`assets/data/maps/map_capital_chain.json`)
+- [HIGH] `map_encounter_ref` (MIC_CROWN_TO_PALACE_56x32): Unknown encounter_table: PALACE_APPROACH_ENCOUNTERS (`assets/data/maps/map_capital_chain.json`)
+- [HIGH] `map_encounter_ref` (D3_CRYSTAL_96x96): Unknown encounter_table: D3_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (D4_SKYSPIRE_96x96): Unknown encounter_table: D4_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (D5_ABYSS_96x96): Unknown encounter_table: D5_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (D6_OBSIDIAN_96x96): Unknown encounter_table: D6_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (D7_FROZEN_96x96): Unknown encounter_table: D7_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (D8_VOID_112x96): Unknown encounter_table: D8_ENCOUNTERS (`assets/data/maps/map_dungeons_main.json`)
+- [HIGH] `map_encounter_ref` (HID_DRAGON_96x64): Unknown encounter_table: DRAGON_GRAVEYARD_ENCOUNTERS (`assets/data/maps/map_hidden_shrines.json`)
+- [HIGH] `map_encounter_ref` (HID_SUNKEN_96x64): Unknown encounter_table: SUNKEN_ENCOUNTERS (`assets/data/maps/map_hidden_shrines.json`)
+- [HIGH] `map_encounter_ref` (MIC_R01A_48x32): Unknown encounter_table: R01A_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (MIC_R01B_96x40): Unknown encounter_table: R01B_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (MIC_R02_80x48): Unknown encounter_table: R02_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (MIC_R03_104x56): Unknown encounter_table: R03_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (MIC_R04_56x36): Unknown encounter_table: R04_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (MIC_R05_112x56): Unknown encounter_table: R05_ENCOUNTERS (`assets/data/maps/map_routes_act1.json`)
+- [HIGH] `map_encounter_ref` (TWR_ARENA_F10_48x48): Unknown encounter_table: TOWER_F10_ENCOUNTERS (`assets/data/maps/map_tower_palace_remnant.json`)
+- [MEDIUM] `drop_chance_sum` (DROPS_BOSS_MERCER): Total entry chance unusually high: 2.50 (`assets/data/drops/drop_bosses.json`)
+- [MEDIUM] `drop_chance_sum` (DROPS_BOSS_PROGENITOR_ENGINE): Total entry chance unusually high: 2.25 (`assets/data/drops/drop_bosses.json`)
+- [MEDIUM] `drop_chance_sum` (DROPS_BOSS_THE_BLOOM): Total entry chance unusually high: 3.50 (`assets/data/drops/drop_bosses.json`)
+- [MEDIUM] `drop_chance_sum` (DROPS_BOSS_THE_PRISM): Total entry chance unusually high: 2.30 (`assets/data/drops/drop_bosses.json`)
+- [MEDIUM] `drop_chance_sum` (DROPS_BOSS_THE_SPOROCYTE): Total entry chance unusually high: 2.40 (`assets/data/drops/drop_bosses.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_ELDER_MORDAI): Missing sprite asset for spr_boss_elder_mordai (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_BLOOM): Missing sprite asset for spr_boss_the_bloom (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_COLOSSUS): Missing sprite asset for spr_boss_the_colossus (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_DEPTHCALLER): Missing sprite asset for spr_boss_the_depthcaller (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_INFERNO): Missing sprite asset for spr_boss_the_inferno (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_PRISM): Missing sprite asset for spr_boss_the_prism (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_SPOROCYTE): Missing sprite asset for spr_boss_the_sporocyte (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_THE_VOIDHOUND): Missing sprite asset for spr_boss_the_voidhound (`assets/data/enemies/boss_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_ANCIENT_DRAKE): Missing sprite asset for spr_boss_ancient_drake (`assets/data/enemies/boss_palace_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CHRONOWARDEN): Missing sprite asset for spr_boss_chronowarden (`assets/data/enemies/boss_palace_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_ELEMENTAL_LORDS): Missing sprite asset for spr_boss_elemental_lords (`assets/data/enemies/boss_palace_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_PROGENITOR_ENGINE): Missing sprite asset for spr_boss_progenitor_engine (`assets/data/enemies/boss_palace_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_VOID_EMPRESS): Missing sprite asset for spr_boss_void_empress (`assets/data/enemies/boss_palace_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_REMNANT_CUSTODIAN): Missing sprite asset for spr_boss_remnant_custodian (`assets/data/enemies/boss_remnant_vault.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_GROWTH_WARDEN): Missing sprite asset for spr_boss_growth_warden (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_HEAT_ELEMENTAL): Missing sprite asset for spr_boss_heat_elemental (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_LIGHT_SERAPH): Missing sprite asset for spr_boss_light_seraph (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_MASS_GOLEM): Missing sprite asset for spr_boss_mass_golem (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_MOTION_SYLPH): Missing sprite asset for spr_boss_motion_sylph (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_SHADOW_WRAITH): Missing sprite asset for spr_boss_shadow_wraith (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_TIDE_LEVIATHAN): Missing sprite asset for spr_boss_tide_leviathan (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_TIME_WEAVER): Missing sprite asset for spr_boss_time_weaver (`assets/data/enemies/boss_shrine_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_BRONT_KESSEL): Missing sprite asset for spr_boss_captain_bront_kessel (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_CAEL_RORR): Missing sprite asset for spr_boss_captain_cael_rorr (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_NULL_SCRIBE): Missing sprite asset for spr_boss_captain_null_scribe (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_RESSA_VANE): Missing sprite asset for spr_boss_captain_ressa_vane (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_SEAM_WARDEN_PRIME): Missing sprite asset for spr_boss_seam_warden_prime (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_CAPTAIN_VENN_HOLT): Missing sprite asset for spr_boss_captain_venn_holt (`assets/data/enemies/boss_tower_captains.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_ALEXANDER): Missing sprite asset for spr_boss_alexander (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_DAX_KAINE): Missing sprite asset for spr_boss_dax_kaine (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_MERCER): Missing sprite asset for spr_boss_mercer (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_SENTINEL): Missing sprite asset for spr_boss_sentinel (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_VOID_ARCHITECT): Missing sprite asset for spr_boss_void_architect (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (BOSS_YAKOV_THORNE): Missing sprite asset for spr_boss_yakov_thorne (`assets/data/enemies/boss_tower_main.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_NULL_CASTER): Missing sprite asset for spr_enemy_null_caster (`assets/data/enemies/enemy_capital_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_RECORD_SENTRY): Missing sprite asset for spr_enemy_record_sentry (`assets/data/enemies/enemy_capital_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_VOID_ELITE): Missing sprite asset for spr_enemy_void_elite (`assets/data/enemies/enemy_capital_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_CHRONO_SCRIBE): Missing sprite asset for spr_enemy_chrono_scribe (`assets/data/enemies/enemy_chrono_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_DRONE): Missing sprite asset for spr_enemy_drone (`assets/data/enemies/enemy_chrono_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_PHASE_SCUTTLER): Missing sprite asset for spr_enemy_phase_scuttler (`assets/data/enemies/enemy_chrono_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_BLOOM_SPROUT): Missing sprite asset for spr_enemy_bloom_sprout (`assets/data/enemies/enemy_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_FUNGAL_HORROR): Missing sprite asset for spr_enemy_fungal_horror (`assets/data/enemies/enemy_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_GROWTH_LURKER): Missing sprite asset for spr_enemy_growth_lurker (`assets/data/enemies/enemy_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_VINE_SNAKE): Missing sprite asset for spr_enemy_vine_snake (`assets/data/enemies/enemy_dungeon_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_DUST_SCAVENGER): Missing sprite asset for spr_enemy_dust_scavenger (`assets/data/enemies/enemy_dustbelt_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_DUST_SKIRMISHER): Missing sprite asset for spr_enemy_dust_skirmisher (`assets/data/enemies/enemy_dustbelt_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_DUST_WASP): Missing sprite asset for spr_enemy_dust_wasp (`assets/data/enemies/enemy_dustbelt_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_EMBER_RUNNER): Missing sprite asset for spr_enemy_ember_runner (`assets/data/enemies/enemy_ember_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_HEAT_CASTER): Missing sprite asset for spr_enemy_heat_caster (`assets/data/enemies/enemy_ember_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_SLAG_MOTE): Missing sprite asset for spr_enemy_slag_mote (`assets/data/enemies/enemy_ember_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_CHILL_CASTER): Missing sprite asset for spr_enemy_chill_caster (`assets/data/enemies/enemy_frost_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_FROST_SKIRMISHER): Missing sprite asset for spr_enemy_frost_skirmisher (`assets/data/enemies/enemy_frost_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_FROZEN_WATCHER): Missing sprite asset for spr_enemy_frozen_watcher (`assets/data/enemies/enemy_frost_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_LEECHLING): Missing sprite asset for spr_enemy_leechling (`assets/data/enemies/enemy_mire_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_MIRE_BULLY): Missing sprite asset for spr_enemy_mire_bully (`assets/data/enemies/enemy_mire_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_SPORELING): Missing sprite asset for spr_enemy_sporeling (`assets/data/enemies/enemy_mire_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_LAVA_HAZARD_UNIT): Missing sprite asset for spr_enemy_lava_hazard_unit (`assets/data/enemies/enemy_obsidian_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_QUARRY_BRUTE): Missing sprite asset for spr_enemy_quarry_brute (`assets/data/enemies/enemy_obsidian_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_CRYSTAL_RANGED): Missing sprite asset for spr_enemy_crystal_ranged (`assets/data/enemies/enemy_prism_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_REFRACTION_IMAGE): Missing sprite asset for spr_enemy_refraction_image (`assets/data/enemies/enemy_prism_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_BRINE_CASTER): Missing sprite asset for spr_enemy_brine_caster (`assets/data/enemies/enemy_tide_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_LAMPJAW_EEL): Missing sprite asset for spr_enemy_lampjaw_eel (`assets/data/enemies/enemy_tide_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_SCUTTLER): Missing sprite asset for spr_enemy_scuttler (`assets/data/enemies/enemy_tide_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_ROCK_BRUTE): Missing sprite asset for spr_enemy_rock_brute (`assets/data/enemies/enemy_uplands_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_STRAY_WISP): Missing sprite asset for spr_enemy_stray_wisp (`assets/data/enemies/enemy_uplands_set.json`)
+- [MEDIUM] `enemy_sprite_ref` (ENEMY_WIND_CASTER): Missing sprite asset for spr_enemy_wind_caster (`assets/data/enemies/enemy_uplands_set.json`)

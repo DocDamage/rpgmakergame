@@ -1,0 +1,134 @@
+chroma_edge_script_part3.md:101:You say the sweetest things.
+chroma_edge_script_part3.md:106:YOU'RE ALIVE.
+chroma_edge_script_part3.md:124:Okay! New rule! No murdering in my line of sight until breakfast digests.
+chroma_edge_script_part3.md:159:Love the enthusiasm. Hate the vibe.
+chroma_edge_script_part3.md:190:She's always been spicy. It's just… medically regulated.
+chroma_edge_script_part3.md:217:(snatching her wrench back)
+chroma_edge_script_part3.md:264:You're Dominion?
+chroma_edge_script_part3.md:383:So you punched your way out?
+chroma_edge_script_part3.md:421:So you're broke and useless.
+chroma_edge_script_part3.md:486:Templar gear. But no marks.
+chroma_edge_script_part3.md:548:Cool cool cool. So we're trusting the ex-Dominion genius who looks like she hasn't smiled since childhood.
+chroma_edge_script_part3.md:627:This place feels like it's judging my life choices.
+chroma_edge_script_part3.md:651:Both of you—step back. Power conduit's fried.
+chroma_edge_script_part3.md:656:Come on, you stubborn piece of—
+chroma_edge_script_part3.md:661:…Oh.
+chroma_edge_script_part3.md:673:You're… Voltaris.
+chroma_edge_script_part3.md:687:(grinning, shaky)
+chroma_edge_script_part3.md:697:NOPE. Keep it comedic. Remember? Planet rules.
+chroma_edge_script_part3.md:737:(whispers to Suresh)
+chroma_edge_script_part3.md:756:I DIDN'T BLOW IT UP THAT MUCH.
+chroma_edge_script_part3.md:762:…Okay, I did.
+chroma_edge_script_part3.md:807:Did you just… inherit a god?
+chroma_edge_script_part3.md:841:So we're not just fixing a planet.
+chroma_edge_script_part3.md:867:(riding a Nightmare)
+chroma_edge_script_part3.md:889:What is it, boy?
+chroma_edge_script_part3.md:896:Oh, you beautiful little loot radar.
+chroma_edge_script_part3.md:917:I like her.
+chroma_edge_script_part3.md:976:We just… healed a biome.
+chroma_edge_script_part3.md:1042:Hate that. Hate that a lot.
+chroma_edge_script_part3.md:1120:That's the spirit!
+chroma_edge_script_part3.md:1127:…Fair.
+chroma_edge_script_part4.md:10:Maybe the sun's on break.
+chroma_edge_script_part4.md:41:Oh. It's Mister High-Beams.
+chroma_edge_script_part4.md:101:And why would we trust you?
+chroma_edge_script_part4.md:174:Okay. That's a hallway's worth of sharp.
+chroma_edge_script_part4.md:217:Welcome to being human. We're all convenient.
+chroma_edge_script_part4.md:266:Damn.
+chroma_edge_script_part4.md:332:(patting her Lava Strider)
+chroma_edge_script_part4.md:350:That's your solution to most problems.
+chroma_edge_script_part4.md:381:Translation: if we don't do this, the planet keeps having tantrums.
+chroma_edge_script_part4.md:433:Oh hell yes. They're doing the thing!
+chroma_edge_script_part4.md:471:I can feel my eyebrows trying to evacuate.
+chroma_edge_script_part4.md:552:…Uh. No. Absolutely not.
+chroma_edge_script_part4.md:607:Did we just put a volcano to bed?
+chroma_edge_script_part4.md:645:So… the ocean is misbehaving.
+chroma_edge_script_part4.md:696:Well that's… unsettling.
+chroma_edge_script_part4.md:753:Your summon?
+chroma_edge_script_part5.md:7:If that light hits me I'm going to pretend I'm a rock.
+chroma_edge_script_part5.md:13:Exactly. Observe.
+chroma_edge_script_part5.md:68:Oh good. Our ocean witch is back.
+chroma_edge_script_part5.md:74:That's exactly what a witch says.
+chroma_edge_script_part5.md:163:Same. Mine come with a warranty.
+chroma_edge_script_part5.md:194:That's my boy! Good distraction!
+chroma_edge_script_part5.md:240:…Okay. That's the biggest thing I've ever seen that isn't trying to tax me.
+chroma_edge_script_part5.md:301:She does that on purpose.
+chroma_edge_script_part5.md:329:That's my least favorite kind of emotion.
+chroma_edge_script_part5.md:393:Finally, a plan I can emotionally support.
+chroma_edge_script_part5.md:455:Hey, Magistrate?
+chroma_edge_script_part5.md:461:And I'm about to bully it.
+chroma_edge_script_part5.md:614:I feel heavier just looking at it.
+chroma_edge_script_part6.md:9:…That was rude.
+chroma_edge_script_part6.md:50:Okay, you're both being poetic. Stop. It's making me itchy.
+chroma_edge_script_part6.md:83:Oh my—
+chroma_edge_script_part6.md:156:Okay. That was sick.
+chroma_edge_script_part6.md:181:Great. My favorite genre.
+chroma_edge_script_part6.md:209:I have a bad feeling.
+chroma_edge_script_part6.md:393:How old?
+chroma_edge_script_part6.md:437:Did you just… adopt a frozen robot dragon?
+chroma_edge_script_part6.md:459:This place is making my brain itch.
+chroma_edge_script_part6.md:563:Okay.
+chroma_edge_script_part6.md:633:Okay.
+chroma_edge_script_part7.md:10:Same. It feels like the world turned its phone brightness down.
+chroma_edge_script_part7.md:23:How can you tell?
+chroma_edge_script_part7.md:117:That's not comforting.
+chroma_edge_script_part7.md:226:I miss doors that open like normal doors.
+chroma_edge_script_part7.md:232:Don't call me babe.
+chroma_edge_script_part7.md:238:I'm going to throw you into the void.
+chroma_edge_script_part7.md:505:Uh—guys? The universe is doing that thing where it tries to kill us.
+chroma_edge_script_part7.md:613:Okay. Cool. Great.
+chroma_edge_script_part7.md:620:Not what I meant.
+chroma_edge_script_part8.md:7:My Nightmare won't move.
+chroma_edge_script_part8.md:28:Cool. We have a permit to get murdered.
+chroma_edge_script_part8.md:34:Stop saying words.
+chroma_edge_script_part8.md:71:"Correction attempt"? That's ominous.
+chroma_edge_script_part8.md:114:I'm gonna punch the screen.
+chroma_edge_script_part8.md:120:I'm still gonna punch it.
+chroma_edge_script_part8.md:125:OW.
+chroma_edge_script_part8.md:163:Ugh. She's a "the building is my boyfriend" type.
+chroma_edge_script_part8.md:169:Good.
+chroma_edge_script_part8.md:233:Oh my god.
+chroma_edge_script_part8.md:265:I love her.
+chroma_edge_script_part8.md:296:Why does everybody here talk like an instruction manual?
+chroma_edge_script_part8.md:411:That's not funding. That's stealing.
+chroma_edge_script_part8.md:417:That's stealing with extra steps.
+chroma_edge_script_part8.md:470:That's disgusting.
+chroma_edge_script_part8.md:512:We're the bad decisions that finally showed up.
+chroma_edge_script_part8.md:591:He's worse. He likes it.
+chroma_edge_script_part8.md:641:So… the building's sick?
+chroma_edge_script_part8.md:752:…I hate this place.
+chroma_edge_script_part9.md:7:This place is literally judging my calves.
+chroma_edge_script_part9.md:112:Oh, he's a "truth is what I say it is" guy.
+chroma_edge_script_part9.md:194:What?
+chroma_edge_script_part9.md:199:Oh HELL no.
+chroma_edge_script_part9.md:326:This building is exhausting.
+chroma_edge_script_part9.md:449:Three pieces.
+chroma_edge_script_part9.md:595:Oh hell yes! Dragon and Tremor!
+chroma_edge_script_part9.md:682:Why does it feel like I'm talking into a cave full of me?
+chroma_edge_script_part9.md:732:Did the door just ask us for vibes?
+chroma_edge_script_part10.md:54:Long story.
+chroma_edge_script_part10.md:115:I hate his voice. It sounds like a contract.
+chroma_edge_script_part10.md:170:What comes next?
+chroma_edge_script_part10.md:256:We can't bring them with us.
+chroma_edge_script_part10.md:278:Keep it. It's accurate.
+chroma_edge_script_part10.md:300:This floor is illegal.
+chroma_edge_script_part10.md:362:She keeps doing that and I'm gonna start believing in her.
+chroma_edge_script_part10.md:368:Too late.
+chroma_edge_script_part10.md:384:So we're germs.
+chroma_edge_script_part10.md:456:He's like a scary Roomba with feelings.
+chroma_edge_script_part10.md:601:Cool. Neither am I.
+chroma_edge_script_part11.md:46:"Assimilation."
+chroma_edge_script_part11.md:155:Cool. We learned "anti-possession."
+chroma_edge_script_part11.md:227:He has the "I'm right because I built the room" energy.
+chroma_edge_script_part11.md:281:We're hacking god's staircase. Nice.
+chroma_edge_script_part11.md:331:Aww.
+chroma_edge_script_part11.md:448:Okay.
+chroma_edge_script_part11.md:692:And we're great at punishing mistakes.
+chroma_edge_script_part12.md:12:Oh cool. A doomsday clock. Love that.
+chroma_edge_script_part12.md:50:So we're doing… boss paperwork, church trauma, and screaming.
+chroma_edge_script_part12.md:95:Nope. Absolutely nope.
+chroma_edge_script_part12.md:260:Okay.
+chroma_edge_script_part12.md:347:So we didn't kill him. We just evicted him.
+chroma_edge_script_part12.md:374:We can't jump that.
+chroma_edge_script_part12.md:409:Thanks, big guy.
+chroma_edge_script_part12.md:627:That's… not Mercer.

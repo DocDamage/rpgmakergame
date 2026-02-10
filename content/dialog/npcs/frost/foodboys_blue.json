@@ -1,0 +1,107 @@
+{
+  "npc_id": "foodboys_blue_frost",
+  "name": "Fry & Ice",
+  "sprite": "foodboys_blue",
+  "zone": "frost",
+  "location": "Frozen Lake Dock",
+  "personality": "competitive_cold_proud",
+  "occupation": "ice_fishing_fry_operators",
+  "dialog": {
+    "greeting": [
+      "FRESH fish! FRESH from the ICE!",
+      "Fry and Ice! I'm Fry! He's Ice! Blue means COLD! And TRUSTED!",
+      "Hot fry! Cold fish! PERFECT balance!",
+      "New face! Hungry? We have what you NEED! If you need FISH!",
+      "The blue uniforms? Ice fishing license! HARD to get!",
+      "Frozen lake fishing! HOT oil frying! We do BOTH!",
+      "Fry: 'Our fish!' Ice: 'Is fresh!' Both: 'BECAUSE IT WAS NEVER WARM!'",
+      "You look COLD! We can't fix that! But we can FEED you!"
+    ],
+    "shop_open": "Catch of the day! Ice trout! Snow cod! And the legendary FROST PIKE!",
+    "food_offer": "Fried fish! In batter! CRISPY! Or raw! If you're BORING!",
+    "haggle": [
+      "Fish prices fluctuate! With the CATCH! And our MOOD!",
+      "Best deal? Buy three! Get one! At REGULAR price!",
+      "Hero discount? 15%! Because heroes need PROTEIN!"
+    ],
+    "purchase_success": [
+      "ENJOY! Don't chip a tooth! Ice crystals add CRUNCH!",
+      "EXCELLENT choice! That fish was swimming THIS MORNING!",
+      "Come back! The lake provides! Usually!"
+    ],
+    "purchase_fail": [
+      "No money? No FISH! The lake doesn't take CREDIT!",
+      "Fish cost EFFORT! Effort costs TIME! Time is MONEY!",
+      "Return with COIN! Cold coin! Warm coin! We don't DISCRIMINATE!"
+    ],
+    "rumor": [
+      "The hot springs are CHEATING! Natural warmth? UNFAIR advantage!",
+      "Cirrus the weather guy? Never eats fish. Too COLD for him! IRONIC!",
+      "Azure? The balloonist? Dropped a delivery in the LAKE once! Fish ATE it!",
+      "The twins? They don't eat. Just... stare. At the ice. CREEPY!",
+      "Snake charmer has a WARM rock. Could revolutionize FISHING! Want it!"
+    ],
+    "quest_hook": "The pike! The GREAT FROST PIKE! Stole our BEST lure! Three years ago! Still out there! Catch it?",
+    "quest_active": "Any sign of the Great Pike? BIG fish! SMART fish! VENGEFUL fish!",
+    "quest_complete": "YOU GOT IT! The Great Pike! Our LURE! Returned! Plus FISH! Here! The Golden Rod! For REAL anglers!",
+    "farewell": [
+      "Stay FROSTY! And FED!",
+      "The lake PROVIDES! Eventually!",
+      "Keep your lines TIGHT! And your oil HOT!"
+    ],
+    "ambient_barks": [
+      "FRESH fish! COLD fish!",
+      "Ice fishing! REAL fishing!",
+      "Fry station HOT!",
+      "Catch of the DAY!",
+      "Lake's FROZEN! We're NOT!",
+      "Who wants FISH?!"
+    ],
+    "time_dawn": "Dawn fishing! Best time! Fish are HUNGRY! We're HUNGRIER!",
+    "time_noon": "Midday! Fry station BUSY! Peak CRISPINESS!",
+    "time_dusk": "Evening! Last catch! Last fry! Last CHANCE!",
+    "time_night": "Night! Ice fishing continues! Glow worms for BAIT! Beautiful!",
+    "rival_mention": "The white foodboys? HOT soup? Melts the ICE! Bad for FISHING!",
+    "post_quest_greeting": "The PIKE SLAYER! Legendary! Have some fish! FREE! (Small portion!)"
+  },
+  "party_reactions": {
+    "kade": "They're intense. About fish. And being cold. And competitive.",
+    "nix7": "Fishing methodology: Primitive. Flavor optimization: Surprisingly advanced.",
+    "twist": "FISH! FRIED FISH! RAW FISH! ALL THE FISH!",
+    "korr": "They survive through skill and competition. Admirable adaptation.",
+    "renna": "The fish have minor frost resistance. Evolution. Or magic. Both.",
+    "suresh": "They take life to sustain life. But they RESPECT the life taken.",
+    "sova": "Fresh food. Hard to get in the field. I'd trade with them.",
+    "grit": "Fishing takes patience. These two have it. And good oil.",
+    "ashka": "They work with cold. Use it. Smart. For non-mages.",
+    "senna": "They know the lake. Its depths. Its secrets. Useful.",
+    "callum": "Their frying oil temperatures! EXACTLY right! Professionals!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time fishing? We can TEACH you! For a FEE!",
+    "acquaintance": "Return customer! You like our STYLE!",
+    "friend": "Fishing BUDDY! We save the BEST catches for YOU!",
+    "best_friend": "PARTNER! In FISH! Here! Our father's knife! For SCALING! And FRIENDSHIP!"
+  },
+  "mini_quest": {
+    "id": "great_pike",
+    "title": "The Great Frost Pike",
+    "description": "Help Fry & Ice catch the legendary Great Frost Pike that stole their lure",
+    "stages": {
+      "hook": "Three years ago! The Great Pike! Stole our MASTER LURE! Grandfather's hook! Still out there! LAUGHING! Catch it!",
+      "active": "Deep water! Near the hot springs vent! The pike likes WARMTH! Smart fish! EVIL fish!",
+      "complete": "THE PIKE! You CAUGHT it! Our LURE! Returned! Here! The Golden Rod! For MASTER anglers! Like YOU!"
+    },
+    "reward": {
+      "item": "golden_fishing_rod",
+      "gold": 350,
+      "reputation": "master_angler"
+    }
+  },
+  "cross_npc_connections": [
+    "foodboys_white_frost: Our WARM rivals! Soup? MELTS ice! Bad for FISH!",
+    "aeronaut_blue_frost: Azure! Dropped cargo in OUR lake! Fish ATE it!",
+    "pigman_blue_frost: The healer! Trades frostbite treatment for FISH!",
+    "snakecharmer_frost: WARM rock! Want it! For... fishing! SCIENCE!"
+  ]
+}

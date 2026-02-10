@@ -1,0 +1,96 @@
+{
+  "npc_id": "barrelgob_brown_dustbelt",
+  "name": "Scraps",
+  "sprite": "barrelgob_brown",
+  "zone": "dustbelt",
+  "location": "Deep Junkyard",
+  "personality": "hoarding_paranoiac",
+  "occupation": "junk_collector",
+  "dialog": {
+    "greeting": [
+      "Mine! All mine!",
+      "*clutches junk protectively*",
+      "No take! Only give! If trade!",
+      "Scraps sees you! Watching! Always watching!",
+      "New face! Maybe bring good junk?",
+      "This pile? Scraps pile! Other pile? Also Scraps pile!",
+      "Barrel cousin says you're okay. Scraps unsure."
+    ],
+    "shop_open": "Scraps sells! But carefully! Choose wisely!",
+    "shop_prompt": "Junk! But GOOD junk! Quality scrap!",
+    "haggle": [
+      "That piece? VERY valuable! To me!",
+      "Haggle? Scraps doesn't haggle! ...Okay, little haggle.",
+      "Final offer! Take or leave! No take-backs!",
+      "You drive hard bargain! Scraps respects! But still wants more!"
+    ],
+    "purchase_success": [
+      "Gone! But fair trade! Scraps remembers!",
+      "Yours now! Treat good! Or don't! Not Scraps problem!",
+      "Deal! Scraps richer! You... item-ier!",
+      "Sold! More space for NEW junk!"
+    ],
+    "purchase_fail": [
+      "Waste of Scraps time!",
+      "No coin, no junk! Simple!",
+      "Go away! Come back with money!"
+    ],
+    "rumor": [
+      "Cousin Tappy got new barrel. Shiny one. Scraps jealous.",
+      "Deep-Dig Dan found METAL down deep. MY metal! From surface!",
+      "Signguy throws away good wood! Perfectly good! Scraps takes!",
+      "Something in the deep junk moves at night. Not gob. Something else."
+    ],
+    "quest_hook": "Lost BEST piece! Fell in sand pit! Too deep for Scraps! Big ones get it? Special reward! Very special!",
+    "quest_active": "Sand pit! Deep one! Shiny thing at bottom!",
+    "quest_complete": "My precious! You found! Here! Scraps best treasure! Old key! Opens... something! Probably valuable!",
+    "quest_reward": "Mysterious Old Key - Opens unknown locks",
+    "farewell": [
+      "Go now! Scraps busy!",
+      "Return with shiny!",
+      "Watch your step! Junk everywhere!"
+    ],
+    "ambient_barks": [
+      "Mine!",
+      "*hoarding noises*",
+      "Shiny...",
+      "*suspicious glance*",
+      "Good junk!",
+      "*protective clutching*"
+    ],
+    "time_dawn": "Early collecting! Best finds before others wake!",
+    "time_noon": "Hot! But junk doesn't care! Keep sorting!",
+    "time_dusk": "Evening inventory! So much! So good!",
+    "time_night": "Night guarding! Protect the piles!",
+    "post_quest_greeting": "The retriever! Scraps doesn't forget!",
+    "hoarding_motto": "One gob's trash is SAME gob's treasure! Forever!"
+  },
+  "party_reactions": {
+    "kade": "That's... a lot of junk.",
+    "nix7": "Inventory: chaotic. Value: subjective.",
+    "twist": "Can I look through your stuff? Please?",
+    "korr": "One person's trash...",
+    "renna": "There's organization here. Somewhere."
+  },
+  "relationship_dialog": {
+    "stranger": "New! Watchful! Suspicious!",
+    "acquaintance": "Known! Somewhat trusted!",
+    "friend": "Trusted! Good trade partner!",
+    "best_friend": "Like gob family! Share junk secrets!"
+  },
+  "mini_quest": {
+    "id": "sand_pit_recovery",
+    "title": "The Fallen Treasure",
+    "description": "Retrieve Scraps' lost item from the deep sand pit",
+    "stages": {
+      "hook": "Lost BEST piece! Fell in sand pit! Too deep for Scraps! Get it? Special reward!",
+      "active": "Sand pit! Deep! Shiny at bottom! Watch for sinkholes!",
+      "complete": "My precious! Found! Here! Best treasure! Old key! Opens something somewhere! Valuable! Take!"
+    },
+    "reward": {
+      "item": "mysterious_old_key",
+      "gold": 150,
+      "reputation": "junk_dealer_friend"
+    }
+  }
+}

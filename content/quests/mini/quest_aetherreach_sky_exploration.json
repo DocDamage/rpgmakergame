@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_aetherreach_sky_exploration",
+  "name": "Beyond the Clouds",
+  "zone": "aetherreach",
+  "giver": "aeronaut_red",
+  "type": "exploration",
+  "prerequisites": ["aetherreach_access"],
+  "stages": {
+    "start": {
+      "dialog": "Aetherreach floats above the world, but even we haven't mapped everything. There are uncharted islands drifting in the upper currents—places where the Progenitors left secrets, or where reality gets strange. I've spotted three such islands. Explore them, chart them, claim what you find for the Sky Archive.",
+      "objective": "Explore and chart three uncharted floating islands"
+    },
+    "progress": {
+      "dialog": "Two islands charted, and the findings are remarkable—ancient ruins, unknown flora, even signs of pre-Dominion civilization. The third island is different, though. It moves, avoiding approach. Active Progenitor tech, or something alive? We need to find a way to catch it.",
+      "objective": "Catch the moving island and explore its secrets"
+    },
+    "complete": {
+      "dialog": "All islands charted, Sky Archive expanded, discoveries made. The moving island was a Progenitor observation post, still functioning after all this time. Its data will take years to analyze, but you've advanced our knowledge centuries in a single day. The sky holds more secrets, Kade. Keep looking up.",
+      "rewards": {
+        "exp": 25000,
+        "gold": 6000,
+        "item": "sky_chart_fragment"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Flying between floating islands, discovering lost civilizations. This is the adventure I dreamed of as a kid.",
+    "ashka": "The upper currents are tricky—wind shears, pressure drops, unexpected thermals. Good flying out there, Kade.",
+    "nix7": "Progenitor observation post analysis: 14,000 years operational. Data density suggests continuous recording of planetary surface."
+  },
+  "lore_unlocks": ["uncharted_islands", "progenitor_observation_posts"]
+}

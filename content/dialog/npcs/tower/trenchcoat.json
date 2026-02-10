@@ -1,0 +1,119 @@
+{
+  "npc_id": "trenchcoat_tower",
+  "name": "Path",
+  "title": "Tower Explorer",
+  "zone": "tower",
+  "location": "Various Floors, Chroma Tower",
+  "description": "A veteran explorer mapping the Tower's ever-changing upper floors, seeking the path to the Palace.",
+  "sprite_variant": "trenchcoat_tower",
+  "greeting_variants": [
+    "*checking map* Path. Explorer. You climbing too?",
+    "Tower's different every day. I map. I adapt. I survive.",
+    "*marking wall* Floor 38 today. Was different yesterday.",
+    "Forty floors mapped. Seven to go. Seven hardest.",
+    "Vex sent me. Capital needs Tower knowledge. I provide.",
+    "*listening to walls* Something's up there. Always something.",
+    "The top changes most. Palace pulls. Twists. Waits.",
+    "Need directions? I have... educated guesses."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Path. Tower specialist. Vex recruited me from Capital—said someone needed to understand this place. I've mapped forty floors. Seven remain. Seven that... defy mapping. Shift. Change. Alive, maybe.",
+          "options": [
+            {"text": "Tell me about the changing floors.", "goto": "shifting_floors"},
+            {"text": "What's at the top?", "goto": "top_mystery"},
+            {"text": "Can I see your maps?", "goto": "map_request"},
+            {"text": "Good luck exploring.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "shifting_floors",
+          "text": "*unrolls map* See? Floor 42. Was a library yesterday. Today? Garden. Tomorrow? Who knows. The upper floors... respond. To climbers? To the Palace? To mood? I mark what I see. But it's always... temporary.",
+          "party_reactions": {
+            "mira": "Responsive architecture? Impossible but...",
+            "path": "Tower doesn't care about possible. Just is."
+          },
+          "options": [
+            {"text": "How do you navigate?", "goto": "navigation"},
+            {"text": "Is it dangerous?", "goto": "danger_assessment"}
+          ]
+        },
+        {
+          "id": "top_mystery",
+          "text": "*lowers voice* Palace access. But not normal access. The final seven floors... they're a test. A transformation. The Twins know more. Won't say. I get close. Feel... pull. Invitation? Warning? Both?",
+          "options": [
+            {"text": "I'm going up.", "goto": "climb_together"},
+            {"text": "What kind of transformation?", "goto": "transformation_info"}
+          ]
+        },
+        {
+          "id": "map_request",
+          "text": "*hesitates* Maps are... incomplete. Outdated quickly. But useful. I can share. For a price. Information. Supplies. Company on dangerous floors. Explorer's trade.",
+          "unlocks": {"item": "tower_map_40_floors"},
+          "options": [
+            {"text": "I'll trade information.", "goto": "info_trade"},
+            {"text": "I can accompany you.", "goto": "companionship_offer"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "the_climb_exploration",
+    "title": "The Climb - Map the Unknown",
+    "description": "Accompany Path on an expedition to map the shifting floors above 40 and document their changing nature.",
+    "objectives": [
+      "Reach Floor 41 with Path",
+      "Document the current configuration",
+      "Reach Floor 42 (shifting library/garden)",
+      "Map Floor 43's gravity anomalies",
+      "Return with data for the resistance"
+    ],
+    "rewards": {
+      "experience": 700,
+      "reputation": {"tower_residents": 30, "resistance": 35},
+      "items": ["path_complete_map", "explorer_compass"],
+      "unlock": "upper_floor_navigation"
+    },
+    "prerequisites": ["passed_monolith_trials"]
+  },
+  "ambient_barks": [
+    "*marking wall* Path was here. Floor... variable.",
+    "Changes again. Always changes. Adapt. Survive.",
+    "*checking compass* North? What is north here?",
+    "Vex needs this data. Every floor. Every change.",
+    "*listening* Palace hums. Constant. Louder up here.",
+    "Floor 44 tomorrow. If it exists. If I'm ready.",
+    "*mapping frantically* Shifting! While I watch!",
+    "The Tower teaches. Harsh teacher. Good lessons."
+  ],
+  "cross_zone_references": {
+    "capital": "Vex commands. I explore. Good partnership. Trust.",
+    "void": "Went once. Briefly. Tower Void different. Wrong. Avoid.",
+    "palace": "Goal. Destination. Answer. Fear. Hope. All there."
+  },
+  "party_reactions": {
+    "vex": {
+      "greeting": "Path. Report.",
+      "response": "*salutes* New data, commander. Shifting continues."
+    },
+    "mira": {
+      "greeting": "Your mapping methodology—",
+      "response": "*hands over notes* All yours. Add science. Find answers."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Active exploration, mapping, documentation",
+      "night": "Camping in stable areas, planning next day's route"
+    },
+    "world_state_triggers": {
+      "floor_shifts": "Frantic mapping: 'Changing! While I watch! Document!'",
+      "new_discovery": "Excited: 'New path! New possibility! Record!'"
+    }
+  }
+}

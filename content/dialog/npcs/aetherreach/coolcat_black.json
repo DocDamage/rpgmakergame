@@ -1,0 +1,97 @@
+{
+  "npc_id": "coolcat_black_aetherreach",
+  "name": "Midnight Groove",
+  "sprite": "coolcat_black",
+  "zone": "aetherreach",
+  "location": "Street Corner - Sky District",
+  "personality": "energetic_street_wise",
+  "occupation": "street_musician",
+  "dialog": {
+    "greeting": [
+      "YO! Welcome to the REAL Aetherreach! Street level!",
+      "Midnight Groove! Bringing beats to the streets!",
+      "You vibin'? You look like you could use some music!",
+      "The Lounge is for tourists! This is where the soul lives!",
+      "Check it! I got rhythm! I got soul! I got... no money!",
+      "Welcome! Listen to this! *plays energetic riff*",
+      "Street music! Loud! Proud! Echoing off buildings!"
+    ],
+    "performance_offer": "Today's street set: Sky-High Energy, Cloud-Burst Blues, and my banger: Upward Mobility! All free! Tips appreciated!",
+    "tips_appreciated": "Liking the sound? Throw some coin! Feed the musician!",
+    "music_philosophy": "White cat plays for suits. I play for the PEOPLE! The WORKERS! The DREAMERS!",
+    "haggle": [
+      "These beats? Priceless! But I'll take what you got!",
+      "Big tipper? I'll play your request! Anything!",
+      "Every coin helps! The dream is real!",
+      "Even a copper gets you a smile! And a high note!"
+    ],
+    "tip_received": [
+      "YO! APPRECIATED! *intense drum solo*",
+      "The people have spoken! And they said NICE!",
+      "Now we're cooking! Check THIS out!",
+      "You got taste! Street taste! The best kind!"
+    ],
+    "rumor": [
+      "White cat thinks he's better. But I got PASSION!",
+      "The conductor tips sometimes. Good dude. Loves the rhythm!",
+      "Heard the sunandmoon dancing to my beat once. Celestial approval!",
+      "The Vault kills all sound. Even MY sound. That's saying something!",
+      "Signguy lets me play near his best work. Draws crowds!"
+    ],
+    "quest_hook": "I need a new instrument! Something with SOUL! The Wind-Harp from Tide's storms! Bring me one and I'll play your theme song! Forever!",
+    "quest_active": "That Wind-Harp calling to you? I can hear it! In my dreams!",
+    "quest_complete": "THE SOUL! THE POWER! Listen to THIS! *incredible music* Your song! The Hero's Anthem!",
+    "quest_reward": "Hero's Anthem - Your personal theme music! Charisma boost!",
+    "farewell": [
+      "Keep the beat alive! In your heart!",
+      "Stay loud! Stay proud!",
+      "The streets remember! And they groove!"
+    ],
+    "ambient_barks": [
+      "*upbeat drum solo*",
+      "Feel the rhythm!",
+      "Street level! Where it's real!",
+      "Music for the people!",
+      "GROOVE!"
+    ],
+    "time_dawn": "Early busking! For the morning commuters!",
+    "time_noon": "Lunch rush! Fast beats! High energy!",
+    "time_dusk": "Rush hour! Prime crowd! Maximum tips!",
+    "time_night": "Night jams! When the city sleeps but the music doesn't!"
+  },
+  "party_reactions": {
+    "kade": "Do you ever just... talk normally?",
+    "nix7": "Jazz confirmed. Volume: excessive.",
+    "twist": "LOUD MUSIC! I LOVE IT! PLAY FASTER!",
+    "korr": "The energy is... invigorating. Almost too invigorating.",
+    "renna": "The acoustics here are suboptimal. But the enthusiasm compensates.",
+    "suresh": "Passion expressed through sound. Beautiful chaos.",
+    "sova": "Too loud. Scaring away the game. And my patience.",
+    "grit": "Finally! Someone who understands VOLUME!",
+    "ashka": "YES! MORE ENERGY! MORE FIRE! Wait, no fire? Disappointing.",
+    "senna": "Can you play quieter? For stealth? No? Didn't think so.",
+    "callum": "So energetic! So happy! I love it!",
+    "petra": "Heavy beat. Good rhythm. Solid."
+  },
+  "relationship_dialog": {
+    "stranger": "New face! Welcome to the street! Drop a coin! Any coin!",
+    "acquaintance": "The regular! I see you feelin' it!",
+    "friend": "My best fan! This next one's for you!",
+    "best_friend": "We FAMILY now! Musical SOUL FAMILY!"
+  },
+  "mini_quest": {
+    "id": "wind_harp_soul",
+    "title": "Soul Instrument",
+    "description": "Find a Wind-Harp from Tide's storms for Midnight's new sound",
+    "stages": {
+      "hook": "I need a Wind-Harp! From Tide! Storm-made! With SOUL!",
+      "active": "Tide's storm coasts! Listen for the singing wind!",
+      "complete": "THE POWER! The HERO'S ANTHEM! All yours!"
+    },
+    "reward": {
+      "item": "heros_anthem",
+      "gold": 300,
+      "reputation": "street_music_family"
+    }
+  }
+}

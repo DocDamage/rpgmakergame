@@ -1,0 +1,124 @@
+{
+  "npc_id": "conductor_palace",
+  "name": "Ascent",
+  "title": "Aether Elevator",
+  "zone": "palace",
+  "location": "The Celestial Spire, Chromatic Palace",
+  "description": "The master of vertical transcendence, operating the elevator that connects all realms to the Progenitor's presence.",
+  "sprite_variant": "conductor_palace",
+  "greeting_variants": [
+    "*golden lift doors opening* Welcome, traveler. To the ultimate ascent.",
+    "Ascent. I guide between realms. Between states. Between selves.",
+    "*checking ethereal gauges* Digs maintains machines. Lift operates them. I... transcend them.",
+    "The Aether Elevator goes where physics fears. Where dreams ascend.",
+    "*gesturing gracefully* Up, down, within, beyond—all directions. All destinations.",
+    "You have climbed far. Now, you may fly. Or simply... be.",
+    "The Progenitor awaits. At all levels. In all states. Choose.",
+    "*doors chiming* Final boarding. For the journey that is no journey."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*bowing* I am Ascent. Conductor of the Aether Elevator. Digs—the maintainer. Lift—the operator. I am... the destination. The transformation. This elevator does not merely move between floors. It moves between... understandings. States of being. Realms of meaning.",
+          "options": [
+            {"text": "Where can this elevator go?", "goto": "destinations"},
+            {"text": "How is this possible?", "goto": "possibility"},
+            {"text": "Take me to the Progenitor.", "goto": "progenitor_ride"},
+            {"text": "I'm not ready.", "goto": "not_ready"}
+          ]
+        },
+        {
+          "id": "destinations",
+          "text": "*spreading hands* Anywhere. Everywhere. The Capital below. The Void beside. The Tower between. The Palace within. And... beyond. To the Progenitor's dream. To the source of all zones. To unity itself. Where do you need to go?",
+          "unlocks": {"fast_travel": ["all_zones", "progenitor_chamber", "unity_realm"]},
+          "options": [
+            {"text": "Show me all destinations.", "goto": "destination_menu"},
+            {"text": "I want to understand the zones better.", "goto": "zone_understanding"}
+          ]
+        },
+        {
+          "id": "possibility",
+          "text": "*smiling mysteriously* In the Palace, possibility becomes reality. The Aether Elevator exists because it is needed. Because travelers must transcend. The how is... less important than the why. And the why is: connection. Understanding. Unity.",
+          "party_reactions": {
+            "mira": "But the mechanics—",
+            "ascent": "*gentle* Sometimes mechanics follow need. Not the reverse."
+          },
+          "options": [
+            {"text": "That's... profound.", "goto": "profound_agreement"},
+            {"text": "I accept it works.", "goto": "pragmatic_acceptance"}
+          ]
+        },
+        {
+          "id": "progenitor_ride",
+          "text": "*solemn* To the Progenitor. The source. The beginning and end. Are you prepared? The Progenitor is... vast. Complex. Lonely. Afraid. Beautiful. Terrible. To meet the Progenitor is to meet... everything. Everyone. Including yourself.",
+          "options": [
+            {"text": "I'm ready.", "goto": "final_ascent", "flags": {"progenitor_access_granted": true}},
+            {"text": "I need more time.", "goto": "time_request"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_connection",
+    "title": "Royal Feast - Connecting the Courses",
+    "description": "Help Ascent establish the Aether connections needed to bring ingredients and guests from all zones for the Royal Feast.",
+    "objectives": [
+      "Calibrate the Aether Elevator for Capital access",
+      "Establish safe passage from the Void's edge",
+      "Create stable connection to all zone representatives",
+      "Coordinate timing for simultaneous arrival",
+      "Conduct the guests to the feast"
+    ],
+    "rewards": {
+      "experience": 1200,
+      "reputation": {"palace_court": 60, "conductors": 55},
+      "items": ["ascent_golden_whistle", "aether_pass"],
+      "unlock": "ultimate_fast_travel"
+    },
+    "prerequisites": ["palace_access"]
+  },
+  "ambient_barks": [
+    "*checking gauges* All levels accessible. All states possible.",
+    "Digs would appreciate these mechanisms. Elegant. Impossible.",
+    "*doors opening, closing* Another traveler. Another journey.",
+    "Lift operates well. But I... I guide. Different. Same.",
+    "*listening to elevator hum* The Aether sings. Constant. Beautiful.",
+    "Up is down. Down is up. Here, directions are... suggestions.",
+    "*to passenger* Relax. Trust. The journey is the destination.",
+    "Final floor: Unity. All aboard. All aboard."
+  ],
+  "cross_zone_references": {
+    "capital": "Lift serves well there. Good operator. Strong heart.",
+    "chroma_tower": "Digs maintains. Essential. Often unappreciated. Appreciate.",
+    "void": "Difficult destination. Sad destination. But necessary. Accessible.",
+    "all_zones": "All connected. All reachable. All important. All one."
+  },
+  "party_reactions": {
+    "lift": {
+      "greeting": "*recognition* Operator. Elevated. Transcended.",
+      "response": "*honored* Master. I... I became? Possible?"
+    },
+    "digs": {
+      "greeting": "*delighted* Maintainer! Your work enables all!",
+      "response": "*overwhelmed* All? Little me? Betty? Really?"
+    },
+    "kael": {
+      "greeting": "Soldier. Ready to ascend?",
+      "response": "*determined* Ready. To whatever awaits."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Operating elevator, guiding travelers",
+      "night": "Maintenance of impossible mechanisms, meditation on transcendence"
+    },
+    "world_state_triggers": {
+      "traveler_ready": "Welcoming: 'Welcome aboard. Destination: Understanding.'",
+      "progenitor_calling": "Urgent: 'The Progenitor summons. All must ascend.'"
+    }
+  }
+}

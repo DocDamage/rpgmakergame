@@ -1,0 +1,117 @@
+{
+  "npc_id": "twins_void",
+  "name": "Shade and Shadow",
+  "title": "Shadow Oracles",
+  "zone": "void",
+  "location": "The Forked Path, Void Crossroads",
+  "description": "Two figures speaking in unison, seeing past and future simultaneously, offering cryptic guidance.",
+  "sprite_variant": "twins_void",
+  "greeting_variants": [
+    "*in unison* We see you. Saw you. Will see you.",
+    "The path splits. Always splits. Which will you take?",
+    "*one* We are Shade. *other* We are Shadow. *together* We are.",
+    "Questions? We have answers. Had them. Will have them.",
+    "*finishing each other's sentences* Time is... a circle... a spiral... a lie.",
+    "The Void shows us. Everything. Nothing. Both.",
+    "*pointing in different directions* That way is safe. Was safe. Will be danger.",
+    "You seek the Palace. We all seek. Sought. Will seek."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*speaking in eerie harmony* We were one. Once. Then the Void. It... multiplied us. Divided. Now we are many. Few. All. We see what was. What is. What may be. The timelines... they tangle here.",
+          "options": [
+            {"text": "Can you see my future?", "goto": "future_reading"},
+            {"text": "How do I reach the Palace?", "goto": "palace_path"},
+            {"text": "Are you the Twins from the Tower?", "goto": "tower_connection"},
+            {"text": "This is confusing.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "future_reading",
+          "text": "*eyes cloud over* We see... triumph. And failure. Life. Death. You... standing over... something. Someone. Victory tastes like ash. Defeat tastes like... relief? The paths diverge. Your choice. Always your choice.",
+          "party_reactions": {
+            "kael": "Cryptic nonsense. Or... useful intelligence?",
+            "shade_shadow": "*laugh in stereo* Both. Neither. All."
+          },
+          "options": [
+            {"text": "Which choice is right?", "goto": "right_choice"},
+            {"text": "Can I change my fate?", "goto": "fate_change"}
+          ]
+        },
+        {
+          "id": "palace_path",
+          "text": "*pointing* Through the Tower. Always through the Tower. Up. Climb. But beware. The climb changes. Changed. Will change. Those who reach the top... are not those who began.",
+          "options": [
+            {"text": "What changes?", "goto": "climb_changes"},
+            {"text": "Is there another way?", "goto": "alternate_path"}
+          ]
+        },
+        {
+          "id": "tower_connection",
+          "text": "*nodding in perfect sync* Yes. No. We are them. They are us. Will be. Were. The Tower Twins... more focused. More... singular. We are... spread. Diffuse. The Void's gift. Curse.",
+          "options": [
+            {"text": "Which are the real Twins?", "goto": "real_twins"},
+            {"text": "Can you communicate with them?", "goto": "communication"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "converge_the_twins",
+    "title": "Convergence",
+    "description": "Help the Void Twins reconnect with their Tower counterparts to stabilize both pairs across realities.",
+    "objectives": [
+      "Gather resonance crystals from the Void depths",
+      "Reach the Tower Twins and establish connection",
+      "Synchronize the two pairs across the dimensional divide",
+      "Help them share knowledge and stabilize",
+      "Witness the convergence"
+    ],
+    "rewards": {
+      "experience": 800,
+      "reputation": {"void_oracles": 40, "twins": 45},
+      "items": ["twin_resonator", "prophecy_scroll"],
+      "unlock": "combined_oracle_services"
+    },
+    "prerequisites": ["met_tower_twins"]
+  },
+  "ambient_barks": [
+    "*arguing with self* Was. Is. Will be. *other* Is. Will. Was. *together* Yes.",
+    "The path shifts. Shifted. Will shift.",
+    "*pointing at nothing* There. Danger. Was. Will be.",
+    "Questions answered. Before asked. After forgotten.",
+    "Time is... liquid... here. Solid... there. Both. True.",
+    "*whispering secrets to each other* ...Palace... ...truth... ...end...",
+    "You... we saw you die. Will live. Both. Possible.",
+    "The Void speaks. Through us. With us. As us."
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "Our selves. There. Focused. Fixed. We envy. We pity.",
+    "palace": "The end. Beginning. Middle. All points. Same point. There."
+  },
+  "party_reactions": {
+    "mira": {
+      "greeting": "Your temporal displacement is fascinating!",
+      "response": "*together* Science. Understanding. Limited. But useful."
+    },
+    "kael": {
+      "greeting": "Can you give a straight answer?",
+      "response": "*laughing* Straight. Curved. Both. All. Yes. No."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "More future-focused, prophetic",
+      "night": "More past-focused, nostalgic"
+    },
+    "world_state_triggers": {
+      "major_choice": "Intense focus: 'The paths narrow! Choose! Choose!'",
+      "reality_stable": "Calmer, more helpful: 'Order returns. We remember clarity.'"
+    }
+  }
+}

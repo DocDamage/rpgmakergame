@@ -1,0 +1,30 @@
+{
+  "id": "NPC_DOCKMASTER_SARAI",
+  "name": "Dockmaster Sarai",
+  "title": "Port Authority",
+  "location": "T_BRINEGATE_112x72",
+  "coords": [70, 35],
+  "schedule": {
+    "day": [70, 35],
+    "night": [60, 40],
+    "rain": [75, 30]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_SARAI_MAIN",
+  "shop": null,
+  "quests": ["Q_FIFTH_RELIC", "Q_SUNKEN_TREASURE", "Q_RECRUIT_MARINUS"],
+  "faction": "BRINEGATE_DOCKWORKERS",
+  "attitude": "friendly",
+  "background": "Runs Brinegate port with iron fist. Knows every ship and captain.",
+  "personality": "No-nonsense, fair, protective of her people.",
+  "flags": {
+    "unlocked_by": "Q_FOURTH_RELIC_COMPLETE",
+    "disappears_on": null
+  },
+  "services": ["ship_access", "submersible_rental", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_sarai_greet",
+    "farewell": "vo_sarai_farewell"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_quina_blue_magic",
+  "name": "Yummy Yummy Monsters",
+  "zone": "uplands",
+  "giver": "Quina (Qu Blue Mage)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I hungry! Want eat new things! You help Quina find yummy monsters? I eat them! Learn their powers! Then I share power with you! Good deal! Yes?",
+      "objective": "Help Quina eat 5 different types of monsters to learn Blue Magic"
+    },
+    "progress": {
+      "dialog": "Still hungry! Need more yummy monsters! Different ones! More powers!",
+      "objective": "Find and defeat more monster types for Quina to consume"
+    },
+    "complete": {
+      "dialog": "So full! So many powers! You good helper! Here - I teach you Frog Drop! Very strong! Very funny! Make enemy go SPLAT!",
+      "rewards": {"gold": 350, "item": "frog_drop_ability", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "They... eat monsters to learn magic? That's... different.",
+    "twist": "Can I try? Do I have to eat the whole thing?",
+    "nix7": "Bio-magical absorption. Inefficient but effective learning method."
+  },
+  "hidden_outcome": "If you bring Quina a 'Grand Dragon' to eat, they learn 'Limit Glove' and give you the 'Gourmet Fork' weapon"
+}

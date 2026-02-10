@@ -1,0 +1,54 @@
+{
+  "npc_id": "remnant_keeper_echoes",
+  "name": "Remnant Keeper Echoes",
+  "title": "Echo Witness",
+  "zone": "remnant",
+  "location": "The Edge of Memory Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Remnant Keeper Echoes on comms. Stage 1: The Edge of Memory. Keep formation tight and decisions tighter.",
+      "We are running What Remains. Objective drift gets teams buried.",
+      "I put fear on a schedule. It keeps missing meetings.",
+      "Action first, panic never. Start with: Enter the Remnant zone."
+    ],
+    "quest_hook": "Objective stack: Enter the Remnant zone; Meet the Keepers of Echoes; Learn what persists after transcendence. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Journey to Remnant, where echoes of the old world linger. Immediate move: Enter the Remnant zone.",
+    "quest_complete": "Stage 1 resolved: The Edge of Memory. Primary objective secured and route stabilized. Prepare for Ghosts of Paths Not Taken.",
+    "rumor": [
+      "A sealed wing now contains footprints from boots not yet manufactured.",
+      "People keep repeating one clue from The Edge of Memory: 'Learn what persists after transcendence'.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn barely exists in Remnant space. Treat every glow as suspect.",
+    "time_noon": "Noon glitch surges can rewrite exits. Keep fallback routes memorized.",
+    "time_dusk": "Dusk brings memory bleed. If you hear old voices, log and move.",
+    "time_night": "Night in Remnant is archive static and teeth. Stay together."
+  },
+  "party_reactions": {
+    "kade": "Remnant Keeper Echoes sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Remnant Keeper Echoes accepted. Probability of success improves with compliance.",
+    "twist": "Remnant Keeper Echoes talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "remnant_what_remains"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

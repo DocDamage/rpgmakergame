@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_BRINEGATE_QUAY_DOCKHAND",
+  "name": "Brinegate Quay Dockhand",
+  "title": "Dock Worker",
+  "location": "T_BRINEGATE_112x72",
+  "coords": [
+    46,
+    51
+  ],
+  "schedule": {
+    "day": [
+      46,
+      51
+    ],
+    "night": [
+      43,
+      51
+    ],
+    "rain": [
+      47,
+      52
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_DOCKWORKER",
+  "shop": null,
+  "quests": [],
+  "faction": "BRINEGATE_DOCKWORKERS",
+  "attitude": "friendly",
+  "background": "Handles cargo movement and port staging. Stationed in Brinegate.",
+  "personality": "Hard-working, practical, and sarcastic.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "cargo_info",
+    "route_status"
+  ]
+}

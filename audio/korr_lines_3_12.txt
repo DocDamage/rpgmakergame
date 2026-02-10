@@ -1,0 +1,128 @@
+chroma_edge_script_part3.md:12:If I could, I would.
+chroma_edge_script_part3.md:21:Don't start.
+chroma_edge_script_part3.md:37:Not clean enough.
+chroma_edge_script_part3.md:49:If I wanted you dead, you'd be dead.
+chroma_edge_script_part3.md:77:(low)
+chroma_edge_script_part3.md:121:Doctor.
+chroma_edge_script_part3.md:147:Say that again.
+chroma_edge_script_part3.md:245:Sova.
+chroma_edge_script_part3.md:255:I thought they purged you.
+chroma_edge_script_part3.md:504:That takes spine.
+chroma_edge_script_part3.md:555:ICEBOX is real.
+chroma_edge_script_part3.md:577:If the tether spikes… I need you to put me down.
+chroma_edge_script_part3.md:586:That wasn't a request.
+chroma_edge_script_part3.md:616:Go. Now.
+chroma_edge_script_part3.md:718:That's a priority alarm.
+chroma_edge_script_part3.md:823:That's the Dominion's favorite kind.
+chroma_edge_script_part3.md:1011:(tense)
+chroma_edge_script_part3.md:1018:Don't.
+chroma_edge_script_part3.md:1057:Do it.
+chroma_edge_script_part3.md:1063:DO IT.
+chroma_edge_script_part3.md:1074:(gritted teeth)
+chroma_edge_script_part3.md:1090:I can't—
+chroma_edge_script_part3.md:1100:…
+chroma_edge_script_part3.md:1107:I was a weapon.
+chroma_edge_script_part3.md:1116:I'm in. For real.
+chroma_edge_script_part3.md:1124:No promises.
+chroma_edge_script_part4.md:72:Say it.
+chroma_edge_script_part4.md:113:He's not lying.
+chroma_edge_script_part4.md:285:Where will you go?
+chroma_edge_script_part4.md:309:(low, furious)
+chroma_edge_script_part4.md:358:…Keep moving.
+chroma_edge_script_part4.md:364:I said keep moving.
+chroma_edge_script_part4.md:549:—Terminate the interface.
+chroma_edge_script_part4.md:562:(gritted teeth)
+chroma_edge_script_part4.md:579:(snarls)
+chroma_edge_script_part4.md:585:(hoarse)
+chroma_edge_script_part4.md:594:No.
+chroma_edge_script_part4.md:626:We need the real burn-out.
+chroma_edge_script_part4.md:716:She's Foundry.
+chroma_edge_script_part4.md:775:(low, to herself)
+chroma_edge_script_part5.md:33:That's my old patrol designation.
+chroma_edge_script_part5.md:39:Yeah.
+chroma_edge_script_part5.md:183:They tracked us.
+chroma_edge_script_part5.md:287:Tide stabilization just rewrote local currents.
+chroma_edge_script_part5.md:334:Dominion quarry.
+chroma_edge_script_part5.md:341:…Yeah.
+chroma_edge_script_part5.md:383:I signed orders that fed this machine.
+chroma_edge_script_part5.md:412:Say my name.
+chroma_edge_script_part5.md:472:No more collars.
+chroma_edge_script_part5.md:547:That's… my engineering corps signature.
+chroma_edge_script_part5.md:552:We enslaved it.
+chroma_edge_script_part5.md:588:Thank you.
+chroma_edge_script_part6.md:32:It's… still whispering.
+chroma_edge_script_part6.md:98:We did that to you.
+chroma_edge_script_part6.md:196:That's cult tone.
+chroma_edge_script_part6.md:286:Not now.
+chroma_edge_script_part6.md:364:The Dominion worships that kind of cowardice.
+chroma_edge_script_part6.md:475:I didn't say anything.
+chroma_edge_script_part6.md:494:Do it.
+chroma_edge_script_part6.md:500:I said—do it.
+chroma_edge_script_part6.md:526:I was.
+chroma_edge_script_part6.md:546:…
+chroma_edge_script_part6.md:555:It's gone.
+chroma_edge_script_part6.md:573:Now I kill the people who did it.
+chroma_edge_script_part6.md:599:What… what are you?
+chroma_edge_script_part6.md:623:(whisper, then roar)
+chroma_edge_script_part6.md:643:I'm not their weapon anymore.
+chroma_edge_script_part6.md:679:I'll help you end him.
+chroma_edge_script_part7.md:61:Because it's cleaner than admitting they broke someone.
+chroma_edge_script_part7.md:152:Let it be closer.
+chroma_edge_script_part7.md:337:…I signed this.
+chroma_edge_script_part7.md:347:I made him.
+chroma_edge_script_part7.md:357:Gladly.
+chroma_edge_script_part7.md:434:I did this.
+chroma_edge_script_part7.md:493:You okay?
+chroma_edge_script_part7.md:526:Kellen. Listen to me.
+chroma_edge_script_part7.md:539:Yeah.
+chroma_edge_script_part7.md:672:(quiet, lethal)
+chroma_edge_script_part8.md:108:He's always been good at lying with a straight face.
+chroma_edge_script_part8.md:136:Warden Mote.
+chroma_edge_script_part8.md:186:Prime gives people choices.
+chroma_edge_script_part8.md:259:…You just told a god to shut up.
+chroma_edge_script_part8.md:282:I became free.
+chroma_edge_script_part8.md:327:I do.
+chroma_edge_script_part8.md:338:Because "us" was a lie.
+chroma_edge_script_part8.md:517:No witnesses. No survivors.
+chroma_edge_script_part8.md:601:I am.
+chroma_edge_script_part8.md:755:Good.
+chroma_edge_script_part8.md:789:Floor 50 is where the Dominion stops pretending.
+chroma_edge_script_part9.md:26:Dominion doctrine: when your enemy learns, you change the test.
+chroma_edge_script_part9.md:104:You're the guy who edits my file when I disobey.
+chroma_edge_script_part9.md:173:Marr's channel is law.
+chroma_edge_script_part9.md:250:I don't care.
+chroma_edge_script_part9.md:313:Mercer's channel won't be a sigil you can steal off a corpse.
+chroma_edge_script_part9.md:472:They… kept my name on it.
+chroma_edge_script_part9.md:488:That's desperation.
+chroma_edge_script_part9.md:525:Major Gage.
+chroma_edge_script_part9.md:553:Leadership failed when we started calling cages "order."
+chroma_edge_script_part9.md:564:Then step aside.
+chroma_edge_script_part9.md:574:Then I'm sorry.
+chroma_edge_script_part9.md:613:(approving)
+chroma_edge_script_part9.md:638:Yeah.
+chroma_edge_script_part9.md:655:I can do a lot of things I hate.
+chroma_edge_script_part9.md:660:Don't follow us.
+chroma_edge_script_part9.md:672:Not Marshal.
+chroma_edge_script_part9.md:774:That voice…
+chroma_edge_script_part9.md:893:Not hearing it. Not believing it.
+chroma_edge_script_part10.md:125:Where's Mercer?
+chroma_edge_script_part10.md:219:We're coming to stop you.
+chroma_edge_script_part10.md:339:Not happening.
+chroma_edge_script_part10.md:464:He's not a person right now.
+chroma_edge_script_part10.md:528:Then we rip the leash.
+chroma_edge_script_part10.md:577:We'll come back for you.
+chroma_edge_script_part11.md:35:Not happening.
+chroma_edge_script_part11.md:106:No one touches her.
+chroma_edge_script_part11.md:175:Good.
+chroma_edge_script_part11.md:266:Then we break the teeth. One by one.
+chroma_edge_script_part11.md:372:Try.
+chroma_edge_script_part11.md:431:Stop showing me lies.
+chroma_edge_script_part11.md:518:Not today.
+chroma_edge_script_part11.md:529:I'm waiting for the moment I get to shoot you.
+chroma_edge_script_part11.md:686:Let them rush.
+chroma_edge_script_part12.md:29:Then we stop it early.
+chroma_edge_script_part12.md:111:So this is where we cut the head off.
+chroma_edge_script_part12.md:146:You used me. You used everyone.
+chroma_edge_script_part12.md:157:You don't get to say "supposed to" anymore.
+chroma_edge_script_part12.md:272:Good.
+chroma_edge_script_part12.md:321:Then we don't fight him here.

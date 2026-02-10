@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_cecil_paladin_path",
+  "name": "Redemption's Road",
+  "zone": "dustbelt",
+  "giver": "Cecil (Dark Knight)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I was a tool of darkness once. Did terrible things. Now I seek the light... but the path is blocked. Three trials in the desert. Three guardians. Help me face them? I cannot do this alone.",
+      "objective": "Accompany Cecil to defeat the three desert guardians"
+    },
+    "progress": {
+      "dialog": "Two guardians remain. The path to redemption is... painful. But necessary.",
+      "objective": "Defeat the second guardian with Cecil's aid"
+    },
+    "complete": {
+      "dialog": "The third guardian... fallen. And I feel... different. Lighter. Thank you. Take this - my old dark sword. I no longer need it. May it serve you better than it served me.",
+      "rewards": {"gold": 600, "item": "dark_blade_apocalypse", "reputation": 20}
+    }
+  },
+  "party_comments": {
+    "kade": "Seeking redemption... I understand that path.",
+    "korr": "A knight who admits wrongdoing. Rare. Admirable.",
+    "vex": "The light accepts those who truly repent. He has earned his peace."
+  },
+  "hidden_outcome": "If you spare all three guardians instead of defeating them, Cecil becomes a Paladin and gives you 'Holy Fang' sword instead"
+}

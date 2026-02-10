@@ -1,0 +1,139 @@
+{
+  "character": "Sova",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Archer, practical, sarcastic, no-nonsense attitude",
+  "dialog": {
+    "first_meet_generic": [
+      "Yeah, yeah. You're weird. Join the club.",
+      "I've seen stranger. Not much stranger, but stranger.",
+      "Sova. I shoot things. Usually arrows, sometimes my mouth.",
+      "You going to be a problem? No? Good."
+    ],
+    "barrelman": [
+      "Barrels. You sell barrels. Riveting.",
+      "Gnew-proof? Is that a selling point? Really?",
+      "Competing with wood. Thrilling rivalry.",
+      "Can you store arrows? No? Then I'm good."
+    ],
+    "snakecharmer": [
+      "That snake's looking at me. I don't like it.",
+      "Mr. Whiskers? Seriously? For a cobra?",
+      "Keep that thing away from me. Far away.",
+      "You play a flute. Snake dances. World gets weirder."
+    ],
+    "lucha": [
+      "Masks. Muscles. Drama. Pass.",
+      "I don't wrestle. I shoot from range. Smarter.",
+      "The cape would get in my way. No thanks.",
+      "You do you. Just don't do it near me."
+    ],
+    "ironchef": [
+      "Cooking in armor. Seems hot. And stupid.",
+      "Lava? For cooking? Overkill much?",
+      "Can you make trail rations? No? Useless.",
+      "All that shouting. The food better be worth it."
+    ],
+    "trenchcoat": [
+      "Mysterious. Great. Just what I need.",
+      "You following us? No? Sure looks like it.",
+      "Fourteen pockets. Probably full of knives. Or regrets.",
+      "Less mystery, more honesty. Try it sometime."
+    ],
+    "sumo": [
+      "Big. Very big. Not moving. Good.",
+      "I won't challenge you. I'm not an idiot.",
+      "Stillness is fine. Until you need to run.",
+      "You'd make a great obstacle. Or wall."
+    ],
+    "foodboys": [
+      "Food. Actual food. Finally something useful.",
+      "Which one? Don't care. Just feed me.",
+      "Every town? How do you beat us here?",
+      "Chili or salad? Both. I'm hungry."
+    ],
+    "coolcat": [
+      "Sunglasses indoors. Because of course.",
+      "Jazz. Great. Can you play something useful?",
+      "You're very... relaxed. Annoyingly so.",
+      "Cool cat? More like cold shoulder."
+    ],
+    "pigman": [
+      "The inn. Good. I need sleep. Real sleep.",
+      "Pork? Bacon? Don't care. Just hot food.",
+      "Smells okay. That's high praise from me.",
+      "Room with a window. For watching exits."
+    ],
+    "tunneler": [
+      "Digging. Underground. No thanks.",
+      "Your back is wrecked. I can see it.",
+      "Found anything sharp down there? Arrowheads?",
+      "Retirement on a boat? Good luck with that."
+    ],
+    "bush": [
+      "That's a bush. Why are we talking to a bush?",
+      "Wait. Did it just...? No. Couldn't be.",
+      "I'm hallucinating. Must be tired.",
+      "It's a bush. I'm leaving."
+    ],
+    "aeronaut": [
+      "Balloons. Floating in the sky. Target practice?",
+      "How do you aim? You don't? Great.",
+      "One good arrow and you're grounded. Just saying.",
+      "I'll keep my feet on the ground. Literally."
+    ],
+    "onionboss": [
+      "Bossy. Round. Layers. Fitting.",
+      "Your workers seem... not happy.",
+      "Union? Ever heard of it? Should look it up.",
+      "Do you actually do any work? Or just yell?"
+    ],
+    "astronaut": [
+      "Underwater. In a metal can. Hard pass.",
+      "That suit looks heavy. And claustrophobic.",
+      "What's down there? Monsters? Treasure? Both?",
+      "Rather fight on land. Where I can breathe."
+    ],
+    "conductor": [
+      "A train. In the sky. Sure. Why not.",
+      "All aboard? Seriously? Who says that?",
+      "Where does it go? Don't care. As long as it's away.",
+      "On time? I'll believe it when I see it."
+    ],
+    "shoewoman": [
+      "Shoes. Good. Mine are falling apart.",
+      "Desert-ready? Quiet? I need quiet shoes.",
+      "Can I run in them? Fight in them? Good.",
+      "Give me two pairs. No, three. Backup."
+    ],
+    "signguy": [
+      "Signs everywhere. Hand-painted. Who cares?",
+      "Your work is... everywhere. Hard to miss.",
+      "Ever make a sign pointing to treasure? No? Pity.",
+      "Hand-painted. Slow. But I guess accurate."
+    ],
+    "cobra": [
+      "Snake. Big snake. Backing away slowly.",
+      "Venomous? Obviously. Deadly? Obviously.",
+      "Nice snake. Good snake. Don't look at me.",
+      "Archery doesn't work well on snakes. Too low."
+    ],
+    "barrelgob": [
+      "Living in a barrel. Seen worse.",
+      "Is it comfortable? Doesn't look comfortable.",
+      "You found a system. Can't argue with results.",
+      "Need a bigger barrel? No? Suit yourself."
+    ],
+    "twins": [
+      "Two of you. Same face. Creepy.",
+      "Finish each other's... everything? Annoying.",
+      "Which one is which? Don't care. Moving on.",
+      "Do you ever separate? No? Figures."
+    ],
+    "sunandmoon": [
+      "Fortune teller. Great. Waste of time.",
+      "Predict my future? Don't bother. I make my own.",
+      "That headdress must be a pain in the neck.",
+      "Stars don't care about us. Get over yourself."
+    ]
+  }
+}

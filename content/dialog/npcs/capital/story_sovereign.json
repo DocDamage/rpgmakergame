@@ -1,0 +1,54 @@
+{
+  "npc_id": "sovereign",
+  "name": "Sovereign",
+  "title": "Command Figure",
+  "zone": "capital",
+  "location": "Seven Crystals United Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Sovereign on comms. Stage 4: Seven Crystals United. Keep formation tight and decisions tighter.",
+      "We are running The Fallen Crown. Objective drift gets teams buried.",
+      "A map sneezed in my pocket and revealed a hidden staircase. True story.",
+      "Action first, panic never. Start with: Gather all seven Crystals."
+    ],
+    "quest_hook": "Objective stack: Gather all seven Crystals; Perform the Unification Ritual; Awaken the Progenitor power. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Attune all seven Crystals and unlock their true power. Immediate move: Gather all seven Crystals.",
+    "quest_complete": "Stage 4 resolved: Seven Crystals United. Primary objective secured and route stabilized. Prepare for The Void Zone Beckons.",
+    "rumor": [
+      "Rumor says a sealed throne room is still issuing orders through static.",
+      "People keep repeating one clue from Seven Crystals United: 'Awaken the Progenitor power'.",
+      "The floor attempted a mutiny at dawn. We resolved it with better boots."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn gives the cleanest sightlines in the capital ruins. Move before crowds regroup.",
+    "time_noon": "Noon is surveillance peak. Assume every lane is observed.",
+    "time_dusk": "Dusk favors ambush teams and rumor storms. Confirm every briefing twice.",
+    "time_night": "Night in the crown district means quiet knives and loud mistakes. Stay disciplined."
+  },
+  "party_reactions": {
+    "kade": "Sovereign sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Sovereign accepted. Probability of success improves with compliance.",
+    "twist": "Sovereign talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "capital_fallen_crown"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

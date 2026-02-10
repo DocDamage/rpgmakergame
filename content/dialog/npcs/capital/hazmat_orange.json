@@ -1,0 +1,117 @@
+{
+  "npc_id": "hazmat_orange",
+  "name": "Corporal Rust",
+  "title": "Cleanup Crew",
+  "zone": "capital",
+  "location": "Processing Station, Ruins Outskirts",
+  "description": "A weary worker in orange hazmat gear, handling the grim aftermath of Void incursions.",
+  "sprite_variant": "hazmat_orange",
+  "greeting_variants": [
+    "*doesn't look up* Another load coming through. Stand clear.",
+    "Yellows get the glory. We get the... leftovers.",
+    "If you're looking for Yelena, she's at the checkpoint. We're just... cleanup.",
+    "*sighs* Burn pile's full again. Always full.",
+    "You want to help? Really help? Grab a shovel.",
+    "Three years. You'd think I'd be used to the smell by now.",
+    "Found a wedding ring yesterday. No hand attached. Just... the ring.",
+    "*wipes brow* Double shifts since the eastern collapse."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Name's Rust. Not my real name, but... after you see what I've seen, you leave your old self behind. We handle what the yellows can't. What's left after.",
+          "options": [
+            {"text": "That sounds terrible.", "goto": "job_horror"},
+            {"text": "Why do you stay?", "goto": "motivation"},
+            {"text": "What do you find out there?", "goto": "discoveries"},
+            {"text": "I should go.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "job_horror",
+          "text": "*bitter laugh* Terrible doesn't cover it. The Void doesn't just kill—it warps. Changes. Sometimes we find people still breathing but... wrong. We have protocols. *voice breaks* We have protocols.",
+          "party_reactions": {
+            "garret": "Gods below... I can't imagine.",
+            "kael": "War asks hard things of good people.",
+            "rust": "Is this war? Feels more like... cleanup after a disaster."
+          },
+          "options": [
+            {"text": "I'm sorry.", "goto": "sympathy"},
+            {"text": "What protocols?", "goto": "protocols"}
+          ]
+        },
+        {
+          "id": "motivation",
+          "text": "Someone has to do it. If we don't... the contamination spreads. Plus... *looks around* I knew these people. Before. They deserve dignity. Even at the end. Even like... that.",
+          "options": [
+            {"text": "You're a good person.", "goto": "kindness"},
+            {"text": "Tell me about 'before.'", "goto": "before_times"}
+          ]
+        },
+        {
+          "id": "discoveries",
+          "text": "Strange things. Items that shouldn't exist. Letters to people who died years ago. And... messages. Scrawled on walls, in the Void-touched areas. 'It remembers.' 'It forgives.' 'Come home.'",
+          "options": [
+            {"text": "What does it mean?", "goto": "message_meaning"},
+            {"text": "Have you told Vex?", "goto": "vex_report"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "lost_and_found",
+    "title": "Return the Lost Items",
+    "description": "Help Rust return personal effects found in the ruins to surviving family members at the refugee camp.",
+    "objectives": [
+      "Collect the box of recovered items from Rust",
+      "Deliver the locket to the old woman in sector 3",
+      "Return the child's doll to the foodboys' tent",
+      "Give the letter to Vex (unopened)",
+      "Report back to Rust"
+    ],
+    "rewards": {
+      "experience": 400,
+      "reputation": {"resistance": 20, "refugees": 25},
+      "items": ["rust_medallion", "cleanup_crew_insignia"]
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*loading body bag* Third one today. Slow day, actually.",
+    "The incinerator's acting up again. Story of my life.",
+    "Yellow team doesn't even say thanks anymore. Not that I blame them.",
+    "Found another survivor's journal. Can't bring myself to read it.",
+    "*coughing* Filters need changing. Like everything else.",
+    "If I find one more barrelgob nest in the ruins...",
+    "The Void doesn't take everything. Just... enough.",
+    "Sometimes I dream about normal work. Office. Desk. Coffee."
+  ],
+  "cross_zone_references": {
+    "void_nexus": "We don't go there. Yellows don't go there. Nobody goes there and comes back... right.",
+    "ember": "Heard the cleanup crews in Ember have it worse. Fire AND contamination."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Hey, pal. You look like you could use a drink.",
+      "response": "*surprised laugh* When's the last time someone offered me anything? Thanks, friend."
+    },
+    "mira": {
+      "greeting": "The residual contamination patterns—may I examine your gear?",
+      "response": "Sure. Just... don't ask about the stains. Please."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Working at the processing station",
+      "night": "Sitting alone by the burn pit, staring into flames"
+    },
+    "world_state_triggers": {
+      "major_battle": "Overwhelmed with work: 'Too many. Too many...'",
+      "void_retreat": "First hint of hope: 'Maybe... maybe it'll slow down now.'"
+    }
+  }
+}

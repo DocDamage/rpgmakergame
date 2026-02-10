@@ -1,0 +1,139 @@
+{
+  "character": "Callum",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Support, kind, observant, always sees the best in people",
+  "dialog": {
+    "first_meet_generic": [
+      "Hello! I'm Callum. It's so nice to meet you!",
+      "You seem interesting! In a good way!",
+      "What a unique look! I love your... everything!",
+      "Another new friend! This is exciting!"
+    ],
+    "barrelman": [
+      "Barrels! How practical! And cylindrical!",
+      "Gnew-proof? That's so thoughtful of you!",
+      "The wood vs metal debate! So passionate!",
+      "Do you need help carrying anything? I'm happy to help!"
+    ],
+    "snakecharmer": [
+      "Mr. Whiskers! What a sweet name!",
+      "The snake is beautiful! So shiny!",
+      "You're so brave! I could never do that!",
+      "Do you think he likes me? I hope he likes me!"
+    ],
+    "lucha": [
+      "Oh! The mask is amazing! So colorful!",
+      "You must be so strong! And flexible!",
+      "The wrestling shows sound exciting!",
+      "Do you ever wrestle... nicely? For fun?"
+    ],
+    "ironchef": [
+      "Cooking in armor! So dedicated!",
+      "The Searing Skillet! What a great name!",
+      "Food with passion! That's the best kind!",
+      "Can I help? I can chop things! Carefully!"
+    ],
+    "trenchcoat": [
+      "You seem... mysterious! Is everything okay?",
+      "That's a lovely coat! Very... flowing!",
+      "Are you hiding? Or just cold? I have a blanket!",
+      "You can talk to me! I don't judge!"
+    ],
+    "sumo": [
+      "You're so... substantial! In a good way!",
+      "The stillness is impressive! So calm!",
+      "You must be very grounded! Literally!",
+      "Can you teach me to be that centered?"
+    ],
+    "foodboys": [
+      "Brothers! Working together! That's so sweet!",
+      "The chili smells amazing! The salad looks fresh!",
+      "Which one are you? ...Doesn't matter! You're both great!",
+      "Family businesses are the best businesses!"
+    ],
+    "coolcat": [
+      "You're so cool! I feel underdressed!",
+      "The jazz! So smooth! So relaxing!",
+      "Sunglasses indoors! So confident!",
+      "Can you teach me to be that relaxed?"
+    ],
+    "pigman": [
+      "The Sky-High Snout! What a fun name!",
+      "Pink is such a cheerful color!",
+      "Your inn is so cozy! So welcoming!",
+      "Do you need help with anything? Chores? Cooking?"
+    ],
+    "tunneler": [
+      "Digging! Such important work!",
+      "Your back must hurt! I can rub it!",
+      "Found anything interesting? Shiny rocks?",
+      "A boat for retirement! How exciting!"
+    ],
+    "bush": [
+      "What a lovely bush! So... green!",
+      "Wait. Did you just...? No, couldn't be.",
+      "You're hiding! That's okay! We all need hiding sometimes!",
+      "You're very good at being a bush!"
+    ],
+    "aeronaut": [
+      "Balloons! So colorful! So buoyant!",
+      "You fly! That's amazing! So brave!",
+      "Is it scary up there? Or peaceful?",
+      "Can I ride? I'd hold on very tight!"
+    ],
+    "onionboss": [
+      "Foreman! That sounds like hard work!",
+      "You're shaped like... an onion! Cute!",
+      "Your miners are lucky to have you!",
+      "Don't work too hard! Take breaks!"
+    ],
+    "astronaut": [
+      "Underwater exploration! So adventurous!",
+      "That suit looks heavy! You're so strong!",
+      "What do you see down there? Pretty things?",
+      "Be careful! The deep is mysterious!"
+    ],
+    "conductor": [
+      "All aboard! I love saying that!",
+      "The uniform is so sharp! So professional!",
+      "Trains are so romantic! Choo choo!",
+      "Where are we going? Is it fun?"
+    ],
+    "shoewoman": [
+      "Shoes! So important! So fashionable!",
+      "Do you have anything in my size?",
+      "I love comfortable shoes! And pretty ones!",
+      "Desert-appropriate! So practical!"
+    ],
+    "signguy": [
+      "Your work is everywhere! So talented!",
+      "Hand-painted! That takes such patience!",
+      "The colors are so vibrant! So cheerful!",
+      "Can you make me a sign? Something happy?"
+    ],
+    "cobra": [
+      "What a beautiful snake! So elegant!",
+      "Please don't bite me! I'm very nice!",
+      "The scales are so pretty! So shiny!",
+      "Mr. Whiskers is lucky to have you!"
+    ],
+    "barrelgob": [
+      "You live in a barrel! That's so cozy!",
+      "Is it warm? It looks warm! Like a hug!",
+      "Can I visit? I'll bring cookies!",
+      "You're like a hermit crab! So cute!"
+    ],
+    "twins": [
+      "Two of you! Double the friendship!",
+      "You look exactly alike! How fun!",
+      "Finish each other's sentences! So connected!",
+      "Do you ever switch places? For fun?"
+    ],
+    "sunandmoon": [
+      "The stars are so pretty! So mysterious!",
+      "You can tell fortunes? How exciting!",
+      "Am I going to have a good day? I hope so!",
+      "Your headdress is amazing! So tall!"
+    ]
+  }
+}

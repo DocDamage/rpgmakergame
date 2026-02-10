@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_shipwreck_survivor",
+  "name": "Message in a Barrel",
+  "zone": "tide",
+  "giver": "barrelman_wood",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I found a message in a barrel washed ashore! It's from the Silverwake—the ship that went missing last month! The crew is stranded on the Forbidden Atoll, but the message is water-damaged. Can you help me decipher the coordinates?",
+      "objective": "Decipher the water-damaged message to find the Forbidden Atoll"
+    },
+    "progress": {
+      "dialog": "The atoll is real! But it's surrounded by razor reefs and patrolled by reef serpents! You'll need to navigate carefully, and bring supplies—the survivors are likely injured and starving!",
+      "objective": "Reach the Forbidden Atoll and rescue the survivors"
+    },
+    "complete": {
+      "dialog": "You saved them! All twelve crew members rescued! The Captain's family is forever in your debt! Here's a reward from their cargo—precious spices worth a fortune! And this Navigator's Spyglass!",
+      "rewards": {
+        "exp": 850,
+        "gold": 1000,
+        "item": "navigators_spyglass"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A real rescue mission! Those sailors were so grateful!",
+    "twist": "The reef serpents were quite reasonable, actually. Just territorial.",
+    "nix7": "Search and rescue: successful. Survival rate: 100%."
+  }
+}

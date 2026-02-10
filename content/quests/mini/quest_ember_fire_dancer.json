@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_fire_dancer",
+  "name": "Dance of the Flame Veils",
+  "zone": "ember",
+  "giver": "coolcat_red",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Fire Dancers of Cinderstep need a new partner for their ritual performance! It's dangerous—you dance between flames while wearing flame-veil garments. One misstep and... well, let's just say you need courage and rhythm! Interested, meow?",
+      "objective": "Learn the Fire Dance from the Flame Veil troupe"
+    },
+    "progress": {
+      "dialog": "You've got the steps down! Now the real performance—the Grand Conflagration! Dance through the nine flames without stopping, and the crowd will grant you the title of Fire Dancer!",
+      "objective": "Complete the Grand Conflagration fire dance performance"
+    },
+    "complete": {
+      "dialog": "Beautiful! Flawless! The crowd is enchanted! You are now an honorary Fire Dancer of Ember! Take these Flame Veil Wraps—they let you perform fiery acrobatics in combat!",
+      "rewards": {
+        "exp": 750,
+        "gold": 400,
+        "item": "flame_veil_wraps"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Who knew I had such moves? I'm a natural!",
+    "twist": "I have two left feet. This was humiliating.",
+    "nix7": "Movement patterns analyzed. Replicated with 94.7% accuracy."
+  }
+}

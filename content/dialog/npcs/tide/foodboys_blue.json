@@ -1,0 +1,70 @@
+{
+  "npc_id": "foodboys_blue_tide",
+  "name": "Barnacle-Bill (Foodboys)",
+  "sprite": "foodboys_blue",
+  "zone": "tide",
+  "location": "Dockside Market",
+  "personality": "enthusiastic_salesman",
+  "occupation": "seafood_merchant",
+  "schedule": "market_hours",
+  "dialog": {
+    "greeting": [
+      "FRESH CATCH! Straight from the boat to YOU!",
+      "Barnacle-Bill's the name, seafood's the game!",
+      "You look hungry! Good! I've got JUST the thing!",
+      "Back for more? Knew you couldn't resist my clams!",
+      "Welcome to the fish market! Smell means FRESH!",
+      "New customer? First squid's on discount!",
+      "The ocean provides! And I sell what it provides!",
+      "Best seafood in Tide! Probably! Definitely top three!"
+    ],
+    "seafood_offer": "Got fish! Got shellfish! Got things with too many legs that TASTE GREAT!",
+    "freshness_guarantee": "Caught this morning! Still smells like the sea! That's how you know it's GOOD!",
+    "brother_rivalry": "My brother? Seaweed-Sam? Thinks plants are the future. HA! Fish is FOREVER!",
+    "pricing_philosophy": "Fair prices! I catch it, I sell it, no middle-fish!",
+    "rumor": [
+      "Something BIG is eating the deep catches. Bigger than a boat.",
+      "Tide fish taste better than Mire fish. Mire fish taste like... mud.",
+      "Frost has ICE fish. Frozen solid. What's the POINT?",
+      "Ember doesn't even HAVE fish. Just sad."
+    ],
+    "cooking_tips": "Best way to cook? Grill it! With lemon! If you have lemon. If not, just grill it!",
+    "farewell": [
+      "Come back when you're hungry! Which is ALWAYS!",
+      "Don't be a stranger! Be a CUSTOMER!",
+      "Safe travels! And bring a cooler next time!",
+      "Barnacle-Bill says: EAT MORE FISH!"
+    ],
+    "ambient_barks": [
+      "Fish here! FRESH fish!",
+      "Clams! Oysters! Mussels!",
+      "Catch of the day!",
+      "Still wiggling! That's fresh!",
+      "Seafood! Get your seafood!",
+      "Best prices on the dock!"
+    ],
+    "time_dawn": "Early market! First catch of the day!",
+    "time_noon": "Lunch rush! Everyone wants my fish fry!",
+    "time_dusk": "Evening sales! Last chance for freshness!",
+    "time_night": "Closed! Fish sleeps! So do I!"
+  },
+  "party_reactions": {
+    "kade": "That's... a very enthusiastic fish salesman.",
+    "nix7": "Protein source: adequate. Odor: excessive.",
+    "twist": "FOOD! GIMME! I'M HUNGRY!",
+    "korr": "Fresh seafood is a luxury. You price it fairly.",
+    "renna": "Do you have any... magical fish? Enchanted? No?",
+    "suresh": "The ocean's bounty. Respect it.",
+    "sova": "Fish is brain food. Need my brain sharp.",
+    "grit": "Reminds me of field rations. Better smell, though.",
+    "ashka": "Fish is... okay. Prefer red meat.",
+    "senna": "Quick food. Portable. Good.",
+    "callum": "Is it supposed to smell like that?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Try the sampler!",
+    "acquaintance": "Back again! The fish called to you!",
+    "friend": "My regular! Saved you the best cut!",
+    "best_friend": "You! Family rates! Which means FREE samples!"
+  }
+}

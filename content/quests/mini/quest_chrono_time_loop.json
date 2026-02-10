@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_time_loop",
+  "name": "The Eternal Tuesday",
+  "zone": "chrono",
+  "giver": "conductor",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Help! I'm trapped in a time loop! Every day resets at midnight, and I'm the only one who remembers! This is the 47th Tuesday I've lived! Something in the Chronowake Pier is causing it—a temporal anomaly! Break the loop before I go mad!",
+      "objective": "Investigate the time loop phenomenon at Chronowake Pier"
+    },
+    "progress": {
+      "dialog": "You can remember across loops too now! The source is a cracked Temporal Anchor in the clock tower! But fixing it requires synchronizing three other anchors first—otherwise the paradox will collapse the whole pier into non-existence!",
+      "objective": "Synchronize the three Temporal Anchors before repairing the main anchor"
+    },
+    "complete": {
+      "dialog": "The loop is broken! Wednesday at last! I could kiss you! The Temporal Authority offers you this Loop-Breaker Watch! It lets you rewind time up to 30 seconds once per day—use it wisely!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 900,
+        "item": "loop_breaker_watch"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I lived the same day eight times. I got really good at breakfast.",
+    "twist": "The temporal mechanics were fascinating. I took notes.",
+    "nix7": "Temporal recursion: resolved. Causality: restored. Sanity: preserved."
+  }
+}

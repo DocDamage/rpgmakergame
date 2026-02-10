@@ -1,0 +1,83 @@
+{
+  "npc_id": "pigman_brown_mire",
+  "name": "Gristle O'Hog",
+  "sprite": "pigman_brown",
+  "zone": "mire",
+  "location": "The Oily Eel Tavern",
+  "personality": "gregarious_world_weary_hospitable",
+  "occupation": "innkeeper",
+  "schedule": {
+    "morning": "preparing_breakfast",
+    "day": "tending_bar",
+    "night": "closing_up"
+  },
+  "dialog": {
+    "greeting": [
+      "Welcome to the Oily Eel! Best beds in the Mire, and I should know - I clean 'em myself!",
+      "Hog's the name, hospitality's the game! What can I get ya?",
+      "First time in the Mire? You look lost. Everyone looks lost their first time. You'll get used to it.",
+      "The Eel ain't fancy, but it's dry. Usually. When the roof ain't leaking.",
+      "Come in, come in! Leave your mud at the door, if you please.",
+      "Ah, fresh faces! The swamp's got a way of wearin' folks down. Rest yer bones here.",
+      "Gristle O'Hog, at your service! Don't let the name fool ya - I'm a sweetheart.",
+      "Room for the night? Food? Both? The Eel provides!"
+    ],
+    "room_rental": "Rooms are ten coin a night. Includes breakfast - assuming the chef ain't in one of his moods. Which he usually is.",
+    "bar_chat": "Drinks are on tap, food's... edible. Mostly. The purple pigman in the kitchen - that's Percy - he experiments. Some experiments go better than others.",
+    "backstory": "Came here from the Dustbelt. Got a cousin there, runs a trading post. Family resemblance is strong - we're all ugly as sin but twice as charming. The Mire called to me. Something about the damp. Reminds me of home.",
+    "rumors": [
+      "That snakecharmer on the boardwalk? Claims he trained in the Uplands. Might be true - he's got that high-and-mighty air about him.",
+      "The dock bosses are fightin' again. White and Purple, at each other's throats. Bad for business, good for entertainment.",
+      "Heard tell there's a walking barrel out in the Deep Muck. My cousin in the Dustbelt - Barrelman Bob, you might know him - he says it's one of his. Escaped or something. Sounds like hogwash to me.",
+      "The foodboys near the docks? Don't eat the red one's sauce. I'm serious. I've seen grown men weep."
+    ],
+    "ambient_barks": [
+      "Another round!",
+      "Keep it down, you lot!",
+      "Mug needs washing...",
+      "Tab's due, Blinky!",
+      "Roof's leaking again...",
+      "Where's that serving girl?"
+    ],
+    "time_of_day": {
+      "morning": "Breakfast! Porridge, mostly. Sometimes with things in it. Don't ask what things.",
+      "noon": "Lunch rush. If you can call three people a rush.",
+      "evening": "Evening crowd's the best. Stories flow freer than the ale.",
+      "night": "Closing time. Nothing good happens in the Mire after midnight."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "oily_eel_supplies",
+    "quest_name": "Tavern Troubles",
+    "stage_1_hook": "Running low on supplies. The Deep Muck's got these root vegetables - glows faintly green, completely safe, probably - that'd really spice up the menu. Problem is, nobody wants to go mucking about in the Muck for vegetables.",
+    "stage_1_active": "The glow-roots grow near the water's edge. Bring back a dozen and I'll make it worth your while.",
+    "stage_2_progress": "Found those roots yet? Percy's threatening to make 'surprise stew' again. I need those ingredients.",
+    "stage_2_item_needed": "glow_root_bundle",
+    "stage_3_complete": "Glow-roots! Perfect! Percy's already planning something ambitious. Here's your reward - and free meals at the Eel for a week. Don't say I never gave you nothin'.",
+    "reward": "oily_eel_friend_discount"
+  },
+  "party_reactions": {
+    "kade": "Finally, somewhere civilized. Ish.",
+    "nix7": "Analysis: Innkeeper demonstrates 94% higher hygiene standards than zone average.",
+    "twist": "He smells like bacon! ...Is that rude to say? I feel like that's rude.",
+    "korr": "A fellow traveler who found his place. Admirable.",
+    "renna": "The wards here are basic but functional. This one knows a little magic.",
+    "suresh": "Your ale is acceptable. Your hospitality is better.",
+    "sova": "Serves drinks. Serves food. Doesn't ask questions. I like him.",
+    "grit": "Reminds me of every sergeant I ever had. Tough but fair.",
+    "ashka": "The fireplace needs work. I could... help with that.",
+    "senna": "Knows how to keep secrets. I can tell.",
+    "callum": "Nice place! Cozy. In a... damp sort of way."
+  },
+  "relationship_dialog": {
+    "stranger": "First drink's on the house. After that, we haggle.",
+    "acquaintance": "Back again? Must be desperate or discerning. Either way, welcome.",
+    "friend": "The usual? I've got it started already. Good to see you, friend.",
+    "best_friend": "Listen, if you ever need to lay low... there's a room in the back. No questions asked."
+  },
+  "cross_npc_connections": [
+    "barrelman_wood_dustbelt: My cousin Bob. Sells barrels. Bit obsessed, honestly. But family is family.",
+    "pigman_purple: Percy! My chef. Brilliant when he ain't being difficult. Secret recipe and all that.",
+    "snakecharmer_mire: Sssilas crashes here when it rains. Good for business - folks come to see the snake."
+  ]
+}

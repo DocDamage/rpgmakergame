@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_floor_challenge",
+  "name": "The Gauntlet Floor",
+  "zone": "tower",
+  "giver": "conductor",
+  "type": "combat",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Floor 42 is special—a proving ground designed by the Progenitors. No random encounters, just five consecutive challenges of increasing difficulty. Survive all five, and the Tower itself rewards you. Many have tried; few have succeeded. Think you're up to it, climber?",
+      "objective": "Complete all five challenges on Floor 42"
+    },
+    "progress": {
+      "dialog": "Three challenges down, two to go. The fourth is the crowd favorite—The Maze of Blades. Moving walls, timed traps, and guardians that reset if you take too long. Speed and precision, that's what separates champions from corpses here.",
+      "objective": "Complete the Maze of Blades and the final challenge"
+    },
+    "complete": {
+      "dialog": "Five challenges, zero failures. The Gauntlet is complete, and your name is etched into the Tower's memory. Few earn this honor, and fewer still earn it with such... style. The Tower rewards the worthy. Today, that's you.",
+      "rewards": {
+        "exp": 20000,
+        "gold": 5000,
+        "item": "gauntlet_champion_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Five straight battles, no rest? That's my kind of workout! Felt my limits stretching with each fight.",
+    "senna": "The Progenitors built trials that test body, mind, and spirit. Completing this proves we're ready for what comes above.",
+    "ashka": "That maze was designed by someone who understood true hunters. The traps weren't deadly—they were educational."
+  },
+  "lore_unlocks": ["tower_gauntlet_history", "progenitor_trials"]
+}

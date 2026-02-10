@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_sunandmoon_balance",
+  "name": "Eclipse Ritual",
+  "zone": "uplands",
+  "giver": "Sunandmoon (Dual Oracle)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Sun speaks: Light waxes strong! / Moon whispers: But shadow wanes! / Together: The balance must be restored! Bring us Sunpetals from the heights and Moondew from the depths!",
+      "objective": "Collect 5 Sunpetals from high peaks and 5 Moondew from deep caves"
+    },
+    "progress": {
+      "dialog": "Sun: The light ingredients! / Moon: The dark ingredients! / Together: Both are needed! Balance!",
+      "objective": "Gather the remaining items for the ritual"
+    },
+    "complete": {
+      "dialog": "Sun: Perfect! The warmth! / Moon: Perfect! The coolness! / Together: Balance restored! Take this Eclipse Charm! It holds both powers! Use in times of need!",
+      "rewards": {"gold": 450, "item": "eclipse_balance_charm", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Two voices, one body. Must be confusing at breakfast.",
+    "renna": "They channel both Light and Shadow Foundations. Remarkable.",
+    "vex": "Balance is the key to all things. They understand this."
+  },
+  "hidden_outcome": "If you bring the items during an actual eclipse (specific game time), they perform a ritual that permanently increases your Light and Shadow resistance"
+}

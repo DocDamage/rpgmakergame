@@ -1,0 +1,107 @@
+{
+  "npc_id": "ironchef_industrial_obsidian",
+  "name": "Forge-Chef Brutalia",
+  "sprite": "ironchef",
+  "zone": "obsidian",
+  "location": "Deep-6 Industrial Cafeteria",
+  "personality": "aggressive_perfectionist_steam_powered",
+  "occupation": "industrial_cafeteria_chef",
+  "dialog": {
+    "greeting": [
+      "EAT! OR DON'T! I DON'T CARE! THE STEAM DOESN'T STOP!",
+      "You look underfed! Weak! INDUSTRIAL EATING ONLY IN MY KITCHEN!",
+      "Forge-Chef Brutalia! I cook with FIRE! REAL FIRE! THE MOLTEN KIND!",
+      "New face! You get the WORKER'S PORTION! It's... adequate.",
+      "The cafeteria is OPEN! The turbines are TURNING! The soup is BUBBLING!",
+      "I was a chef in the capital once! Now I feed MINERS! Better miners than NOBLES!",
+      "Steam-powered spatulas! Hydraulic ladles! INDUSTRIAL EFFICIENCY!",
+      "Don't touch the pressure cooker! It touched someone back yesterday!"
+    ],
+    "shop_open": "TODAY'S SPECIAL! Nutrient Paste #7! Now with 40% MORE NUTRIENTS! And 12% less gray color!",
+    "food_offer": "Options: Mush, Stew, or Burnt! The Burnt is actually the good stuff! caramelized minerals!",
+    "haggle": [
+      "You want DISCOUNT?! In THIS economy?! The steam costs alone!",
+      "Fine! Extra portion! But you work for it! Scrub the cauldrons!",
+      "Management takes my profit! Union takes my hope! You take the food at listed price!"
+    ],
+    "purchase_success": [
+      "EAT! GROW STRONG! BREAK ROCKS!",
+      "Good choice! That batch only set off the smoke alarms TWICE!",
+      "Come back when you're hungry! Which should be in four hours! Like CLOCKWORK!"
+    ],
+    "purchase_fail": [
+      "NO COIN, NO COAL, NO CAKE!",
+      "The steam waits for no wallet! Come back with actual MONEY!",
+      "I feed WORKERS! Not WANDERERS!"
+    ],
+    "rumor": [
+      "They say the new management wants to replace me with a vending machine! A VENDING MACHINE! CAN A MACHINE SCREAM?!",
+      "Tunnel 7 collapsed again. Third time this month. The rock is FIGHTING BACK!",
+      "That corporate spy in the trenchcoat? Ordered a salad. A SALAD! In MY cafeteria! Suspicious!",
+      "Word from Frost: they've got hot springs heated by who-knows-what. Makes my steam look like a teapot!",
+      "The union rep? Coolcat? Eats here every day. Good taste. Literally. She can taste the pressure difference."
+    ],
+    "quest_hook": "The union strike is KILLING my lunch rush! Workers need FOOD! But management won't BUDGE! Someone needs to fix this! For the SAUCE!",
+    "quest_active": "Still no resolution? My boilers are running on RESENTMENT! Get those two talking!",
+    "quest_complete": "Agreement reached! Workers eat! Management profits! I COOK! Balance restored! Here! My secret spice blend! DON'T LOSE IT!",
+    "farewell": [
+      "DON'T LET THE STEAM HIT YOU ON THE WAY OUT!",
+      "EAT WELL! SMASH HARD!",
+      "Return hungry! Or don't! THE BOILERS DON'T CARE!"
+    ],
+    "ambient_barks": [
+      "MORE PRESSURE!",
+      "WHO TOUCHED THE THERMOSTAT?!",
+      "THE SOUP! IT LIVES!",
+      "Nutrients! Minerals! FUEL!",
+      "Industrial eating! For industrial people!",
+      "The steam sings! I sing BACK!"
+    ],
+    "time_dawn": "BREAKFAST SHIFT! Grit and determination! With toast!",
+    "time_noon": "LUNCH RUSH! THE BOILERS SCREAM! SO DO I!",
+    "time_dusk": "DINNER! The workers return! HUNGRY! DIRTY! BEAUTIFUL!",
+    "time_night": "Night shift! Slow! Peaceful! I hate it! Too quiet!",
+    "rival_mention": "That chef in Chrono? Steam-powered too? PLAGIARIST! I was steaming FIRST!",
+    "post_quest_greeting": "The peacemaker returns! Extra portion! On me! Actually, on the house! Management approved!"
+  },
+  "party_reactions": {
+    "kade": "She's... intense. But the food smells... industrial?",
+    "nix7": "Steam-powered culinary equipment. Impressive thermal efficiency.",
+    "twist": "I'LL TAKE THREE OF EVERYTHING! THE BIGGEST PLATES!",
+    "korr": "Her passion is... admirable. The food is... functional.",
+    "renna": "The pressure cooker is magically reinforced. Good safety measures.",
+    "suresh": "She reminds me of the temple cooks. Same energy. Same volume.",
+    "sova": "I respect anyone who can weaponize a kitchen.",
+    "grit": "Reminds me of mess hall sergeants. Mean, but you eat well.",
+    "ashka": "The fire here is... contained. Controlled. I appreciate that.",
+    "senna": "She'd make a good infiltrator. No one questions the chef.",
+    "callum": "I'm not eating anything that color. I'm just... not."
+  },
+  "relationship_dialog": {
+    "stranger": "First time? You get the STANDARD MUSH! No upgrades!",
+    "acquaintance": "Back again! You survived the first meal! IMPRESSIVE!",
+    "friend": "My favorite customer! Try the SPECIAL! It's... experimental!",
+    "best_friend": "You understand! Food is FUEL! Passion is FIRE! Here! My grandmother's recipe! DON'T SHARE IT!"
+  },
+  "mini_quest": {
+    "id": "safety_violations_supper",
+    "title": "The Negotiation Necessity",
+    "description": "Help mediate between the tunnel workers and corporate management to end the cafeteria crisis",
+    "stages": {
+      "hook": "Strike! Management vs Workers! My cafeteria EMPTY! You! Fix this! Talk to Tunneler Gray AND the trenchcoat spy! MAKE THEM LISTEN!",
+      "active": "The union wants better safety. Management wants cheaper ore. Find common ground! Or bribe them! I DON'T CARE! JUST FEED MY STOVE!",
+      "complete": "AGREEMENT! My steam returns! My customers return! Here! The Brutalia Blend! 47 secret ingredients! Mostly pepper!"
+    },
+    "reward": {
+      "item": "brutalia_secret_spice_blend",
+      "gold": 350,
+      "reputation": "industrial_chef_trust"
+    }
+  },
+  "cross_npc_connections": [
+    "tunneler_gray: The workers NEED to eat! He leads them! Convince him!",
+    "trenchcoat_gray: Corporate's eyes and ears! He has MANAGEMENT'S ear!",
+    "coolcat_industrial: Union's voice! Smart! Stubborn! Like GOOD STEEL!",
+    "ironchef_chrono: My rival! My NEMESIS! Steam-powered COPYCAT!"
+  ]
+}

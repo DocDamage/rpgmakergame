@@ -1,0 +1,92 @@
+{
+  "npc_id": "snakecharmer_dustbelt",
+  "name": "Sssilas the Serpent Speaker",
+  "sprite": "snakecharmer",
+  "zone": "dustbelt",
+  "location": "Visiting - Dustbelt Bazaar",
+  "personality": "dramatic_mysterious",
+  "occupation": "traveling_performer",
+  "dialog": {
+    "greeting": [
+      "BEHOLD! The desert echoes with the CHARM of SERPENTS!",
+      "Sssilas has ARRIVED! And he brought a FRIEND!",
+      "Step CLOSE, step BOLD! Witness what MAN and SNAKE can DO!",
+      "The Dustbelt DRAWS me! As do CROWDS! And COINS!",
+      "Mr. Whiskers! We have an AUDIENCE!",
+      "From the MIRE to the DUST! I travel! I CHARM!",
+      "Prepare to be DAZZLED! Or at least MILDLY interested!"
+    ],
+    "performance_start": [
+      "From the depths of the FORBIDDEN places... I give you... MR. WHISKERS!",
+      "The cobra AWAKENS! Mesmerized by MELODIES older than TIME!",
+      "Watch as man and serpent become ONE! Not literally! That would be WEIRD!"
+    ],
+    "crowd_work": [
+      "You there! Yes, you with the nervous face! Don't worry - he only bites VOLUNTEERS!",
+      "The lady in the back! Don't HIDE! The snake can smell FEAR!",
+      "Step CLOSER! He doesn't bite! ...Usually! Statistically, you're SAFE!"
+    ],
+    "show_climax": "AND NOW! The cobra RISES! Transfixed! Hypnotized! Really just confused by VIBRATIONS, but LOOK AT HIM GO!",
+    "tips_request": "If the performance PLEASED you... the HAT accepts ALL denominations! Even SAND! Though I prefer COIN!",
+    "tips_received": "Generous! The SNAKE SPIRITS smile upon you! Or Mr. Whiskers does! Same thing, really!",
+    "quiet_moment": "Honestly? Mr. Whiskers is a RESCUED pet store snake! Completely HARMLESS! Don't tell anyone - I have a REPUTATION!",
+    "backstory": "I didn't choose the SNAKE life! The snake life chose ME! Then I chose the FLUTE! Then Mr. Whiskers chose NOT to eat me! It's a WHOLE thing!",
+    "rumor": [
+      "The Mire whispers SECRETS at night! Mostly about BUGS! But sometimes... DARKER things!",
+      "El Scorcho? Mr. Whiskers is his BIGGEST fan! TRUE story!",
+      "Barrelman Bob wanted to put Mr. Whiskers in a BARREL! For a SHOW! The NERVE!",
+      "Heading to UPLANDS next! Heard the twins need entertainment!"
+    ],
+    "quest_hook": "Mr. Whiskers needs SPECIAL desert lizards! For... dietary reasons! Bring me FIVE and I'll perform a PRIVATE show! Just for YOU!",
+    "quest_active": "Those lizards! Mr. Whiskers is PECKISH! Well, snake-ish!",
+    "quest_complete": "PERFECT lizards! Mr. Whiskers is PLEASED! Here - a SNAKE CHARM! Real magic! Probably!",
+    "quest_reward": "Serpent's Blessing Charm - Poison Resistance",
+    "farewell": [
+      "May your path be FREE of snakes! Unless you LIKE snakes!",
+      "Come see me in the MIRE! Or the UPLANDS! I GET around!",
+      "Remember: It's not CHARISMA if you're actually playing a FLUTE!"
+    ],
+    "ambient_barks": [
+      "SNAKES! Get your SNAKE viewing!",
+      "Mr. Whiskers! Perform!",
+      "CHARMING! In progress!",
+      "Flute solo! Coming up!",
+      "Don't touch the COBRA!",
+      "Tips welcome! Coins preferred!"
+    ],
+    "time_dawn": "Morning shows! Mr. Whiskers is SLUGGISH! Like me BEFORE coffee!",
+    "time_noon": "Hot! Mr. Whiskers loves it! I MELT! The SHOW MUST GO ON!",
+    "time_dusk": "PRIME time! The SNAKE HOUR! Don't fact-check that!",
+    "time_night": "Night performances! DRAMATIC lighting! Mr. Whiskers GLOWS!",
+    "post_quest_greeting": "The LIZARD-BRINGER! Mr. Whiskers REMEMBERS you! Probably!",
+    "travel_plans": "After this? The OBSIDIAN REACH! Then... who KNOWS! The road CALLS!"
+  },
+  "party_reactions": {
+    "kade": "That snake looks... surprisingly well-behaved?",
+    "nix7": "Scanning: Snake is... not poisonous? False advertising detected.",
+    "twist": "CAN I PET HIM?! PLEASE?! I'LL BE GENTLE!",
+    "korr": "The snake trusts this human. Interesting.",
+    "renna": "It's not actually magic. Just music. Clever."
+  },
+  "relationship_dialog": {
+    "stranger": "NEW audience! Welcome to the SNAKE SHOW!",
+    "acquaintance": "RETURNING fan! Mr. Whiskers recognizes your FACE!",
+    "friend": "My FAVORITE crowd member! FRONT ROW reserved!",
+    "best_friend": "You're basically PART of the act now! Consider yourself CHARMED!"
+  },
+  "mini_quest": {
+    "id": "whiskers_lizard_lunch",
+    "title": "Dining with Whiskers",
+    "description": "Collect special desert lizards for Mr. Whiskers' diet",
+    "stages": {
+      "hook": "Mr. Whiskers needs SPECIAL desert lizards! Bring me FIVE and I'll do a PRIVATE show!",
+      "active": "Five lizards! The SPOTTED kind! Mr. Whiskers is PARTICULAR!",
+      "complete": "EXCELLENT specimens! Mr. Whiskers sends his GRATITUDE! Here's a charm! Used in REAL snake rituals! Authentic! Mostly!"
+    },
+    "reward": {
+      "item": "serpent_blessing_charm",
+      "gold": 200,
+      "reputation": "snake_charmed"
+    }
+  }
+}

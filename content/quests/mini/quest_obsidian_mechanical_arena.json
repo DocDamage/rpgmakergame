@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_mechanical_arena",
+  "name": "The Iron Colosseum",
+  "zone": "obsidian",
+  "giver": "lucha_gray",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Welcome to the Iron Colosseum, where flesh battles steel! We pit warriors against mechanical monstrosities built by the foundries! No magic allowed—just skill and courage! Think you can survive the Chrome Gauntlet?",
+      "objective": "Enter the Iron Colosseum and register for the Chrome Gauntlet"
+    },
+    "progress": {
+      "dialog": "You're past the preliminary rounds! Now the real challenge—three mechanized horrors await! The Gear Grinder, the Steam Golem, and the legendary Titan of Rivets! Defeat them all to claim the Chrome Crown!",
+      "objective": "Defeat the three mechanized champions"
+    },
+    "complete": {
+      "dialog": "IMPRESIVE! No one has defeated the Titan in five years! You are the new Chrome Champion! Here's your crown—and this Obsidian Battle Gear, forged from the defeated machines themselves!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 900,
+        "item": "obsidian_battle_gear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fighting robots with bare hands? This is my kind of challenge!",
+    "twist": "No magic, they said. Good thing my spells look like punches.",
+    "nix7": "Mechanical opponents: inferior. Combat efficiency: demonstrated."
+  }
+}

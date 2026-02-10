@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_MERIDIAN_SPUR_SCOUT",
+  "name": "Meridian Spur Wayfarer",
+  "title": "Rail Mechanic",
+  "location": "MIC_R15_72x40",
+  "coords": [
+    36,
+    20
+  ],
+  "schedule": {
+    "day": [
+      36,
+      20
+    ],
+    "night": [
+      34,
+      21
+    ],
+    "rain": [
+      37,
+      22
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_MECHANIC",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "professional",
+  "background": "Maintains rail hardware, engines, and field terminals. Assigned to Meridian Spur.",
+  "personality": "Calm, technical, and dry-humored.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "machine_advice",
+    "infrastructure_status"
+  ]
+}

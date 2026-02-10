@@ -1,0 +1,72 @@
+{
+  "npc_id": "pigman_red_ember",
+  "name": "Hamhock Heatwright",
+  "sprite": "pigman_red",
+  "zone": "ember",
+  "location": "The Sooty Hog Inn",
+  "personality": "jovial_resilient",
+  "occupation": "innkeeper",
+  "schedule": "always_working",
+  "dialog": {
+    "greeting": [
+      "Welcome to The Sooty Hog! Best pork in the fire zone!",
+      "Room for rent, food for coin, and shade for the melting!",
+      "Hamhock's the name, hospitality's the game! Even in THIS heat!",
+      "Back for more of my famous Flame-Roasted Ribs? Knew you couldn't resist!",
+      "Pull up a chair! The floor's lava! ...Literally, in some spots. Watch your step.",
+      "Fresh from the road? You look COOKED! Ha! Fire jokes!",
+      "The Sooty Hog welcomes all! Even non-pork enthusiasts! We're inclusive!",
+      "I've got cold drinks! Well, lukewarm drinks. Everything's warm here."
+    ],
+    "room_offer": "Got rooms with actual walls! Some even have doors! Luxury in Ember!",
+    "food_specialty": "Try the Magma-Marinated Chops! Cooked by the ambient heat! Saves on firewood!",
+    "heat_complaint": "Yes, it's hot. Yes, we deal with it. No, I don't know why we built an inn here. Ask my grandfather.",
+    "inn_history": "The Sooty Hog's been here fifty years! Survived three eruptions, seven earthquakes, and one very persistent health inspector!",
+    "rumor": [
+      "Heard there's a barrelgob collecting shiny things near the old mine. Careful, they bite!",
+      "Word from Tide says my cousin runs The Salty Sow. Rival inn! FAMILY rival inn!",
+      "The luchadors are at it again. Loud bunch. Good for business though!",
+      "Deep miners found something weird last week. Won't say what. Suspicious.",
+      "Mire's got an inn too. 'The Bogwater Bar.' Charming name. NOT."
+    ],
+    "salty_sow_rivalry": "My cousin Brine runs The Salty Sow in Tide. Claims HIS inn is better. HAH! Does he have magma-heated floors? I THINK NOT!",
+    "travel_advice": "Heading to Frost? Pack EVERYTHING warm you own. The cold bites harder than my ex-wife! And she had TEETH!",
+    "farewell": [
+      "Sweet dreams! If you smell smoke, that's normal! Probably!",
+      "Come back soon! The fire's always burning! Literally!",
+      "Safe travels! Avoid the magma! Or don't! Your funeral!",
+      "Thanks for staying! Tell your friends! Tell strangers! Tell ANYONE!"
+    ],
+    "ambient_barks": [
+      "Rooms! Get your rooms!",
+      "Food! Hot food! Everything's hot!",
+      "Best pork in Ember! Guaranteed!",
+      "Cold drinks! Relatively speaking!",
+      "Shade here! Limited supply!",
+      "The Sooty Hog! Oink oink!"
+    ],
+    "time_dawn": "Breakfast service! Charcoal-baked bread! Smoky flavor!",
+    "time_noon": "Lunch rush! Everyone wants my Flame-Broiled Special!",
+    "time_dusk": "Dinner crowd! The inn comes alive!",
+    "time_night": "Late night service! For the nocturnal and the desperate!"
+  },
+  "party_reactions": {
+    "kade": "Another themed inn. This one's... very warm.",
+    "nix7": "Ambient temperature: 38 degrees Celsius. Inn climate control: nonexistent.",
+    "twist": "FOOD?! I'm STARVING! What's biggest?!",
+    "korr": "A roof is a roof. Even a hot one.",
+    "renna": "Do you have any cooling enchantments? No? I'll manage.",
+    "suresh": "Hospitality in hardship. There is nobility in that.",
+    "sova": "Got a room with a view? Of... anything but lava?",
+    "grit": "Reminds me of mess hall. Loud, hot, but the food's honest.",
+    "ashka": "Finally! Someone who understands WARMTH!",
+    "senna": "The corners are shadowy. Good. I'll take that room.",
+    "callum": "Is... is the floor supposed to be that warm?"
+  },
+  "relationship_dialog": {
+    "stranger": "Welcome, stranger! First drink's on the house! ...House is me. I'm the house.",
+    "acquaintance": "Back again! Knew you'd love the Sooty Hog!",
+    "friend": "My favorite guest! Your usual room's ready!",
+    "best_friend": "You! Family rates! Which means FREE! Don't tell my accountant!"
+  }
+}

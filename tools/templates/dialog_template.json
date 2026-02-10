@@ -1,0 +1,40 @@
+{
+  "id": "DT_NPC_MAIN",
+  "entries": [
+    {
+      "id": "GREET_DEFAULT",
+      "condition": {
+        "flag": null,
+        "quest": null,
+        "quest_step": null,
+        "not_flag": null
+      },
+      "text": "Default greeting text.",
+      "choices": [
+        {
+          "text": "Option 1",
+          "action": "DIALOG_NEXT",
+          "target": "ENTRY_ID",
+          "condition": null
+        },
+        {
+          "text": "Option 2",
+          "action": "OPEN_SHOP",
+          "shop_id": "SHOP_ID"
+        },
+        {
+          "text": "Goodbye.",
+          "action": "EXIT"
+        }
+      ]
+    },
+    {
+      "id": "GREET_POST_QUEST",
+      "condition": {
+        "flag": "QUEST_COMPLETE_FLAG"
+      },
+      "text": "Post-quest dialogue.",
+      "choices": []
+    }
+  ]
+}

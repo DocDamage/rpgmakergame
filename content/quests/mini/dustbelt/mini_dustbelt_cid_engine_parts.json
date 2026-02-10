@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_cid_engine_parts",
+  "name": "Highwind's Hope",
+  "zone": "dustbelt",
+  "giver": "Cid (Sky Engineer)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "@%$#! Engine's busted again! Need parts! Turbine blades from the old Dominion skycraft wreck in the dunes. Ten of 'em! You get me those, and I'll show you what this bird can REALLY do!",
+      "objective": "Collect 10 turbine blades from the skycraft wreck in the dunes"
+    },
+    "progress": {
+      "dialog": "How many blades you got? Need TEN! These sand rats keep stealing my tools!",
+      "objective": "Continue collecting turbine blades from the wreck"
+    },
+    "complete": {
+      "dialog": "HOT DAMN! These are PERFECT! A little rusty, but they'll do! Watch this... [engines roar] HA! THAT'S what I'm talking about! Here, take this jetpack prototype. Still working out the kinks!",
+      "rewards": {"gold": 400, "item": "prototype_jetpack", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "Flying... that's the dream, isn't it?",
+    "ashka": "Aeronautics engineering. Crude but effective.",
+    "nix7": "Warning: Prototype designation suggests potential malfunction risk."
+  },
+  "hidden_outcome": "If you bring 15 blades instead of 10, Cid installs a 'boost mode' on the jetpack that grants temporary flight in combat"
+}

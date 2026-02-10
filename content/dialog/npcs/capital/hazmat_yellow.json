@@ -1,0 +1,119 @@
+{
+  "npc_id": "hazmat_yellow",
+  "name": "Sgt. Yelena",
+  "title": "Containment Team Leader",
+  "zone": "capital",
+  "location": "Quarantine Checkpoint, Central Ruins",
+  "description": "A disciplined officer in yellow hazmat gear, directing contamination protocols with military precision.",
+  "sprite_variant": "hazmat_yellow",
+  "greeting_variants": [
+    "Halt! Decontamination checkpoint ahead. No exceptions.",
+    "Scan clear? Good. The eastern sector just went hot. Again.",
+    "*checking dosimeter* Levels are spiking. Suit integrity mandatory.",
+    "You the reinforcements from Tide? We could use the help.",
+    "Contamination protocol seven is in effect. Follow the orange tape.",
+    "If you're not wearing sealed gear, stay behind the yellow line.",
+    "Another day, another sector lost to the spread. *sighs*",
+    "Suit check! Everyone's been sloppy since the rations ran low."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Sergeant Yelena, Capital Defense Hazmat Corps. We maintain the quarantine zones, handle contaminated materials, and try to keep the Void from spreading faster than it already is.",
+          "options": [
+            {"text": "How bad is the contamination?", "goto": "contamination_status"},
+            {"text": "What does your team do?", "goto": "team_duties"},
+            {"text": "Seen any safe paths?", "goto": "safe_routes"},
+            {"text": "Carry on.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "contamination_status",
+          "text": "Critical in sectors 4 through 9. The Void's been... aggressive lately. It's not just spreading—it's targeting. Concentrating on areas with high population density. Almost like it knows.",
+          "party_reactions": {
+            "mira": "Intelligent behavior? That contradicts current Void theory.",
+            "yelena": "Theory doesn't matter when it's eating your sector, doctor."
+          },
+          "options": [
+            {"text": "Can it be purified?", "goto": "purification"},
+            {"text": "What's the long-term plan?", "goto": "evacuation_plan"}
+          ]
+        },
+        {
+          "id": "team_duties",
+          "text": "My yellows handle active contamination—sealing breaches, decontaminating survivors, disposing of... remains. The orange crew does cleanup after we clear an area. We work in shifts. Twelve on, twelve off. Sleep in suits.",
+          "options": [
+            {"text": "Sounds rough.", "goto": "sympathy"},
+            {"text": "Have you lost anyone?", "goto": "casualties"}
+          ]
+        },
+        {
+          "id": "safe_routes",
+          "text": "*unfolds map* The sewers are mostly clear—barrelgobs keep to the upper ruins. There's an old maintenance tunnel to the Tower base, but it collapsed last week. I'm working on clearing it.",
+          "unlocks": {"location": "maintenance_tunnel", "condition": "when_cleared"},
+          "options": [
+            {"text": "I'll help clear it.", "goto": "tunnel_quest", "flags": {"offer_tunnel_help": true}},
+            {"text": "What about the Palace?", "goto": "palace_route"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "tunnel_clearing",
+    "title": "Clear the Maintenance Tunnel",
+    "description": "Help Yelena's team clear the collapsed maintenance tunnel that provides access to the Chroma Tower base.",
+    "objectives": [
+      "Gather structural supports from the warehouse",
+      "Defeat the barrelgob nest in the tunnel",
+      "Help stabilize the collapse zone",
+      "Report back to Yelena"
+    ],
+    "rewards": {
+      "experience": 450,
+      "reputation": {"hazmat_corps": 30, "resistance": 15},
+      "items": ["hazmat_suit_upgrade", "contamination_detector"],
+      "unlock": "maintenance_tunnel_access"
+    },
+    "prerequisites": ["offer_tunnel_help"]
+  },
+  "ambient_barks": [
+    "Suit seal check! Last person to get sloppy lost a foot.",
+    "The orange team found something in sector 7. Won't tell me what.",
+    "*radio crackle* Squad Bravo, report. Squad Bravo? ...Damn.",
+    "If your Geiger starts singing, you run. You run and don't look back.",
+    "Three years on the line. Three years and I'm still here.",
+    "The Void doesn't sleep, so neither do we. Coffee's in the tent.",
+    "Vex wants another push into the eastern ruins. Suicide mission.",
+    "Keep clear of anyone in purple. They're past saving."
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "That tunnel leads there. If we can clear it, we can finally get eyes on what's happening up there.",
+    "void_nexus": "We've sent drones in. None came back. Whatever's in there, it's not compatible with technology.",
+    "mire": "We trade contamination data with the Mire researchers. Different problems, similar solutions."
+  },
+  "party_reactions": {
+    "kael": {
+      "greeting": "Sergeant. Still holding the line?",
+      "response": "Someone has to, Captain. Good to see a military man who understands discipline."
+    },
+    "mira": {
+      "greeting": "Your contamination data—I'd like to study it.",
+      "response": "Gladly. Science might succeed where soldiers have failed."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Active at checkpoint, running drills",
+      "night": "Leading night patrols, checking perimeter sensors"
+    },
+    "world_state_triggers": {
+      "contamination_spike": "Emergency broadcast: 'All personnel to stations!'",
+      "tunnel_cleared": "Expresses gratitude, opens access to Tower",
+      "void_nexus_entered": "Warns: 'If you go there, you're on your own. We don't have resources to rescue you.'"
+    }
+  }
+}

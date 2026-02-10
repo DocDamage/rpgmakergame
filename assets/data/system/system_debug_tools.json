@@ -1,0 +1,19 @@
+{
+  "debug": {
+    "enabled": false,
+    "access_key": "F12",
+    "console_commands": {
+      "god_mode": {"command": "god", "description": "Toggle invincibility"},
+      "level_up": {"command": "level [char] [amt]", "description": "Add levels"},
+      "add_item": {"command": "give [item] [count]", "description": "Add item"},
+      "warp": {"command": "warp [map] [x] [y]", "description": "Teleport"},
+      "heal": {"command": "heal", "description": "Heal party"}
+    },
+    "hot_keys": {
+      "F1": "toggle_debug_menu",
+      "F2": "show_collision",
+      "F6": "heal_party",
+      "F8": "toggle_god_mode"
+    }
+  }
+}

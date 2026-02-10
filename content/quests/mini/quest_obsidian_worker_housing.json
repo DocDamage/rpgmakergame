@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_worker_housing",
+  "name": "Hearth and Home",
+  "zone": "obsidian",
+  "giver": "barrelgob_black",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The worker housing is crumbling! The company says they need profits first, repairs later. But families are living with leaking roofs and broken heating! Help us organize a repair effort—gather materials, rally volunteers!",
+      "objective": "Gather building materials from the Industrial Yard"
+    },
+    "progress": {
+      "dialog": "Materials secured! Now we need skilled labor. Convince the senior artisans to help—their pride in craft can overcome their cynicism. Appeal to their sense of community!",
+      "objective": "Convince 3 senior artisans to volunteer for the repair effort"
+    },
+    "complete": {
+      "dialog": "The repairs are done! Families have warm homes again! The community is stronger than ever! The workers collected this for you—a Worker's Solidarity Badge! It grants discounts at all union shops!",
+      "rewards": {
+        "exp": 750,
+        "gold": 500,
+        "item": "workers_solidarity_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Building homes instead of fighting monsters. Nice change of pace!",
+    "twist": "The artisans just needed someone to ask. Pride is a curious thing.",
+    "nix7": "Community organization: effective. Housing quality: improved."
+  }
+}

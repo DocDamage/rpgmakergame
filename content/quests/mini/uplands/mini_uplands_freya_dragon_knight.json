@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_freya_dragon_knight",
+  "name": "Dragon's Return",
+  "zone": "uplands",
+  "giver": "Freya (Burmecian Dragon Knight)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I sense dragons near. Not the friendly kind. The kind that burn villages. I cannot allow this. Will you stand with me, Dragon Knight to... whatever you are?",
+      "objective": "Accompany Freya to slay the rogue dragon threatening the Uplands"
+    },
+    "progress": {
+      "dialog": "The dragon's lair is close. I can smell the sulfur. Ready your weapon, friend.",
+      "objective": "Fight through the dragon's minions to reach its lair"
+    },
+    "complete": {
+      "dialog": "The dragon is felled. The Uplands are safe. You fought well - with honor and courage. Take this spear. It has slain many dragons. May it serve you as well.",
+      "rewards": {"gold": 600, "item": "dragon_killer_spear", "reputation": 20}
+    }
+  },
+  "party_comments": {
+    "kade": "A dragon knight. Now that's a title that means something.",
+    "ashka": "She knows the skies. I respect that.",
+    "vex": "Protecting the innocent from beasts. Noble work."
+  },
+  "hidden_outcome": "If you spare the dragon and drive it away instead, Freya teaches you 'Dragon's Crest' - a technique that grows stronger with each dragon encountered"
+}

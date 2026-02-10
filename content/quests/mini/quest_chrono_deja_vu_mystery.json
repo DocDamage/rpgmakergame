@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_deja_vu_mystery",
+  "name": "Already Been Here",
+  "zone": "chrono",
+  "giver": "lucha_blue",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Amigo, I'm experiencing déjà vu constantly! Every conversation, every meal—I've done it all before! But it's not a loop, it's... echoes! My timeline is overlapping with alternate versions of itself! Find out why before I lose my mind!",
+      "objective": "Investigate the timeline echoes affecting the luchador"
+    },
+    "progress": {
+      "dialog": "Someone used time magic on him—specifically, a Temporal Duplication spell gone wrong! The caster is nearby, repeating the spell! Find them and stop the casting, or he'll be split into infinite versions of himself!",
+      "objective": "Find and stop the rogue time caster"
+    },
+    "complete": {
+      "dialog": "The echoes fade! My timeline is singular again! Turns out an apprentice Chronomancer was practicing on him without consent! She's been reprimanded, and I'm whole again! Take this Temporal Singularity Ring! It prevents unwanted time duplication!",
+      "rewards": {
+        "exp": 900,
+        "gold": 750,
+        "item": "temporal_singularity_ring"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I talked to him five times simultaneously. Very confusing conversation.",
+    "twist": "Time duplication is illegal for good reason. That apprentice was reckless.",
+    "nix7": "Timeline consolidation: achieved. Entity integrity: restored."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "npc_id": "bush_uplands",
+  "name": "Elder Briar",
+  "sprite": "bush",
+  "zone": "uplands",
+  "location": "Ancient Grove",
+  "personality": "ancient_druid_disguise",
+  "occupation": "ancient_druid",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*wise rustling*",
+      "*ancient patience*",
+      "*mountain breeze through leaves*",
+      "*watching*",
+      "*definitely just a very old bush*",
+      "*roots deep in history*"
+    ],
+    "approach": [
+      "The bush seems... ancient. Wise. Aware.",
+      "Leaves rustle with purpose. With memory.",
+      "You feel the weight of ages. From shrubbery.",
+      "Is that... recognition in the branches?",
+      "The bush shifts. Slowly. Deliberately.",
+      "A voice on the wind. Or from the leaves?"
+    ],
+    "speak_to": [
+      "*significant rustling*",
+      "*pointed branch gesture*",
+      "*berry offering*",
+      "*approving growth*",
+      "*ancient whisper*",
+      "*root-deep wisdom*"
+    ],
+    "reveal": [
+      "I am old. Older than the temple. Older than the mountain's name.",
+      "My cousin in Dustbelt is young. Impatient. But learning.",
+      "The mountain remembers. I am its memory.",
+      "You seek what was lost. I know where."
+    ],
+    "rumor": [
+      "The earth here is alive. Listening. Waiting.",
+      "The twins do not know they channel old power. Ancient.",
+      "The black coat's secrets are not his own. Borrowed. Dangerous.",
+      "When the final star aligns, the mountain will sing."
+    ],
+    "quest_hook": "Seeds from the First Tree. Sleeping. Need planting where three winds meet. Ancient place. Forgotten place. Plant them. Life returns.",
+    "quest_active": "Three winds. Peak of the Tri-Wind Point. Plant deep. Speak the old words. Growth will come.",
+    "quest_complete": "You planted. The First Tree's children grow. The mountain thanks you. Here. My essence. Carry it. Ancient protection.",
+    "quest_reward": "Elder's Blessing - Ultimate Nature Protection",
+    "farewell": [
+      "*returning to eternal bush-ness*",
+      "*watching with ancient patience*",
+      "*roots holding the mountain*"
+    ],
+    "ambient_barks": [
+      "...",
+      "*ancient rustle*",
+      "*photosynthesis of ages*",
+      "*deep root drinking*",
+      "*mountain memory*",
+      "*bush of eons*"
+    ],
+    "time_dawn": "*morning of centuries*",
+    "time_noon": "*sun of ages*",
+    "time_dusk": "*twilight of millennia*",
+    "time_night": "*night of forever*",
+    "post_quest_greeting": "*recognition of ancient trust* *welcoming growth*",
+    "if_korr_present": "*kinship with the ancient green*",
+    "wisdom": "All things grow. All things fade. Only the mountain remains. And me."
+  },
+  "party_reactions": {
+    "kade": "Wait. Is the bush...? No. Couldn't be. ...Is it?",
+    "nix7": "Anomaly detected. Botanical age: exceeds parameters.",
+    "twist": "HELLO OLD BUSH! You're VERY BUSHY!",
+    "korr": "Elder one. I sense your age. Your wisdom.",
+    "renna": "Arcane signatures... ancient. Powerful. Bush-shaped."
+  },
+  "relationship_dialog": {
+    "stranger": "*neutral ancient bush stance*",
+    "acquaintance": "*recognition of returning presence*",
+    "friend": "*welcoming ancient rustle*",
+    "best_friend": "*reveals true ancient form*"
+  },
+  "mini_quest": {
+    "id": "three_seeds_uplands",
+    "title": "Three Seeds",
+    "description": "Plant ancient seeds from the First Tree where three winds meet",
+    "stages": {
+      "hook": "Seeds from the First Tree. Sleeping. Need planting where three winds meet. Ancient place. Plant them. Life returns to old places.",
+      "active": "Tri-Wind Point. Peak location. Three winds converge. Plant deep. Speak to the earth. Growth will answer.",
+      "complete": "You planted well. First Tree's children grow. Mountain remembers. Take my essence. Ancient protection. Rare gift."
+    },
+    "reward": {
+      "item": "elder_blessing",
+      "gold": 600,
+      "reputation": "ancient_nature_ally"
+    }
+  }
+}

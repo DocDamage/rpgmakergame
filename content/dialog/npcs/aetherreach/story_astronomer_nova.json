@@ -1,0 +1,54 @@
+{
+  "npc_id": "astronomer_nova",
+  "name": "Astronomer Nova",
+  "title": "Lore Keeper",
+  "zone": "aetherreach",
+  "location": "Stellar Observers Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "analytical_precise_obsessive",
+  "occupation": "researcher",
+  "dialog": {
+    "greeting": [
+      "Astronomer Nova on comms. Stage 2: Stellar Observers. Keep formation tight and decisions tighter.",
+      "We are running Sky Sanctuary. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Study the stellar anomalies."
+    ],
+    "quest_hook": "Objective stack: Study the stellar anomalies; Decode the extradimensional signals; Decide whether to make contact. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Investigate the strange signals from beyond Chroma's sky. Immediate move: Study the stellar anomalies.",
+    "quest_complete": "Stage 2 resolved: Stellar Observers. Primary objective secured and route stabilized. Prepare for The Sky Gardens.",
+    "rumor": [
+      "A cloud ferry arrived before it departed and still demanded full fare.",
+      "People keep repeating one clue from Stellar Observers: 'Decide whether to make contact'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Pattern noted.",
+      "Archive that.",
+      "Evidence first.",
+      "Hypothesis holding."
+    ],
+    "time_dawn": "Dawn in Aetherreach is clear-sky math: low noise, high visibility, best scouting window.",
+    "time_noon": "Noon stacks wind traffic and patrol traffic together. Plan your crossings.",
+    "time_dusk": "Dusk paints false horizons here. Verify every ledge before committing.",
+    "time_night": "Night turns cloud light into mirages. Keep formation and call targets out loud."
+  },
+  "party_reactions": {
+    "kade": "Astronomer Nova sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Astronomer Nova accepted. Probability of success improves with compliance.",
+    "twist": "Astronomer Nova talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "aetherreach_sky_sanctuary"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_cosmic_alignment",
+  "name": "Stars in Harmony",
+  "zone": "palace",
+  "giver": "sunandmoon",
+  "type": "investigation",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Progenitor Engine doesn't just run on physical foundations—it requires cosmic alignment. Eight celestial bodies must be in specific configurations to stabilize the reset procedure. The Palace observatory tracks these alignments, but something's interfering. We need to identify and correct the distortion.",
+      "objective": "Investigate the celestial alignment interference in the Palace observatory"
+    },
+    "progress": {
+      "dialog": "Interference source identified: a rogue Foundation conduit is emitting chaotic energies that disrupt cosmic readings. The conduit needs recalibration, but it's located in a volatile section of the Palace. One wrong move and we lose the entire alignment tracking system.",
+      "objective": "Safely recalibrate the rogue Foundation conduit"
+    },
+    "complete": {
+      "dialog": "Alignment restored, interference eliminated, the stars sing true again. The cosmic clock ticks toward its destined moment, and we can now predict the optimal window for confronting the Engine. The universe itself is our ally now, Kade. Feel that harmony? That's victory approaching.",
+      "rewards": {
+        "exp": 32000,
+        "gold": 8500,
+        "item": "cosmic_alignment_chart"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Calibrating cosmic alignments. Just another day saving the world. The stars actually look different now—brighter, somehow.",
+    "renna": "The conduit calibration required precision within nanometers. One tiny error and... well, we didn't make any errors. Perfect work.",
+    "nix7": "Cosmic alignment calculations updated. Optimal confrontation window identified: 72 hours from present. Recommend preparation."
+  },
+  "lore_unlocks": ["cosmic_alignment_mechanics", "progenitor_astronomy"]
+}

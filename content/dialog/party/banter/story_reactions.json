@@ -1,0 +1,1203 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "total_reaction_lines": 858,
+    "reaction_categories": [
+      "revelation",
+      "character_death",
+      "major_victory",
+      "betrayal",
+      "alliance_formed",
+      "sacrifice_made",
+      "truth_revealed",
+      "world_break",
+      "korr_liberated",
+      "prime_restoration",
+      "progenitor_confrontation"
+    ],
+    "lines_per_character_per_category": 6,
+    "characters": [
+      "kade",
+      "nix7",
+      "renna",
+      "suresh",
+      "twist",
+      "sova",
+      "grit",
+      "ashka",
+      "senna",
+      "callum",
+      "petra",
+      "vex",
+      "korr"
+    ]
+  },
+  "story_reactions": {
+    "revelation": {
+      "kade": [
+        "new intelligence invalidates old assumptions. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: new intelligence invalidates old assumptions.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: new intelligence invalidates old assumptions.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "new intelligence invalidates old assumptions, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, new intelligence invalidates old assumptions. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "new intelligence invalidates old assumptions. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "new intelligence invalidates old assumptions. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "new intelligence invalidates old assumptions. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "new intelligence invalidates old assumptions. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "new intelligence invalidates old assumptions, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "new intelligence invalidates old assumptions. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "new intelligence invalidates old assumptions, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "new intelligence invalidates old assumptions. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "character_death": {
+      "kade": [
+        "a comrade falls and cannot be recovered. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: a comrade falls and cannot be recovered.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: a comrade falls and cannot be recovered.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "a comrade falls and cannot be recovered, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, a comrade falls and cannot be recovered. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "a comrade falls and cannot be recovered. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "a comrade falls and cannot be recovered. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "a comrade falls and cannot be recovered. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "a comrade falls and cannot be recovered. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "a comrade falls and cannot be recovered, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "a comrade falls and cannot be recovered. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "a comrade falls and cannot be recovered, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "a comrade falls and cannot be recovered. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "major_victory": {
+      "kade": [
+        "a major Dominion objective collapses. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: a major Dominion objective collapses.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: a major Dominion objective collapses.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "a major Dominion objective collapses, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, a major Dominion objective collapses. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "a major Dominion objective collapses. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "a major Dominion objective collapses. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "a major Dominion objective collapses. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "a major Dominion objective collapses. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "a major Dominion objective collapses, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "a major Dominion objective collapses. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "a major Dominion objective collapses, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "a major Dominion objective collapses. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "betrayal": {
+      "kade": [
+        "trusted command channels turn hostile. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: trusted command channels turn hostile.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: trusted command channels turn hostile.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "trusted command channels turn hostile, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, trusted command channels turn hostile. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "trusted command channels turn hostile. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "trusted command channels turn hostile. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "trusted command channels turn hostile. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "trusted command channels turn hostile. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "trusted command channels turn hostile, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "trusted command channels turn hostile. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "trusted command channels turn hostile, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "trusted command channels turn hostile. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "alliance_formed": {
+      "kade": [
+        "a former enemy commits to repair work. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: a former enemy commits to repair work.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: a former enemy commits to repair work.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "a former enemy commits to repair work, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, a former enemy commits to repair work. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "a former enemy commits to repair work. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "a former enemy commits to repair work. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "a former enemy commits to repair work. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "a former enemy commits to repair work. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "a former enemy commits to repair work, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "a former enemy commits to repair work. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "a former enemy commits to repair work, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "a former enemy commits to repair work. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "sacrifice_made": {
+      "kade": [
+        "someone pays heavily to keep others alive. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: someone pays heavily to keep others alive.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: someone pays heavily to keep others alive.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "someone pays heavily to keep others alive, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, someone pays heavily to keep others alive. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "someone pays heavily to keep others alive. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "someone pays heavily to keep others alive. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "someone pays heavily to keep others alive. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "someone pays heavily to keep others alive. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "someone pays heavily to keep others alive, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "someone pays heavily to keep others alive. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "someone pays heavily to keep others alive, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "someone pays heavily to keep others alive. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "truth_revealed": {
+      "kade": [
+        "hidden Engine directives become public. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: hidden Engine directives become public.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: hidden Engine directives become public.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "hidden Engine directives become public, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, hidden Engine directives become public. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "hidden Engine directives become public. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "hidden Engine directives become public. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "hidden Engine directives become public. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "hidden Engine directives become public. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "hidden Engine directives become public, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "hidden Engine directives become public. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "hidden Engine directives become public, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "hidden Engine directives become public. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "world_break": {
+      "kade": [
+        "Omega activation tears regional stability apart. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: Omega activation tears regional stability apart.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: Omega activation tears regional stability apart.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "Omega activation tears regional stability apart, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, Omega activation tears regional stability apart. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "Omega activation tears regional stability apart. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "Omega activation tears regional stability apart. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "Omega activation tears regional stability apart. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "Omega activation tears regional stability apart. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "Omega activation tears regional stability apart, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "Omega activation tears regional stability apart. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "Omega activation tears regional stability apart, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "Omega activation tears regional stability apart. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "korr_liberated": {
+      "kade": [
+        "Nix burns the Omega tether out of Korr implants. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: Nix burns the Omega tether out of Korr implants.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: Nix burns the Omega tether out of Korr implants.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "Nix burns the Omega tether out of Korr implants, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, Nix burns the Omega tether out of Korr implants. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "Nix burns the Omega tether out of Korr implants. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "Nix burns the Omega tether out of Korr implants. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "Nix burns the Omega tether out of Korr implants. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "Nix burns the Omega tether out of Korr implants. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "Nix burns the Omega tether out of Korr implants, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "Nix burns the Omega tether out of Korr implants. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "Nix burns the Omega tether out of Korr implants, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "Nix burns the Omega tether out of Korr implants. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "prime_restoration": {
+      "kade": [
+        "a Prime pedestal reseat stabilizes a major zone. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: a Prime pedestal reseat stabilizes a major zone.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: a Prime pedestal reseat stabilizes a major zone.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "a Prime pedestal reseat stabilizes a major zone, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, a Prime pedestal reseat stabilizes a major zone. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "a Prime pedestal reseat stabilizes a major zone. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "a Prime pedestal reseat stabilizes a major zone. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "a Prime pedestal reseat stabilizes a major zone. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "a Prime pedestal reseat stabilizes a major zone. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "a Prime pedestal reseat stabilizes a major zone, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "a Prime pedestal reseat stabilizes a major zone. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "a Prime pedestal reseat stabilizes a major zone, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "a Prime pedestal reseat stabilizes a major zone. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    },
+    "progenitor_confrontation": {
+      "kade": [
+        "the crew faces the Engine directly. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "nix7": [
+        "Event logged: the crew faces the Engine directly.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "renna": [
+        "Event logged: the crew faces the Engine directly.",
+        "All assumptions are under review.",
+        "Recalculating risk and route priority.",
+        "Emotional load acknowledged. Mission remains active.",
+        "I will adapt procedures immediately.",
+        "Continue operation."
+      ],
+      "suresh": [
+        "the crew faces the Engine directly, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "twist": [
+        "So, the crew faces the Engine directly. Great. Love that for us.",
+        "No panic. Panic is expensive.",
+        "We pivot fast and steal initiative back.",
+        "If trust shifted, lock it down and verify everything.",
+        "I am still in. That is your data point.",
+        "Let us move before this gets worse."
+      ],
+      "sova": [
+        "the crew faces the Engine directly. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "grit": [
+        "the crew faces the Engine directly. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ],
+      "ashka": [
+        "the crew faces the Engine directly. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "senna": [
+        "the crew faces the Engine directly. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "callum": [
+        "the crew faces the Engine directly, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "petra": [
+        "the crew faces the Engine directly. I feel it in my teeth.",
+        "Rage is easy. Discipline wins.",
+        "I choose control, then impact.",
+        "No predator gets to feed on our fear.",
+        "Say the word and I move.",
+        "I am not backing down."
+      ],
+      "vex": [
+        "the crew faces the Engine directly, and the cost is real.",
+        "Grief acknowledged. Duty remains.",
+        "We protect who we still can.",
+        "Redemption is action, not language.",
+        "I will carry my share of this burden.",
+        "Forward, together."
+      ],
+      "korr": [
+        "the crew faces the Engine directly. Adjust command priorities now.",
+        "We keep formation and we keep intent.",
+        "No freelancing under this pressure.",
+        "Results matter more than comfort.",
+        "Own the consequence and continue.",
+        "On me. Move."
+      ]
+    }
+  }
+}

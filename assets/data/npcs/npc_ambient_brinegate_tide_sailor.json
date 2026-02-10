@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_BRINEGATE_TIDE_SAILOR",
+  "name": "Brinegate Tide Sailor",
+  "title": "Dock Sailor",
+  "location": "T_BRINEGATE_112x72",
+  "coords": [
+    18,
+    24
+  ],
+  "schedule": {
+    "day": [
+      18,
+      24
+    ],
+    "night": [
+      16,
+      23
+    ],
+    "rain": [
+      20,
+      24
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_SAILOR",
+  "shop": null,
+  "quests": [],
+  "faction": "BRINEGATE_DOCKWORKERS",
+  "attitude": "friendly",
+  "background": "Works sea lanes and harbor logistics. Stationed in Brinegate.",
+  "personality": "Blunt, weathered, and darkly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "sea_routes",
+    "dock_rumors"
+  ]
+}

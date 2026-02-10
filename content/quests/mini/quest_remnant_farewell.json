@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_farewell",
+  "name": "Until We Meet Again",
+  "zone": "remnant",
+  "giver": "twins_glitch",
+  "type": "social",
+  "prerequisites": ["all_other_remnant_quests_complete"],
+  "stages": {
+    "start": {
+      "dialog": "You've done everything. Seen everything. Been everything. The Remnant has no more secrets for you, no more challenges, no more stories. Except one final moment—a farewell from the world you've spent so much time in. Gather your party. Return to where you started. Say goodbye properly.",
+      "objective": "Gather your full party and return to the starting location"
+    },
+    "progress": {
+      "dialog": "Everyone's here, together one last time. The journey began with a small group in a simple place. It ends with a family, forged through fire, bound by love. Each party member has final words, final thanks, final hopes for the future. Listen to them. Remember them. Carry them with you.",
+      "objective": "Listen to each party member's final words"
+    },
+    "complete": {
+      "dialog": "Farewells spoken, journey complete, story ended. The Remnant holds this moment forever—a perfect memory of everything you achieved. Thank you, player, for investing your time, your emotion, your self in this world. Games are temporary; memories endure. Orion will be here when you return. Always. Farewell, hero. Farewell, friend.",
+      "rewards": {
+        "exp": 500000,
+        "gold": 200000,
+        "item": "journey_complete_souvenir"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "From Rusthaven to here. What a ride. I'll never forget any of you. That's a promise.",
+    "twist": "Never thought I'd find a family. Thanks for dragging me into this mess, Kade. Wouldn't change a thing.",
+    "nix7": "Optimal outcome achieved through partnership. Organic and synthetic cooperation: successful. Gratitude expressed."
+  },
+  "lore_unlocks": ["journey_complete", "final_farewell"]
+}

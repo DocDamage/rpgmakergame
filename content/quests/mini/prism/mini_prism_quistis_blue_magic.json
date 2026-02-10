@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_quistis_blue_magic",
+  "name": "Instructor's Request",
+  "zone": "prism",
+  "giver": "Quistis (SeeD Instructor)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I'm documenting Blue Magic spells for the Academy. The Prism creatures have some unique ones. Help me observe them? I'll need you to take hits so I can study the effects. Don't worry - I'll heal you.",
+      "objective": "Let Prism creatures use their special attacks on you while Quistis observes"
+    },
+    "progress": {
+      "dialog": "Interesting! That laser absorption technique... and the crystal shard spray! Take notes! This is valuable data!",
+      "objective": "Survive more creature attacks for observation"
+    },
+    "complete": {
+      "dialog": "Excellent data! Three new Blue Magic spells documented! Here - the skill manual. Laser Eye, Ultra Waves, and Electrocute. Use them wisely!",
+      "rewards": {"gold": 450, "item": "blue_magic_manual_3", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "Getting hit on purpose. For science. Sure.",
+    "twist": "Ouch! That looked like it hurt!",
+    "nix7": "Sacrificing bodily integrity for data. Acceptable trade-off."
+  },
+  "hidden_outcome": "If you survive all attacks without healing items (just Quistis's healing), she gives you 'Save the Queen' - her ultimate whip"
+}

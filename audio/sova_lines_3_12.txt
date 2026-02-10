@@ -1,0 +1,77 @@
+chroma_edge_script_part3.md:250:Marshal.
+chroma_edge_script_part3.md:258:They tried.
+chroma_edge_script_part3.md:267:Was.
+chroma_edge_script_part3.md:280:Then you need me.
+chroma_edge_script_part3.md:536:The Dominion's moving Nix through a canyon choke point.
+chroma_edge_script_part3.md:543:Because I used to plan their routes.
+chroma_edge_script_part3.md:551:That's inaccurate. I smiled once.
+chroma_edge_script_part3.md:630:It is.
+chroma_edge_script_part3.md:715:That's not a standard alarm.
+chroma_edge_script_part3.md:759:You did.
+chroma_edge_script_part3.md:836:(nods, grim)
+chroma_edge_script_part3.md:980:It's physics. Ancient physics.
+chroma_edge_script_part4.md:13:Light Foundation instability.
+chroma_edge_script_part4.md:88:Because your Light infusion is unstable.
+chroma_edge_script_part4.md:158:Stay sharp. Light instability causes mirages.
+chroma_edge_script_part4.md:249:They followed us.
+chroma_edge_script_part4.md:313:He always was.
+chroma_edge_script_part4.md:373:This is older than Dominion construction.
+chroma_edge_script_part4.md:570:The tether's routing around the purge. It's adapting.
+chroma_edge_script_part4.md:610:Heat Foundation stabilized locally.
+chroma_edge_script_part4.md:648:The world break shoved water into wrong basins.
+chroma_edge_script_part4.md:672:Tide spells will resonate here.
+chroma_edge_script_part5.md:128:This isn't Dominion.
+chroma_edge_script_part5.md:291:Good. Let them blame weather.
+chroma_edge_script_part5.md:325:Mass Foundation instability.
+chroma_edge_script_part5.md:423:(under her breath)
+chroma_edge_script_part5.md:617:That's because it's an anchor for reality.
+chroma_edge_script_part6.md:12:Mass instability. Gravity is fluctuating in local "moods."
+chroma_edge_script_part6.md:44:That's not a structure. That's a rule made visible.
+chroma_edge_script_part6.md:174:Time Foundation interference.
+chroma_edge_script_part6.md:381:That's deeper on the Progenitor's Ring.
+chroma_edge_script_part6.md:462:It's making reality itch.
+chroma_edge_script_part7.md:13:Shadow Foundation instability.
+chroma_edge_script_part7.md:134:Spatial rules are… optional here.
+chroma_edge_script_part7.md:212:Meaning you.
+chroma_edge_script_part7.md:393:A partition.
+chroma_edge_script_part7.md:463:This isn't Shadow.
+chroma_edge_script_part7.md:470:I can read everything.
+chroma_edge_script_part7.md:482:Knowledge is just data.
+chroma_edge_script_part7.md:496:…I will be.
+chroma_edge_script_part7.md:508:Domain collapse is starting.
+chroma_edge_script_part7.md:645:That wasn't a terminal.
+chroma_edge_script_part7.md:669:And a Dominion fortress.
+chroma_edge_script_part7.md:689:That's the Triumvirate.
+chroma_edge_script_part8.md:24:Prime network handshake confirmed.
+chroma_edge_script_part8.md:117:It's not a screen. It's a—
+chroma_edge_script_part8.md:237:We imposed a correction rule.
+chroma_edge_script_part8.md:395:…Those are containment rooms.
+chroma_edge_script_part8.md:638:Someone grafted Growth-tech into the Tower frame.
+chroma_edge_script_part9.md:16:The Tower's rerouting. It's reacting to Prime stabilization on lower floors.
+chroma_edge_script_part9.md:167:Tri-key architecture.
+chroma_edge_script_part9.md:308:Two channels down.
+chroma_edge_script_part9.md:441:Not a sigil.
+chroma_edge_script_part9.md:477:Here.
+chroma_edge_script_part9.md:650:You can do that?
+chroma_edge_script_part9.md:685:Signal recursion.
+chroma_edge_script_part9.md:735:It asked for authority alignment.
+chroma_edge_script_part9.md:898:Good. Keep that.
+chroma_edge_script_part10.md:271:Meaning: the Engine is using him as a channel.
+chroma_edge_script_part10.md:303:Foundations are overlapping—Mass, Tide, Heat, Time—micro-zones.
+chroma_edge_script_part10.md:381:That's the Tower's immune system.
+chroma_edge_script_part10.md:404:We can impose rules on the Tower's mixed zones.
+chroma_edge_script_part11.md:15:This is the pattern compiler.
+chroma_edge_script_part11.md:24:Meaning Marr is building a leash around Prime using tri-channel authority.
+chroma_edge_script_part11.md:119:If you recalibrate here, you can scramble their training set.
+chroma_edge_script_part11.md:188:Temporal recursion.
+chroma_edge_script_part11.md:275:This routes command authorization to upper floors.
+chroma_edge_script_part11.md:403:That's not just a key.
+chroma_edge_script_part11.md:598:Use the Halo Keystone! Now!
+chroma_edge_script_part11.md:680:He sped the timetable.
+chroma_edge_script_part12.md:15:It's not a clock. It's a commit timer.
+chroma_edge_script_part12.md:64:It's not letting us skip the Triumvirate's authority.
+chroma_edge_script_part12.md:99:We didn't clear the authority anchors.
+chroma_edge_script_part12.md:266:Triumvirate authority anchors cleared.
+chroma_edge_script_part12.md:341:That thing we fought… that was the Sentinel.
+chroma_edge_script_part12.md:470:So it can shape it into a tool.
+chroma_edge_script_part12.md:630:No.

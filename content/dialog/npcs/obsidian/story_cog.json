@@ -1,0 +1,54 @@
+{
+  "npc_id": "cog",
+  "name": "Cog",
+  "title": "Systems Operator",
+  "zone": "obsidian",
+  "location": "The Crystal of Industry Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "pragmatic_clockwork_intense",
+  "occupation": "field_engineer",
+  "dialog": {
+    "greeting": [
+      "Cog on comms. Stage 4: The Crystal of Industry. Keep formation tight and decisions tighter.",
+      "We are running Gears of Industry. Objective drift gets teams buried.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm.",
+      "Action first, panic never. Start with: Breach the Executive Vault."
+    ],
+    "quest_hook": "Objective stack: Breach the Executive Vault; Deactivate the perverted machinery; Claim the Crystal of Industry. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Claim the Crystal hidden in the Board's private vault. Immediate move: Breach the Executive Vault.",
+    "quest_complete": "Stage 4 resolved: The Crystal of Industry. Primary objective secured and route stabilized. Prepare for The Ironclad Offer.",
+    "rumor": [
+      "Factory workers say one assembly line now produces keys for no known locks.",
+      "People keep repeating one clue from The Crystal of Industry: 'Claim the Crystal of Industry'.",
+      "I saw gravity file for overtime in this sector. Management approved."
+    ],
+    "ambient_barks": [
+      "Check pressure.",
+      "Keep the line hot.",
+      "Tighten the bracket.",
+      "No loose bolts."
+    ],
+    "time_dawn": "Dawn shift change in Obsidian is your cleanest infiltration window.",
+    "time_noon": "Noon overloads lines and tempers alike. Expect mechanical failures.",
+    "time_dusk": "Dusk smog reduces range. Move by waypoint, not by horizon.",
+    "time_night": "Night whistles from broken pipes mimic voices. Confirm identities before opening doors."
+  },
+  "party_reactions": {
+    "kade": "Cog sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Cog accepted. Probability of success improves with compliance.",
+    "twist": "Cog talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "obsidian_gears_industry"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_MECHANIC",
+    "world_break_aware": true
+  }
+}

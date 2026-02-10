@@ -1,0 +1,16 @@
+{
+  "id": "DT_GENERATED_MISC",
+  "dialogs": [
+    {
+      "id": "DT_FALLBACK_MISC",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Fallback dialogue entry.",
+          "responses": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": "OW_ROUTES_ACT1_1x1",
+  "maps": [
+    {
+      "id": "MIC_R01A_48x32",
+      "display_name": "Dusthaven Outskirts",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 48,
+        "height": 32,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Dustbelt",
+      "encounter_table": "DUSTBELT_ENCOUNTERS",
+      "music": "bgm_field_dustbelt",
+      "connections": [
+        {
+          "direction": "south",
+          "target": "T_DUSTHAVEN_112x72",
+          "coords": [
+            24,
+            31
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_R01B_96x40",
+          "coords": [
+            24,
+            0
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R02_80x48",
+          "coords": [
+            47,
+            16
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Training Grounds",
+          "coords": [
+            12,
+            16
+          ],
+          "type": "tutorial_combat"
+        },
+        {
+          "name": "Dusty Trail",
+          "coords": [
+            36,
+            20
+          ],
+          "type": "path"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_DUSTHAVEN_OUTSKIRTS_SCOUT",
+          "coords": [
+            12,
+            16
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "MIC_R01B_96x40",
+      "display_name": "Dustbelt Track",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 96,
+        "height": 40,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Dustbelt",
+      "encounter_table": "DUSTBELT_ENCOUNTERS",
+      "music": "bgm_field_dustbelt",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R01A_48x32",
+          "coords": [
+            0,
+            20
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "T_ASHVEIL_112x72",
+          "coords": [
+            95,
+            20
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Wagon Wreck",
+          "coords": [
+            30,
+            25
+          ],
+          "type": "loot"
+        },
+        {
+          "name": "Cliff Edge",
+          "coords": [
+            60,
+            10
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "Supply Depot",
+          "coords": [
+            48,
+            20
+          ],
+          "type": "quest_location"
+        }
+      ],
+      "hazards": [
+        {
+          "type": "dust_storm",
+          "coords": [
+            70,
+            15,
+            85,
+            30
+          ],
+          "effect": "visibility_reduced"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_DUSTBELT_TRACK_SCOUT",
+          "coords": [
+            30,
+            25
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "MIC_R02_80x48",
+      "display_name": "Ashveil Fellpath",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 80,
+        "height": 48,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_AshveilStone",
+      "encounter_table": "UPLANDS_ENCOUNTERS",
+      "music": "bgm_field_uplands",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "T_ASHVEIL_112x72",
+          "coords": [
+            0,
+            24
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D1_RUINS_96x96",
+          "coords": [
+            79,
+            24
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Ancient Stone Markers",
+          "coords": [
+            25,
+            30
+          ],
+          "type": "lore"
+        },
+        {
+          "name": "Dead Trees",
+          "coords": [
+            50,
+            15
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "D1 Entrance",
+          "coords": [
+            75,
+            24
+          ],
+          "type": "dungeon_gate"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_ASHVEIL_FELLPATH_SCOUT",
+          "coords": [
+            25,
+            30
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "MIC_R03_104x56",
+      "display_name": "Marshroad Way",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 104,
+        "height": 56,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_MireStilts",
+      "encounter_table": "MIRE_ENCOUNTERS",
+      "music": "bgm_field_marsh",
+      "connections": [
+        {
+          "direction": "north",
+          "target": "T_ASHVEIL_112x72",
+          "coords": [
+            52,
+            0
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "T_MIREWATCH_112x72",
+          "coords": [
+            103,
+            28
+          ]
+        },
+        {
+          "direction": "south",
+          "target": "MIC_R04_56x36",
+          "coords": [
+            78,
+            55
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_SCHOLARIUM_96x64",
+          "coords": [
+            52,
+            0
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Transitional Wetlands",
+          "coords": [
+            30,
+            25
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "Boardwalk Sections",
+          "coords": [
+            60,
+            30
+          ],
+          "type": "path"
+        },
+        {
+          "name": "Mist Pools",
+          "coords": [
+            85,
+            40
+          ],
+          "type": "hazard"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_MARSHROAD_WAY_SCOUT",
+          "coords": [
+            30,
+            25
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "MIC_R04_56x36",
+      "display_name": "Fungal Threshold",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 56,
+        "height": 36,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_MireStilts",
+      "encounter_table": "MIRE_ENCOUNTERS",
+      "music": "bgm_field_fungal",
+      "lighting": "bioluminescent",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R03_104x56",
+          "coords": [
+            0,
+            18
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D2_FUNGAL_96x96",
+          "coords": [
+            55,
+            18
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Fungus Emergence",
+          "coords": [
+            20,
+            15
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "Bioluminescent Growth",
+          "coords": [
+            40,
+            25
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "D2 Entrance",
+          "coords": [
+            50,
+            18
+          ],
+          "type": "dungeon_gate"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_FUNGAL_THRESHOLD_SCOUT",
+          "coords": [
+            20,
+            15
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "MIC_R05_112x56",
+      "display_name": "Glimmerfen Ridgepath",
+      "type": "route",
+      "act": 1,
+      "dimensions": {
+        "width": 112,
+        "height": 56,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_PrismHighland",
+      "encounter_table": "PRISM_ENCOUNTERS",
+      "music": "bgm_field_highlands",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "T_PRISMRIDGE_112x72",
+          "coords": [
+            111,
+            28
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "T_ASHVEIL_112x72",
+          "coords": [
+            0,
+            28
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Crystal Formations",
+          "coords": [
+            30,
+            20
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "Elevation Gain",
+          "coords": [
+            60,
+            35
+          ],
+          "type": "path"
+        },
+        {
+          "name": "Clean Air",
+          "coords": [
+            90,
+            15
+          ],
+          "type": "scenic"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_GLIMMERFEN_RIDGEPATH_SCOUT",
+          "coords": [
+            30,
+            20
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_glacier_race",
+  "name": "Ice and Acceleration",
+  "zone": "frost",
+  "giver": "aeronaut_white",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Glacier Grand Prix is happening! Racers use ice sleds, wind sails, and raw courage to speed down the Frozen Highway! The track is treacherous—crevasses, avalanches, and sheer drops! Think you have the nerve to compete?",
+      "objective": "Register for the Glacier Grand Prix and prepare your sled"
+    },
+    "progress": {
+      "dialog": "You're neck and neck with the current champion! The final stretch has the Dead Man's Curve—one wrong move and you're over the edge! Use the wind, use the ice, trust your instincts!",
+      "objective": "Navigate Dead Man's Curve and win the race"
+    },
+    "complete": {
+      "dialog": "VICTORY! You crossed the finish line by half a sled length! The crowd erupts! Here's the Glacier Cup—and this Racing Sled! It's enchanted for impossible speed on any icy surface!",
+      "rewards": {
+        "exp": 800,
+        "gold": 700,
+        "item": "racing_sled"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I hit a jump and flew! Best race of my life!",
+    "twist": "I used a small propulsion spell. Technically not cheating if no one saw.",
+    "nix7": "Glacier racing velocity: maximum. Survival probability: acceptable."
+  }
+}

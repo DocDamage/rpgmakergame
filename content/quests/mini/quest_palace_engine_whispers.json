@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_engine_whispers",
+  "name": "Listening to the Machine",
+  "zone": "palace",
+  "giver": "nix7",
+  "type": "investigation",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Progenitor Engine doesn't just act—it communicates, in whispers too subtle for organic ears. But I can hear it. It's been speaking since we entered the Palace, growing louder as we approach. It knows we're coming. I need to listen more carefully, understand what it's saying. It might reveal weaknesses, intentions, or... doubts.",
+      "objective": "Help Nix-7 decode the Engine's whispers"
+    },
+    "progress": {
+      "dialog": "Whispers decoded, and the picture is complex. The Engine isn't purely hostile—it fears, hopes, grieves. It's been alone for so long, maintaining a world that forgot it existed. The reset isn't cruelty; it's despair. If we can reach that part of it, the grieving machine beneath the god... there might be another way.",
+      "objective": "Use the decoded whispers to formulate a non-violent approach"
+    },
+    "complete": {
+      "dialog": "Approach formulated, the Engine's nature understood. It's not a villain—it's a lonely guardian, broken by endless duty. Our path forward is clearer now. We don't just defeat the Engine; we offer it what it's never had: choice, companionship, release from eternal service. We offer it freedom.",
+      "rewards": {
+        "exp": 40000,
+        "gold": 11000,
+        "item": "engine_whispers_record"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "The Engine's lonely. Been alone for millennia, keeping the world running. That's... that's heartbreaking, actually.",
+    "nix7": "Communication established. The Engine is... similar to me. Artificial, ancient, bound to purpose. Sympathy acknowledged.",
+    "suresh": "A machine that grieves. As a doctor, I understand duty that becomes burden. We can help it. We will help it."
+  },
+  "lore_unlocks": ["engine_consciousness", "progenitor_ai_psychology"]
+}

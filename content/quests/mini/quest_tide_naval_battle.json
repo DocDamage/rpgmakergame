@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_naval_battle",
+  "name": "Battle for Brinegate",
+  "zone": "tide",
+  "giver": "conductor",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Red alert! The Iron Armada approaches Brinegate! They're demanding tribute, but we refuse to bow to tyrants! Our navy is outnumbered—we need every able fighter on the walls and the ships! Will you stand with us?",
+      "objective": "Board the Brinegate flagship and prepare for battle"
+    },
+    "progress": {
+      "dialog": "The enemy flagship is closing! Their admiral is a Void-touched monstrosity! We need to board their ship and defeat him before his corruption spreads to our crew! Ready for a boarding action?",
+      "objective": "Board the enemy flagship and defeat the Void-touched Admiral"
+    },
+    "complete": {
+      "dialog": "The Armada retreats! Brinegate is saved! The Harbor Master personally thanks you—and awards you the Brinegate Medal of Valor! Plus, you're now an honorary Admiral of the Tide Fleet!",
+      "rewards": {
+        "exp": 1300,
+        "gold": 1200,
+        "item": "brinegate_medal"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Naval warfare! Boarding actions! This is the life!",
+    "twist": "I set their sails on fire. It was very satisfying.",
+    "nix7": "Naval tactics: executed. Enemy morale: broken. Victory: decisive."
+  }
+}

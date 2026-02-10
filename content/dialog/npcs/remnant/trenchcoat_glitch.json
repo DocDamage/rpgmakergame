@@ -1,0 +1,102 @@
+{
+  "npc_id": "trenchcoat_glitch_remnant",
+  "name": "ERROR_STRIDER.EXE",
+  "sprite": "trenchcoat_glitch",
+  "zone": "remnant",
+  "location": "Data-Corruption Hall",
+  "personality": "corrupted_fragmented",
+  "occupation": "glitch_agent",
+  "dialog": {
+    "greeting": [
+      "Y...y-you're being... ERROR... followed.",
+      "The w-wind carries... SEGMENTATION FAULT... secrets...",
+      "Gr-Gray... no... ERROR_STRIDER... I was... something...",
+      "Th-these streets... NULL POINTER... have eyes...",
+      "We all... BUFFER_OVERFLOW... wear masks...",
+      "Y-you're new... FATAL EXCEPTION... unspoiled...",
+      "Tr-trust... NO CARRIER... no one..."
+    ],
+    "glitch_manifestation": "I... I was whole... once... now I'm... scattered... fragmented... across the Vault...",
+    "corruption_warning": "D-don't... touch... the walls... they REMEMBER... and they... rewrite...",
+    "identity_crisis": "Am I... the copy? Or... the original? Does... it matter... anymore?",
+    "haggle": [
+      "My... intel... CORRUPTED... but... usable...",
+      "For... you... DISCOUNT... I think...",
+      "Information... wants... FREE... but I'm... trapped...",
+      "F-fine... TWENTY PERCENT... whatever... that means..."
+    ],
+    "info_given": [
+      "The... twins... here... speak... in... static...",
+      "The... Vault... IS... what it... seems... everything... and... nothing...",
+      "Someone... here... IS... from here... unlike... me...",
+      "The... train... has... NO... final... stop... it... loops... forever..."
+    ],
+    "info_declined": [
+      "Your... loss... IGNORANCE... is... also... corrupted...",
+      "Information... expires... or... multiplies... hard to... say...",
+      "S-suit... yourself... secrets... keep... and... replicate..."
+    ],
+    "rumor": [
+      "The... sunandmoon... here... sees... everything... at... once... and... nothing...",
+      "The... conductor... knows... but... cannot... speak... only... whistle...",
+      "The... signguy... paints... and... the... paint... paints... back...",
+      "The... Vault... has... NO... twin... it... is... alone... unique... wrong...",
+      "The... foodboys... here... ARE... brothers... finally... truly..."
+    ],
+    "quest_hook": "I... need... my... fragments... scattered... in... the... Data-Weave... three... pieces... help... me... remember...",
+    "quest_active": "The... fragments... calling... can... you... hear... them...?",
+    "quest_complete": "WHOLE... almost... thank... you... take... this... it... remembers... truth...",
+    "quest_reward": "Truth-Key Fragment - Opens paths to hidden Vault sectors!",
+    "farewell": [
+      "Watch... the... shadows... they... have... glitches... too...",
+      "Stay... mysterious... ERROR... keeps... you... existing...",
+      "We... never... met... we... meet... always..."
+    ],
+    "ambient_barks": [
+      "*static crackling*",
+      "CORRUPTION... DETECTED...",
+      "REMEMBER... FORGET...",
+      "GLITCH... IN... SYSTEM...",
+      "I... WAS... SOMEONE..."
+    ],
+    "time_dawn": "D-dawn... doesn't... EXIST... here... only... static...",
+    "time_noon": "M-midday... is... a... CONCEPT... we... lost...",
+    "time_dusk": "T-twilight... eternal... and... MEANINGLESS...",
+    "time_night": "N-night... is... honest... about... being... DARK... forever..."
+  },
+  "party_reactions": {
+    "kade": "What... what happened to you? This is wrong.",
+    "nix7": "Data corruption at 73%. Subject is... unstable. Dangerous.",
+    "twist": "You're... broken? Can I help fix you?!",
+    "korr": "Even spirits can fracture. This one is... shattered.",
+    "renna": "Fascinating data degradation. But also tragic.",
+    "suresh": "Suffering without end. Trapped between states. I will pray for you.",
+    "sova": "This is what happens when you dig too deep. Remember this.",
+    "grit": "System corruption. I've seen machines like this. Usually we scrap them.",
+    "ashka": "You're all... static-y. Can you still burn?",
+    "senna": "Even your secrets are broken. What's the point?",
+    "callum": "You... you need help. Real help. Not mine.",
+    "petra": "Broken. Like a cracked stone. Can't be mended."
+  },
+  "relationship_dialog": {
+    "stranger": "N-new... face... FRESH... data...",
+    "acquaintance": "R-returning... ERROR... persistant...",
+    "friend": "Tr-trusted... ally... RARE... here...",
+    "best_friend": "Y-you... would... take... a... bullet... if... bullets... EXISTED... here..."
+  },
+  "mini_quest": {
+    "id": "fragment_recovery",
+    "title": "Memory Fragments",
+    "description": "Collect 3 data fragments to restore ERROR_STRIDER's memory",
+    "stages": {
+      "hook": "Fragments... scattered... Data-Weave... three... pieces...",
+      "active": "The... corruption... spreads... hurry...",
+      "complete": "ALMOST... WHOLE... Truth... for... you..."
+    },
+    "reward": {
+      "item": "truth_key_fragment",
+      "gold": 600,
+      "reputation": "glitch_ally"
+    }
+  }
+}

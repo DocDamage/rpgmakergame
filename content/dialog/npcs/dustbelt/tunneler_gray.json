@@ -1,0 +1,96 @@
+{
+  "npc_id": "tunneler_gray_dustbelt",
+  "name": "Silent Sven",
+  "sprite": "tunneler_gray",
+  "zone": "dustbelt",
+  "location": "Deep Shaft Level 3",
+  "personality": "quiet_philosophical",
+  "occupation": "deep_shaft_miner",
+  "dialog": {
+    "greeting": [
+      "...Oh. Didn't hear you. Deep thoughts.",
+      "Down here, the earth listens. I listen back.",
+      "Sven. I work. I think. That's all.",
+      "Surface air smells... busy. Down here is quiet.",
+      "You've come far. The depths respect that.",
+      "Dan's up top? Shouting? ...Of course he is.",
+      "Want wisdom? Dig deep enough, you find yourself."
+    ],
+    "shop_open": "I collect things. Strange things. From deep places. Interested?",
+    "shop_prompt": "Selling deep earth curiosities. Prices... negotiable. Everything is temporary.",
+    "haggle": [
+      "Material wealth fades. But I'll take it.",
+      "Name a price. Fair is fair.",
+      "Keep your money. Tell me a story instead.",
+      "The earth doesn't haggle. Neither do I."
+    ],
+    "purchase_success": [
+      "Yours now. Treat it well.",
+      "From the deep. To you.",
+      "It has history. You'll add to it.",
+      "The earth provides."
+    ],
+    "purchase_fail": [
+      "Not meant to be.",
+      "The item stays. For now.",
+      "Perhaps another time."
+    ],
+    "rumor": [
+      "Dan talks of hollow earth. He's closer than he knows. There are spaces down there.",
+      "The barrelgob in the junkyard? He understands. Found his place. His container.",
+      "Something ancient sleeps below. Not evil. Just... old. Waiting.",
+      "Metal Barrel Mike found something in the scrap. He doesn't know what it is. I do."
+    ],
+    "quest_hook": "Found a crystal down deep. Sings when moonlight touches it. Can't bring it up - light changes underground. Bring me moonlight somehow. I'll share what I know of the deep routes.",
+    "quest_active": "The crystal waits. Moonlight, friend. It needs moonlight.",
+    "quest_complete": "You brought it. The singing... beautiful. Here - my private route map. Tunnels even Dan doesn't know.",
+    "quest_reward": "Secret Tunnel Map - Hidden passages revealed",
+    "farewell": [
+      "The earth welcomes you back anytime.",
+      "Go carefully. The surface is dangerous too.",
+      "Dig deep. In all things."
+    ],
+    "ambient_barks": [
+      "...",
+      "Deep.",
+      "Quiet down here.",
+      "The stones remember.",
+      "So much above. So little below.",
+      "Dan is loud."
+    ],
+    "time_dawn": "Sun rises without me. Good.",
+    "time_noon": "Surface heat. Down here, always cool.",
+    "time_dusk": "Evening. The boundary time. Interesting.",
+    "time_night": "Night. The earth breathes differently. Can you feel it?",
+    "post_quest_greeting": "The one who brought light to the deep. Welcome.",
+    "philosophy": "We dig to escape what we are. We find only what we've always been."
+  },
+  "party_reactions": {
+    "kade": "Finally, someone who doesn't shout.",
+    "nix7": "Logical processing suggests... depth-induced introspection.",
+    "twist": "Is he... a ghost? No? Just quiet? Okay.",
+    "korr": "This one understands silence.",
+    "renna": "There's wisdom here. Buried wisdom."
+  },
+  "relationship_dialog": {
+    "stranger": "You're new. The new always talk too much.",
+    "acquaintance": "You return. Most surface dwellers don't.",
+    "friend": "I have something to show you. A place. Deep. Beautiful.",
+    "best_friend": "You understand. The depth. The quiet. We're alike, you and I."
+  },
+  "mini_quest": {
+    "id": "crystal_moonlight",
+    "title": "Moonlit Crystal",
+    "description": "Bring moonlight to Sven's singing crystal deep in the tunnels",
+    "stages": {
+      "hook": "Found a crystal that sings in moonlight. Can't bring it up - light changes. Bring moonlight to it somehow.",
+      "active": "The crystal waits in the Deep Chamber. Moonlight, friend. Find a way.",
+      "complete": "You heard it sing. Beautiful, wasn't it? Take this map. My private routes. Tunnels even Dan doesn't know."
+    },
+    "reward": {
+      "item": "secret_tunnel_map",
+      "gold": 250,
+      "reputation": "depth_walker"
+    }
+  }
+}

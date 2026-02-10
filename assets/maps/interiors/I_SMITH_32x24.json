@@ -1,0 +1,98 @@
+{
+  "id": "I_SMITH_32x24",
+  "display_name": "Blacksmith",
+  "type": "interior",
+  "dimensions": {
+    "width": 32,
+    "height": 24,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Forge",
+  "music": "bgm_forge_theme",
+  "lighting": "warm_orange",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        16,
+        23
+      ]
+    }
+  ],
+  "events": [
+    "OPEN_WEAPON_SHOP",
+    "OPEN_ARMOR_SHOP",
+    "CRAFTING"
+  ],
+  "layout": {
+    "description": "Forge center-back, anvil, weapon racks, counter near entrance",
+    "key_elements": [
+      {
+        "type": "forge",
+        "coords": [
+          16,
+          6
+        ],
+        "effect": "fire_glow"
+      },
+      {
+        "type": "anvil",
+        "coords": [
+          16,
+          10
+        ]
+      },
+      {
+        "type": "weapon_rack",
+        "coords": [
+          6,
+          8
+        ]
+      },
+      {
+        "type": "weapon_rack",
+        "coords": [
+          6,
+          14
+        ]
+      },
+      {
+        "type": "armor_stand",
+        "coords": [
+          26,
+          8
+        ]
+      },
+      {
+        "type": "armor_stand",
+        "coords": [
+          26,
+          14
+        ]
+      },
+      {
+        "type": "counter",
+        "coords": [
+          16,
+          18
+        ],
+        "npc": "NPC_BLACKSMITH"
+      },
+      {
+        "type": "exit",
+        "coords": [
+          16,
+          23
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "variants": [
+    "basic",
+    "master"
+  ],
+  "variant": "default",
+  "source_template": "I_SMITH_32x24_base"
+}

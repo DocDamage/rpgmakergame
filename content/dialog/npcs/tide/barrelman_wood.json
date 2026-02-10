@@ -1,0 +1,70 @@
+{
+  "npc_id": "barrelman_wood_tide",
+  "name": "Crate-Inspectin' Carl",
+  "sprite": "barrelman_wood",
+  "zone": "tide",
+  "location": "Dockside Warehouses",
+  "personality": "methodical_thorough",
+  "occupation": "crate_inspector",
+  "schedule": "daytime_work",
+  "dialog": {
+    "greeting": [
+      "Hold it! That crate needs inspection!",
+      "Carl's the name, crate inspection's the game!",
+      "Everything gets checked! No exceptions! Rules are RULES!",
+      "Back again? Bringing more crates? I'll inspect 'em!",
+      "Welcome to the docks! Where every box tells a story!",
+      "New face! You with a shipment? Paperwork in order?",
+      "I inspect EVERYTHING. Parcels, crates, suspicious barrels. ESPECIALLY barrels.",
+      "The port depends on proper inspection! I am that inspector!"
+    ],
+    "inspection_process": "Visual check! Weight check! Knock test! Smell test! If it passes, it moves!",
+    "crate_stories": "Found a LIVE CAT in a crate once. Shipping label said 'delicate glassware.' Close enough!",
+    "contraband_confiscated": "Caught smugglers last month! Hiding gems in FISH GUTS! Clever. Gross. But clever.",
+    "barrel_prejudice": "Barrels. Can't trust 'em. Roll around. Hide things. Barrelgobs LIVE in 'em. Suspicious containers!",
+    "rumor": [
+      "Heard there's a barrel in Dustbelt that walks. Confirmed my suspicions about barrels!",
+      "Tide's port gets shipments from EVERY zone. Even Frost. Ice-packed everything.",
+      "Mire's dockmaster takes BRIBES. Not me! I'm HONEST!",
+      "Aetherreach ships by balloon. No crates. Just... bags. Weird."
+    ],
+    "paperwork_love": "I love paperwork. Forms. Stamps. SIGNATURES. The system WORKS!",
+    "farewell": [
+      "Move along! Nothing to see! Except properly inspected goods!",
+      "Keep your papers in order! Or face the CONSEQUENCES!",
+      "Safe shipping! Properly documented!",
+      "Come back with MORE crates! I LIVE for this!"
+    ],
+    "ambient_barks": [
+      "Inspection time!",
+      "Paperwork! Beautiful paperwork!",
+      "What's IN this one?",
+      "Stamp! Stamp! STAMP!",
+      "No contraband on MY watch!",
+      "Crate number 4,721..."
+    ],
+    "time_dawn": "Early inspection! First shipment of the day!",
+    "time_noon": "Peak cargo! So many crates! SO HAPPY!",
+    "time_dusk": "Evening wrap-up! Last inspections!",
+    "time_night": "Closed! Even inspectors sleep!"
+  },
+  "party_reactions": {
+    "kade": "Someone has to do it. Thanks for keeping things honest.",
+    "nix7": "Inspection protocols: thorough. Efficiency: questionable.",
+    "twist": "You check BOXES?! All DAY?! That's... a lot of boxes!",
+    "korr": "Honest work. The port runs on trust.",
+    "renna": "Do you use detection magic? Or just... knocking?",
+    "suresh": "Diligence in small things builds integrity.",
+    "sova": "I'd get bored. Fast. But someone has to do it.",
+    "grit": "Quartermaster would love you. Everything accounted for.",
+    "ashka": "Checking boxes. Not fighting. Different life.",
+    "senna": "Good cover. No one suspects the inspector.",
+    "callum": "You really like your job, don't you? That's nice!"
+  },
+  "relationship_dialog": {
+    "stranger": "First crate? Paperwork, please!",
+    "acquaintance": "Regular shipper! I recognize your goods!",
+    "friend": "My friend! Your crates get PRIORITY inspection!",
+    "best_friend": "You! Exempt from random checks! That's TRUST!"
+  }
+}

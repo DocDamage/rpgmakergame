@@ -1,0 +1,30 @@
+{
+  "quest_id": "mini_ember_phoenix_egg",
+  "name": "Ashes of Rebirth",
+  "zone": "ember",
+  "giver": "pigman_red",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! Terrible news, friend! A phoenix has laid her egg in the Scorched Spire, but ash bandits plan to steal it! Phoenix eggs are priceless—you could buy a kingdom! But the mother will die protecting it. You must stop them!",
+      "objective": "Reach the Scorched Spire before the ash bandits"
+    },
+    "progress": {
+      "dialog": "You made it first! But here come the bandits—five of them, armed with ice weapons! Phoenix hate cold! Protect the egg while the mother completes her burning cycle!",
+      "objective": "Defend the phoenix egg from the ash bandits"
+    },
+    "complete": {
+      "dialog": "The phoenix rises renewed! And look—she left a gift! A Phoenix Down feather. It holds the power of rebirth. Use it wisely, hero. You have earned a place in fire-lore!",
+      "rewards": {
+        "exp": 1100,
+        "item": "phoenix_down_feather"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A real phoenix! That was INCREDIBLE!",
+    "twist": "I got singed. Multiple times. Worth it, I suppose.",
+    "nix7": "Phoenix biology: fascinating. Self-combustion and regeneration cycle documented."
+  }
+}

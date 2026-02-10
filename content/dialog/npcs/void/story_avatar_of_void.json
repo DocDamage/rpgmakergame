@@ -1,0 +1,54 @@
+{
+  "npc_id": "avatar_of_void",
+  "name": "Avatar of Void",
+  "title": "Null Avatar",
+  "zone": "void",
+  "location": "The Hunger Itself Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "implacable_fragmented_hungry",
+  "occupation": "void_manifestation",
+  "dialog": {
+    "greeting": [
+      "Avatar of Void on comms. Stage 4: The Hunger Itself. Keep formation tight and decisions tighter.",
+      "We are running Into Darkness. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Confront the Void Avatar."
+    ],
+    "quest_hook": "Objective stack: Confront the Void Avatar; Resist its offers of peace; Battle for Chroma's future. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Confront the Avatar of the Void. Immediate move: Confront the Void Avatar.",
+    "quest_complete": "Stage 4 resolved: The Hunger Itself. Primary objective secured and route stabilized. Prepare for The Tower Revealed.",
+    "rumor": [
+      "Void scouts mapped a garden where each statue wears a familiar face.",
+      "People keep repeating one clue from The Hunger Itself: 'Battle for Chroma's future'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn is mostly theoretical in the Void. Use checkpoints, not intuition.",
+    "time_noon": "Noon seam pulses spike here. Keep anti-glitch protocols active.",
+    "time_dusk": "Dusk paints safe paths that are not safe. Probe first, trust later.",
+    "time_night": "Night in the Void multiplies fear. Keep comms human and constant."
+  },
+  "party_reactions": {
+    "kade": "Avatar of Void sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Avatar of Void accepted. Probability of success improves with compliance.",
+    "twist": "Avatar of Void talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "void_into_darkness"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

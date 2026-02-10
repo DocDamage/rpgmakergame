@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_vanille_fishing",
+  "name": "Mire Fishing Derby",
+  "zone": "mire",
+  "giver": "Vanille (L'Cie)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Fang says I need to relax more. So... fishing! The Mire has the weirdest fish! Want to join me? We can see who catches the biggest one!",
+      "objective": "Compete with Vanille to catch the biggest fish in the Mire"
+    },
+    "progress": {
+      "dialog": "Ooh! I got a bite! This one's big! Really big!",
+      "objective": "Continue fishing and catch bigger fish than Vanille"
+    },
+    "complete": {
+      "dialog": "You won! Look at that fish! It's huge! Here - take this fishing rod. It's lucky! And this - a bangle from my collection. It'll keep you safe!",
+      "rewards": {"gold": 350, "item": "lucky_fishing_rod", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "Fishing in the Mire. I hope that thing is actually a fish.",
+    "twist": "I caught something! It's... it's looking at me!",
+    "renna": "Mire fish exhibit interesting mutations. Documenting."
+  },
+  "hidden_outcome": "If you catch the legendary 'Mire Leviathan' (rare spawn), Vanille gives you 'Malboro Wand' - her ultimate weapon"
+}

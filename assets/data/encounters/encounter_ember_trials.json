@@ -1,0 +1,78 @@
+{
+  "id": "EMBER_TRIAL_ENCOUNTERS",
+  "region": "ember",
+  "maps": [
+    "D4_BURNING_HEART_64x64",
+    "D4_CALDERA_TRIALS_96x80"
+  ],
+  "encounter_rate": 0.09,
+  "min_steps": 13,
+  "max_steps": 29,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_EMBER_RUNNER"
+      ],
+      "weight": 34,
+      "min_steps": 12,
+      "gil_range": [
+        26,
+        44
+      ],
+      "xp": 50
+    },
+    {
+      "enemies": [
+        "ENEMY_HEAT_CASTER"
+      ],
+      "weight": 28,
+      "min_steps": 13,
+      "gil_range": [
+        32,
+        52
+      ],
+      "xp": 56
+    },
+    {
+      "enemies": [
+        "ENEMY_SLAG_MOTE",
+        "ENEMY_SLAG_MOTE"
+      ],
+      "weight": 20,
+      "min_steps": 11,
+      "gil_range": [
+        32,
+        52
+      ],
+      "xp": 62
+    },
+    {
+      "enemies": [
+        "ENEMY_EMBER_RUNNER",
+        "ENEMY_HEAT_CASTER"
+      ],
+      "weight": 12,
+      "min_steps": 18,
+      "gil_range": [
+        56,
+        96
+      ],
+      "xp": 104
+    },
+    {
+      "enemies": [
+        "ENEMY_HEAT_CASTER",
+        "ENEMY_SLAG_MOTE",
+        "ENEMY_SLAG_MOTE"
+      ],
+      "weight": 5,
+      "min_steps": 23,
+      "rare": true,
+      "gil_range": [
+        62,
+        104
+      ],
+      "xp": 114
+    }
+  ]
+}

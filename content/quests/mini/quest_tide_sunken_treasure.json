@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_sunken_treasure",
+  "name": "The Captain's Lost Hoard",
+  "zone": "tide",
+  "giver": "aeronaut_blue",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Ahoy there! Legend speaks of Captain Blackfin's treasure, sunk in the Abyssal Trench two centuries ago! His ship, the Midnight Pearl, went down with enough gold to buy a kingdom! I've got an old map, but I can't dive that deep. You look like you can hold your breath!",
+      "objective": "Locate the wreck of the Midnight Pearl in the Abyssal Trench"
+    },
+    "progress": {
+      "dialog": "You found it! But there's a problem—giant crabs have made the wreck their home! And the treasure chest is locked with a riddle. The map says: 'I have cities, but no houses. I have mountains, but no trees. I have water, but no fish.' Any ideas?",
+      "objective": "Solve the riddle to open the treasure chest"
+    },
+    "complete": {
+      "dialog": "A map! Of course! The chest opens, revealing gold beyond counting! As promised, half is yours! Plus, I found this strange amulet in the captain's quarters—some kind of underwater breathing charm!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 1500,
+        "item": "abyssal_breathing_charm"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Treasure hunting! This is what being an adventurer is all about!",
+    "twist": "Salt water ruins my spell components. This had better be worth it.",
+    "nix7": "Marine archaeology: fascinating. Artifact preservation: acceptable."
+  }
+}

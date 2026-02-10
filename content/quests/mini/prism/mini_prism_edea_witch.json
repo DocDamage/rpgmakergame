@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_edea_witch",
+  "name": "Sorceress's Regret",
+  "zone": "prism",
+  "giver": "Edea (Former Sorceress)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I was controlled... made to do terrible things. But before that, I was a healer. There's a sickness in the Prism. Something corrupting the crystals. Help me find the source? Let me... redeem myself.",
+      "objective": "Investigate the crystal corruption in the Prism depths"
+    },
+    "progress": {
+      "dialog": "The corruption... it feels familiar. Like the power that controlled me. We must find its source before it spreads.",
+      "objective": "Follow the corruption to its source"
+    },
+    "complete": {
+      "dialog": "The source is sealed. For now. Thank you. For letting me help instead of... what I was. Take this - my original healing staff. From before. May it serve you better.",
+      "rewards": {"gold": 600, "item": "healing_witch_staff", "reputation": 20}
+    }
+  },
+  "party_comments": {
+    "kade": "Everyone deserves a chance at redemption. Even a sorceress.",
+    "vex": "Fighting against one's nature. A noble struggle.",
+    "renna": "The corruption was strong. She resisted well."
+  },
+  "hidden_outcome": "If you seal the source using non-violent means, Edea gives you 'Sorceress Heart' - a unique accessory that boosts both magic and healing"
+}

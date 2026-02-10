@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_zell_combo",
+  "name": "Duelist's Challenge",
+  "zone": "prism",
+  "giver": "Zell (SeeD Martial Artist)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Yo! You look like you can throw down! Let's have a friendly spar! No weapons, just fists! If you can land a 10-hit combo on me, I'll teach you my best moves! Deal?",
+      "objective": "Spar with Zell and land a 10-hit combo"
+    },
+    "progress": {
+      "dialog": "Come on! Faster! Combo attacks! Chain them together! You can do better!",
+      "objective": "Continue the sparring match and build up combos"
+    },
+    "complete": {
+      "dialog": "WOO! That was AWESOME! You really brought it! Here - my Duel manual! All my best combos! Practice and you'll be unstoppable!",
+      "rewards": {"gold": 400, "item": "duel_combo_manual", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "He's fast. Really fast. Good training partner.",
+    "twist": "PUNCH PUNCH PUNCH! This is great!",
+    "grit": "Hand-to-hand discipline. Refreshing change from weapons."
+  },
+  "hidden_outcome": "If you land a 20-hit combo, Zell goes all out and teaches 'Ehrgeiz' - the ultimate limit break"
+}

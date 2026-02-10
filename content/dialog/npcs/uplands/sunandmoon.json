@@ -1,0 +1,96 @@
+{
+  "npc_id": "sunandmoon_uplands",
+  "name": "Celestine",
+  "sprite": "sunandmoon",
+  "zone": "uplands",
+  "location": "Starwatch Point",
+  "personality": "cosmic_dreamer",
+  "occupation": "star_reader",
+  "dialog": {
+    "greeting": [
+      "The stars spoke of your coming.",
+      "Celestine. Reader of heavens.",
+      "Look up. The answers are there.",
+      "Sun and moon. Day and night. All cycles.",
+      "Your constellation is... interesting.",
+      "The cosmos shifts. You shift with it.",
+      "Welcome, traveler of earth and sky."
+    ],
+    "shop_open": "I sell readings. Star charts. Cosmic guidance.",
+    "shop_prompt": "Horoscopes. Astronomical charts. Destiny consultations.",
+    "haggle": [
+      "Fate is priceless. But I have rent.",
+      "The stars suggest... reasonable negotiation.",
+      "For the cosmically aligned? Discount.",
+      "Your aura suggests fair trade."
+    ],
+    "purchase_success": [
+      "The stars approve this transaction.",
+      "Use this knowledge wisely.",
+      "Your path becomes clearer.",
+      "Cosmic forces smile upon you."
+    ],
+    "purchase_fail": [
+      "Not fated. Another alignment, perhaps.",
+      "The stars say... insufficient funds.",
+      "Return when celestial timing improves."
+    ],
+    "rumor": [
+      "The twins embody duality I study. Sun and moon together.",
+      "The black coat knows things no mortal should. Starless knowledge.",
+      "A new star appeared last month. Portentous. For someone.",
+      "The Dustbelt night sky is polluted. Shame. Lost wisdom there."
+    ],
+    "quest_hook": "My telescope lens cracked. Need crystal from Starfall Crater. Pure. Clear. Dangerous to retrieve. But the reading I could give you... worth it.",
+    "quest_active": "Starfall Crater. Western peak. Crystal clear as sky. Mind the fallen star fragments. Hot.",
+    "quest_complete": "Beautiful. Perfect clarity. Here - your full reading. Past, present, future. The complete cosmic map.",
+    "quest_reward": "Complete Horoscope - +Luck permanently",
+    "farewell": [
+      "Stars guide you. Always.",
+      "Look up. The answers wait.",
+      "Until our orbits align again."
+    ],
+    "ambient_barks": [
+      "*star gazing*",
+      "The cosmos turns...",
+      "*chart rustling*",
+      "Interesting alignment...",
+      "*mystical humming*",
+      "Signs and portents..."
+    ],
+    "time_dawn": "Day star rises. New cycle begins.",
+    "time_noon": "Sun at zenith. Shadows disappear. Truth revealed.",
+    "time_dusk": "Twilight. When borders thin. Best for readings.",
+    "time_night": "Night. My true office hours. Stars speak clearest now.",
+    "post_quest_greeting": "The crystal-bringer. Your reading awaits.",
+    "reading_example": "I see... a journey. Danger. Triumph. And barrels. So many barrels."
+  },
+  "party_reactions": {
+    "kade": "The stars tell you... what, exactly?",
+    "nix7": "Astronomical data: accurate. Interpretation: subjective.",
+    "twist": "What do MY stars say? Tell me!",
+    "korr": "The sky holds wisdom. This one reads it well.",
+    "renna": "That headdress must be heavy."
+  },
+  "relationship_dialog": {
+    "stranger": "New star in my sky. Unknown. Intriguing.",
+    "acquaintance": "Your constellation becomes familiar.",
+    "friend": "I chart your progress with interest.",
+    "best_friend": "Your fate and mine. Cosmically intertwined."
+  },
+  "mini_quest": {
+    "id": "starfall_crystal",
+    "title": "Stargazer's Lens",
+    "description": "Retrieve a pure crystal from Starfall Crater for the telescope",
+    "stages": {
+      "hook": "Telescope lens cracked. Need crystal from Starfall Crater. Pure. Clear. Dangerous. But the reading I could give... worth it.",
+      "active": "Starfall Crater. Western peak. Crystal clear as sky. Watch for star fragments. Still hot. Be careful.",
+      "complete": "Beautiful clarity! Here - your complete reading. Past, present, future. The cosmic map. Revelations included."
+    },
+    "reward": {
+      "item": "cosmic_blessing",
+      "gold": 450,
+      "reputation": "star_blessed"
+    }
+  }
+}

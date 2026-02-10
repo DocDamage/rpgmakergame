@@ -1,0 +1,93 @@
+{
+  "id": "ENEMY_PRISM_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_CRYSTAL_RANGED",
+      "name": "Crystal Ranged",
+      "family": "prism",
+      "sprite": "spr_enemy_crystal_ranged",
+      "stats": {
+        "hp": 140,
+        "mp": 60,
+        "atk": 12,
+        "def": 18,
+        "mag": 22,
+        "spr": 20,
+        "spd": 10
+      },
+      "weaknesses": {
+        "dark": 1.5,
+        "earth": 1.3,
+        "thunder": 1.0
+      },
+      "resists": {
+        "light": 0.0,
+        "physical": 0.8,
+        "ice": 0.75
+      },
+      "absorbs": [
+        "light"
+      ],
+      "abilities": [
+        "light_beam",
+        "prism_laser",
+        "reflect"
+      ],
+      "loot": [
+        {
+          "item": "CRYSTAL_SHARD",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        28,
+        48
+      ],
+      "xp": 52
+    },
+    {
+      "id": "ENEMY_REFRACTION_IMAGE",
+      "name": "Refraction Image",
+      "family": "prism",
+      "sprite": "spr_enemy_refraction_image",
+      "stats": {
+        "hp": 100,
+        "mp": 40,
+        "atk": 15,
+        "def": 10,
+        "mag": 15,
+        "spr": 15,
+        "spd": 14
+      },
+      "weaknesses": {
+        "dark": 1.5,
+        "physical": 1.0
+      },
+      "resists": {
+        "light": 0.5,
+        "magic": 0.75
+      },
+      "abilities": [
+        "mimic",
+        "mirror_attack",
+        "phantom_strike"
+      ],
+      "loot": [
+        {
+          "item": "MIRROR_FRAGMENT",
+          "chance": 0.2,
+          "count": 1
+        }
+      ],
+      "gil": [
+        22,
+        40
+      ],
+      "xp": 45
+    }
+  ]
+}

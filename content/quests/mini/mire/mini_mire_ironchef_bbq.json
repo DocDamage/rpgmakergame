@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_ironchef_bbq",
+  "name": "The Master Cut",
+  "zone": "mire",
+  "giver": "Gus 'The Iron' Skillet",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I need the perfect cut. Bog-boar ribs. The big ones. From the alpha male in the Deep Muck. Dangerous? Sure. Worth it? Absolutely. You look like you can handle a boar.",
+      "objective": "Hunt the alpha bog-boar in the Deep Muck and bring back its ribs"
+    },
+    "progress": {
+      "dialog": "Alpha bog-boar. Big tusks, scarred hide, attitude problem. His ribs are legendary. Bring them to me.",
+      "objective": "Continue searching the Deep Muck for the alpha bog-boar"
+    },
+    "complete": {
+      "dialog": "THOSE RIBS! Look at the marbling! The color! This will be my masterpiece! Here - eat free at the Skillet, anytime. And take this. My personal spice blend. Don't share it.",
+      "rewards": {"gold": 400, "item": "gus_iron_spice_blend", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "That boar was huge! Good eating though.",
+    "twist": "I'm hungry just smelling these ribs!",
+    "nix7": "Nutritional analysis: high protein. Culinary value: exceptional."
+  },
+  "hidden_outcome": "If you bring the ribs AND rare herbs from the Mire depths, Gus creates 'Ultimate BBQ' that permanently increases max HP by 50"
+}

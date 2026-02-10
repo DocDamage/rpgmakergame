@@ -1,0 +1,86 @@
+{
+  "id": "D2_ENCOUNTERS",
+  "region": "dungeon",
+  "dungeon": "D2_FUNGAL_96x96",
+  "maps": [
+    "D2_FUNGAL_96x96"
+  ],
+  "encounter_rate": 0.14,
+  "min_steps": 11,
+  "max_steps": 27,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_SPORELING"
+      ],
+      "weight": 38,
+      "min_steps": 11,
+      "gil_range": [
+        22,
+        40
+      ],
+      "xp": 45
+    },
+    {
+      "enemies": [
+        "ENEMY_SPORELING",
+        "ENEMY_SPORELING"
+      ],
+      "weight": 24,
+      "min_steps": 14,
+      "gil_range": [
+        44,
+        80
+      ],
+      "xp": 90
+    },
+    {
+      "enemies": [
+        "ENEMY_MIRE_BULLY"
+      ],
+      "weight": 20,
+      "min_steps": 17,
+      "gil_range": [
+        40,
+        70
+      ],
+      "xp": 72
+    },
+    {
+      "enemies": [
+        "ENEMY_SPORELING",
+        "ENEMY_MIRE_BULLY"
+      ],
+      "weight": 11,
+      "min_steps": 20,
+      "gil_range": [
+        65,
+        110
+      ],
+      "xp": 118
+    },
+    {
+      "enemies": [
+        "ENEMY_FUNGAL_HORROR"
+      ],
+      "weight": 7,
+      "min_steps": 23,
+      "rare": true,
+      "gil_range": [
+        55,
+        95
+      ],
+      "xp": 105
+    }
+  ],
+  "special": {
+    "boss_trigger": {
+      "condition": "at_coords",
+      "coords": [
+        48,
+        48
+      ],
+      "boss": "BOSS_THE_SPOROCYTE"
+    }
+  }
+}

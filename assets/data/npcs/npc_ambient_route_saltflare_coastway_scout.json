@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_SALTFLARE_COASTWAY_SCOUT",
+  "name": "Saltflare Coastway Wayfarer",
+  "title": "Dock Sailor",
+  "location": "MIC_R09_120x56",
+  "coords": [
+    60,
+    28
+  ],
+  "schedule": {
+    "day": [
+      60,
+      28
+    ],
+    "night": [
+      58,
+      27
+    ],
+    "rain": [
+      62,
+      28
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_SAILOR",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "friendly",
+  "background": "Works sea lanes and harbor logistics. Assigned to Saltflare Coastway.",
+  "personality": "Blunt, weathered, and darkly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "sea_routes",
+    "dock_rumors"
+  ]
+}

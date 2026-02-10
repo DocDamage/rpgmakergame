@@ -1,0 +1,428 @@
+{
+  "id": "ITEM_CONSUMABLES",
+  "items": [
+    {
+      "id": "ITEM_POTION",
+      "name": "Potion",
+      "type": "consumable",
+      "subtype": "healing",
+      "rarity": 1,
+      "icon": "icon_potion",
+      "description": "Restore 200 HP to one ally.",
+      "flavor": "Basic healing for basic wounds.",
+      "effect": {
+        "type": "heal",
+        "target": "single",
+        "amount": 200,
+        "stat": "hp"
+      },
+      "buy_price": 50,
+      "sell_price": 25,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_HEALING_HERB",
+            "count": 2
+          },
+          {
+            "item": "ITEM_CLEAN_WATER",
+            "count": 1
+          }
+        ],
+        "alchemy_level": 1
+      }
+    },
+    {
+      "id": "ITEM_HI_POTION",
+      "name": "Hi-Potion",
+      "type": "consumable",
+      "subtype": "healing",
+      "rarity": 2,
+      "icon": "icon_hi_potion",
+      "description": "Restore 500 HP to one ally.",
+      "flavor": "For when basic isn't enough.",
+      "effect": {
+        "type": "heal",
+        "target": "single",
+        "amount": 500,
+        "stat": "hp"
+      },
+      "buy_price": 150,
+      "sell_price": 75,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_POTION",
+            "count": 2
+          },
+          {
+            "item": "ITEM_BLOODFLOWER",
+            "count": 1
+          }
+        ],
+        "alchemy_level": 2
+      }
+    },
+    {
+      "id": "ITEM_MEGA_POTION",
+      "name": "Mega-Potion",
+      "type": "consumable",
+      "subtype": "healing",
+      "rarity": 3,
+      "icon": "icon_mega_potion",
+      "description": "Restore 1000 HP to one ally.",
+      "flavor": "Battlefield triage in a bottle.",
+      "effect": {
+        "type": "heal",
+        "target": "single",
+        "amount": 1000,
+        "stat": "hp"
+      },
+      "buy_price": 500,
+      "sell_price": 250,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_HI_POTION",
+            "count": 2
+          },
+          {
+            "item": "ITEM_PHOENIX_DOWN",
+            "count": 1
+          }
+        ],
+        "alchemy_level": 4
+      }
+    },
+    {
+      "id": "ITEM_ETHER",
+      "name": "Ether",
+      "type": "consumable",
+      "subtype": "mp_restore",
+      "rarity": 2,
+      "icon": "icon_ether",
+      "description": "Restore 100 MP to one ally.",
+      "flavor": "Liquid focus for the weary mind.",
+      "effect": {
+        "type": "restore_mp",
+        "target": "single",
+        "amount": 100,
+        "stat": "mp"
+      },
+      "buy_price": 200,
+      "sell_price": 100,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_CRYSTAL_DUST",
+            "count": 1
+          },
+          {
+            "item": "ITEM_CLEAN_WATER",
+            "count": 2
+          }
+        ],
+        "alchemy_level": 2
+      }
+    },
+    {
+      "id": "ITEM_HI_ETHER",
+      "name": "Hi-Ether",
+      "type": "consumable",
+      "subtype": "mp_restore",
+      "rarity": 3,
+      "icon": "icon_hi_ether",
+      "description": "Restore 250 MP to one ally.",
+      "flavor": "Concentrated mental clarity.",
+      "effect": {
+        "type": "restore_mp",
+        "target": "single",
+        "amount": 250,
+        "stat": "mp"
+      },
+      "buy_price": 600,
+      "sell_price": 300,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_ETHER",
+            "count": 2
+          },
+          {
+            "item": "ITEM_MANA_CRYSTAL",
+            "count": 1
+          }
+        ],
+        "alchemy_level": 3
+      }
+    },
+    {
+      "id": "ITEM_ELIXIR",
+      "name": "Elixir",
+      "type": "consumable",
+      "subtype": "full_restore",
+      "rarity": 4,
+      "icon": "icon_elixir",
+      "description": "Fully restore HP and MP to one ally.",
+      "flavor": "The alchemist's masterpiece.",
+      "effect": {
+        "type": "full_restore",
+        "target": "single"
+      },
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "stack_size": 10,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_MEGA_POTION",
+            "count": 1
+          },
+          {
+            "item": "ITEM_HI_ETHER",
+            "count": 1
+          },
+          {
+            "item": "ITEM_PHOENIX_DOWN",
+            "count": 1
+          }
+        ],
+        "alchemy_level": 5
+      }
+    },
+    {
+      "id": "ITEM_MEGAELIXIR",
+      "name": "Mega-Elixir",
+      "type": "consumable",
+      "subtype": "full_restore",
+      "rarity": 5,
+      "icon": "icon_megaelixir",
+      "description": "Fully restore HP and MP to all allies.",
+      "flavor": "Rare beyond measure.",
+      "effect": {
+        "type": "full_restore",
+        "target": "all"
+      },
+      "buy_price": 0,
+      "sell_price": 5000,
+      "stack_size": 5,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": null
+    },
+    {
+      "id": "ITEM_PHOENIX_DOWN",
+      "name": "Phoenix Down",
+      "type": "consumable",
+      "subtype": "revive",
+      "rarity": 3,
+      "icon": "icon_phoenix_down",
+      "description": "Revive one KO'd ally with 25% HP.",
+      "flavor": "Warmth returns to cold limbs.",
+      "effect": {
+        "type": "revive",
+        "target": "single",
+        "hp_percent": 25
+      },
+      "buy_price": 300,
+      "sell_price": 150,
+      "stack_size": 50,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_PHOENIX_FEATHER",
+            "count": 1
+          },
+          {
+            "item": "ITEM_HEALING_HERB",
+            "count": 3
+          }
+        ],
+        "alchemy_level": 3
+      }
+    },
+    {
+      "id": "ITEM_ANTIDOTE",
+      "name": "Antidote",
+      "type": "consumable",
+      "subtype": "remedy",
+      "rarity": 1,
+      "icon": "icon_antidote",
+      "description": "Cure Poison status.",
+      "flavor": "Bitter taste, sweet relief.",
+      "effect": {
+        "type": "cure_status",
+        "target": "single",
+        "status": "poison"
+      },
+      "buy_price": 30,
+      "sell_price": 15,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ]
+    },
+    {
+      "id": "ITEM_ECHO_SCREEN",
+      "name": "Echo Screen",
+      "type": "consumable",
+      "subtype": "remedy",
+      "rarity": 1,
+      "icon": "icon_echo_screen",
+      "description": "Cure Silence status.",
+      "flavor": "Restores voice to the muted.",
+      "effect": {
+        "type": "cure_status",
+        "target": "single",
+        "status": "silence"
+      },
+      "buy_price": 30,
+      "sell_price": 15,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ]
+    },
+    {
+      "id": "ITEM_EYE_DROPS",
+      "name": "Eye Drops",
+      "type": "consumable",
+      "subtype": "remedy",
+      "rarity": 1,
+      "icon": "icon_eye_drops",
+      "description": "Cure Blind status.",
+      "flavor": "Clarity in a drop.",
+      "effect": {
+        "type": "cure_status",
+        "target": "single",
+        "status": "blind"
+      },
+      "buy_price": 30,
+      "sell_price": 15,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ]
+    },
+    {
+      "id": "ITEM_REMEDY",
+      "name": "Remedy",
+      "type": "consumable",
+      "subtype": "remedy",
+      "rarity": 2,
+      "icon": "icon_remedy",
+      "description": "Cure all status ailments on one ally.",
+      "flavor": "Universal cure for universal suffering.",
+      "effect": {
+        "type": "cure_all_status",
+        "target": "single"
+      },
+      "buy_price": 150,
+      "sell_price": 75,
+      "stack_size": 99,
+      "usable_in": [
+        "battle",
+        "field"
+      ],
+      "recipe": {
+        "requires": [
+          {
+            "item": "ITEM_ANTIDOTE",
+            "count": 1
+          },
+          {
+            "item": "ITEM_ECHO_SCREEN",
+            "count": 1
+          },
+          {
+            "item": "ITEM_EYE_DROPS",
+            "count": 1
+          },
+          {
+            "item": "ITEM_HEALING_HERB",
+            "count": 2
+          }
+        ],
+        "alchemy_level": 2
+      }
+    },
+    {
+      "id": "ITEM_TENT",
+      "name": "Tent",
+      "type": "consumable",
+      "subtype": "rest",
+      "rarity": 2,
+      "icon": "icon_tent",
+      "description": "Fully restore party HP/MP at save points.",
+      "flavor": "A moment's rest in dangerous lands.",
+      "effect": {
+        "type": "field_rest",
+        "target": "all"
+      },
+      "buy_price": 100,
+      "sell_price": 50,
+      "stack_size": 20,
+      "usable_in": [
+        "field"
+      ]
+    },
+    {
+      "id": "ITEM_COTTAGE",
+      "name": "Cottage",
+      "type": "consumable",
+      "subtype": "rest",
+      "rarity": 3,
+      "icon": "icon_cottage",
+      "description": "Fully restore party HP/MP anywhere on field.",
+      "flavor": "Portable sanctuary.",
+      "effect": {
+        "type": "field_rest",
+        "target": "all"
+      },
+      "buy_price": 500,
+      "sell_price": 250,
+      "stack_size": 10,
+      "usable_in": [
+        "field"
+      ]
+    }
+  ]
+}

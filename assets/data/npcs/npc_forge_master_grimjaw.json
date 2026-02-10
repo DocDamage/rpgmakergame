@@ -1,0 +1,32 @@
+{
+  "id": "NPC_FORGE_MASTER_GRIMJAW",
+  "name": "Forge Master Grimjaw",
+  "title": "Master Smith",
+  "location": "T_CINDERSTEP_112x72",
+  "coords": [45, 35],
+  "schedule": {
+    "day": [45, 35],
+    "night": [45, 35],
+    "rain": [45, 35]
+  },
+  "sprite": "NPC_MASTER_SMITH",
+  "portrait": "spr_grimjaw_portrait",
+  "dialog_tree": "DT_GRIMJAW_MAIN",
+  "shop": "SHOP_GRIMJAW_MASTER",
+  "quests": ["Q_SIXTH_RELIC", "Q_MASTER_WORK", "Q_DRAGONS_GRAVEYARD"],
+  "faction": "MASTER_SMITHS",
+  "attitude": "neutral",
+  "background": "Greatest living smith. Only serves those he deems worthy.",
+  "personality": "Harsh, demanding, respects strength and skill above all.",
+  "flags": {
+    "unlocked_by": "Q_FIFTH_RELIC_COMPLETE",
+    "disappears_on": null,
+    "requires_test": true
+  },
+  "services": ["master_forge", "legendary_crafting", "quest_giver"],
+  "voice_lines": {
+    "greet": "vo_grimjaw_greet",
+    "craft": "vo_grimjaw_craft",
+    "approve": "vo_grimjaw_approve"
+  }
+}

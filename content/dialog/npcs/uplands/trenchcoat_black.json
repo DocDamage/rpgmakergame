@@ -1,0 +1,96 @@
+{
+  "npc_id": "trenchcoat_black_uplands",
+  "name": "Wraith",
+  "sprite": "trenchcoat_black",
+  "zone": "uplands",
+  "location": "Shadowed Overlook",
+  "personality": "secretive_omniscient",
+  "occupation": "secret_keeper",
+  "dialog": {
+    "greeting": [
+      "I know why you're here. I know many things.",
+      "Secrets have prices. Yours for sale?",
+      "The black coat sees all. Remembers all.",
+      "Ask. But be prepared for answers.",
+      "I was waiting. I am always waiting.",
+      "Knowledge is power. Power is currency. Currency is... optional.",
+      "Shhh. The walls listen. The shadows remember."
+    ],
+    "shop_open": "I sell whispers. Truths. Lies indistinguishable from truth.",
+    "shop_prompt": "Secrets for sale. Information. Warnings. Prophecies, slightly used.",
+    "haggle": [
+      "Some knowledge cannot be bargained for.",
+      "You offer much. But is it enough?",
+      "The truth has value. Your offer: insufficient.",
+      "For you? Because your secrets interest me."
+    ],
+    "purchase_success": [
+      "Remember: knowing changes the known.",
+      "Use it wisely. Or don't. Consequences are educational.",
+      "The secret is yours. Guard it well.",
+      "Knowledge shared. Fate altered."
+    ],
+    "purchase_fail": [
+      "Some doors remain closed.",
+      "You are not ready. Or not worthy.",
+      "Return when you can afford truth."
+    ],
+    "rumor": [
+      "The brown coat walks without knowing why. I walk knowing too much.",
+      "The twins share one soul between two bodies. Dangerous. Beautiful.",
+      "The temple guardian hides a secret shame. Even stone cracks.",
+      "Your party carries a secret. Even you don't know it yet."
+    ],
+    "quest_hook": "There's a book. In the sealed shrine. Contains a name that should not be spoken. Bring it to me. I'll make it worth your... risk.",
+    "quest_active": "The sealed shrine. Northern peak. The book with the lock that watches.",
+    "quest_complete": "You have it. Brave fools. Here. A secret worth the danger. The location of what you seek most.",
+    "quest_reward": "Location of Party's Ultimate Goal",
+    "farewell": [
+      "Remember: I know your secrets now too.",
+      "We will meet again. I have seen it.",
+      "Go carefully. The shadows follow."
+    ],
+    "ambient_barks": [
+      "*whispered secrets*",
+      "*shadow movement*",
+      "I know...",
+      "*ominous silence*",
+      "Secrets sleep...",
+      "*coat rustling*"
+    ],
+    "time_dawn": "Morning reveals. I prefer the concealing dark.",
+    "time_noon": "Bright light. Uncomfortable. Truth is often uncomfortable.",
+    "time_dusk": "Twilight. The between time. When secrets emerge.",
+    "time_night": "Night. My element. When all truths come out.",
+    "post_quest_greeting": "The book-bringer. How much did you read? ...Best you don't answer.",
+    "ominous_warning": "What you seek seeks you. Remember this."
+  },
+  "party_reactions": {
+    "kade": "Are you... following us? No? Just my imagination?",
+    "nix7": "Information broker detected. Trustworthiness: unverified.",
+    "twist": "You know secrets? Tell me! Tell me!",
+    "korr": "This one carries weight. Heavy knowledge.",
+    "renna": "Arcane senses tingling. This one is dangerous."
+  },
+  "relationship_dialog": {
+    "stranger": "New secrets walking toward me. Fascinating.",
+    "acquaintance": "I know you better than you know yourself.",
+    "friend": "Trusted with truth. A rare gift.",
+    "best_friend": "I will tell you my secret. The one that matters most."
+  },
+  "mini_quest": {
+    "id": "forbidden_lore_book",
+    "title": "The Sealed Knowledge",
+    "description": "Retrieve the forbidden book from the sealed northern shrine",
+    "stages": {
+      "hook": "A book in the sealed shrine. Contains a name that should not be spoken. Bring it. I'll pay well for your... risk.",
+      "active": "Northern peak. Sealed shrine. Book with the watching lock. Don't read it. I mean it.",
+      "complete": "You have it. Brave. Foolish. Both. Here - the location of what your party seeks most. Verified. True."
+    },
+    "reward": {
+      "item": "ultimate_goal_map",
+      "gold": 1000,
+      "reputation": "keeper_of_secrets"
+    }
+  }
+}

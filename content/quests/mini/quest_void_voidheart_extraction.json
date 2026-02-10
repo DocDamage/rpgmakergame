@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_voidheart_extraction",
+  "name": "Heart of Darkness",
+  "zone": "void",
+  "giver": "signguy",
+  "type": "combat",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "Deep in the Void lies a Voidheart—a crystallized essence of pure nothing. Dangerous, unstable, but incredibly valuable to those who study the Void. A scholar in Meridian Junction will pay a fortune for a sample. Get in, extract the heart, get out before you become part of the nothing.",
+      "objective": "Locate the Voidheart in the deepest Void zone"
+    },
+    "progress": {
+      "dialog": "Voidheart located, but it's not alone. Void elementals have gathered around it, feeding on its power. Standard combat won't work—they just reform. We need to disrupt their connection to the heart first, then strike while they're vulnerable.",
+      "objective": "Disrupt the Void elementals and extract the Voidheart"
+    },
+    "complete": {
+      "dialog": "Voidheart extracted, elementals dispersed, and most importantly—you're still you. Most who touch Void essence come back... changed. But you? You look the same. Sound the same. Hopefully, you are the same. The scholar pays well for intact specimens, and this is very intact.",
+      "rewards": {
+        "exp": 15500,
+        "gold": 4000,
+        "item": "voidheart_crystal"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Touching that thing felt like grabbing absolute zero with my bare hands. Still can't feel my fingertips properly.",
+    "renna": "Voidheart energy readings are off every chart I have. This needs to be studied—carefully, behind very thick shields.",
+    "sova": "Pure Void essence is theoretically impossible to contain. Yet here we are. The Progenitors understood things we haven't even begun to imagine."
+  },
+  "lore_unlocks": ["voidheart_properties", "void_elementals"]
+}

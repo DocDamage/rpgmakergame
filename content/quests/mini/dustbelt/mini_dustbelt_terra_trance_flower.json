@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_terra_trance_flower",
+  "name": "Echo of Magic",
+  "zone": "dustbelt",
+  "giver": "Terra (Esper-Blooded)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I feel... a resonance. In the desert. A flower that blooms only where magic pools. I need to find it... to understand what I am. Will you help me search the crystal formations?",
+      "objective": "Search crystal formations in the desert for the Trance Bloom"
+    },
+    "progress": {
+      "dialog": "The flower... it's calling. But the Dominion patrols are thick around the crystals. Be careful.",
+      "objective": "Avoid Dominion patrols and continue searching for the bloom"
+    },
+    "complete": {
+      "dialog": "There! The Trance Bloom... it's beautiful. And I can feel... my power responding. Thank you. Here - this magicite shard formed where the flower grew. It holds... potential.",
+      "rewards": {"gold": 500, "item": "magicite_shard_fire", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "She's not fully human, is she? The way she glows...",
+    "renna": "Esper heritage. Magical bloodline. Fascinating.",
+    "nix7": "Detecting unusual magical signature. Caution advised."
+  },
+  "hidden_outcome": "If you find all three Trance Blooms (hidden in different formations), Terra awakens her esper form briefly and grants you 'Riot Blade' technique"
+}

@@ -1,0 +1,54 @@
+{
+  "npc_id": "thane_iceheart",
+  "name": "Thane Iceheart",
+  "title": "Command Figure",
+  "zone": "frost",
+  "location": "The Frozen Court Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Thane Iceheart on comms. Stage 2: The Frozen Court. Keep formation tight and decisions tighter.",
+      "We are running The Frozen Path. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Survive Thane Iceheart's interrogation."
+    ],
+    "quest_hook": "Objective stack: Survive Thane Iceheart's interrogation; Prove the Void threatens even Frost; Offer alliance terms. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Gain the trust of the Frosthold leadership. Immediate move: Survive Thane Iceheart's interrogation.",
+    "quest_complete": "Stage 2 resolved: The Frozen Court. Primary objective secured and route stabilized. Prepare for Spire of Frozen Eternity.",
+    "rumor": [
+      "Rimehold hunters found footprints that ended mid-step, still warm.",
+      "People keep repeating one clue from The Frozen Court: 'Offer alliance terms'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn gives hard snow and readable tracks. Best time to cross open ground.",
+    "time_noon": "Noon glare can blind you faster than a storm. Shade your optics.",
+    "time_dusk": "Dusk fog rises from cracked ice. Ropes out, spacing tight.",
+    "time_night": "Night cold punishes hesitation. Rotate watch and check each other for frostbite."
+  },
+  "party_reactions": {
+    "kade": "Thane Iceheart sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Thane Iceheart accepted. Probability of success improves with compliance.",
+    "twist": "Thane Iceheart talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "frost_frozen_path"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

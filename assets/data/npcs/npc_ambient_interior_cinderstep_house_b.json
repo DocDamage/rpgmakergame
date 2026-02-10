@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_CINDERSTEP_HOUSE_B",
+  "name": "Cinderstep House Resident",
+  "title": "Contract Scribe",
+  "location": "I_HOUSE_B_24x18",
+  "coords": [
+    12,
+    9
+  ],
+  "schedule": {
+    "day": [
+      12,
+      9
+    ],
+    "night": [
+      10,
+      10
+    ],
+    "rain": [
+      12,
+      11
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCRIBE",
+  "shop": null,
+  "quests": [],
+  "faction": "CINDERSTEP",
+  "attitude": "neutral",
+  "background": "Records transactions, permits, and legal notices. Based inside I_HOUSE_B_24x18.",
+  "personality": "Formal, exact, and unexpectedly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "paperwork",
+    "records"
+  ]
+}

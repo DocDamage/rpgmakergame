@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_ritual_preparation",
+  "name": "Sealing the Rite",
+  "zone": "palace",
+  "giver": "sumo",
+  "type": "combat",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "To confront the Progenitor Engine, we must first perform the Sealing Rite—an ancient ceremony that temporarily binds the Engine's defensive systems. The ritual site is in the deepest Palace sanctum, but it's been corrupted by Void influence. Clear the corruption, prepare the site, make it sacred again.",
+      "objective": "Clear Void corruption from the ritual site"
+    },
+    "progress": {
+      "dialog": "Site cleared, but the Sealing Rite requires components—eight Foundation essences, gathered from each dungeon's heart. We have the essences, but combining them is dangerous. The ritual must be performed perfectly, or the essences react violently. Steady hands, focused minds, pure intent.",
+      "objective": "Successfully perform the Sealing Rite"
+    },
+    "complete": {
+      "dialog": "Rite complete, Engine bound, the way is open. The Progenitor Engine's defenses are suppressed for a limited window—our only chance to reach its core and make our choice. The ritual site hums with combined Foundation power, a harmony of all eight aspects. We're ready. The final confrontation awaits.",
+      "rewards": {
+        "exp": 40000,
+        "gold": 15000,
+        "item": "sealing_rite_blessing"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Combining all eight Foundations... felt like holding the world together with my bare hands. Power beyond anything I've known.",
+    "callum": "The essences sang together, harmonizing like a choir. Eight voices, one song. Beautiful and terrifying.",
+    "sova": "Theoretical Foundation combination achieved. Practical application successful. We're genuinely ready for the Engine."
+  },
+  "lore_unlocks": ["sealing_rite", "foundation_harmony"]
+}

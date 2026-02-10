@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_ice_maze",
+  "name": "Labyrinth of Glass",
+  "zone": "frost",
+  "giver": "signguy",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Ice Maze appears only during the winter solstice—a labyrinth of frozen mirrors that confuses all who enter! But at its center lies the Frost Diamond, worth a king's ransom! Many have tried, none have returned! Care to attempt it?",
+      "objective": "Enter the Ice Maze and navigate to its center"
+    },
+    "progress": {
+      "dialog": "The mirrors show illusions—false paths, dead ends, reflections that move independently! Use sound to test the ice—real ice sounds different than mirror ice! Trust your ears, not your eyes!",
+      "objective": "Navigate the mirror illusions using sound to find the true path"
+    },
+    "complete": {
+      "dialog": "The Frost Diamond! And you emerged with your sanity intact! Impressive! The diamond is yours—sell it or keep it! Also take this Mirror Shard! It can create one perfect illusion of yourself!",
+      "rewards": {
+        "exp": 900,
+        "gold": 1500,
+        "item": "mirror_shard"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I talked to myself in seventeen different mirrors. Creepy!",
+    "twist": "The reflections were testing us. Interesting security system.",
+    "nix7": "Illusion maze navigation: complete. Spatial reasoning: challenged."
+  }
+}

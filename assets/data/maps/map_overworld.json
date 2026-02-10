@@ -1,0 +1,189 @@
+{
+  "id": "OW_ORION_320x180",
+  "display_name": "Orion Overworld",
+  "type": "overworld",
+  "dimensions": {
+    "width": 320,
+    "height": 180,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_OrionOverworld",
+  "music": "bgm_overworld",
+  "lighting": "day_cycle",
+  "weather": "varies_by_region",
+  "connections": [
+    {
+      "direction": "special",
+      "target": "T_DUSTHAVEN_112x72",
+      "coords": [45, 120],
+      "display_name": "Dusthaven"
+    },
+    {
+      "direction": "special",
+      "target": "T_ASHVEIL_112x72",
+      "coords": [85, 95],
+      "display_name": "Ashveil Sanctuary"
+    },
+    {
+      "direction": "special",
+      "target": "T_MIREWATCH_112x72",
+      "coords": [120, 110],
+      "display_name": "Mirewatch"
+    },
+    {
+      "direction": "special",
+      "target": "T_PRISMRIDGE_112x72",
+      "coords": [140, 70],
+      "display_name": "Prismridge"
+    },
+    {
+      "direction": "special",
+      "target": "T_CINDERSTEP_112x72",
+      "coords": [160, 140],
+      "display_name": "Cinderstep"
+    },
+    {
+      "direction": "special",
+      "target": "T_BRINEGATE_112x72",
+      "coords": [200, 150],
+      "display_name": "Brinegate Port"
+    },
+    {
+      "direction": "special",
+      "target": "T_GRAVEMARK_112x72",
+      "coords": [100, 40],
+      "display_name": "Gravemark Outpost"
+    },
+    {
+      "direction": "special",
+      "target": "T_RIMEHOLD_112x72",
+      "coords": [140, 30],
+      "display_name": "Rimehold"
+    },
+    {
+      "direction": "special",
+      "target": "T_CHRONOWAKE_112x72",
+      "coords": [180, 45],
+      "display_name": "Chronowake Pier"
+    },
+    {
+      "direction": "special",
+      "target": "T_MERIDIAN_112x72",
+      "coords": [220, 80],
+      "display_name": "Meridian Junction"
+    },
+    {
+      "direction": "special",
+      "target": "T_LUMENCREST_OUTER_112x72",
+      "coords": [260, 60],
+      "display_name": "Old Lumencrest",
+      "condition": "ACT3_UNLOCKED"
+    },
+    {
+      "direction": "special",
+      "target": "T_AETHERREACH_112x72",
+      "coords": [280, 20],
+      "display_name": "Aetherreach",
+      "condition": "POST_GAME_UNLOCKED"
+    }
+  ],
+  "regions": [
+    {
+      "name": "dustbelt",
+      "coords": [20, 80, 80, 140],
+      "tileset": "Tileset_Dustbelt",
+      "encounters": "DUSTBELT_ENCOUNTERS"
+    },
+    {
+      "name": "uplands",
+      "coords": [70, 60, 110, 100],
+      "tileset": "Tileset_AshveilStone",
+      "encounters": "UPLANDS_ENCOUNTERS"
+    },
+    {
+      "name": "mire",
+      "coords": [100, 95, 150, 130],
+      "tileset": "Tileset_MireStilts",
+      "encounters": "MIRE_ENCOUNTERS"
+    },
+    {
+      "name": "prism_highlands",
+      "coords": [120, 40, 170, 80],
+      "tileset": "Tileset_PrismHighland",
+      "encounters": "PRISM_ENCOUNTERS"
+    },
+    {
+      "name": "ember_rim",
+      "coords": [140, 120, 190, 160],
+      "tileset": "Tileset_EmberBasalt",
+      "encounters": "EMBER_ENCOUNTERS"
+    },
+    {
+      "name": "tide_coast",
+      "coords": [180, 130, 230, 170],
+      "tileset": "Tileset_TideCoast",
+      "encounters": "TIDE_ENCOUNTERS"
+    },
+    {
+      "name": "frostmarch",
+      "coords": [80, 10, 160, 50],
+      "tileset": "Tileset_FrostCitadel",
+      "encounters": "FROST_ENCOUNTERS"
+    },
+    {
+      "name": "chrono_shelf",
+      "coords": [160, 25, 210, 65],
+      "tileset": "Tileset_ChronoPier",
+      "encounters": "CHRONO_ENCOUNTERS"
+    },
+    {
+      "name": "ruined_capital",
+      "coords": [240, 40, 300, 90],
+      "tileset": "Tileset_CapitalRuins",
+      "encounters": "CAPITAL_ENCOUNTERS"
+    }
+  ],
+  "points_of_interest": [
+    {
+      "name": "D1_Ruins_Entrance",
+      "coords": [95, 85],
+      "target": "MIC_R02_80x48"
+    },
+    {
+      "name": "D2_Fungal_Entrance",
+      "coords": [130, 105],
+      "target": "MIC_R04_56x36"
+    },
+    {
+      "name": "D3_Crystal_Entrance",
+      "coords": [150, 65],
+      "target": "MIC_R06_64x36"
+    },
+    {
+      "name": "D6_Obsidian_Entrance",
+      "coords": [170, 130],
+      "target": "MIC_R08_72x40"
+    },
+    {
+      "name": "D5_Abyss_Entrance",
+      "coords": [210, 145],
+      "target": "MIC_S01_72x40"
+    },
+    {
+      "name": "D7_Frozen_Entrance",
+      "coords": [130, 35],
+      "target": "MIC_R12_112x56"
+    },
+    {
+      "name": "D8_Void_Entrance",
+      "coords": [270, 70],
+      "target": "D8_VOID_112x96"
+    },
+    {
+      "name": "Tower_Of_Ascension",
+      "coords": [250, 100],
+      "target": "TWR_LOBBY_96x64",
+      "condition": "ALL_FOUNDATIONS_COLLECTED"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "npc_id": "barrelman_wood_mire",
+  "name": "Barney 'The Barrel' Barkwood",
+  "sprite": "barrelman_wood",
+  "zone": "mire",
+  "location": "Waterproof Barrel Emporium",
+  "personality": "professional_proud_pragmatic",
+  "occupation": "waterproof_barrel_specialist",
+  "schedule": {
+    "morning": "treating_barrels",
+    "day": "selling_and_advising",
+    "evening": "maintenance"
+  },
+  "dialog": {
+    "greeting": [
+      "Waterproof barrels! Guaranteed not to leak! Or your money back!",
+      "Barney Barkwood, at your service! Need something water-tight?",
+      "The Mire demands quality barrels! Lucky for you, that's all I sell!",
+      "Fresh batch just treated! Smell that pine tar! Beautiful!",
+      "Don't trust cheap barrels in swamp country! Trust Barkwood!",
+      "Leaky barrel? I can fix it! No barrel? I can sell you one!",
+      "Quality containment since before the Big Flood!",
+      "Barrels! Barrels! Get your waterproof barrels!"
+    ],
+    "barrel_types": "Got storage barrels, got shipping barrels, got 'hide-your-valuables-from-bandits' barrels! All waterproof! All guaranteed!",
+    "waterproofing_process": "Secret family recipe! Pine tar, swamp wax, and a little something extra. Trade secret. But it works! Nothing gets through my barrels!",
+    "backstory": "Came from a long line of coopers. My cousin in the Dustbelt - Bob - he sells regular barrels. I specialize. The Mire needs waterproof, and waterproof is what I deliver.",
+    "rumors": [
+      "The dock bosses fight over everything. Including who buys barrels from who. Ridiculous.",
+      "That barrelgob claims to have seen a walking barrel. My barrels don't walk. I check them daily.",
+      "The foodboys store their ingredients in competitor barrels. Leaked all over last week. Should've come to me.",
+      "Heard the snakecharmer keeps Mr. Whiskers in a barrel at night. Hope it's one of mine."
+    ],
+    "ambient_barks": [
+      "Waterproof guaranteed!",
+      "Quality barrels here!",
+      "Don't settle for leaky!",
+      "Barkwood's the best!",
+      "Fresh pine tar!",
+      "No leaks, no problems!"
+    ],
+    "time_of_day": {
+      "morning": "Morning treatment session. Nothing beats fresh pine tar in the morning.",
+      "noon": "Lunch rush! People need barrels at all hours!",
+      "evening": "Evening inspections. Every barrel checked personally.",
+      "night": "Closed! Barrels need their beauty sleep too!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "lost_shipment",
+    "quest_name": "Barrels Overboard",
+    "stage_1_hook": "Disaster! A shipment of my finest barrels went overboard in the storm! They're floating out there in the Deep Muck, probably beached somewhere. Expensive merchandise! Help me recover them?",
+    "stage_1_active": "Five premium waterproof barrels, branded with my mark. Should be floating in the Deep Muck somewhere. Please find them!",
+    "stage_2_progress": "Any sign of my barrels? They're distinctive - dark oak with my 'BB' brand.",
+    "stage_2_item_needed": "barkwood_barrel_set",
+    "stage_3_complete": "MY BARRELS! All accounted for! And still waterproof! I knew my construction would hold! Here, take this - my finest mini-barrel. Perfect for adventuring! Keeps supplies dry guaranteed!",
+    "reward": "barkwood_adventurer_cask"
+  },
+  "party_reactions": {
+    "kade": "Finally, someone who understands the value of proper storage.",
+    "nix7": "Container specifications: optimal. Waterproofing integrity: 98.7%. Acceptable.",
+    "twist": "Can I hide in a barrel? Like in the stories? Please?",
+    "korr": "Quality craftsmanship. I appreciate attention to detail.",
+    "renna": "The waterproofing enchantment is subtle but effective. He doesn't even know he's using magic.",
+    "suresh": "A barrel that keeps water out. In the Mire. Truly valuable.",
+    "sova": "Good for storing arrows. And other things.",
+    "grit": "Had waterproof barrels in the army. Saved our supplies more than once.",
+    "ashka": "The wood treatment resists fire too. Impressive.",
+    "senna": "Good for smuggling. Not that I'd know. But good.",
+    "callum": "They float! That's so cool! Barrel boats!"
+  },
+  "relationship_dialog": {
+    "stranger": "First barrel's at full price. Second one? Also full price. Quality costs.",
+    "acquaintance": "Back again! Knew you'd appreciate quality waterproofing!",
+    "friend": "For you? I have something special in the back. Extra watertight.",
+    "best_friend": "You've earned the Barkwood family discount. Ten percent. Don't tell my cousin Bob."
+  },
+  "cross_npc_connections": [
+    "barrelman_wood_dustbelt: Cousin Bob. Regular barrels. Different market. We don't talk much.",
+    "pigman_brown: The tavern keeper. Stores his ale in my barrels. Smart man.",
+    "barrelgob_green: That goblin keeps hanging around my shop. Claims barrels 'speak' to him. Weird."
+  ]
+}

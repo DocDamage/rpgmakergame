@@ -1,0 +1,96 @@
+{
+  "npc_id": "lucha_red_dustbelt",
+  "name": "El Scorcho",
+  "sprite": "lucha_red",
+  "zone": "dustbelt",
+  "location": "Champion's Tent",
+  "personality": "flamboyant_confident",
+  "occupation": "arena_champion",
+  "dialog": {
+    "greeting": [
+      "BEHOLD! EL SCORCHO! THE INFERNO OF THE RING!",
+      "The champion GREETS you, commoners!",
+      "You stand before GREATNESS! Recognize!",
+      "My flames burn eternal! My victories... also eternal!",
+      "El Verde sends you? The OLD champion? How... quaint.",
+      "Challengers? I EAT challengers! For BREAKFAST!",
+      "The mask hides nothing! The fire within SHOWS!"
+    ],
+    "shop_open": "Championship merchandise! Buy a piece of IMMORTALITY!",
+    "shop_prompt": "Signed photos! Replica masks! Actual sweat! Limited supply!",
+    "haggle": [
+      "GREATNESS has no price! But I'll take less!",
+      "For a FAN? Discount! Worship accepted as currency!",
+      "My time is VALUABLE! But you're PERSISTENT! Deal!",
+      "You drive a hard bargain! I RESPECT that!"
+    ],
+    "purchase_success": [
+      "TREASURE it! As I treasure VICTORY!",
+      "You now own GREATNESS! Display PROUDLY!",
+      "Another satisfied WORSHIPPER!",
+      "SMART! Very SMART! Like my moves!"
+    ],
+    "purchase_fail": [
+      "Your LOSS! Literally! HA!",
+      "Can't afford GREATNESS? Pity!",
+      "Return when you're WORTHY!"
+    ],
+    "rumor": [
+      "El Verde? Once GREAT! Now? LESS great! But still RESPECTED!",
+      "Barrelman Bob challenged me once! Barrel wrestling! I WON! OBVIOUSLY!",
+      "The sign painter wants to paint my portrait! TOLD him! Too MUCH fire for canvas!",
+      "Deep-Dig Dan wants to wrestle underground! DARKNESS versus FIRE! I'd WIN!"
+    ],
+    "quest_hook": "Need a training opponent! Someone TOUGH! Bring me a SAND WYRM! ALIVE! I'll wrestle it! For TRAINING! Reward? WORTH it!",
+    "quest_active": "Where's my WYRM? The CHAMPION waits!",
+    "quest_complete": "MAGNIFICENT! The WRESTLE! The THRILL! Here! My SIGNATURE move! The SCORCHING SUPLEX! Learn it!",
+    "quest_reward": "Scorching Suplex - Ultimate Wrestling Move",
+    "farewell": [
+      "Burn BRIGHT! Like ME!",
+      "Tell them EL SCORCHO sent you!",
+      "Return for more GREATNESS!"
+    ],
+    "ambient_barks": [
+      "I AM THE FIRE!",
+      "UNDEFEATED!",
+      "CHAMPION!",
+      "FEEL THE HEAT!",
+      "WHERE ARE MY TOWELS?!",
+      "VERDE WHO?!"
+    ],
+    "time_dawn": "Morning training! Pushups! ONE HANDED! While RECITING poetry!",
+    "time_noon": "Peak HEAT! Peak POWER! I AM the SUN!",
+    "time_dusk": "Evening matches! PRIME time! PRIME Scorcho!",
+    "time_night": "Night training! In DARKNESS! To HONE the FLAMES!",
+    "post_quest_greeting": "The WYRM-WRANGLER! My TRAINING partner SUPPLIER!",
+    "challenge_gesture": "You! YES you! Think you can WRESTLE? Step INTO the ring!"
+  },
+  "party_reactions": {
+    "kade": "Oh man, I loved watching the fights back home!",
+    "nix7": "Volume: excessive. Confidence: impressive.",
+    "twist": "CAN I BE YOUR MANAGER?! PLEASE?!",
+    "korr": "Strong. Loud. Both valid strategies.",
+    "renna": "The mask is... actually quite well crafted."
+  },
+  "relationship_dialog": {
+    "stranger": "New FAN! Welcome to the CHAMPION'S presence!",
+    "acquaintance": "You RETURN! Drawn to GREATNESS! NATURAL!",
+    "friend": "My LOYAL supporter! FRONT ROW seats for you!",
+    "best_friend": "You UNDERSTAND me! The FIRE! The PASSION! Brothers!"
+  },
+  "mini_quest": {
+    "id": "scorcho_wyrm_wrestle",
+    "title": "The Champion's Training",
+    "description": "Capture a live sand wyrm for El Scorcho's training regimen",
+    "stages": {
+      "hook": "Need a TRAINING opponent! Someone TOUGH! Bring me a SAND WYRM! ALIVE! I'll wrestle it!",
+      "active": "Where's my WYRM? The CHAMPION waits! Big one! ANGRY one!",
+      "complete": "MAGNIFICENT! The BATTLE! The GLORY! Here! Learn my SIGNATURE MOVE! The SCORCHING SUPLEX! Use it WISELY!"
+    },
+    "reward": {
+      "item": "scorching_suplex_teachings",
+      "gold": 400,
+      "reputation": "champion_friend"
+    }
+  }
+}

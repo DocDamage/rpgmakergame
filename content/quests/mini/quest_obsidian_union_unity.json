@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_union_unity",
+  "name": "Solidarity Forever",
+  "zone": "obsidian",
+  "giver": "tunneler_brown",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The workers are divided! Miners versus Smiths versus Steamworkers—they're fighting each other instead of management! We need someone respected by all sides to remind them: an injury to one is an injury to all! Will you speak at the Unity Rally?",
+      "objective": "Speak at the Unity Rally to unite the divided workers"
+    },
+    "progress": {
+      "dialog": "Your speech moved them! But words aren't enough. Organize a solidarity action—all three guilds working together on the community garden project! Show them unity creates strength!",
+      "objective": "Organize a joint community project involving all three guilds"
+    },
+    "complete": {
+      "dialog": "They did it! Working together, laughing together! The guilds are united again! Management is nervous—that's how we like them! You're an honorary member of all three guilds now! Take this Unity Badge!",
+      "rewards": {
+        "exp": 800,
+        "gold": 600,
+        "item": "unity_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I gave a speech! They actually cheered! I'm a natural leader!",
+    "twist": "I helped plant turnips. This is what heroism looks like.",
+    "nix7": "Labor unity achievement: solidarity restored. Worker morale: elevated."
+  }
+}

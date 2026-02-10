@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_barret_cosmo_memory",
+  "name": "Memories of Green",
+  "zone": "dustbelt",
+  "giver": "Barret (Gunner Leader)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Look at this place. Nothing but sand and rocks. Used to know a place... green. Full of life. Lost it. Looking for seeds. From before. Heard an old trader buried some near the oasis. Help me find 'em?",
+      "objective": "Search the abandoned oasis for buried pre-cataclysm seeds"
+    },
+    "progress": {
+      "dialog": "The seeds... they'd be in a metal container. Rusted by now. But seeds can last... if you're lucky.",
+      "objective": "Dig at suspicious spots around the oasis"
+    },
+    "complete": {
+      "dialog": "...You found 'em. These could grow. Could bring green back. Thanks. Here, take this. Heavy barrel for your gun-arm. Custom made. Hits harder than anything Dominion makes.",
+      "rewards": {"gold": 450, "item": "heavy_barrel_attachment", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Bringing life back to the desert... that's worth fighting for.",
+    "renna": "Pre-cataclysm seeds are extremely valuable. Genetically diverse.",
+    "suresh": "Life finds a way. Even here."
+  },
+  "hidden_outcome": "If you also bring water from the Pure Springs, Barret gives you 'Cosmo Cannon' - an ultimate weapon attachment"
+}

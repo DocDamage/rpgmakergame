@@ -1,0 +1,368 @@
+{
+  "id": "OW_CAPITAL_CHAIN_1x1",
+  "maps": [
+    {
+      "id": "MIC_GRAND_BOULEVARD_80x40",
+      "display_name": "Grand Boulevard",
+      "type": "route",
+      "act": 3,
+      "dimensions": {
+        "width": 80,
+        "height": 40,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "encounter_table": "CAPITAL_ENCOUNTERS",
+      "music": "bgm_field_capital",
+      "lighting": "ominous",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "T_LUMENCREST_OUTER_112x72",
+          "coords": [
+            0,
+            20
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "D_ARCHIVE_112x96",
+          "coords": [
+            79,
+            20
+          ]
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Ruined Monuments",
+          "coords": [
+            25,
+            20
+          ],
+          "type": "scenic"
+        },
+        {
+          "name": "Time Lock",
+          "coords": [
+            50,
+            15
+          ],
+          "type": "puzzle"
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_GRAND_BOULEVARD_SCOUT",
+          "coords": [
+            25,
+            20
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+        }
+      ]
+    },
+    {
+      "id": "D_ARCHIVE_112x96",
+      "display_name": "Archive District",
+      "type": "dungeon",
+      "act": 3,
+      "dimensions": {
+        "width": 112,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "encounter_table": "CAPITAL_ENCOUNTERS",
+      "boss": "BOSS_ARCHIVE_GUARDIAN",
+      "music": "bgm_dungeon_archive",
+      "lighting": "dim",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_GRAND_BOULEVARD_80x40",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_CROWN_APPROACH_96x40",
+          "coords": [
+            111,
+            48
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_SCHOLARIUM_96x64",
+          "coords": [
+            56,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "MIC_R14_128x56",
+          "coords": [
+            56,
+            0
+          ]
+        }
+      ],
+      "events": [
+        "ARCHIVE_KEY_ACQUIRED",
+        "AURORA_FOUNDRY_DISCOVERED"
+      ]
+    },
+    {
+      "id": "MIC_CROWN_APPROACH_96x40",
+      "display_name": "Crown District Approach",
+      "type": "route",
+      "act": 3,
+      "dimensions": {
+        "width": 96,
+        "height": 40,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "encounter_table": "CAPITAL_ENCOUNTERS",
+      "music": "bgm_field_capital",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "D_ARCHIVE_112x96",
+          "coords": [
+            0,
+            20
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "T_CROWN_HUB_112x72",
+          "coords": [
+            95,
+            20
+          ]
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_CROWN_DISTRICT_APPROACH_SCOUT",
+          "coords": [
+            48,
+            20
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+        }
+      ]
+    },
+    {
+      "id": "MIC_CROWN_TO_PALACE_56x32",
+      "display_name": "Crown to Palace Corridor",
+      "type": "route",
+      "act": 3,
+      "dimensions": {
+        "width": 56,
+        "height": 32,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_CapitalRuins",
+      "encounter_table": "CAPITAL_ENCOUNTERS",
+      "music": "bgm_field_capital",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "T_CROWN_HUB_112x72",
+          "coords": [
+            0,
+            16
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_CONDUIT_64x32",
+          "coords": [
+            55,
+            16
+          ]
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_CROWN_TO_PALACE_CORRIDOR_SCOUT",
+          "coords": [
+            28,
+            16
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+        }
+      ]
+    },
+    {
+      "id": "MIC_CONDUIT_64x32",
+      "display_name": "Crown Spire Conduit",
+      "type": "route",
+      "act": 3,
+      "dimensions": {
+        "width": 64,
+        "height": 32,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Tower",
+      "encounter_table": "CHRONO_ENCOUNTERS",
+      "music": "bgm_dungeon_conduit",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_CROWN_TO_PALACE_56x32",
+          "coords": [
+            0,
+            16
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "MAP_ECLIPSE_80x64",
+          "coords": [
+            63,
+            16
+          ]
+        }
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ROUTE_CROWN_SPIRE_CONDUIT_SCOUT",
+          "coords": [
+            32,
+            16
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+        }
+      ]
+    },
+    {
+      "id": "MAP_ECLIPSE_80x64",
+      "display_name": "Eclipse Confluence",
+      "type": "special",
+      "act": 3,
+      "dimensions": {
+        "width": 80,
+        "height": 64,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "music": "bgm_dungeon_eclipse",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MIC_CONDUIT_64x32",
+          "coords": [
+            0,
+            32
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D_PALACE_128x96",
+          "coords": [
+            79,
+            32
+          ]
+        }
+      ],
+      "events": [
+        "RELIC_SEATING_COMPLETE",
+        "TOWER_UNLOCKED"
+      ]
+    },
+    {
+      "id": "D_PALACE_128x96",
+      "display_name": "Palace Interior",
+      "type": "dungeon",
+      "act": 3,
+      "dimensions": {
+        "width": 128,
+        "height": 96,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Palace",
+      "encounter_table": "CHRONO_ENCOUNTERS",
+      "music": "bgm_dungeon_palace",
+      "lighting": "cosmic",
+      "connections": [
+        {
+          "direction": "special",
+          "target": "MAP_ECLIPSE_80x64",
+          "coords": [
+            0,
+            48
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "PAL_F1_64x64",
+          "coords": [
+            64,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "PAL_F2_64x64",
+          "coords": [
+            64,
+            0
+          ],
+          "trigger": "f1_cleared"
+        },
+        {
+          "direction": "special",
+          "target": "PAL_F3_64x64",
+          "coords": [
+            64,
+            0
+          ],
+          "trigger": "f2_cleared"
+        },
+        {
+          "direction": "special",
+          "target": "PAL_F4_64x64",
+          "coords": [
+            64,
+            0
+          ],
+          "trigger": "f3_cleared"
+        },
+        {
+          "direction": "special",
+          "target": "PAL_F5_80x80",
+          "coords": [
+            64,
+            0
+          ],
+          "trigger": "f4_cleared"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_THRESHOLD_CREATION_96x80",
+          "coords": [
+            64,
+            95
+          ],
+          "condition": "PALACE_ACCESS"
+        },
+        {
+          "direction": "special",
+          "target": "PAL_GARDEN_OF_ORIGIN_96x80",
+          "coords": [
+            127,
+            48
+          ],
+          "condition": "PALACE_ACCESS"
+        }
+      ]
+    }
+  ]
+}

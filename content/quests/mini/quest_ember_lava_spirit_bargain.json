@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_lava_spirit_bargain",
+  "name": "Pact with the Molten",
+  "zone": "ember",
+  "giver": "pigman_red",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! The lava spirits are angry—someone dumped trash in their vent! Now they're threatening to redirect the magma flows toward Cinderstep! We need to negotiate with them, but they only respect those who bring gifts. Will you be our envoy?",
+      "objective": "Gather appropriate gifts for the lava spirits"
+    },
+    "progress": {
+      "dialog": "The spirits like the obsidian offerings, but they want an apology from whoever dumped the trash! Track down the culprit—it was probably one of the ironworks apprentices—and make them apologize!",
+      "objective": "Find the apprentice responsible and bring them to apologize"
+    },
+    "complete": {
+      "dialog": "The spirits are appeased! The magma flows return to normal! As thanks, they've infused this gem with their essence—a Lava Spirit Gem! It lets you walk on magma for short periods!",
+      "rewards": {
+        "exp": 950,
+        "gold": 450,
+        "item": "lava_spirit_gem"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Talking to lava. That's a new one even for me!",
+    "twist": "The spirits had quite the vocabulary. Ancient beings, indeed.",
+    "nix7": "Elemental entities display complex social behavior. Data: archived."
+  }
+}

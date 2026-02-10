@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_cobra_venom",
+  "name": "Antidote Ingredients",
+  "zone": "mire",
+  "giver": "Cobra (Medicine Hunter)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Mire is sssick. Many poisoned. I make antidote... but need ingredientsss. Ssspecial moss. Glows at night. Grows on dead treesss. Bring me enough for ten dosesss?",
+      "objective": "Collect glowing night moss from dead trees in the Mire"
+    },
+    "progress": {
+      "dialog": "The antidote... it takesss time. Need more mossss. Many are sssick.",
+      "objective": "Continue gathering glowing moss"
+    },
+    "complete": {
+      "dialog": "Yesss! This will sssave many! You have kindnesss in your heart. Here - cobra antidote ring. Protects you from mosst venomsss. Use welll.",
+      "rewards": {"gold": 350, "item": "cobra_antidote_ring", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "A cobra healer. Never thought I'd see that.",
+    "renna": "Venomous creatures often have medicinal properties. Logical.",
+    "suresh": "Healing comes from unexpected places."
+  },
+  "hidden_outcome": "If you bring extra moss for 20 doses, Cobra gives you 'Venom Mastery' - the ability to extract antidotes from any poisonous creature"
+}

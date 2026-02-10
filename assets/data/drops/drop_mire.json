@@ -1,0 +1,101 @@
+{
+  "id": "DROPS_MIRE",
+  "tables": [
+    {
+      "id": "DROPS_LEECHLING",
+      "enemy": "ENEMY_LEECHLING",
+      "entries": [
+        {
+          "item": "ITEM_SLIMY_HIDE",
+          "chance": 0.4,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_BLOOD_SAC",
+          "chance": 0.2,
+          "count": 1
+        },
+        {
+          "item": "ITEM_ANTIDOTE",
+          "chance": 0.18,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.22
+        }
+      ],
+      "gil_range": [
+        12,
+        24
+      ]
+    },
+    {
+      "id": "DROPS_SPORELING",
+      "enemy": "ENEMY_SPORELING",
+      "entries": [
+        {
+          "item": "ITEM_SPORE_POD",
+          "chance": 0.3,
+          "count": 1
+        },
+        {
+          "item": "ITEM_FUNGAL_CAP",
+          "chance": 0.35,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "ITEM_ECHO_SCREEN",
+          "chance": 0.12,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.23
+        }
+      ],
+      "gil_range": [
+        18,
+        35
+      ]
+    },
+    {
+      "id": "DROPS_MIRE_BULLY",
+      "enemy": "ENEMY_MIRE_BULLY",
+      "entries": [
+        {
+          "item": "ITEM_BULLY_HIDE",
+          "chance": 0.4,
+          "count": 1
+        },
+        {
+          "item": "ITEM_TOOTH",
+          "chance": 0.3,
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "ITEM_HI_POTION",
+          "chance": 0.15,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.15
+        }
+      ],
+      "gil_range": [
+        32,
+        65
+      ]
+    }
+  ]
+}

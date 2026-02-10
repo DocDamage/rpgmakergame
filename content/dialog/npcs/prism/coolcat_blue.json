@@ -1,0 +1,83 @@
+{
+  "npc_id": "coolcat_blue_prism",
+  "name": "Sapphire 'The Eye' Valuation",
+  "sprite": "coolcat_blue",
+  "zone": "prism",
+  "location": "Crystal Market Appraisal Booth",
+  "personality": "cool_professional_discerning",
+  "occupation": "crystal_appraiser",
+  "schedule": {
+    "morning": "examining_new_shipments",
+    "day": "appraising_for_customers",
+    "evening": "recording_values"
+  },
+  "dialog": {
+    "greeting": [
+      "Crystals for appraisal? Let the Eye see what you have.",
+      "Sapphire Valuation. I determine worth. True worth.",
+      "The market fluctuates. Beauty is eternal. I deal in both.",
+      "Step forward. Show me your gems. I shall show you their truth.",
+      "Appraisal services. No haggling. The value is the value.",
+      "In Prism, crystals are currency. But which crystals? That's my domain.",
+      "Blue sees clearly. Blue knows value. Blue... is me.",
+      "Looking to sell? Looking to buy? First, you must know what you have."
+    ],
+    "appraisal_process": "I examine clarity, color, resonance, history. A crystal is more than stone. It is memory. Power. Potential.",
+    "market_insights": "The Prism trade is complex. Fakes abound. Inferior goods flood the market. Without a trained eye, you will be cheated.",
+    "backstory": "Trained in the Gemstone Academies of the north. Could have worked for royalty. Chose Prism. The crystals here... they sing differently. I had to understand.",
+    "rumors": [
+      "The twins in the cave? They claim crystals speak to them. Perhaps. But I speak the language of VALUE.",
+      "The tunnelers found something in the deep mines. Something that doesn't fit any category. Curious.",
+      "That aeronaut surveys from above. Sees patterns we miss. His partner, though... missing. Tragic.",
+      "The white coolcat - my counterpart - deals in light, not stone. We respect each other. From a distance."
+    ],
+    "ambient_barks": [
+      "Appraisals here!",
+      "True value revealed!",
+      "No fakes pass me!",
+      "Quality only!",
+      "The Eye sees all!",
+      "Crystals have souls!"
+    ],
+    "time_of_day": {
+      "morning": "Morning light. Best for examining clarity.",
+      "noon": "Midday crowds. Many seek appraisal.",
+      "evening": "Evening calculations. Values shift like shadows.",
+      "night": "Night work. Some crystals glow. Beautiful. Valuable."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_gem",
+    "quest_name": "The Resonance Stone",
+    "stage_1_hook": "I seek a theoretical stone. The Resonance Crystal. Perfect clarity, perfect color, and supposedly... it sings. The twins speak of it. If it exists, it would be priceless. Worth more than kingdoms. Find it for me?",
+    "stage_1_active": "The Resonance Crystal, if real, would be in the deepest caves. Where crystal formations are oldest. Where the twins dwell.",
+    "stage_2_progress": "You've spoken with the twins? Do they know of the stone? Do they SING of it?",
+    "stage_2_item_needed": "resonance_crystal",
+    "stage_3_complete": "IT EXISTS! And it DOES sing! Listen! Can you hear? This discovery changes everything! Here - my most precious tool. The Lens of True Sight. May it serve you as well as it served me.",
+    "reward": "lens_of_true_sight"
+  },
+  "party_reactions": {
+    "kade": "She knows her business. I wouldn't buy a crystal without her approval.",
+    "nix7": "Appraisal methodology: sound. Value calculations: accurate. Trustworthiness: 89%.",
+    "twist": "She's so PRETTY! And SHINY! Like her crystals!",
+    "korr": "A professional. Disciplined. Focused. Admirable qualities.",
+    "renna": "She senses magical resonance in crystals. An innate gift, trained to excellence.",
+    "suresh": "She understands that value is more than coin. Wisdom beyond her years.",
+    "sova": "Useful. Knowing true value prevents being cheated. I hate being cheated.",
+    "grit": "Reminds me of supply officers. Knows exactly what everything's worth. To the credit.",
+    "ashka": "The crystals reflect light beautifully. She appreciates this. Good.",
+    "senna": "She knows everyone's business. What they have, what they want. Information is power.",
+    "callum": "She looked at my pocket crystal and told me it was glass. Saved me a lot of embarrassment."
+  },
+  "relationship_dialog": {
+    "stranger": "First appraisal is discounted. After that, standard rates.",
+    "acquaintance": "You return with more crystals? Good. I enjoy our sessions.",
+    "friend": "You bring me interesting finds. I appreciate that. Special rates for you.",
+    "best_friend": "You've brought me wonders. The Resonance Crystal most of all. Here. My private collection. Take any piece you desire."
+  },
+  "cross_npc_connections": [
+    "coolcat_white_prism: Opal. The light refractor. We do not compete. We... complement.",
+    "twins_white_prism: The echo oracles. They hear what I see. We should collaborate more.",
+    "tunneler_blue_prism: The miner brings me his best finds. I give him fair prices."
+  ]
+}

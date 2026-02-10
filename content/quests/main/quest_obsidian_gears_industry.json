@@ -1,0 +1,144 @@
+{
+  "quest_id": "obsidian_gears_industry",
+  "name": "Gears of Industry",
+  "zone": "obsidian",
+  "act": 3,
+  "prerequisites": [
+    "tide_depths_mystery"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Smog-Choked Sky",
+      "description": "Enter Obsidian and witness the industrial exploitation",
+      "npc": "union_organizer_steel",
+      "dialog_start": "You the ones asking about the Crystal? Consortium don't let just anyone near their 'corporate assets.' I'm Steel—worked the Foundries for twenty years until my lungs gave out. Now I organize. The workers are suffering, stranger. Wages cut, hours doubled, accidents covered up. And the ones at the top? They don't care. They only care about profit.",
+      "objectives": [
+        "Enter the Industrial Zone",
+        "Witness worker conditions",
+        "Meet with Steel's network"
+      ],
+      "dialog_complete": "You see it now, don't you? The smoke, the ash, the broken bodies. And beneath it all—something worse. The Void's here too. Not corrupting, no. Something else. Buying. The Consortium's been making deals. Selling souls for efficiency. We need to stop them before they sell the whole zone.",
+      "rewards": {
+        "exp": 1100,
+        "item": "workers_solidarity_badge"
+      },
+      "target_location_id": "MIC_R08_72x40"
+    },
+    {
+      "stage": 2,
+      "name": "Factory of Souls",
+      "description": "Infiltrate the main factory and discover the Void pact",
+      "npc": "whistleblower_cog",
+      "dialog_start": "Shh! Keep your voice down! I'm Cog—senior engineer, or I was until I saw the manifests. They're not just mining ore anymore. They're processing... something else. Something that screams. I think... I think they're refining Void essence. Turning corruption into fuel. If I'm right, every factory in Obsidian is basically a bomb.",
+      "objectives": [
+        "Infiltrate the Number 7 Foundry",
+        "Find evidence of Void refinement",
+        "Escape with proof"
+      ],
+      "dialog_complete": "Gods below, you were right! Those vats—they're distilling Void corruption! The workers don't even know they're handling liquid nightmare. The Consortium Board has gone completely mad. Or they've been replaced. Either way, we need to shut this down. ALL of it.",
+      "rewards": {
+        "exp": 1400,
+        "item": "void_refinement_evidence"
+      },
+      "target_location_id": "D6_FACTORY_OF_SOULS_96x80"
+    },
+    {
+      "stage": 3,
+      "name": "The Worker's Uprising",
+      "description": "Lead a rebellion to seize control of the factories",
+      "npc": "steel",
+      "dialog_start": "You got the proof? Then it's time. Time to show the Consortium that workers aren't cogs—they're PEOPLE! With your help, with those Crystals, we can turn the tide. But it's gonna get messy. People will get hurt. Maybe die. Are you willing to carry that weight, hero?",
+      "objectives": [
+        "Rally the workers",
+        "Seize the main factory complex",
+        "Confront the Consortium Board"
+      ],
+      "dialog_complete": "We did it! The Foundries are ours! The Board tried to run, but your friend with the truth-light showed everyone what they really were—Void-puppets, every single one. The workers see clearly now. We don't just want better conditions. We want a better world. And we'll help you build it.",
+      "rewards": {
+        "exp": 1700,
+        "item": "obsidian_liberation_medal"
+      },
+      "target_location_id": "D6_OBSIDIAN_96x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Crystal of Industry",
+      "description": "Claim the Crystal hidden in the Board's private vault",
+      "npc": "cog",
+      "dialog_start": "The Board's private vault—it was built around something. Something older than the Consortium, older than the industrial revolution. The Crystal of Industry. They were using it to power their Void-refinement process, but its real purpose... creation. Building. Making something from nothing. It's been perverted long enough.",
+      "objectives": [
+        "Breach the Executive Vault",
+        "Deactivate the perverted machinery",
+        "Claim the Crystal of Industry"
+      ],
+      "dialog_complete": "[The Crystal hums with potential, hungry to create rather than destroy] FOUR CRYSTALS. Half the set. Do you feel it, Kade? The world responding to your gathering? The Void feels it too. It knows you're coming. It will throw everything at you now. Stay sharp.",
+      "rewards": {
+        "exp": 2300,
+        "item": "crystal_of_industry"
+      },
+      "target_location_id": "D6_FACTORY_OF_SOULS_96x80"
+    },
+    {
+      "stage": 5,
+      "name": "The Ironclad Offer",
+      "description": "Recruit the master engineer who designed the factories",
+      "npc": "master_engineer_gearhart",
+      "dialog_start": "So. The revolution comes, and it wears the Crystals of legend. I am Gearhart—I built these factories. Designed the systems the Consortium perverted. I told them it was dangerous. They didn't listen. Profit over safety, always. If you're truly rebuilding the world, you'll need someone who understands how it was built. My genius is yours.",
+      "objectives": [
+        "Convince Gearhart to join",
+        "Help them make amends",
+        "Integrate their knowledge with the Crystals"
+      ],
+      "dialog_complete": "The Crystals of Industry and Truth, working in harmony... the possibilities are endless! Sustainable creation! Clean energy! I can undo the damage I helped cause. Give me a lab, give me resources, and I'll turn Obsidian from a blight into a beacon. This is my redemption. Let me earn it.",
+      "rewards": {
+        "exp": 1500,
+        "item": "gearhart_companion_unlocked"
+      },
+      "target_location_id": "T_CINDERSTEP_112x72"
+    },
+    {
+      "stage": 6,
+      "name": "North to Frost",
+      "description": "Learn of the Crystal of Endurance in the frozen wastes",
+      "npc": "steel",
+      "dialog_start": "Four Crystals down, three to go. The next one's in Frost—land of eternal winter. The Crystal of Endurance, they call it. Grants the power to survive what should kill you. But Frost isn't like Obsidian. No factories to seize, no workers to organize. Just ice, storms, and things that hunt in the white.",
+      "objectives": [
+        "Prepare cold-weather gear",
+        "Plan the route through the frost barrier",
+        "Receive Steel's blessing"
+      ],
+      "dialog_complete": "You're the closest thing to hope this world's seen in generations. Don't let the frost take that from you. The workers of Obsidian are with you—our forges will supply your army, our innovations will fuel your quest. When you face the Void, you'll face it with an entire industrial zone at your back.",
+      "rewards": {
+        "exp": 1600,
+        "gold": 1100,
+        "unlock": "zone_frost"
+      },
+      "target_location_id": "MIC_R12_112x56"
+    }
+  ],
+  "story_beats": [
+    "Obsidian's industrial zone is exploiting workers and refining Void essence for profit",
+    "The party leads a worker's uprising against the corrupt Consortium Board",
+    "The Crystal of Industry has been perverted but is reclaimed and purified",
+    "Master Engineer Gearhart joins, offering technological expertise",
+    "Four Crystals gathered—the midpoint of the quest"
+  ],
+  "party_reactions": {
+    "kade": "I grew up poor. Scraping by in the Dustbelt, never knowing if I'd eat tomorrow. Seeing those workers... it hit close to home. Power isn't just about fighting monsters. Sometimes it's about standing with people against systems that crush them. That might be the most important fight of all.",
+    "nix7": "Industrial exploitation patterns match historical data from pre-Shattering civilizations. The cycle repeats: innovation, exploitation, revolution, reform. However, the Void's involvement adds a new variable. Recommend close monitoring of similar zones for corruption vectors.",
+    "skysong": "I've smuggled goods for corrupt corporations before. Made good money. Seeing what that money cost... I'm done with that life. Steel's a hell of an organizer. Reminds me why I became a captain in the first place—to be free. Everyone deserves that.",
+    "vesper": "The Void-refinement process was BRILLIANTLY perverted! I mean—terrible! Awful! But scientifically fascinating. The way they stabilized volatile corruption into usable energy... if we could reverse-engineer that safely, the applications would be... ahem. I'll be good. I promise.",
+    "ven": "The workers... they fought even though they were afraid. That's real courage. I gave them some tips on guerrilla tactics—swamp warfare transfers surprisingly well to factory floors. They started calling me 'Lieutenant Ven.' I have never felt cooler.",
+    "pyra": "Fire melts steel. But fire also forges it. These people—they've been in the fire for so long. Now they're being forged into something stronger. I respect that. Also, the foundries here put ours to shame. I'm taking notes. Ember could learn from this.",
+    "abyssal": "The young ones build such strange things. Towers of metal, rivers of fire. They reshape the world faster than the Progenitors did. But they forget: the world reshapes back. The pollution here seeps into my depths. I will be glad to see it cleaned.",
+    "gearhart": "They're an eclectic bunch, these Crystal-bearers. A swamp-dweller, a princess, an ancient sea-beast... and me, the architect of industrial oppression. But they accepted me. Gave me a chance to fix what I broke. I won't waste it. The Crystals deserve better than my past."
+  },
+  "unlocks": [
+    "zone_frost",
+    "quest_frost_frozen_path",
+    "crystal_industry_ability",
+    "companion_gearhart",
+    "obsidian_alliance"
+  ]
+}

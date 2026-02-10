@@ -1,0 +1,118 @@
+{
+  "npc_id": "pigman_purple",
+  "name": "Chef Boarne",
+  "title": "Refugee Cook",
+  "zone": "capital",
+  "location": "Camp Kitchen, Resistance Quarter",
+  "description": "A portly pigman with a stained apron, working miracles with limited supplies to feed the refugees.",
+  "sprite_variant": "pigman_purple",
+  "greeting_variants": [
+    "*stirring pot* Stew's thin today. Tomorrow? Thinner. But hot!",
+    "You look hungry! Everyone hungry! Come, come—I find something.",
+    "*chopping vegetables with surprising skill* Three years. Still cooking.",
+    "Spices? Ha! Wish! We have salt. Sometimes. Salt is spice now!",
+    "You bring food? Please say you bring food. No? Is okay. Is okay.",
+    "*sniffs* I know what you ate yesterday. Don't ask how. Pigman secret.",
+    "The foodboys—they try. But cooking? Is art! Is passion! They just... move boxes.",
+    "*tastes broth* Needs... something. Everything needs something."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Chef Boarne, at your service! Once cooked for Palace nobles. Now? *gestures at camp* ...now I cook for heroes. Better job, actually. More... honest.",
+          "options": [
+            {"text": "You cooked for the Palace?", "goto": "palace_history"},
+            {"text": "Need any ingredients?", "goto": "ingredients_request"},
+            {"text": "How's the food situation?", "goto": "food_crisis"},
+            {"text": "Smells good!", "goto": "cooking_compliment"}
+          ]
+        },
+        {
+          "id": "palace_history",
+          "text": "Oh yes! Thirty years in the royal kitchen! Cooked for three monarchs! The things I made... *dreamy look* ...soufflés that touched the sky! Sauces that made grown weep! Now? *chuckles* ...now I make rocks taste like soup.",
+          "party_reactions": {
+            "garret": "Royal kitchen? You must have stories!",
+            "boarne": "Stories! Yes! And recipes! Many... lost now. But some—*taps head* —up here!"
+          },
+          "options": [
+            {"text": "Can you still make royal dishes?", "goto": "royal_cooking"},
+            {"text": "Why did you leave?", "goto": "leaving_story"}
+          ]
+        },
+        {
+          "id": "ingredients_request",
+          "text": "Always! Always need! The foodboys have basics—grains, preserved meat. But fresh? *kisses fingers* Fresh is memory now. If you find herbs, vegetables, anything growing... bring to Boarne! I make magic!",
+          "options": [
+            {"text": "What do you need specifically?", "goto": "specific_ingredients"},
+            {"text": "I'll keep an eye out.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "food_crisis",
+          "text": "*sighs* Bad. Not... not dying-bad. Vex is good leader. Finds supplies. But 'not dying' and 'living' are different, yes? People need more than calories. Need... comfort. Memory of better times. Food does this.",
+          "options": [
+            {"text": "That's very philosophical.", "goto": "philosophy"},
+            {"text": "How can I help?", "goto": "help_offer"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "comfort_food",
+    "title": "Comfort in a Bowl",
+    "description": "Help Chef Boarne gather ingredients to make a special meal that reminds the refugees of better times.",
+    "objectives": [
+      "Find wild herbs in the northern ruins (5 bunches)",
+      "Trade with Scritch for preserved spices",
+      "Catch clean fish from the underground stream",
+      "Help Boarne prepare the feast",
+      "Distribute meals to the refugee tents"
+    ],
+    "rewards": {
+      "experience": 400,
+      "reputation": {"resistance": 25, "refugees": 30},
+      "items": ["boarne_cookbook", "chef_special_stew"],
+      "unlock": "boarne_cooking_services"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*humming cooking tune* Chop the onion, shed a tear...",
+    "No no no! Too much salt! ...Is joke. Never too much salt.",
+    "You know what this stew needs? Secret ingredient. Love! Also pepper.",
+    "*smelling something* Someone is... burning something. Not me, thank sky!",
+    "The children need meat. Growing bodies! I find meat. Somehow.",
+    "*stirring rhythmically* Round and round, don't let it brown...",
+    "Once had kitchen staff of twenty! Now? Just Boarne. Is enough.",
+    "You try the soup? Is good? No? *sad oink* ...Is okay. I try harder."
+  ],
+  "cross_zone_references": {
+    "palace": "The royal kitchen... marble counters, copper pots, ingredients from every zone! *sigh* One day, maybe again.",
+    "chroma_tower": "The Tower has hydroponics, you know? Growing food without soil! If we could reach...",
+    "mire": "The Mire has wonderful mushrooms! Poisonous, mostly. But some... edible!"
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Chef! What smells so good?",
+      "response": "*beams* For you, handsome? Special portion! Extra meat!"
+    },
+    "kael": {
+      "greeting": "Sir. Your dedication is admirable.",
+      "response": "*embarrassed* Oh! Such manners! You remind me of the Palace Guard. Good memories."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Cooking meals, managing supplies",
+      "night": "Experimenting with new recipes, teaching refugees to cook"
+    },
+    "world_state_triggers": {
+      "food_shortage": "Becomes stressed, portions smaller",
+      "abundant_supplies": "Joyful, creates elaborate meals, boosts camp morale"
+    }
+  }
+}

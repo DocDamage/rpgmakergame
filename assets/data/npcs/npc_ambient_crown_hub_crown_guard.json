@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CROWN_HUB_CROWN_GUARD",
+  "name": "Crown Hub Crown Guard",
+  "title": "Watch Captain",
+  "location": "T_CROWN_HUB_112x72",
+  "coords": [
+    18,
+    23
+  ],
+  "schedule": {
+    "day": [
+      18,
+      23
+    ],
+    "night": [
+      13,
+      25
+    ],
+    "rain": [
+      20,
+      26
+    ]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "DOMINION",
+  "attitude": "professional",
+  "background": "Maintains patrol discipline and civic defense. Stationed in Crown Hub.",
+  "personality": "Direct, stern, and practical under pressure.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "security",
+    "route_warning"
+  ]
+}

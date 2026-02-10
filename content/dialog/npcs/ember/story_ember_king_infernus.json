@@ -1,0 +1,54 @@
+{
+  "npc_id": "ember_king_infernus",
+  "name": "Ember King Infernus",
+  "title": "Command Figure",
+  "zone": "ember",
+  "location": "King of Fire and Ash Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Ember King Infernus on comms. Stage 4: King of Fire and Ash. Keep formation tight and decisions tighter.",
+      "We are running Trial by Fire. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Swear the Oath of Flame."
+    ],
+    "quest_hook": "Objective stack: Swear the Oath of Flame; Receive the King's blessing; Learn the path to the Caldera. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Meet the Ember King and learn the Crystal's location. Immediate move: Swear the Oath of Flame.",
+    "quest_complete": "Stage 4 resolved: King of Fire and Ash. Primary objective secured and route stabilized. Prepare for Princess of the Pyre.",
+    "rumor": [
+      "A cooling vent in Cinderstep now exhales sparks shaped like crown sigils.",
+      "People keep repeating one clue from King of Fire and Ash: 'Learn the path to the Caldera'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn in Ember is the coolest this zone gets. Use it for long pushes.",
+    "time_noon": "Noon is peak thermal chaos. Avoid narrow vents and overhangs.",
+    "time_dusk": "Dusk lava light hides depth. Probe before every step.",
+    "time_night": "Night amplifies every furnace and every lie. Keep comms short and clear."
+  },
+  "party_reactions": {
+    "kade": "Ember King Infernus sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Ember King Infernus accepted. Probability of success improves with compliance.",
+    "twist": "Ember King Infernus talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "ember_trial_by_fire"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

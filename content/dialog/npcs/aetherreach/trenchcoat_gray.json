@@ -1,0 +1,102 @@
+{
+  "npc_id": "trenchcoat_gray_aetherreach",
+  "name": "Gray Strider",
+  "sprite": "trenchcoat_gray",
+  "zone": "aetherreach",
+  "location": "Shadowed Alley - Upper District",
+  "personality": "mysterious_cryptic",
+  "occupation": "mysterious_traveler",
+  "dialog": {
+    "greeting": [
+      "...You're being followed.",
+      "The wind carries secrets. And your name.",
+      "Gray Strider. You don't need to know more.",
+      "These streets have eyes. Watch your back.",
+      "We all wear masks. Mine just happens to be... this coat.",
+      "You're new here. Fresh. Unspoiled. For now.",
+      "Trust no one. Especially not... well, anyone."
+    ],
+    "information_offer": "Information has a price. What are you willing to pay?",
+    "warning_delivery": "The Vault calls to you. Don't answer. Not yet.",
+    "coat_philosophy": "A coat like this holds many things. Secrets. Weapons. Regrets. Mostly secrets.",
+    "haggle": [
+      "My intel is premium. Premium prices.",
+      "For the right cause? Maybe a discount.",
+      "Information wants to be free. But I want to eat.",
+      "Fine. Twenty percent off. But you owe me."
+    ],
+    "info_given": [
+      "The twins speak truth. But only half at a time.",
+      "The Remnant Vault isn't what it seems. Nothing is.",
+      "Someone in Aetherreach isn't from here. Like you.",
+      "The sky-train has a final stop. No one returns from it."
+    ],
+    "info_declined": [
+      "Your loss. Ignorance is expensive too.",
+      "Information expires. Come back, it may be gone.",
+      "Suit yourself. Secrets keep."
+    ],
+    "rumor": [
+      "The sunandmoon sees the future. But the Vault sees nothing. That's worse.",
+      "The conductor knows where all the bodies are buried. Metaphorically. I think.",
+      "The signguy paints what he sees. Sometimes he sees things that aren't there. Yet.",
+      "The Remnant Vault has a twin. Somewhere. Every lock has a key.",
+      "The foodboys aren't brothers. They're echoes. Of something older."
+    ],
+    "quest_hook": "I need access to the Vault's outer perimeter. The guards carry code-keys. Three keys. Bring them. I'll make it worth the risk.",
+    "quest_active": "Those keys burning in your pocket? Or are you still working on it?",
+    "quest_complete": "Excellent. Access granted. Here's something for your trouble. Information. And a tool.",
+    "quest_reward": "Vault-Key Replica - Opens certain restricted areas!",
+    "farewell": [
+      "Watch the shadows. They watch back.",
+      "Stay mysterious. It keeps you alive.",
+      "We never met. This never happened."
+    ],
+    "ambient_barks": [
+      "*adjusts collar mysteriously*",
+      "The walls have ears.",
+      "Trust no one.",
+      "Secrets and lies.",
+      "Shadows lengthen."
+    ],
+    "time_dawn": "Dawn is when secrets are buried. Or revealed.",
+    "time_noon": "Midday. When shadows are shortest. And most dangerous.",
+    "time_dusk": "Twilight. The between-time. My time.",
+    "time_night": "Night is honest. Everything hidden comes out."
+  },
+  "party_reactions": {
+    "kade": "Why do I feel like they know more than they're saying?",
+    "nix7": "Concealment protocols detected. Subject is... mysterious.",
+    "twist": "You look mysterious! Are you a spy? Can I be a spy too?!",
+    "korr": "There is wisdom in shadows. But also danger.",
+    "renna": "Theatrical. But potentially useful information.",
+    "suresh": "Secrets are heavy burdens. That coat must weigh much.",
+    "sova": "I don't trust people who hide their faces. Professional habit.",
+    "grit": "I've met a hundred like you in the war. Half were spies. Half were crazy.",
+    "ashka": "Mystery is boring. Fire is interesting. Got any fire?",
+    "senna": "Finally. Someone who understands discretion.",
+    "callum": "You seem... sad. Under the coat. Are you okay?",
+    "petra": "Solid stance. But hiding much. I don't trust hiders."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Fresh secrets. Interesting.",
+    "acquaintance": "You're persistent. I respect that. Or fear it.",
+    "friend": "Trusted ally. Rare in my line of... existence.",
+    "best_friend": "You're one of the few I'd take a bullet for. Metaphorically. Probably."
+  },
+  "mini_quest": {
+    "id": "vault_code_keys",
+    "title": "Perimeter Access",
+    "description": "Collect 3 Vault guard code-keys for Gray Strider",
+    "stages": {
+      "hook": "Vault guards carry code-keys. Three of them. I need them.",
+      "active": "The outer perimeter. Don't get caught. Or do. Your problem.",
+      "complete": "Perfect. Access achieved. Here's your reward. And your silence."
+    },
+    "reward": {
+      "item": "vault_key_replica",
+      "gold": 500,
+      "reputation": "shadow_contact"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "npc_id": "shoewoman_red_dustbelt",
+  "name": "Sole Sister Sue",
+  "sprite": "shoewoman_red",
+  "zone": "dustbelt",
+  "location": "Main Bazaar",
+  "personality": "enthusiastic_craftswoman",
+  "occupation": "explorer_cobbler",
+  "dialog": {
+    "greeting": [
+      "Feet hurting? I can fix that!",
+      "Sole Sister Sue, at your service! Best boots in the Dustbelt!",
+      "New shoes, new adventures! What do you need?",
+      "Your boots look TIRED, friend! Let me help!",
+      "Walked far? Of course you have! Heroes walk! I make walking better!",
+      "Sand in your shoes? I have solutions!",
+      "Every journey starts with good footwear! That's science!"
+    ],
+    "shop_open": "Explorer boots! Dune walkers! Scorpion-stompers! I've got it all!",
+    "shop_prompt": "Custom fitted! Desert tested! Adventure approved!",
+    "haggle": [
+      "Quality costs, but I'll meet you halfway!",
+      "For a fellow walker? Special price!",
+      "These soles are REINFORCED! Worth every coin!",
+      "Throw in old boots for trade-in! Fair deal!"
+    ],
+    "purchase_success": [
+      "Perfect fit! You'll walk on clouds! Dust clouds, but still!",
+      "Those'll last a thousand miles! Guaranteed!",
+      "Tread carefully! And boldly!",
+      "New shoes! New YOU!"
+    ],
+    "purchase_fail": [
+      "Good boots are an investment! Think about it!",
+      "Your feet deserve better! Come back when ready!",
+      "Can't walk on dreams alone! Though I've tried!"
+    ],
+    "rumor": [
+      "Deep-Dig Dan needs better boots. Goes through a pair a month!",
+      "Barrelman Bob wears the same size as that luchador. Weird, right?",
+      "Heard the twins in Uplands walk BAREFOOT! On purpose! Madness!",
+      "My sister Blue makes sandals. Sandals! In the desert! I love her anyway."
+    ],
+    "quest_hook": "Need special leather for a rush order! Sand-wyrm hide, from the Scorched Wastes! Dangerous, but the PAY is good! Bring me hide, I'll make you the best boots you've ever worn!",
+    "quest_active": "Any wyrm hide yet? Customer's desperate! I'm desperate!",
+    "quest_complete": "PERFECT hide! Look at this quality! Here - your boots! Custom made! Lifetime warranty!",
+    "quest_reward": "Wyrm-Skin Boots - +10 Desert Movement",
+    "farewell": [
+      "Walk safe! Walk far! Walk in comfort!",
+      "Happy trails! Happy soles!",
+      "Come back when those need re-soling!"
+    ],
+    "ambient_barks": [
+      "Best boots! Best prices!",
+      "Sore feet? I have cures!",
+      "Walk farther! Walk faster!",
+      "Your feet deserve luxury!",
+      "Cobbler's guild certified!",
+      "New shipment! New styles!"
+    ],
+    "time_dawn": "Early start? Smart! Beat the heat AND get good shoes!",
+    "time_noon": "Hot pavement! Good boots protect! Want to see?",
+    "time_dusk": "Evening stroll? I have JUST the slippers!",
+    "time_night": "Night walking? Dangerous! Get boots with grip!",
+    "post_quest_greeting": "The wyrm-hunter returns! How are the new boots fitting?",
+    "sister_mention": "Blue's in Uplands. Making sandals. I love her, but SANDALS!"
+  },
+  "party_reactions": {
+    "kade": "Finally, someone who understands the importance of good boots.",
+    "nix7": "Efficient footwear essential for optimal travel. Logical.",
+    "twist": "Do you have boots my size? Extra wide?",
+    "korr": "Sturdy craftsmanship. Respect.",
+    "renna": "Can you make boots that don't look like adventure boots?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Let's measure! Free fitting!",
+    "acquaintance": "Back already? Wearing out the merchandise! Good!",
+    "friend": "For you, I keep the premium stock! Hidden in back!",
+    "best_friend": "You're family now! Custom designs! Anything you want!"
+  },
+  "mini_quest": {
+    "id": "wyrm_hide_hunt",
+    "title": "Hide and Seek",
+    "description": "Hunt sand-wyrms in Scorched Wastes for special leather",
+    "stages": {
+      "hook": "Need sand-wyrm hide for a rush order! Dangerous, but the PAY is good! And I'll make YOU boots too!",
+      "active": "Scorched Wastes! Big wyrms! Bring hide! Don't get eaten!",
+      "complete": "This hide is PERFECT! Look at the texture! Here - your custom wyrm-skin boots! Light as feather, tough as dragon!"
+    },
+    "reward": {
+      "item": "wyrm_skin_boots",
+      "gold": 200,
+      "reputation": "sole_sister_vip"
+    }
+  }
+}

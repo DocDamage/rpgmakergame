@@ -1,0 +1,117 @@
+{
+  "npc_id": "lucha_red",
+  "name": "Fuego",
+  "title": "Freedom Fighter",
+  "zone": "capital",
+  "location": "Resistance Barracks, Western Ruins",
+  "description": "A fiery luchador in red mask, fighting for freedom with flamboyant style and unbreakable spirit.",
+  "sprite_variant": "lucha_red",
+  "greeting_variants": [
+    "*flexes* FUEGO! The Flame of Freedom! At your service!",
+    "You face oppression? You face FUEGO!",
+    "*poses dramatically* The mask chooses the hero! And this mask? CHOSE FUEGO!",
+    "Vex plans. Boulder guards. FUEGO FIGHTS!",
+    "*shadow boxes* Every punch for justice! Every kick for hope!",
+    "The Void fears nothing? FUEGO will teach it fear!",
+    "*pointing at you* You have the heart of a luchador! I see it!",
+    "Three falls mean nothing when freedom is on the line!"
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "FUEGO! Once champion of the ring! Now champion of the PEOPLE! The Void took my arena, my fans, my world! But it cannot take FUEGO'S SPIRIT!",
+          "options": [
+            {"text": "You're... enthusiastic.", "goto": "enthusiasm"},
+            {"text": "How do you fight the Void?", "goto": "void_fighting"},
+            {"text": "Need a partner?", "goto": "teamup"},
+            {"text": "Good luck!", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "enthusiasm",
+          "text": "*strikes pose* Enthusiasm is FUEGO'S FUEL! When people see FUEGO, they see that WE WILL NOT FALL! That the fight continues! That HOPE LIVES!",
+          "party_reactions": {
+            "garret": "Now THIS is my kind of energy!",
+            "fuego": "*high fives Garret* YOU understand! SPIRIT BROTHERS!"
+          },
+          "options": [
+            {"text": "That's inspiring.", "goto": "inspiration"},
+            {"text": "Doesn't the mask get hot?", "goto": "mask_talk"}
+          ]
+        },
+        {
+          "id": "void_fighting",
+          "text": "The Void is strong! But FUEGO is STRONGER! It attacks the mind? FUEGO has IRON WILL! It warps reality? FUEGO has UNBREAKABLE SPIRIT! Every time it pushes, FUEGO PUSHES BACK!",
+          "options": [
+            {"text": "Show me your moves.", "goto": "demonstration"},
+            {"text": "Can you train me?", "goto": "training_offer"}
+          ]
+        },
+        {
+          "id": "teamup",
+          "text": "*eyes shine* A TAG TEAM PARTNER?! FUEGO has waited for this! Together we will be UNSTOPPABLE! The Void will TREMBLE! The people will CHEER!",
+          "options": [
+            {"text": "Let's do it!", "goto": "team_accept", "flags": {"fuego_ally": true}},
+            {"text": "Maybe later.", "goto": "exit"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "liberation_match",
+    "title": "The Liberation Match",
+    "description": "Help Fuego liberate a captured supply cache by defeating the void-touched guardian in a dramatic showdown.",
+    "objectives": [
+      "Meet Fuego at the captured warehouse",
+      "Clear the outer guards",
+      "Defeat the Void Champion in combat",
+      "Recover the supply cache",
+      "Celebrate victory with Fuego"
+    ],
+    "rewards": {
+      "experience": 600,
+      "reputation": {"resistance": 35, "luchadors": 40},
+      "items": ["fuego_mask_replica", "luchador_championship_belt"]
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*warming up* FUEGO! IS! READY!",
+    "The people need heroes! FUEGO provides!",
+    "*shadow boxing* One two! One two! FOR JUSTICE!",
+    "Mask never comes off! Secret identity! Important!",
+    "*to child* You! Small one! You have fighting spirit! Train hard!",
+    "The Void picked the WRONG world to invade!",
+    "*flexing for refugees* See? Strong! We are ALL strong!",
+    "FUEGO! NEVER! GIVES! UP!"
+  ],
+  "cross_zone_references": {
+    "ember": "The Ember has luchadors too! FUEGO will visit! Exchange techniques!",
+    "chroma_tower": "A gold sumo in the Tower! Worthy opponent! FUEGO dreams of this match!",
+    "palace": "The old arena... FUEGO fought there. Greatest match of life. Before."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "FUEGO! The legend himself!",
+      "response": "GARRET! The sly fox! Together we are DYNAMIC DUO!"
+    },
+    "kael": {
+      "greeting": "Your spirit is... impressive.",
+      "response": "CAPTAIN! Your discipline! FUEGO respects! But needs more FLAIR!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Training, posing for refugees, boosting morale",
+      "night": "Night raids on Void positions, patrols"
+    },
+    "world_state_triggers": {
+      "battle_join": "Dramatic entrance: 'DID SOMEONE CALL FOR A HERO?!'",
+      "victory": "Celebration pose: 'ANOTHER VICTORY FOR THE FORCES OF GOOD!'"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "npc_id": "conductor_aetherreach",
+  "name": "Trackmaster Tiberius",
+  "sprite": "conductor",
+  "zone": "aetherreach",
+  "location": "Sky-Train Station",
+  "personality": "punctual_dignified",
+  "occupation": "sky_train_operator",
+  "dialog": {
+    "greeting": [
+      "All aboard! The sky-train waits for no one!",
+      "Trackmaster Tiberius, at your service! Punctuality is my passion!",
+      "Tickets, please! Just kidding! I don't check tickets!",
+      "Welcome to the Aether Express! Destination: everywhere!",
+      "The train departs precisely on time! Early, actually! I'm that good!",
+      "Need passage? The rails in the sky are always open!",
+      "Step aboard! Mind the gap! It's a LONG way down!"
+    ],
+    "schedule_inquiry": "Next departure: always! The Aether Express never stops! Well, it stops at stops. But metaphorically? Never stopping!",
+    "route_explanation": "We traverse the Celestial Rails! Floating tracks held up by... honestly, I'm not sure! Ancient magic! Don't question it!",
+    "ticket_purchase": "One-way or round-trip? We also offer the unlimited pass! For the truly adventurous!",
+    "haggle": [
+      "Fares are set by the Celestial Rail Authority! Non-negotiable!",
+      "I could... lose some paperwork? Ten percent off!",
+      "For a charming passenger? I'll waive the luggage fee!",
+      "Student discount? You don't look like a student! But okay!"
+    ],
+    "purchase_success": [
+      "Ticket punched! Enjoy your journey!",
+      "Welcome aboard! The dining car serves actual food!",
+      "Your compartment is ready! Watch your head!",
+      "All aboard! The rails await!"
+    ],
+    "purchase_fail": [
+      "No ticket, no train! Rules are rules!",
+      "The rails require maintenance! That costs money!",
+      "Perhaps walking suits your budget better?"
+    ],
+    "rumor": [
+      "The Remnant Vault causes interference with our signals. Trains go quiet near it.",
+      "The twins predicted a 'derailment of fate.' I check my bolts twice now!",
+      "They say the sunandmoon knows where every train is at all times. Creepy!",
+      "Red aeronaut once tried to race the train. He lost! Badly!",
+      "The trenchcoat passenger never shows their ticket. I let them ride anyway. Intimidated!"
+    ],
+    "quest_hook": "A section of Celestial Rail has gone dark! Near the Remnant Vault! I need someone to investigate! The trains MUST run on time!",
+    "quest_active": "Any news on the dark rail section? My schedule is in shambles!",
+    "quest_complete": "Repaired! Brilliant! The rails sing again! Here - take this Rail-Pass. Unlimited rides! Lifetime!",
+    "quest_reward": "Lifetime Rail Pass - Free sky-train travel forever!",
+    "farewell": [
+      "Mind the gap! Enjoy the journey!",
+      "All aboard! ...When you're ready! No rush!",
+      "Safe travels on the celestial rails!"
+    ],
+    "ambient_barks": [
+      "ALL ABOARD!",
+      "Tickets! Tickets! ...Metaphorically!",
+      "On time! Always on time!",
+      "Mind the gap! It's important!",
+      "Next stop: ADVENTURE! Or the next station!"
+    ],
+    "time_dawn": "Morning express! The sunrise special! Beautiful views!",
+    "time_noon": "Midday service! Peak efficiency!",
+    "time_dusk": "Twilight train! Romantic! Atmospheric!",
+    "time_night": "The night rail! Sleepers only! Quiet car mandatory!"
+  },
+  "party_reactions": {
+    "kade": "All aboard? Really?",
+    "nix7": "Where does this one go? Processing... destination unclear.",
+    "twist": "CHOO CHOO! ...Is that right? CHOO CHOO!",
+    "korr": "A noble profession. Keeping schedules is honorable work.",
+    "renna": "Floating tracks? I'd like to see the engineering schematics.",
+    "suresh": "The journey matters more than the destination. But punctuality helps.",
+    "sova": "Reliable transport? That's rare. I respect it.",
+    "grit": "I've seen the rail mechanism. Don't ask questions. Just ride.",
+    "ashka": "Does the train ever go faster? Like, MUCH faster?",
+    "senna": "Ever smuggle anything interesting? On your train?",
+    "callum": "So organized! So efficient! I love it!",
+    "petra": "Solid. Dependable. Like a good foundation."
+  },
+  "relationship_dialog": {
+    "stranger": "First time on the sky-train? Hold on tight!",
+    "acquaintance": "Back again! Becoming a regular commuter!",
+    "friend": "My favorite passenger! I've saved you the window seat!",
+    "best_friend": "You! Family, practically! Ride free! Always!"
+  },
+  "mini_quest": {
+    "id": "dark_rail_section",
+    "title": "The Silent Rails",
+    "description": "Investigate the dark section of Celestial Rail near Remnant Vault",
+    "stages": {
+      "hook": "A rail section has gone DARK! Near the Vault! I need answers!",
+      "active": "Check the third junction past the eastern platform. Bring light!",
+      "complete": "The rails sing again! My schedule is saved! Lifetime pass! Yours!"
+    },
+    "reward": {
+      "item": "lifetime_rail_pass",
+      "gold": 400,
+      "reputation": "celestial_rail_vip"
+    }
+  }
+}

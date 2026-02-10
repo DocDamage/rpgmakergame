@@ -1,0 +1,54 @@
+{
+  "npc_id": "chronos",
+  "name": "Chronos",
+  "title": "Temporal Sovereign",
+  "zone": "chrono",
+  "location": "All Roads Lead Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Chronos on comms. Stage 6: All Roads Lead. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps.",
+      "Action first, panic never. Start with: Rally all zone allies."
+    ],
+    "quest_hook": "Objective stack: Rally all zone allies; Consolidate the alliance forces; March on the Capital. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Gather allies and prepare for the assault on the Capital. Immediate move: Rally all zone allies.",
+    "quest_complete": "Stage 6 resolved: All Roads Lead. Primary objective secured and route stabilized. Prepare for Epilogue Transition.",
+    "rumor": [
+      "Citizens keep meeting tomorrow versions of themselves and borrowing bad advice.",
+      "People keep repeating one clue from All Roads Lead: 'March on the Capital'.",
+      "I put fear on a schedule. It keeps missing meetings."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Chronos sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Chronos accepted. Probability of success improves with compliance.",
+    "twist": "Chronos talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

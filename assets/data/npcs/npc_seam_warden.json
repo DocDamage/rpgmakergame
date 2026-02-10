@@ -1,0 +1,49 @@
+{
+  "id": "NPC_SEAM_WARDEN",
+  "name": "Seam Warden",
+  "title": "Postgame Arbiter",
+  "location": "T_AETHERREACH_112x72",
+  "coords": [
+    56,
+    30
+  ],
+  "schedule": {
+    "day": [
+      56,
+      30
+    ],
+    "night": [
+      56,
+      30
+    ],
+    "rain": [
+      56,
+      30
+    ]
+  },
+  "sprite": "NPC_MASTER_SMITH",
+  "portrait": "spr_seam_warden_portrait",
+  "dialog_tree": "DT_SEAM_WARDEN_MAIN",
+  "shop": "SHOP_AETHERREACH_ENDGAME",
+  "quests": [
+    "Q_ALL_RELICS",
+    "Q_SHRINE_TRIALS",
+    "Q_TOWER_ASCENT"
+  ],
+  "faction": "AETHERREACH",
+  "attitude": "stern",
+  "background": "Guardian of Aetherreach who regulates post-game access and Foundation attunement rites.",
+  "personality": "Measured and ceremonial, but pragmatic when stakes are high.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "quest_giver",
+    "endgame_vendor",
+    "attunement"
+  ],
+  "voice_lines": {
+    "greet": "vo_seam_warden_greet"
+  }
+}

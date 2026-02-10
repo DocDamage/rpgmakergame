@@ -1,0 +1,54 @@
+{
+  "npc_id": "princess_pyra",
+  "name": "Princess Pyra",
+  "title": "Command Figure",
+  "zone": "ember",
+  "location": "Princess of the Pyre Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "formal_ruthless_controlled",
+  "occupation": "regional_authority",
+  "dialog": {
+    "greeting": [
+      "Princess Pyra on comms. Stage 5: Princess of the Pyre. Keep formation tight and decisions tighter.",
+      "We are running Trial by Fire. Objective drift gets teams buried.",
+      "If your shadow starts giving tactical advice, charge it rent and keep walking.",
+      "Action first, panic never. Start with: Follow Pyra through lava tubes."
+    ],
+    "quest_hook": "Objective stack: Follow Pyra through lava tubes; Solve ancient Ember puzzles; Reach the Fire Primordial's lair. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Journey with Princess Pyra to the Caldera of Trials. Immediate move: Follow Pyra through lava tubes.",
+    "quest_complete": "Stage 5 resolved: Princess of the Pyre. Primary objective secured and route stabilized. Prepare for The Fire Primordial.",
+    "rumor": [
+      "Someone forged a blade that rings like a choir bell when danger is near.",
+      "People keep repeating one clue from Princess of the Pyre: 'Reach the Fire Primordial's lair'.",
+      "The walls keep whispering patch notes. I only trust the ones with timestamps."
+    ],
+    "ambient_barks": [
+      "Order first.",
+      "No dissent in motion.",
+      "Proceed by decree.",
+      "Discipline holds."
+    ],
+    "time_dawn": "Dawn in Ember is the coolest this zone gets. Use it for long pushes.",
+    "time_noon": "Noon is peak thermal chaos. Avoid narrow vents and overhangs.",
+    "time_dusk": "Dusk lava light hides depth. Probe before every step.",
+    "time_night": "Night amplifies every furnace and every lie. Keep comms short and clear."
+  },
+  "party_reactions": {
+    "kade": "Princess Pyra sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Princess Pyra accepted. Probability of success improves with compliance.",
+    "twist": "Princess Pyra talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "ember_trial_by_fire"
+    ],
+    "fallback_dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+    "world_break_aware": true
+  }
+}

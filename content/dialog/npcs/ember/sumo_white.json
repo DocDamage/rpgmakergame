@@ -1,0 +1,72 @@
+{
+  "npc_id": "sumo_white_ember",
+  "name": "Guardian Magmamoto",
+  "sprite": "sumo_white",
+  "zone": "ember",
+  "location": "Sacred Forge Entrance",
+  "personality": "stoic_disciplined",
+  "occupation": "forge_guardian",
+  "schedule": "always_vigilant",
+  "dialog": {
+    "greeting": [
+      "Halt. The sacred forge must not be disturbed.",
+      "You may not pass... yet. State your purpose.",
+      "I am Guardian Magmamoto. This forge is under my protection.",
+      "The flames within are ancient. Respect them.",
+      "You return. Have you found center?",
+      "Approach with reverence. The forge judges all.",
+      "I have guarded this place for twenty years. It has changed me.",
+      "Many seek the forge's power. Few are worthy."
+    ],
+    "challenge": "Beyond lies the Sacred Forge. Only the balanced may enter. Are you balanced?",
+    "warning": "The forge shows you truth. Many cannot bear truth.",
+    "recognition_high_rep": "Ah. You carry the weight of good deeds. The forge welcomes such weight.",
+    "advice": "In the forge's heat, impurities burn away. This is true for metal. Also for souls.",
+    "let_pass": "You may enter. Remember: the forge reflects what you bring to it.",
+    "personal_philosophy": "Strength is not force. Strength is endurance. I endure. Therefore I am strong.",
+    "rumor": [
+      "The forge was built before the Collapse. Its fires are older than memory.",
+      "Prism has crystal chambers. Similar purpose. Different element.",
+      "Frost has the opposite. Cold so deep it burns. Balance in all things.",
+      "Tide's depths hold pressure. Another kind of forge."
+    ],
+    "combat_bark": "You mistake my stillness for weakness! HI-YAH!",
+    "farewell": [
+      "Go in balance. Return in balance.",
+      "The forge remembers those who enter.",
+      "Stay centered. Even in chaos.",
+      "Return when you are ready for truth."
+    ],
+    "ambient_barks": [
+      "Stillness is strength.",
+      "Breathe. Center. Focus.",
+      "The forge waits.",
+      "Patience is power.",
+      "Only the worthy.",
+      "Balance in all things."
+    ],
+    "time_dawn": "Dawn brings new seekers. I am ready.",
+    "time_noon": "The sun peaks. The forge burns brightest. Good time for judgment.",
+    "time_dusk": "Evening quiet. Contemplation hour.",
+    "time_night": "Night is deepest stillness. The forge glows. I watch."
+  },
+  "party_reactions": {
+    "kade": "I will definitely not be wrestling you. Ever.",
+    "nix7": "Center of gravity: optimal. Stance: perfect. Threat assessment: high.",
+    "twist": "WHOA! You're BIG! Can we PUSH each other?!",
+    "korr": "True discipline shows in stillness. You are disciplined.",
+    "renna": "Do you meditate? Your aura suggests deep contemplation.",
+    "suresh": "Guardianship is sacred duty. You honor your post.",
+    "sova": "I wouldn't want to fight you. I'd lose. Quickly.",
+    "grit": "Seen your type in elite units. Unmovable. Unstoppable.",
+    "ashka": "Fire runs through you. Not just around you.",
+    "senna": "Still water runs deep. Or still magma, in this case.",
+    "callum": "You look very... solid. Is that comfortable?"
+  },
+  "relationship_dialog": {
+    "stranger": "Stranger. State your purpose.",
+    "acquaintance": "I recognize you. You return with questions.",
+    "friend": "Friend. The forge welcomes you. As do I.",
+    "best_friend": "Old friend. You bring balance to this place. Enter freely."
+  }
+}

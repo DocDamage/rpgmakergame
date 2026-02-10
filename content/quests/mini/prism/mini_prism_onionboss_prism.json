@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_onionboss_prism",
+  "name": "Crystal Onion Armor",
+  "zone": "prism",
+  "giver": "Onion Boss (Blue and Red)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "*dual-layered rustling* We have heard of Prism crystals! POWER crystals! We need them for ULTIMATE armor! Layer upon layer! SPARKLE upon SPARKLE! Bring us Prism shards! Many!",
+      "objective": "Collect 15 Prism crystal shards for the Onion Bosses' armor"
+    },
+    "progress": {
+      "dialog": "*impatient wobbling* More crystals! More SPARKLE! We must be the SHINIEST!",
+      "objective": "Continue gathering Prism crystal shards"
+    },
+    "complete": {
+      "dialog": "*ecstatic jiggling* SPARKLES! We BLIND enemies with GLORY! Here - Crystal Onion Ring! Makes YOU shiny too! Layers of protection! *proud double pose*",
+      "rewards": {"gold": 450, "item": "crystal_onion_ring", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "Two onions. Working together. In crystal armor. Sure.",
+    "twist": "They look like disco balls! I love it!",
+    "nix7": "Refractive index of onion-crystal composite: fascinating."
+  },
+  "hidden_outcome": "If you bring 30 crystal shards, the Onion Bosses fuse into 'Super Onion' and give you the 'Onion Ring' - ultimate accessory"
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_snow_heroics",
+  "name": "Hero's Burden",
+  "zone": "mire",
+  "giver": "Snow (Self-Proclaimed Hero)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "There's a village on the Mire's edge being harassed by beasts. A HERO is needed! That's me! ...And you too, I guess! Let's go save some people!",
+      "objective": "Accompany Snow to defend the Mire edge village from beast attacks"
+    },
+    "progress": {
+      "dialog": "The beasts are coming! I've got the big ones! You take the small fry!",
+      "objective": "Defeat waves of beasts attacking the village"
+    },
+    "complete": {
+      "dialog": "We saved them! The village is safe! Another win for Team NORA! Here - my coat. It's seen a lot of battles. Maybe it'll protect you too.",
+      "rewards": {"gold": 450, "item": "snows_combat_coat", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "He's reckless. But his heart's in the right place.",
+    "twist": "He punched that monster in the FACE! Awesome!",
+    "vex": "True heroism is not about glory. He will learn this."
+  },
+  "hidden_outcome": "If you protect all villagers without any damage to buildings, Snow gives you 'Umbra' - a powerful coat with high defense"
+}

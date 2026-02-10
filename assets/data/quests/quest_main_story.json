@@ -1,0 +1,551 @@
+{
+  "id": "Q_MAIN_STORY",
+  "quests": [
+    {
+      "id": "Q_PROLOGUE",
+      "name": "The Dust Belt",
+      "type": "main",
+      "act": 1,
+      "giver": "AUTO_START",
+      "prerequisites": [],
+      "description": "Begin your journey in the frontier town of Dusthaven.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Arrive in Dusthaven",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BROKER_VANE"
+        },
+        {
+          "id": 2,
+          "description": "Learn about the Relics",
+          "target_location": "T_DUSTHAVEN_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_BROKER_VANE"
+        },
+        {
+          "id": 3,
+          "description": "Travel to Ashveil Sanctuary",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "travel"
+        }
+      ],
+      "rewards": {
+        "xp": 100,
+        "gil": 100,
+        "items": [
+          {
+            "item": "ITEM_POTION",
+            "count": 3
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_FIRST_RELIC"
+      ],
+      "flags_set": [
+        "Q_PROLOGUE_COMPLETE"
+      ]
+    },
+    {
+      "id": "Q_FIRST_RELIC",
+      "name": "The Growth Foundation",
+      "type": "main",
+      "act": 1,
+      "giver": "NPC_MIRA_THORN",
+      "prerequisites": [
+        "Q_PROLOGUE"
+      ],
+      "description": "The ruins near Ashveil hide the first Foundation. Retrieve it.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Investigate the missing scavengers",
+          "target_location": "MIC_R02_80x48",
+          "objective": "investigate"
+        },
+        {
+          "id": 2,
+          "description": "Enter the Ruins of Ashveil",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "enter"
+        },
+        {
+          "id": 3,
+          "description": "Navigate the ruins and solve puzzles",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "solve_puzzle"
+        },
+        {
+          "id": 4,
+          "description": "Defeat The Bloom",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_BLOOM"
+        },
+        {
+          "id": 5,
+          "description": "Claim the Growth Foundation",
+          "target_location": "D1_RUINS_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_GROWTH_FOUNDATION"
+        },
+        {
+          "id": 6,
+          "description": "Return to Mira Thorn",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_MIRA_THORN"
+        }
+      ],
+      "rewards": {
+        "xp": 1000,
+        "gil": 500,
+        "items": [
+          {
+            "item": "ITEM_HI_POTION",
+            "count": 2
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_MARSHLAND_MYSTERIES"
+      ],
+      "flags_set": [
+        "Q_FIRST_RELIC_COMPLETE",
+        "D1_CLEARED"
+      ]
+    },
+    {
+      "id": "Q_SECOND_RELIC",
+      "name": "The Motion Foundation",
+      "type": "main",
+      "act": 1,
+      "giver": "NPC_SISTER_AMARA",
+      "prerequisites": [
+        "Q_FIRST_RELIC"
+      ],
+      "description": "The Fungal Depths hold the second Foundation. Beware the spores.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Travel to Mirewatch",
+          "target_location": "T_MIREWATCH_112x72",
+          "objective": "travel"
+        },
+        {
+          "id": 2,
+          "description": "Speak with Sister Amara",
+          "target_location": "T_MIREWATCH_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_SISTER_AMARA"
+        },
+        {
+          "id": 3,
+          "description": "Enter the Fungal Depths",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "enter"
+        },
+        {
+          "id": 4,
+          "description": "Navigate gravity puzzles",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "solve_puzzle"
+        },
+        {
+          "id": 5,
+          "description": "Defeat The Sporocyte",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_SPOROCYTE"
+        },
+        {
+          "id": 6,
+          "description": "Claim the Motion Foundation",
+          "target_location": "D2_FUNGAL_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_MOTION_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gil": 750,
+        "items": [
+          {
+            "item": "ITEM_ETHER",
+            "count": 2
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_THIRD_RELIC"
+      ],
+      "flags_set": [
+        "Q_SECOND_RELIC_COMPLETE",
+        "D2_CLEARED"
+      ]
+    },
+    {
+      "id": "Q_THIRD_RELIC",
+      "name": "The Light Foundation",
+      "type": "main",
+      "act": 1,
+      "giver": "NPC_OLD_KELL",
+      "prerequisites": [
+        "Q_SECOND_RELIC"
+      ],
+      "description": "The Crystal Caverns await. Solve the prism puzzles.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Travel to Prismridge",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objective": "travel"
+        },
+        {
+          "id": 2,
+          "description": "Consult Old Kell's maps",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objective": "talk",
+          "target_npc": "NPC_OLD_KELL"
+        },
+        {
+          "id": 3,
+          "description": "Enter Crystal Caverns",
+          "target_location": "D3_CRYSTAL_96x96",
+          "objective": "enter"
+        },
+        {
+          "id": 4,
+          "description": "Solve light puzzles",
+          "target_location": "D3_CRYSTAL_96x96",
+          "objective": "solve_puzzle"
+        },
+        {
+          "id": 5,
+          "description": "Defeat The Prism",
+          "target_location": "D3_CRYSTAL_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_PRISM"
+        },
+        {
+          "id": 6,
+          "description": "Claim the Light Foundation",
+          "target_location": "D3_CRYSTAL_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_LIGHT_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 2000,
+        "gil": 1000,
+        "items": [
+          {
+            "item": "ITEM_PRISM_STAFF",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_FOURTH_RELIC"
+      ],
+      "flags_set": [
+        "Q_THIRD_RELIC_COMPLETE",
+        "D3_CLEARED",
+        "ACT2_UNLOCKED"
+      ]
+    },
+    {
+      "id": "Q_FOURTH_RELIC",
+      "name": "The Heat Foundation",
+      "type": "main",
+      "act": 2,
+      "giver": "AUTO_START",
+      "prerequisites": [
+        "Q_THIRD_RELIC"
+      ],
+      "description": "Skyspire Temple holds the Foundation of Heat. The World Break awaits.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Reach Skyspire Temple",
+          "target_location": "D4_SKYSPIRE_96x96",
+          "objective": "enter"
+        },
+        {
+          "id": 2,
+          "description": "Climb the temple terraces",
+          "target_location": "D4_SKYSPIRE_96x96",
+          "objective": "navigate"
+        },
+        {
+          "id": 3,
+          "description": "Defeat The Inferno",
+          "target_location": "D4_SKYSPIRE_96x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_INFERNO"
+        },
+        {
+          "id": 4,
+          "description": "Claim the Heat Foundation",
+          "target_location": "D4_SKYSPIRE_96x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_HEAT_FOUNDATION"
+        },
+        {
+          "id": 5,
+          "description": "Witness the World Break",
+          "target_location": "D4_SKYSPIRE_96x96",
+          "objective": "story_event"
+        }
+      ],
+      "rewards": {
+        "xp": 3000,
+        "gil": 1500,
+        "items": [
+          {
+            "item": "ITEM_RELIC_HEAT_FOUNDATION",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_WORLD_BREACHED",
+        "Q_FIFTH_RELIC"
+      ],
+      "flags_set": [
+        "Q_FOURTH_RELIC_COMPLETE",
+        "D4_CLEARED",
+        "WORLD_BREAK_TRIGGERED"
+      ]
+    },
+    {
+      "id": "Q_WORLD_BREACHED",
+      "name": "The World Breached",
+      "type": "main",
+      "act": 2,
+      "giver": "AUTO_START",
+      "prerequisites": [
+        "Q_FOURTH_RELIC"
+      ],
+      "description": "The Omega pedestal chain has destabilized Orion. Regroup, stabilize Nix, and coordinate the counteroffensive.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Return to Ashveil",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "travel"
+        },
+        {
+          "id": 2,
+          "description": "Stabilize Nix and discuss next steps with the party",
+          "target_location": "T_ASHVEIL_112x72",
+          "objective": "story_event"
+        }
+      ],
+      "rewards": {
+        "xp": 500,
+        "gil": 0
+      },
+      "unlocks": [
+        "Q_RECRUIT_KORR",
+        "Q_RESISTANCE_PLOT"
+      ],
+      "flags_set": [
+        "WORLD_BREACH_ACKNOWLEDGED"
+      ]
+    },
+    {
+      "id": "Q_EIGHTH_RELIC",
+      "name": "The Shadow Foundation",
+      "type": "main",
+      "act": 3,
+      "giver": "NPC_RESISTANCE_CONTACT",
+      "prerequisites": [
+        "Q_SEVENTH_RELIC"
+      ],
+      "description": "The final Foundation lies in the Void Nexus. The end approaches.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Enter the Void Nexus",
+          "target_location": "D8_VOID_112x96",
+          "objective": "enter"
+        },
+        {
+          "id": 2,
+          "description": "Navigate void architecture",
+          "target_location": "D8_VOID_112x96",
+          "objective": "navigate"
+        },
+        {
+          "id": 3,
+          "description": "Defeat The Voidhound",
+          "target_location": "D8_VOID_112x96",
+          "objective": "defeat",
+          "target_boss": "BOSS_THE_VOIDHOUND"
+        },
+        {
+          "id": 4,
+          "description": "Claim the Shadow Foundation",
+          "target_location": "D8_VOID_112x96",
+          "objective": "acquire",
+          "target_item": "ITEM_RELIC_SHADOW_FOUNDATION"
+        }
+      ],
+      "rewards": {
+        "xp": 8000,
+        "gil": 4000,
+        "items": [
+          {
+            "item": "ITEM_RELIC_SHADOW_FOUNDATION",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_ALL_RELICS"
+      ],
+      "flags_set": [
+        "Q_EIGHTH_RELIC_COMPLETE",
+        "D8_CLEARED",
+        "ALL_FOUNDATIONS_COLLECTED"
+      ]
+    },
+    {
+      "id": "Q_TOWER_ASCENT",
+      "name": "Ascent of the Tower",
+      "type": "main",
+      "act": 3,
+      "giver": "NPC_SEAM_WARDEN",
+      "prerequisites": [
+        "Q_ALL_RELICS"
+      ],
+      "description": "Challenge the Tower. Face Mercer and those who came before.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Enter the Tower",
+          "target_location": "TWR_LOBBY_96x64",
+          "objective": "enter"
+        },
+        {
+          "id": 2,
+          "description": "Defeat Dax Kaine (F10)",
+          "target_location": "TWR_ARENA_F10_48x48",
+          "objective": "defeat",
+          "target_boss": "BOSS_DAX_KAINE"
+        },
+        {
+          "id": 3,
+          "description": "Defeat Mercer (F50)",
+          "target_location": "TWR_ARENA_F50_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_MERCER"
+        },
+        {
+          "id": 4,
+          "description": "Defeat Alexander (F100)",
+          "target_location": "TWR_ARENA_F100_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_ALEXANDER"
+        }
+      ],
+      "rewards": {
+        "xp": 15000,
+        "gil": 8000,
+        "items": [
+          {
+            "item": "ITEM_TOWER_CLEARANCE",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_PALACE_OF_FATE"
+      ],
+      "flags_set": [
+        "Q_TOWER_ASCENT_COMPLETE",
+        "TOWER_CLEARED"
+      ]
+    },
+    {
+      "id": "Q_PALACE_OF_FATE",
+      "name": "The Palace of Fate",
+      "type": "main",
+      "act": 3,
+      "giver": "AUTO_START",
+      "prerequisites": [
+        "Q_TOWER_ASCENT"
+      ],
+      "description": "The final confrontation awaits in the Progenitor's Palace.",
+      "steps": [
+        {
+          "id": 1,
+          "description": "Reach the Palace",
+          "target_location": "D_PALACE_128x96",
+          "objective": "enter"
+        },
+        {
+          "id": 2,
+          "description": "Defeat the Elemental Lords (F1)",
+          "target_location": "PAL_F1_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_ELEMENTAL_LORDS"
+        },
+        {
+          "id": 3,
+          "description": "Defeat the Chronowarden (F2)",
+          "target_location": "PAL_F2_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_CHRONOWARDEN"
+        },
+        {
+          "id": 4,
+          "description": "Defeat the Void Empress (F3)",
+          "target_location": "PAL_F3_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_VOID_EMPRESS"
+        },
+        {
+          "id": 5,
+          "description": "Defeat the Ancient Drake (F4)",
+          "target_location": "PAL_F4_64x64",
+          "objective": "defeat",
+          "target_boss": "BOSS_ANCIENT_DRAKE"
+        },
+        {
+          "id": 6,
+          "description": "Defeat the Progenitor Engine (F5)",
+          "target_location": "PAL_F5_80x80",
+          "objective": "defeat",
+          "target_boss": "BOSS_PROGENITOR_ENGINE"
+        }
+      ],
+      "rewards": {
+        "xp": 50000,
+        "gil": 25000,
+        "items": [
+          {
+            "item": "ITEM_TRUE_ENDING_KEY",
+            "count": 1
+          },
+          {
+            "item": "ITEM_PROGENITOR_CROWN",
+            "count": 1
+          }
+        ]
+      },
+      "unlocks": [
+        "Q_EPILOGUE",
+        "POST_GAME"
+      ],
+      "flags_set": [
+        "GAME_CLEARED",
+        "STORY_COMPLETE",
+        "POST_GAME"
+      ]
+    }
+  ]
+}

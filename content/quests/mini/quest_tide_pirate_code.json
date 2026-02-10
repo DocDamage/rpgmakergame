@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_pirate_code",
+  "name": "The Brinegate Code",
+  "zone": "tide",
+  "giver": "barrelman_metal",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Someone's been raiding merchant ships disguised as the Red Tide pirates! But Captain Saltbeard denies it, and I believe him. Someone's framing the pirates! Find out who's really behind these attacks before the Navy starts a war!",
+      "objective": "Investigate the fake pirate attacks on merchant ships"
+    },
+    "progress": {
+      "dialog": "Clues point to a smuggling ring using stolen pirate flags! Their hideout is in the Smuggler's Caves! Infiltrate their base and find proof of their deception before they strike again!",
+      "objective": "Infiltrate the smuggler's cave and gather evidence"
+    },
+    "complete": {
+      "dialog": "The smuggling ring exposed! The Navy arrested the real culprits, and the pirates are cleared! Captain Saltbeard sends his thanks—and this Pirate's Compass! It always points toward the nearest hidden treasure!",
+      "rewards": {
+        "exp": 950,
+        "gold": 800,
+        "item": "pirates_compass"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Real pirates aren't the bad guys? What a twist!",
+    "twist": "Smugglers with no honor. Despicable.",
+    "nix7": "Criminal investigation: complete. Justice: served."
+  }
+}

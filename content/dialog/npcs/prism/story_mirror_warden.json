@@ -1,0 +1,54 @@
+{
+  "npc_id": "mirror_warden",
+  "name": "Mirror Warden",
+  "title": "Field Commander",
+  "zone": "prism",
+  "location": "Mirror of the Soul Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "disciplined_guarded_decisive",
+  "occupation": "security_lead",
+  "dialog": {
+    "greeting": [
+      "Mirror Warden on comms. Stage 3: Mirror of the Soul. Keep formation tight and decisions tighter.",
+      "We are running Shattered Light. Objective drift gets teams buried.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go.",
+      "Action first, panic never. Start with: Navigate the shifting maze."
+    ],
+    "quest_hook": "Objective stack: Navigate the shifting maze; Conquer each party member's reflection trial; Reach the Crystal Chamber. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Navigate the Labyrinth of Reflections and face your inner truths. Immediate move: Navigate the shifting maze.",
+    "quest_complete": "Stage 3 resolved: Mirror of the Soul. Primary objective secured and route stabilized. Prepare for The Crystal Awakens.",
+    "rumor": [
+      "Crystal miners found reflections that move a beat before the original.",
+      "People keep repeating one clue from Mirror of the Soul: 'Reach the Crystal Chamber'.",
+      "I catalog omens by flavor now. Today tastes like burnt citrus and bad decisions."
+    ],
+    "ambient_barks": [
+      "Eyes front.",
+      "Hold the line.",
+      "No drift.",
+      "Confirm the lane."
+    ],
+    "time_dawn": "Dawn light in Prism reveals hidden seams in mirrored stone.",
+    "time_noon": "Noon overcharges reflection grids. Angle your approach, do not rush centerline.",
+    "time_dusk": "Dusk doubles your silhouette count. Track teammate positions verbally.",
+    "time_night": "Night turns crystal caverns into echo mazes. Keep line-of-sight discipline."
+  },
+  "party_reactions": {
+    "kade": "Mirror Warden sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Mirror Warden accepted. Probability of success improves with compliance.",
+    "twist": "Mirror Warden talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "prism_shattered_light"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+    "world_break_aware": true
+  }
+}

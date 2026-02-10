@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_abyss_fishing",
+  "name": "The Depths Provide",
+  "zone": "tide",
+  "giver": "foodboys_green",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I need ingredients for the Duke's feast—specifically, Abyssal Glowfish! They live in the Midnight Zone, deeper than most fishers dare go. But I've seen you dive deep! Catch me three Glowfish, and I'll share the reward!",
+      "objective": "Catch 3 Abyssal Glowfish from the Midnight Zone"
+    },
+    "progress": {
+      "dialog": "Two down, one to go! But watch out—that's an Angler Lure! They're attracted to the Glowfish's light! If one attacks, use the light to blind it! They hate bright light!",
+      "objective": "Catch the final Glowfish while avoiding the Angler"
+    },
+    "complete": {
+      "dialog": "Perfect specimens! The Duke will be impressed! Here's your cut—and this Abyssal Rod! It attracts rare fish and can be used as a whip in combat! Not bad for a day's fishing, eh?",
+      "rewards": {
+        "exp": 650,
+        "gold": 550,
+        "item": "abyssal_fishing_rod"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Those fish are creepy but beautiful! Like swimming lanterns!",
+    "twist": "I prefer my food from solid ground, thank you.",
+    "nix7": "Bioluminescent ichthyology: specimen collection complete."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_scorcho_training",
+  "name": "The Champion's Training",
+  "zone": "dustbelt",
+  "giver": "El Scorcho",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Need a training opponent! Someone TOUGH! Bring me a SAND WYRM! ALIVE! I'll wrestle it! For TRAINING! The big ones lurk in the Shifting Dunes! Reward? WORTH it!",
+      "objective": "Capture a live sand wyrm from the Shifting Dunes"
+    },
+    "progress": {
+      "dialog": "Where's my WYRM? The CHAMPION waits! Big one! ANGRY one! I need a CHALLENGE, not a pet!",
+      "objective": "Continue hunting for a large, aggressive sand wyrm"
+    },
+    "complete": {
+      "dialog": "MAGNIFICENT! The WRESTLE! The THRILL! That wyrm had SPIRIT! Here! My SIGNATURE move! The SCORCHING SUPLEX! Learn it! Use it! CONQUER with it!",
+      "rewards": {"gold": 400, "item": "scorching_suplex_manual", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "Oh man, I loved watching the fights back home!",
+    "twist": "CAN I BE YOUR MANAGER?! PLEASE?!",
+    "korr": "Strong. Loud. Both valid strategies."
+  },
+  "hidden_outcome": "If you bring a wyrm larger than 20 feet, El Scorcho names his new move after you: '[PlayerName] Crusher'"
+}

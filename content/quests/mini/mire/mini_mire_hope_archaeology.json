@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_hope_archaeology",
+  "name": "Relics of the Past",
+  "zone": "mire",
+  "giver": "Hope (Archaeology Student)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I'm studying the ancient civilizations that lived here before the Mire formed. There are ruins in the depths with fascinating artifacts. Would you help me excavate them?",
+      "objective": "Explore Mire ruins and help Hope excavate ancient artifacts"
+    },
+    "progress": {
+      "dialog": "These artifacts... they're from the Progenitor era! This could rewrite history books! Keep looking!",
+      "objective": "Continue excavating for more artifacts"
+    },
+    "complete": {
+      "dialog": "Amazing finds! This will make my thesis legendary! Thank you for the help. Here - a boomerang from the excavation. It's surprisingly effective in combat!",
+      "rewards": {"gold": 400, "item": "ancient_boomerang", "reputation": 13}
+    }
+  },
+  "party_comments": {
+    "kade": "History is important. Even buried history.",
+    "sova": "Progenitor artifacts should be studied carefully. Properly.",
+    "nix7": "Archaeological methodology: adequate. Findings: significant."
+  },
+  "hidden_outcome": "If you find the 'Progenitor Control Chip', Hope gives you 'Airwing' - a powerful ranged weapon"
+}

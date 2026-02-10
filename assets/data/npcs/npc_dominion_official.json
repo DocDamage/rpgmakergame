@@ -1,0 +1,43 @@
+{
+  "id": "NPC_DOMINION_OFFICIAL",
+  "name": "Dominion Official",
+  "title": "Crown Liaison",
+  "location": "T_CROWN_HUB_112x72",
+  "coords": [
+    58,
+    34
+  ],
+  "schedule": {
+    "day": [
+      58,
+      34
+    ],
+    "night": [
+      58,
+      34
+    ],
+    "rain": [
+      58,
+      34
+    ]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_dominion_official_portrait",
+  "dialog_tree": "DT_DOMINION_OFFICIAL_MAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "DOMINION",
+  "attitude": "suspicious",
+  "background": "Crown liaison stationed at the hub to enforce district access policies.",
+  "personality": "Formal, cautious, and politically guarded.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "checkpoint"
+  ],
+  "voice_lines": {
+    "greet": "vo_dominion_official_greet"
+  }
+}

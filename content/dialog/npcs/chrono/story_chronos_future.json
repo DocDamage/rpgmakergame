@@ -1,0 +1,54 @@
+{
+  "npc_id": "chronos_future",
+  "name": "Chronos Future",
+  "title": "Future Incarnation",
+  "zone": "chrono",
+  "location": "The Future That Waits Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Chronos Future on comms. Stage 4: The Future That Waits. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "The floor attempted a mutiny at dawn. We resolved it with better boots.",
+      "Action first, panic never. Start with: Witness the Victory vision."
+    ],
+    "quest_hook": "Objective stack: Witness the Victory vision; Witness the Defeat vision; Choose your path forward. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Witness visions of possible futures. Immediate move: Witness the Victory vision.",
+    "quest_complete": "Stage 4 resolved: The Future That Waits. Primary objective secured and route stabilized. Prepare for Capital Intrigue.",
+    "rumor": [
+      "Citizens keep meeting tomorrow versions of themselves and borrowing bad advice.",
+      "People keep repeating one clue from The Future That Waits: 'Choose your path forward'.",
+      "I once negotiated with a door for twenty minutes. Door won on technicalities."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Chronos Future sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Chronos Future accepted. Probability of success improves with compliance.",
+    "twist": "Chronos Future talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

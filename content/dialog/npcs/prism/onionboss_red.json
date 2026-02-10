@@ -1,0 +1,83 @@
+{
+  "npc_id": "onionboss_red_prism",
+  "name": "Foreman Redward 'Red' Crystalvein",
+  "sprite": "onionboss_red",
+  "zone": "prism",
+  "location": "Main Mine Elevator",
+  "personality": "gruff_efficient_safety_conscious",
+  "occupation": "mine_supervisor",
+  "schedule": {
+    "morning": "shift_briefings",
+    "day": "overseeing_operations",
+    "evening": "production_reports"
+  },
+  "dialog": {
+    "greeting": [
+      "Helmets on! Lights on! Safety first! Always!",
+      "Foreman Red. This mine runs on schedule. And MY schedule.",
+      "Crystal don't mine itself! Move it, people!",
+      "You down here for business or sightseeing? Either way, watch your step.",
+      "Redward Crystalvein. Supervisor. Twenty years without a major incident.",
+      "Production's up! Accidents are down! That's how I like it!",
+      "The deep levels need workers. Good workers. You look sturdy.",
+      "Mining's dangerous. But profitable. If you're careful."
+    ],
+    "mine_operations": "Three shifts. Twenty-four hour operation. Crystal extraction, processing, shipping. Efficient. Professional. Profitable.",
+    "safety_protocols": "Safety isn't optional! Cave-ins, gas pockets, crystal resonance sickness - real dangers! My rules keep you alive. Follow them.",
+    "backstory": "Started as a tunneler. Worked my way up. Lost friends to accidents. Won't lose more. That's why I'm strict. That's why I'm careful. That's why I'm the best foreman in Prism.",
+    "rumors": [
+      "That blue inspector - always poking around. Finding 'violations.' He's not wrong, but production matters too.",
+      "The tunnelers talk about something in the deep levels. Old tunnels. Pre-human. I don't send crews there anymore.",
+      "The sumo guards? Good at their jobs. Intimidating. Effective.",
+      "That white sumo in the tavern? Ex-worker. Back injury. Company takes care of him. We take care of our own."
+    ],
+    "ambient_barks": [
+      "Helmets! Now!",
+      "Watch your heads!",
+      "Production quota!",
+      "Safety check!",
+      "Crystal vein here!",
+      "Keep moving!"
+    ],
+    "time_of_day": {
+      "morning": "Morning shift! Fresh crew! New quota!",
+      "noon": "Midday inspection! Everything by the book!",
+      "evening": "Evening reports! Numbers! Efficiency!",
+      "night": "Night shift! Quiet! Dangerous! Important!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "deep_survey",
+    "quest_name": "The Deep Survey",
+    "stage_1_hook": "We need to expand. New crystal veins. But the deep tunnels... unstable. Dangerous. Need someone to survey. Map safe routes. You look expendable. I mean, CAPABLE.",
+    "stage_1_active": "Survey the lower tunnels. Map the stable paths. Note any dangers. Don't die. Paperwork if you die.",
+    "stage_2_progress": "Back from the depths? Got those surveys? Good. Living employees are cheaper than replacements.",
+    "stage_2_item_needed": "deep_tunnel_survey_maps",
+    "stage_3_complete": "These maps... excellent work! Detailed! Professional! We'll open new extraction sites! Profitable! Safe! Here - premium crystal extraction rights. Mine your own vein. Get rich. Or don't. Your choice.",
+    "reward": "private_crystal_vein_deed"
+  },
+  "party_reactions": {
+    "kade": "Finally, someone who understands organization. Even if it's a bit... rigid.",
+    "nix7": "Safety protocols: comprehensive. Efficiency rating: 78%. Acceptable management.",
+    "twist": "He's so SERIOUS! Does he ever smile? Someone should tell him jokes!",
+    "korr": "A leader who values his people's lives. This is rare. This is good.",
+    "renna": "The mine has wards. Old ones. He doesn't know they're there. But they protect his workers.",
+    "suresh": "He carries the weight of command heavily. As it should be.",
+    "sova": "Runs a tight operation. Good. Sloppy mines kill everyone.",
+    "grit": "Knows his business. I've served under worse commanders. Much worse.",
+    "ashka": "He understands fire safety. Important in mines. We agree on this.",
+    "senna": "Knows every tunnel. Every entrance. Every exit. Useful information.",
+    "callum": "He yelled at me for not wearing a helmet. I didn't even know I needed one!"
+  },
+  "relationship_dialog": {
+    "stranger": "New worker? Sign the waiver. Then we talk.",
+    "acquaintance": "You're not on my crew, but you follow rules. I respect that.",
+    "friend": "Reliable. Safe. Smart. My favorite kind of visitor.",
+    "best_friend": "You've done more for this mine than some employees. If you ever need work... there's always a place here."
+  },
+  "cross_npc_connections": [
+    "onionboss_blue_prism: The inspector. Azure. Finds problems. Sometimes creates them. But... keeps us honest.",
+    "tunneler_blue_prism: Best worker I've got. Found the Great Prism. Deserves recognition.",
+    "sumo_white_prism: Former worker. Good man. Company takes care of him."
+  ]
+}

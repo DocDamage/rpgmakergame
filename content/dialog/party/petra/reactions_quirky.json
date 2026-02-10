@@ -1,0 +1,139 @@
+{
+  "character": "Petra",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Earth mage, stoic, strong, grounded and practical",
+  "dialog": {
+    "first_meet_generic": [
+      "I am Petra. Stone and I are... acquainted.",
+      "You stand on solid ground. Good. Few do.",
+      "Another soul. Another story. Speak, if you wish.",
+      "The earth knows you. It knows all of us."
+    ],
+    "barrelman": [
+      "Wood is from earth. Metal is from earth. Both are good.",
+      "Barrels contain. Earth contains. Similar.",
+      "Your competition is... energetic. Earth is patient.",
+      "Solid construction. I approve."
+    ],
+    "snakecharmer": [
+      "The snake knows earth. It slides upon it.",
+      "Mr. Whiskers. A name of... humor.",
+      "The flute's sound vibrates through stone.",
+      "Animals sense truth. You must have some."
+    ],
+    "lucha": [
+      "The mask is stone-like. Unyielding.",
+      "Strength is good. But stone outlasts strength.",
+      "Combat is... unnecessary. But impressive.",
+      "The cape flows. Stone does not. Interesting contrast."
+    ],
+    "ironchef": [
+      "Fire meets metal. Earth creates both.",
+      "Cooking is transformation. Earth transforms slowly.",
+      "Armor in heat. Uncomfortable. But committed.",
+      "Food from the earth. Respect it."
+    ],
+    "trenchcoat": [
+      "You hide. Stone does not hide. It endures.",
+      "Mystery is weight. You carry much.",
+      "The coat moves. You do not. Interesting.",
+      "Secrets are like fossils. Buried. Waiting."
+    ],
+    "sumo": [
+      "Immovable. Like stone. Like mountain.",
+      "Your center is low. Good. Stable.",
+      "Stillness is strength. You understand.",
+      "I would not move you. Neither would the earth."
+    ],
+    "foodboys": [
+      "Food from earth. Simple. Necessary.",
+      "Brothers. Family. Like stone formations.",
+      "Chili burns. Earth fire. Salad grows. Earth life.",
+      "Both serve. Both are needed."
+    ],
+    "coolcat": [
+      "Cool like deep caves. Distant.",
+      "Jazz echoes. Like wind in canyons.",
+      "Sunglasses hide. Stone reveals.",
+      "You are... fluid. I am not."
+    ],
+    "pigman": [
+      "The inn is solid? Good. Floating concerns me.",
+      "Pigs root in earth. Honest work.",
+      "Your inn smells of earth's bounty.",
+      "Stone foundation? I hope so."
+    ],
+    "tunneler": [
+      "You dig. You search earth's secrets.",
+      "Back pain. Earth asks much of us.",
+      "The deep holds much. Some should stay buried.",
+      "Retire on water? Unstable. Prefer stone."
+    ],
+    "bush": [
+      "That is... not a bush. Bushes have roots.",
+      "Earth does not recognize this.",
+      "Hiding? Or something else?",
+      "Strange. Even for me."
+    ],
+    "aeronaut": [
+      "Air is not stone. Unpredictable.",
+      "Balloons float. I do not. Good.",
+      "High places. Risky. But... perspective.",
+      "The earth holds balloons down. Mostly."
+    ],
+    "onionboss": [
+      "Layers. Like sedimentary stone.",
+      "Leadership is pressure. Forms character.",
+      "Workers need foundation. Be their stone.",
+      "Round. Like river stones. Smoother, though."
+    ],
+    "astronaut": [
+      "Deep water. Like deep earth. Pressure.",
+      "Metal shell. Protection. Necessary.",
+      "What lives below? Things unknown.",
+      "Return to surface. To solid ground."
+    ],
+    "conductor": [
+      "Iron on stone. Ancient partnership.",
+      "Schedule. Order. Like geological time.",
+      "Trains move. Earth stays. Balance.",
+      "All aboard? A gathering. Stone circles do similar."
+    ],
+    "shoewoman": [
+      "Feet touch earth. Protect them.",
+      "Desert soles. Sand is earth too.",
+      "Good shoes. Solid. Like good stone.",
+      "Walk well. The earth remembers footprints."
+    ],
+    "signguy": [
+      "Signs mark stone. Petroglyphs. Ancient.",
+      "Hand-painted. Human touch. Impermanent.",
+      "Your work guides. Like cairns on paths.",
+      "Messages endure. Or they crumble."
+    ],
+    "cobra": [
+      "Low to earth. Dangerous. Respect.",
+      "Scales like stone patterns. Beautiful.",
+      "Venom is earth's defense. Natural.",
+      "Keep distance. Even stone can be poisoned."
+    ],
+    "barrelgob": [
+      "Barrel as home. Like cave. Shelter.",
+      "Scavenger. Uses what earth provides.",
+      "Small space. Safe. Contained.",
+      "Adaptation. Earth teaches this."
+    ],
+    "twins": [
+      "Two stones. Same formation. Rare.",
+      "Connection deep. Like underground rivers.",
+      "Finish each other's... vibrations?",
+      "Together. Stronger. Like stone arch."
+    ],
+    "sunandmoon": [
+      "Sun warms stone. Moon cools it. Balance.",
+      "Stars are distant. Like memories of earth's youth.",
+      "Headdress heavy. Like crown. Like burden.",
+      "The sky is not my domain. But it is beautiful."
+    ]
+  }
+}

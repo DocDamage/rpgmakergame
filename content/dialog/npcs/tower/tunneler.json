@@ -1,0 +1,122 @@
+{
+  "npc_id": "tunneler_tower",
+  "name": "Digs",
+  "title": "Maintenance Worker",
+  "zone": "tower",
+  "location": "Maintenance Shaft 7, Chroma Tower Lower Levels",
+  "description": "A small figure in dusty overalls, maintaining the ancient mechanisms that keep the Tower functional.",
+  "sprite_variant": "tunneler_tower",
+  "greeting_variants": [
+    "*emerging from vent* Oh! Big folk! Don't see many down here.",
+    "Digs. I fix. Break. Fix again. Tower never stops breaking.",
+    "*wiping grease* You use the lift? I keep it running. Mostly.",
+    "Forty-seven floors. Thousands of mechanisms. One me. Busy.",
+    "*holding wrench* Best friend. Named her Betty. Don't judge.",
+    "Found something weird in Shaft 12. Don't go there.",
+    "Tower's old. Older than... everything? Keeps growing too.",
+    "*listening to pipes* Something's wrong up high. Hear it?"
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Digs. Maintenance. Been here... forever? Family business. Granddig, Digsdad, now me. We keep Tower running. Lifts, lights, heat, water. No one sees us. Everyone needs us.",
+          "options": [
+            {"text": "The Tower keeps growing?", "goto": "growing_tower"},
+            {"text": "What did you find in Shaft 12?", "goto": "shaft_12"},
+            {"text": "Can you fix anything?", "goto": "repair_skills"},
+            {"text": "Keep up the good work.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "growing_tower",
+          "text": "*nods seriously* Used to be twenty floors. Granddig's time. Now forty-seven. Adds a floor every... while. No one builds it. Just... appears. Top floors weird. Different architecture. Wrong architecture.",
+          "party_reactions": {
+            "mira": "Spontaneous architectural generation? Impossible!",
+            "digs": "*shrugs* Tower doesn't read science books."
+          },
+          "options": [
+            {"text": "What's on the new floors?", "goto": "new_floors"},
+            {"text": "Is it dangerous?", "goto": "growth_danger"}
+          ]
+        },
+        {
+          "id": "shaft_12",
+          "text": "*lowers voice* Voices. Not people voices. Tower voices? Singing. But wrong. Like... echo before sound. Granddig said some shafts go too deep. Past foundation. Into... other. I don't go there. You shouldn't either.",
+          "options": [
+            {"text": "I need to investigate.", "goto": "investigation"},
+            {"text": "I'll stay away.", "goto": "wise_choice"}
+          ]
+        },
+        {
+          "id": "repair_skills",
+          "text": "*brightens* Oh! Yes! Anything mechanical! Old tech, new tech, weird tech—if it clicks, whirs, or steams, I can fix! Or improve! Digs Modifications, guaranteed! ...Well, mostly guaranteed. ...Sometimes guaranteed.",
+          "services": {
+            "available": true,
+            "type": "repair_and_upgrade",
+            "items": ["weapon_repair", "armor_reinforcement", "gadget_modification"]
+          },
+          "options": [
+            {"text": "Can you upgrade my gear?", "goto": "upgrade_menu"},
+            {"text": "Something's making a weird noise...", "goto": "diagnostic"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "maintenance_emergency",
+    "title": "Emergency Repairs",
+    "description": "Help Digs fix critical systems throughout the Tower to ensure safe passage for climbers.",
+    "objectives": [
+      "Repair the leaking steam pipes on Floor 5",
+      "Fix the elevator mechanism on Floor 12",
+      "Replace broken lighting in the stairwells (Floors 15-20)",
+      "Investigate the strange sounds in Shaft 12",
+      "Report back to Digs"
+    ],
+    "rewards": {
+      "experience": 550,
+      "reputation": {"tower_residents": 30, "maintenance": 40},
+      "items": ["digs_wrench", "tower_master_key"],
+      "unlock": "digs_modification_services"
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*tinkering* Come on, Betty. Turn. Please turn.",
+    "Heard that! That clunk! Floor 23! Again!",
+    "*listening to walls* Tower's breathing. Always breathing.",
+    "Forty-seven floors. One me. Math is unfair.",
+    "*emerging from grate* Fixed! Temporarily! Again!",
+    "New floor tonight. Heard it growing. Creepy.",
+    "Shaft 12 still singing. Louder now. Worried.",
+    "*to Betty* We're heroes, you know. Unsung. But heroes."
+  ],
+  "cross_zone_references": {
+    "capital": "Used to trade with Capital. Good parts. Good people.",
+    "tide": "Tide engineers understand. Respect maintenance. Good folk."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Digs! How's Betty?",
+      "response": "*beaming* Betty's good! Asked about her! Good folk!"
+    },
+    "mira": {
+      "greeting": "The Tower's growth pattern interests me.",
+      "response": "*excited* Yes! Study! Learn! Fix better! Help!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Active repairs, routine maintenance",
+      "night": "Emergency calls, Shaft 12 monitoring"
+    },
+    "world_state_triggers": {
+      "system_failure": "Panic: 'Not again! Not now! Betty, help!'",
+      "successful_repair": "Proud: 'Fixed! Digs fixes! Always fixes!'"
+    }
+  }
+}

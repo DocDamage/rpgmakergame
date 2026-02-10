@@ -1,0 +1,125 @@
+{
+  "npc_id": "barrelgob_black",
+  "name": "Scritch",
+  "title": "Ruin Scavenger",
+  "zone": "capital",
+  "location": "Warehouse District, Eastern Ruins",
+  "description": "A wiry goblin in a black barrel-armor, scavenging the ruins with surprising cunning.",
+  "sprite_variant": "barrelgob_black",
+  "greeting_variants": [
+    "*hisses* My barrel! Finders keepers! You no take!",
+    "Shiny-shiny? You got? Scritch trade, yes-yes!",
+    "*sniffs air* You smell... not-ruin. New-new. Interesting.",
+    "Big stompers everywhere. Scritch hide good. You hide good too?",
+    "*counts on fingers* One, two, MANY barrels of stuff! All Scritch's!",
+    "You fight the purple-eat? Scritch no like purple-eat. Bad-bad.",
+    "*peeks from barrel* Oh. Not food-boy. Disappoint.",
+    "Scritch know secrets! Secret paths! Secret stashes! You pay?"
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "Scritch live here first! Before big-folk, before purple-sky! Scritch know every crack, every hole, every secret-place! Big-folk stomp around, miss everything. Scritch find!",
+          "options": [
+            {"text": "What have you found?", "goto": "treasures"},
+            {"text": "Want to trade?", "goto": "trade"},
+            {"text": "Tell me about the purple.", "goto": "void_knowledge"},
+            {"text": "Bye.", "goto": "exit"}
+          ]
+        },
+        {
+          "id": "treasures",
+          "text": "Oh, many-many! Shiny coins! Spark-boxes! Food-packs! Scritch find special thing too—round metal with numbers. Counts down, Scritch thinks. Very old. Very... important-feeling.",
+          "party_reactions": {
+            "mira": "A chronometer? From before the Cataclysm?",
+            "scritch": "Chron... chron... time-thing! Yes! Counts to... something."
+          },
+          "options": [
+            {"text": "Can I see it?", "goto": "chronometer_request"},
+            {"text": "Where did you find it?", "goto": "find_location"}
+          ]
+        },
+        {
+          "id": "trade",
+          "text": "Scritch trade! Shiny for food! Shiny for safe-pass! Shiny for... *leans in* ...information. Scritch hear things. See things. Know things big-folk don't.",
+          "shop": {
+            "available": true,
+            "currency": "shinies",
+            "items": ["rusty_key", "void_damaged_map", "pre_cataclysm_coin", "scritch_special_stash_key"]
+          },
+          "options": [
+            {"text": "Show me your goods.", "goto": "shop_open"},
+            {"text": "What information?", "goto": "info_trade"}
+          ]
+        },
+        {
+          "id": "void_knowledge",
+          "text": "Purple-eat come from up-up. Palace-place. Scritch remember... before, Palace pretty. Golden. Now... wrong. Scritch feel it. In barrel. In bones. Palace call things. Call them... home.",
+          "options": [
+            {"text": "What things?", "goto": "void_creatures"},
+            {"text": "Can you show me a safe path?", "goto": "safe_path"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "scritch_collection",
+    "title": "The Scavenger's Collection",
+    "description": "Help Scritch retrieve a special 'shiny-shiny' from a dangerous section of the ruins.",
+    "objectives": [
+      "Agree to help Scritch",
+      "Navigate to the old treasury (guarded by void-touched creatures)",
+      "Retrieve the 'sky-metal orb'",
+      "Return it to Scritch",
+      "Choose: keep the orb or give it to Scritch"
+    ],
+    "rewards": {
+      "experience": 350,
+      "reputation": {"barrelgobs": 30},
+      "items_choice": {
+        "keep_orb": ["sky_metal_orb", "scritch_hostile"],
+        "give_orb": ["scritch_boon", "secret_cache_location", "barrelgob_ally"]
+      }
+    },
+    "prerequisites": []
+  },
+  "ambient_barks": [
+    "*clinking from inside barrel* My precious... my precious...",
+    "Shh! Big-stomper patrol! Scritch small, Scritch hide!",
+    "*sniffing* Food? No. Just wind. Sad.",
+    "Scritch saw tall-tall tower once. All colors. Pretty-scary.",
+    "You no tell others about Scritch stash! Secret!",
+    "Purple-ones walk funny. Like broken puppets. Scritch no like.",
+    "*hoarding sounds* One more, one more, then enough... maybe.",
+    "Food-boys have good-good scraps. Scritch trade for!"
+  ],
+  "cross_zone_references": {
+    "chroma_tower": "Scritch saw tower-people once! All same-same! Twins, they called. Creepy-same!",
+    "void_nexus": "*shivers* Purple-deep bad. Scritch no go. Scritch smart. Smart goblins live.",
+    "palace": "Palace... Scritch remember songs. Happy songs. Now... different songs. Hungry songs."
+  },
+  "party_reactions": {
+    "garret": {
+      "greeting": "Well hello there, little guy!",
+      "response": "*hisses* Little?! Scritch TALL! For goblin! Very tall!"
+    },
+    "kael": {
+      "greeting": "I respect a fellow survivor.",
+      "response": "*surprised* Big-stomper... nice? Scritch confused. But happy-confused!"
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Scavenging, trading, hiding from patrols",
+      "night": "Active in shadows, raids food stores"
+    },
+    "world_state_triggers": {
+      "player_has_shiny": "Offers better trades",
+      "void_approaches": "Flees immediately, hides for days"
+    }
+  }
+}

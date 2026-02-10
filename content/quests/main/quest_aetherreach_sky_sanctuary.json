@@ -1,0 +1,127 @@
+{
+  "quest_id": "aetherreach_sky_sanctuary",
+  "name": "Sky Sanctuary",
+  "zone": "aetherreach",
+  "act": "post_game",
+  "prerequisites": [
+    "palace_progenitor_will"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Beyond the Clouds",
+      "description": "Ascend to Aetherreach and discover the floating sanctuaries",
+      "npc": "skywarden_stratos",
+      "dialog_start": "Welcome, Savior! The Sky Sanctuaries have awaited your coming since before the Shattering! We are the Aetherguard, watchers of the upper realm. While you fought below, we guarded against threats from above. And now that the world is remade... new threats emerge. We need the Crystal Bearer's wisdom.",
+      "objectives": [
+        "Ascend to Aetherreach",
+        "Meet the Aetherguard",
+        "Learn of the celestial threats"
+      ],
+      "dialog_complete": "You came! The prophecies didn't detail what would happen AFTER the choice, but we hoped... The Sanctuaries float higher than ever now. The remade world pulses with new energy. Beautiful. But something else pulses too. Something watching from beyond the stars.",
+      "rewards": {
+        "exp": 5000,
+        "item": "aetherguard_welcome"
+      },
+      "target_location_id": "T_AETHERREACH_112x72"
+    },
+    {
+      "stage": 2,
+      "name": "Stellar Observers",
+      "description": "Investigate the strange signals from beyond Chroma's sky",
+      "npc": "astronomer_nova",
+      "dialog_start": "The stars have changed since the Transcendence. New constellations. New... visitors. We've detected signals from beyond our reality. Not the Unraveling—something else. Something curious. They want to meet you, Kade. The one who remade a world. They're asking permission to approach.",
+      "objectives": [
+        "Study the stellar anomalies",
+        "Decode the extradimensional signals",
+        "Decide whether to make contact"
+      ],
+      "dialog_complete": "First contact. With beings from beyond our reality. They're not hostile—curious, mostly. Impressed that we solved our own cosmic threat. They want to establish relations. Trade. Cultural exchange. The universe is so much bigger than we knew. And now we're part of it.",
+      "rewards": {
+        "exp": 6000,
+        "item": "first_contact_protocols"
+      },
+      "target_location_id": "T_AETHERREACH_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "The Sky Gardens",
+      "description": "Help restore the celestial ecosystem damaged in the remaking",
+      "npc": "gardener_cirrus",
+      "dialog_start": "The Sky Gardens are struggling. The new world's energy is different—richer in some ways, harsher in others. The cloud-whales are migrating wrong. The storm-sheep are panicking. We need someone who understands balance. Someone who just remade a world. Any ideas, Savior?",
+      "objectives": [
+        "Study the new celestial ecosystem",
+        "Help the cloud-whales migrate",
+        "Balance the storm patterns"
+      ],
+      "dialog_complete": "You did it! The cloud-whales are singing again! The storms have calmed! You don't just save worlds—you tend them. Like a gardener. A very powerful, very compassionate gardener. The Sanctuaries are in your debt.",
+      "rewards": {
+        "exp": 5500,
+        "item": "sky_garden_master"
+      },
+      "target_location_id": "T_AETHERREACH_112x72"
+    },
+    {
+      "stage": 4,
+      "name": "Nix7's Origin",
+      "description": "Discover Nix7's true origins in the Aetherreach archives",
+      "npc": "nix7",
+      "dialog_start": "My memories are... returning. Not just the corruption. Before that. I was... different. The Aetherreach archives have records. Of me. Of what I was. I need to know, Kade. I need to understand my purpose. Will you help me find the truth?",
+      "objectives": [
+        "Search the Aetherreach archives",
+        "Uncover Nix7's origin story",
+        "Help Nix7 integrate their past"
+      ],
+      "dialog_complete": "[Nix7's form shifts, becoming more... organic? More real?] I was human. Once. A scientist who volunteered for the integration project. To become something that could survive the Shattering. Guide future generations. I... I chose this. And I'd choose it again. To meet you. To help save everything. Worth it.",
+      "rewards": {
+        "exp": 7000,
+        "item": "nix7_true_form"
+      },
+      "target_location_id": "T_AETHERREACH_112x72"
+    },
+    {
+      "stage": 5,
+      "name": "Sanctuary of Peace",
+      "description": "Establish Aetherreach as a neutral zone for all factions",
+      "npc": "skywarden_stratos",
+      "dialog_start": "The surface zones are rebuilding, but old tensions remain. Dustbelt and Capital. Ember and Tide. They need a neutral ground. A place where all are welcome. The Sky Sanctuaries could be that place. But we need your blessing, Kade. Your endorsement. Will you help us build bridges in the sky?",
+      "objectives": [
+        "Negotiate with all zone representatives",
+        "Establish the Aetherreach Accords",
+        "Create the Sky Sanctuary treaty"
+      ],
+      "dialog_complete": "The Aetherreach Accords are signed! All zones have agreed to meet here in peace! The Sanctuaries will be neutral ground, where any can come regardless of past conflicts. You've done it again, Savior. Built peace where there was division. That's the truest power of all.",
+      "rewards": {
+        "exp": 8000,
+        "gold": 10000,
+        "unlock": "universal_peace_ending"
+      },
+      "target_location_id": "T_AETHERREACH_112x72"
+    }
+  ],
+  "story_beats": [
+    "Post-game content exploring the consequences of the player's choice",
+    "First contact with extradimensional beings who are curious about the world-remakers",
+    "Nix7's origin is revealed—they were once human, volunteering for the transformation",
+    "Aetherreach becomes a neutral hub for all zones, establishing lasting peace",
+    "The story shows the world thriving under the new balance"
+  ],
+  "party_reactions": {
+    "kade": "I never thought about what came after. Saving the world was the goal, you know? But watching it grow, heal, connect... that's the real reward. Also, aliens! Actual aliens! Who want to trade! I'm getting a space-ship. Definitely getting a space-ship.",
+    "nix7": "I was human. I had a name—Nixia. I had a family. They... didn't survive the Shattering. I volunteered to become eternal, to help others survive what I couldn't. And I did. I helped save everything. Nixia would be proud. Nix7 is proud.",
+    "skysong": "The Sky Sanctuaries make my Cloudskipper look like a toy! These people have been flying for TEN THOUSAND YEARS! The things I could learn! The places I could go! Space, Kade! They mentioned SPACE! I'm going to be a SPACE PIRATE!",
+    "vesper": "EXTRADIMENSIONAL BEINGS! With DIFFERENT PHYSICS! Do you know what this means for science?! I'm going to need so many new instruments! So many new theories! I'll never sleep again! This is the BEST DAY OF MY LIFE!",
+    "ven": "The cloud-whales like me. They really like me. One let me ride her! I was ON A CLOUD-WHALE! In the SKY! If I could tell swamp-me about this... swamp-me would never believe it. I'm so glad I left the swamp.",
+    "pyra": "The Aetherguard have libraries of combat techniques I've never seen. Aerial combat! Zero-gravity fighting! I'm learning so much. Also, the view is incredible. Fire and sky—best combination. Don't tell Abyssal I said that.",
+    "abyssal": "The sky and the deep are more alike than I thought. Both vast. Both isolating. Both full of wonders. I've been talking with the cloud-whales. They remember things from before the Shattering—things even I forgot. The world is healing. So am I.",
+    "gearhart": "The Aetherreach technology is... humbling. They maintained civilization while we struggled in the ashes. But they need help too—their systems are ancient, decaying. I can help. Fix things. Build better. The new world needs builders more than warriors.",
+    "blizzard": "I thought I was done with the cold. But the upper atmosphere has a different kind of cold. Clean. Pure. Not lonely. I'm learning to fly—not with magic, but with machines. The Aetherguard are good teachers. Patient. I think I might stay a while.",
+    "echo": "First contact! I'm documenting everything! The language barriers, the cultural exchanges, the misunderstandings that become friendships! This is what I was born to record! What I was TIMED to record! Get it? Because time? I'll... I'll stop now."
+  },
+  "unlocks": [
+    "aetherreach_hub",
+    "extradimensional_diplomacy",
+    "nix7_humanity_quest",
+    "cloud_whale_mounts"
+  ]
+}

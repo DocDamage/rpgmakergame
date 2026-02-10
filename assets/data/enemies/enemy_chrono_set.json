@@ -1,0 +1,132 @@
+{
+  "id": "ENEMY_CHRONO_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_CHRONO_SCRIBE",
+      "name": "Chrono Scribe",
+      "family": "chrono",
+      "sprite": "spr_enemy_chrono_scribe",
+      "stats": {
+        "hp": 160,
+        "mp": 120,
+        "atk": 10,
+        "def": 10,
+        "mag": 30,
+        "spr": 22,
+        "spd": 12
+      },
+      "weaknesses": {
+        "dark": 1.3,
+        "physical": 1.0
+      },
+      "resists": {
+        "time": 0.0,
+        "magic": 0.8
+      },
+      "abilities": [
+        "haste",
+        "slow",
+        "rewind",
+        "temporal_shift",
+        "future_sight"
+      ],
+      "loot": [
+        {
+          "item": "TIME_SHARD",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": [
+        40,
+        70
+      ],
+      "xp": 75
+    },
+    {
+      "id": "ENEMY_PHASE_SCUTTLER",
+      "name": "Phase Scuttler",
+      "family": "chrono",
+      "sprite": "spr_enemy_phase_scuttler",
+      "stats": {
+        "hp": 120,
+        "mp": 40,
+        "atk": 24,
+        "def": 8,
+        "mag": 10,
+        "spr": 8,
+        "spd": 20
+      },
+      "weaknesses": {
+        "light": 1.3,
+        "thunder": 1.2
+      },
+      "resists": {
+        "physical": 0.6,
+        "time": 0.5
+      },
+      "abilities": [
+        "attack",
+        "phase_strike",
+        "teleport",
+        "phase_dodge"
+      ],
+      "loot": [
+        {
+          "item": "PHASE_ESSENCE",
+          "chance": 0.2,
+          "count": 1
+        }
+      ],
+      "gil": [
+        35,
+        60
+      ],
+      "xp": 68
+    },
+    {
+      "id": "ENEMY_DRONE",
+      "name": "Drone",
+      "family": "chrono",
+      "sprite": "spr_enemy_drone",
+      "stats": {
+        "hp": 100,
+        "mp": 60,
+        "atk": 18,
+        "def": 15,
+        "mag": 12,
+        "spr": 10,
+        "spd": 14
+      },
+      "weaknesses": {
+        "thunder": 1.5,
+        "water": 1.2
+      },
+      "resists": {
+        "physical": 0.8,
+        "time": 0.75
+      },
+      "abilities": [
+        "laser",
+        "scan",
+        "repair",
+        "self_destruct"
+      ],
+      "loot": [
+        {
+          "item": "CLOCKWORK_GEAR",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        28,
+        48
+      ],
+      "xp": 55
+    }
+  ]
+}

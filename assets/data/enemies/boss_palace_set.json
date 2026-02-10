@@ -1,0 +1,344 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_ELEMENTAL_LORDS",
+      "name": "Elemental Lords",
+      "floor": 1,
+      "arena": "PAL_F1_64x64",
+      "type": "palace",
+      "sprite": "spr_boss_elemental_lords",
+      "stats": {
+        "hp": 25000,
+        "mp": 800,
+        "atk": 70,
+        "def": 50,
+        "mag": 80,
+        "spr": 50,
+        "spd": 18
+      },
+      "weaknesses": {
+        "varies_by_phase": true
+      },
+      "resists": {
+        "varies_by_phase": true
+      },
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Lord of Fire",
+          "element": "fire",
+          "weakness": ["water", "ice"],
+          "abilities": ["inferno", "flame_pillar", "heat_wave"]
+        },
+        {
+          "phase": 2,
+          "name": "Lord of Water",
+          "element": "water",
+          "weakness": ["thunder", "ice"],
+          "abilities": ["tsunami", "whirlpool", "crushing_depths"]
+        },
+        {
+          "phase": 3,
+          "name": "Lord of Earth",
+          "element": "earth",
+          "weakness": ["wind", "ice"],
+          "abilities": ["earthquake", "boulder_toss", "harden"]
+        },
+        {
+          "phase": 4,
+          "name": "Lord of Wind",
+          "element": "wind",
+          "weakness": ["earth", "ice"],
+          "abilities": ["gale_force", "wind_dance", "swift_strike"]
+        }
+      ],
+      "abilities": [
+        "elemental_shift",
+        "prismatic_barrier",
+        "lords_unison"
+      ],
+      "loot": [
+        {
+          "item": "ELEMENTAL_CROWN",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 8000,
+      "xp": 12000,
+      "music": "bgm_boss_elemental_lords"
+    },
+    {
+      "id": "BOSS_CHRONOWARDEN",
+      "name": "Chronowarden",
+      "floor": 2,
+      "arena": "PAL_F2_64x64",
+      "type": "palace",
+      "sprite": "spr_boss_chronowarden",
+      "stats": {
+        "hp": 30000,
+        "mp": 1200,
+        "atk": 60,
+        "def": 55,
+        "mag": 90,
+        "spr": 70,
+        "spd": 25
+      },
+      "weaknesses": {
+        "lightning": 1.3
+      },
+      "resists": {
+        "time": 0.0,
+        "magic": 0.6
+      },
+      "abilities": [
+        "chrono_lock",
+        "time_stop",
+        "temporal_paradox",
+        "rewind_reality",
+        "accelerate_decay",
+        "chronowardens_gaze"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "time_manipulation",
+          "abilities": ["time_stop", "accelerate_decay"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 60,
+          "behavior": "paradox_summoner",
+          "abilities": ["temporal_paradox", "chrono_lock"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 30,
+          "behavior": "desperate",
+          "abilities": ["rewind_reality", "chronowardens_gaze"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "CHRONOWARDENS_KEY",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 10000,
+      "xp": 15000,
+      "music": "bgm_boss_chronowarden"
+    },
+    {
+      "id": "BOSS_VOID_EMPRESS",
+      "name": "Void Empress",
+      "floor": 3,
+      "arena": "PAL_F3_64x64",
+      "type": "palace",
+      "sprite": "spr_boss_void_empress",
+      "stats": {
+        "hp": 35000,
+        "mp": 1500,
+        "atk": 80,
+        "def": 60,
+        "mag": 100,
+        "spr": 80,
+        "spd": 22
+      },
+      "weaknesses": {
+        "light": 1.5
+      },
+      "resists": {
+        "void": 0.0,
+        "dark": 0.25,
+        "magic": 0.5
+      },
+      "absorbs": ["void", "dark"],
+      "abilities": [
+        "void_embrace",
+        "null_field",
+        "consume_existence",
+        "shadow_of_void",
+        "empress_decree",
+        "annihilation_wave"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "void_weaver",
+          "abilities": ["void_embrace", "null_field"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 60,
+          "behavior": "hungry_void",
+          "abilities": ["consume_existence", "shadow_of_void"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 25,
+          "behavior": "absolute_void",
+          "abilities": ["empress_decree", "annihilation_wave"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "VOID_EMPRESS_SIGNET",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 12000,
+      "xp": 18000,
+      "music": "bgm_boss_void_empress"
+    },
+    {
+      "id": "BOSS_ANCIENT_DRAKE",
+      "name": "Ancient Drake",
+      "floor": 4,
+      "arena": "PAL_F4_64x64",
+      "type": "palace",
+      "sprite": "spr_boss_ancient_drake",
+      "stats": {
+        "hp": 40000,
+        "mp": 800,
+        "atk": 110,
+        "def": 70,
+        "mag": 70,
+        "spr": 50,
+        "spd": 20
+      },
+      "weaknesses": {
+        "ice": 1.3,
+        "thunder": 1.2
+      },
+      "resists": {
+        "fire": 0.0,
+        "physical": 0.5,
+        "earth": 0.25
+      },
+      "absorbs": ["fire"],
+      "abilities": [
+        "drake_breath",
+        "wing_buffet",
+        "tail_slam",
+        "ancient_roar",
+        "primal_fear",
+        "dragons_wrath"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "proud_dragon",
+          "abilities": ["drake_breath", "wing_buffet"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "wounded_beast",
+          "abilities": ["tail_slam", "ancient_roar", "primal_fear"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 20,
+          "behavior": "final_stand",
+          "abilities": ["dragons_wrath", "drake_breath"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "DRAKE_HEART",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 15000,
+      "xp": 22000,
+      "music": "bgm_boss_ancient_drake"
+    },
+    {
+      "id": "BOSS_PROGENITOR_ENGINE",
+      "name": "Progenitor Engine",
+      "floor": 5,
+      "arena": "PAL_F5_80x80",
+      "type": "palace_final",
+      "sprite": "spr_boss_progenitor_engine",
+      "stats": {
+        "hp": 60000,
+        "mp": 2000,
+        "atk": 120,
+        "def": 80,
+        "mag": 120,
+        "spr": 80,
+        "spd": 15
+      },
+      "weaknesses": {
+        "all_foundations": 1.1
+      },
+      "resists": {
+        "all_elements": 0.5
+      },
+      "abilities": [
+        "progenitor_beam",
+        "foundation_overload",
+        "reality_rewrite",
+        "system_purge",
+        "creation_protocol",
+        "deletion_protocol",
+        "omega_surge",
+        "alpha_rebirth"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "name": "Initialization",
+          "hp_threshold": 100,
+          "abilities": ["progenitor_beam", "foundation_overload"]
+        },
+        {
+          "phase": 2,
+          "name": "Adaptation",
+          "hp_threshold": 85,
+          "abilities": ["reality_rewrite", "creation_protocol"]
+        },
+        {
+          "phase": 3,
+          "name": "Correction",
+          "hp_threshold": 70,
+          "abilities": ["deletion_protocol", "system_purge"]
+        },
+        {
+          "phase": 4,
+          "name": "Evolution",
+          "hp_threshold": 50,
+          "abilities": ["omega_surge", "all_previous"]
+        },
+        {
+          "phase": 5,
+          "name": "Rebirth",
+          "hp_threshold": 25,
+          "abilities": ["alpha_rebirth", "progenitor_beam"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "TRUE_ENDING_KEY",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "PROGENITOR_CROWN",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 25000,
+      "xp": 40000,
+      "music": "bgm_boss_progenitor_engine_final",
+      "story_significance": "final_boss"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_sazh_chocobo",
+  "name": "Chocobo Rescue",
+  "zone": "mire",
+  "giver": "Sazh (Airship Pilot)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My chocobo... got spooked and ran into the Mire. Little guy's probably scared and stuck in the mud. Help me find him? He's more than just a bird to me.",
+      "objective": "Search the Mire for Sazh's lost chocobo"
+    },
+    "progress": {
+      "dialog": "Chocobo! Where are you, buddy? I got gysahl greens! Your favorite!",
+      "objective": "Follow chocobo tracks and calls"
+    },
+    "complete": {
+      "dialog": "There you are! *hugs bird* Thanks, friend. I owe you big. Here - take these. Chocobo feathers. They bring good luck. And this gun - I got a spare.",
+      "rewards": {"gold": 400, "item": "chocobo_feather_charm", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "He really loves that bird. I get it.",
+    "twist": "The chocobo is so FLUFFY! Can I ride it?!",
+    "nix7": "Chocobo: galliformae. Emotional bond: significant."
+  },
+  "hidden_outcome": "If you find the chocobo within 2 minutes (speed challenge), Sazh gives you 'Procyon' - his ultimate guns"
+}

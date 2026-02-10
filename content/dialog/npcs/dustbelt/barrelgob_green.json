@@ -1,0 +1,96 @@
+{
+  "npc_id": "barrelgob_green_dustbelt",
+  "name": "Tappy",
+  "sprite": "barrelgob_green",
+  "zone": "dustbelt",
+  "location": "Junkyard Barrels",
+  "personality": "mischievous_opportunist",
+  "occupation": "barrel_dwelling_scavenger",
+  "dialog": {
+    "greeting": [
+      "Oh! Big ones! Not here for barrel, yes?",
+      "Tappy's barrel! Find your own!",
+      "Shiny! You have shiny? Trade for barrel secrets?",
+      "*emerges partially* Hello! Nice day for barrel!",
+      "You seek barrelgob? Found one! Lucky day!",
+      "This barrel better than others. Tappy checked.",
+      "Want in? Barrel full. Maybe later!"
+    ],
+    "shop_open": "Tappy finds things! In barrels! In ground! In other people's pockets! All legal! Mostly!",
+    "shop_prompt": "Junk! Treasure! Thing that might be valuable!",
+    "haggle": [
+      "Price? What price? Found in trash!",
+      "For you? Special gob price!",
+      "Trade accepted! Shiny for junk!",
+      "Tappy drives hard bargain! You respect!"
+    ],
+    "purchase_success": [
+      "Yours! No returns! Gob policy!",
+      "Good choice! Tappy approved!",
+      "Trade complete! Happy shiny!",
+      "Tell friends! Tappy has more!"
+    ],
+    "purchase_fail": [
+      "No shiny, no stuff! Gob rules!",
+      "Come back with coin!",
+      "Your loss! Item gone soon!"
+    ],
+    "rumor": [
+      "Metal Barrel Mike looks for lost barrels. Tappy not know where. *whistles*",
+      "Barrelman Bob has MANY barrels. One less now. Not Tappy's fault!",
+      "Deep-Dig Dan found shiny deep down. Gob jealous!",
+      "The walking barrel is REAL! Tappy cousin saw!"
+    ],
+    "quest_hook": "Tappy want SPECIAL barrel! Metal one! Mike has! Too expensive! But... if big heroes bring Mike different barrel, Tappy trade! Good deal!",
+    "quest_active": "Metal barrel! From Mike! Tappy waiting!",
+    "quest_complete": "BEAUTIFUL! Tappy's forever home! Here! Gob treasure! Found deep!",
+    "quest_reward": "Gob's Deep Find - Ancient Trinket",
+    "farewell": [
+      "Bye bye! Leave shiny next time!",
+      "Tappy retreat! Barrel time!",
+      "Come back! Bring gifts!"
+    ],
+    "ambient_barks": [
+      "Shiny? Shiny!",
+      "My barrel!",
+      "Trade? Trade!",
+      "*barrel rummaging sounds*",
+      "Found thing!",
+      "*contented gob noises*"
+    ],
+    "time_dawn": "Early! Good barrel weather!",
+    "time_noon": "Hot! Barrel cool inside! Smart gob!",
+    "time_dusk": "Evening trade time! Many customers!",
+    "time_night": "Night! Barrel cozy! Tappy sleep!",
+    "post_quest_greeting": "Barrel-bringer! Tappy's hero!",
+    "barrel_philosophy": "Barrel is home! Barrel is life! Everything else... bonus!"
+  },
+  "party_reactions": {
+    "kade": "Living in a barrel? Innovative.",
+    "nix7": "Creature: goblin. Residence: portable container. Efficiency: debatable.",
+    "twist": "Can I see inside your barrel? Please?",
+    "korr": "Resourceful. Makes use of what's available.",
+    "renna": "Does it... smell in there?"
+  },
+  "relationship_dialog": {
+    "stranger": "New big one! Friendly? Trade?",
+    "acquaintance": "Returning customer! Tappy remembers!",
+    "friend": "Good friend! Tappy save best stuff!",
+    "best_friend": "Best big one! Honorary gob! Barrel-brother!"
+  },
+  "mini_quest": {
+    "id": "the_walking_barrel",
+    "title": "The Walking Barrel",
+    "description": "Tappy wants a metal barrel from Mike's shop",
+    "stages": {
+      "hook": "Tappy want SPECIAL barrel! Metal one! Mike has! If big heroes bring Mike different barrel, Tappy trade!",
+      "active": "Need nice barrel for Mike! Then Tappy get metal one!",
+      "complete": "METAL! Shiny! Forever home! Here! Gob treasure from deep place! Very old! Very powerful! Maybe!"
+    },
+    "reward": {
+      "item": "ancient_gob_trinket",
+      "gold": 100,
+      "reputation": "gob_friend"
+    }
+  }
+}

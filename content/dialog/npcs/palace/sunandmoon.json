@@ -1,0 +1,118 @@
+{
+  "npc_id": "sunandmoon_palace",
+  "name": "Celestia and Noctis",
+  "title": "Royal Astronomer",
+  "zone": "palace",
+  "location": "The Observatory Spire, Chromatic Palace",
+  "description": "Twin aspects of celestial wisdom, speaking in harmony of the true nature of the sky and the Cataclysm.",
+  "sprite_variant": "sunandmoon_palace",
+  "greeting_variants": [
+    "*in perfect harmony* We have awaited. The stars have awaited. You have arrived.",
+    "*Celestia, radiant* The Sun welcomes. *Noctis, serene* The Moon acknowledges.",
+    "Behold the true sky. Hidden. Protected. Sacred.",
+    "*gesturing to telescope* Look. See what was stolen. What remains.",
+    "The tear you know is but a wound. The true damage... deeper.",
+    "*together* We remember the whole sky. Before fracturing. Before zones.",
+    "Astronomer? Once. Now... witnesses. Final witnesses.",
+    "The Progenitor stirs. The end approaches. Or begins."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*Celestia* We are Celestia. *Noctis* We are Noctis. *Together* We are the last astronomers of the whole sky. Before the Cataclysm shattered it. Before the zones separated. Before the Void intruded. We remember. We watch. We wait.",
+          "options": [
+            {"text": "What happened to the sky?", "goto": "sky_history"},
+            {"text": "Tell me about the Cataclysm.", "goto": "cataclysm_truth"},
+            {"text": "What is the Progenitor?", "goto": "progenitor_info"},
+            {"text": "This is overwhelming.", "goto": "comfort"}
+          ]
+        },
+        {
+          "id": "sky_history",
+          "text": "*Celestia shines brighter* Once, the sky was whole! Sun and Moon danced together! Stars sang in harmony! *Noctis deepens* Then the Progenitor woke. The sky... tore. Not just here. Everywhere. We preserved this piece. The last true observatory.",
+          "party_reactions": {
+            "mira": "A preserved pre-Cataclysm environment? Impossible!",
+            "celestia_noctis": "*gentle* Nothing is impossible. Only... unlikely."
+          },
+          "options": [
+            {"text": "Can the sky be healed?", "goto": "sky_healing"},
+            {"text": "What tore it?", "goto": "tearing_force"}
+          ]
+        },
+        {
+          "id": "cataclysm_truth",
+          "text": "*solemn* The Cataclysm was not destruction. It was... separation. Division. The world was one. Whole. The Progenitor's awakening... shattered the unity. Created zones. Distanced them. Made them... forget each other. *Celestia* Made them suffer. Alone.",
+          "options": [
+            {"text": "Why?", "goto": "cataclysm_why"},
+            {"text": "Can the zones reunite?", "goto": "reunification"}
+          ]
+        },
+        {
+          "id": "progenitor_info",
+          "text": "*whispered* The First. The Before. The one who dreamed reality into being. Who slept while the world grew. Who... *afraid* ...who woke to find its dream changed. Altered. Without permission. The Progenitor is not evil. It is... disappointed. Angry. Betrayed.",
+          "options": [
+            {"text": "Can we reason with it?", "goto": "reasoning"},
+            {"text": "Can we defeat it?", "goto": "defeating"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "royal_feast_celestial",
+    "title": "Royal Feast - The Celestial Course",
+    "description": "Help the Royal Astronomers gather ingredients from the true sky to create a dish that honors the pre-Cataclysm cosmos.",
+    "objectives": [
+      "Harvest stellar nectar from the Observatory gardens",
+      "Collect moon-tears from the reflective pools",
+      "Gather sun-essence from the dawn chamber",
+      "Help Celestia and Noctis prepare the Celestial Soufflé",
+      "Present the dish to the Progenitor's court"
+    ],
+    "rewards": {
+      "experience": 1200,
+      "reputation": {"palace_court": 50, "astronomers": 45},
+      "items": ["celestial_lense", "true_star_chart"],
+      "unlock": "sky_navigation"
+    },
+    "prerequisites": ["palace_access"]
+  },
+  "ambient_barks": [
+    "*Celestia* The sun rises. *Noctis* The moon sets. *Together* Beauty.",
+    "*studying sky* The tear widens. Or... perhaps... heals?",
+    "Once, all saw this sky. Now, only Palace remembers.",
+    "*Celestia* Light reveals. *Noctis* Darkness conceals. *Together* Truth.",
+    "The stars whisper. They know the ending. Or... beginning.",
+    "*together* We watch. We wait. We hope. We despair.",
+    "The Progenitor dreams. The world shakes. Or... settles.",
+    "*pointing* That star. That one. Last of its constellation."
+  ],
+  "cross_zone_references": {
+    "capital": "We see them. Through the tear. Fighting. Hoping. Brave.",
+    "void": "The wound. The absence. The Progenitor's... regret.",
+    "chroma_tower": "The Tower reaches. Good. Reaching is... connection."
+  },
+  "party_reactions": {
+    "eclipse": {
+      "greeting": "*recognition* You study the dark sky. We study the true.",
+      "response": "*humbled* True... yes. My dark sky is... shadow. Yours is... source."
+    },
+    "mira": {
+      "greeting": "Your knowledge transcends modern science!",
+      "response": "*gentle* Science is one path. Wonder is another. Both valid."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Celestia dominant, solar observations, warmth",
+      "night": "Noctis dominant, lunar studies, mystery"
+    },
+    "world_state_triggers": {
+      "sky_heals": "Joyful: 'The tear closes! The sky remembers wholeness!'",
+      "cataclysm_worsens": "Grim: 'The fracture deepens. Hurry. Please. Hurry.'"
+    }
+  }
+}

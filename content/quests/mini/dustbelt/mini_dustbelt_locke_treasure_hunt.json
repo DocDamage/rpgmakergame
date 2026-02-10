@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_locke_treasure_hunt",
+  "name": "Treasure Hunter's Gamble",
+  "zone": "dustbelt",
+  "giver": "Locke (Treasure Hunter)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Heard rumors of a phoenix cave in these parts! Ancient treasure! But I hurt my leg getting here. Help me find the entrance? I'll split whatever we find! 50-50! Okay, 60-40! Final offer!",
+      "objective": "Search for the hidden phoenix cave entrance in the desert cliffs"
+    },
+    "progress": {
+      "dialog": "Any luck? Phoenix caves are usually behind waterfalls or in lava flows! But this is a desert... maybe sandfall?",
+      "objective": "Continue searching for hidden cave entrances behind sandfalls"
+    },
+    "complete": {
+      "dialog": "YOU FOUND IT! And look - phoenix downs! These can revive the fallen! Rare stuff! Here's your cut! And take this smoke bomb - great for escaping tight spots!",
+      "rewards": {"gold": 550, "item": "phoenix_down_x3", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "Treasure hunting... never tried it, but it sounds exciting!",
+    "twist": "Phoenix cave?! Can we keep one?!",
+    "nix7": "Phoenix Down: extremely valuable resurrection agent."
+  },
+  "hidden_outcome": "If you find the secret back entrance, you discover an unlooted chamber with 'Ultimate Weapon' - a rare sword"
+}

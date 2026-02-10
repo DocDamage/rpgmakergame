@@ -1,0 +1,138 @@
+{
+  "id": "ENEMY_TIDE_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_SCUTTLER",
+      "name": "Scuttler",
+      "family": "tide",
+      "sprite": "spr_enemy_scuttler",
+      "stats": {
+        "hp": 160,
+        "mp": 0,
+        "atk": 22,
+        "def": 25,
+        "mag": 0,
+        "spr": 8,
+        "spd": 8
+      },
+      "weaknesses": {
+        "thunder": 1.5,
+        "ice": 1.0,
+        "fire": 1.0
+      },
+      "resists": {
+        "water": 0.0,
+        "physical": 0.8
+      },
+      "absorbs": [
+        "water"
+      ],
+      "abilities": [
+        "attack",
+        "claw_snap",
+        "shell_guard",
+        "bubble"
+      ],
+      "loot": [
+        {
+          "item": "HARD_SHELL",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        28,
+        45
+      ],
+      "xp": 50
+    },
+    {
+      "id": "ENEMY_BRINE_CASTER",
+      "name": "Brine Caster",
+      "family": "tide",
+      "sprite": "spr_enemy_brine_caster",
+      "stats": {
+        "hp": 140,
+        "mp": 100,
+        "atk": 8,
+        "def": 8,
+        "mag": 26,
+        "spr": 18,
+        "spd": 10
+      },
+      "weaknesses": {
+        "thunder": 1.5,
+        "ice": 1.2
+      },
+      "resists": {
+        "water": 0.0,
+        "fire": 0.5
+      },
+      "absorbs": [
+        "water"
+      ],
+      "abilities": [
+        "water",
+        "watera",
+        "tidal_wave",
+        "heal"
+      ],
+      "loot": [
+        {
+          "item": "AQUA_ESSENCE",
+          "chance": 0.3,
+          "count": 1
+        }
+      ],
+      "gil": [
+        32,
+        55
+      ],
+      "xp": 58
+    },
+    {
+      "id": "ENEMY_LAMPJAW_EEL",
+      "name": "Lampjaw Eel",
+      "family": "tide",
+      "sprite": "spr_enemy_lampjaw_eel",
+      "stats": {
+        "hp": 110,
+        "mp": 0,
+        "atk": 30,
+        "def": 6,
+        "mag": 0,
+        "spr": 5,
+        "spd": 16
+      },
+      "weaknesses": {
+        "thunder": 1.3,
+        "ice": 1.0
+      },
+      "resists": {
+        "water": 0.25,
+        "physical": 0.85
+      },
+      "abilities": [
+        "attack",
+        "lunge",
+        "lure",
+        "deep_bite"
+      ],
+      "loot": [
+        {
+          "item": "LUMINOUS_ORB",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "gil": [
+        22,
+        38
+      ],
+      "xp": 42
+    }
+  ]
+}

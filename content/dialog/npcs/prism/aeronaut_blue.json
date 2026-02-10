@@ -1,0 +1,83 @@
+{
+  "npc_id": "aeronaut_blue_prism",
+  "name": "Cirrus 'Cloudwalker' Highview",
+  "sprite": "aeronaut_blue",
+  "zone": "prism",
+  "location": "Aerial Survey Platform",
+  "personality": "dreamer_haunted_determined",
+  "occupation": "aerial_survey_balloonist",
+  "schedule": {
+    "morning": "preparing_balloon",
+    "day": "surveying_from_above",
+    "evening": "reviewing_observations"
+  },
+  "dialog": {
+    "greeting": [
+      "From up there... you see everything. Everything except what's right in front of you.",
+      "Cirrus Highview. Aeronaut. Surveyor. Searcher.",
+      "The balloon rises. The world shrinks. Problems... change perspective.",
+      "You need something from above? I can get above. It's what I do.",
+      "The winds carry voices. Memories. Sometimes... answers.",
+      "I survey the Prism. The patterns. The crystal formations. They're different from up there.",
+      "My partner... he's gone. Missing. In the caves. I'm looking for him. From above.",
+      "Up high, everything connects. The caves. The crystals. The tower in the distance."
+    ],
+    "missing_partner": "Stratus. My partner. My friend. Went into the caves to verify a survey. Never came out. The company says 'presumed lost.' I say 'not proven.' I keep looking.",
+    "aerial_surveys": "The patterns from above... they mean something. Crystal formations align. Point somewhere. The tower, maybe. Or somewhere else. Something ancient planned this.",
+    "backstory": "Born in the sky. Well, in a balloon basket. Family of aeronauts. Stratus and I came to Prism for the money. Stayed for the mystery. Now I stay for him. Until I find him.",
+    "rumors": [
+      "That blue tunneler - he found the Great Prism where I told him to look. I saw the pattern. The formation. He dug. Now he's... changed. The caves change people.",
+      "The twins understand patterns. Echoes. Resonance. I should talk to them more.",
+      "The old prospector has maps showing cave systems that don't match my surveys. Impossible. Unless...",
+      "From above, I can see the tower. Black against the horizon. Sometimes it seems to... pulse. When the Great Prism pulses too."
+    ],
+    "ambient_barks": [
+      "The winds call...",
+      "Stratus, where are you...",
+      "Patterns in stone...",
+      "Up high, everything's clear...",
+      "The balloon rises...",
+      "I will find him..."
+    ],
+    "time_of_day": {
+      "morning": "Morning winds. Calm. Perfect for ascent.",
+      "noon": "Midday heat. Turbulent. Challenging. Good readings.",
+      "evening": "Evening surveys. The light... shows things.",
+      "night": "Night observations. The stars. The tower. The connection."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "lost_surveyor",
+    "quest_name": "The Lost Surveyor",
+    "stage_1_hook": "Stratus. My partner. Missing in the eastern caves. The company gave up. I haven't. I need someone to go where I can't. Underground. Find signs of him. Please.",
+    "stage_1_active": "Eastern caves. Deep section. Look for survey equipment. His notes. Anything. He had a brass compass. Family heirloom. If you find that...",
+    "stage_2_progress": "You've been searching? Found anything? Even small things matter. To me.",
+    "stage_2_item_needed": "stratus_brass_compass",
+    "stage_3_complete": "His compass. He always kept it. Said it pointed to what mattered. He must have... left it. For someone to find. Thank you. For closure. Here. My survey goggles. See the world clearly. As he did.",
+    "reward": "aeronaut_survey_goggles"
+  },
+  "party_reactions": {
+    "kade": "Haunted by loss. But channeling it into purpose. Admirable.",
+    "nix7": "Grief response: documented. Search behavior: persistent. Probability of partner survival: minimal. Does not accept probability.",
+    "twist": "He's so SAD! But so DETERMINED! I want to help find his friend!",
+    "korr": "Loyalty beyond death. This is the warrior's way.",
+    "renna": "His partner was a mage. The caves... absorb magic. He may yet live. Unlikely, but possible.",
+    "suresh": "He searches for the lost. A noble cause. May he find peace.",
+    "sova": "Knows the terrain from above. Useful perspective.",
+    "grit": "Seen soldiers keep searching for MIA comrades. Sometimes find them. Sometimes find ghosts.",
+    "ashka": "He burns with determination. Fire that doesn't consume. Rare.",
+    "senna": "His surveys show hidden entrances. Secret paths. Valuable.",
+    "callum": "He let me go up in the balloon. It was amazing. And sad. He talked about his partner the whole time."
+  },
+  "relationship_dialog": {
+    "stranger": "You need something surveyed? I can do that. From above.",
+    "acquaintance": "You return. Without news. But... that's news too. Thank you for trying.",
+    "friend": "You've helped search. That means... everything. Truly.",
+    "best_friend": "You found his compass. Gave me closure. Some think closure is an end. It's not. It's a... turning point. Thank you."
+  },
+  "cross_npc_connections": [
+    "tunneler_blue_prism: The finder of the Great Prism. I showed him where to dig. Now I wonder if I should have.",
+    "twins_white_prism: The echo oracles. They say they can hear him. Stratus. Echoing. I'm not sure if that's hope or cruelty.",
+    "tunneler_purple_prism: Old prospector. Says he knows where Stratus went. Won't tell me. 'For my own safety.'"
+  ]
+}

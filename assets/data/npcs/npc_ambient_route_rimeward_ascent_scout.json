@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_RIMEWARD_ASCENT_SCOUT",
+  "name": "Rimeward Ascent Wayfarer",
+  "title": "Route Tracker",
+  "location": "MIC_R12_112x56",
+  "coords": [
+    56,
+    28
+  ],
+  "schedule": {
+    "day": [
+      56,
+      28
+    ],
+    "night": [
+      59,
+      26
+    ],
+    "rain": [
+      58,
+      28
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_TRACKER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Monitors tracks, nests, and hazard migration patterns. Assigned to Rimeward Ascent.",
+  "personality": "Quiet, sharp-eyed, and no-nonsense.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "hazard_tracking",
+    "pathfinding"
+  ]
+}

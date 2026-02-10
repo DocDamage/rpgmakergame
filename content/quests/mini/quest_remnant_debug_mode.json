@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_debug_mode",
+  "name": "Behind the Code",
+  "zone": "remnant",
+  "giver": "trenchcoat_glitch",
+  "type": "investigation",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "The Remnant has layers beneath the surface—debug modes, developer tools, the machinery that makes the world work. Most players never see this. But you've earned access. Enter the debug zone, see how the sausage is made, understand the systems that create your reality. Warning: may change how you see the game.",
+      "objective": "Enter the debug zone and explore the development tools"
+    },
+    "progress": {
+      "dialog": "You're in the debug space now—wireframes, collision boxes, spawn points, all visible. See how the world is constructed? The magic is in the craftsmanship. Every tree placed with purpose, every encounter balanced, every line of dialogue written with intent. Respect the craft, even knowing the tricks.",
+      "objective": "Explore all debug zones and learn the development systems"
+    },
+    "complete": {
+      "dialog": "Debug exploration complete, curtain pulled back, magic intact. Knowing how it's made doesn't diminish the achievement—it enhances appreciation. The developers built a world that holds together even when you see the seams. That's craft. That's art. And you, player, have seen both sides now.",
+      "rewards": {
+        "exp": 40000,
+        "gold": 10000,
+        "item": "debug_access_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Seeing the wireframes and spawn points... weirdly comforting. Someone built all this. Someone cared.",
+    "renna": "The technical architecture is elegant. Efficient resource allocation, clean code structures. Beautiful engineering.",
+    "sova": "Understanding the construction doesn't reduce the meaning. A poem is still poetry, even knowing grammar rules."
+  },
+  "lore_unlocks": ["debug_mode", "game_development"]
+}

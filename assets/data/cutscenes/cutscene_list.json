@@ -1,0 +1,107 @@
+{
+  "cutscenes": [
+    {
+      "id": "CS_PROLOGUE",
+      "name": "Prologue - Arrival",
+      "trigger": "new_game",
+      "location": "T_DUSTHAVEN_112x72",
+      "characters": ["KADE"],
+      "duration": "2:30",
+      "type": "intro",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "dusthaven_gate", "camera": "wide"},
+        {"shot": 2, "action": "dialog", "speaker": "KADE", "line": "Finally made it. Dusthaven.", "portrait": "spr_kade_portrait_neutral"},
+        {"shot": 3, "action": "pan", "target": "town_center"},
+        {"shot": 4, "action": "dialog", "speaker": "KADE", "line": "Time to find this Broker Vane.", "portrait": "spr_kade_portrait_determined"},
+        {"shot": 5, "action": "fade_out"}
+      ]
+    },
+    {
+      "id": "CS_FIRST_RELIC",
+      "name": "Growth Foundation Acquired",
+      "trigger": "BOSS_THE_BLOOM_defeated",
+      "location": "D1_RUINS_96x96",
+      "characters": ["KADE", "MIRA_THORN"],
+      "duration": "3:00",
+      "type": "story",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "pedestal_chamber"},
+        {"shot": 2, "action": "animation", "target": "relic_glow", "effect": "fx_light_beam"},
+        {"shot": 3, "action": "dialog", "speaker": "KADE", "line": "This is... power.", "portrait": "spr_kade_portrait_surprised"},
+        {"shot": 4, "action": "item_acquired", "item": "ITEM_RELIC_GROWTH_FOUNDATION"},
+        {"shot": 5, "action": "dialog", "speaker": "MIRA_THORN", "line": "You did it! The stories were true!", "portrait": "spr_mira_portrait_happy"}
+      ]
+    },
+    {
+      "id": "CS_WORLD_BREAK",
+      "name": "The World Break",
+      "trigger": "BOSS_THE_INFERNO_defeated",
+      "location": "D4_SKYSPIRE_96x96",
+      "characters": ["KADE", "FULL_PARTY"],
+      "duration": "5:00",
+      "type": "major_event",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "skyspire_summit"},
+        {"shot": 2, "action": "animation", "target": "sky", "effect": "reality_crack"},
+        {"shot": 3, "action": "screen_shake", "intensity": "high", "duration": 3.0},
+        {"shot": 4, "action": "dialog", "speaker": "KADE", "line": "What's happening?!", "portrait": "spr_kade_portrait_angry"},
+        {"shot": 5, "action": "bgm_change", "track": "bgm_world_break"},
+        {"shot": 6, "action": "visual_effect", "effect": "fx_reality_tear"},
+        {"shot": 7, "action": "fade_white"}
+      ]
+    },
+    {
+      "id": "CS_MERCER_DUEL",
+      "name": "Mercer's Challenge",
+      "trigger": "TWR_ARENA_F50_enter",
+      "location": "TWR_ARENA_F50_64x64",
+      "characters": ["KADE", "MERCER"],
+      "duration": "4:00",
+      "type": "boss_intro",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "tower_arena"},
+        {"shot": 2, "action": "character_enter", "character": "MERCER", "direction": "from_top"},
+        {"shot": 3, "action": "dialog", "speaker": "MERCER", "line": "So you've come. Like I once did.", "portrait": "spr_mercer_portrait"},
+        {"shot": 4, "action": "dialog", "speaker": "KADE", "line": "You're Mercer. The one who came before.", "portrait": "spr_kade_portrait_determined"},
+        {"shot": 5, "action": "dialog", "speaker": "MERCER", "line": "Let me show you what awaits at the summit.", "portrait": "spr_mercer_portrait_smirk"},
+        {"shot": 6, "action": "battle_start", "boss": "BOSS_MERCER"}
+      ]
+    },
+    {
+      "id": "CS_FINAL_BOSS",
+      "name": "Progenitor Engine",
+      "trigger": "PAL_F5_enter",
+      "location": "PAL_F5_80x80",
+      "characters": ["KADE", "FULL_PARTY"],
+      "duration": "6:00",
+      "type": "finale",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "palace_throne"},
+        {"shot": 2, "action": "animation", "target": "progenitor_engine", "effect": "awaken"},
+        {"shot": 3, "action": "dialog", "speaker": "PROGENITOR_ENGINE", "line": "SYSTEM BREACH DETECTED.", "style": "mechanical_text"},
+        {"shot": 4, "action": "dialog", "speaker": "KADE", "line": "This is it. The source of everything.", "portrait": "spr_kade_portrait_determined"},
+        {"shot": 5, "action": "party_gather", "formation": "unison"},
+        {"shot": 6, "action": "dialog", "speaker": "KADE", "line": "Together! For the future!", "portrait": "spr_kade_portrait_leader"},
+        {"shot": 7, "action": "battle_start", "boss": "BOSS_PROGENITOR_ENGINE"}
+      ]
+    },
+    {
+      "id": "CS_TRUE_ENDING",
+      "name": "True Ending",
+      "trigger": "BOSS_PROGENITOR_ENGINE_defeated",
+      "location": "PAL_F5_80x80",
+      "characters": ["KADE", "FULL_PARTY"],
+      "duration": "8:00",
+      "type": "ending",
+      "scenes": [
+        {"shot": 1, "action": "fade_in", "location": "collapsing_palace"},
+        {"shot": 2, "action": "dialog", "speaker": "KADE", "line": "It's over...", "portrait": "spr_kade_portrait_exhausted"},
+        {"shot": 3, "action": "character_reaction", "character": "MIRA_THORN", "emotion": "relief"},
+        {"shot": 4, "action": "bgm_change", "track": "bgm_ending"},
+        {"shot": 5, "action": "fade_to_white"},
+        {"shot": 6, "action": "epilogue_sequence"},
+        {"shot": 7, "action": "credits_roll"}
+      ]
+    }
+  ]
+}

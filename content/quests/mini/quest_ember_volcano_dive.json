@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_volcano_dive",
+  "name": "Heart of the Inferno",
+  "zone": "ember",
+  "giver": "tunneler_red",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The magma flows speak to me, friend. Deep within Mount Pyralis lies a fire gem of unmatched purity—touched by the First Flame itself. But the path is treacherous. Lava worms, flame elementals, and worse guard the depths. Are you brave enough to descend?",
+      "objective": "Enter Mount Pyralis and retrieve the Primal Fire Gem"
+    },
+"progress": {
+      "dialog": "You're halfway through the magma chamber! The heat is intense—my instruments are melting just thinking about it. The gem pulses ahead, but so does something... large. Keep your cool, literally!",
+      "objective": "Navigate the magma chamber and defeat the Lava Worm guardian"
+    },
+    "complete": {
+      "dialog": "You actually survived! And brought the gem! This is magnificent—feel its warmth? This will keep Cinderstep heated for a decade. The Deep Forge Guild will sing songs of your bravery!",
+      "rewards": {
+        "exp": 1200,
+        "gold": 800,
+        "item": "ember_heart_amulet"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Going INTO a volcano? The things I do for adventure...",
+    "twist": "My spells are literally evaporating in this heat. Can we hurry?",
+    "nix7": "Internal temperature critical. Recommend immediate completion of objective."
+  }
+}

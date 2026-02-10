@@ -1,0 +1,54 @@
+{
+  "npc_id": "elder_bogwhisper",
+  "name": "Elder Bogwhisper",
+  "title": "Elder Lore Keeper",
+  "zone": "mire",
+  "location": "Council of Despair Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "measured_wise_unyielding",
+  "occupation": "elder_scholar",
+  "dialog": {
+    "greeting": [
+      "Elder Bogwhisper on comms. Stage 2: Council of Despair. Keep formation tight and decisions tighter.",
+      "We are running The Sinking Truth. Objective drift gets teams buried.",
+      "Yesterday a corridor tried to charge me toll in riddles. I paid in sarcasm.",
+      "Action first, panic never. Start with: Defend against hostile guards."
+    ],
+    "quest_hook": "Objective stack: Defend against hostile guards; Use the True Lens to reveal Void tendrils; Convince the Council with evidence. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Convince the Marshfolk Council that the Void is the true threat. Immediate move: Defend against hostile guards.",
+    "quest_complete": "Stage 2 resolved: Council of Despair. Primary objective secured and route stabilized. Prepare for Heart of the Blight.",
+    "rumor": [
+      "Boardwalk crews say the swamp now mirrors stars from the wrong season.",
+      "People keep repeating one clue from Council of Despair: 'Convince the Council with evidence'.",
+      "I saw gravity file for overtime in this sector. Management approved."
+    ],
+    "ambient_barks": [
+      "Listen before speaking.",
+      "Old roads remember.",
+      "Truth leaves tracks.",
+      "Slow is smooth."
+    ],
+    "time_dawn": "Dawn mist sits low in the Mire; good for stealth, bad for footing.",
+    "time_noon": "Noon stirs the boardwalk gases. Keep sparks and spells controlled.",
+    "time_dusk": "Dusk wakes the sink patches. Test every plank before weight transfer.",
+    "time_night": "Night in swamp country means sound carries wrong. Use lantern codes."
+  },
+  "party_reactions": {
+    "kade": "Elder Bogwhisper sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Elder Bogwhisper accepted. Probability of success improves with compliance.",
+    "twist": "Elder Bogwhisper talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "Identify your lane and your fallback.",
+    "acquaintance": "Good timing. We can still salvage this window.",
+    "friend": "You know the drill. I trust your judgment.",
+    "best_friend": "If the world bends, we bend it back together."
+  },
+  "story_flags": {
+    "appears_during": [
+      "mire_sinking_truth"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+    "world_break_aware": true
+  }
+}

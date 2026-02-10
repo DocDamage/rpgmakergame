@@ -1,0 +1,83 @@
+{
+  "npc_id": "foodboys_red_mire",
+  "name": "Heath 'Heat' Habanero",
+  "sprite": "foodboys_red",
+  "zone": "mire",
+  "location": "The Scorching Stall",
+  "personality": "intense_reckless_passionate",
+  "occupation": "hot_sauce_vendor",
+  "schedule": {
+    "morning": "harvesting_peppers",
+    "day": "brewing_and_selling",
+    "night": "eating_milk_products"
+  },
+  "dialog": {
+    "greeting": [
+      "WARNING: EXTREME HEAT AHEAD! Are you BRAVE enough?!",
+      "Heat's Hot Sauce! Not for the WEAK! Not for the FAINT! For the BOLD!",
+      "My brothers sell food. I sell EXPERIENCE! Painful, delicious experience!",
+      "You look like someone who can handle spice! Or a complete fool! Either way, TRY IT!",
+      "Step up! Test your limits! TASTE THE FIRE!",
+      "I've got mild, hot, and 'Call a Priest!' Which level of regret do you want?",
+      "The Scorching Stall awaits! Bring water! LOTS of water!",
+      "Not responsible for burned tongues, tears, or life choices!"
+    ],
+    "sauce_varieties": "Mild is for children! Hot is for tourists! 'Magma Madness' is for WARRIORS! And 'Call a Priest' is... well, we don't talk about what happens with 'Call a Priest.'",
+    "pepper_sources": "I grow my own peppers. In a special greenhouse. With extra sun. And encouragement. I yell at them to be spicier. It works.",
+    "backstory": "Born last but BORN LOUD! While Flip was frying and Corny was baking, I discovered FIRE! The beautiful, painful, DELICIOUS fire! My sauces have made grown men cry. Mostly me. I taste-test everything.",
+    "rumors": [
+      "Flip thinks he's the successful one? Wait until my 'Magma Madness' goes national!",
+      "Corny's cornbread is good for one thing - soaking up my sauce after you overdo it.",
+      "The luchador fighter? He tried 'Call a Priest' and LIVED. Respect.",
+      "I heard the iron chef uses a weak sauce. Disappointed. Thought he had standards."
+    ],
+    "ambient_barks": [
+      "FEEL THE BURN!",
+      "Taste the PAIN!",
+      "Milk for sale!",
+      "Not for beginners!",
+      "Bring water!",
+      "Signed waivers required!"
+    ],
+    "time_of_day": {
+      "morning": "Morning batch is milder. Well, 'mild.' Everything's relative.",
+      "noon": "Lunch rush! The brave and the foolish line up alike!",
+      "evening": "Evening is for 'Magma Madness.' The night is dark and full of flavor!",
+      "night": "Closed! My throat needs rest! And ice cream. So much ice cream."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "ultimate_pepper",
+    "quest_name": "The Inferno Pepper",
+    "stage_1_hook": "I need the ultimate pepper. The Ghost Chili of the Scorched Wastes. Legends say one pepper can flavor a thousand barrels. I NEED IT. For science! And profit! Mostly profit!",
+    "stage_1_active": "Ghost Chili. Grows only in the hottest parts of the Scorched Wastes. Red as blood, hot as the sun, supposedly guarded by fire spirits. Worth it.",
+    "stage_2_progress": "The Scorched Wastes are no joke, huh? Find that pepper yet? My sauce dreams depend on it!",
+    "stage_2_item_needed": "scorched_wastes_ghost_chili",
+    "stage_3_complete": "YOU FOUND IT! THE GHOST CHILI! I can feel the heat from here! This will make the ULTIMATE sauce! Here - take this. A bottle of my finest. And... a fire resistance potion. You'll need it.",
+    "reward": "heats_inferno_sauce"
+  },
+  "party_reactions": {
+    "kade": "I tried the 'mild.' I cried for an hour. Never again.",
+    "nix7": "Warning: Consumption may result in temporary respiratory distress. Not recommended for organic life.",
+    "twist": "I ATE THE SPICY ONE! MY MOUTH IS ON FIRE! I LOVE IT!",
+    "korr": "My people have strong constitutions. Even I found this... challenging.",
+    "renna": "There's actual fire magic in the hottest sauce. He doesn't know he's infusing it. Dangerous.",
+    "suresh": "I tasted the 'Call a Priest.' It reminded me of dragon's breath. Respect.",
+    "sova": "Good for clearing sinuses. Also good for weaponizing food. Interesting.",
+    "grit": "We used hot sauce in the field. This? This is warfare.",
+    "ashka": "Finally! Someone who understands HEAT! We should collaborate!",
+    "senna": "Useful. A few drops in someone's drink and they'll talk. Or scream. Either works.",
+    "callum": "I touched my eye after eating some. I saw colors that don't exist."
+  },
+  "relationship_dialog": {
+    "stranger": "New victim! I mean, CUSTOMER! Try the mild! Or don't! I'm not your mother!",
+    "acquaintance": "Back for more punishment! Respect! Most people run!",
+    "friend": "My spice sibling! You've graduated to 'Magma Madness'! Proud of you!",
+    "best_friend": "You... you actually enjoy the pain. The beautiful, burning pain. We're kindred spirits. Here. My private reserve. Don't tell anyone."
+  },
+  "cross_npc_connections": [
+    "foodboys_blue: Flip. Oldest brother. Thinks frying is hard. Try growing inferno peppers!",
+    "foodboys_yellow: Corny. Middle child. Bakes 'comfort food.' Coward.",
+    "lucha_blue: The fighter? Regular customer. Likes 'Magma Madness' on everything."
+  ]
+}

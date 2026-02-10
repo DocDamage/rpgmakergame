@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_tower_ascension_ritual",
+  "name": "The Rite of Climbing",
+  "zone": "tower",
+  "giver": "ironchef",
+  "type": "social",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Every hundred climbs, the old tradition demands a Rite of Ascension—a ceremony honoring those who've dedicated their lives to the Tower. This year's rite falls on Floor 77, and I need help preparing. Gather the ceremonial components, invite the honored climbers, make this special.",
+      "objective": "Gather components for the Rite of Ascension ceremony"
+    },
+    "progress": {
+      "dialog": "Components gathered, guests arriving, but there's tension. Two rival climbing factions both claim the right to lead the ceremony. If they fight, the rite is ruined. You need to mediate, find common ground, remind them what the Tower represents—ascension, not division.",
+      "objective": "Mediate between rival factions and complete the ceremony"
+    },
+    "complete": {
+      "dialog": "Rite completed, unity restored, tradition honored. The factions shook hands, shared bread, remembered they're all climbers. These moments matter, Kade. The Tower tests us, but it also brings us together. You facilitated something beautiful today. The climb continues, but now, together.",
+      "rewards": {
+        "exp": 19500,
+        "gold": 4200,
+        "item": "ascension_blessing"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Never thought I'd be a diplomat. But seeing those rivals clasp hands... that felt better than any battle.",
+    "senna": "Tradition binds us to those who climbed before. Honoring that connection strengthens our resolve for what lies ahead.",
+    "callum": "Ceremony and ritual matter, even in desperate times. Especially in desperate times. Well done, Kade."
+  },
+  "lore_unlocks": ["tower_ascension_rite", "climbing_factions"]
+}

@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_seifer_rivalry",
+  "name": "Rival's Challenge",
+  "zone": "prism",
+  "giver": "Seifer (Rival Mercenary)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "So you're the hero everyone's talking about? Heh. I'm Seifer. I'm gonna be the legendary knight someday. But first, I need to prove I'm better than you. Fight me! Winner takes the glory!",
+      "objective": "Defeat Seifer in a one-on-one duel"
+    },
+    "progress": {
+      "dialog": "Not bad! But I'm just getting started! Hyne, grant me strength!",
+      "objective": "Continue the duel and defeat Seifer"
+    },
+    "complete": {
+      "dialog": "...I lost. But I won't lose next time! This isn't over! Here - take this. My old gunblade. I've outgrown it. But it'll serve you... until I win it back!",
+      "rewards": {"gold": 500, "item": "hyperion_gunblade", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "He's strong. And stubborn. We'll meet again.",
+    "korr": "A rival can drive you to greater heights. Or destroy you.",
+    "twist": "That was intense! He really doesn't like losing!"
+  },
+  "hidden_outcome": "If you defeat Seifer using only counterattacks, he respects you as a true rival and gives you 'Demon Slice' technique"
+}

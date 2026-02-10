@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_sea_witch_potion",
+  "name": "Brew of the Boundless Blue",
+  "zone": "tide",
+  "giver": "snakecharmer",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Sea Witch needs ingredients for her greatest potion—the Breath of Oceans! It grants permanent underwater breathing! But the ingredients are rare: Moon Jelly essence, Deepwater Lotus, and Kraken blood. Gather them, and she'll share the potion!",
+      "objective": "Collect Moon Jelly essence, Deepwater Lotus, and Kraken blood"
+    },
+    "progress": {
+      "dialog": "Two ingredients down! Just the Kraken blood left—but she needs it fresh! There's a young kraken near the Serpent's Spine. Collect a vial of its blood without killing it! A wounded kraken is dangerous!",
+      "objective": "Collect fresh Kraken blood from the Serpent's Spine"
+    },
+    "complete": {
+      "dialog": "The Breath of Oceans is complete! The Sea Witch keeps her word—one dose for you! From this day, you can breathe underwater as easily as air! Plus, here's a Sea Witch Charm for your trouble!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 600,
+        "item": "breath_of_oceans_potion"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Permanent underwater breathing? I'll never drown again!",
+    "twist": "The Kraken was... unhappy about the blood donation.",
+    "nix7": "Alchemical aquatic adaptation: permanent. Respiratory efficiency: enhanced."
+  }
+}

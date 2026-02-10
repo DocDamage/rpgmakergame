@@ -1,0 +1,94 @@
+{
+  "id": "FROST_ENCOUNTERS",
+  "region": "frost",
+  "maps": [
+    "T_RIMEHOLD_112x72",
+    "D7_FROZEN_96x96",
+    "MIC_R10_104x56",
+    "MIC_R11_120x56",
+    "MIC_R12_112x56",
+    "MIC_R13_64x36"
+  ],
+  "encounter_rate": 0.1,
+  "min_steps": 13,
+  "max_steps": 27,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_FROST_SKIRMISHER"
+      ],
+      "weight": 34,
+      "min_steps": 12,
+      "gil_range": [
+        32,
+        55
+      ],
+      "xp": 58
+    },
+    {
+      "enemies": [
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 28,
+      "min_steps": 13,
+      "gil_range": [
+        35,
+        60
+      ],
+      "xp": 62
+    },
+    {
+      "enemies": [
+        "ENEMY_FROZEN_WATCHER"
+      ],
+      "weight": 18,
+      "min_steps": 16,
+      "gil_range": [
+        40,
+        65
+      ],
+      "xp": 70
+    },
+    {
+      "enemies": [
+        "ENEMY_FROST_SKIRMISHER",
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 16,
+      "min_steps": 18,
+      "gil_range": [
+        67,
+        115
+      ],
+      "xp": 120
+    },
+    {
+      "enemies": [
+        "ENEMY_FROST_SKIRMISHER",
+        "ENEMY_FROST_SKIRMISHER"
+      ],
+      "weight": 10,
+      "min_steps": 19,
+      "rare": true,
+      "gil_range": [
+        64,
+        110
+      ],
+      "xp": 112
+    },
+    {
+      "enemies": [
+        "ENEMY_FROZEN_WATCHER",
+        "ENEMY_CHILL_CASTER"
+      ],
+      "weight": 6,
+      "min_steps": 22,
+      "rare": true,
+      "gil_range": [
+        75,
+        125
+      ],
+      "xp": 128
+    }
+  ]
+}

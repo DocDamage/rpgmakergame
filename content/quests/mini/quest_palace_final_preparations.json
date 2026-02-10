@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_final_preparations",
+  "name": "The Last Ready",
+  "zone": "palace",
+  "giver": "ironchef",
+  "type": "exploration",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "Before facing the Progenitor Engine, every resource must be secured, every ally armed, every contingency planned. The Palace contains hidden armories, forgotten stores of Progenitor-forged gear. Find them, distribute them, prepare the party for what comes next. This is the calm before the final storm.",
+      "objective": "Locate three hidden Palace armories and recover their contents"
+    },
+    "progress": {
+      "dialog": "Two armories found, gear distributed, but the third requires a key. The key is held by a Palace guardian that only yields to those who pass its trial of worth. Combat won't work here—we need to demonstrate wisdom, courage, and sacrifice. Show it what kind of hero you are.",
+      "objective": "Pass the guardian's trial and access the final armory"
+    },
+    "complete": {
+      "dialog": "All armories opened, gear distributed, party prepared. The Progenitor Engine faces not just heroes, but heroes armed with the finest equipment ever forged. We've done everything possible to prepare. Whatever happens next, we face it at our strongest. Ready yourself, Kade. The endgame begins.",
+      "rewards": {
+        "exp": 28000,
+        "gold": 12000,
+        "item": "palace_armory_cache"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Best gear I've ever handled. If we're going to face a machine god, at least we're doing it well-equipped.",
+    "grit": "Progenitor-forged armor. Light as silk, hard as diamond. This is what the best protection feels like.",
+    "senna": "Weapons that sing with purpose. Tools that fit the hand perfectly. The Progenitors understood the warrior's need."
+  },
+  "lore_unlocks": ["palace_armories", "progenitor_forge_techniques"]
+}

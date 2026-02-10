@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_barrelman_bet",
+  "name": "Barrel of Laughs",
+  "zone": "dustbelt",
+  "giver": "Barrelman Bob",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Bet you can't fit in a barrel! Everyone says 'Bob, you're crazy!' But YOU? You look FLEXIBLE! Borrow my spare barrel - wear it for ONE HOUR in the bazaar! Prove 'em wrong!",
+      "objective": "Wear a barrel in the Dustbelt Bazaar for one hour"
+    },
+    "progress": {
+      "dialog": "Still in the barrel? GOOD! People are TALKING! The barrel life CHOOSES you now! Embrace it!",
+      "objective": "Continue wearing the barrel and interact with 5 NPCs"
+    },
+    "complete": {
+      "dialog": "HA! You DID it! They said it couldn't be done! BARREL-BUDDIES! Here - my LUCKY barrel ring! Won my first barrel race with this! Now it's YOURS!",
+      "rewards": {"gold": 150, "item": "barrelman_lucky_ring", "reputation": 8}
+    }
+  },
+  "party_comments": {
+    "kade": "I am NOT getting in a barrel.",
+    "twist": "I want a barrel too! Barrel twins!",
+    "nix7": "This is... illogical. Yet statistically entertaining."
+  },
+  "hidden_outcome": "If you wear the barrel for 3 hours total, you unlock the 'Barrelman' title and Bob teaches you the 'Barrel Roll' dodge technique"
+}

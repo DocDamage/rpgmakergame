@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_void_entity_communion",
+  "name": "Voices from the Dark",
+  "zone": "void",
+  "giver": "bush",
+  "type": "social",
+  "prerequisites": ["dungeon_d8_complete"],
+  "stages": {
+    "start": {
+      "dialog": "Not everything in the Void is hostile. Some entities... remember. They were something else before—people, places, ideas. There's one that calls itself 'Echo' near the twisted grove. It wants to talk. To you specifically. It knows things about the Progenitor Engine.",
+      "objective": "Find and commune with the Void entity 'Echo'"
+    },
+    "progress": {
+      "dialog": "Echo speaks in riddles, but there's truth buried in the madness. It wants something in exchange for its knowledge—a memory, a moment of joy, something to remind it of what it was. The communion ritual requires vulnerability. Open your mind, but keep your will strong.",
+      "objective": "Perform the communion ritual and exchange a memory for knowledge"
+    },
+    "complete": {
+      "dialog": "You gave Echo a memory of sunlight, and it gave you the location of the Engine's failsafe—something even the Triumvirate doesn't know. The Void takes, but it also gives. Today, you proved that communication is possible. Maybe, just maybe, not all Void entities need to be destroyed.",
+      "rewards": {
+        "exp": 13000,
+        "gold": 1800,
+        "item": "echo_knowledge_fragment"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I gave it the memory of my first sunrise in Rusthaven. Felt like losing something, but... maybe it needed it more.",
+    "petra": "Communing with Void entities? That's how I ended up... like this. Be careful, Kade. The Void always takes more than it gives.",
+    "sova": "Echo was likely a researcher who got too close to the Shadow Foundation. The transformation preserves knowledge but destroys coherence. Tragic."
+  },
+  "lore_unlocks": ["void_entities", "echo_origin"]
+}

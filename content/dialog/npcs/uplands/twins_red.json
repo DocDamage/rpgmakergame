@@ -1,0 +1,110 @@
+{
+  "npc_id": "twins_red_uplands",
+  "name": "Ember and Ash",
+  "sprite": "twins_red",
+  "zone": "uplands",
+  "location": "Shrine of Twin Flames",
+  "personality": "fiery_devoted",
+  "occupation": "prayer_attendants",
+  "dialog": {
+    "greeting": [
+      "The flames guided you here--",
+      "--as they guide all seekers. Welcome.",
+      "I am Ember, the burning--",
+      "--and I am Ash, the renewal. Together--",
+      "--we tend the eternal flame. What--",
+      "--brings you to sacred fire?"
+    ],
+    "shop_open": "We offer fire-blessed goods. Warmth--protection. Purification through flame.",
+    "shop_prompt": "Sacred flame items. Candles that never--extinguish. Charms of warmth.",
+    "haggle": [
+      "Our flames give freely. But--",
+      "--materials cost. Fair price.",
+      "For the devoted? Discount.--",
+      "--We see your inner fire.",
+      "Fire purifies greed. Reasonable--",
+      "--offer accepted.",
+      "Together we agree. As always--",
+      "--the price is set. Fair."
+    ],
+    "purchase_success": [
+      "Blessed by flame. Carry the--",
+      "--warmth with you. Always.",
+      "Fire protects its own. You--",
+      "--are marked. Safe journey.",
+      "A worthy choice. The flame--",
+      "--approves. We approve."
+    ],
+    "purchase_fail": [
+      "The flame rejects. Not yet--",
+      "--ready for fire's gift.",
+      "Return when your inner flame--",
+      "--burns brighter. We will wait.",
+      "Some things require patience.--",
+      "--Fire teaches this."
+    ],
+    "rumor": [
+      "Our white sisters tend moon shrine.--",
+      "--Different path. Same devotion.",
+      "Hashimoto's fire burns low. He--",
+      "--needs new purpose. New flame.",
+      "The sun and moon reader visits--",
+      "--both shrines. Seeks balance.",
+      "A black coat asked about our flame.--",
+      "--We did not answer. Fire protects."
+    ],
+    "quest_hook": "Sacred coals must be refreshed. Need embers from the--Phoenix Perch. Dangerous climb. But the flame calls.--Bring coals. We will reward with fire's favor.",
+    "quest_active": "Phoenix Perch. Highest point. Embers still--warm. Careful. Fire tests the worthy.",
+    "quest_complete": "The coals! Still warm! The eternal flame--burns brighter! Here. Flame-blessed armor. Protection--and power. You are fire-friend now.",
+    "quest_reward": "Flame-Blessed Armor - Fire Resistance +10",
+    "farewell": [
+      "Walk in warmth. Burn bright--",
+      "--but do not consume yourself.",
+      "The flame remembers friends.--",
+      "--Return anytime. Always welcome.",
+      "Fire and ash. Beginning and--",
+      "--end. We watch both for you."
+    ],
+    "ambient_barks": [
+      "*crackling fire*",
+      "--burn eternal--",
+      "--rise from ash--",
+      "*harmonized chanting*",
+      "Flame speaks...",
+      "*fire tending*"
+    ],
+    "time_dawn": "Morning fire. New day's warmth--born from night's ashes.",
+    "time_noon": "Sun at peak. Fire answers sun--in competition. Both bright.",
+    "time_dusk": "Evening. Fire becomes more--precious. Light against dark.",
+    "time_night": "Night belongs to flame. We tend--until dawn. Always vigilant.",
+    "post_quest_greeting": "Fire-bringer returns! The shrine--burns brighter for your service."
+  },
+  "party_reactions": {
+    "kade": "Twins again? This place loves pairs.",
+    "nix7": "Thermal energy manipulation. Fascinating.",
+    "twist": "Fire! Pretty fire! Can I touch?",
+    "korr": "The fire is true. These ones are true.",
+    "renna": "Pyromantic blessings. Potent magic."
+  },
+  "relationship_dialog": {
+    "stranger": "New to flame. We see--potential. Uncertainty.",
+    "acquaintance": "Returning to warmth. Fire--remembers. We remember.",
+    "friend": "Fire-friend. Trusted with--sacred flame. Honor bound.",
+    "best_friend": "You carry our flame now.--Part of us. Part of fire."
+  },
+  "mini_quest": {
+    "id": "sacred_coals",
+    "title": "Flame's Refresh",
+    "description": "Retrieve sacred coals from Phoenix Perch to refresh the eternal flame",
+    "stages": {
+      "hook": "Sacred coals must be refreshed. Need embers from Phoenix Perch. Dangerous climb. But flame calls. Will you answer?",
+      "active": "Phoenix Perch. Highest point. Embers still warm. Careful. Fire tests the worthy. Don't get burned!",
+      "complete": "The coals! Still warm! Eternal flame burns brighter! Here. Flame-blessed armor. Protection and power. Fire-friend!"
+    },
+    "reward": {
+      "item": "flame_blessed_armor",
+      "gold": 350,
+      "reputation": "fire_blessed"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_tide_leviathan_warden",
+  "name": "The Great Leviathan's Keep",
+  "zone": "tide",
+  "giver": "pigman_blue",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Oink! The Great Leviathan—the ancient guardian of Tide—has awakened early! Something disturbed its slumber, and now it's thrashing about, threatening Brinegate! We need to calm it, but that means entering its mind through a dream ritual!",
+      "objective": "Prepare for the dream ritual to enter the Leviathan's mind"
+    },
+    "progress": {
+      "dialog": "You're in its dreamscape! The Leviathan's mind is a maze of ocean memories—but something dark has entered. Void shadows are corrupting its thoughts! Destroy them to restore the Leviathan's peace!",
+      "objective": "Defeat the Void shadows in the Leviathan's dreamscape"
+    },
+    "complete": {
+      "dialog": "The Leviathan settles back into its ancient slumber. It dreams peacefully now—and it remembers you as a friend. It leaves a blessing—a Leviathan's Tear! This pearl grants control over water currents!",
+      "rewards": {
+        "exp": 1200,
+        "gold": 1000,
+        "item": "leviathans_tear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fighting inside a dream whale's mind. I need to sit down.",
+    "twist": "The Void infects even dreams now. Nowhere is safe.",
+    "nix7": "Psychic intrusion: successful. Entity mental state: stabilized."
+  }
+}

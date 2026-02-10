@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_laguna_entertainment",
+  "name": "Movie Star Hero",
+  "zone": "prism",
+  "giver": "Laguna (Movie Hero)",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Hey hey! I'm Laguna! Used to be a soldier, now I'm an actor! Making a movie here in the Prism - 'The Sorceress Wars: The Musical!' Need extras! Wanna be in a movie?",
+      "objective": "Participate as an extra in Laguna's movie filming"
+    },
+    "progress": {
+      "dialog": "Action! No, wait - you're supposed to fall when I shoot! That's the joke! Okay, take two!",
+      "objective": "Perform various scenes for the movie"
+    },
+    "complete": {
+      "dialog": "And... CUT! That's a wrap! You were great! Natural talent! Here - hero's autograph! And this machine gun. From my army days. Still works!",
+      "rewards": {"gold": 450, "item": "lagunas_machine_gun", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "He's... something else. But genuinely nice.",
+    "twist": "I'm gonna be FAMOUS! In the movies!",
+    "nix7": "Subject's optimism: infectious. Combat record: surprisingly impressive."
+  },
+  "hidden_outcome": "If you nail every scene on the first take, Laguna casts you as the co-star and gives you 'Machine Gun Friendship' - ultimate gun technique"
+}

@@ -1,0 +1,54 @@
+{
+  "npc_id": "elder_marn",
+  "name": "Elder Marn",
+  "title": "Elder Lore Keeper",
+  "zone": "dustbelt",
+  "location": "Awakening in the Dust Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "measured_wise_unyielding",
+  "occupation": "elder_scholar",
+  "dialog": {
+    "greeting": [
+      "Elder Marn on comms. Stage 1: Awakening in the Dust. Keep formation tight and decisions tighter.",
+      "We are running The Frontier Calling. Objective drift gets teams buried.",
+      "I saw gravity file for overtime in this sector. Management approved.",
+      "Action first, panic never. Start with: Travel to the Impact Crater."
+    ],
+    "quest_hook": "Objective stack: Travel to the Impact Crater; Investigate the meteor site. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Investigate the strange meteor that fell near Rusthaven Outpost. Immediate move: Travel to the Impact Crater.",
+    "quest_complete": "Stage 1 resolved: Awakening in the Dust. Primary objective secured and route stabilized. Prepare for The Salvager's Plea.",
+    "rumor": [
+      "A rust train was heard crossing tracks that no longer exist.",
+      "People keep repeating one clue from Awakening in the Dust: 'Investigate the meteor site'.",
+      "I met my future self and we argued about shoe durability."
+    ],
+    "ambient_barks": [
+      "Listen before speaking.",
+      "Old roads remember.",
+      "Truth leaves tracks.",
+      "Slow is smooth."
+    ],
+    "time_dawn": "Dawn over Dustbelt is workable: cool metal, readable tracks, fewer raiders awake.",
+    "time_noon": "Noon heat warps distance. Trust instruments over your eyes.",
+    "time_dusk": "Dusk brings caravan congestion and opportunists. Guard your flanks.",
+    "time_night": "Night means engine glow and silhouette fighting. Stay near cover."
+  },
+  "party_reactions": {
+    "kade": "Elder Marn sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Elder Marn accepted. Probability of success improves with compliance.",
+    "twist": "Elder Marn talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "No speeches. Give me actionable details.",
+    "acquaintance": "You made it back. Report status.",
+    "friend": "With you here, the odds stop looking stupid.",
+    "best_friend": "Same plan as always: adapt, push, survive, repeat."
+  },
+  "story_flags": {
+    "appears_during": [
+      "dustbelt_frontier_calling"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER",
+    "world_break_aware": true
+  }
+}

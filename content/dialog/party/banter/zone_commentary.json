@@ -1,0 +1,2757 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "total_entries": 1300,
+    "entry_structure": "zone -> trigger -> character -> [lines]",
+    "zones": [
+      "forest",
+      "desert",
+      "mountain",
+      "swamp",
+      "ruins",
+      "city",
+      "coast",
+      "tundra",
+      "volcano",
+      "void"
+    ],
+    "characters": [
+      "kade",
+      "nix7",
+      "renna",
+      "suresh",
+      "twist",
+      "sova",
+      "grit",
+      "ashka",
+      "senna",
+      "callum",
+      "petra",
+      "vex",
+      "korr"
+    ],
+    "notes": "Includes first visit, return, post-break, hazard, and nearby terminal reactions."
+  },
+  "zone_comments": {
+    "forest": {
+      "first_time": {
+        "kade": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Ashveil Wildwood: dense canopy and overgrown root-vaults.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Ashveil Wildwood. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Ashveil Wildwood. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Ashveil Wildwood. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Ashveil Wildwood still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Ashveil Wildwood still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_rain": {
+        "kade": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Ashveil Wildwood: sheet rain turning root bridges slick.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a half-buried Prime terminal under the trees.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "desert": {
+      "first_time": {
+        "kade": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Dustbelt Expanse: heat haze, convoy wrecks, and glassed dunes.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Dustbelt Expanse. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Dustbelt Expanse. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Dustbelt Expanse. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Dustbelt Expanse still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Dustbelt Expanse still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_sandstorm": {
+        "kade": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Dustbelt Expanse: sandstorm walls shredding visibility.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a cracked relay obelisk tied to old logistics.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "mountain": {
+      "first_time": {
+        "kade": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Prismridge Heights: knife-edge ridges and crystal switchbacks.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Prismridge Heights. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Prismridge Heights. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Prismridge Heights. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Prismridge Heights still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Prismridge Heights still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_blizzard": {
+        "kade": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Prismridge Heights: whiteout blizzard over exposed ledges.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a summit terminal chamber cut into crystal stone.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "swamp": {
+      "first_time": {
+        "kade": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Glimmerfen Basin: peat channels, gas vents, and hidden boardwalk ruins.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Glimmerfen Basin. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Glimmerfen Basin. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Glimmerfen Basin. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Glimmerfen Basin still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Glimmerfen Basin still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_fog": {
+        "kade": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Glimmerfen Basin: toxic fog pockets and drowned footing.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: an old Lattice pump node wrapped in moss.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "ruins": {
+      "first_time": {
+        "kade": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Ashveil Ruin Ring: collapsed Progenitor arches and fractured script-stone.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Ashveil Ruin Ring. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Ashveil Ruin Ring. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Ashveil Ruin Ring. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Ashveil Ruin Ring still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Ashveil Ruin Ring still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "anomaly_shift": {
+        "kade": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Ashveil Ruin Ring: phase-shifts remapping corridors mid-walk.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a dormant archive gate scored by pedestal notation.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "city": {
+      "first_time": {
+        "kade": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Meridian and Crown Approaches: crowded transit lanes under Dominion watch.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Meridian and Crown Approaches. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Meridian and Crown Approaches. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Meridian and Crown Approaches. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Meridian and Crown Approaches still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Meridian and Crown Approaches still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "curfew_lockdown": {
+        "kade": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Meridian and Crown Approaches: curfew sweep grids and checkpoint lockdown.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a civic terminal hidden beneath transit stonework.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "coast": {
+      "first_time": {
+        "kade": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Brinegate Coastway: salt cliffs, storm piers, and tidal service rails.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Brinegate Coastway. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Brinegate Coastway. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Brinegate Coastway. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Brinegate Coastway still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Brinegate Coastway still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_storm": {
+        "kade": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Brinegate Coastway: lightning squalls and surge-flooded docks.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a tide-calibration console near the old shipyard.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "tundra": {
+      "first_time": {
+        "kade": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Frostmarch Shelf: wind-cut ice roads and frozen signal pylons.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Frostmarch Shelf. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Frostmarch Shelf. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Frostmarch Shelf. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Frostmarch Shelf still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Frostmarch Shelf still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_whiteout": {
+        "kade": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Frostmarch Shelf: whiteout winds with flash-freeze bursts.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a chronometric terminal sealed in rime.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "volcano": {
+      "first_time": {
+        "kade": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Cinderstep Caldera: basalt stairs, ash vents, and obsidian haul lines.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Cinderstep Caldera. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Cinderstep Caldera. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Cinderstep Caldera. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Cinderstep Caldera still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Cinderstep Caldera still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "weather_ashfall": {
+        "kade": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Cinderstep Caldera: ashfall sheets and vent flare eruptions.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a heat-foundation relay etched into black glass.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    },
+    "void": {
+      "first_time": {
+        "kade": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Kade: first pass through. We adapt fast."
+        ],
+        "nix7": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Nix-7: first pass through. We adapt fast."
+        ],
+        "renna": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Renna: first pass through. We adapt fast."
+        ],
+        "suresh": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Dr. Suresh: first pass through. We adapt fast."
+        ],
+        "twist": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets. I am already checking side paths.",
+          "Twist: first pass through. We adapt fast."
+        ],
+        "sova": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Dr. Sova: first pass through. We adapt fast."
+        ],
+        "grit": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Grit: first pass through. We adapt fast."
+        ],
+        "ashka": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Ashka: first pass through. We adapt fast."
+        ],
+        "senna": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Senna: first pass through. We adapt fast."
+        ],
+        "callum": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Callum: first pass through. We adapt fast."
+        ],
+        "petra": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Petra: first pass through. We adapt fast."
+        ],
+        "vex": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Vex: first pass through. We adapt fast."
+        ],
+        "korr": [
+          "Void Fringe: fractured geometry and low-gravity echo pockets.",
+          "Korr: first pass through. We adapt fast."
+        ]
+      },
+      "return_visit": {
+        "kade": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Kade: route memory helps. Complacency kills."
+        ],
+        "nix7": [
+          "Back in Void Fringe. Familiar ground is dynamically unstable.",
+          "Nix-7: route memory helps. Complacency fails."
+        ],
+        "renna": [
+          "Back in Void Fringe. Familiar ground is dynamically unstable.",
+          "Renna: route memory helps. Complacency fails."
+        ],
+        "suresh": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Dr. Suresh: route memory helps. Complacency kills."
+        ],
+        "twist": [
+          "Back in Void Fringe. Familiar ground is still dangerous. I am already checking side paths.",
+          "Twist: route memory helps. Complacency kills."
+        ],
+        "sova": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Dr. Sova: route memory helps. Complacency kills."
+        ],
+        "grit": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Grit: route memory helps. Complacency kills."
+        ],
+        "ashka": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Ashka: route memory helps. Complacency kills."
+        ],
+        "senna": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Senna: route memory helps. Complacency kills."
+        ],
+        "callum": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Callum: route memory helps. Complacency kills."
+        ],
+        "petra": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Petra: route memory helps. Complacency kills."
+        ],
+        "vex": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Vex: route memory helps. Complacency kills."
+        ],
+        "korr": [
+          "Back in Void Fringe. Familiar ground is still dangerous.",
+          "Korr: route memory helps. Complacency kills."
+        ]
+      },
+      "post_world_break": {
+        "kade": [
+          "Void Fringe still carries World Break stress lines.",
+          "Kade: Prime restoration helped, but scars remain active."
+        ],
+        "nix7": [
+          "Void Fringe still carries World Break stress lines.",
+          "Nix-7: Prime restoration helped, but scars remain active."
+        ],
+        "renna": [
+          "Void Fringe still carries World Break stress lines.",
+          "Renna: Prime restoration helped, but scars remain active."
+        ],
+        "suresh": [
+          "Void Fringe still carries World Break stress lines.",
+          "Dr. Suresh: Prime restoration helped, but scars remain active."
+        ],
+        "twist": [
+          "Void Fringe still carries World Break stress lines. I am already checking side paths.",
+          "Twist: Prime restoration helped, but scars remain active."
+        ],
+        "sova": [
+          "Void Fringe still carries World Break stress lines.",
+          "Dr. Sova: Prime restoration helped, but scars remain active."
+        ],
+        "grit": [
+          "Void Fringe still carries World Break stress lines.",
+          "Grit: Prime restoration helped, but scars remain active."
+        ],
+        "ashka": [
+          "Void Fringe still carries World Break stress lines.",
+          "Ashka: Prime restoration helped, but scars remain active."
+        ],
+        "senna": [
+          "Void Fringe still carries World Break stress lines.",
+          "Senna: Prime restoration helped, but scars remain active."
+        ],
+        "callum": [
+          "Void Fringe still carries World Break stress lines.",
+          "Callum: Prime restoration helped, but scars remain active."
+        ],
+        "petra": [
+          "Void Fringe still carries World Break stress lines.",
+          "Petra: Prime restoration helped, but scars remain active."
+        ],
+        "vex": [
+          "Void Fringe still carries World Break stress lines.",
+          "Vex: Prime restoration helped, but scars remain active."
+        ],
+        "korr": [
+          "Void Fringe still carries World Break stress lines.",
+          "Korr: Prime restoration helped, but scars remain active."
+        ]
+      },
+      "anomaly_flux": {
+        "kade": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Kade: hold spacing and move on mark."
+        ],
+        "nix7": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Nix-7: maintain interval and preserve line of sight."
+        ],
+        "renna": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Renna: maintain interval and preserve line of sight."
+        ],
+        "suresh": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Dr. Suresh: keep civilians behind us and stay together."
+        ],
+        "twist": [
+          "Hazard in Void Fringe: void flux surges that desync perception. I am already checking side paths.",
+          "Twist: keep me in sight and keep your pockets zipped."
+        ],
+        "sova": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Dr. Sova: hold spacing and move on mark."
+        ],
+        "grit": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Grit: hold spacing and move on mark."
+        ],
+        "ashka": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Ashka: stay close and do not panic."
+        ],
+        "senna": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Senna: stay close and do not panic."
+        ],
+        "callum": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Callum: keep civilians behind us and stay together."
+        ],
+        "petra": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Petra: stay close and do not panic."
+        ],
+        "vex": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Vex: keep civilians behind us and stay together."
+        ],
+        "korr": [
+          "Hazard in Void Fringe: void flux surges that desync perception.",
+          "Korr: hold spacing and move on mark."
+        ]
+      },
+      "terminal_nearby": {
+        "kade": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Kade: sync this node cleanly and local stability improves."
+        ],
+        "nix7": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Nix-7: sync this node cleanly and local stability is projected to improve."
+        ],
+        "renna": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Renna: sync this node cleanly and local stability is projected to improve."
+        ],
+        "suresh": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Dr. Suresh: sync this node cleanly and local stability improves."
+        ],
+        "twist": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics. I am already checking side paths.",
+          "Twist: sync this node cleanly and local stability improves."
+        ],
+        "sova": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Dr. Sova: sync this node cleanly and local stability improves."
+        ],
+        "grit": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Grit: sync this node cleanly and local stability improves."
+        ],
+        "ashka": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Ashka: sync this node cleanly and local stability improves."
+        ],
+        "senna": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Senna: sync this node cleanly and local stability improves."
+        ],
+        "callum": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Callum: sync this node cleanly and local stability improves."
+        ],
+        "petra": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Petra: sync this node cleanly and local stability improves."
+        ],
+        "vex": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Vex: sync this node cleanly and local stability improves."
+        ],
+        "korr": [
+          "Terminal signal nearby: a quarantined terminal cage with unstable prime harmonics.",
+          "Korr: sync this node cleanly and local stability improves."
+        ]
+      }
+    }
+  }
+}

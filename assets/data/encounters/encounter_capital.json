@@ -1,0 +1,81 @@
+{
+  "id": "CAPITAL_ENCOUNTERS",
+  "region": "capital",
+  "maps": [
+    "MIC_GRAND_BOULEVARD_80x40",
+    "MIC_CROWN_APPROACH_96x40",
+    "T_CROWN_HUB_112x72",
+    "D_ARCHIVE_112x96",
+    "MIC_CROWN_TO_PALACE_56x32",
+    "MIC_R16_136x56",
+    "TWR_ARENA_F10_48x48"
+  ],
+  "encounter_rate": 0.12,
+  "min_steps": 12,
+  "max_steps": 23,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY"
+      ],
+      "weight": 35,
+      "min_steps": 10,
+      "gil_range": [
+        50,
+        90
+      ],
+      "xp": 95
+    },
+    {
+      "enemies": [
+        "ENEMY_NULL_CASTER"
+      ],
+      "weight": 30,
+      "min_steps": 12,
+      "gil_range": [
+        60,
+        110
+      ],
+      "xp": 110
+    },
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY",
+        "ENEMY_RECORD_SENTRY"
+      ],
+      "weight": 18,
+      "min_steps": 14,
+      "gil_range": [
+        100,
+        180
+      ],
+      "xp": 182
+    },
+    {
+      "enemies": [
+        "ENEMY_VOID_ELITE"
+      ],
+      "weight": 9,
+      "min_steps": 18,
+      "rare": true,
+      "gil_range": [
+        85,
+        160
+      ],
+      "xp": 158
+    },
+    {
+      "enemies": [
+        "ENEMY_RECORD_SENTRY",
+        "ENEMY_NULL_CASTER"
+      ],
+      "weight": 14,
+      "min_steps": 16,
+      "gil_range": [
+        115,
+        205
+      ],
+      "xp": 198
+    }
+  ]
+}

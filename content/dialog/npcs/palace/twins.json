@@ -1,0 +1,118 @@
+{
+  "npc_id": "twins_palace",
+  "name": "Unity",
+  "title": "Palace Attendants",
+  "zone": "palace",
+  "location": "The Throne Antechamber, Chromatic Palace",
+  "description": "Perfectly synchronized attendants who are the final embodiment of the Twins' journey from duality to unity.",
+  "sprite_variant": "twins_palace",
+  "greeting_variants": [
+    "*speaking as one* We have become. We are whole. Welcome.",
+    "The journey ends here. Or begins. Both. Always both.",
+    "*gesturing in mirror symmetry* We were many. Now we are one.",
+    "The Palace unifies. The Palace completes. We are proof.",
+    "*serene smile* The Void Twins suffer. We send peace. We are peace.",
+    "Attendants? Yes. But also... example. Possibility. Hope.",
+    "The Progenitor awaits. Beyond. Through us. We guide.",
+    "*together* What was divided shall be whole. This is law."
+  ],
+  "dialog_states": {
+    "initial": {
+      "available": true,
+      "dialog_tree": [
+        {
+          "id": "intro",
+          "text": "*perfect unison* We were the Tower Twins. Focused but limited. We were the Void Twins. Expanded but suffering. Now we are Unity. The Palace... completed us. Healed the division. Showed us truth.",
+          "options": [
+            {"text": "How did you unify?", "goto": "unification_story"},
+            {"text": "Can others be unified?", "goto": "others_unification"},
+            {"text": "What is the truth?", "goto": "truth_revelation"},
+            {"text": "Guide me to the Progenitor.", "goto": "guidance_request"}
+          ]
+        },
+        {
+          "id": "unification_story",
+          "text": "*reminiscing* The Tower Twins sought understanding. The Void Twins sought... escape from multiplicity. Both came here. To the Palace. The Progenitor... offered completion. Not absorption. Union. Choice. We chose to become whole.",
+          "party_reactions": {
+            "twins_tower": "*if present* This... this is what we could be?",
+            "unity": "*gentle* What you WILL be. When ready. When willing."
+          },
+          "options": [
+            {"text": "What did you give up?", "goto": "sacrifice"},
+            {"text": "What did you gain?", "goto": "gain"}
+          ]
+        },
+        {
+          "id": "others_unification",
+          "text": "*hopeful* Yes! All can unify! The zones. The people. The divided selves within each heart. The Progenitor didn't mean to separate. It was... pain. Lashing out. The unity can return. Must return. For all to survive.",
+          "options": [
+            {"text": "How do we start?", "goto": "unity_path"},
+            {"text": "Is the Progenitor willing?", "goto": "progenitor_willingness"}
+          ]
+        },
+        {
+          "id": "truth_revelation",
+          "text": "*profound* The truth is: separation is illusion. The zones are one world. The Void is part of that world. The Progenitor is part of that world. We are all... dream fragments. Of one dreamer. Hurting itself. Healing itself. Through us.",
+          "options": [
+            {"text": "How do we heal the dreamer?", "goto": "heal_dreamer"},
+            {"text": "This is too abstract.", "goto": "simplification"}
+          ]
+        }
+      ]
+    }
+  },
+  "mini_quest": {
+    "id": "convergence_ultimate",
+    "title": "The Ultimate Convergence",
+    "description": "Help all three pairs of Twins achieve unity by connecting the Palace, Tower, and Void manifestations.",
+    "objectives": [
+      "Establish connection with Tower Twins",
+      "Reach out to Void Twins",
+      "Create resonance between all three pairs",
+      "Witness the convergence ceremony",
+      "Help the unified Twins guide others to wholeness"
+    ],
+    "rewards": {
+      "experience": 1500,
+      "reputation": {"palace_court": 60, "unity_cult": 55},
+      "items": ["unity_resonator", "completed_self_amulet"],
+      "unlock": "unification_teachings"
+    },
+    "prerequisites": ["met_all_twins"]
+  },
+  "ambient_barks": [
+    "*in perfect unison* We are. We were. We will be. One.",
+    "The Void Twins suffer. We send love. Across distance.",
+    "*gesturing* Division is illusion. Separation is pain.",
+    "The Palace teaches. We learn. We teach. Cycle.",
+    "*serene* The Progenitor dreams. We are the happy part.",
+    "Unity is not loss. Unity is... completion. Fulfillment.",
+    "*together* All can be whole. Will be whole. Must be.",
+    "The journey was long. The destination: worth."
+  ],
+  "cross_zone_references": {
+    "tower": "Our focused self. Strong. Certain. Good.",
+    "void": "Our expanded self. Suffering. Learning. Growing.",
+    "capital": "Many divided there. Much pain. Much potential."
+  },
+  "party_reactions": {
+    "twins_tower": {
+      "greeting": "*reaching out* We are you. Complete. Whole.",
+      "response": "*yearning* Beautiful. Possible. We will... become."
+    },
+    "twins_void": {
+      "greeting": "*gentle embrace* We are you. Peaceful. Unified.",
+      "response": "*crying with joy* No more... scattering. No more... pain."
+    }
+  },
+  "dynamic_behavior": {
+    "time_of_day": {
+      "day": "Guiding visitors, teaching unity",
+      "night": "Communing with other Twins, strengthening bonds"
+    },
+    "world_state_triggers": {
+      "unity_achieved": "Radiant joy: 'Another becomes whole! The dream heals!'",
+      "division_persists": "Sad but patient: 'In time. All in time. We wait. We hope.'"
+    }
+  }
+}

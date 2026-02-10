@@ -1,0 +1,524 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_THE_BLOOM",
+      "name": "The Bloom",
+      "dungeon": "D1_RUINS_96x96",
+      "type": "dungeon",
+      "foundation": "growth",
+      "sprite": "spr_boss_the_bloom",
+      "stats": {
+        "hp": 2500,
+        "mp": 200,
+        "atk": 35,
+        "def": 20,
+        "mag": 30,
+        "spr": 18,
+        "spd": 12
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "ice": 1.2,
+        "wind": 1.0
+      },
+      "resists": {
+        "earth": 0.5,
+        "water": 0.75
+      },
+      "abilities": [
+        "vine_lash",
+        "spore_cloud",
+        "root_grasp",
+        "bloom_burst",
+        "photosynthesis"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "standard",
+          "abilities": ["vine_lash", "spore_cloud"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "aggressive",
+          "abilities": ["root_grasp", "bloom_burst", "vine_lash"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_GROWTH_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "BLOOM_SEED",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "HEARTROOT_SAPLING",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 500,
+      "xp": 800,
+      "music": "bgm_boss_the_bloom",
+      "introduction_text": "A massive fungal entity pulses with corrupted growth energy..."
+    },
+    {
+      "id": "BOSS_THE_SPOROCYTE",
+      "name": "The Sporocyte",
+      "dungeon": "D2_FUNGAL_96x96",
+      "type": "dungeon",
+      "foundation": "motion",
+      "sprite": "spr_boss_the_sporocyte",
+      "stats": {
+        "hp": 3500,
+        "mp": 300,
+        "atk": 40,
+        "def": 25,
+        "mag": 40,
+        "spr": 22,
+        "spd": 15
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "ice": 1.3,
+        "light": 1.2
+      },
+      "resists": {
+        "earth": 0.5,
+        "water": 0.5,
+        "dark": 0.75
+      },
+      "abilities": [
+        "spore_burst",
+        "toxic_cloud",
+        "gravity_well",
+        "mycelial_network",
+        "regenerate"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "defensive",
+          "abilities": ["spore_burst", "toxic_cloud"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 60,
+          "behavior": "gravity_control",
+          "abilities": ["gravity_well", "mycelial_network"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 25,
+          "behavior": "desperate",
+          "abilities": ["toxic_cloud", "regenerate", "spore_burst"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_MOTION_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "SPOROCYTE_NUCLEUS",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 750,
+      "xp": 1200,
+      "music": "bgm_boss_the_sporocyte"
+    },
+    {
+      "id": "BOSS_THE_PRISM",
+      "name": "The Prism",
+      "dungeon": "D3_CRYSTAL_96x96",
+      "type": "dungeon",
+      "foundation": "light",
+      "sprite": "spr_boss_the_prism",
+      "stats": {
+        "hp": 4500,
+        "mp": 400,
+        "atk": 30,
+        "def": 30,
+        "mag": 55,
+        "spr": 35,
+        "spd": 18
+      },
+      "weaknesses": {
+        "dark": 1.5,
+        "earth": 1.3
+      },
+      "resists": {
+        "light": 0.0,
+        "physical": 0.7
+      },
+      "absorbs": ["light"],
+      "abilities": [
+        "prism_beam",
+        "light_refraction",
+        "spectrum_burst",
+        "mirror_image",
+        "laser_grid"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "beam_attacks",
+          "abilities": ["prism_beam", "light_refraction"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "split_form",
+          "abilities": ["mirror_image", "spectrum_burst"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_LIGHT_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "PRISM_CORE",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1000,
+      "xp": 1600,
+      "music": "bgm_boss_the_prism"
+    },
+    {
+      "id": "BOSS_THE_INFERNO",
+      "name": "The Inferno",
+      "dungeon": "D4_SKYSPIRE_96x96",
+      "type": "dungeon",
+      "foundation": "heat",
+      "sprite": "spr_boss_the_inferno",
+      "stats": {
+        "hp": 5500,
+        "mp": 350,
+        "atk": 55,
+        "def": 28,
+        "mag": 50,
+        "spr": 25,
+        "spd": 20
+      },
+      "weaknesses": {
+        "water": 1.5,
+        "ice": 1.5
+      },
+      "resists": {
+        "fire": 0.0,
+        "earth": 0.5
+      },
+      "absorbs": ["fire"],
+      "abilities": [
+        "inferno_wave",
+        "heat_burst",
+        "flame_pillar",
+        "world_break_trigger",
+        "combustion"
+      ],
+      "special_mechanic": "world_break_trigger",
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "controlled",
+          "abilities": ["heat_burst", "flame_pillar"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "unstable",
+          "abilities": ["world_break_trigger", "inferno_wave"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_HEAT_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "INFERNO_HEART",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1250,
+      "xp": 2000,
+      "music": "bgm_boss_the_inferno"
+    },
+    {
+      "id": "BOSS_THE_DEPTHCALLER",
+      "name": "The Depthcaller",
+      "dungeon": "D5_ABYSS_96x96",
+      "type": "dungeon",
+      "foundation": "tide",
+      "sprite": "spr_boss_the_depthcaller",
+      "stats": {
+        "hp": 6500,
+        "mp": 500,
+        "atk": 48,
+        "def": 35,
+        "mag": 60,
+        "spr": 40,
+        "spd": 14
+      },
+      "weaknesses": {
+        "thunder": 1.5,
+        "ice": 1.2
+      },
+      "resists": {
+        "water": 0.0,
+        "fire": 0.25
+      },
+      "absorbs": ["water"],
+      "abilities": [
+        "tidal_wave",
+        "pressure_crush",
+        "abyssal_call",
+        "whirlpool",
+        "tsunami"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "pressure_attacks",
+          "abilities": ["pressure_crush", "tidal_wave"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "summon_abyss",
+          "abilities": ["abyssal_call", "whirlpool"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_TIDE_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "DEPTHCALLER_PEARL",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1500,
+      "xp": 2400,
+      "music": "bgm_boss_the_depthcaller"
+    },
+    {
+      "id": "BOSS_THE_COLOSSUS",
+      "name": "The Colossus",
+      "dungeon": "D6_OBSIDIAN_96x96",
+      "type": "dungeon",
+      "foundation": "mass",
+      "sprite": "spr_boss_the_colossus",
+      "stats": {
+        "hp": 10000,
+        "mp": 200,
+        "atk": 70,
+        "def": 50,
+        "mag": 20,
+        "spr": 20,
+        "spd": 6
+      },
+      "weaknesses": {
+        "water": 1.3,
+        "thunder": 1.2,
+        "wind": 1.0
+      },
+      "resists": {
+        "physical": 0.5,
+        "earth": 0.25,
+        "fire": 0.5
+      },
+      "abilities": [
+        "colossal_slam",
+        "earthquake",
+        "boulder_toss",
+        "massive_swing",
+        "unstoppable_charge"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "slow_powerful",
+          "abilities": ["colossal_slam", "boulder_toss"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 40,
+          "behavior": "enraged",
+          "abilities": ["earthquake", "unstoppable_charge", "massive_swing"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_MASS_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "COLOSSUS_CORE",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 1750,
+      "xp": 2800,
+      "music": "bgm_boss_the_colossus"
+    },
+    {
+      "id": "BOSS_ELDER_MORDAI",
+      "name": "Elder Mordai",
+      "dungeon": "D7_FROZEN_96x96",
+      "type": "dungeon",
+      "foundation": "time",
+      "sprite": "spr_boss_elder_mordai",
+      "stats": {
+        "hp": 8000,
+        "mp": 600,
+        "atk": 45,
+        "def": 40,
+        "mag": 70,
+        "spr": 50,
+        "spd": 16
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "light": 1.3
+      },
+      "resists": {
+        "ice": 0.0,
+        "dark": 0.5,
+        "time": 0.25
+      },
+      "absorbs": ["ice"],
+      "abilities": [
+        "time_freeze",
+        "temporal_shift",
+        "ice_age",
+        "chronoshock",
+        "rewind",
+        "futuresight"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "time_manipulation",
+          "abilities": ["time_freeze", "temporal_shift"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 60,
+          "behavior": "ice_and_time",
+          "abilities": ["ice_age", "chronoshock"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 25,
+          "behavior": "desperate",
+          "abilities": ["rewind", "futuresight", "time_freeze"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_TIME_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "MORDAIS_HOURGLASS",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 2000,
+      "xp": 3200,
+      "music": "bgm_boss_elder_mordai"
+    },
+    {
+      "id": "BOSS_THE_VOIDHOUND",
+      "name": "The Voidhound",
+      "dungeon": "D8_VOID_112x96",
+      "type": "dungeon",
+      "foundation": "shadow",
+      "sprite": "spr_boss_the_voidhound",
+      "stats": {
+        "hp": 9000,
+        "mp": 450,
+        "atk": 65,
+        "def": 35,
+        "mag": 55,
+        "spr": 35,
+        "spd": 24
+      },
+      "weaknesses": {
+        "light": 1.5
+      },
+      "resists": {
+        "dark": 0.0,
+        "void": 0.25,
+        "physical": 0.7
+      },
+      "absorbs": ["dark", "void"],
+      "abilities": [
+        "void_claw",
+        "shadow_step",
+        "abyssal_howl",
+        "null_field",
+        "consume_light",
+        "dimensional_tear"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "behavior": "stealth_striker",
+          "abilities": ["void_claw", "shadow_step"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 50,
+          "behavior": "unleashed",
+          "abilities": ["abyssal_howl", "null_field", "consume_light"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "RELIC_SHADOW_FOUNDATION",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "VOIDHOUND_FANG",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 2250,
+      "xp": 3600,
+      "music": "bgm_boss_the_voidhound"
+    }
+  ]
+}

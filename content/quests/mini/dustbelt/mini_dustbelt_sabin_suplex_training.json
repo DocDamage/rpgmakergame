@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_dustbelt_sabin_suplex_training",
+  "name": "Master of the Suplex",
+  "zone": "dustbelt",
+  "giver": "Sabin (Martial Artist)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "You look like you've got potential! But you're not using your body right! A true martial artist can suplex ANYTHING! Train with me - catch a runaway sand cruiser with a suplex! What do you say?",
+      "objective": "Learn Sabin's technique and suplex a runaway sand cruiser"
+    },
+    "progress": {
+      "dialog": "The timing is everything! Wait for it to charge, then GRAB and THROW! Channel your energy!",
+      "objective": "Practice the suplex timing on smaller targets first"
+    },
+    "complete": {
+      "dialog": "HA! DID YOU SEE THAT?! SUPLEXED A CRUISER! You're a natural! Here - my brother's belt. He was a king, you know. This has seen many battles. Now it's yours!",
+      "rewards": {"gold": 400, "item": "figaro_royal_belt", "reputation": 15}
+    }
+  },
+  "party_comments": {
+    "kade": "He... he just suplexed a VEHICLE.",
+    "twist": "THAT WAS AMAZING! AGAIN! AGAIN!",
+    "grit": "Using enemy momentum against them. Classic technique."
+  },
+  "hidden_outcome": "If you suplex the cruiser into another enemy, Sabin teaches you 'Meteor Strike' - a devastating aerial piledriver"
+}

@@ -1,0 +1,71 @@
+{
+  "npc_id": "snakecharmer_tide",
+  "name": "Marina the Marine Mystic",
+  "sprite": "snakecharmer",
+  "zone": "tide",
+  "location": "Tourist Pier",
+  "personality": "showy_entertaining",
+  "occupation": "pier_performer",
+  "schedule": "performs_daytime",
+  "dialog": {
+    "greeting": [
+      "BEHOLD! The SEA SERPENT of the Seven Tides!",
+      "Marina's the name, charming's the game!",
+      "Step right up! Witness the IMPOSSIBLE!",
+      "You! Yes, you! Dare you meet my serpent?",
+      "Back for more? The serpent remembers you!",
+      "Welcome to the pier! Where magic meets the SEA!",
+      "The ocean holds mysteries! I bring them to YOU!",
+      "Prepare to be AMAZED! Or at least... entertained!"
+    ],
+    "performance_start": "From the briny depths... I summon... NEPTUNE! My magnificent sea snake!",
+    "crowd_work": "Don't be shy! He only bites on Tuesdays! Today is... not Tuesday! Probably!",
+    "show_climax": "And NOW! Watch as Neptune rises! Transfixed by my coastal melody!",
+    "tips_request": "If the serpent pleased you... the hat accepts offerings! Coin! Shells! Fish!",
+    "snake_truth": "Between us? Neptune's a common sea snake. Completely harmless. But SHH! I have a REPUTATION!",
+    "backstory": "Learned from Mire masters! Adapted for salt water! It's all about the FLUTE!",
+    "rumor": [
+      "The real sea serpents are DEEP. Bigger than ships. Smarter than us.",
+      "Mire's snakecharmer taught me everything! Well, the basics!",
+      "Tide crowds are GENEROUS! Except when it rains!",
+      "Aetherreach has cloud serpents. Too high for me!"
+    ],
+    "farewell": [
+      "May your waters be calm!",
+      "Come back for more magic!",
+      "The serpent salutes you!",
+      "Safe travels! Watch for REAL sea serpents!"
+    ],
+    "ambient_barks": [
+      "Serpent show! HERE!",
+      "Magic! MYSTERY!",
+      "Neptune! Rise!",
+      "Tips welcome!",
+      "Step right UP!",
+      "Marvelous! MAGNIFICENT!"
+    ],
+    "time_dawn": "Morning warm-up! Neptune needs coffee! So do I!",
+    "time_noon": "Peak crowds! Maximum tips! Showtime!",
+    "time_dusk": "Evening finale! Golden hour magic!",
+    "time_night": "Closed! Serpents need beauty sleep!"
+  },
+  "party_reactions": {
+    "kade": "Another snakecharmer? This one smells like fish.",
+    "nix7": "Snake species: sea snake. Venom: mild. Showmanship: excessive.",
+    "twist": "SNAKE! Can I pet it?! Is it SCALY?!",
+    "korr": "Entertainment brings joy. Even simple tricks.",
+    "renna": "The flute technique is... adequate. The patter is better.",
+    "suresh": "To bring wonder to others is its own magic.",
+    "sova": "I've seen real sea serpents. This is cuter.",
+    "grit": "Reminds me of camp entertainers. Kept morale up.",
+    "ashka": "Sea snakes are cold. Prefer warmth.",
+    "senna": "Distraction for the crowd. Useful technique.",
+    "callum": "The snake is... very wiggly! Cool!"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Prepare to be CHARMED!",
+    "acquaintance": "Returning patron! Neptune remembers you!",
+    "friend": "My fan! Front row seat! Always!",
+    "best_friend": "You! My patron! Here - Neptune's shed skin! Lucky charm!"
+  }
+}

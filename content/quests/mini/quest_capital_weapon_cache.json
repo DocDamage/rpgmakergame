@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_weapon_cache",
+  "name": "Arming the Undercity",
+  "zone": "capital",
+  "giver": "barrelgob_black",
+  "type": "combat",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "The resistance has teeth, but no bite. We found a pre-Dominion weapons cache in the old transit tunnels—rifles, explosives, even some Progenitor tech. Problem is, something else found it first. Scavengers, maybe worse. Clear them out, secure the cache, and we'll finally be able to fight back.",
+      "objective": "Clear the transit tunnels of hostile scavengers"
+    },
+    "progress": {
+      "dialog": "Tunnels cleared, but the cache door is sealed with old Progenitor locks. Needs a specific resonance frequency to open. Good thing I know a guy—engineer in the merchant quarter who dabbles in ancient tech. Convince him to help, quietly.",
+      "objective": "Convince the Progenitor tech engineer to unlock the cache"
+    },
+    "complete": {
+      "dialog": "Cache opened, weapons distributed. For the first time in years, the Undercity can defend itself. Those rifles won't win the war, but they'll make the Dominion think twice about midnight raids. You've given us something precious: dignity.",
+      "rewards": {
+        "exp": 11000,
+        "gold": 2000,
+        "item": "progenitor_rifle_blueprint"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Nothing like the smell of gun oil and rebellion in the morning. These people deserve to defend themselves.",
+    "renna": "Progenitor weapons cache? Those could be unstable. Let me check the energy signatures before anyone fires them.",
+    "nix7": "Arming civilian populations increases resistance survival probability by 340%. Risk of accidental discharge: 12%. Acceptable trade-off."
+  },
+  "lore_unlocks": ["predominion_armories", "capital_transit_system"]
+}

@@ -1,0 +1,102 @@
+{
+  "npc_id": "foodboys_green_aetherreach",
+  "name": "Salad Sam",
+  "sprite": "foodboys_green",
+  "zone": "aetherreach",
+  "location": "Sky Market",
+  "personality": "wholesome_peaceful",
+  "occupation": "salad_vendor",
+  "dialog": {
+    "greeting": [
+      "Fresh greens! Healthy eats! Feel the vitality!",
+      "Salad Sam! Nourishing bodies at high altitude!",
+      "Welcome! Like it FRESH? You've come to the RIGHT place!",
+      "GREEN means HEALTH! That's science! Probably!",
+      "Salads so fresh they were growing this morning! Literally!",
+      "Need vitamins? The sky is beautiful but my salads are NUTRITIOUS!",
+      "Step right up! Wholesome food for wholesome adventurers!"
+    ],
+    "menu_offer": "Today's bowls: Cloud-Kale Crunch! Sky-Spinach Supreme! And the famous Aether Avocado Array! Warning: may cause excessive health!",
+    "health_warning": "How fresh? Day-old? Morning-picked? Or 'Still photosynthesizing on your plate?'",
+    "salad_philosophy": "Salad is life! Greens are grace! Greasy food is... fine! But greens are BETTER!",
+    "haggle": [
+      "Good health costs good coin! Worth it!",
+      "For a health-seeker? Ten percent off! And a free dressing!",
+      "Bulk salad? Family size? Twenty percent!",
+      "Fine! Extra croutons! But that's my final offer!"
+    ],
+    "purchase_success": [
+      "ONE FRESH BOWL! Coming up! Enjoy the vitality!",
+      "Excellent choice! Your body will thank you!",
+      "GREENS! GLORIOUS GREENS!",
+      "Dressing on the side! As requested!"
+    ],
+    "purchase_fail": [
+      "No coin? No salad! Seeds cost money!",
+      "Even health has a price!",
+      "Come back when you're ready to invest in yourself!"
+    ],
+    "rumor": [
+      "Red serves... chili. At altitude. Where it's already cold. Who wants to SWEAT?!",
+      "The conductor orders the Avocado Array. Good man. Healthy heart!",
+      "The sunandmoon once predicted 'growth from within.' I provide the nutrients!",
+      "Blue aeronaut tried my Cloud-Kale. Said it was 'uplifting.' Nice!",
+      "Something about the Vault makes all food taste like... nothing. Even my salads."
+    ],
+    "quest_hook": "I need Cloud-Lettuce Seeds! The RAREST kind! From Verdant's floating gardens! Three seeds and I'll teach you my SECRET dressing recipe!",
+    "quest_active": "Those Cloud-Lettuce Seeds sprouting in your pocket? I can sense them!",
+    "quest_complete": "THE VITALITY! PERFECT! My secret recipe! 'Sam's Ascension Dressing!' Write it down!",
+    "quest_reward": "Sam's Ascension Dressing Recipe - Ultimate health! Ultimate freshness!",
+    "farewell": [
+      "Stay healthy!",
+      "Keep the greens growing! In your heart!",
+      "Come back hungry! Leave nourished!"
+    ],
+    "ambient_barks": [
+      "FRESH SALAD! BLUE SKY!",
+      "Green up your life!",
+      "Feel the VITALITY!",
+      "Green means HEALTH!",
+      "Salad! Get your salad!"
+    ],
+    "time_dawn": "Breakfast salad! Non-traditional! Revolutionary!",
+    "time_noon": "Lunch rush! Fresh bowls! Happy healthy people!",
+    "time_dusk": "Dinner salad! Light! Satisfying! Wholesome!",
+    "time_night": "Late night greens! For the health-conscious night owls!"
+  },
+  "party_reactions": {
+    "kade": "Which one are you? I can't tell the brothers apart.",
+    "nix7": "Nutritional content: optimal. Flavor profile: adequate.",
+    "twist": "FOOD?! WHERE?! ...This is just leaves.",
+    "korr": "Nature's bounty. Fresh. As it should be.",
+    "renna": "Nutritionally sound. But where is the protein?",
+    "suresh": "Food that nourishes without excess. Balance on a plate.",
+    "sova": "Practical food. Light. Good for staying alert.",
+    "grit": "Salad? At altitude? Where it's cold? I want WARM food!",
+    "ashka": "Where's the FIRE? Where's the SPICE? This is just... green.",
+    "senna": "Perfect. Light on the stomach. Easy to run after eating.",
+    "callum": "So green! So fresh! So... healthy!",
+    "petra": "Earth provides. Good greens. Strong roots."
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Try the Avocado Array! Popular!",
+    "acquaintance": "Back for more greens? Building health!",
+    "friend": "My health sibling! Ready for the FRESH stuff?",
+    "best_friend": "Family! Salad family! Secret menu unlocked!"
+  },
+  "mini_quest": {
+    "id": "cloud_lettuce_seeds",
+    "title": "Seed Hunt",
+    "description": "Collect Cloud-Lettuce Seeds from Verdant's floating gardens",
+    "stages": {
+      "hook": "Cloud-Lettuce Seeds! Three! From floating gardens! Rarest there is!",
+      "active": "Verdant's sky gardens! Look for the silver-leafed variety!",
+      "complete": "THE VITALITY! My SECRET RECIPE! Ascension Dressing!"
+    },
+    "reward": {
+      "item": "ascension_dressing_recipe",
+      "gold": 300,
+      "reputation": "salad_family"
+    }
+  }
+}

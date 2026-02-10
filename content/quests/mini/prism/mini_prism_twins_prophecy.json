@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_prism_twins_prophecy",
+  "name": "The Echo Prophecy",
+  "zone": "prism",
+  "giver": "The Twins (White)",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Twin One: We heard the prophecy! / Twin Two: Eight foundations! Eight bearers! / Twin One: But one is hidden! / Twin Two: Find the hidden foundation! / Both: In the Prism of Fate!",
+      "objective": "Investigate the Prism caves for signs of a hidden ninth foundation"
+    },
+    "progress": {
+      "dialog": "Twin One: The crystals whisper... / Twin Two: Of something beyond the eight! / Twin One: Look where light bends! / Twin Two: Where shadow becomes light!",
+      "objective": "Find the location where light and shadow converge"
+    },
+    "complete": {
+      "dialog": "Twin One: You found it! / Twin Two: The ninth resonance! / Twin One: Not a foundation... but a binding! / Twin Two: The thread that holds all! / Both: Take this! Proof of your discovery!",
+      "rewards": {"gold": 700, "item": "ninth_resonance_crystal", "reputation": 25}
+    }
+  },
+  "party_comments": {
+    "kade": "A ninth foundation? That changes... everything.",
+    "sova": "Impossible. The texts clearly state eight. And yet...",
+    "nix7": "Data suggests additional energy signature. Analysis: ongoing."
+  },
+  "hidden_outcome": "If you return with the crystal to the Sanctuary Keeper, it unlocks the true ending path and reveals the 'Prime Vector' theory"
+}

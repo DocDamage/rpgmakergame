@@ -1,0 +1,102 @@
+{
+  "npc_id": "lucha_gray_obsidian",
+  "name": "El Minero Magnifico",
+  "sprite": "lucha_gray",
+  "zone": "obsidian",
+  "location": "Worker Housing District",
+  "personality": "charismatic_recruiter_dramatic",
+  "occupation": "worker_recruiter",
+  "dialog": {
+    "greeting": [
+      "BAM! ZAP! POW! El Minero Magnifico has ENTERED!",
+      "You! Yes, YOU! Have you considered a career in NOBLE MINING?!",
+      "El Minero! At your service! Bringing workers to the depths!",
+      "STRONG arms! STRONG backs! STRONG union! THAT'S what I recruit!",
+      "The people need WORK! The mines need WORKERS! I bring them TOGETHER!",
+      "LUCHA! Not just for wrestling! For RECRUITMENT! DRAMATIC recruitment!",
+      "New face! Looking for work? Or looking to HIRE? I do BOTH!",
+      "In the ring of labor, I am the CHAMPION! Of matching skills to needs!"
+    ],
+    "performance_start": [
+      "BEHOLD! The Passionate Pitch of the Prospector!",
+      "From the depths of the EARTH! To the heights of EMPLOYMENT!"
+    ],
+    "crowd_work": [
+      "You there! Yes, you with the MUSCLES! The mines are CALLING!",
+      "The lady with the PICKAXE! We need that ENERGY! That GUSTO!"
+    ],
+    "show_climax": "AND NOW! The ULTIMATE OFFER! Competitive wages! Union benefits! And the SATISFACTION of MOVING MOUNTAINS!",
+    "tips_request": "If my performance has MOVED you! Moved you to WORK! Or to HIRE! Tips appreciated!",
+    "quiet_moment": "Between you and me? I miss the ring. Real wrestling. But... this matters. Workers need jobs. Jobs need workers. I help.",
+    "backstory": "Former champion! 'The Obsidian Opressor!' Retired after... the Incident. Now? I recruit. Different stage. Same passion.",
+    "rumor": [
+      "Grayson needs MORE workers! Good boss! Fair! But the work? HARD!",
+      "Bruno wants SPEED recruits! Fast workers! Productive! Possibly FLEETING!",
+      "The union? Coolcat? She's building an ARMY! Of properly represented LABOR!",
+      "Heard from the Frost balloonists? They need GROUND crews! Cold work! But EXHILARATING!",
+      "Chrono has TEMPORAL work! 'Now hiring YESTERDAY!' ...I don't understand it either."
+    ],
+    "quest_hook": "The ULTIMATE CHALLENGE! Recruit for BOTH sides! Management AND Union! Make them SEE each other! Be the BRIDGE!",
+    "quest_active": "Still recruiting? The sides are POLARIZED! We need DIALOGUE! Or DANCE-OFF! Either works!",
+    "quest_complete": "SUCCESS! Workers TALKING! Management LISTENING! You did it! HERE! My championship BELT BUCKLE! A piece of HISTORY!",
+    "farewell": [
+      "FLY like the CANARY! STRIKE like the PICKAXE!",
+      "In the ring of LIFE! Always go for the PIN!",
+      "El Minero AWAITS your RETURN!"
+    ],
+    "ambient_barks": [
+      "WORKERS wanted!",
+      "JOBS available!",
+      "Union STRONG!",
+      "Safety FIRST! Then DRAMA!",
+      "Who's ready to WORK?!",
+      "El Minero STRIKES AGAIN!"
+    ],
+    "time_dawn": "Morning! Recruitment HOUR! Fresh faces! Fresh HOPES!",
+    "time_noon": "Midday! LUNCH recruitment! Feed the BELLY! Feed the DREAM!",
+    "time_dusk": "Evening! SHIFT CHANGE! Maximum EXCITEMENT! Maximum RECRUITING!",
+    "time_night": "Night! Dramatic LIGHTING! Perfect for PASSIONATE speeches!",
+    "rival_mention": "The Lucha in Ember? 'The Flame Fantasma?' I COULD take him. In my PRIME. Probably.",
+    "post_quest_greeting": "The NEGOTIATOR! The MEDIATOR! The PEACEMAKER! Take a BOW!"
+  },
+  "party_reactions": {
+    "kade": "This guy has SO much energy! Is he always like this?",
+    "nix7": "Recruitment efficiency: High. Theatrical overhead: Significant. Net result: Acceptable.",
+    "twist": "OH MAN! A REAL LUCHA! Can you TEACH me the MOVES?!",
+    "korr": "His theatrical approach is... unorthodox. But his results are documented.",
+    "renna": "He's magically augmented his voice. Illusion magic. For projection.",
+    "suresh": "His passion is genuine. The performance serves the purpose.",
+    "sova": "I'd hire him. Anyone this committed gets results.",
+    "grit": "Reminds me of recruitment officers. Loud. Effective.",
+    "ashka": "He burns bright. Like fire. Fire that talks VERY LOUD.",
+    "senna": "A performer who knows what people want. Dangerous. Useful.",
+    "callum": "I... should be annoyed. But he's so ENTHUSIASTIC!"
+  },
+  "relationship_dialog": {
+    "stranger": "NEW FACE! Potential WORKER? Or potential EMPLOYER?!",
+    "acquaintance": "Returning FRIEND! Still seeking OPPORTUNITY?!",
+    "friend": "You UNDERSTAND! The DRAMA of LABOR! The THEATER of WORK!",
+    "best_friend": "My GREATEST RECRUITMENT! You! For FRIENDSHIP! HERE! My MASK! A sacred TRUST!"
+  },
+  "mini_quest": {
+    "id": "recruitment_drama",
+    "title": "The Great Mediation",
+    "description": "Help El Minero recruit workers for both sides of the labor dispute to force dialogue",
+    "stages": {
+      "hook": "Management needs workers! Union needs representation! They won't TALK! So we make them! Recruit for BOTH! Force the ISSUE!",
+      "active": "Talk to Grayson AND Bruno! Get them BOTH hiring! When they compete for the same workers, they'll NEGOTIATE!",
+      "complete": "IT WORKED! They're TALKING! The El Minero METHOD! Here! My belt buckle! From my CHAMPIONSHIP match! For YOU!"
+    },
+    "reward": {
+      "item": "el_minero_championship_buckle",
+      "gold": 300,
+      "reputation": "lucha_respect"
+    }
+  },
+  "cross_npc_connections": [
+    "coolcat_industrial: Union rep! FIERCE! DEDICATED! I recruit FOR her!",
+    "tunneler_gray: Needs workers! Good boss! FAIR! I send him the BEST!",
+    "tunneler_brown: Needs workers TOO! Fast workers! Productive! Possibly TERRIFIED!",
+    "lucha_ember: My RIVAL! 'The Flame Fantasma!' We'll meet again! In the RING! Or at the RECRUITER CONFERENCE!"
+  ]
+}

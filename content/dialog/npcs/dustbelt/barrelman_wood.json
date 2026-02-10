@@ -1,0 +1,101 @@
+{
+  "npc_id": "barrelman_wood_dustbelt",
+  "name": "Barrelman Bob",
+  "sprite": "barrelman_wood",
+  "zone": "dustbelt",
+  "location": "Trading Post",
+  "personality": "shrewd_but_friendly",
+  "occupation": "barrel_merchant",
+  "dialog": {
+    "greeting": [
+      "Need storage? I got barrels for every occasion!",
+      "You look like someone with things to hide. I mean, STORE!",
+      "Barrelman Bob's the name, containment's my game!",
+      "Fresh barrels just rolled in! Well, I rolled them. They're heavy.",
+      "Back again? You know what they say - once you go barrel, you never go... uh... back to... regular storage!",
+      "Sun's high, barrels are rolling! That's a Bob guarantee!",
+      "If it fits, it sits! In a barrel, I mean. Not me. That was one time."
+    ],
+    "shop_open": "What size you need? Small, medium, or 'hide-a-body' large? ...Kidding! That one's called 'extra large'.",
+    "shop_prompt": "Barrels for sale! Oak, pine, or my specialty - reclaimed from who-knows-where!",
+    "haggle": [
+      "These prices are already scraping the barrel! Get it? Scraping?",
+      "Tell you what - buy two, I'll throw in a lid. Can't use a barrel without a lid!",
+      "For you? Special price. For everyone else? Also special price. I'm very generous.",
+      "I'd go lower, but my brother in the Obsidian Reach would kill me. Family pricing standards, you know?"
+    ],
+    "purchase_success": [
+      "Pleasure doing business! Need rope to tie it down?",
+      "That one's waterproof, fireproof, and mostly gnaw-proof!",
+      "She's a beaut! Treat her right and she'll hold your secrets - I mean, supplies! - for years.",
+      "Sold! Tell your friends! Tell strangers! Tell that metal barrel guy down the street I'm better!"
+    ],
+    "purchase_fail": [
+      "Money's tight, huh? Come back when the barrels are flowing!",
+      "Can't do credit. Learned that lesson the hard way. Don't ask.",
+      "Hey, no judgment. Times are tough. Come back when you strike it rich!"
+    ],
+    "rumor": [
+      "Heard there's a barrel in the Mire that walks around at night. My cousin swears it!",
+      "Word is Deep-Dig Dan found something BIG in the tunnels. Won't say what. Suspicious, right?",
+      "That luchador El Scorcho? Used to be a barrel wrestler. True story. Don't ask which promotion.",
+      "Metal Barrel Mike claims his barrels are 'superior.' Ha! Metal rusts. Wood has character!"
+    ],
+    "quest_hook": "Say, you look like adventurous types. Lost a shipment of premium barrels in the Scorched Wastes. Bandits, probably. Or giant scorpions. Hard to tell with barrels. Find 'em and I'll make it worth your while!",
+    "quest_active": "Any luck finding my barrels? Last I saw, they were rolling toward certain doom. Or the Mire. Same thing, really.",
+    "quest_complete": "My barrels! My beautiful barrels! You found them! Here, take this. And a barrel. Everyone needs a barrel!",
+    "quest_reward": "Premium Barrel Coupon - 50% off your next containment solution!",
+    "farewell": [
+      "Roll on back anytime! ...Barrel joke. Sorry.",
+      "Don't let the desert get ya! Or do. More barrel customers for me!",
+      "Keep 'em rolling! I'm contractually obligated to say that."
+    ],
+    "ambient_barks": [
+      "Barrels! Get your barrels!",
+      "Round and sturdy! Like my grandmother!",
+      "Can't have too many barrels! Well, you can. I have a warehouse.",
+      "Need to store something? I don't judge!",
+      "Metal barrels are for amateurs! Wood breathes!",
+      "If my barrels could talk... actually, I'm glad they can't."
+    ],
+    "time_dawn": "Early bird gets the barrel! Or worm. Worms don't buy barrels.",
+    "time_noon": "Hot one today! Good thing barrels don't sweat. Unlike me.",
+    "time_dusk": "Evening shoppers get evening prices! ...Same as day prices, but sounds special, right?",
+    "time_night": "Late night barrel emergency? I don't judge. I've been there.",
+    "post_quest_greeting": "The barrel rescuer returns! Welcome, hero of containers!",
+    "barrel_pun": [
+      "I'm on a roll!",
+      "This business has its ups and downs! Round and round, really.",
+      "Oak-y dokey!",
+      "I'm stave-ing off bankruptcy!"
+    ]
+  },
+  "party_reactions": {
+    "kade": "That's... certainly a business model.",
+    "nix7": "Illogical inventory. Barrels serve single purpose. Overstock inefficient.",
+    "twist": "Can I hide in a barrel? Like in the stories?",
+    "korr": "Hmm. Sturdy construction. Quality wood.",
+    "renna": "Do you have anything... not barrel-related? No?"
+  },
+  "relationship_dialog": {
+    "stranger": "New face! First barrel's at full price. That's how friendship works!",
+    "acquaintance": "Back for more? Knew you were a barrel connoisseur!",
+    "friend": "My favorite customer! Got some premium oak in the back, just for you.",
+    "best_friend": "Listen, between us? I got a barrel that fell off a cart. Slightly used. Very slightly. Interested?"
+  },
+  "mini_quest": {
+    "id": "lost_shipment_scorched_wastes",
+    "title": "Lost Shipment",
+    "description": "Find Bob's missing barrels in the Scorched Wastes",
+    "stages": {
+      "hook": "Lost a shipment of premium barrels in the Scorched Wastes. Bandits, probably. Or giant scorpions. Hard to tell with barrels.",
+      "active": "Three barrels, marked with my logo - a barrel, naturally. Last seen heading toward scorpion territory. Brave barrels.",
+      "complete": "You magnificent barrel-finders! My inventory is whole again! Here - take this compass. Points toward the nearest barrel. Don't ask how it works."
+    },
+    "reward": {
+      "item": "barrel_compass",
+      "gold": 150,
+      "reputation": "barrel_friends_forever"
+    }
+  }
+}

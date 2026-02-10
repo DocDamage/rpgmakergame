@@ -1,0 +1,70 @@
+{
+  "npc_id": "aeronaut_red_tide",
+  "name": "Messenger Gale",
+  "sprite": "aeronaut_red",
+  "zone": "tide",
+  "location": "Postal Platform",
+  "personality": "efficient_speedy",
+  "occupation": "message_courier",
+  "schedule": "always_delivering",
+  "dialog": {
+    "greeting": [
+      "Quick! I have deliveries! What do you need sent?",
+      "Messenger Gale! Fastest balloon in Tide!",
+      "No time to chat! Unless you have a message!",
+      "Back again? Something to send? URGENTLY?",
+      "Welcome to Postal Platform! We go UP to get AROUND!",
+      "New face! Need message delivery? I'm your aeronaut!",
+      "The wind waits for no one! And neither do I!",
+      "Speed is my specialty! Well, speed AND altitude!"
+    ],
+    "delivery_offer": "Letters! Packages! Small livestock! If it fits in the basket, I'll deliver it!",
+    "speed_guarantee": "Same-day delivery to any coastal zone! Next-day to inland! Weather permitting!",
+    "route_stories": "Once delivered a letter to a moving ship! Target practice! Hit the deck on my third pass!",
+    "competition": "Seagulls are my rivals. Faster than them going up. They win going down. Unfair advantage.",
+    "rumor": [
+      "Carried a love letter from Tide to Frost once. Romance across zones! Heartwarming!",
+      "Aetherreach gets ALL the priority mail. VIP treatment. Hmph.",
+      "Dustbelt's so dry, balloons get static shocks. Dangerous!",
+      "Mire's fog makes landing impossible. I drop packages from above."
+    ],
+    "balloon_maintenance": "Balloon needs constant patching. Seagulls. Wind. Jealous pigeons. It's a war up there!",
+    "farewell": [
+      "Gotta go! Wind's right!",
+      "Send a letter! I'll deliver it! PROMISE!",
+      "Up, up, and away! Real work to do!",
+      "Catch me if you can! ...In the sky! Good luck!"
+    ],
+    "ambient_barks": [
+      "Delivery! DELIVERY!",
+      "Wind's picking up!",
+      "Where's this address?",
+      "Next stop: somewhere else!",
+      "Special delivery!",
+      "Gotta fly!"
+    ],
+    "time_dawn": "Morning route! Catching the east wind!",
+    "time_noon": "Midday deliveries! Busy busy BUSY!",
+    "time_dusk": "Evening return! Last drops of the day!",
+    "time_night": "Night flying? Too dangerous. Grounded until dawn."
+  },
+  "party_reactions": {
+    "kade": "Fastest mail service I've ever seen.",
+    "nix7": "Aerial delivery efficiency: 89%. Acceptable.",
+    "twist": "You go FAST?! Can I RIDE?!",
+    "korr": "Reliable communication binds the zones together.",
+    "renna": "Do you ever carry magical correspondence? Enchanted letters?",
+    "suresh": "Haste makes waste. But sometimes, speed saves.",
+    "sova": "Good way to scout. From the basket. Smart.",
+    "grit": "Couriers won battles. Information moves armies.",
+    "ashka": "The wind serves many purposes.",
+    "senna": "Fast escape route. If you have a balloon.",
+    "callum": "Do you ever get... airsick?"
+  },
+  "relationship_dialog": {
+    "stranger": "First class? Express? What's your speed need?",
+    "acquaintance": "Regular customer! I'll prioritize your mail!",
+    "friend": "My friend! Your letters always get VIP treatment!",
+    "best_friend": "You! Free deliveries! Forever! You've earned it!"
+  }
+}

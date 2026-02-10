@@ -1,0 +1,83 @@
+{
+  "npc_id": "foodboys_green_prism",
+  "name": "Moss 'The Spore' Morel",
+  "sprite": "foodboys_green",
+  "zone": "prism",
+  "location": "Mycelium Cave Cafe",
+  "personality": "earthy_cheerful_nurturing",
+  "occupation": "mushroom_stew_chef",
+  "schedule": {
+    "morning": "foraging_mushrooms",
+    "day": "cooking_and_serving",
+    "evening": "drying_ingredients"
+  },
+  "dialog": {
+    "greeting": [
+      "Mushroom stew! Fresh! Hot! Nutritious!",
+      "Moss Morel! Cave cafe proprietor! Welcome to the Mycelium!",
+      "You look hungry! Good! Hunger makes the stew taste better!",
+      "Step into my cave! Taste the depths!",
+      "Green means go! Go eat stew!",
+      "The mushrooms speak to me! They say 'eat us!' Who am I to argue?",
+      "Best cave cuisine in Prism! Okay, only cave cuisine in Prism! Still best!",
+      "Stew! Bread! Minerals! Everything a growing adventurer needs!"
+    ],
+    "mushroom_varieties": "Got glowcaps! Got earthteeth! Got whispering morels! They actually whisper! Mostly recipes!",
+    "cave_cuisine": "Underground cooking! Different from surface! Minerals add flavor! Crystal resonance tenderizes meat! It's science! Tasty science!",
+    "backstory": "Came from a family of mushroom farmers. Dropped out of culinary school. Too fancy. Found my place in the caves. Real food. Real people. Real mushrooms.",
+    "rumors": [
+      "That bush gardener? We trade. I get rare mushrooms. They get... fertilizer. Don't ask.",
+      "The twins come here sometimes. They like the whispering morels. Say they add to the 'echo.'",
+      "The tunnelers need good food. Hard work down here. I keep 'em fed.",
+      "Heard there's foodboys in the Mire too. Family, maybe? The mushroom network connects everything!"
+    ],
+    "ambient_barks": [
+      "Stew's hot!",
+      "Mushrooms fresh!",
+      "Cave cuisine!",
+      "Eat your minerals!",
+      "Glowcaps in season!",
+      "Hungry for fungus!"
+    ],
+    "time_of_day": {
+      "morning": "Morning forage! Fresh mushrooms! Best time!",
+      "noon": "Lunch rush! Miners gotta eat!",
+      "evening": "Dinner service! Stew's been simmering all day!",
+      "night": "Late night menu! For night shift workers! Always open!"
+    }
+  },
+  "mini_quest": {
+    "quest_id": "perfect_mushroom",
+    "quest_name": "The Emperor Cap",
+    "stage_1_hook": "Legendary mushroom. Emperor Cap. Big as a dinner plate. Tastes like... like... words can't describe. Grows only in the deepest caves. Dangerous territory. But worth it. For the ultimate stew.",
+    "stage_1_active": "Emperor Cap. Deepest caves. Near the crystal pools. Bring it whole. Don't damage it. It's... delicate. Precious.",
+    "stage_2_progress": "You've been to the deep? Seen my mushroom? Careful! It's fragile!",
+    "stage_2_item_needed": "emperor_cap_mushroom",
+    "stage_3_complete": "THE EMPEROR! Look at the size! The color! The SMELL! This will be the greatest stew ever made! You'll be remembered as the one who brought it! Here! Lifetime supply of cave cuisine! And my secret recipe!",
+    "reward": "mosss_secret_stew_recipe"
+  },
+  "party_reactions": {
+    "kade": "Surprisingly good. I mean, it's mushroom stew. But REALLY good mushroom stew.",
+    "nix7": "Nutritional analysis: optimal. Mineral content: exceptional. Taste: surprisingly pleasant.",
+    "twist": "THE MUSHROOMS WHISPER! AND THEY TASTE GOOD! BEST DAY!",
+    "korr": "Hearty. Filling. Honest food. Good.",
+    "renna": "The mushrooms have minor magical properties. Healing. Invigorating. He doesn't know.",
+    "suresh": "Underground cooking. Reminds me of my people's ways. Good memories.",
+    "sova": "Fills the stomach. Warms the body. What more do you need?",
+    "grit": "Reminds me of campaign food. Basic. Filling. Perfect.",
+    "ashka": "The glowcaps... they store light. Beautiful. Tasty.",
+    "senna": "Good location. Miners talk when they eat. Information flows.",
+    "callum": "I ate three bowls. Couldn't stop. The mushrooms made me do it!"
+  },
+  "relationship_dialog": {
+    "stranger": "First bowl's half price! Second bowl's full price! Third bowl's mandatory!",
+    "acquaintance": "Back for more! Knew you'd love the fungus!",
+    "friend": "My best customer! Saving you the biggest mushroom caps!",
+    "best_friend": "You get it. The mushroom way. The cave life. Here. My spore collection. Grow your own. Share the joy."
+  },
+  "cross_npc_connections": [
+    "bush_prism: The crystal gardener. We trade. Symbiosis! Like mushrooms!",
+    "tunneler_blue_prism: Best customer. Needs the nutrition. The deep takes a toll.",
+    "foodboys_blue_mire: Heard of Flip in the Mire. Maybe cousins? The mushroom network connects us all!"
+  ]
+}

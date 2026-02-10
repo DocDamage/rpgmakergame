@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_ASHVEIL_FELLPATH_SCOUT",
+  "name": "Ashveil Fellpath Wayfarer",
+  "title": "Salvage Runner",
+  "location": "MIC_R02_80x48",
+  "coords": [
+    25,
+    30
+  ],
+  "schedule": {
+    "day": [
+      25,
+      30
+    ],
+    "night": [
+      28,
+      30
+    ],
+    "rain": [
+      27,
+      32
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_AMBIENT_SCAVENGER",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "neutral",
+  "background": "Recovers useful scraps from unstable routes. Assigned to Ashveil Fellpath.",
+  "personality": "Reckless, witty, and survival-smart.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "salvage_tips",
+    "field_rumors"
+  ]
+}

@@ -1,0 +1,2010 @@
+{
+  "id": "DT_NPC_BASELINES",
+  "dialogs": [
+    {
+      "id": "DT_AMARA_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Sister Amara, Healer. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Mirewatch medicine is simple: boil water, seal wounds, and do not inhale any spore cloud that sings your name.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_SECOND_RELIC, Q_PLAGUE_CURE",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_AMARA_INFIRMARY",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Follow the dry planks north. If the fog smells sweet, that is not weather, that is warning.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A patient swore his shadow asked for soup at dawn. I prescribed rest and a brighter lantern.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, Mirewatch treated fevers and marsh cuts. Now we treat time-lag burns and spore delirium.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "Post-break triage never ends, but we have protocols now. We lose fewer people than we did in the first chaos week.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Stay breathing. That is both blessing and instruction.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_DOMINION_OFFICIAL_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Dominion Official, Crown Liaison. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "District access remains conditional. Carry your pass, your composure, and one plausible lie.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Use marked lanes. Unmarked corridors now occasionally end in yesterday.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "Three memos rewrote themselves overnight. One promoted a filing cabinet to acting magistrate.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, policy compliance was predictable. Corrupt, yes. Predictable, also yes.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, orders conflict hourly. We are governing a city that keeps rewriting its own boundaries.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Comply, survive, and do not touch luminous residue.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_GRIMJAW_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Forge Master Grimjaw, Master Smith. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Cinderstep eats the careless. Test every stone before your full weight commits.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_SIXTH_RELIC, Q_MASTER_WORK, Q_DRAGONS_GRAVEYARD",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_GRIMJAW_MASTER",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Take the ember stairs, not the glass ledges. Heat mirage kills better than any blade.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "An apprentice struck my anvil backward and the anvil apologized to me.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, steel demand was seasonal. After harvest, before winter, simple.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "Now every settlement wants armor yesterday. I forge until the anvils complain.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Bring ore next time, not stories.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_INNKEEPER_MALE_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Dusthaven Innkeeper, Innkeeper. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Rooms are warm, stew is honest, and the west wall only whispers on storm nights.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Stick to lamp posts after dark. The alleys are shorter than they look, which is worse.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A traveler paid in antique teeth and asked if we validate nightmares.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, I rented mostly to traders and gamblers. Trouble was social, not cosmic.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, everyone sleeps with boots on. I keep soup hot and exits clear.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Sleep light. The town gossip starts before sunrise.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_KELLEN_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Blacksmith Kellen, Smith. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "If scrap rings true, keep it. If it hums, sell it to someone you dislike.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_BETTER_GEAR, Q_RARE_MATERIALS",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_KELLEN_SMITH",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Salvage runs are safe till dusk. After dusk, metal remembers old owners.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A fool forged a spoon into a dagger and called it diplomacy.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, scrap came from wagons and farm tools. Honest metal, mostly.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "Now scrap comes from warped machines and dead patrol rigs. Harder metal, harder stories.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Come back with iron that still has backbone.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_KELL_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Old Kell, Cartographer. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "My maps are accurate when the world behaves, and decorative when it does not.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_THIRD_RELIC, Q_OLD_KELLS_MAPS, Q_LOST_SURVEY",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Follow cairns with blue chalk. Red chalk means someone got creative and died.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A compass in Prismridge now points due regret. Useful, if bleak.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, maps drifted by season. Floods, landslides, normal grief.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, routes drift by hour. I redraw faster than ink can dry.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Walk where the stones disagree least.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_MERCHANT_A_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Dusthaven Merchant, General Merchant. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Standard rates today, panic rates at dusk, heroic rates during alarms.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Market road is safe by day. At night, buy first and run second.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "Someone bought six umbrellas for ashfall. Smart purchase, terrifying confidence.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, prices rose on weather and war rumors.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "Now prices rise on reality glitches and corridor collapses. Different panic, same math.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Spend clean, survive cheap.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_MERCHANT_PREMIUM_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Meridian Quartermaster, Premium Merchant. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Meridian stock is curated for elite catastrophe: pure tonics, polished steel, and selective mercy.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_MERIDIAN_EMPORIUM",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Use upper promenades; lower lanes flood with opportunists after curfew.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A noble bought anti-void perfume. It repelled mites, debt collectors, and one fiance.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, premium meant luxury.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, premium means survival margin: cleaner medicine, better filters, fewer regrets.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Premium regret is still regret.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_MIRA_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Mira Thorn, Innkeeper. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Ashveil is stable if you respect curfew and do not argue with the watch fires.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_MISSING_SCAVENGERS, Q_DEBT_COLLECTORS, Q_FAMILY_HEIRLOOM",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_MIRA_REST",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Stick to sanctuary lamps. Off-lamp paths look safe right up to the screaming part.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A guest claimed the room ledger wrote his apologies before he did.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, Ashveil felt like a refuge.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, refuge became a job. We hold together by routine and stubborn kindness.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Eat first, heroic choices second.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_RAIL_CAPTAIN_DORSA_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Captain Dorsa, Rail Captain. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Tell me about nearby routes.",
+              "next": "n_routes"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Freight runs hold if timing holds. Timing has been offended lately.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Board on whistle one, brace on whistle two. If there is a third whistle, pray quietly.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "Car Seven arrived two hours before departure and still demanded overtime.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, schedule drift cost coin.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, schedule drift costs lives. We run rails like field surgery now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Hands inside the carriage, fate outside.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_SARAI_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Dockmaster Sarai, Port Authority. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Brinegate tide charts are suggestions now. Bring rope and humility.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_FIFTH_RELIC, Q_SUNKEN_TREASURE, Q_RECRUIT_MARINUS",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Stay inside buoy lights. Outside them, the sea negotiates in teeth.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A fisher hooked his own anchor from tomorrow and blamed the moon.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, tides were difficult but honest.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, tides lie. We navigate by buoy, prayer, and backup rope.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Keep your footing and your stories short.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_SEAM_WARDEN_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Seam Warden, Postgame Arbiter. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Aetherreach sits on stitched reality. Treat every seam as loaded ordinance.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_ALL_RELICS, Q_SHRINE_TRIALS, Q_TOWER_ASCENT",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_AETHERREACH_ENDGAME",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Use calibrated gates only. Improvised crossings produce inventive funerals.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "I once watched a mountain blink. We agreed not to discuss it again.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, seams were latent and mostly theoretical to the public.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, seams are active fault-lines. Discipline keeps the sky from splitting wider.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Proceed with intention, or remain where you are.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_TERMINAL_OPERATOR_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Terminal Operator, Chrono Technician. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Tell me about nearby routes.",
+              "next": "n_routes"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Chronowake terminals are stable at 93 percent. The missing seven percent is personal.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "No contracts right now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Stay on marked conduits. Off-grid paths drift a few seconds every step.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "Console Twelve printed a maintenance warning signed by itself, tomorrow.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, terminal drift stayed within tolerance bands.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, tolerance became triage. We stabilize what we can and quarantine the rest.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If you hear ticking without a clock, step sideways.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_VANE_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Broker Vane, Information Dealer. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Dusthaven runs on rumor, copper, and selective memory. I sell all three.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_PROLOGUE, Q_IRONHAWK_DEALINGS",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Take crowded streets. Quiet streets charge interest in blood.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "The dust has informants now. Even your footprints are negotiable.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, secrets were leverage.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, secrets are evacuation plans. I sell whichever keeps people alive longer.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If anyone asks, we never spoke this clearly.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_VARIN_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Varin, Resistance Contact. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Old Lumencrest survives on codes, caches, and people who can keep their mouths shut.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_EIGHTH_RELIC, Q_RESISTANCE_PLOT, Q_ASSASSINATION",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_BLACK_MARKET",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Use chalk marks: two slashes means safehouse, circle means patrol, spiral means run.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A courier delivered a sealed note to himself and still failed the password check.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, resistance cells hid from soldiers.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, we hide from soldiers, cult crews, and architecture that forgets gravity.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Trust slowly. Move quickly.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_VARROS_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Captain Varros, Militia Captain. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "Ashveil militia rotates watches every four hours. Panic rotates faster.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_RECRUIT_KORR, Q_KORR_LIBERATION, Q_BOUNTY_DUSTBELT",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "I do not run a storefront.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Keep to patrol lanes. If you cross alarm wire, shout your name fast.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "A training dummy yelled insubordination when lightning hit the yard.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, militia work was bandits and border patrol.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, every patrol is disaster response with rifles.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Head down, blade up.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_VELM_MAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Archivist Velm, Keeper of Records. What do you need?",
+          "responses": [
+            {
+              "text": "Any local guidance?",
+              "next": "n_info"
+            },
+            {
+              "text": "Any tasks available?",
+              "next": "n_quests"
+            },
+            {
+              "text": "Show me your inventory.",
+              "next": "n_shop"
+            },
+            {
+              "text": "Heard anything strange lately?",
+              "next": "n_rumor"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Goodbye.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n_info",
+          "text": "History is unstable ink on unstable paper. I preserve what survives the night.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_quests",
+          "text": "Active leads: Q_SEVENTH_RELIC, Q_LOST_HISTORY, Q_ARCHIVE_KEY",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_shop",
+          "text": "Stock ledger: SHOP_VELM_BOOKS",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_routes",
+          "text": "Use catalog corridors only. Unsorted stacks occasionally reorder trespassers.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_rumor",
+          "text": "One archive page predicted your question, punctuation included.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, archives preserved memory.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, archives preserve sanity. If records hold, people hold.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "May your choices remain legible.",
+          "responses": []
+        }
+      ]
+    }
+  ]
+}

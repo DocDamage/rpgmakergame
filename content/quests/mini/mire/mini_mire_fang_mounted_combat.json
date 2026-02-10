@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_fang_mounted_combat",
+  "name": "Taming the Beast",
+  "zone": "mire",
+  "giver": "Fang (L'Cie Warrior)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "There's a wild behemoth in the Mire. Ferocious thing. But I see potential. Help me tame it, and I'll teach you mounted combat. Deal?",
+      "objective": "Help Fang subdue and tame the wild behemoth"
+    },
+    "progress": {
+      "dialog": "There it is! Beautiful beast! Stay back - this is gonna get rough!",
+      "objective": "Weaken the behemoth without killing it"
+    },
+    "complete": {
+      "dialog": "We did it! Look at her - she's magnificent! Here - as promised. Mounted combat techniques. And this spear. Use them well.",
+      "rewards": {"gold": 500, "item": "mounted_combat_manual", "reputation": 16}
+    }
+  },
+  "party_comments": {
+    "kade": "She actually tamed that monster... incredible.",
+    "ashka": "The bond between rider and beast. She understands it.",
+    "twist": "Can I pet the behemoth? Can I?!"
+  },
+  "hidden_outcome": "If you tame the behemoth without harming it severely, Fang names it after you and gives you 'Gungnir' - her ultimate spear"
+}

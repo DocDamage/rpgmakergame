@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_eiko_summon",
+  "name": "Little Summoner, Big Power",
+  "zone": "uplands",
+  "giver": "Eiko (Young Summoner)",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "I'm a summoner too! Just like Yuna! But I lost my horn... my summoning horn. It fell into the ravine when I was playing. Can you help me find it? Please?",
+      "objective": "Search the ravine for Eiko's lost summoning horn"
+    },
+    "progress": {
+      "dialog": "My horn is special. Made from a unicorn's... well, you know. It lets me call Maduin!",
+      "objective": "Continue searching the ravine and surrounding area"
+    },
+    "complete": {
+      "dialog": "You found it! My horn! Now I can summon again! Thank you! Here - I made you a charm. It has a little bit of Maduin's power in it. It'll keep you safe!",
+      "rewards": {"gold": 400, "item": "maduin_protection_charm", "reputation": 14}
+    }
+  },
+  "party_comments": {
+    "kade": "She's so young to be dealing with such power.",
+    "vex": "Youth is no barrier to faith. She is strong.",
+    "renna": "Her potential is remarkable. She will be powerful one day."
+  },
+  "hidden_outcome": "If you find the horn AND a 'Mog's Amulet' nearby, Eiko can summon Madeen and gives you the 'Holy Judgment' ability"
+}

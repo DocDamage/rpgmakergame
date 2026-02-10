@@ -1,0 +1,74 @@
+{
+  "id": "I_HOUSE_A_24x18",
+  "display_name": "House",
+  "type": "interior",
+  "dimensions": {
+    "width": 24,
+    "height": 18,
+    "tile_size": 16
+  },
+  "tileset": "Tileset_Interior_Generic",
+  "music": "bgm_house_theme",
+  "lighting": "warm",
+  "connections": [
+    {
+      "direction": "south",
+      "target": "PARENT_TOWN_MAP",
+      "coords": [
+        12,
+        17
+      ]
+    }
+  ],
+  "events": [],
+  "layout": {
+    "description": "Main room, kitchen area, 1-2 bed spaces, lived-in details",
+    "key_elements": [
+      {
+        "type": "main_room",
+        "coords": [
+          12,
+          10
+        ]
+      },
+      {
+        "type": "kitchen",
+        "coords": [
+          6,
+          6
+        ]
+      },
+      {
+        "type": "bed",
+        "coords": [
+          18,
+          6
+        ]
+      },
+      {
+        "type": "bed",
+        "coords": [
+          18,
+          12
+        ]
+      },
+      {
+        "type": "table",
+        "coords": [
+          8,
+          12
+        ]
+      },
+      {
+        "type": "exit",
+        "coords": [
+          12,
+          17
+        ],
+        "target": "outside"
+      }
+    ]
+  },
+  "variant": "default",
+  "source_template": "I_HOUSE_A_24x18_base"
+}

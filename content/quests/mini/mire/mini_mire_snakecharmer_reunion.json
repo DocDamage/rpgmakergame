@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_mire_snakecharmer_reunion",
+  "name": "Mr. Whiskers Goes Home",
+  "zone": "mire",
+  "giver": "Sssilas the Serpent Speaker",
+  "type": "delivery",
+  "prerequisites": ["mini_dustbelt_whiskers_lunch"],
+  "stages": {
+    "start": {
+      "dialog": "Mr. Whiskers needs to visit his FAMILY! In the Mire! His COUSIN lives there! A python! Take us there? We need an ESCORT! The Mire is DANGEROUS for performers!",
+      "objective": "Escort Sssilas and Mr. Whiskers to meet the python cousin in the Mire"
+    },
+    "progress": {
+      "dialog": "Mr. Whiskers is SO excited! Look at him wiggle! Almost there?",
+      "objective": "Continue through the Mire while protecting the duo"
+    },
+    "complete": {
+      "dialog": "REUNITED! Look at them! SNAKE FAMILY! Beautiful! Here - Mr. Whiskers' shed skin! Made into a belt! Lucky! Stylish! SLITHERY!",
+      "rewards": {"gold": 300, "item": "whiskers_shed_skin_belt", "reputation": 12}
+    }
+  },
+  "party_comments": {
+    "kade": "Snake family reunions. That's a first.",
+    "twist": "They're nuzzling! I'm gonna cry!",
+    "nix7": "Serpent social behavior: surprisingly wholesome."
+  },
+  "hidden_outcome": "If Mr. Whiskers doesn't take any damage during the escort, the python gives you 'Serpent's Wisdom' - a permanent +2 to Wisdom"
+}

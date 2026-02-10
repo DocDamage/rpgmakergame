@@ -1,0 +1,87 @@
+{
+  "npc_id": "aeronaut_blue_tide",
+  "name": "Captain Cirrus - Weather Scout",
+  "sprite": "aeronaut_blue",
+  "zone": "tide",
+  "location": "High-Wind Platform",
+  "personality": "optimistic_observer",
+  "occupation": "weather_balloonist",
+  "schedule": "flies_morning_reports_afternoon",
+  "dialog": {
+    "greeting": [
+      "Ahoy there! Captain Cirrus, at your service! Weather scout extraordinaire!",
+      "Beautiful day for ballooning! Or walking. Both good!",
+      "Back again? Come for another weather report?",
+      "The sky's my office! The clouds are my... coworkers?",
+      "Welcome to High-Wind Platform! Best view in Tide!",
+      "I read the weather so you don't have to! Very thoughtful of me!",
+      "New face! Want to know if it'll rain? I can tell you! It's my JOB!",
+      "Balloon's ready! Weather's clear! Life is GOOD!"
+    ],
+    "weather_report": "Today's forecast: Partly cloudy! Chance of fish! ...The seagulls drop things. Watch your head.",
+    "ballooning_stories": "Once, I flew TOO high. Hit a flock of geese. Lesson learned: Geese don't respect airspace.",
+    "weather_control_quest_hook": "My weather instruments are acting weird! Need parts from Chrono - time-synced gauges, very fancy. Without them, I'm just... guessing. Can you help?",
+    "weather_control_quest_active": "The Chrono parts should fix my calibration. Weather prediction is all about PRECISION!",
+    "weather_control_quest_complete": "The parts work! Perfect synchronization! I can predict weather a WHOLE HOUR in advance now! Here - take this barometer. Tells you if it's raining. Very useful!",
+    "cloud_watching": "See that cloud? Looks like a rabbit. That one? Definitely a ship. That angry gray one? Rain. Definitely rain.",
+    "altitude_records": "Personal best: 5,000 feet! Could see three zones! Frost looked COLD. Ember looked HOT. Obvious but impressive!",
+    "rumor": [
+      "The winds are changing. Something BIG is coming. Storm season approaches!",
+      "Aeronauts in Aetherreach fly HIGHER. Not better. Just higher. Show-offs.",
+      "Frost has weird weather. Snow that falls UP sometimes.",
+      "Mire's fog isn't natural. Something creates it. Something... old."
+    ],
+    "farewell": [
+      "Keep your feet dry and your eyes on the sky!",
+      "Happy trails! Or happy sails! Whichever you're doing!",
+      "Come back for tomorrow's forecast! Spoiler: probably more of the same!",
+      "Safe travels! Watch out for low-flying seagulls!"
+    ],
+    "ambient_barks": [
+      "Winds favorable!",
+      "Clouds building to the west!",
+      "Barometer dropping!",
+      "Fair weather ahead!",
+      "Balloon check! All good!",
+      "Up, up, and away!"
+    ],
+    "time_dawn": "Morning ascent! Best time for wind patterns!",
+    "time_noon": "Midday observation! Peak temperature readings!",
+    "time_dusk": "Evening descent! Beautiful sunset flights!",
+    "time_night": "Night moored! Storm watch! Someone has to!"
+  },
+  "party_reactions": {
+    "kade": "You're way too cheerful for someone who works at this height.",
+    "nix7": "Meteorological observation: accurate. Enthusiasm: excessive.",
+    "twist": "You FLY?! In a BALLOON?! Can I come?!",
+    "korr": "Reading the weather is valuable. Many lives depend on it.",
+    "renna": "Do you use magical aids? Or purely instruments?",
+    "suresh": "Those who watch the sky learn patience. You have learned joy.",
+    "sova": "I could shoot things from up there. Good vantage point.",
+    "grit": "Weather killed more soldiers than enemies. Good info saves lives.",
+    "ashka": "The wind serves you. Nice.",
+    "senna": "High ground. Good for watching. Good for hiding.",
+    "callum": "Is it scary up there? It looks scary..."
+  },
+  "relationship_dialog": {
+    "stranger": "Hello! First time on the platform? Watch your step!",
+    "acquaintance": "You're back! How's the weather treating you?",
+    "friend": "My friend! Come for another forecast?",
+    "best_friend": "You! My favorite ground-dweller! Here - I'll give you the SECRET forecast. Don't tell anyone!"
+  },
+  "mini_quest": {
+    "id": "weather_control",
+    "title": "Weather Control",
+    "description": "Retrieve time-synced gauges from Chrono for Captain Cirrus",
+    "stages": {
+      "hook": "My weather instruments need parts from Chrono - time-synced gauges. Without them, I'm just... guessing. Can you help?",
+      "active": "The Chrono parts should calibrate my instruments. Precision matters in weather!",
+      "complete": "Perfect synchronization! I can predict weather a WHOLE HOUR ahead now! Here - take this barometer!"
+    },
+    "reward": {
+      "item": "cirrus_barometer",
+      "gold": 250,
+      "reputation": "weather_friend"
+    }
+  }
+}

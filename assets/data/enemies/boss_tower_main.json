@@ -1,0 +1,298 @@
+{
+  "bosses": [
+    {
+      "id": "BOSS_DAX_KAINE",
+      "name": "Dax Kaine",
+      "floor": 10,
+      "arena": "TWR_ARENA_F10_48x48",
+      "type": "tower_main",
+      "sprite": "spr_boss_dax_kaine",
+      "stats": {
+        "hp": 5000,
+        "mp": 300,
+        "atk": 50,
+        "def": 30,
+        "mag": 35,
+        "spr": 25,
+        "spd": 18
+      },
+      "weaknesses": {
+        "ice": 1.3,
+        "thunder": 1.2
+      },
+      "resists": {
+        "fire": 0.5,
+        "physical": 0.8
+      },
+      "abilities": [
+        "blade_dance",
+        "shadow_strike",
+        "counter_stance",
+        "assassinate"
+      ],
+      "loot": [
+        {
+          "item": "TOWER_KEY_F15",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "KAINE_BLADE_FRAGMENT",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 1500,
+      "xp": 2500
+    },
+    {
+      "id": "BOSS_YAKOV_THORNE",
+      "name": "Yakov Thorne",
+      "floor": 25,
+      "arena": "TWR_ARENA_F25_48x48",
+      "type": "tower_main",
+      "sprite": "spr_boss_yakov_thorne",
+      "stats": {
+        "hp": 8000,
+        "mp": 400,
+        "atk": 65,
+        "def": 40,
+        "mag": 45,
+        "spr": 30,
+        "spd": 15
+      },
+      "weaknesses": {
+        "light": 1.3,
+        "wind": 1.2
+      },
+      "resists": {
+        "dark": 0.5,
+        "earth": 0.75
+      },
+      "abilities": [
+        "crushing_blow",
+        "earth_shatter",
+        "iron_will",
+        "dominating_presence"
+      ],
+      "loot": [
+        {
+          "item": "TOWER_KEY_F35",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "THORNE_INSIGNIA",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 2000,
+      "xp": 3500
+    },
+    {
+      "id": "BOSS_MERCER",
+      "name": "Mercer",
+      "floor": 50,
+      "arena": "TWR_ARENA_F50_64x64",
+      "type": "tower_main",
+      "sprite": "spr_boss_mercer",
+      "stats": {
+        "hp": 12000,
+        "mp": 600,
+        "atk": 75,
+        "def": 50,
+        "mag": 60,
+        "spr": 45,
+        "spd": 20
+      },
+      "weaknesses": {
+        "void": 1.3,
+        "time": 1.2
+      },
+      "resists": {
+        "physical": 0.6,
+        "magic": 0.7
+      },
+      "abilities": [
+        "mercer_blade_combo",
+        "temporal_slash",
+        "phase_dodge",
+        "limit_break_mercer"
+      ],
+      "loot": [
+        {
+          "item": "TOWER_KEY_F55",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "MERCER_LEGACY",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 3000,
+      "xp": 5000,
+      "story_significance": "midpoint_boss"
+    },
+    {
+      "id": "BOSS_SENTINEL",
+      "name": "Sentinel",
+      "floor": 75,
+      "arena": "TWR_ARENA_F75_64x64",
+      "type": "tower_main",
+      "sprite": "spr_boss_sentinel",
+      "stats": {
+        "hp": 18000,
+        "mp": 800,
+        "atk": 90,
+        "def": 70,
+        "mag": 70,
+        "spr": 60,
+        "spd": 12
+      },
+      "weaknesses": {
+        "thunder": 1.3,
+        "ice": 1.2
+      },
+      "resists": {
+        "physical": 0.4,
+        "fire": 0.5,
+        "earth": 0.5
+      },
+      "abilities": [
+        "sentinel_beam",
+        "shield_bash",
+        "system_overload",
+        "annihilation_protocol"
+      ],
+      "loot": [
+        {
+          "item": "TOWER_KEY_F85",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "SENTINEL_CORE",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 4000,
+      "xp": 6500
+    },
+    {
+      "id": "BOSS_VOID_ARCHITECT",
+      "name": "Void Architect",
+      "floor": 90,
+      "arena": "TWR_ARENA_F90_64x64",
+      "type": "tower_main",
+      "sprite": "spr_boss_void_architect",
+      "stats": {
+        "hp": 22000,
+        "mp": 1000,
+        "atk": 80,
+        "def": 55,
+        "mag": 95,
+        "spr": 80,
+        "spd": 18
+      },
+      "weaknesses": {
+        "light": 1.5
+      },
+      "resists": {
+        "void": 0.0,
+        "dark": 0.25,
+        "magic": 0.6
+      },
+      "absorbs": ["void"],
+      "abilities": [
+        "void_weave",
+        "reality_tear",
+        "null_magic",
+        "architects_vision",
+        "dimensional_shift"
+      ],
+      "loot": [
+        {
+          "item": "TOWER_KEY_F95",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "VOID_ARCHITECT_PLANS",
+          "chance": 0.5,
+          "count": 1
+        }
+      ],
+      "gil": 5000,
+      "xp": 8000
+    },
+    {
+      "id": "BOSS_ALEXANDER",
+      "name": "Alexander the Gate",
+      "floor": 100,
+      "arena": "TWR_ARENA_F100_64x64",
+      "type": "tower_final",
+      "sprite": "spr_boss_alexander",
+      "stats": {
+        "hp": 30000,
+        "mp": 1500,
+        "atk": 100,
+        "def": 70,
+        "mag": 100,
+        "spr": 70,
+        "spd": 22
+      },
+      "weaknesses": {
+        "none": "adaptive_resistance"
+      },
+      "resists": {
+        "all": 0.5
+      },
+      "abilities": [
+        "gate_of_eternity",
+        "sword_of_judgment",
+        "divine_authority",
+        "seal_of_alexander",
+        "progenitor_wrath"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "hp_threshold": 100,
+          "name": "The Gatekeeper",
+          "abilities": ["sword_of_judgment", "seal_of_alexander"]
+        },
+        {
+          "phase": 2,
+          "hp_threshold": 60,
+          "name": "The Arbiter",
+          "abilities": ["divine_authority", "gate_of_eternity"]
+        },
+        {
+          "phase": 3,
+          "hp_threshold": 25,
+          "name": "The Progenitor's Hand",
+          "abilities": ["progenitor_wrath", "all_previous"]
+        }
+      ],
+      "loot": [
+        {
+          "item": "TOWER_CLEARANCE",
+          "chance": 1.0,
+          "count": 1
+        },
+        {
+          "item": "ALEXANDERS_CROWN",
+          "chance": 1.0,
+          "count": 1
+        }
+      ],
+      "gil": 10000,
+      "xp": 15000,
+      "unlocks": ["PALACE_ACCESS"]
+    }
+  ]
+}

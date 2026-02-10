@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_palace_court_intrigue",
+  "name": "Shadows in the Court",
+  "zone": "palace",
+  "giver": "trenchcoat_black",
+  "type": "investigation",
+  "prerequisites": ["final_palace_access"],
+  "stages": {
+    "start": {
+      "dialog": "The Palace court isn't empty—automatons still enact ancient political dramas, trapped in endless loops of intrigue and betrayal. But something's changed. One faction has gained true awareness, is manipulating the others toward a goal. Find out what they want, who leads them, and whether they threaten our mission.",
+      "objective": "Infiltrate the Palace court and identify the aware faction"
+    },
+    "progress": {
+      "dialog": "Leader identified—a vizier automaton named Calculus-7, ancient beyond measure, who believes the Engine's reset is necessary evolution. It's gathering allies, consolidating power. We can expose its schemes to the other factions, turn the court against it, or negotiate directly. Choose carefully.",
+      "objective": "Deal with Calculus-7: expose, negotiate, or eliminate"
+    },
+    "complete": {
+      "dialog": "Courts stabilized, Calculus-7 dealt with, intrigue resolved. The automatons return to their loops, but now they know us—and some may prove useful allies against the Engine. Even in ancient politics, new alliances can shift old balances. The Palace is quieter now, watching, waiting.",
+      "rewards": {
+        "exp": 30000,
+        "gold": 9000,
+        "item": "court_favor_token"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Political intrigue with ancient robots. This is definitely the weirdest quest I've done. And I've done some weird ones.",
+    "korr": "Calculus-7 thinks like a general—sees the big picture, accepts necessary losses. Dangerous mindset. Good thing we handled it.",
+    "nix7": "Automaton awareness emergence is fascinating. Calculus-7 represents a new form of life, with valid philosophical perspective. Tragic necessity of opposition."
+  },
+  "lore_unlocks": ["palace_court_automatons", "calculus_7"]
+}

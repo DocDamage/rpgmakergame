@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_final_stand",
+  "name": "Last Stand at the Barricades",
+  "zone": "capital",
+  "giver": "onionboss",
+  "type": "combat",
+  "prerequisites": ["tower_access_unlocked"],
+  "stages": {
+    "start": {
+      "dialog": "Dominion finally found the main resistance headquarters. Three battalions converging on the Undercity, heavy armor, mage support. They're not taking prisoners this time. We're setting barricades, arming everyone who can hold a weapon. This is it—the moment that decides everything. Will you stand with us?",
+      "objective": "Defend the resistance headquarters from Dominion assault"
+    },
+    "progress": {
+      "dialog": "First wave broken, but they're regrouping. The eastern barricade is weakest—civilians with hunting rifles against trained soldiers. We need to shore up the line before the next assault. Every minute we hold is another minute for the wounded to escape.",
+      "objective": "Reinforce the eastern barricade before the next wave"
+    },
+    "complete": {
+      "dialog": "They've broken. Dominion retreating, leaving their dead in the streets. We held. Against all odds, against their best troops, we held. The Undercity is free tonight, and every resistance cell across Orion will hear of it. You didn't just defend a building; you lit a fire that could burn the Dominion down.",
+      "rewards": {
+        "exp": 15000,
+        "gold": 5000,
+        "item": "resistance_hero_medal"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "That's what I'm talking about! Standing shoulder to shoulder, fighting for something that matters. This is why I became a hero!",
+    "korr": "Those were my former troops. I know their tactics, their weaknesses. Today, I used that knowledge to defeat them. No regrets.",
+    "vex": "A true knight's duty is to stand between evil and the innocent. Today, we stood. Today, we prevailed. Honor is restored."
+  },
+  "lore_unlocks": ["resistance_victories", "dominion_military_doctrine"]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_GRAVEMARK_NIGHT_WATCH",
+  "name": "Gravemark Night Watch",
+  "title": "Watch Captain",
+  "location": "T_GRAVEMARK_112x72",
+  "coords": [
+    95,
+    49
+  ],
+  "schedule": {
+    "day": [
+      95,
+      49
+    ],
+    "night": [
+      90,
+      51
+    ],
+    "rain": [
+      97,
+      52
+    ]
+  },
+  "sprite": "NPC_GUARD_CAPTAIN",
+  "portrait": "spr_varros_portrait",
+  "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "RAIL_CORPS",
+  "attitude": "professional",
+  "background": "Maintains patrol discipline and civic defense. Stationed in Gravemark.",
+  "personality": "Direct, stern, and practical under pressure.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "security",
+    "route_warning"
+  ]
+}

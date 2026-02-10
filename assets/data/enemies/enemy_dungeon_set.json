@@ -1,0 +1,169 @@
+{
+  "id": "ENEMY_DUNGEON_SET",
+  "enemies": [
+    {
+      "id": "ENEMY_GROWTH_LURKER",
+      "name": "Growth Lurker",
+      "family": "dungeon",
+      "sprite": "spr_enemy_growth_lurker",
+      "stats": {
+        "hp": 130,
+        "mp": 20,
+        "atk": 16,
+        "def": 9,
+        "mag": 8,
+        "spr": 7,
+        "spd": 11
+      },
+      "weaknesses": {
+        "fire": 1.5,
+        "wind": 1.2
+      },
+      "resists": {
+        "earth": 0.7
+      },
+      "abilities": [
+        "attack",
+        "root_snare",
+        "spore_burst"
+      ],
+      "loot": [
+        {
+          "item": "ROOT_FIBER",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        16,
+        30
+      ],
+      "xp": 36
+    },
+    {
+      "id": "ENEMY_VINE_SNAKE",
+      "name": "Vine Snake",
+      "family": "dungeon",
+      "sprite": "spr_enemy_vine_snake",
+      "stats": {
+        "hp": 95,
+        "mp": 0,
+        "atk": 19,
+        "def": 7,
+        "mag": 0,
+        "spr": 5,
+        "spd": 15
+      },
+      "weaknesses": {
+        "fire": 1.4,
+        "ice": 1.2
+      },
+      "resists": {
+        "earth": 0.6
+      },
+      "abilities": [
+        "attack",
+        "venom_bite",
+        "coil"
+      ],
+      "loot": [
+        {
+          "item": "TOXIC_VINE",
+          "chance": 0.28,
+          "count": 1
+        }
+      ],
+      "gil": [
+        14,
+        28
+      ],
+      "xp": 34
+    },
+    {
+      "id": "ENEMY_BLOOM_SPROUT",
+      "name": "Bloom Sprout",
+      "family": "dungeon",
+      "sprite": "spr_enemy_bloom_sprout",
+      "stats": {
+        "hp": 85,
+        "mp": 60,
+        "atk": 10,
+        "def": 6,
+        "mag": 18,
+        "spr": 11,
+        "spd": 12
+      },
+      "weaknesses": {
+        "fire": 1.6,
+        "wind": 1.1
+      },
+      "resists": {
+        "water": 0.8
+      },
+      "abilities": [
+        "spore_cloud",
+        "confuse_pollen",
+        "heal_bloom"
+      ],
+      "loot": [
+        {
+          "item": "BLOOM_DUST",
+          "chance": 0.25,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "gil": [
+        18,
+        32
+      ],
+      "xp": 38
+    },
+    {
+      "id": "ENEMY_FUNGAL_HORROR",
+      "name": "Fungal Horror",
+      "family": "dungeon",
+      "sprite": "spr_enemy_fungal_horror",
+      "stats": {
+        "hp": 240,
+        "mp": 90,
+        "atk": 24,
+        "def": 16,
+        "mag": 22,
+        "spr": 15,
+        "spd": 8
+      },
+      "weaknesses": {
+        "fire": 1.7,
+        "light": 1.2
+      },
+      "resists": {
+        "earth": 0.6,
+        "poison": 0.0
+      },
+      "abilities": [
+        "mycelium_slam",
+        "spore_plague",
+        "toxic_mist",
+        "regenerate"
+      ],
+      "loot": [
+        {
+          "item": "FUNGAL_CORE",
+          "chance": 0.18,
+          "count": 1
+        }
+      ],
+      "gil": [
+        35,
+        62
+      ],
+      "xp": 82
+    }
+  ]
+}

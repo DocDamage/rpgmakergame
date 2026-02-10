@@ -1,0 +1,107 @@
+{
+  "id": "DUSTBELT_ENCOUNTERS",
+  "region": "dustbelt",
+  "maps": [
+    "MIC_R01A_48x32",
+    "MIC_R01B_96x40",
+    "T_DUSTHAVEN_112x72"
+  ],
+  "encounter_rate": 0.11,
+  "min_steps": 9,
+  "max_steps": 23,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_DUST_SKIRMISHER"
+      ],
+      "weight": 35,
+      "min_steps": 8,
+      "gil_range": [
+        15,
+        30
+      ],
+      "xp": 35
+    },
+    {
+      "enemies": [
+        "ENEMY_DUST_SKIRMISHER",
+        "ENEMY_DUST_SKIRMISHER"
+      ],
+      "weight": 25,
+      "min_steps": 12,
+      "gil_range": [
+        30,
+        60
+      ],
+      "xp": 70
+    },
+    {
+      "enemies": [
+        "ENEMY_DUST_SCAVENGER"
+      ],
+      "weight": 20,
+      "min_steps": 13,
+      "gil_range": [
+        20,
+        40
+      ],
+      "xp": 40
+    },
+    {
+      "enemies": [
+        "ENEMY_DUST_WASP"
+      ],
+      "weight": 15,
+      "min_steps": 10,
+      "gil_range": [
+        12,
+        28
+      ],
+      "xp": 30
+    },
+    {
+      "enemies": [
+        "ENEMY_DUST_WASP",
+        "ENEMY_DUST_WASP",
+        "ENEMY_DUST_WASP"
+      ],
+      "weight": 6,
+      "min_steps": 17,
+      "rare": true,
+      "gil_range": [
+        36,
+        84
+      ],
+      "xp": 84
+    },
+    {
+      "enemies": [
+        "ENEMY_DUST_SKIRMISHER",
+        "ENEMY_DUST_SCAVENGER"
+      ],
+      "weight": 12,
+      "min_steps": 14,
+      "gil_range": [
+        35,
+        70
+      ],
+      "xp": 72
+    }
+  ],
+  "modifiers": {
+    "weather": {
+      "dust_storm": {
+        "encounter_rate": 0.08,
+        "enemy_buff": "blind_resist"
+      }
+    },
+    "time": {
+      "night": {
+        "enemy_replacement": {
+          "from": "ENEMY_DUST_SKIRMISHER",
+          "to": "ENEMY_DUST_SCAVENGER"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_ice_fishing",
+  "name": "Through the Frozen Dark",
+  "zone": "frost",
+  "giver": "foodboys_blue",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Emperor Icefish only swims beneath the Glacier Sea during the winter solstice! Its scales are worth a king's ransom! But it takes skill, patience, and courage to catch one. The ice is thin, the water deadly cold. Want to try your luck?",
+      "objective": "Set up an ice fishing camp on the Glacier Sea"
+    },
+    "progress": {
+      "dialog": "You've got a bite! But this is no ordinary fish—it's massive! The ice is cracking! You need to reel it in carefully, or you'll both fall into the freezing water!",
+      "objective": "Reel in the Emperor Icefish without breaking the ice"
+    },
+    "complete": {
+      "dialog": "The Emperor Icefish! Magnificent! The Winter Festival will feast like royalty! Here's your share of the profits—and this Ice Fishing Spear! It never misses when thrown at aquatic targets!",
+      "rewards": {
+        "exp": 750,
+        "gold": 1200,
+        "item": "ice_fishing_spear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I fought a fish for thirty minutes! What a battle!",
+    "twist": "My fingers are icicles. I may never feel warmth again.",
+    "nix7": "Ichthyological specimen: exceptional. Capture: documented."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "NPC_MERCHANT_A",
+  "name": "Dusthaven Merchant",
+  "title": "General Merchant",
+  "location": "T_DUSTHAVEN_112x72",
+  "coords": [
+    60,
+    35
+  ],
+  "schedule": {
+    "day": [
+      60,
+      35
+    ],
+    "night": [
+      60,
+      35
+    ],
+    "rain": [
+      60,
+      35
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_MERCHANT_A_MAIN",
+  "shop": null,
+  "quests": [],
+  "faction": "DUSTHAVEN",
+  "attitude": "friendly",
+  "background": "General goods merchant serving Dusthaven caravans and scavenger crews.",
+  "personality": "Fast-talking and resourceful, always negotiating.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "shopkeeper",
+    "barter"
+  ],
+  "voice_lines": {
+    "greet": "vo_merchant_a_greet"
+  }
+}

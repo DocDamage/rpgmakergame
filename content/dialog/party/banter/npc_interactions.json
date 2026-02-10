@@ -1,0 +1,1818 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "total_entries": 780,
+    "npc_categories": [
+      "merchant",
+      "quest_giver",
+      "villager",
+      "soldier",
+      "child",
+      "elder",
+      "mystic",
+      "noble"
+    ],
+    "entry_structure": "category -> character -> interaction -> [lines]",
+    "characters": [
+      "kade",
+      "nix7",
+      "renna",
+      "suresh",
+      "twist",
+      "sova",
+      "grit",
+      "ashka",
+      "senna",
+      "callum",
+      "petra",
+      "vex",
+      "korr"
+    ]
+  },
+  "npc_reactions": {
+    "merchant": {
+      "kade": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep it brief.",
+          "I pay fair for gear that keeps civilians alive. Do not waste this window."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep it brief.",
+          "Lower it and we both walk away satisfied. Do not waste this window."
+        ],
+        "purchase": [
+          "I will take it. Keep it brief.",
+          "Wrap it fast; we move soon. Do not waste this window."
+        ],
+        "reject": [
+          "Not today. Keep it brief.",
+          "I cannot justify that cost right now. Do not waste this window."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep it brief.",
+          "Rare tools matter when terminals misbehave. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "greeting": [
+          "Open your stock list and keep it honest. I want hard numbers.",
+          "I pay fair for gear that keeps civilians alive. Efficiency without accountability is useless."
+        ],
+        "haggle": [
+          "That price does not match field risk. I want hard numbers.",
+          "Lower it and we both walk away satisfied. Efficiency without accountability is useless."
+        ],
+        "purchase": [
+          "I will take it. I want hard numbers.",
+          "Wrap it fast; we move soon. Efficiency without accountability is useless."
+        ],
+        "reject": [
+          "Not today. I want hard numbers.",
+          "I cannot justify that cost right now. Efficiency without accountability is useless."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. I want hard numbers.",
+          "Rare tools matter when terminals misbehave. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "greeting": [
+          "Open your stock list and keep it honest. I want hard numbers.",
+          "I pay fair for gear that keeps civilians alive. Efficiency without accountability is useless."
+        ],
+        "haggle": [
+          "That price does not match field risk. I want hard numbers.",
+          "Lower it and we both walk away satisfied. Efficiency without accountability is useless."
+        ],
+        "purchase": [
+          "I will take it. I want hard numbers.",
+          "Wrap it fast; we move soon. Efficiency without accountability is useless."
+        ],
+        "reject": [
+          "Not today. I want hard numbers.",
+          "I cannot justify that cost right now. Efficiency without accountability is useless."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. I want hard numbers.",
+          "Rare tools matter when terminals misbehave. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep your people calm while we work.",
+          "I pay fair for gear that keeps civilians alive. Survival first, pride later."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep your people calm while we work.",
+          "Lower it and we both walk away satisfied. Survival first, pride later."
+        ],
+        "purchase": [
+          "I will take it. Keep your people calm while we work.",
+          "Wrap it fast; we move soon. Survival first, pride later."
+        ],
+        "reject": [
+          "Not today. Keep your people calm while we work.",
+          "I cannot justify that cost right now. Survival first, pride later."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep your people calm while we work.",
+          "Rare tools matter when terminals misbehave. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "greeting": [
+          "Open your stock list and keep it honest. I can spot a lie at twenty paces.",
+          "I pay fair for gear that keeps civilians alive. If there is a back door, tell me now."
+        ],
+        "haggle": [
+          "That price does not match field risk. I can spot a lie at twenty paces.",
+          "Lower it and we both walk away satisfied. If there is a back door, tell me now."
+        ],
+        "purchase": [
+          "I will take it. I can spot a lie at twenty paces.",
+          "Wrap it fast; we move soon. If there is a back door, tell me now."
+        ],
+        "reject": [
+          "Not today. I can spot a lie at twenty paces.",
+          "I cannot justify that cost right now. If there is a back door, tell me now."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. I can spot a lie at twenty paces.",
+          "Rare tools matter when terminals misbehave. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep it brief.",
+          "I pay fair for gear that keeps civilians alive. Do not waste this window."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep it brief.",
+          "Lower it and we both walk away satisfied. Do not waste this window."
+        ],
+        "purchase": [
+          "I will take it. Keep it brief.",
+          "Wrap it fast; we move soon. Do not waste this window."
+        ],
+        "reject": [
+          "Not today. Keep it brief.",
+          "I cannot justify that cost right now. Do not waste this window."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep it brief.",
+          "Rare tools matter when terminals misbehave. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep it brief.",
+          "I pay fair for gear that keeps civilians alive. Do not waste this window."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep it brief.",
+          "Lower it and we both walk away satisfied. Do not waste this window."
+        ],
+        "purchase": [
+          "I will take it. Keep it brief.",
+          "Wrap it fast; we move soon. Do not waste this window."
+        ],
+        "reject": [
+          "Not today. Keep it brief.",
+          "I cannot justify that cost right now. Do not waste this window."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep it brief.",
+          "Rare tools matter when terminals misbehave. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "greeting": [
+          "Open your stock list and keep it honest. Speak clearly.",
+          "I pay fair for gear that keeps civilians alive. I do not miss warnings twice."
+        ],
+        "haggle": [
+          "That price does not match field risk. Speak clearly.",
+          "Lower it and we both walk away satisfied. I do not miss warnings twice."
+        ],
+        "purchase": [
+          "I will take it. Speak clearly.",
+          "Wrap it fast; we move soon. I do not miss warnings twice."
+        ],
+        "reject": [
+          "Not today. Speak clearly.",
+          "I cannot justify that cost right now. I do not miss warnings twice."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Speak clearly.",
+          "Rare tools matter when terminals misbehave. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "greeting": [
+          "Open your stock list and keep it honest. Speak clearly.",
+          "I pay fair for gear that keeps civilians alive. I do not miss warnings twice."
+        ],
+        "haggle": [
+          "That price does not match field risk. Speak clearly.",
+          "Lower it and we both walk away satisfied. I do not miss warnings twice."
+        ],
+        "purchase": [
+          "I will take it. Speak clearly.",
+          "Wrap it fast; we move soon. I do not miss warnings twice."
+        ],
+        "reject": [
+          "Not today. Speak clearly.",
+          "I cannot justify that cost right now. I do not miss warnings twice."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Speak clearly.",
+          "Rare tools matter when terminals misbehave. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep your people calm while we work.",
+          "I pay fair for gear that keeps civilians alive. Survival first, pride later."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep your people calm while we work.",
+          "Lower it and we both walk away satisfied. Survival first, pride later."
+        ],
+        "purchase": [
+          "I will take it. Keep your people calm while we work.",
+          "Wrap it fast; we move soon. Survival first, pride later."
+        ],
+        "reject": [
+          "Not today. Keep your people calm while we work.",
+          "I cannot justify that cost right now. Survival first, pride later."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep your people calm while we work.",
+          "Rare tools matter when terminals misbehave. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "greeting": [
+          "Open your stock list and keep it honest. Speak clearly.",
+          "I pay fair for gear that keeps civilians alive. I do not miss warnings twice."
+        ],
+        "haggle": [
+          "That price does not match field risk. Speak clearly.",
+          "Lower it and we both walk away satisfied. I do not miss warnings twice."
+        ],
+        "purchase": [
+          "I will take it. Speak clearly.",
+          "Wrap it fast; we move soon. I do not miss warnings twice."
+        ],
+        "reject": [
+          "Not today. Speak clearly.",
+          "I cannot justify that cost right now. I do not miss warnings twice."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Speak clearly.",
+          "Rare tools matter when terminals misbehave. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep your people calm while we work.",
+          "I pay fair for gear that keeps civilians alive. Survival first, pride later."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep your people calm while we work.",
+          "Lower it and we both walk away satisfied. Survival first, pride later."
+        ],
+        "purchase": [
+          "I will take it. Keep your people calm while we work.",
+          "Wrap it fast; we move soon. Survival first, pride later."
+        ],
+        "reject": [
+          "Not today. Keep your people calm while we work.",
+          "I cannot justify that cost right now. Survival first, pride later."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep your people calm while we work.",
+          "Rare tools matter when terminals misbehave. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "greeting": [
+          "Open your stock list and keep it honest. Keep it brief.",
+          "I pay fair for gear that keeps civilians alive. Do not waste this window."
+        ],
+        "haggle": [
+          "That price does not match field risk. Keep it brief.",
+          "Lower it and we both walk away satisfied. Do not waste this window."
+        ],
+        "purchase": [
+          "I will take it. Keep it brief.",
+          "Wrap it fast; we move soon. Do not waste this window."
+        ],
+        "reject": [
+          "Not today. Keep it brief.",
+          "I cannot justify that cost right now. Do not waste this window."
+        ],
+        "rare_stock": [
+          "Show me what you keep off the front shelf. Keep it brief.",
+          "Rare tools matter when terminals misbehave. Do not waste this window."
+        ]
+      }
+    },
+    "quest_giver": {
+      "kade": {
+        "accept": [
+          "We can take this contract. Keep it brief.",
+          "Give us every detail and no propaganda. Do not waste this window."
+        ],
+        "in_progress": [
+          "Work is underway. Keep it brief.",
+          "Keep your people clear of the danger zone. Do not waste this window."
+        ],
+        "complete": [
+          "Objective complete. Keep it brief.",
+          "Your route should be stable again. Do not waste this window."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep it brief.",
+          "Use the rest to harden your settlement. Do not waste this window."
+        ],
+        "decline": [
+          "We cannot take this now. Keep it brief.",
+          "Point us at the next safe handoff. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "accept": [
+          "We can take this contract. I want hard numbers.",
+          "Give us every detail and no propaganda. Efficiency without accountability is useless."
+        ],
+        "in_progress": [
+          "Work is underway. I want hard numbers.",
+          "Keep your people clear of the danger zone. Efficiency without accountability is useless."
+        ],
+        "complete": [
+          "Objective complete. I want hard numbers.",
+          "Your route should be stable again. Efficiency without accountability is useless."
+        ],
+        "reward": [
+          "Reward acknowledged. I want hard numbers.",
+          "Use the rest to harden your settlement. Efficiency without accountability is useless."
+        ],
+        "decline": [
+          "We cannot take this now. I want hard numbers.",
+          "Point us at the next safe handoff. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "accept": [
+          "We can take this contract. I want hard numbers.",
+          "Give us every detail and no propaganda. Efficiency without accountability is useless."
+        ],
+        "in_progress": [
+          "Work is underway. I want hard numbers.",
+          "Keep your people clear of the danger zone. Efficiency without accountability is useless."
+        ],
+        "complete": [
+          "Objective complete. I want hard numbers.",
+          "Your route should be stable again. Efficiency without accountability is useless."
+        ],
+        "reward": [
+          "Reward acknowledged. I want hard numbers.",
+          "Use the rest to harden your settlement. Efficiency without accountability is useless."
+        ],
+        "decline": [
+          "We cannot take this now. I want hard numbers.",
+          "Point us at the next safe handoff. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "accept": [
+          "We can take this contract. Keep your people calm while we work.",
+          "Give us every detail and no propaganda. Survival first, pride later."
+        ],
+        "in_progress": [
+          "Work is underway. Keep your people calm while we work.",
+          "Keep your people clear of the danger zone. Survival first, pride later."
+        ],
+        "complete": [
+          "Objective complete. Keep your people calm while we work.",
+          "Your route should be stable again. Survival first, pride later."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep your people calm while we work.",
+          "Use the rest to harden your settlement. Survival first, pride later."
+        ],
+        "decline": [
+          "We cannot take this now. Keep your people calm while we work.",
+          "Point us at the next safe handoff. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "accept": [
+          "We can take this contract. I can spot a lie at twenty paces.",
+          "Give us every detail and no propaganda. If there is a back door, tell me now."
+        ],
+        "in_progress": [
+          "Work is underway. I can spot a lie at twenty paces.",
+          "Keep your people clear of the danger zone. If there is a back door, tell me now."
+        ],
+        "complete": [
+          "Objective complete. I can spot a lie at twenty paces.",
+          "Your route should be stable again. If there is a back door, tell me now."
+        ],
+        "reward": [
+          "Reward acknowledged. I can spot a lie at twenty paces.",
+          "Use the rest to harden your settlement. If there is a back door, tell me now."
+        ],
+        "decline": [
+          "We cannot take this now. I can spot a lie at twenty paces.",
+          "Point us at the next safe handoff. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "accept": [
+          "We can take this contract. Keep it brief.",
+          "Give us every detail and no propaganda. Do not waste this window."
+        ],
+        "in_progress": [
+          "Work is underway. Keep it brief.",
+          "Keep your people clear of the danger zone. Do not waste this window."
+        ],
+        "complete": [
+          "Objective complete. Keep it brief.",
+          "Your route should be stable again. Do not waste this window."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep it brief.",
+          "Use the rest to harden your settlement. Do not waste this window."
+        ],
+        "decline": [
+          "We cannot take this now. Keep it brief.",
+          "Point us at the next safe handoff. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "accept": [
+          "We can take this contract. Keep it brief.",
+          "Give us every detail and no propaganda. Do not waste this window."
+        ],
+        "in_progress": [
+          "Work is underway. Keep it brief.",
+          "Keep your people clear of the danger zone. Do not waste this window."
+        ],
+        "complete": [
+          "Objective complete. Keep it brief.",
+          "Your route should be stable again. Do not waste this window."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep it brief.",
+          "Use the rest to harden your settlement. Do not waste this window."
+        ],
+        "decline": [
+          "We cannot take this now. Keep it brief.",
+          "Point us at the next safe handoff. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "accept": [
+          "We can take this contract. Speak clearly.",
+          "Give us every detail and no propaganda. I do not miss warnings twice."
+        ],
+        "in_progress": [
+          "Work is underway. Speak clearly.",
+          "Keep your people clear of the danger zone. I do not miss warnings twice."
+        ],
+        "complete": [
+          "Objective complete. Speak clearly.",
+          "Your route should be stable again. I do not miss warnings twice."
+        ],
+        "reward": [
+          "Reward acknowledged. Speak clearly.",
+          "Use the rest to harden your settlement. I do not miss warnings twice."
+        ],
+        "decline": [
+          "We cannot take this now. Speak clearly.",
+          "Point us at the next safe handoff. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "accept": [
+          "We can take this contract. Speak clearly.",
+          "Give us every detail and no propaganda. I do not miss warnings twice."
+        ],
+        "in_progress": [
+          "Work is underway. Speak clearly.",
+          "Keep your people clear of the danger zone. I do not miss warnings twice."
+        ],
+        "complete": [
+          "Objective complete. Speak clearly.",
+          "Your route should be stable again. I do not miss warnings twice."
+        ],
+        "reward": [
+          "Reward acknowledged. Speak clearly.",
+          "Use the rest to harden your settlement. I do not miss warnings twice."
+        ],
+        "decline": [
+          "We cannot take this now. Speak clearly.",
+          "Point us at the next safe handoff. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "accept": [
+          "We can take this contract. Keep your people calm while we work.",
+          "Give us every detail and no propaganda. Survival first, pride later."
+        ],
+        "in_progress": [
+          "Work is underway. Keep your people calm while we work.",
+          "Keep your people clear of the danger zone. Survival first, pride later."
+        ],
+        "complete": [
+          "Objective complete. Keep your people calm while we work.",
+          "Your route should be stable again. Survival first, pride later."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep your people calm while we work.",
+          "Use the rest to harden your settlement. Survival first, pride later."
+        ],
+        "decline": [
+          "We cannot take this now. Keep your people calm while we work.",
+          "Point us at the next safe handoff. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "accept": [
+          "We can take this contract. Speak clearly.",
+          "Give us every detail and no propaganda. I do not miss warnings twice."
+        ],
+        "in_progress": [
+          "Work is underway. Speak clearly.",
+          "Keep your people clear of the danger zone. I do not miss warnings twice."
+        ],
+        "complete": [
+          "Objective complete. Speak clearly.",
+          "Your route should be stable again. I do not miss warnings twice."
+        ],
+        "reward": [
+          "Reward acknowledged. Speak clearly.",
+          "Use the rest to harden your settlement. I do not miss warnings twice."
+        ],
+        "decline": [
+          "We cannot take this now. Speak clearly.",
+          "Point us at the next safe handoff. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "accept": [
+          "We can take this contract. Keep your people calm while we work.",
+          "Give us every detail and no propaganda. Survival first, pride later."
+        ],
+        "in_progress": [
+          "Work is underway. Keep your people calm while we work.",
+          "Keep your people clear of the danger zone. Survival first, pride later."
+        ],
+        "complete": [
+          "Objective complete. Keep your people calm while we work.",
+          "Your route should be stable again. Survival first, pride later."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep your people calm while we work.",
+          "Use the rest to harden your settlement. Survival first, pride later."
+        ],
+        "decline": [
+          "We cannot take this now. Keep your people calm while we work.",
+          "Point us at the next safe handoff. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "accept": [
+          "We can take this contract. Keep it brief.",
+          "Give us every detail and no propaganda. Do not waste this window."
+        ],
+        "in_progress": [
+          "Work is underway. Keep it brief.",
+          "Keep your people clear of the danger zone. Do not waste this window."
+        ],
+        "complete": [
+          "Objective complete. Keep it brief.",
+          "Your route should be stable again. Do not waste this window."
+        ],
+        "reward": [
+          "Reward acknowledged. Keep it brief.",
+          "Use the rest to harden your settlement. Do not waste this window."
+        ],
+        "decline": [
+          "We cannot take this now. Keep it brief.",
+          "Point us at the next safe handoff. Do not waste this window."
+        ]
+      }
+    },
+    "villager": {
+      "kade": {
+        "greeting": [
+          "You are safe for the moment. Keep it brief.",
+          "Tell us what changed before the alarms hit. Do not waste this window."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep it brief.",
+          "Small details save lives. Do not waste this window."
+        ],
+        "reassure": [
+          "We will hold this line. Keep it brief.",
+          "Stay with your family and wait for our signal. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "greeting": [
+          "You are safe for the moment. I want hard numbers.",
+          "Tell us what changed before the alarms hit. Efficiency without accountability is useless."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. I want hard numbers.",
+          "Small details save lives. Efficiency without accountability is useless."
+        ],
+        "reassure": [
+          "We will hold this line. I want hard numbers.",
+          "Stay with your family and wait for our signal. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "greeting": [
+          "You are safe for the moment. I want hard numbers.",
+          "Tell us what changed before the alarms hit. Efficiency without accountability is useless."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. I want hard numbers.",
+          "Small details save lives. Efficiency without accountability is useless."
+        ],
+        "reassure": [
+          "We will hold this line. I want hard numbers.",
+          "Stay with your family and wait for our signal. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "greeting": [
+          "You are safe for the moment. Keep your people calm while we work.",
+          "Tell us what changed before the alarms hit. Survival first, pride later."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep your people calm while we work.",
+          "Small details save lives. Survival first, pride later."
+        ],
+        "reassure": [
+          "We will hold this line. Keep your people calm while we work.",
+          "Stay with your family and wait for our signal. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "greeting": [
+          "You are safe for the moment. I can spot a lie at twenty paces.",
+          "Tell us what changed before the alarms hit. If there is a back door, tell me now."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. I can spot a lie at twenty paces.",
+          "Small details save lives. If there is a back door, tell me now."
+        ],
+        "reassure": [
+          "We will hold this line. I can spot a lie at twenty paces.",
+          "Stay with your family and wait for our signal. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "greeting": [
+          "You are safe for the moment. Keep it brief.",
+          "Tell us what changed before the alarms hit. Do not waste this window."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep it brief.",
+          "Small details save lives. Do not waste this window."
+        ],
+        "reassure": [
+          "We will hold this line. Keep it brief.",
+          "Stay with your family and wait for our signal. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "greeting": [
+          "You are safe for the moment. Keep it brief.",
+          "Tell us what changed before the alarms hit. Do not waste this window."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep it brief.",
+          "Small details save lives. Do not waste this window."
+        ],
+        "reassure": [
+          "We will hold this line. Keep it brief.",
+          "Stay with your family and wait for our signal. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "greeting": [
+          "You are safe for the moment. Speak clearly.",
+          "Tell us what changed before the alarms hit. I do not miss warnings twice."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Speak clearly.",
+          "Small details save lives. I do not miss warnings twice."
+        ],
+        "reassure": [
+          "We will hold this line. Speak clearly.",
+          "Stay with your family and wait for our signal. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "greeting": [
+          "You are safe for the moment. Speak clearly.",
+          "Tell us what changed before the alarms hit. I do not miss warnings twice."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Speak clearly.",
+          "Small details save lives. I do not miss warnings twice."
+        ],
+        "reassure": [
+          "We will hold this line. Speak clearly.",
+          "Stay with your family and wait for our signal. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "greeting": [
+          "You are safe for the moment. Keep your people calm while we work.",
+          "Tell us what changed before the alarms hit. Survival first, pride later."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep your people calm while we work.",
+          "Small details save lives. Survival first, pride later."
+        ],
+        "reassure": [
+          "We will hold this line. Keep your people calm while we work.",
+          "Stay with your family and wait for our signal. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "greeting": [
+          "You are safe for the moment. Speak clearly.",
+          "Tell us what changed before the alarms hit. I do not miss warnings twice."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Speak clearly.",
+          "Small details save lives. I do not miss warnings twice."
+        ],
+        "reassure": [
+          "We will hold this line. Speak clearly.",
+          "Stay with your family and wait for our signal. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "greeting": [
+          "You are safe for the moment. Keep your people calm while we work.",
+          "Tell us what changed before the alarms hit. Survival first, pride later."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep your people calm while we work.",
+          "Small details save lives. Survival first, pride later."
+        ],
+        "reassure": [
+          "We will hold this line. Keep your people calm while we work.",
+          "Stay with your family and wait for our signal. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "greeting": [
+          "You are safe for the moment. Keep it brief.",
+          "Tell us what changed before the alarms hit. Do not waste this window."
+        ],
+        "rumor": [
+          "Start with what you saw, not what you feared. Keep it brief.",
+          "Small details save lives. Do not waste this window."
+        ],
+        "reassure": [
+          "We will hold this line. Keep it brief.",
+          "Stay with your family and wait for our signal. Do not waste this window."
+        ]
+      }
+    },
+    "soldier": {
+      "kade": {
+        "salute": [
+          "Status report. Keep it brief.",
+          "Keep discipline and avoid civilian collateral. Do not waste this window."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep it brief.",
+          "Bad intel kills good people. Do not waste this window."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep it brief.",
+          "You hold angle; we break their center. Do not waste this window."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep it brief.",
+          "Duty without ethics is not duty. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "salute": [
+          "Status report. I want hard numbers.",
+          "Keep discipline and avoid civilian collateral. Efficiency without accountability is useless."
+        ],
+        "intel": [
+          "Share your map and patrol timing. I want hard numbers.",
+          "Bad intel kills good people. Efficiency without accountability is useless."
+        ],
+        "cooperate": [
+          "We can coordinate this push. I want hard numbers.",
+          "You hold angle; we break their center. Efficiency without accountability is useless."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. I want hard numbers.",
+          "Duty without ethics is not duty. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "salute": [
+          "Status report. I want hard numbers.",
+          "Keep discipline and avoid civilian collateral. Efficiency without accountability is useless."
+        ],
+        "intel": [
+          "Share your map and patrol timing. I want hard numbers.",
+          "Bad intel kills good people. Efficiency without accountability is useless."
+        ],
+        "cooperate": [
+          "We can coordinate this push. I want hard numbers.",
+          "You hold angle; we break their center. Efficiency without accountability is useless."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. I want hard numbers.",
+          "Duty without ethics is not duty. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "salute": [
+          "Status report. Keep your people calm while we work.",
+          "Keep discipline and avoid civilian collateral. Survival first, pride later."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep your people calm while we work.",
+          "Bad intel kills good people. Survival first, pride later."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep your people calm while we work.",
+          "You hold angle; we break their center. Survival first, pride later."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep your people calm while we work.",
+          "Duty without ethics is not duty. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "salute": [
+          "Status report. I can spot a lie at twenty paces.",
+          "Keep discipline and avoid civilian collateral. If there is a back door, tell me now."
+        ],
+        "intel": [
+          "Share your map and patrol timing. I can spot a lie at twenty paces.",
+          "Bad intel kills good people. If there is a back door, tell me now."
+        ],
+        "cooperate": [
+          "We can coordinate this push. I can spot a lie at twenty paces.",
+          "You hold angle; we break their center. If there is a back door, tell me now."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. I can spot a lie at twenty paces.",
+          "Duty without ethics is not duty. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "salute": [
+          "Status report. Keep it brief.",
+          "Keep discipline and avoid civilian collateral. Do not waste this window."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep it brief.",
+          "Bad intel kills good people. Do not waste this window."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep it brief.",
+          "You hold angle; we break their center. Do not waste this window."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep it brief.",
+          "Duty without ethics is not duty. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "salute": [
+          "Status report. Keep it brief.",
+          "Keep discipline and avoid civilian collateral. Do not waste this window."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep it brief.",
+          "Bad intel kills good people. Do not waste this window."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep it brief.",
+          "You hold angle; we break their center. Do not waste this window."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep it brief.",
+          "Duty without ethics is not duty. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "salute": [
+          "Status report. Speak clearly.",
+          "Keep discipline and avoid civilian collateral. I do not miss warnings twice."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Speak clearly.",
+          "Bad intel kills good people. I do not miss warnings twice."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Speak clearly.",
+          "You hold angle; we break their center. I do not miss warnings twice."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Speak clearly.",
+          "Duty without ethics is not duty. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "salute": [
+          "Status report. Speak clearly.",
+          "Keep discipline and avoid civilian collateral. I do not miss warnings twice."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Speak clearly.",
+          "Bad intel kills good people. I do not miss warnings twice."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Speak clearly.",
+          "You hold angle; we break their center. I do not miss warnings twice."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Speak clearly.",
+          "Duty without ethics is not duty. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "salute": [
+          "Status report. Keep your people calm while we work.",
+          "Keep discipline and avoid civilian collateral. Survival first, pride later."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep your people calm while we work.",
+          "Bad intel kills good people. Survival first, pride later."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep your people calm while we work.",
+          "You hold angle; we break their center. Survival first, pride later."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep your people calm while we work.",
+          "Duty without ethics is not duty. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "salute": [
+          "Status report. Speak clearly.",
+          "Keep discipline and avoid civilian collateral. I do not miss warnings twice."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Speak clearly.",
+          "Bad intel kills good people. I do not miss warnings twice."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Speak clearly.",
+          "You hold angle; we break their center. I do not miss warnings twice."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Speak clearly.",
+          "Duty without ethics is not duty. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "salute": [
+          "Status report. Keep your people calm while we work.",
+          "Keep discipline and avoid civilian collateral. Survival first, pride later."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep your people calm while we work.",
+          "Bad intel kills good people. Survival first, pride later."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep your people calm while we work.",
+          "You hold angle; we break their center. Survival first, pride later."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep your people calm while we work.",
+          "Duty without ethics is not duty. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "salute": [
+          "Status report. Keep it brief.",
+          "Keep discipline and avoid civilian collateral. Do not waste this window."
+        ],
+        "intel": [
+          "Share your map and patrol timing. Keep it brief.",
+          "Bad intel kills good people. Do not waste this window."
+        ],
+        "cooperate": [
+          "We can coordinate this push. Keep it brief.",
+          "You hold angle; we break their center. Do not waste this window."
+        ],
+        "challenge": [
+          "If your orders target civilians, I will block you. Keep it brief.",
+          "Duty without ethics is not duty. Do not waste this window."
+        ]
+      }
+    },
+    "child": {
+      "kade": {
+        "comfort": [
+          "Kade: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "encourage": [
+          "Kade: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "playful": [
+          "Kade: You are safe with us.",
+          "Stay close and you will be fine."
+        ]
+      },
+      "nix7": {
+        "comfort": [
+          "You are not in trouble. I want hard numbers.",
+          "Stay near the lantern and breathe slow. Efficiency without accountability is useless."
+        ],
+        "encourage": [
+          "You did well speaking up. I want hard numbers.",
+          "Courage can be quiet and still count. Efficiency without accountability is useless."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. I want hard numbers.",
+          "For now, help me by staying where it is safe. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "comfort": [
+          "You are not in trouble. I want hard numbers.",
+          "Stay near the lantern and breathe slow. Efficiency without accountability is useless."
+        ],
+        "encourage": [
+          "You did well speaking up. I want hard numbers.",
+          "Courage can be quiet and still count. Efficiency without accountability is useless."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. I want hard numbers.",
+          "For now, help me by staying where it is safe. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "comfort": [
+          "You are not in trouble. Keep your people calm while we work.",
+          "Stay near the lantern and breathe slow. Survival first, pride later."
+        ],
+        "encourage": [
+          "You did well speaking up. Keep your people calm while we work.",
+          "Courage can be quiet and still count. Survival first, pride later."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Keep your people calm while we work.",
+          "For now, help me by staying where it is safe. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "comfort": [
+          "You are not in trouble. I can spot a lie at twenty paces.",
+          "Stay near the lantern and breathe slow. If there is a back door, tell me now."
+        ],
+        "encourage": [
+          "You did well speaking up. I can spot a lie at twenty paces.",
+          "Courage can be quiet and still count. If there is a back door, tell me now."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. I can spot a lie at twenty paces.",
+          "For now, help me by staying where it is safe. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "comfort": [
+          "Dr. Sova: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "encourage": [
+          "Dr. Sova: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "playful": [
+          "Dr. Sova: You are safe with us.",
+          "Stay close and you will be fine."
+        ]
+      },
+      "grit": {
+        "comfort": [
+          "Grit: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "encourage": [
+          "Grit: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "playful": [
+          "Grit: You are safe with us.",
+          "Stay close and you will be fine."
+        ]
+      },
+      "ashka": {
+        "comfort": [
+          "You are not in trouble. Speak clearly.",
+          "Stay near the lantern and breathe slow. I do not miss warnings twice."
+        ],
+        "encourage": [
+          "You did well speaking up. Speak clearly.",
+          "Courage can be quiet and still count. I do not miss warnings twice."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Speak clearly.",
+          "For now, help me by staying where it is safe. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "comfort": [
+          "You are not in trouble. Speak clearly.",
+          "Stay near the lantern and breathe slow. I do not miss warnings twice."
+        ],
+        "encourage": [
+          "You did well speaking up. Speak clearly.",
+          "Courage can be quiet and still count. I do not miss warnings twice."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Speak clearly.",
+          "For now, help me by staying where it is safe. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "comfort": [
+          "You are not in trouble. Keep your people calm while we work.",
+          "Stay near the lantern and breathe slow. Survival first, pride later."
+        ],
+        "encourage": [
+          "You did well speaking up. Keep your people calm while we work.",
+          "Courage can be quiet and still count. Survival first, pride later."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Keep your people calm while we work.",
+          "For now, help me by staying where it is safe. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "comfort": [
+          "You are not in trouble. Speak clearly.",
+          "Stay near the lantern and breathe slow. I do not miss warnings twice."
+        ],
+        "encourage": [
+          "You did well speaking up. Speak clearly.",
+          "Courage can be quiet and still count. I do not miss warnings twice."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Speak clearly.",
+          "For now, help me by staying where it is safe. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "comfort": [
+          "You are not in trouble. Keep your people calm while we work.",
+          "Stay near the lantern and breathe slow. Survival first, pride later."
+        ],
+        "encourage": [
+          "You did well speaking up. Keep your people calm while we work.",
+          "Courage can be quiet and still count. Survival first, pride later."
+        ],
+        "playful": [
+          "After this, we celebrate with warm food. Keep your people calm while we work.",
+          "For now, help me by staying where it is safe. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "comfort": [
+          "Korr: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "encourage": [
+          "Korr: You are safe with us.",
+          "Stay close and you will be fine."
+        ],
+        "playful": [
+          "Korr: You are safe with us.",
+          "Stay close and you will be fine."
+        ]
+      }
+    },
+    "elder": {
+      "kade": {
+        "respect": [
+          "Your memory of this place matters. Keep it brief.",
+          "Tell us what changed after the break. Do not waste this window."
+        ],
+        "listen": [
+          "I am listening. Keep it brief.",
+          "Take your time and start where it hurt first. Do not waste this window."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep it brief.",
+          "We will return with better news. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "respect": [
+          "Your memory of this place matters. I want hard numbers.",
+          "Tell us what changed after the break. Efficiency without accountability is useless."
+        ],
+        "listen": [
+          "I am listening. I want hard numbers.",
+          "Take your time and start where it hurt first. Efficiency without accountability is useless."
+        ],
+        "farewell": [
+          "Thank you for your guidance. I want hard numbers.",
+          "We will return with better news. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "respect": [
+          "Your memory of this place matters. I want hard numbers.",
+          "Tell us what changed after the break. Efficiency without accountability is useless."
+        ],
+        "listen": [
+          "I am listening. I want hard numbers.",
+          "Take your time and start where it hurt first. Efficiency without accountability is useless."
+        ],
+        "farewell": [
+          "Thank you for your guidance. I want hard numbers.",
+          "We will return with better news. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "respect": [
+          "Your memory of this place matters. Keep your people calm while we work.",
+          "Tell us what changed after the break. Survival first, pride later."
+        ],
+        "listen": [
+          "I am listening. Keep your people calm while we work.",
+          "Take your time and start where it hurt first. Survival first, pride later."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep your people calm while we work.",
+          "We will return with better news. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "respect": [
+          "Your memory of this place matters. I can spot a lie at twenty paces.",
+          "Tell us what changed after the break. If there is a back door, tell me now."
+        ],
+        "listen": [
+          "I am listening. I can spot a lie at twenty paces.",
+          "Take your time and start where it hurt first. If there is a back door, tell me now."
+        ],
+        "farewell": [
+          "Thank you for your guidance. I can spot a lie at twenty paces.",
+          "We will return with better news. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "respect": [
+          "Your memory of this place matters. Keep it brief.",
+          "Tell us what changed after the break. Do not waste this window."
+        ],
+        "listen": [
+          "I am listening. Keep it brief.",
+          "Take your time and start where it hurt first. Do not waste this window."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep it brief.",
+          "We will return with better news. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "respect": [
+          "Your memory of this place matters. Keep it brief.",
+          "Tell us what changed after the break. Do not waste this window."
+        ],
+        "listen": [
+          "I am listening. Keep it brief.",
+          "Take your time and start where it hurt first. Do not waste this window."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep it brief.",
+          "We will return with better news. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "respect": [
+          "Your memory of this place matters. Speak clearly.",
+          "Tell us what changed after the break. I do not miss warnings twice."
+        ],
+        "listen": [
+          "I am listening. Speak clearly.",
+          "Take your time and start where it hurt first. I do not miss warnings twice."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Speak clearly.",
+          "We will return with better news. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "respect": [
+          "Your memory of this place matters. Speak clearly.",
+          "Tell us what changed after the break. I do not miss warnings twice."
+        ],
+        "listen": [
+          "I am listening. Speak clearly.",
+          "Take your time and start where it hurt first. I do not miss warnings twice."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Speak clearly.",
+          "We will return with better news. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "respect": [
+          "Your memory of this place matters. Keep your people calm while we work.",
+          "Tell us what changed after the break. Survival first, pride later."
+        ],
+        "listen": [
+          "I am listening. Keep your people calm while we work.",
+          "Take your time and start where it hurt first. Survival first, pride later."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep your people calm while we work.",
+          "We will return with better news. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "respect": [
+          "Your memory of this place matters. Speak clearly.",
+          "Tell us what changed after the break. I do not miss warnings twice."
+        ],
+        "listen": [
+          "I am listening. Speak clearly.",
+          "Take your time and start where it hurt first. I do not miss warnings twice."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Speak clearly.",
+          "We will return with better news. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "respect": [
+          "Your memory of this place matters. Keep your people calm while we work.",
+          "Tell us what changed after the break. Survival first, pride later."
+        ],
+        "listen": [
+          "I am listening. Keep your people calm while we work.",
+          "Take your time and start where it hurt first. Survival first, pride later."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep your people calm while we work.",
+          "We will return with better news. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "respect": [
+          "Your memory of this place matters. Keep it brief.",
+          "Tell us what changed after the break. Do not waste this window."
+        ],
+        "listen": [
+          "I am listening. Keep it brief.",
+          "Take your time and start where it hurt first. Do not waste this window."
+        ],
+        "farewell": [
+          "Thank you for your guidance. Keep it brief.",
+          "We will return with better news. Do not waste this window."
+        ]
+      }
+    },
+    "mystic": {
+      "kade": {
+        "consult": [
+          "Tell me what your readings show. Keep it brief.",
+          "I will compare it with terminal telemetry. Do not waste this window."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep it brief.",
+          "We act before the seam opens wider. Do not waste this window."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep it brief.",
+          "If you have proof, show it now. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "consult": [
+          "Tell me what your readings show. I want hard numbers.",
+          "I will compare it with terminal telemetry. Efficiency without accountability is useless."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. I want hard numbers.",
+          "We act before the seam opens wider. Efficiency without accountability is useless."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. I want hard numbers.",
+          "If you have proof, show it now. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "consult": [
+          "Tell me what your readings show. I want hard numbers.",
+          "I will compare it with terminal telemetry. Efficiency without accountability is useless."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. I want hard numbers.",
+          "We act before the seam opens wider. Efficiency without accountability is useless."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. I want hard numbers.",
+          "If you have proof, show it now. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "consult": [
+          "Tell me what your readings show. Keep your people calm while we work.",
+          "I will compare it with terminal telemetry. Survival first, pride later."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep your people calm while we work.",
+          "We act before the seam opens wider. Survival first, pride later."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep your people calm while we work.",
+          "If you have proof, show it now. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "consult": [
+          "Tell me what your readings show. I can spot a lie at twenty paces.",
+          "I will compare it with terminal telemetry. If there is a back door, tell me now."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. I can spot a lie at twenty paces.",
+          "We act before the seam opens wider. If there is a back door, tell me now."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. I can spot a lie at twenty paces.",
+          "If you have proof, show it now. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "consult": [
+          "Tell me what your readings show. Keep it brief.",
+          "I will compare it with terminal telemetry. Do not waste this window."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep it brief.",
+          "We act before the seam opens wider. Do not waste this window."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep it brief.",
+          "If you have proof, show it now. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "consult": [
+          "Tell me what your readings show. Keep it brief.",
+          "I will compare it with terminal telemetry. Do not waste this window."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep it brief.",
+          "We act before the seam opens wider. Do not waste this window."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep it brief.",
+          "If you have proof, show it now. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "consult": [
+          "Tell me what your readings show. Speak clearly.",
+          "I will compare it with terminal telemetry. I do not miss warnings twice."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Speak clearly.",
+          "We act before the seam opens wider. I do not miss warnings twice."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Speak clearly.",
+          "If you have proof, show it now. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "consult": [
+          "Tell me what your readings show. Speak clearly.",
+          "I will compare it with terminal telemetry. I do not miss warnings twice."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Speak clearly.",
+          "We act before the seam opens wider. I do not miss warnings twice."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Speak clearly.",
+          "If you have proof, show it now. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "consult": [
+          "Tell me what your readings show. Keep your people calm while we work.",
+          "I will compare it with terminal telemetry. Survival first, pride later."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep your people calm while we work.",
+          "We act before the seam opens wider. Survival first, pride later."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep your people calm while we work.",
+          "If you have proof, show it now. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "consult": [
+          "Tell me what your readings show. Speak clearly.",
+          "I will compare it with terminal telemetry. I do not miss warnings twice."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Speak clearly.",
+          "We act before the seam opens wider. I do not miss warnings twice."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Speak clearly.",
+          "If you have proof, show it now. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "consult": [
+          "Tell me what your readings show. Keep your people calm while we work.",
+          "I will compare it with terminal telemetry. Survival first, pride later."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep your people calm while we work.",
+          "We act before the seam opens wider. Survival first, pride later."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep your people calm while we work.",
+          "If you have proof, show it now. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "consult": [
+          "Tell me what your readings show. Keep it brief.",
+          "I will compare it with terminal telemetry. Do not waste this window."
+        ],
+        "omen_accept": [
+          "Your warning aligns with what we are seeing. Keep it brief.",
+          "We act before the seam opens wider. Do not waste this window."
+        ],
+        "omen_doubt": [
+          "I need evidence before I commit people. Keep it brief.",
+          "If you have proof, show it now. Do not waste this window."
+        ]
+      }
+    },
+    "noble": {
+      "kade": {
+        "formal_greeting": [
+          "State your request plainly. Keep it brief.",
+          "Titles do not outrank survival here. Do not waste this window."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep it brief.",
+          "No hidden clauses and no hostage leverage. Do not waste this window."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep it brief.",
+          "Coercion ends this conversation. Do not waste this window."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep it brief.",
+          "Confess and cooperate or be removed. Do not waste this window."
+        ]
+      },
+      "nix7": {
+        "formal_greeting": [
+          "State your request plainly. I want hard numbers.",
+          "Titles do not outrank survival here. Efficiency without accountability is useless."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. I want hard numbers.",
+          "No hidden clauses and no hostage leverage. Efficiency without accountability is useless."
+        ],
+        "refuse_demand": [
+          "Demand denied. I want hard numbers.",
+          "Coercion ends this conversation. Efficiency without accountability is useless."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. I want hard numbers.",
+          "Confess and cooperate or be removed. Efficiency without accountability is useless."
+        ]
+      },
+      "renna": {
+        "formal_greeting": [
+          "State your request plainly. I want hard numbers.",
+          "Titles do not outrank survival here. Efficiency without accountability is useless."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. I want hard numbers.",
+          "No hidden clauses and no hostage leverage. Efficiency without accountability is useless."
+        ],
+        "refuse_demand": [
+          "Demand denied. I want hard numbers.",
+          "Coercion ends this conversation. Efficiency without accountability is useless."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. I want hard numbers.",
+          "Confess and cooperate or be removed. Efficiency without accountability is useless."
+        ]
+      },
+      "suresh": {
+        "formal_greeting": [
+          "State your request plainly. Keep your people calm while we work.",
+          "Titles do not outrank survival here. Survival first, pride later."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep your people calm while we work.",
+          "No hidden clauses and no hostage leverage. Survival first, pride later."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep your people calm while we work.",
+          "Coercion ends this conversation. Survival first, pride later."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep your people calm while we work.",
+          "Confess and cooperate or be removed. Survival first, pride later."
+        ]
+      },
+      "twist": {
+        "formal_greeting": [
+          "State your request plainly. I can spot a lie at twenty paces.",
+          "Titles do not outrank survival here. If there is a back door, tell me now."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. I can spot a lie at twenty paces.",
+          "No hidden clauses and no hostage leverage. If there is a back door, tell me now."
+        ],
+        "refuse_demand": [
+          "Demand denied. I can spot a lie at twenty paces.",
+          "Coercion ends this conversation. If there is a back door, tell me now."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. I can spot a lie at twenty paces.",
+          "Confess and cooperate or be removed. If there is a back door, tell me now."
+        ]
+      },
+      "sova": {
+        "formal_greeting": [
+          "State your request plainly. Keep it brief.",
+          "Titles do not outrank survival here. Do not waste this window."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep it brief.",
+          "No hidden clauses and no hostage leverage. Do not waste this window."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep it brief.",
+          "Coercion ends this conversation. Do not waste this window."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep it brief.",
+          "Confess and cooperate or be removed. Do not waste this window."
+        ]
+      },
+      "grit": {
+        "formal_greeting": [
+          "State your request plainly. Keep it brief.",
+          "Titles do not outrank survival here. Do not waste this window."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep it brief.",
+          "No hidden clauses and no hostage leverage. Do not waste this window."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep it brief.",
+          "Coercion ends this conversation. Do not waste this window."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep it brief.",
+          "Confess and cooperate or be removed. Do not waste this window."
+        ]
+      },
+      "ashka": {
+        "formal_greeting": [
+          "State your request plainly. Speak clearly.",
+          "Titles do not outrank survival here. I do not miss warnings twice."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Speak clearly.",
+          "No hidden clauses and no hostage leverage. I do not miss warnings twice."
+        ],
+        "refuse_demand": [
+          "Demand denied. Speak clearly.",
+          "Coercion ends this conversation. I do not miss warnings twice."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Speak clearly.",
+          "Confess and cooperate or be removed. I do not miss warnings twice."
+        ]
+      },
+      "senna": {
+        "formal_greeting": [
+          "State your request plainly. Speak clearly.",
+          "Titles do not outrank survival here. I do not miss warnings twice."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Speak clearly.",
+          "No hidden clauses and no hostage leverage. I do not miss warnings twice."
+        ],
+        "refuse_demand": [
+          "Demand denied. Speak clearly.",
+          "Coercion ends this conversation. I do not miss warnings twice."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Speak clearly.",
+          "Confess and cooperate or be removed. I do not miss warnings twice."
+        ]
+      },
+      "callum": {
+        "formal_greeting": [
+          "State your request plainly. Keep your people calm while we work.",
+          "Titles do not outrank survival here. Survival first, pride later."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep your people calm while we work.",
+          "No hidden clauses and no hostage leverage. Survival first, pride later."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep your people calm while we work.",
+          "Coercion ends this conversation. Survival first, pride later."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep your people calm while we work.",
+          "Confess and cooperate or be removed. Survival first, pride later."
+        ]
+      },
+      "petra": {
+        "formal_greeting": [
+          "State your request plainly. Speak clearly.",
+          "Titles do not outrank survival here. I do not miss warnings twice."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Speak clearly.",
+          "No hidden clauses and no hostage leverage. I do not miss warnings twice."
+        ],
+        "refuse_demand": [
+          "Demand denied. Speak clearly.",
+          "Coercion ends this conversation. I do not miss warnings twice."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Speak clearly.",
+          "Confess and cooperate or be removed. I do not miss warnings twice."
+        ]
+      },
+      "vex": {
+        "formal_greeting": [
+          "State your request plainly. Keep your people calm while we work.",
+          "Titles do not outrank survival here. Survival first, pride later."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep your people calm while we work.",
+          "No hidden clauses and no hostage leverage. Survival first, pride later."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep your people calm while we work.",
+          "Coercion ends this conversation. Survival first, pride later."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep your people calm while we work.",
+          "Confess and cooperate or be removed. Survival first, pride later."
+        ]
+      },
+      "korr": {
+        "formal_greeting": [
+          "State your request plainly. Keep it brief.",
+          "Titles do not outrank survival here. Do not waste this window."
+        ],
+        "negotiate": [
+          "We can negotiate if civilians are protected. Keep it brief.",
+          "No hidden clauses and no hostage leverage. Do not waste this window."
+        ],
+        "refuse_demand": [
+          "Demand denied. Keep it brief.",
+          "Coercion ends this conversation. Do not waste this window."
+        ],
+        "challenge_corruption": [
+          "If you profited from the break, it ends now. Keep it brief.",
+          "Confess and cooperate or be removed. Do not waste this window."
+        ]
+      }
+    }
+  }
+}

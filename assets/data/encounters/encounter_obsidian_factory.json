@@ -1,0 +1,78 @@
+{
+  "id": "OBSIDIAN_FACTORY_ENCOUNTERS",
+  "region": "obsidian",
+  "maps": [
+    "MIC_R08_72x40",
+    "D6_FACTORY_OF_SOULS_96x80"
+  ],
+  "encounter_rate": 0.09,
+  "min_steps": 13,
+  "max_steps": 28,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_QUARRY_BRUTE"
+      ],
+      "weight": 36,
+      "min_steps": 12,
+      "gil_range": [
+        40,
+        68
+      ],
+      "xp": 72
+    },
+    {
+      "enemies": [
+        "ENEMY_LAVA_HAZARD_UNIT"
+      ],
+      "weight": 32,
+      "min_steps": 13,
+      "gil_range": [
+        36,
+        60
+      ],
+      "xp": 66
+    },
+    {
+      "enemies": [
+        "ENEMY_QUARRY_BRUTE",
+        "ENEMY_LAVA_HAZARD_UNIT"
+      ],
+      "weight": 16,
+      "min_steps": 18,
+      "gil_range": [
+        76,
+        132
+      ],
+      "xp": 138
+    },
+    {
+      "enemies": [
+        "ENEMY_LAVA_HAZARD_UNIT",
+        "ENEMY_LAVA_HAZARD_UNIT"
+      ],
+      "weight": 10,
+      "min_steps": 21,
+      "rare": true,
+      "gil_range": [
+        70,
+        124
+      ],
+      "xp": 132
+    },
+    {
+      "enemies": [
+        "ENEMY_QUARRY_BRUTE",
+        "ENEMY_QUARRY_BRUTE"
+      ],
+      "weight": 5,
+      "min_steps": 24,
+      "rare": true,
+      "gil_range": [
+        82,
+        142
+      ],
+      "xp": 142
+    }
+  ]
+}

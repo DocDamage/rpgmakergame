@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_historical_preservation",
+  "name": "Guardians of History",
+  "zone": "chrono",
+  "giver": "coolcat_black",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Time raiders! They're attacking key moments in history, trying to change the past! If they succeed, our present could cease to exist! The Temporal Guard needs agents to defend crucial historical events! Will you guard the timeline, meow?",
+      "objective": "Travel to a key historical moment and defend it from time raiders"
+    },
+    "progress": {
+      "dialog": "The raiders are here at the First Alliance! They're trying to prevent the founding of Chroma! Stop them without being seen by historical figures—if we're noticed, we become part of history and can't return home!",
+      "objective": "Defeat the time raiders without alerting the historical figures"
+    },
+    "complete": {
+      "dialog": "History proceeds unchanged! The First Alliance forms! The timeline is secure! The Temporal Guard inducts you as an honorary Time Warden! Here's your Temporal Warden's Badge! It grants access to restricted historical archives!",
+      "rewards": {
+        "exp": 1000,
+        "gold": 900,
+        "item": "temporal_wardens_badge"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I fought invisibly through history! I saw the First Alliance form!",
+    "twist": "I nearly got spotted by my own ancestor. Awkward.",
+    "nix7": "Historical preservation: successful. Timeline contamination: minimal."
+  }
+}

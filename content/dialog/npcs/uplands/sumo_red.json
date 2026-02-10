@@ -1,0 +1,95 @@
+{
+  "npc_id": "sumo_red_uplands",
+  "name": "Katsu",
+  "sprite": "sumo_red",
+  "zone": "uplands",
+  "location": "Training Grounds",
+  "personality": "enthusiastic_teacher",
+  "occupation": "training_master",
+  "dialog": {
+    "greeting": [
+      "HA! New students! Or victims! Same thing!",
+      "Katsu! Training master! You look WEAK!",
+      "Strong enough to climb here? Good start!",
+      "The mountain builds strength! So do I!",
+      "Hashimoto teaches stillness! I teach MOVEMENT!",
+      "Ready to SWEAT? Ready to GROW?",
+      "*slaps ground* TRAINING TIME!"
+    ],
+    "shop_open": "Training regimens! Workouts! Protein recommendations!",
+    "shop_prompt": "Exercise plans. Strength techniques. Mountain drills!",
+    "haggle": [
+      "Strength has no price! But I have BILLS!",
+      "Discount? Only if you do BURPEES!",
+      "Special rate! For enthusiastic students!",
+      "You drive bargain? Good! Strong negotiating!"
+    ],
+    "purchase_success": [
+      "Excellent! BEGIN IMMEDIATELY!",
+      "Smart choice! You will thank me! Eventually!",
+      "The mountain approves! So does Katsu!",
+      "Good! Now DROP AND GIVE ME TWENTY!"
+    ],
+    "purchase_fail": [
+      "Too expensive? TOO WEAK! Come back STRONGER!",
+      "No effort, no gain! Universal rule!",
+      "Training requires COMMITMENT!"
+    ],
+    "rumor": [
+      "Hashimoto was my STUDENT! Now rival! Friendly rival!",
+      "The twins work out TOGETHER! Synchronized gains!",
+      "The flute player? NEVER EXERCISES! Explains everything!",
+      "The pig innkeeper? SECRETLY RIPPED! Under the apron!"
+    ],
+    "quest_hook": "Need training DUMMIES! Stolen by mountain goats! SMART goats! Retrieve them! Earn my RESPECT! And techniques!",
+    "quest_active": "Mountain goats! Clever thieves! Dummy retrieval NOW!",
+    "quest_complete": "MY DUMMIES! You fought goats! VICTORIOUS! Here! CHARGING BULL technique! Unstoppable!",
+    "quest_reward": "Charging Bull Technique - Offensive Charge Move",
+    "farewell": [
+      "Train HARD! Rest HARDER!",
+      "Return STRONGER! Or don't return!",
+      "The mountain is your GYM!"
+    ],
+    "ambient_barks": [
+      "PUSH!",
+      "*training montage energy*",
+      "FEEL THE BURN!",
+      "STRONGER!",
+      "*intense encouragement*",
+      "NO EXCUSES!"
+    ],
+    "time_dawn": "Morning training! Best energy! RISE AND GRIND!",
+    "time_noon": "Peak heat! TOUGHNESS training! Endure!",
+    "time_dusk": "Evening cool-down! STRETCH! IMPORTANT!",
+    "time_night": "Night recovery! Sleep builds MUSCLE!",
+    "post_quest_greeting": "Goat-fighter! Proven STRONG! Ready for advanced training?"
+  },
+  "party_reactions": {
+    "kade": "Okay, that's... a lot of enthusiasm.",
+    "nix7": "Physical training protocols: recognized. Volume: excessive.",
+    "twist": "Can I lift things TOO? I'm STRONG! Look!",
+    "korr": "Discipline in movement. Valuable.",
+    "renna": "Does he ever use his indoor voice? No?"
+  },
+  "relationship_dialog": {
+    "stranger": "New recruit! UNTESTED!",
+    "acquaintance": "Returning student! SHOWING PROGRESS!",
+    "friend": "Dedicated athlete! TRUSTED!",
+    "best_friend": "Training PARTNER! EQUAL! RARE!"
+  },
+  "mini_quest": {
+    "id": "goat_dummy_rescue",
+    "title": "Goat Games",
+    "description": "Retrieve Katsu's stolen training dummies from mountain goats",
+    "stages": {
+      "hook": "Training DUMMIES stolen! By mountain goats! SMART goats! Retrieve! Earn RESPECT and TECHNIQUES!",
+      "active": "Mountain goats! Clever! Fast! Retrieve dummies! Don't hurt goats! Too much!",
+      "complete": "MY DUMMIES! You fought goats! WON! Here - CHARGING BULL technique! Unstoppable offense! Practice! PRACTICE!"
+    },
+    "reward": {
+      "item": "charging_bull_technique",
+      "gold": 300,
+      "reputation": "training_partner"
+    }
+  }
+}

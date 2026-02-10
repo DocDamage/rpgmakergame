@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_dragon_scale",
+  "name": "Scales of the Inferno Wyrm",
+  "zone": "ember",
+  "giver": "tunneler_red",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "An Inferno Wyrm has been spotted near the Magma Flats! These dragons shed scales that are worth a fortune to smiths. But the beast is territorial and dangerous. If you're brave enough to sneak close and grab a fallen scale... well, the reward would be substantial!",
+      "objective": "Find and retrieve a shed scale from the Inferno Wyrm's territory"
+    },
+    "progress": {
+      "dialog": "You found a scale! But the Wyrm noticed you! Quick, escape its territory without fighting—it would destroy you! Use the steam vents for cover and run!",
+      "objective": "Escape the Inferno Wyrm's territory without being caught"
+    },
+    "complete": {
+      "dialog": "You actually got one! And lived! This scale will make armor that could withstand dragonfire! Here's your payment—and I've arranged for a master smith to craft you Wyrmscale Boots for free!",
+      "rewards": {
+        "exp": 1100,
+        "gold": 900,
+        "item": "wyrmscale_boots"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I looked that dragon in the eye and lived to tell about it!",
+    "twist": "My heart is still pounding. That was too close!",
+    "nix7": "Dragon threat assessment: maximum. Evasion protocol: successful."
+  }
+}

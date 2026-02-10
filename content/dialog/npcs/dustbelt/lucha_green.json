@@ -1,0 +1,96 @@
+{
+  "npc_id": "lucha_green_dustbelt",
+  "name": "El Verde",
+  "sprite": "lucha_green",
+  "zone": "dustbelt",
+  "location": "Old Arena Ruins",
+  "personality": "melancholic_retired",
+  "occupation": "retired_luchador",
+  "dialog": {
+    "greeting": [
+      "...Oh. Visitors. To the ruins.",
+      "Once, crowds cheered here. Now? Sand.",
+      "El Verde. I wrestled. I lost. I live.",
+      "The mask stays on. Don't ask why.",
+      "You want stories? I have stories. Most end with me losing.",
+      "El Scorcho rules now. As it should be.",
+      "Come to see where legends fell? Welcome."
+    ],
+    "shop_open": "Selling old gear. Mementos. Pieces of a life that was.",
+    "shop_prompt": "Autographed masks. Broken championship belts. My dignity. Cheap.",
+    "haggle": [
+      "Price? Whatever. Nothing's worth what it was.",
+      "Fine. Less. Take it.",
+      "For a fellow fighter? Free. You're not a fighter? Still free.",
+      "Memories fade. Prices too."
+    ],
+    "purchase_success": [
+      "Treat it better than I did.",
+      "Yours now. Good luck.",
+      "It served me once. May it serve you.",
+      "Sold. Another piece gone."
+    ],
+    "purchase_fail": [
+      "Changed your mind? Wise. Keep it.",
+      "Some things shouldn't be sold. Maybe this.",
+      "No matter. It stays with me."
+    ],
+    "rumor": [
+      "El Scorcho? He was my student. Now he's the master. Circle of life.",
+      "The arena had real magic once. Before my time. Before the fall.",
+      "Barrelman Bob wrestled barrels before my first match. True story.",
+      "Deep-Dig Dan wants to wrestle a sand wyrm. Told him I'd referee."
+    ],
+    "quest_hook": "Lost my final mask. The green one. Fell in the Scorched Wastes during... an incident. Bring it back? It's all I have left of the glory days.",
+    "quest_active": "The green mask. Somewhere in the wastes. Please.",
+    "quest_complete": "You found it. You actually... thank you. Here. My real championship belt. The one that mattered.",
+    "quest_reward": "Verde's True Belt - +Defense, +Pride",
+    "farewell": [
+      "Fight well. Lose with grace.",
+      "The mask is heavy. You'll learn.",
+      "Return if you need... perspective."
+    ],
+    "ambient_barks": [
+      "Once...",
+      "The crowd...",
+      "El Scorcho...",
+      "My back...",
+      "The glory days...",
+      "The fall..."
+    ],
+    "time_dawn": "Morning practice. Old habits.",
+    "time_noon": "Hot. Like the lights used to be.",
+    "time_dusk": "Evening matches were best. Atmosphere.",
+    "time_night": "The arena ghosts wrestle at night. I hear them.",
+    "post_quest_greeting": "The mask-finder. My debt is eternal.",
+    "lament": "Three-time champion. Then the knee. Then the fall. Then the sand."
+  },
+  "party_reactions": {
+    "kade": "Sad story. Hope he finds peace.",
+    "nix7": "Athletic career: terminated. Emotional damage: significant.",
+    "twist": "Did you REALLY jump off the top rope? WOW!",
+    "korr": "Honor in defeat. Respect.",
+    "renna": "The tragedy of lost glory. Poetic."
+  },
+  "relationship_dialog": {
+    "stranger": "New face. In the ruins. Why?",
+    "acquaintance": "You return. To hear more? Or pity?",
+    "friend": "A true listener. Rare. Valued.",
+    "best_friend": "You understand loss. True loss. We're kin, you and I."
+  },
+  "mini_quest": {
+    "id": "lost_verde_mask",
+    "title": "The Fallen Mask",
+    "description": "Retrieve El Verde's lost wrestling mask from the Scorched Wastes",
+    "stages": {
+      "hook": "Lost my final mask in the wastes. During an... incident. Bring it back? All I have of the glory days.",
+      "active": "Scorched Wastes. Near the old dune field. Green mask. Can't miss it.",
+      "complete": "You found it. My... thank you. Take this. My real championship belt. The one that mattered. Before the show belts."
+    },
+    "reward": {
+      "item": "verde_true_belt",
+      "gold": 300,
+      "reputation": "lucha_brotherhood"
+    }
+  }
+}

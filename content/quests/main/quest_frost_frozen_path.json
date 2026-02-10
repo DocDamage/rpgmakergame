@@ -1,0 +1,145 @@
+{
+  "quest_id": "frost_frozen_path",
+  "name": "The Frozen Path",
+  "zone": "frost",
+  "act": 3,
+  "prerequisites": [
+    "obsidian_gears_industry"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Howling White",
+      "description": "Cross the frost barrier to reach the frozen lands",
+      "npc": "polar_guide_blizzard",
+      "dialog_start": "Turn back. No one crosses the Frost Barrier and returns. The storms are alive, they say—hungry spirits of ice that devour warmth. I'm Blizzard, and I've guided thirty expeditions into the white. Three returned. But you... you carry the fire of Crystals. Maybe... maybe you're the thirty-first that makes it four.",
+      "objectives": [
+        "Survive the frost barrier crossing",
+        "Rescue stranded expedition members",
+        "Reach the Frosthold settlements"
+      ],
+      "dialog_complete": "You did it! You actually made it through the Howling! The Frosthold is just ahead—last bastion of civilization before the true deep freeze. But don't expect a warm welcome. The Frostfolk don't trust outsiders. Haven't for generations. You'll need to prove yourself.",
+      "rewards": {
+        "exp": 1200,
+        "item": "blizzard_companion_unlocked"
+      },
+      "target_location_id": "MIC_R12_112x56"
+    },
+    {
+      "stage": 2,
+      "name": "The Frozen Court",
+      "description": "Gain the trust of the Frosthold leadership",
+      "npc": "thane_iceheart",
+      "dialog_start": "Outsiders. In my hall. With Crystals blazing like beacons. You bring trouble, don't you? Trouble and war. We left that world behind when we retreated to the ice. Now you want to drag us back? Give me one good reason why I shouldn't have you thrown into the glacier.",
+      "objectives": [
+        "Survive Thane Iceheart's interrogation",
+        "Prove the Void threatens even Frost",
+        "Offer alliance terms"
+      ],
+      "dialog_complete": "The Void reaches even here? I thought the cold would protect us. Foolish old man. Very well, outsider—you have my attention. The Crystal of Endurance lies in the Spire of Frozen Eternity, guarded by the Frost Wardens. But they answer only to strength. Show them you can survive what they survived, and they may listen.",
+      "rewards": {
+        "exp": 1300,
+        "item": "frosthold_guest_right"
+      },
+      "target_location_id": "T_RIMEHOLD_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "Spire of Frozen Eternity",
+      "description": "Climb the ancient ice tower and face the Frost Wardens",
+      "npc": "frost_warden_glacius",
+      "dialog_start": "[A voice like cracking ice and ancient winds] climbers. Seekers. Fools. We are the Frost Wardens, survivors of the Shattering, guardians of Endurance. You want the Crystal? Then endure what we endured. The cold that stops hearts. The isolation that breaks minds. Climb. Survive. Or join the others in the ice.",
+      "objectives": [
+        "Climb the Spire of Frozen Eternity",
+        "Survive the Wardens' trials",
+        "Prove worthy of Endurance"
+      ],
+      "dialog_complete": "[Respect enters the ancient voice] You climb well. Fight well. ENDURE well. The last to reach this chamber was... before my memory fades. A Progenitor, I think. Or a memory of one. You are worthy. The Crystal of Endurance is yours. May it sustain you through the dark to come.",
+      "rewards": {
+        "exp": 1800,
+        "item": "crystal_of_endurance"
+      },
+      "target_location_id": "D7_SPIRE_OF_ETERNITY_80x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Warmth Within",
+      "description": "Help a Frostfolk village survive a Void-touched blizzard",
+      "npc": "village_healer_spring",
+      "dialog_start": "The Wardens gave you the Crystal? Impossible... unless you truly are the one. But gifts mean nothing if you won't use them! Our sister village—Whitehollow—is caught in a blizzard that's NOT natural. The wind howls with voices. Violet lightning in the snow. It's the Void, isn't it? Please—save them!",
+      "objectives": [
+        "Reach Whitehollow village",
+        "Use the Crystals to break the Void storm",
+        "Protect the villagers"
+      ],
+      "dialog_complete": "You walked into a Void storm and came out with survivors! The Crystal of Endurance—it doesn't just help you survive. It helps you protect others. That's... that's what we've been missing. We thought endurance meant standing alone. But it's standing together, isn't it?",
+      "rewards": {
+        "exp": 1600,
+        "item": "frostfolk_friendship_token"
+      },
+      "target_location_id": "D7_FROZEN_96x96"
+    },
+    {
+      "stage": 5,
+      "name": "Echoes of the Before",
+      "description": "Discover an ancient Progenitor outpost in the deep ice",
+      "npc": "blizzard",
+      "dialog_start": "While you were saving Whitehollow, my scouts found something. Deep in the glacier—something OLD. Metal that doesn't rust, lights that still glow after ten thousand years. Progenitor ruins, Kade. And there's writing. Records. If we can translate them... we might learn what really happened. Why the Void was created.",
+      "objectives": [
+        "Excavate the Progenitor outpost",
+        "Decipher the ancient records",
+        "Learn the truth of the Shattering"
+      ],
+      "dialog_complete": "[Ancient recording plays] 'We created the Void to save Chroma from a greater threat. But we made it too strong. Too hungry. We are sealing it away, but the seal will not last forever. To whoever finds this: we are sorry. Sorry for the burden we leave you. Stop the Void. Not with hate—with understanding.'",
+      "rewards": {
+        "exp": 1700,
+        "item": "progenitor_apology_record"
+      },
+      "target_location_id": "D_ARCHIVE_112x96"
+    },
+    {
+      "stage": 6,
+      "name": "Chrono Anomalies",
+      "description": "Learn of the Crystal of Time in the temporal wasteland",
+      "npc": "thane_iceheart",
+      "dialog_start": "Five Crystals. You move faster than anyone expected. The Void knows this too—it will escalate. The next Crystal is in Chrono, and that's... concerning. Time doesn't flow right there. Never has. The Crystal of Time keeps Chroma's moments moving forward. If the Void takes it... time itself might end.",
+      "objectives": [
+        "Study the route to Chrono",
+        "Receive Frosthold's warriors",
+        "Prepare for temporal weirdness"
+      ],
+      "dialog_complete": "My best warriors go with you. The Frostfolk endure. It's what we do. But more than warriors—we give you our hope. For generations, we thought the world beyond the ice was lost to darkness. You proved us wrong. Go save time itself, hero. We'll keep the home fires burning. Figuratively.",
+      "rewards": {
+        "exp": 1800,
+        "gold": 1200,
+        "unlock": "zone_chrono"
+      },
+      "target_location_id": "MIC_R14_128x56"
+    }
+  ],
+  "story_beats": [
+    "The Frost Barrier has protected the Frostfolk but isolated them from the world",
+    "The party proves themselves to the Frost Wardens through endurance",
+    "The Crystal of Endurance is obtained—the fifth of Seven",
+    "Ancient Progenitor records reveal the Void was created to fight a greater threat",
+    "The Crystal of Time in Chrono is identified as critical to reality itself"
+  ],
+  "party_reactions": {
+    "kade": "The Progenitors created the Void to SAVE us? From what? What could be worse than the Void? I'm starting to think we're just cleaning up someone else's mess. But... they said to stop it with understanding, not hate. That's important. That's different from how I thought we had to fight.",
+    "nix7": "Temporal mechanics are... challenging for my processing. If the Crystal of Time fails, causality itself becomes unstable. Past, present, future—all happening simultaneously. Existence would become a static image. Forever. I do not want to be a static image.",
+    "skysong": "Blizzard knows every inch of the frozen wastes. Reminds me of me with the skies. We've been trading stories. Did you know there are fish that freeze solid in winter and thaw alive in spring? Nature's weird and wonderful. I like this zone. Cold, but honest.",
+    "vesper": "The Progenitor records! Actual firsthand accounts! I'm going to need MONTHS to analyze—what do you mean we don't have months? Fine, fine, executive summary: The Progenitors were scared. Really scared. Of something they never named. They thought the Void was the lesser evil. I want to know what scared godlike beings.",
+    "ven": "I saw my breath freeze in the air today. Actually freeze, into little crystals. It was beautiful. The Frostfolk taught me to ice-fish. I caught something with three eyes that talked. We had a nice conversation about the weather. Then I put it back. I love this place.",
+    "pyra": "Five Crystals. We're over halfway there. The Flame of Strength burns brighter with each one we gather. I can feel them... harmonizing. Connecting. When we have all seven, the power will be incredible. We just have to survive long enough to use it.",
+    "abyssal": "The cold preserves. In my depths, things rot. Here, they simply... wait. I found memories in the ice—echoes of the Shattering. The world screaming as it broke. I will carry those memories. Someone should remember.",
+    "gearhart": "Progenitor engineering in the outpost... it's beyond anything I imagined. Self-repairing systems, zero-point energy, materials science that makes our best alloys look like tin. They were gods. And even they were afraid. I need to upgrade my equipment. Quickly.",
+    "blizzard": "I spent my whole life guiding people to their deaths in the white. First time I've guided someone TO something. Feels strange. Good strange. Kade's different. They care about the dead, not just the destination. I think I'll stick around. See where this thaw leads."
+  },
+  "unlocks": [
+    "zone_chrono",
+    "quest_chrono_against_time",
+    "crystal_endurance_ability",
+    "companion_blizzard",
+    "frosthold_alliance"
+  ]
+}

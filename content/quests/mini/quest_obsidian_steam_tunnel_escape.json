@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_steam_tunnel_escape",
+  "name": "Pressure and Time",
+  "zone": "obsidian",
+  "giver": "coolcat_industrial",
+  "type": "puzzle",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The steam tunnels are a maze beneath Obsidian—used for maintenance, but they're collapsing! My friend is trapped down there, and the pressure valves are stuck! If someone doesn't navigate the maze and release the pressure, he'll be cooked alive!",
+      "objective": "Navigate the steam tunnel maze to reach the trapped worker"
+    },
+    "progress": {
+      "dialog": "You found him! But the main release valve is rusted shut! Solve the pressure puzzle—release steam in the right order, or the whole tunnel explodes! The pressure gauges show the sequence!",
+      "objective": "Solve the pressure valve puzzle to release the trapped steam"
+    },
+    "complete": {
+      "dialog": "The pressure is released! My friend is safe! The Steam Workers Guild honors you as a hero! Take this Pressure-Resistant Suit—it protects against heat, steam, and pressure damage!",
+      "rewards": {
+        "exp": 800,
+        "gold": 600,
+        "item": "pressure_resistant_suit"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Solving puzzles while sweating buckets. Intense!",
+    "twist": "The heat was worse than the pressure. I'm going to faint.",
+    "nix7": "Pressure dynamics: calculated. Rescue: successful."
+  }
+}

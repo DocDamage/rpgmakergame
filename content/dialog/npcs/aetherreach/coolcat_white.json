@@ -1,0 +1,102 @@
+{
+  "npc_id": "coolcat_white_aetherreach",
+  "name": "Snowflake J. Cool",
+  "sprite": "coolcat_white",
+  "zone": "aetherreach",
+  "location": "Cloud-Top Lounge",
+  "personality": "smooth_jazzy",
+  "occupation": "lounge_singer",
+  "dialog": {
+    "greeting": [
+      "*smooth jazz noises* Welcome to the Lounge, baby.",
+      "Snowflake J. Cool, at your service. Take a seat. Relax.",
+      "The vibes are smooth tonight. You dig?",
+      "Welcome to cloud level, friend. Where the air is thin and the music is thick.",
+      "Heard you coming. The door squeaks. I don't mind. Adds character.",
+      "Take a load off. The Lounge is for everyone... especially the cool cats.",
+      "You look like you need a melody. Or a drink. I got both."
+    ],
+    "performance_offer": "Tonight's set: Midnight in Aetherreach, Balloons at Dusk, and my classic: Smooth Sailing. Requests? Maybe.",
+    "drink_recommendation": "Try the Cloud-Nine Cooler. It's blue. Like the sky. Like my soul. But cold. Unlike my soul.",
+    "music_philosophy": "Music is like air up here. You need it to survive. Also: saxophones are underrated.",
+    "haggle": [
+      "My talent? Priceless. But I'll sing for fifty.",
+      "For a fellow vibe-enjoyer? Forty.",
+      "You drive a hard bargain. Thirty. And my respect.",
+      "Twenty. But you have to snap along. No exceptions."
+    ],
+    "purchase_success": [
+      "Sit back. Let Snowflake work his magic.",
+      "This one's for you. You know who you are.",
+      "Smooth sounds coming right up.",
+      "Let the jazz wash over you. Like a warm bath."
+    ],
+    "purchase_fail": [
+      "No bread, no beats. Harsh, but true.",
+      "Even jazz cats need to eat.",
+      "Come back when the wallet matches the vibe."
+    ],
+    "rumor": [
+      "The black cat plays street level. Good musician. Wrong vibe. Too... energetic.",
+      "Heard the twins singing harmony once. Creepy. Perfect pitch, though.",
+      "The conductor used to play trumpet. Gave it up for the train whistle. Tragic.",
+      "Something about the Remnant Vault kills all sound. Even smooth jazz. Unsettling.",
+      "The trenchcoat person requested 'Mystery Train' last week. Fitting."
+    ],
+    "quest_hook": "My sax needs reeds. The good kind. From Verdant's singing bamboo! Three reeds and I'll compose a song just for you. Custom.",
+    "quest_active": "Those singing bamboo reeds calling your name? I can hear them from here. In my mind.",
+    "quest_complete": "The tone! The resonance! Listen to that sweet, sweet music! Here's your song: 'The Traveler's Ballad.' Play it anywhere.",
+    "quest_reward": "The Traveler's Ballad - Custom song that boosts charm in dialogue!",
+    "farewell": [
+      "Stay smooth, friend.",
+      "The Lounge is always open. For the cool ones.",
+      "Keep it jazzy."
+    ],
+    "ambient_barks": [
+      "*smooth saxophone solo*",
+      "Feel the groove.",
+      "Cool cat in the house.",
+      "Jazz never dies.",
+      "Vibes. Pure vibes."
+    ],
+    "time_dawn": "Early set. For the sunrise crowd. Dedicated.",
+    "time_noon": "Afternoon jazz. Underrated time slot.",
+    "time_dusk": "Prime time. When the Lounge comes alive.",
+    "time_night": "Midnight set. My best work. The night owls know."
+  },
+  "party_reactions": {
+    "kade": "You're very... cool. I feel underdressed.",
+    "nix7": "Your thermal regulation garment provides no practical benefit.",
+    "twist": "You're COOL! I want to be cool like you!",
+    "korr": "The music soothes the spirit. Even a warrior's.",
+    "renna": "Jazz is... mathematically interesting. Improvisation within structure.",
+    "suresh": "Music transcends words. This... speaks.",
+    "sova": "Better than the silence of the hunt. Marginally.",
+    "grit": "Too smooth. Suspiciously smooth.",
+    "ashka": "Can you play something FASTER? With more FIRE?",
+    "senna": "You're so relaxed. How? Teach me.",
+    "callum": "This is wonderful! So calming! So... cool!",
+    "petra": "Solid music. Heavy bass. I approve."
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Welcome. Don't clap on the one and three.",
+    "acquaintance": "Back for more tunes? You got taste.",
+    "friend": "My regular! I save the good stuff for you.",
+    "best_friend": "You're like family. Musical family. Let's jam sometime."
+  },
+  "mini_quest": {
+    "id": "singing_bamboo_reeds",
+    "title": "Reed Request",
+    "description": "Collect Singing Bamboo Reeds from Verdant for Snowflake's sax",
+    "stages": {
+      "hook": "Need reeds. The singing kind. From Verdant. Three of them.",
+      "active": "Deep in Verdant's groves. The bamboo that hums. You'll know.",
+      "complete": "Listen to that tone! For you: The Traveler's Ballad."
+    },
+    "reward": {
+      "item": "travelers_ballad",
+      "gold": 280,
+      "reputation": "lounge_vip"
+    }
+  }
+}

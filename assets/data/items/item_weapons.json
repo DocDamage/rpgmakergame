@@ -1,0 +1,422 @@
+{
+  "id": "ITEM_WEAPONS",
+  "items": [
+    {
+      "id": "ITEM_IRON_SWORD",
+      "name": "Iron Sword",
+      "type": "weapon",
+      "subtype": "sword",
+      "rarity": 1,
+      "icon": "icon_iron_sword",
+      "description": "A standard iron blade. Reliable if unremarkable.",
+      "flavor": "The militia's staple.",
+      "stats": {
+        "atk": 15
+      },
+      "buy_price": 200,
+      "sell_price": 100,
+      "equipable_by": [
+        "kade",
+        "twist",
+        "vex"
+      ]
+    },
+    {
+      "id": "ITEM_STEEL_SWORD",
+      "name": "Steel Sword",
+      "type": "weapon",
+      "subtype": "sword",
+      "rarity": 2,
+      "icon": "icon_steel_sword",
+      "description": "A well-crafted steel blade.",
+      "flavor": "Quality you can feel.",
+      "stats": {
+        "atk": 28
+      },
+      "buy_price": 600,
+      "sell_price": 300,
+      "equipable_by": [
+        "kade",
+        "twist",
+        "vex"
+      ]
+    },
+    {
+      "id": "ITEM_KADES_GUNBLADE",
+      "name": "Kade's Gunblade",
+      "type": "weapon",
+      "subtype": "gunblade",
+      "rarity": 5,
+      "icon": "icon_kades_gunblade",
+      "description": "Kade's signature weapon. Blade and firearm in perfect harmony.",
+      "flavor": "Forged from Progenitor metal and dragon scale.",
+      "stats": {
+        "atk": 85,
+        "mag": 20
+      },
+      "special_effect": "gunblade_strike",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "kade"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_MERCER_BLADE",
+      "name": "Mercer's Legacy",
+      "type": "weapon",
+      "subtype": "sword",
+      "rarity": 5,
+      "icon": "icon_mercer_blade",
+      "description": "The blade of a legendary hero. Its edge cuts through time itself.",
+      "flavor": "Honor the fallen. Surpass the legend.",
+      "stats": {
+        "atk": 95,
+        "spd": 15
+      },
+      "special_effect": "temporal_slash",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "kade",
+        "twist"
+      ],
+      "unique": true,
+      "unlock_condition": "Defeat Mercer in Tower"
+    },
+    {
+      "id": "ITEM_IRON_AXE",
+      "name": "Iron Axe",
+      "type": "weapon",
+      "subtype": "axe",
+      "rarity": 1,
+      "icon": "icon_iron_axe",
+      "description": "A heavy iron axe. Cuts through armor.",
+      "flavor": "Brutal and effective.",
+      "stats": {
+        "atk": 22,
+        "spd": -2
+      },
+      "buy_price": 250,
+      "sell_price": 125,
+      "equipable_by": [
+        "grit",
+        "petra",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_BATTLE_AXE",
+      "name": "Battle Axe",
+      "type": "weapon",
+      "subtype": "axe",
+      "rarity": 2,
+      "icon": "icon_battle_axe",
+      "description": "A double-bitted battle axe.",
+      "flavor": "Twice the blades, twice the danger.",
+      "stats": {
+        "atk": 38,
+        "spd": -3
+      },
+      "buy_price": 750,
+      "sell_price": 375,
+      "equipable_by": [
+        "grit",
+        "petra",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_COLOSSUS_SPLITTER",
+      "name": "Colossus Splitter",
+      "type": "weapon",
+      "subtype": "greataxe",
+      "rarity": 4,
+      "icon": "icon_colossus_splitter",
+      "description": "An axe capable of splitting stone titans.",
+      "flavor": "What was forged to break the unbreakable?",
+      "stats": {
+        "atk": 75,
+        "spd": -5
+      },
+      "special_effect": "heavy_sunder",
+      "buy_price": 0,
+      "sell_price": 5000,
+      "equipable_by": [
+        "grit",
+        "petra"
+      ]
+    },
+    {
+      "id": "ITEM_WOODEN_STAFF",
+      "name": "Wooden Staff",
+      "type": "weapon",
+      "subtype": "staff",
+      "rarity": 1,
+      "icon": "icon_wooden_staff",
+      "description": "A simple wooden staff.",
+      "flavor": "Every mage starts somewhere.",
+      "stats": {
+        "atk": 5,
+        "mag": 12
+      },
+      "buy_price": 150,
+      "sell_price": 75,
+      "equipable_by": [
+        "suresh",
+        "sova",
+        "callum",
+        "senna"
+      ]
+    },
+    {
+      "id": "ITEM_MAGE_STAFF",
+      "name": "Mage's Staff",
+      "type": "weapon",
+      "subtype": "staff",
+      "rarity": 2,
+      "icon": "icon_mage_staff",
+      "description": "A staff imbued with magical potential.",
+      "flavor": "The crystal hums with power.",
+      "stats": {
+        "atk": 8,
+        "mag": 25
+      },
+      "buy_price": 500,
+      "sell_price": 250,
+      "equipable_by": [
+        "suresh",
+        "sova",
+        "callum",
+        "senna"
+      ]
+    },
+    {
+      "id": "ITEM_PRISM_STAFF",
+      "name": "Prism Staff",
+      "type": "weapon",
+      "subtype": "staff",
+      "rarity": 4,
+      "icon": "icon_prism_staff",
+      "description": "A staff of pure crystal that refracts light into magic.",
+      "flavor": "Every color, every spell.",
+      "stats": {
+        "atk": 15,
+        "mag": 55,
+        "spr": 10
+      },
+      "special_effect": "prism_burst",
+      "buy_price": 0,
+      "sell_price": 4000,
+      "equipable_by": [
+        "suresh",
+        "sova",
+        "callum"
+      ]
+    },
+    {
+      "id": "ITEM_IRON_SPEAR",
+      "name": "Iron Spear",
+      "type": "weapon",
+      "subtype": "spear",
+      "rarity": 1,
+      "icon": "icon_iron_spear",
+      "description": "A simple iron-tipped spear.",
+      "flavor": "Reach is everything.",
+      "stats": {
+        "atk": 18
+      },
+      "buy_price": 220,
+      "sell_price": 110,
+      "equipable_by": [
+        "ashka",
+        "vex",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_HALBERD",
+      "name": "Halberd",
+      "type": "weapon",
+      "subtype": "polearm",
+      "rarity": 2,
+      "icon": "icon_halberd",
+      "description": "An axe-headed polearm.",
+      "flavor": "Versatility in steel.",
+      "stats": {
+        "atk": 32
+      },
+      "buy_price": 650,
+      "sell_price": 325,
+      "equipable_by": [
+        "ashka",
+        "vex",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_PISTOL",
+      "name": "Pistol",
+      "type": "weapon",
+      "subtype": "gun",
+      "rarity": 2,
+      "icon": "icon_pistol",
+      "description": "A reliable firearm.",
+      "flavor": "Point and shoot.",
+      "stats": {
+        "atk": 30
+      },
+      "buy_price": 800,
+      "sell_price": 400,
+      "equipable_by": [
+        "kade",
+        "renna",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_RIFLE",
+      "name": "Rifle",
+      "type": "weapon",
+      "subtype": "gun",
+      "rarity": 3,
+      "icon": "icon_rifle",
+      "description": "A long-range precision weapon.",
+      "flavor": "One shot, one kill.",
+      "stats": {
+        "atk": 50
+      },
+      "buy_price": 1500,
+      "sell_price": 750,
+      "equipable_by": [
+        "ashka",
+        "renna",
+        "korr"
+      ]
+    },
+    {
+      "id": "ITEM_RENNAS_RIFLE",
+      "name": "Renna's Custom Rifle",
+      "type": "weapon",
+      "subtype": "gun",
+      "rarity": 5,
+      "icon": "icon_rennas_rifle",
+      "description": "Renna's pride and joy. Modified to perfection.",
+      "flavor": "Every component tuned by hand.",
+      "stats": {
+        "atk": 80,
+        "spd": 10
+      },
+      "special_effect": "drone_assist",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "renna"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_DAGGER",
+      "name": "Dagger",
+      "type": "weapon",
+      "subtype": "dagger",
+      "rarity": 1,
+      "icon": "icon_dagger",
+      "description": "A sharp blade for quick strikes.",
+      "flavor": "Silent and deadly.",
+      "stats": {
+        "atk": 10,
+        "spd": 5
+      },
+      "buy_price": 120,
+      "sell_price": 60,
+      "equipable_by": [
+        "twist",
+        "nix-7"
+      ]
+    },
+    {
+      "id": "ITEM_DUELIST_BLADE",
+      "name": "Duelist's Blade",
+      "type": "weapon",
+      "subtype": "dagger",
+      "rarity": 3,
+      "icon": "icon_duelist_blade",
+      "description": "A blade favored by master duelists.",
+      "flavor": "Speed is armor.",
+      "stats": {
+        "atk": 35,
+        "spd": 15
+      },
+      "buy_price": 1200,
+      "sell_price": 600,
+      "equipable_by": [
+        "twist",
+        "nix-7"
+      ]
+    },
+    {
+      "id": "ITEM_TWISTS_SHADOWBLADES",
+      "name": "Shadowblades",
+      "type": "weapon",
+      "subtype": "twin_daggers",
+      "rarity": 5,
+      "icon": "icon_twists_shadowblades",
+      "description": "Twin daggers that drink the light.",
+      "flavor": "Strike from nowhere.",
+      "stats": {
+        "atk": 70,
+        "spd": 25
+      },
+      "special_effect": "shadow_strike",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "twist"
+      ],
+      "unique": true
+    },
+    {
+      "id": "ITEM_METAL_KNUCKLES",
+      "name": "Metal Knuckles",
+      "type": "weapon",
+      "subtype": "fist",
+      "rarity": 2,
+      "icon": "icon_metal_knuckles",
+      "description": "Reinforced knuckles for brawlers.",
+      "flavor": "Iron fist, iron will.",
+      "stats": {
+        "atk": 25
+      },
+      "buy_price": 400,
+      "sell_price": 200,
+      "equipable_by": [
+        "senna",
+        "petra"
+      ]
+    },
+    {
+      "id": "ITEM_SENNAS_IRON_FIST",
+      "name": "Iron Fist",
+      "type": "weapon",
+      "subtype": "fist_weapon",
+      "rarity": 5,
+      "icon": "icon_sennas_iron_fist",
+      "description": "Senna's gauntlets, blessed with ember heat.",
+      "flavor": "The cult's loss is our gain.",
+      "stats": {
+        "atk": 78,
+        "spd": 12
+      },
+      "special_effect": "heat_strike",
+      "element": "fire",
+      "buy_price": 0,
+      "sell_price": 0,
+      "equipable_by": [
+        "senna"
+      ],
+      "unique": true
+    }
+  ]
+}

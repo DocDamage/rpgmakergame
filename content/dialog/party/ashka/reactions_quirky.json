@@ -1,0 +1,139 @@
+{
+  "character": "Ashka",
+  "reaction_type": "quirky_npc_encounters",
+  "personality_notes": "Fire mage, passionate, impatient, loves destruction and heat",
+  "dialog": {
+    "first_meet_generic": [
+      "Who are you? Interesting? No? Too bad.",
+      "I'm Ashka. I like fire. And explosions. And winning.",
+      "You look flammable. Just saying.",
+      "This better be quick. I have things to burn."
+    ],
+    "barrelman": [
+      "Wooden barrels? REALLY flammable.",
+      "Metal barrels? Less fun. But still heat conductive!",
+      "Got any empty ones? For... target practice?",
+      "Barrels roll. Rolling fire. Interesting concept."
+    ],
+    "snakecharmer": [
+      "Snakes are cold. I don't like cold.",
+      "Mr. Whiskers? Cute. Can I pet him? No? Boring.",
+      "Does he breathe fire? No? Useless snake.",
+      "The flute's okay. Needs more FIRE."
+    ],
+    "lucha": [
+      "Masks! Fire! Drama! This I like!",
+      "FIGHT ME! Or teach me! Or BOTH!",
+      "The cape would totally catch fire. Awesome.",
+      "You're LOUD! I like LOUD!"
+    ],
+    "ironchef": [
+      "FINALLY! Someone who understands FIRE!",
+      "Cooking with LAVA? YES! WHY DIDN'T I THINK OF THAT?!",
+      "Can you make FLAMBE? Everything FLAMBE?!",
+      "TEACH ME YOUR TECHNIQUES! NOW!"
+    ],
+    "trenchcoat": [
+      "Mystery is BORING. Fire is INTERESTING!",
+      "What are you hiding? Secrets? TREASURE?",
+      "That coat looks flammable. Very flammable.",
+      "Less whispering, more FIRE!"
+    ],
+    "sumo": [
+      "You're BIG! But can you take HEAT?!",
+      "Stillness is boring. FIRE MOVES!",
+      "I bet you're fireproof. Let's TEST IT!",
+      "Mountain? I'll melt you into VOLCANO!"
+    ],
+    "foodboys": [
+      "FOOD! SPICY FOOD! BURN MY MOUTH!",
+      "RED! The SPICY one! Finally, someone who GETS IT!",
+      "GREEN? Salad? BORING! Where's the HEAT?!",
+      "Can you make CHILI that BREATHES FIRE?!"
+    ],
+    "coolcat": [
+      "You're COOL. I'm HOT. We should fight.",
+      "Jazz is okay. But have you heard FIRE ROARING?",
+      "Sunglasses? In THIS heat? Wait...",
+      "Can you play something FASTER? With more FIRE?!"
+    ],
+    "pigman": [
+      "Pigs. Pink. Round. Not flammable. Boring.",
+      "Does the inn have a FIREPLACE? Big one?",
+      "BACON! CRISPY! BURNT! PERFECT!",
+      "Your inn better be fireproof. Just warning you."
+    ],
+    "tunneler": [
+      "Underground? Dark? Cold? NO THANKS.",
+      "Ever hit MAGMA? Now THAT'S worth digging for!",
+      "Your back hurts? Try EXPLOSIONS!",
+      "Retire on a boat? On WATER? Are you CRAZY?!"
+    ],
+    "bush": [
+      "It's a BUSH! Bushes BURN!",
+      "Wait. Did it just...? No. Burn it anyway.",
+      "Dry leaves? Perfect kindling!",
+      "I'm going to set it on fire. Don't try to stop me."
+    ],
+    "aeronaut": [
+      "Balloons! FILLED WITH FIRE?!",
+      "HOT AIR! You use FIRE TO FLY! GENIUS!",
+      "Can I ride?! I'll bring MATCHES!",
+      "What happens when they POP? FIREWORKS?!"
+    ],
+    "onionboss": [
+      "You're round. Like a FIREBALL!",
+      "Make me cry? Only FIRE makes me cry!",
+      "Be MEANER! Mean bosses are LOUD! I like LOUD!",
+      "Can we set something on fire? For team building?!"
+    ],
+    "astronaut": [
+      "Underwater? No FIRE underwater! BOO!",
+      "That suit looks HOT! Finally, something good!",
+      "Ever seen UNDERWATER VOLCANOES?! Those RULE!",
+      "Come up where it's WARM! And DRY! And ON FIRE!"
+    ],
+    "conductor": [
+      "ALL ABOARD! LOUD! I LIKE IT!",
+      "Does the train have a FURNACE?! Big one?!",
+      "CHOO CHOO! ...Is that right? LOUDER!",
+      "Can we make the train go FASTER?! With FIRE?!"
+    ],
+    "shoewoman": [
+      "Shoes? Do they survive FIRE?!",
+      "I need FIREPROOF boots! For WALKING THROUGH INFERNO!",
+      "Desert shoes? Deserts are HOT! I approve!",
+      "Can you make boots that leave FLAMING FOOTPRINTS?!"
+    ],
+    "signguy": [
+      "Signs! Made of WOOD! FLAMMABLE!",
+      "Paint? Burns COLORS! Pretty colors!",
+      "Make me a sign! 'ASHKA WAS HERE'! In FIRE!",
+      "Hand-painted? SLOW! Use FIRE! Faster!"
+    ],
+    "cobra": [
+      "Snake! Can I set it on fire? No? Boring.",
+      "Venomous? Pfft. FIRE beats venom!",
+      "Hissing! Like steam! I LIKE IT!",
+      "Scale pattern looks like FLAMES! Awesome!"
+    ],
+    "barrelgob": [
+      "Living in a barrel? I could roll you DOWN A HILL!",
+      "Is it FIREPROOF? It should be FIREPROOF!",
+      "Can I put FIREWORKS in your barrel?!",
+      "Goblin in a barrel! BARREL OF FIRE GOBLINS!"
+    ],
+    "twins": [
+      "TWO of you! DOUBLE the FIRE TARGETS!",
+      "Can you read my mind?! 'FIRE FIRE FIRE'!",
+      "Finish each other's... FIREBALLS?!",
+      "If I burn one, does the other feel WARM?!"
+    ],
+    "sunandmoon": [
+      "The SUN! It's FIRE! TELL ME ABOUT THE FIRE BALL!",
+      "Can you make the sun HOTTER?! Please?!",
+      "Stars are just FAR AWAY FIRES! I want to TOUCH THEM!",
+      "Predict my future? 'BURNS EVERYTHING'! I know!"
+    ]
+  }
+}

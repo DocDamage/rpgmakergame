@@ -1,0 +1,54 @@
+{
+  "npc_id": "chronos_past",
+  "name": "Chronos Past",
+  "title": "Past Incarnation",
+  "zone": "chrono",
+  "location": "The Fractured Guardian Corridor",
+  "sprite": "story_cinematic_alias",
+  "personality": "cryptic_frayed_uncannily_precise",
+  "occupation": "seam_reader",
+  "dialog": {
+    "greeting": [
+      "Chronos Past on comms. Stage 2: The Fractured Guardian. Keep formation tight and decisions tighter.",
+      "We are running Against Time. Objective drift gets teams buried.",
+      "A pigeon outranked three commanders here last week. Merit system is broken.",
+      "Action first, panic never. Start with: Speak with Chronos Past."
+    ],
+    "quest_hook": "Objective stack: Speak with Chronos Past; Speak with Chronos Present; Speak with Chronos Future. Keep route integrity while pressure escalates.",
+    "quest_active": "Active pressure: Meet the three aspects of the Chronos Guardian. Immediate move: Speak with Chronos Past.",
+    "quest_complete": "Stage 2 resolved: The Fractured Guardian. Primary objective secured and route stabilized. Prepare for Healing the Flow.",
+    "rumor": [
+      "A tea stall serves the same cup twice and charges only once if you notice.",
+      "People keep repeating one clue from The Fractured Guardian: 'Speak with Chronos Future'.",
+      "The compass spun, laughed, and still pointed exactly where we needed to go."
+    ],
+    "ambient_barks": [
+      "Timeline twitch.",
+      "That shadow lied.",
+      "Hear the seam hiss?",
+      "Wrong future."
+    ],
+    "time_dawn": "Dawn loops are usually stable. Mark your path or the street will rearrange you.",
+    "time_noon": "Noon produces the most timeline echoes. Do not chase every duplicate signal.",
+    "time_dusk": "Dusk is paradox weather. If a clock runs backward, leave it alone.",
+    "time_night": "Night splits voices from bodies. Use call-and-response to track your team."
+  },
+  "party_reactions": {
+    "kade": "Chronos Past sounds intense, but the plan is solid. We keep moving.",
+    "nix7": "Tactical profile for Chronos Past accepted. Probability of success improves with compliance.",
+    "twist": "Chronos Past talks scary, but I like it. We punch the problem and then celebrate."
+  },
+  "relationship_dialog": {
+    "stranger": "State your objective in one sentence.",
+    "acquaintance": "Welcome back. What changed since last pass?",
+    "friend": "Good. We move cleaner when we move together.",
+    "best_friend": "No masks, no theater, just us and the objective."
+  },
+  "story_flags": {
+    "appears_during": [
+      "chrono_against_time"
+    ],
+    "fallback_dialog_tree": "DT_AMBIENT_STREET_PROPHET",
+    "world_break_aware": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_wage_dispute",
+  "name": "Fair day's Pay",
+  "zone": "obsidian",
+  "giver": "signguy",
+  "type": "social",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The Smelter's Guild claims the company shorted their wages last month. The company says accounting errors. But I've seen the books—someone's embezzling! Find the proof, and we can get the workers their due!",
+      "objective": "Investigate the accounting discrepancy in the company ledgers"
+    },
+    "progress": {
+      "dialog": "The assistant manager—he's been skimming! But he has powerful friends. We need irrefutable proof. Break into his private safe during the shift change. The combination is his birthday—arrogant fool wrote it on his desk calendar!",
+      "objective": "Break into the assistant manager's safe and gather evidence"
+    },
+    "complete": {
+      "dialog": "Caught red-handed! The workers get their back pay plus damages! The embezzler is in chains! The Guild offers you this Accounting Expert's Abacus—it detects financial fraud and calculates optimal prices!",
+      "rewards": {
+        "exp": 850,
+        "gold": 1000,
+        "item": "accounting_experts_abacus"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fighting with math and evidence. Different, but satisfying!",
+    "twist": "The embezzler's arrogance was his downfall. Typical.",
+    "nix7": "Financial investigation: complete. Justice: restored."
+  }
+}

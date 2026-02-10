@@ -1,0 +1,139 @@
+{
+  "character": "Kade",
+  "reaction_type": "quirky_npc_encounters",
+  "dialog": {
+    "first_meet_generic": [
+      "That's... certainly a look.",
+      "Okay, I HAVE to know the story here.",
+      "This world never stops surprising me.",
+      "I'm not even going to ask.",
+      "...Right. Hello there!"
+    ],
+    "barrelman": [
+      "That's... certainly a business model.",
+      "Just barrels? Nothing but barrels?",
+      "I feel like there's a story behind 'mostly gnaw-proof.'",
+      "How does one get into the barrel trade?"
+    ],
+    "snakecharmer": [
+      "That snake looks... surprisingly well-behaved?",
+      "I could never do that. I'd panic and drop the flute.",
+      "Is it... supposed to be staring at me like that?",
+      "Mr. Whiskers? That's... not what I'd name a cobra."
+    ],
+    "lucha": [
+      "Oh man, I loved watching the fights back home!",
+      "Think they'd let me in the ring? ...No? Probably wise.",
+      "The mask really completes the look.",
+      "Do you wrestle... everything? Or just people?"
+    ],
+    "ironchef": [
+      "Cooking in that armor must be... hot.",
+      "Iron Chef? Is that a title or a name?",
+      "I respect the dedication to the bit.",
+      "Can you even taste the food through the helmet?"
+    ],
+    "trenchcoat": [
+      "Why do I feel like they know more than they're saying?",
+      "Classic mysterious stranger. Bet they have a tragic backstory.",
+      "Are you... following us? No? Just my imagination?",
+      "That coat has seen things. I can tell."
+    ],
+    "sumo": [
+      "I will definitely not be challenging you to any contests.",
+      "The stillness is... intimidating, honestly.",
+      "How much do you... never mind. Rude question.",
+      "Can you teach me to be that centered?"
+    ],
+    "foodboys": [
+      "Which one are you? I can't tell the brothers apart.",
+      "Your family has cornered the market on... everything edible.",
+      "Is there a foodboys sister?",
+      "Every town. How do you beat us here?"
+    ],
+    "coolcat": [
+      "You're very... cool. I feel underdressed.",
+      "Do you ever just... talk normally?",
+      "The sunglasses indoors is a choice.",
+      "Is that jazz I hear? Or just you?"
+    ],
+    "pigman": [
+      "The inn names get more creative every zone.",
+      "Let me guess - pork is the specialty?",
+      "Do you get tired of the... pig theme?",
+      "Nice place! Very... oink-forward."
+    ],
+    "tunneler": [
+      "Respect for anyone who works underground.",
+      "Is the back pain worth it?",
+      "Ever find anything... weird down there?",
+      "Two years to retirement. You got this."
+    ],
+    "bush": [
+      "I... see a bush. That's definitely a bush.",
+      "Are you talking to me, or... the bush?",
+      "Wait. Is the bush...? No. Couldn't be.",
+      "I'm going to pretend this didn't happen."
+    ],
+    "aeronaut": [
+      "Balloons. You're serious about the balloons.",
+      "Ever been... too high?",
+      "Is that safe? Those look like party balloons.",
+      "How do you steer? You don't? Comforting."
+    ],
+    "onionboss": [
+      "Foreman, huh? Tough job.",
+      "The miners respect you? Mostly?",
+      "You're... very onion-shaped. Not an insult!",
+      "Union leader or management? Tricky position."
+    ],
+    "astronaut": [
+      "Deep sea diving in... that?",
+      "Looks heavy. Is it heavy?",
+      "Retro style. I respect it.",
+      "Find anything interesting down there?"
+    ],
+    "conductor": [
+      "All aboard? Really?",
+      "Where does this one go? Everywhere? Nowhere? Both?",
+      "You seem very... punctual.",
+      "The uniform really sells it."
+    ],
+    "shoewoman": [
+      "Shoes! Can't have too many.",
+      "Desert-appropriate? Smart.",
+      "Got anything in 'world-saving adventurer'?",
+      "My boots could use some work, actually."
+    ],
+    "signguy": [
+      "Your work is... everywhere.",
+      "Hand-painted? Impressive.",
+      "Who commissions all these signs?",
+      "Ever make a typo? No? Perfect record?"
+    ],
+    "cobra": [
+      "Please don't look at me.",
+      "I'm going to slowly back away.",
+      "Nice snake. Good snake. Don't bite me.",
+      "Why is it hissing? Is that a happy hiss?"
+    ],
+    "barrelgob": [
+      "Living in a barrel? Innovative.",
+      "Is that... comfortable?",
+      "Found anything good in there?",
+      "Ever think about... a house?"
+    ],
+    "twins": [
+      "Which one...? No, don't tell me. I'll figure it out.",
+      "You finish each other's... everything?",
+      "Creepy but cute. Mostly creepy.",
+      "Do you ever... separate? No? Okay."
+    ],
+    "sunandmoon": [
+      "The stars tell you... what, exactly?",
+      "Very mystical. I'm skeptical but intrigued.",
+      "What's my horoscope? Wait, don't tell me. Do tell me.",
+      "That headdress must be heavy."
+    ]
+  }
+}

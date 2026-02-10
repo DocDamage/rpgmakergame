@@ -1,0 +1,173 @@
+{
+  "characters": [
+    {
+      "id": "KADE",
+      "name": "Kade",
+      "role": "Gunblade Specialist",
+      "abilities": [
+        {"name": "Slash", "type": "physical", "mp": 0, "power": 1.0, "learned": 1},
+        {"name": "Gunblade Shot", "type": "physical", "mp": 8, "power": 1.4, "element": "none", "learned": 1},
+        {"name": "Heat Edge", "type": "physical", "mp": 12, "power": 1.6, "element": "fire", "learned": 5},
+        {"name": "Dragon Fury", "type": "physical", "mp": 24, "power": 2.2, "element": "fire", "learned": 15},
+        {"name": "Limit: Crimson Blade", "type": "limit", "mp": 0, "power": 3.5, "learned": "limit_unlock"}
+      ],
+      "magic": ["Cure", "Fire", "Scan"],
+      "unique_mechanic": "dragon_gauge"
+    },
+    {
+      "id": "NIX7",
+      "name": "Nix-7",
+      "role": "Tactical Android",
+      "abilities": [
+        {"name": "Strike", "type": "physical", "mp": 0, "power": 1.0, "learned": 1},
+        {"name": "System Scan", "type": "support", "mp": 6, "effect": "reveal_weakness", "learned": 1},
+        {"name": "Plasma Blade", "type": "physical", "mp": 10, "power": 1.5, "element": "thunder", "learned": 8},
+        {"name": "Overclock", "type": "support", "mp": 20, "effect": "haste+berserk_self", "learned": 18},
+        {"name": "Limit: System Purge", "type": "limit", "mp": 0, "power": 3.0, "element": "thunder", "learned": "limit_unlock"}
+      ],
+      "magic": ["Thunder", "Haste", "Protect"],
+      "unique_mechanic": "lattice_interface"
+    },
+    {
+      "id": "TWIST",
+      "name": "Twist",
+      "role": "Rogue",
+      "abilities": [
+        {"name": "Stab", "type": "physical", "mp": 0, "power": 1.0, "learned": 1},
+        {"name": "Steal", "type": "support", "mp": 4, "effect": "steal_item", "learned": 1},
+        {"name": "Shadow Strike", "type": "physical", "mp": 12, "power": 1.7, "element": "dark", "learned": 10},
+        {"name": "Smoke Bomb", "type": "support", "mp": 16, "effect": "party_escape", "learned": 20},
+        {"name": "Limit: Dance of Knives", "type": "limit", "mp": 0, "power": 3.2, "hits": 4, "learned": "limit_unlock"}
+      ],
+      "magic": ["Dark", "Blind", "Sleep"],
+      "unique_mechanic": "steal_mug"
+    },
+    {
+      "id": "KORR",
+      "name": "Nadia Korr",
+      "role": "Heavy Suppressor",
+      "abilities": [
+        {"name": "Suppress", "type": "physical", "mp": 0, "power": 1.1, "learned": 1},
+        {"name": "Barrage", "type": "physical", "mp": 14, "power": 1.3, "hits": 3, "learned": 12},
+        {"name": "Dominion Command", "type": "support", "mp": 18, "effect": "party_atk_up", "learned": 22},
+        {"name": "Vibro-Knife", "type": "physical", "mp": 20, "power": 2.0, "defense_ignore": 0.5, "learned": 28},
+        {"name": "Limit: Judgment Call", "type": "limit", "mp": 0, "power": 3.8, "learned": "limit_unlock"}
+      ],
+      "magic": ["Armor", "Shell", "Bravery"],
+      "unique_mechanic": "tactics_override"
+    },
+    {
+      "id": "SURESH",
+      "name": "Dr. Marin Suresh",
+      "role": "Combat Healer",
+      "abilities": [
+        {"name": "Cure", "type": "magic", "mp": 8, "power": 1.5, "heal": true, "learned": 1},
+        {"name": "Esuna", "type": "magic", "mp": 12, "effect": "cure_status", "learned": 1},
+        {"name": "Cura", "type": "magic", "mp": 18, "power": 2.5, "heal": true, "learned": 14},
+        {"name": "Regen", "type": "magic", "mp": 22, "effect": "regenerate", "learned": 24},
+        {"name": "Limit: Angelic Ward", "type": "limit", "mp": 0, "effect": "full_heal_party", "learned": "limit_unlock"}
+      ],
+      "magic": ["Cure", "Cura", "Curaga", "Esuna", "Regen", "Raise"],
+      "unique_mechanic": "combat_medic"
+    },
+    {
+      "id": "SOVA",
+      "name": "Dr. Ines Sova",
+      "role": "Black Mage",
+      "abilities": [
+        {"name": "Fire", "type": "magic", "mp": 8, "power": 1.4, "element": "fire", "learned": 1},
+        {"name": "Blizzard", "type": "magic", "mp": 8, "power": 1.4, "element": "ice", "learned": 1},
+        {"name": "Thunder", "type": "magic", "mp": 8, "power": 1.4, "element": "thunder", "learned": 1},
+        {"name": "Fira", "type": "magic", "mp": 18, "power": 2.2, "element": "fire", "learned": 16},
+        {"name": "Firaga", "type": "magic", "mp": 32, "power": 3.5, "element": "fire", "learned": 32},
+        {"name": "Limit: Reality Rewrite", "type": "limit", "mp": 0, "power": 4.0, "element": "all", "learned": "limit_unlock"}
+      ],
+      "magic": ["Fire", "Fira", "Firaga", "Blizzard", "Blizzara", "Blizzaga", "Thunder", "Thundara", "Thundaga"],
+      "unique_mechanic": "spell_weave"
+    },
+    {
+      "id": "GRIT",
+      "name": "Grit",
+      "role": "Heavy Vanguard",
+      "abilities": [
+        {"name": "Guard", "type": "support", "mp": 0, "effect": "cover_ally", "learned": 1},
+        {"name": "Shield Bash", "type": "physical", "mp": 10, "power": 1.3, "effect": "stun", "learned": 1},
+        {"name": "Provoke", "type": "support", "mp": 8, "effect": "draw_aggro", "learned": 10},
+        {"name": "Fortress", "type": "support", "mp": 24, "effect": "party_def_up", "learned": 26},
+        {"name": "Limit: Unbreakable", "type": "limit", "mp": 0, "effect": "party_invincible_1turn", "learned": "limit_unlock"}
+      ],
+      "magic": ["Protect", "Shell", "Wall"],
+      "unique_mechanic": "vanguard_stance"
+    },
+    {
+      "id": "ASHKA",
+      "name": "Ashka Verne",
+      "role": "Sniper",
+      "abilities": [
+        {"name": "Aim", "type": "physical", "mp": 6, "power": 1.2, "accuracy": 100, "learned": 1},
+        {"name": "Snipe", "type": "physical", "mp": 14, "power": 2.0, "crit_bonus": 50, "learned": 14},
+        {"name": "Suppressing Fire", "type": "physical", "mp": 18, "power": 1.1, "hits": 4, "learned": 24},
+        {"name": "Trap", "type": "support", "mp": 12, "effect": "damage_next_turn", "learned": 30},
+        {"name": "Limit: Bullseye", "type": "limit", "mp": 0, "power": 4.5, "accuracy": 100, "crit": 100, "learned": "limit_unlock"}
+      ],
+      "magic": ["Berserk", "Float", "Aim"],
+      "unique_mechanic": "critical_focus"
+    },
+    {
+      "id": "SENNA",
+      "name": "Senna",
+      "role": "Monk",
+      "abilities": [
+        {"name": "Punch", "type": "physical", "mp": 0, "power": 1.1, "learned": 1},
+        {"name": "Kick", "type": "physical", "mp": 8, "power": 1.4, "learned": 1},
+        {"name": "Flame Fist", "type": "physical", "mp": 12, "power": 1.6, "element": "fire", "learned": 12},
+        {"name": "Chi Blast", "type": "physical", "mp": 20, "power": 2.0, "ignore_def": 0.3, "learned": 25},
+        {"name": "Limit: Iron Fist", "type": "limit", "mp": 0, "power": 3.6, "element": "fire", "learned": "limit_unlock"}
+      ],
+      "magic": ["Protect", "Haste", "Aura"],
+      "unique_mechanic": "combo_strikes"
+    },
+    {
+      "id": "CALLUM",
+      "name": "Callum Drake",
+      "role": "Summoner",
+      "abilities": [
+        {"name": "Summon: Wisp", "type": "magic", "mp": 12, "power": 1.5, "summon": true, "learned": 1},
+        {"name": "Summon: Ifrit", "type": "magic", "mp": 30, "power": 2.8, "element": "fire", "summon": true, "learned": 20},
+        {"name": "Summon: Shiva", "type": "magic", "mp": 30, "power": 2.8, "element": "ice", "summon": true, "learned": 25},
+        {"name": "Summon: Ramuh", "type": "magic", "mp": 30, "power": 2.8, "element": "thunder", "summon": true, "learned": 30},
+        {"name": "Limit: Progenitor's Wrath", "type": "limit", "mp": 0, "power": 4.0, "summon": true, "learned": "limit_unlock"}
+      ],
+      "magic": ["Scan", "Shell", "Reflect"],
+      "unique_mechanic": "summon_gauge"
+    },
+    {
+      "id": "PETRA",
+      "name": "Petra",
+      "role": "Berserker",
+      "abilities": [
+        {"name": "Cleave", "type": "physical", "mp": 0, "power": 1.2, "learned": 1},
+        {"name": "Berserk", "type": "support", "mp": 10, "effect": "berserk_self", "learned": 1},
+        {"name": "Wild Swing", "type": "physical", "mp": 16, "power": 1.8, "random_targets": 3, "learned": 18},
+        {"name": "Mutation Surge", "type": "support", "mp": 24, "effect": "atk_up_hp_down", "learned": 28},
+        {"name": "Limit: Uncontrolled Rage", "type": "limit", "mp": 0, "power": 4.0, "hits_all": true, "learned": "limit_unlock"}
+      ],
+      "magic": ["Bravery", "Faith", "Berserk"],
+      "unique_mechanic": "mutation_gauge"
+    },
+    {
+      "id": "VEX",
+      "name": "Vex",
+      "role": "Paladin",
+      "abilities": [
+        {"name": "Smite", "type": "physical", "mp": 8, "power": 1.3, "element": "light", "learned": 1},
+        {"name": "Holy Ward", "type": "support", "mp": 12, "effect": "protect_shell", "learned": 1},
+        {"name": "Cover", "type": "support", "mp": 6, "effect": "take_damage_for_ally", "learned": 10},
+        {"name": "Divine Judgment", "type": "physical", "mp": 22, "power": 2.2, "element": "light", "learned": 26},
+        {"name": "Limit: Oathkeeper", "type": "limit", "mp": 0, "effect": "full_heal_party_holy_damage_enemy", "learned": "limit_unlock"}
+      ],
+      "magic": ["Cure", "Protect", "Shell", "Holy"],
+      "unique_mechanic": "holy_oath"
+    }
+  ]
+}

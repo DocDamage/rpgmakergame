@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_ROUTE_GRAND_BOULEVARD_SCOUT",
+  "name": "Grand Boulevard Wayfarer",
+  "title": "Resistance Scout",
+  "location": "MIC_GRAND_BOULEVARD_80x40",
+  "coords": [
+    25,
+    20
+  ],
+  "schedule": {
+    "day": [
+      25,
+      20
+    ],
+    "night": [
+      28,
+      18
+    ],
+    "rain": [
+      27,
+      21
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_varin_portrait",
+  "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT",
+  "shop": null,
+  "quests": [],
+  "faction": "ROUTE_TRAVELERS",
+  "attitude": "cautious",
+  "background": "Tracks patrol movement and safehouse updates. Assigned to Grand Boulevard.",
+  "personality": "Paranoid, sharp, and mission-focused.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "intel",
+    "safe_route_hints"
+  ]
+}

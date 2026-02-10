@@ -1,0 +1,138 @@
+{
+  "quest_id": "uplands_echoes_past",
+  "name": "Echoes of the Past",
+  "zone": "uplands",
+  "act": 1,
+  "prerequisites": [
+    "dustbelt_frontier_calling"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Floating Scholarium",
+      "description": "Reach the High Scholarium and request an audience",
+      "npc": "scholar_gatekeeper",
+      "dialog_start": "Halt! The High Scholarium does not admit just any... wait. You bear Marn's pendant. Elder Marn, from the Dustbelt? By the Archives, I thought her line ended decades ago. Come, the High Scholar will want to see this. But be warned—she has little patience for surface-dwellers.",
+      "objectives": [
+        "Present Marn's pendant",
+        "Navigate the Scholarium",
+        "Meet with High Scholar Vael"
+      ],
+      "dialog_complete": "Marn's pendant... yes, I remember her. A bright student who chose love over knowledge. I thought her foolish then. Now... I wonder who was truly wise. You seek information about the Void? Then prepare yourself, child. The truth is heavier than you know.",
+      "rewards": {
+        "exp": 600,
+        "item": "scholarium_guest_pass"
+      },
+      "target_location_id": "MIC_SCHOLARIUM_96x64"
+    },
+    {
+      "stage": 2,
+      "name": "The Archives Awaken",
+      "description": "Access the sealed Progenitor Archives",
+      "npc": "high_scholar_vael",
+      "dialog_start": "The Archives contain knowledge from before the Shattering—records of the Progenitors who created our world. The Void is mentioned throughout, but the deepest truths are sealed. Only one with a pure heart and clear purpose can unlock them. Prove your worth, Kade.",
+      "objectives": [
+        "Complete the Trial of Wisdom",
+        "Solve the Progenitor riddles",
+        "Unlock the Sealed Chamber"
+      ],
+      "dialog_complete": "The Archives respond to you! This is unprecedented—the texts speak of a 'Bearer of Unity' who would come when the Void rises. Kade... you may be the one the prophecies foretold. But prophecy is not destiny. You must choose your path.",
+      "rewards": {
+        "exp": 1000,
+        "item": "progenitor_codex_fragment"
+      },
+      "target_location_id": "D_ARCHIVE_112x96"
+    },
+    {
+      "stage": 3,
+      "name": "The Truth of Creation",
+      "description": "Learn the origin of the world and the Void",
+      "npc": "high_scholar_vael",
+      "dialog_start": "Listen well. The Progenitors were beings of pure light who shaped Chroma from primordial chaos. But in their perfection, they created something they could not control—a shadow of themselves. The Void. It is not evil, Kade. It is hungry. And it has waited ten thousand years to consume what its creators made.",
+      "objectives": [
+        "Study the Creation Records",
+        "Witness the Shattering vision",
+        "Understand the Void's nature"
+      ],
+      "dialog_complete": "The Void seeks to unmake reality because it was denied existence. It is tragic... and terrifying. But the records also speak of hope. Seven Crystals of Binding were created to seal the Void. If they still exist, we may yet save Chroma.",
+      "rewards": {
+        "exp": 1200,
+        "item": "void_lore_mastery"
+      },
+      "target_location_id": "D_ARCHIVE_112x96"
+    },
+    {
+      "stage": 4,
+      "name": "The Sky Pirates",
+      "description": "Defend the Scholarium from aerial raiders seeking the Archives",
+      "npc": "captain_skysong",
+      "dialog_start": "Ships on the horizon! Crimson sails—the Sky Reavers! They've come for the Archives, just as I feared. Mercenaries of the Void, selling their souls for power! Kade, I know we just met, but I need warriors, not scholars! Help me defend these halls!",
+      "objectives": [
+        "Repel the sky pirate boarding parties",
+        "Defeat Captain Bloodwind",
+        "Protect the Archive Core"
+      ],
+      "dialog_complete": "You fight like a tempest! I'm Captain Skysong—used to lead those dogs until I learned what they really served. The Void promised me power, but I chose my soul instead. If you're hunting the Crystals, you need air transport. My ship is yours.",
+      "rewards": {
+        "exp": 1500,
+        "item": "skysong_companion_unlocked"
+      },
+      "target_location_id": "MIC_SCHOLARIUM_96x64"
+    },
+    {
+      "stage": 5,
+      "name": "Whispers of the Mire",
+      "description": "Investigate Void activity in the southern swamplands",
+      "npc": "high_scholar_vael",
+      "dialog_start": "The Archives show disturbing patterns. The Void corruption you saw in Dustbelt? It spreads through ley lines—channels of natural magic. And the greatest concentration in the south is... the Mire. Once a verdant marsh, now a festering wound. If the Void gains a foothold there, all of Chroma will fall.",
+      "objectives": [
+        "Analyze the ley line maps",
+        "Prepare for swamp travel",
+        "Chart course to the Mire"
+      ],
+      "dialog_complete": "You go to face nightmares, child. Take this—it is a True Lens, forged by the Progenitors themselves. It reveals the Void's influence where others see only shadow. Trust your eyes, trust your heart, and trust your companions. You will need all three.",
+      "rewards": {
+        "exp": 1000,
+        "item": "progenitor_true_lens"
+      },
+      "target_location_id": "MIC_R03_104x56"
+    },
+    {
+      "stage": 6,
+      "name": "Descent into Mystery",
+      "description": "Leave the Uplands and journey to the Mire",
+      "npc": "captain_skysong",
+      "dialog_start": "The Cloudskipper's ready to fly! First time taking passengers on a Crystal hunt—usually I'm running FROM trouble, not toward it! But you've got a good heart, Kade. Reminds me of why I became a captain instead of a corpse. All aboard for the Mire! Try not to look down!",
+      "objectives": [
+        "Board the Cloudskipper",
+        "Descend to the lower zones",
+        "Survive the turbulent crossing"
+      ],
+      "dialog_complete": "Welcome to the Mire, folks! Try not to breathe too deep—that smell's part sulfur, part sorrow, and all swamp. I can see the corruption from here—black veins spreading through the water. Whatever's happening here, it's already begun. Be careful down there.",
+      "rewards": {
+        "exp": 1400,
+        "gold": 600,
+        "unlock": "zone_mire"
+      },
+      "target_location_id": "MIC_R03_104x56"
+    }
+  ],
+  "story_beats": [
+    "The party learns the world was created by Progenitors who accidentally created the Void",
+    "The existence of Seven Crystals of Binding is revealed",
+    "Captain Skysong joins the party, providing air transport",
+    "The True Lens artifact is acquired for detecting Void corruption",
+    "The Mire is identified as the next critical location"
+  ],
+  "party_reactions": {
+    "kade": "The world is so much older and stranger than I thought. Progenitors, Crystals, ancient prophecies... I feel like I'm in over my head. But then I look at Nix7 and Skysong, and I remember—I don't have to do this alone.",
+    "nix7": "Historical data acquisition: 94% complete. The Progenitors' level of technology rivals even Aetherreach's peak. Fascinating. Concerning. If they could not destroy the Void, only contain it... what chance do we have?",
+    "skysong": "Never thought I'd be fighting FOR something instead of against everything. Feels good. Dangerous, but good. Besides, have you seen how these two fight? I'm betting on the underdogs with the big hearts."
+  },
+  "unlocks": [
+    "zone_mire",
+    "quest_mire_sinking_truth",
+    "companion_skysong",
+    "airship_travel"
+  ]
+}

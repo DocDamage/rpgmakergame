@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_CHRONOWAKE_CLOCK_MECHANIC",
+  "name": "Chronowake Clock Mechanic",
+  "title": "Rail Mechanic",
+  "location": "T_CHRONOWAKE_112x72",
+  "coords": [
+    44,
+    50
+  ],
+  "schedule": {
+    "day": [
+      44,
+      50
+    ],
+    "night": [
+      42,
+      51
+    ],
+    "rain": [
+      45,
+      52
+    ]
+  },
+  "sprite": "NPC_SMITH",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_MECHANIC",
+  "shop": null,
+  "quests": [],
+  "faction": "CHRONOWAKE",
+  "attitude": "professional",
+  "background": "Maintains rail hardware, engines, and field terminals. Stationed in Chronowake.",
+  "personality": "Calm, technical, and dry-humored.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "machine_advice",
+    "infrastructure_status"
+  ]
+}

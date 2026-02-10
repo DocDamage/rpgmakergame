@@ -1,0 +1,57 @@
+{
+  "npc_id": "cobra_mire",
+  "name": "Mr. Whiskers",
+  "sprite": "cobra",
+  "zone": "mire",
+  "location": "Main Boardwalk (with Sssilas)",
+  "personality": "mild_confused_affectionate",
+  "occupation": "performance_partner",
+  "is_animal": true,
+  "dialog": {
+    "greeting": [
+      "*The cobra sways gently, watching you with unblinking eyes*",
+      "*Mr. Whiskers flicks his tongue, tasting the air around you*",
+      "*A soft hiss that almost sounds like a greeting*",
+      "*The snake coils tighter around Sssilas's arm, seeming cautious*",
+      "*Mr. Whiskers raises his hood, then relaxes it. A sign of trust?*",
+      "*The cobra seems more interested in a nearby bug than in you*",
+      "*A contented hiss as Sssilas plays a soft note*",
+      "*Mr. Whiskers tilts his head, as if trying to understand human speech*"
+    ],
+    "being_charmed": [
+      "*The snake sways in perfect rhythm with the flute*",
+      "*Mr. Whiskers rises, hood flared, looking remarkably dramatic*",
+      "*The cobra follows the flute's movement with intense focus*"
+    ],
+    "post_performance": [
+      "*The snake looks tired but satisfied*",
+      "*Mr. Whiskers coils loosely, resting after the show*",
+      "*A yawn reveals surprisingly small fangs. Harmless.*"
+    ],
+    "being_petted_twist": "*Mr. Whiskers leans into the gentle touch, scales smooth and warm. He seems to enjoy the attention.*",
+    "being_petted_kade": "*The snake regards Kade nervously, perhaps sensing his fear. He stays very still.*",
+    "hungry": "*Mr. Whiskers seems listless. His scales lack their usual luster.*",
+    "fed_lily": "*The cobra eagerly accepts the swamp lily, munching contentedly. Already his scales seem brighter!*",
+    "ambient_barks": [
+      "*Soft hissing*",
+      "*Tongue flick*",
+      "*Contented coils*",
+      "*Sleepy blink*",
+      "*Curious head tilt*",
+      "*Scale rustle*"
+    ]
+  },
+  "party_reactions": {
+    "kade": "It's... it's looking at me. Why is it looking at me?",
+    "nix7": "Species identification: Corn snake variant. Non-venomous. Sssilas's claim of 'cobra' is fraudulent.",
+    "twist": "He's SO CUTE! Look at his little face! Can we keep him? Can we?",
+    "korr": "A well-cared-for reptile. Sssilas clearly loves this creature.",
+    "renna": "Not a cobra. Definitely not a cobra. But he's charming in his own way.",
+    "suresh": "The snake knows. He knows he's not what they claim. Wise creature.",
+    "sova": "...I could take him. If I had to.",
+    "grit": "Keep that thing away from me. I've seen what snakes can do.",
+    "ashka": "He's warm. Good for cold swamp nights, I'd bet.",
+    "senna": "Smart. Knows how to play his part. I respect that.",
+    "callum": "I think he likes me! ...Or I'm in his way. Hard to tell with snakes."
+  }
+}

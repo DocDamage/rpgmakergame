@@ -1,0 +1,85 @@
+{
+  "npc_id": "tunneler_purple_prism",
+  "name": "Old 'Tunnel' Purple Stratum",
+  "sprite": "tunneler_purple",
+  "zone": "prism",
+  "location": "Prospector's Shack",
+  "personality": "grizzled_wise_cautious",
+  "occupation": "retired_prospector",
+  "schedule": {
+    "morning": "studying_maps",
+    "day": "telling_stories",
+    "evening": "reviewing_legends"
+  },
+  "dialog": {
+    "greeting": [
+      "Maps! Got maps! Old maps! Dangerous maps!",
+      "Tunnel Purple. Prospected these caves before your parents were born.",
+      "You want to know the deep places? I know 'em. Wish I didn't.",
+      "Retired? Ha! You don't retire from the deep. It retires you.",
+      "Young Blue found the Great Prism. I told him not to go that deep. Kids don't listen.",
+      "These maps show places the company forgot. Places they WANT to forget.",
+      "Legends? I got legends. True ones. Scary ones.",
+      "Sit. Listen. Learn. The deep doesn't forgive ignorance."
+    ],
+    "old_maps": "Maps from before the company. Before Prism was Prism. Shows tunnels that shouldn't exist. Chambers that don't fit geometry. Places where the stone... remembers.",
+    "mining_legends": "Stories about the first miners. What they found. What found THEM. The Great Prism isn't the first discovery. Just the biggest. And maybe not the most dangerous.",
+    "warnings": "The deep has rules. Don't sing. Don't sleep. Don't follow lights. And never, EVER go where the crystals grow black. I mean it.",
+    "backstory": "Prospected for forty years. Found veins, lost friends, learned respect. Retired when my knees gave out. Now I teach. Warn. Try to keep young fools alive.",
+    "rumors": [
+      "Blue - young Stratum - he's connected to the Great Prism now. I warned him. The Prism chooses its guardians. Doesn't let them go.",
+      "The twins know old songs. Songs I heard in the deepest tunnels. They shouldn't know those. No one should.",
+      "That aeronaut's partner? I knew him. Good surveyor. Found something in the caves. Something that didn't want found. Now he's gone.",
+      "The company thinks they control the mines. They don't. The deep controls itself."
+    ],
+    "ambient_barks": [
+      "Maps don't lie!",
+      "The deep remembers!",
+      "Listen to the stone!",
+      "Don't go too deep!",
+      "Legends are true!",
+      "Respect the caves!"
+    ],
+    "time_of_day": {
+      "morning": "Morning is for studying. Light's good. Eyes are sharp.",
+      "noon": "Midday stories. Visitors come. I share what I know.",
+      "evening": "Evening reviews. Cross-referencing legends. Patterns emerge.",
+      "night": "Night is quiet. The deep is loudest. I listen. I remember."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "lost_maps",
+    "quest_name": "The Forgotten Survey",
+    "stage_1_hook": "Lost my best maps. Eastern tunnels. Cave-in years ago. But I hear rumors - someone's been seen down there. Alive. With old gear. If it's who I think... he has my maps. And he knows things. Find him. Please.",
+    "stage_1_active": "Eastern tunnels. Deep section. Look for signs of habitation. Someone surviving down there. Impossible, but... find him.",
+    "stage_2_progress": "You've been to the east? Seen anything? Anyone?",
+    "stage_2_dialogue": "He lives? After all these years? The deep sustained him? I... I need to sit down.",
+    "stage_3_complete": "My maps! And his journals! Forty years of notes! This changes... everything. Here. My original prospector's license. Retired now. Don't need it. You do. Shows you know the deep."
+    ,
+    "reward": "master_prospector_license"
+  },
+  "party_reactions": {
+    "kade": "Old, experienced, and not afraid to share what he knows. Valuable ally.",
+    "nix7": "Data retention: remarkable. Experience level: exceptional. Recommend recording all conversations.",
+    "twist": "He has SO MANY STORIES! About MONSTERS! And TREASURE! AND SECRET TUNNELS!",
+    "korr": "Elders who survive become wise. This one survived much.",
+    "renna": "His maps show magical ley lines. He doesn't know it, but he's been charting arcane energy for decades.",
+    "suresh": "Age brings perspective. He sees patterns the young miss.",
+    "sova": "Knows where the dangers are. Useful. Very useful.",
+    "grit": "Reminds me of old sergeants. Seen too much. Still functional. Barely.",
+    "ashka": "He respects fire. Uses it wisely. Good man.",
+    "senna": "Knows secret paths. Hidden ways. Exactly what I need.",
+    "callum": "He told me a story that kept me awake for three nights. It was AMAZING!"
+  },
+  "relationship_dialog": {
+    "stranger": "New face. You want to go mining? Listen first. Then decide.",
+    "acquaintance": "You listen. Rare quality. Come back anytime.",
+    "friend": "You remind me of me. When I was younger. Braver. Foolish. But brave.",
+    "best_friend": "You've earned these. My private maps. The ones I don't show anyone. Use them wisely."
+  },
+  "cross_npc_connections": [
+    "tunneler_blue_prism: Young Blue. Stratum. Found the Great Prism. I warned him. He didn't listen.",
+    "onionboss_blue_prism: The inspector. Comes for safety advice. Smart. Listens.",
+    "twins_white_prism: The echo oracles. They know songs from the deep. Songs I never shared. Concerning."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_aurora_mystery",
+  "name": "Lights in the Dark",
+  "zone": "frost",
+  "giver": "twins_white",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The aurora has been... strange lately. Colors that shouldn't exist, patterns that almost look like writing. Old stories say the lights are messages from the First Age. Investigate the aurora's source—something in the magnetic peaks is causing this!",
+      "objective": "Journey to the Magnetic Peaks to investigate the strange aurora"
+    },
+    "progress": {
+      "dialog": "An ancient observatory! The aurora is being manipulated by a damaged First Age device! It's sending a distress signal across time! Repair it, or the magnetic disruption will cause a polar storm that could freeze the whole zone!",
+      "objective": "Repair the First Age aurora device"
+    },
+    "complete": {
+      "dialog": "The device is fixed! The aurora returns to normal—beautiful, natural, no longer desperate! Whatever distress it was signaling... maybe someone in the future will hear it. Here's a reward—and this Aurora Lens! It reveals hidden messages in light!",
+      "rewards": {
+        "exp": 950,
+        "gold": 750,
+        "item": "aurora_lens"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Fixing ancient sky machines. I'm basically an astronomer now!",
+    "twist": "The message was in a language I didn't recognize. Future speech?",
+    "nix7": "First Age temporal communication technology: partially understood."
+  }
+}

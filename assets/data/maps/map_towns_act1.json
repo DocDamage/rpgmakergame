@@ -1,0 +1,1068 @@
+{
+  "id": "OW_TOWNS_ACT1_1x1",
+  "maps": [
+    {
+      "id": "T_DUSTHAVEN_112x72",
+      "display_name": "Dusthaven",
+      "type": "town",
+      "act": 1,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_Dustbelt",
+      "music": "bgm_town_dusthaven",
+      "lighting": "warm",
+      "weather": "dust",
+      "connections": [
+        {
+          "direction": "north",
+          "target": "MIC_R01A_48x32",
+          "coords": [
+            56,
+            0
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        }
+      ],
+      "interiors": [
+        {
+          "type": "inn",
+          "target": "I_INN_DESERT_32x24",
+          "coords": [
+            30,
+            40
+          ],
+          "npc": "NPC_INNKEEPER_MALE",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_DUSTHAVEN_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_DESERT_32x24",
+          "coords": [
+            60,
+            35
+          ],
+          "npc": "NPC_MERCHANT_A",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_DUSTHAVEN_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "smith",
+          "target": "I_SMITH_DESERT_32x24",
+          "coords": [
+            80,
+            45
+          ],
+          "npc": "NPC_BLACKSMITH_KELLEN",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_DUSTHAVEN_SMITH_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_SMITH"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            20,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_DUSTHAVEN_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "secret",
+          "target": "I_SECRET_GAMBLING_24x18",
+          "coords": [
+            95,
+            25
+          ],
+          "hidden": true,
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_DUSTHAVEN_SECRET_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_BROKER_VANE",
+        "NPC_BLACKSMITH_KELLEN"
+      ],
+      "services": [
+        "shop",
+        "inn",
+        "smith",
+        "gambling"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_DUSTHAVEN_BAZAAR_BROKER",
+          "coords": [
+            18,
+            22
+          ],
+          "dialog_tree": "DT_AMBIENT_BROKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_DUSTHAVEN_SALVAGE_SMITH",
+          "coords": [
+            44,
+            54
+          ],
+          "dialog_tree": "DT_AMBIENT_SMITH"
+        },
+        {
+          "npc": "NPC_AMBIENT_DUSTHAVEN_ROADSIDE_STEWARD",
+          "coords": [
+            73,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_INNKEEPER"
+        },
+        {
+          "npc": "NPC_AMBIENT_DUSTHAVEN_SCRAP_RUNNER",
+          "coords": [
+            96,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    },
+    {
+      "id": "T_ASHVEIL_112x72",
+      "display_name": "Ashveil Sanctuary",
+      "type": "town",
+      "act": 1,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_AshveilStone",
+      "music": "bgm_town_ashveil",
+      "lighting": "warm",
+      "weather": "none",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R01B_96x40",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R02_80x48",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "south",
+          "target": "MIC_R03_104x56",
+          "coords": [
+            56,
+            71
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "north",
+          "target": "MIC_SCHOLARIUM_96x64",
+          "coords": [
+            56,
+            0
+          ]
+        }
+      ],
+      "interiors": [
+        {
+          "type": "inn",
+          "target": "I_INN_SANCTUARY_32x24",
+          "coords": [
+            25,
+            30
+          ],
+          "npc": "NPC_MIRA_THORN",
+          "shop": "SHOP_MIRA_REST",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_ASHVEIL_SANCTUARY_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "hall",
+          "target": "I_HALL_SANCTUARY_40x28",
+          "coords": [
+            56,
+            20
+          ],
+          "npc": "NPC_CAPTAIN_VARROS",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_ASHVEIL_SANCTUARY_HALL_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            85,
+            35
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_ASHVEIL_SANCTUARY_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            15,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_ASHVEIL_SANCTUARY_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_B_24x18",
+          "coords": [
+            90,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_ASHVEIL_SANCTUARY_HOUSE_B",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_MIRA_THORN",
+        "NPC_CAPTAIN_VARROS"
+      ],
+      "services": [
+        "shop",
+        "inn",
+        "quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_ASHVEIL_SANCTUARY_ATTENDANT",
+          "coords": [
+            18,
+            25
+          ],
+          "dialog_tree": "DT_AMBIENT_PRIESTESS"
+        },
+        {
+          "npc": "NPC_AMBIENT_ASHVEIL_OUTER_WARD_CAPTAIN",
+          "coords": [
+            45,
+            52
+          ],
+          "dialog_tree": "DT_AMBIENT_GUARD_CAPTAIN"
+        },
+        {
+          "npc": "NPC_AMBIENT_ASHVEIL_RIDGE_COURIER",
+          "coords": [
+            71,
+            25
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        },
+        {
+          "npc": "NPC_AMBIENT_ASHVEIL_QUIET_SCRIBE",
+          "coords": [
+            94,
+            53
+          ],
+          "dialog_tree": "DT_AMBIENT_SCRIBE"
+        }
+      ]
+    },
+    {
+      "id": "T_MIREWATCH_112x72",
+      "display_name": "Mirewatch",
+      "type": "town",
+      "act": 1,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_MireStilts",
+      "music": "bgm_town_mirewatch",
+      "lighting": "dim_bioluminescent",
+      "weather": "mist",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R03_104x56",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R04_56x36",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D2_FUNGAL_96x96",
+          "coords": [
+            56,
+            16
+          ],
+          "condition": "D1_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "infirmary",
+          "target": "I_HALL_40x28",
+          "coords": [
+            30,
+            25
+          ],
+          "npc": "NPC_SISTER_AMARA",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MIREWATCH_INFIRMARY_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_PRIESTESS"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_APOTHECARY_32x24",
+          "coords": [
+            70,
+            30
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MIREWATCH_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            20,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MIREWATCH_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "watch_platform",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            85,
+            20
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_MIREWATCH_WATCH_PLATFORM_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_SISTER_AMARA"
+      ],
+      "services": [
+        "shop",
+        "healing",
+        "quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_MIREWATCH_MIRE_ATTENDANT",
+          "coords": [
+            20,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_PRIESTESS"
+        },
+        {
+          "npc": "NPC_AMBIENT_MIREWATCH_STILT_DOCKHAND",
+          "coords": [
+            48,
+            52
+          ],
+          "dialog_tree": "DT_AMBIENT_DOCKWORKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_MIREWATCH_SPORE_RUNNER",
+          "coords": [
+            74,
+            22
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        },
+        {
+          "npc": "NPC_AMBIENT_MIREWATCH_FOG_TRACKER",
+          "coords": [
+            97,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_TRACKER"
+        }
+      ]
+    },
+    {
+      "id": "T_PRISMRIDGE_112x72",
+      "display_name": "Prismridge",
+      "type": "town",
+      "act": 1,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_PrismHighland",
+      "music": "bgm_town_prismridge",
+      "lighting": "bright",
+      "weather": "none",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R05_112x56",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R06_64x36",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D3_LABYRINTH_REFLECTIONS_80x80",
+          "coords": [
+            56,
+            16
+          ],
+          "condition": "D2_CLEARED"
+        },
+        {
+          "direction": "south",
+          "target": "MIC_R07_104x56",
+          "coords": [
+            56,
+            71
+          ],
+          "condition": "D3_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "hall",
+          "target": "I_HALL_40x28",
+          "coords": [
+            56,
+            20
+          ],
+          "npc": "NPC_OLD_KELL",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_PRISMRIDGE_HALL_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SCHOLAR"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_CRYSTAL_32x24",
+          "coords": [
+            30,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_PRISMRIDGE_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            80,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_PRISMRIDGE_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_B_24x18",
+          "coords": [
+            20,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_PRISMRIDGE_HOUSE_B",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_OLD_KELL"
+      ],
+      "services": [
+        "shop",
+        "maps",
+        "quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_PRISMRIDGE_RIDGE_SCHOLAR",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_SCHOLAR"
+        },
+        {
+          "npc": "NPC_AMBIENT_PRISMRIDGE_LEDGER_ELDER",
+          "coords": [
+            45,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SCHOLAR_ELDER"
+        },
+        {
+          "npc": "NPC_AMBIENT_PRISMRIDGE_CRYSTAL_SMITH",
+          "coords": [
+            73,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_SMITH"
+        },
+        {
+          "npc": "NPC_AMBIENT_PRISMRIDGE_PASS_CARAVANER",
+          "coords": [
+            95,
+            48
+          ],
+          "dialog_tree": "DT_AMBIENT_CARAVANER"
+        }
+      ]
+    },
+    {
+      "id": "T_CINDERSTEP_112x72",
+      "display_name": "Cinderstep",
+      "type": "town",
+      "act": 2,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_EmberBasalt",
+      "music": "bgm_town_cinderstep",
+      "lighting": "warm_orange",
+      "weather": "heat_haze",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R07_104x56",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "east",
+          "target": "MIC_R08_72x40",
+          "coords": [
+            111,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D4_BURNING_HEART_64x64",
+          "coords": [
+            56,
+            16
+          ],
+          "condition": "D3_CLEARED"
+        },
+        {
+          "direction": "special",
+          "target": "D4_CALDERA_TRIALS_96x80",
+          "coords": [
+            56,
+            24
+          ],
+          "condition": "D3_CLEARED"
+        },
+        {
+          "direction": "north",
+          "target": "MIC_R12_112x56",
+          "coords": [
+            56,
+            0
+          ],
+          "condition": "D6_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "forge",
+          "target": "I_SMITH_MASTER_32x24",
+          "coords": [
+            40,
+            30
+          ],
+          "npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CINDERSTEP_FORGE_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_SMITH"
+            }
+          ]
+        },
+        {
+          "type": "shop",
+          "target": "I_ITEMSHOP_32x24",
+          "coords": [
+            75,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CINDERSTEP_SHOP_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            20,
+            50
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CINDERSTEP_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_B_24x18",
+          "coords": [
+            90,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CINDERSTEP_HOUSE_B",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_FORGE_MASTER_GRIMJAW"
+      ],
+      "services": [
+        "shop",
+        "master_forge",
+        "quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_CINDERSTEP_EMBER_MASTER",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_MASTER_SMITH"
+        },
+        {
+          "npc": "NPC_AMBIENT_CINDERSTEP_FURNACE_TECH",
+          "coords": [
+            44,
+            51
+          ],
+          "dialog_tree": "DT_AMBIENT_WARD_TECH"
+        },
+        {
+          "npc": "NPC_AMBIENT_CINDERSTEP_ASH_COURIER",
+          "coords": [
+            71,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_COURIER"
+        },
+        {
+          "npc": "NPC_AMBIENT_CINDERSTEP_SLAG_TRACKER",
+          "coords": [
+            94,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_TRACKER"
+        }
+      ]
+    },
+    {
+      "id": "T_BRINEGATE_112x72",
+      "display_name": "Brinegate Port",
+      "type": "town",
+      "act": 2,
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "music": "bgm_town_brinegate",
+      "lighting": "bright",
+      "weather": "sea_breeze",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "MIC_R09_120x56",
+          "coords": [
+            0,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "MIC_S01_72x40",
+          "coords": [
+            90,
+            55
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ]
+        },
+        {
+          "direction": "special",
+          "target": "D5_SUNKEN_CITY_TIDES_96x96",
+          "coords": [
+            56,
+            16
+          ],
+          "condition": "D4_CLEARED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "dock_market",
+          "target": "I_ITEMSHOP_PORT_32x24",
+          "coords": [
+            60,
+            30
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_DOCK_MARKET_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "shipyard",
+          "target": "I_HALL_40x28",
+          "coords": [
+            85,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_SHIPYARD_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_SAILOR"
+            }
+          ]
+        },
+        {
+          "type": "inn",
+          "target": "I_INN_PORT_32x24",
+          "coords": [
+            30,
+            35
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "house",
+          "target": "I_HOUSE_A_24x18",
+          "coords": [
+            15,
+            55
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_SCRIBE"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_DOCKMASTER_SARAI"
+      ],
+      "services": [
+        "shop",
+        "inn",
+        "shipyard",
+        "quests"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_TIDE_SAILOR",
+          "coords": [
+            18,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_SAILOR"
+        },
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_QUAY_DOCKHAND",
+          "coords": [
+            46,
+            51
+          ],
+          "dialog_tree": "DT_AMBIENT_DOCKWORKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_PORT_BROKER",
+          "coords": [
+            73,
+            25
+          ],
+          "dialog_tree": "DT_AMBIENT_BROKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_NET_SCAVENGER",
+          "coords": [
+            96,
+            49
+          ],
+          "dialog_tree": "DT_AMBIENT_SCAVENGER"
+        }
+      ]
+    }
+  ]
+}

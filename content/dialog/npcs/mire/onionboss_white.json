@@ -1,0 +1,83 @@
+{
+  "npc_id": "onionboss_white_mire",
+  "name": "Foreman Bulbus C. White",
+  "sprite": "onionboss_white",
+  "zone": "mire",
+  "location": "Main Docks Office",
+  "personality": "bureaucratic_stressed_by_the_book",
+  "occupation": "dock_foreman",
+  "schedule": {
+    "morning": "inspecting_shipments",
+    "day": "managing_workers",
+    "evening": "paperwork"
+  },
+  "dialog": {
+    "greeting": [
+      "Papers in order? Good. Nothing happens without proper documentation!",
+      "Foreman White, Dock Authority. State your business.",
+      "These docks don't run themselves! Though sometimes I wish they would!",
+      "Do you have an appointment? No? *sigh* What do you need?",
+      "Another problem to solve. Just what I needed today.",
+      "The docks are operating at 73% efficiency. Don't ask about the other 27%.",
+      "If you're here about the union dispute, talk to my counterpart. I'm done with it.",
+      "Bulbus White, at your service. Reluctantly."
+    ],
+    "union_dispute": "The purple onionboss - my so-called 'equal' - wants to change everything. Worker safety this, fair wages that. Does he know how much paperwork 'fair' generates?!",
+    "dock_operations": "We move cargo. Boats come in, boats go out. Simple. Until the union gets involved. Then it's meetings. So many meetings.",
+    "backstory": "I inherited this position from my father. He inherited it from his father. The Whites have run these docks for generations. Then the Purples came along with their 'workers' rights' and 'dignity.' Chaos.",
+    "rumors": [
+      "The barrelgob sees things at night. Probably stealing. Someone should investigate. Not me. I have forms to file.",
+      "That snakecharmer doesn't have a permit for his performances. I've looked. But everyone's scared of the snake.",
+      "The foodboys' stalls are health code violations waiting to happen. But try getting inspectors out here.",
+      "I hear the Oily Eel's chef is experimenting again. Someone should stop him. Before someone gets hurt."
+    ],
+    "ambient_barks": [
+      "Where's my clipboard?",
+      "File that properly!",
+      "Union meeting... joy.",
+      "Shipment delayed again!",
+      "Forms! More forms!",
+      "Where's Purple now?"
+    ],
+    "time_of_day": {
+      "morning": "Morning inspection time. Everything must be logged.",
+      "noon": "Lunch break! Not for me. I eat at my desk. Like a professional.",
+      "evening": "Evening reports. The bane of my existence.",
+      "night": "Night shift takes over. Finally, some peace and quiet."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "union_dispute_white",
+    "quest_name": "The Dock Divided",
+    "stage_1_hook": "The purple onionboss - Allium - he's holding up the eastern pier with his 'safety concerns.' I need someone to... assess the situation. Neutral party. See if he's being reasonable or just difficult.",
+    "stage_1_active": "Talk to Allium. The purple onionboss. Hear his complaints. Report back. Try to stay impartial. If possible.",
+    "stage_2_progress": "You've spoken with Allium? And? What ridiculous demands is he making now?",
+    "stage_2_dialogue": "He wants WHAT? Breaks every hour? Cushioned stools? The man is DELUSIONAL! ...But maybe... maybe there's a middle ground. I suppose.",
+    "stage_3_complete": "A compromise. Fine. FINE. We'll try his 'rotating breaks' and 'ergonomic equipment.' But if productivity drops, I'm blaming both of you. Here's a token of my... gratitude. I suppose.",
+    "reward": "dock_authority_insignia"
+  },
+  "party_reactions": {
+    "kade": "This... is bureaucracy. I've missed bureaucracy. Weirdly comforting.",
+    "nix7": "Organizational structure detected. Inefficient but functional. Recommend process optimization.",
+    "twist": "He's so... STRESSED! Someone give him a hug! Not me, though. He looks prickly.",
+    "korr": "Leadership requires making hard choices. He struggles with this.",
+    "renna": "He's surrounded by minor wards. Protection against... paperwork? Interesting.",
+    "suresh": "A man trapped by duty. I pity him, even as I respect his position.",
+    "sova": "Too much talking. Not enough doing. Typical administrator.",
+    "grit": "I've dealt with officers like him. By the book, every time. Gets people killed.",
+    "ashka": "He needs to relax. I could help. Controlled burns are very relaxing.",
+    "senna": "Knows where everything goes. Valuable information. If you can get it out of him.",
+    "callum": "He seems... unhappy. Maybe he needs a vacation?"
+  },
+  "relationship_dialog": {
+    "stranger": "New face. Fill out form 27-B. In triplicate.",
+    "acquaintance": "Oh, it's you. You don't ask for much. I appreciate that.",
+    "friend": "My favorite non-employee. What can the docks do for you today?",
+    "best_friend": "Look... between us... the union isn't wrong about everything. Don't tell anyone I said that. ESPECIALLY not Purple."
+  },
+  "cross_npc_connections": [
+    "onionboss_purple: Allium. My counterpart. My headache. My... necessary annoyance.",
+    "barrelgob_green: That goblin knows things about the docks. Might be useful. Might be a thief.",
+    "pigman_brown: The tavern keeper. Neutral ground. Where we have our 'discussions.'"
+  ]
+}

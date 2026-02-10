@@ -1,0 +1,70 @@
+{
+  "npc_id": "signguy_ember",
+  "name": "Warning-Will",
+  "sprite": "signguy",
+  "zone": "ember",
+  "location": "Dangerous Crossroads",
+  "personality": "cautious_helpful",
+  "occupation": "warning_sign_painter",
+  "schedule": "daytime_work",
+  "dialog": {
+    "greeting": [
+      "STOP! Before you proceed, have you read the signs?",
+      "Warning-Will, at your service! I warn, therefore I am!",
+      "Danger ahead! But don't worry - I made SIGNS!",
+      "You look like someone who ignores signage. PLEASE don't.",
+      "Back again? Did you miss a warning? Or just appreciate my brushwork?",
+      "Welcome to Ember! Where the ground is hot and the warnings are HOTTER!",
+      "I paint warnings so you don't become a CAUTIONARY TALE!",
+      "New here? Let me catch you up: EVERYTHING'S DANGEROUS!"
+    ],
+    "warning_examples": "Let's see... 'CAUTION: MAGMA.' 'WARNING: FALLING ROCKS.' 'DANGER: SCORPIONS.' And my favorite: 'BEWARE: BAD DECISIONS!' That's more philosophical.",
+    "sign_painting_process": "First, I scout the danger. Then, I assess the risk. Then, I choose the FONT! Comic Sans for minor warnings. Bold Gothic for 'you will definitely die.'",
+    "ignored_warnings": "Last week, someone ignored my 'BRIDGE UNSAFE' sign. The bridge was unsafe. They're fine! Mostly. Sprained ankle. VALIDATED my sign!",
+    "danger_assessment": "Ember's dangers are THERMAL mostly. But also tectonic. And faunal. And... existential? The heat makes people question things.",
+    "rumor": [
+      "Tide's got drowning warnings. Very different aesthetic. Blue signs. I prefer red.",
+      "Mire's signs sink. They need floating warnings. Challenging.",
+      "Frost's warnings FREEZE. Imagine trying to paint on ice!",
+      "Prism has the prettiest signs. Crystal-etched. SHOW-OFFS."
+    ],
+    "font_philosophy": "A good warning sign is READABLE at distance! Under stress! While running! Font choice MATTERS!",
+    "farewell": [
+      "Read the signs! Trust the signs! LIVE because of the signs!",
+      "Safe travels! And by safe, I manageably dangerous!",
+      "Remember: If you don't see a sign, it doesn't mean it's safe!",
+      "Come back if you survive! I mean... WHEN you survive!"
+    ],
+    "ambient_barks": [
+      "Warning! Warning!",
+      "Read the sign!",
+      "Caution advised!",
+      "DANGER AHEAD!",
+      "Signs here! Get your warnings!",
+      "Brush is dry! Need more paint!"
+    ],
+    "time_dawn": "Morning sign check! Making sure nothing melted overnight!",
+    "time_noon": "Peak danger time! Most heat-related incidents! Stay vigilant!",
+    "time_dusk": "Evening sign inspection! Shadows hide dangers!",
+    "time_night": "Night warnings! Glow-in-the-dark paint application!"
+  },
+  "party_reactions": {
+    "kade": "Your work is... literally life-saving. Thank you.",
+    "nix7": "Warning system efficiency: 78%. Could improve with standardized symbology.",
+    "twist": "SIGNS! I love signs! Can I help paint one?!",
+    "korr": "Clear warnings save lives. Good work.",
+    "renna": "Do you ever enchant the signs? For extra visibility?",
+    "suresh": "To warn others of danger is a service to the community.",
+    "sova": "I read signs. Most don't. Natural selection.",
+    "grit": "We needed you in the war. Too many 'surprise' dangers.",
+    "ashka": "Signs are good! But fire teaches faster!",
+    "senna": "I ignore signs. But I notice them. Good placement.",
+    "callum": "Thank you for the warnings! I'll be careful!"
+  },
+  "relationship_dialog": {
+    "stranger": "New here? Read EVERY sign. Twice.",
+    "acquaintance": "You're still alive! My signs work!",
+    "friend": "My favorite survivor! How are the signs holding up?",
+    "best_friend": "For you? Personal warning service. I'll follow you around with a signboard!"
+  }
+}

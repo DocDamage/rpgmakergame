@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_RIMEHOLD_HALL_SCHOLAR",
+  "name": "Rimehold Hall Scholar",
+  "title": "Field Scholar",
+  "location": "T_RIMEHOLD_112x72",
+  "coords": [
+    18,
+    23
+  ],
+  "schedule": {
+    "day": [
+      18,
+      23
+    ],
+    "night": [
+      17,
+      25
+    ],
+    "rain": [
+      19,
+      24
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_terminal_operator_portrait",
+  "dialog_tree": "DT_AMBIENT_SCHOLAR",
+  "shop": null,
+  "quests": [],
+  "faction": "RIMEHOLD_ARCHIVES",
+  "attitude": "neutral",
+  "background": "Studies Foundation instability and terminal anomalies. Stationed in Rimehold.",
+  "personality": "Curious, methodical, and occasionally unhinged.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "lore",
+    "analysis"
+  ]
+}

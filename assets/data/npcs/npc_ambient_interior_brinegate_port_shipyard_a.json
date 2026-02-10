@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_SHIPYARD_A",
+  "name": "Brinegate Port Shipyard Resident",
+  "title": "Dock Sailor",
+  "location": "I_HALL_40x28",
+  "coords": [
+    20,
+    14
+  ],
+  "schedule": {
+    "day": [
+      20,
+      14
+    ],
+    "night": [
+      18,
+      13
+    ],
+    "rain": [
+      22,
+      14
+    ]
+  },
+  "sprite": "NPC_SAILOR_F",
+  "portrait": "spr_sarai_portrait",
+  "dialog_tree": "DT_AMBIENT_SAILOR",
+  "shop": null,
+  "quests": [],
+  "faction": "BRINEGATE_PORT",
+  "attitude": "friendly",
+  "background": "Works sea lanes and harbor logistics. Based inside I_HALL_40x28.",
+  "personality": "Blunt, weathered, and darkly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "sea_routes",
+    "dock_rumors"
+  ]
+}

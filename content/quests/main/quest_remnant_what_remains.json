@@ -1,0 +1,148 @@
+{
+  "quest_id": "remnant_what_remains",
+  "name": "What Remains",
+  "zone": "remnant",
+  "act": "post_game",
+  "prerequisites": [
+    "palace_progenitor_will"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The Edge of Memory",
+      "description": "Journey to Remnant, where echoes of the old world linger",
+      "npc": "remnant_keeper_echoes",
+      "dialog_start": "Welcome to Remnant, Savior. We are what remains of what was. Memories given form. Echoes of the world before the choice. Not ghosts—we're more like... impressions. Moments that mattered too much to fade. We've been waiting for you. There are things here you need to see. Things you need to understand.",
+      "objectives": [
+        "Enter the Remnant zone",
+        "Meet the Keepers of Echoes",
+        "Learn what persists after transcendence"
+      ],
+      "dialog_complete": "You feel it, don't you? The weight of what was. The old world. The choices not taken. The paths not walked. They're all here. Preserved. Not alive, not dead—just... remembered. And some of them want to talk to you.",
+      "rewards": {
+        "exp": 6000,
+        "item": "echo_sight_blessing"
+      },
+      "target_location_id": "RV_EDGE_OF_MEMORY_96x80"
+    },
+    {
+      "stage": 2,
+      "name": "Ghosts of Paths Not Taken",
+      "description": "Encounter echoes of what would have happened with different choices",
+      "npc": "shadow_of_destroy_path",
+      "dialog_start": "[A Kade who chose differently—harder, more desperate] So you chose Transcendence. Pretty. Hopeful. I chose Destroy. Killed the Void, stopped the Unraveling. Saved the world... for three days. Then reality unraveled anyway. Wrong choice. But I don't regret it. I did what I thought was right. Just like you.",
+      "objectives": [
+        "Meet the Destroy-path echo",
+        "Meet the Merge-path echo",
+        "Understand the weight of all choices"
+      ],
+      "dialog_complete": "All choices had costs. All choices had meaning. I Destroyed. They Merged. You Transcended. None of us were wrong. All of us tried. That's what matters. Trying. Caring. Doing what we thought was right, even when it hurt.",
+      "rewards": {
+        "exp": 7000,
+        "item": "path_not_taken_wisdom"
+      },
+      "target_location_id": "RV_WING_A_96x64"
+    },
+    {
+      "stage": 3,
+      "name": "The Lost Companions",
+      "description": "Encounter echoes of companions who didn't survive the journey",
+      "npc": "echo_of_fallen_ally",
+      "dialog_start": "[Familiar faces, half-remembered] You don't recognize me, do you? In your world, I survived. In mine... I died. In the fight for the Capital. You carried on without me. Saved everything. I'm glad. I'm so glad. But I wanted you to know—I don't regret it. My choice. My sacrifice. Worth it, for this world.",
+      "objectives": [
+        "Honor the fallen echoes",
+        "Hear their stories",
+        "Carry their memory forward"
+      ],
+      "dialog_complete": "They're at peace. The echoes fade, grateful to be remembered. Every world, every choice, had its sacrifices. Its heroes who didn't make it to the end. But they mattered. They ALL mattered. And we'll remember them. Always.",
+      "rewards": {
+        "exp": 7500,
+        "item": "memorial_of_the_fallen"
+      },
+      "target_location_id": "RV_WING_B_96x64"
+    },
+    {
+      "stage": 4,
+      "name": "The Unraveling Revealed",
+      "description": "Learn the true nature of the threat the Void was created to fight",
+      "npc": "remnant_keeper_echoes",
+      "dialog_start": "You know the Void was created to fight the Unraveling. But do you know what the Unraveling IS? It's not malevolent. Not evil. It's... inevitable. Entropy given consciousness. The slow realization that all stories end. The Void was our defense. Flawed, hungry, but genuine protection. Look. See. Understand.",
+      "objectives": [
+        "Witness the Unraveling's true nature",
+        "Understand the cosmic balance",
+        "Make peace with entropy"
+      ],
+      "dialog_complete": "[The truth unfolds, vast and terrifying and somehow beautiful] Everything ends. That's not cruelty—that's what makes the journey matter. The Void fought to extend the story. We fought to improve it. Both were right. Both were necessary. Balance. Always balance.",
+      "rewards": {
+        "exp": 8000,
+        "item": "cosmic_understanding"
+      },
+      "target_location_id": "RV_CORE_64x64"
+    },
+    {
+      "stage": 5,
+      "name": "The Keeper's Request",
+      "description": "Help the Echoes find peace and release them to move on",
+      "npc": "echo_of_first_progenitor",
+      "dialog_start": "[The First, as they were in the old world—tired, guilty, hopeful] You've come full circle, haven't you? From Dustbelt orphan to World-Savior. I'm proud of you. Proud of what you chose. But I have one last request. The Echoes here... we need to move on. To let go. Help us. Help us rest, knowing the world is in good hands.",
+      "objectives": [
+        "Perform the Release Ritual",
+        "Help all Echoes find closure",
+        "Grant the old world peace"
+      ],
+      "dialog_complete": "[The Echoes fade, smiling, at peace] Thank you. For everything. For saving what we couldn't. For choosing better than we did. For being the hope we dreamed of. Go now. Live. Love. Build. And when your story ends... know that it mattered. That YOU mattered. Always.",
+      "rewards": {
+        "exp": 10000,
+        "item": "peace_of_the_past"
+      },
+      "target_location_id": "RV_GATEHOUSE_96x72"
+    },
+    {
+      "stage": 6,
+      "name": "What Remains Is Hope",
+      "description": "Return to the new world, carrying all that came before",
+      "npc": "kade",
+      "dialog_start": "[You stand at the edge of Remnant, looking back at the new world] Everything we did. Everyone we lost. Every choice we made. It all matters. It all stays with us. Not as chains, but as foundations. We build on the past. We honor it by moving forward. By living. By loving. By hoping.",
+      "objectives": [
+        "Return to the new world",
+        "Share what you learned",
+        "Begin the next adventure"
+      ],
+      "dialog_complete": "[The credits roll, showing scenes of the rebuilt world: children playing, cities thriving, nature restored] Chroma's Edge: A story of choices. Of hope. Of finding light in the darkest places. Thank you for playing. The world you saved is beautiful. And it's only the beginning.",
+      "rewards": {
+        "exp": 15000,
+        "gold": 20000,
+        "unlock": "true_ending"
+      },
+      "target_location_id": "OW_ORION_320x180"
+    }
+  ],
+  "story_beats": [
+    "Remnant contains echoes of alternate timelines and choices not taken",
+    "The player encounters versions of themselves who made different choices",
+    "Echoes of fallen companions honor their sacrifices",
+    "The true nature of the Unraveling is revealed—not evil, but inevitable entropy",
+    "The player helps the Echoes find peace, releasing the old world to rest",
+    "The true ending celebrates the journey and the choices made"
+  ],
+  "party_reactions": {
+    "kade": "Meeting myself—other versions of myself—was weird. They made different choices. Some better, some worse. But all of us tried. All of us cared. That's what I'm taking from this. It's not about being perfect. It's about showing up. Trying. Caring. Even when it's hard. Especially when it's hard.",
+    "nix7": "I found echoes of other Nix units. Nix-1 through Nix-6. They all failed. Died. Were forgotten. I'm Nix-7. The last. The one who made it. I carry them with me. Their data. Their hopes. Their dreams. I won't forget them. I'm the legacy of all who came before.",
+    "skysong": "There was an echo of me who never left the pirates. Who became Captain Bloodwind's successor. Cruel. Empty. Rich. She looked at me with such contempt. 'Soft,' she called me. 'Weak.' Maybe. But I'm happy. She's not. I'll take soft and happy over hard and hollow any day.",
+    "vesper": "The scientific implications of Remnant are EXTRAORDINARY! Parallel timeline echoes! Quantum choice residues! If I could just STAY here and study—but no. No. The living world needs me. The dead past can wait. Science serves life, not the other way around. Finally learned that lesson.",
+    "ven": "I met swamp-me. The me who never left. Who's still there, talking to frogs, afraid of everything. They looked at me—at who I became—with such wonder. Such longing. I told them... I told them it's never too late. To leave. To grow. To become. I hope they listened.",
+    "pyra": "There was an echo of Ember. Burned. Conquered. Ash. In that timeline, I died defending Father. Failed. But the echo said they were proud of me. Proud of who I became in THIS timeline. That I learned what they tried to teach. Fire isn't destruction. Fire is transformation.",
+    "abyssal": "I met my younger self. Before the Shattering. Arrogant. Certain. Powerful. He looked at current-me with pity. 'Weak,' he said. 'Small.' But I look at him with compassion. He doesn't know the loneliness to come. The growth through pain. I'm not weaker. I'm wiser. There's a difference.",
+    "gearhart": "Echo-me never left the Consortium. Became their greatest engineer. Built weapons. Hurt people. Died rich and hated. Looked at me with such envy. 'You got redemption,' he said. 'You got purpose.' I nodded. 'It's never too late,' I told him. But for echoes... I guess it is. So I'm grateful. For my second chance.",
+    "blizzard": "I met my family. The real ones, not the Void's imitation. They were proud. Happy. At peace. Said they never blamed me for surviving. Wanted me to live. To thaw. To love again. I cried. First time since... since ever, maybe. Good crying. Healing crying. I'm ready to warm up now.",
+    "echo": "I'm real here. In Remnant, I'm solid. Not temporal flux, not possibility. ME. The Keeper said it's because I was always meant to record, to remember. And in a place of echoes, the recorder becomes real. I don't want to leave. But... the new world needs historians too. I'll go. But I'll visit.",
+    "sovereign": "I met the Sovereign who chose Merge. Who became one with the Void. Powerful. Terrifying. Empty. They said power was worth any price. I disagreed. We argued. In the end, they just looked sad. 'You'll learn,' they said. I don't think I will. I don't think I want to."
+  },
+  "unlocks": [
+    "true_ending_cinematic",
+    "new_game_plus_plus",
+    "developer_commentary",
+    "concept_art_gallery",
+    "final_party_banter"
+  ]
+}

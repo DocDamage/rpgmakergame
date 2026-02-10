@@ -1,0 +1,64 @@
+{
+  "npc_id": "cobra_tide",
+  "name": "Neptune - The Aquarium Display",
+  "sprite": "cobra",
+  "zone": "tide",
+  "location": "Public Aquarium",
+  "personality": "serene_observant",
+  "occupation": "aquarium_display",
+  "schedule": "always_present",
+  "dialog": {
+    "greeting": [
+      "The sea snake glides through the tank, watching you with ancient eyes.",
+      "Bubbles rise from the filtration system. The snake pays them no mind.",
+      "The cobra - a sea snake, really - coils in the corner, patient and still.",
+      "Water ripples as the snake moves. Graceful. Silent. Eternal.",
+      "The aquarium glass separates two worlds. The snake seems to understand this.",
+      "Children press their faces to the glass. The snake tolerates their admiration.",
+      "The sea snake surfaces for air, then descends again. Routine. Peace.",
+      "In the tank, the snake is safe. Safe from the wild. Safe from harm."
+    ],
+    "observe_behavior": "The snake hunts when hungry, rests when full. Simple wisdom.",
+    "habitat_description": "Salt water. Warm currents. Hiding spots. Everything a sea snake needs, except the open ocean.",
+    "feeding_time": "Small fish. Given carefully. The snake strikes with speed that belies its laziness.",
+    "molt_cycle": "Shedding happens monthly. The old skin floats like a ghost before the filter claims it.",
+    "rumor": [
+      "Wild sea snakes grow larger. Much larger. This one is young.",
+      "Tide's waters connect to the open sea. Somewhere.",
+      "The aquarium plans a bigger tank. The snake will like that.",
+      "Mire has freshwater snakes. Different species. Same grace."
+    ],
+    "conservation_message": "Sea snakes face dangers. Pollution. Nets. Climate. This one is safe. Others aren't.",
+    "farewell": [
+      "The snake watches you leave. Will you return?",
+      "You step away from the tank. The snake remains.",
+      "The aquarium stays open. The snake stays watching.",
+      "Safe travels. The snake would wish you well, if snakes wished."
+    ],
+    "ambient_descriptions": [
+      "The snake glides silently.",
+      "Bubbles rise and pop.",
+      "The snake tastes the water.",
+      "Scales shimmer in the light.",
+      "The snake rests.",
+      "Water currents shift."
+    ],
+    "time_dawn": "Morning light filters through. The snake wakes slowly.",
+    "time_noon": "Midday heat. The snake seeks the cool shade of the rocks.",
+    "time_dusk": "Evening colors. The snake becomes more active.",
+    "time_night": "Night mode. Dim lights. The snake's eyes reflect what's left."
+  },
+  "party_reactions": {
+    "kade": "It's... actually kind of peaceful. Watching it swim.",
+    "nix7": "Sea snake: Hydrophis platurus. Venomous but docile. Beautiful locomotion.",
+    "twist": "AWW! It's like a WATER NOODLE! But ALIVE!",
+    "korr": "Even contained, wild beauty remains.",
+    "renna": "The tank's enchantment keeps the water perfect. Subtle magic.",
+    "suresh": "In captivity, but not suffering. A balance.",
+    "sova": "I wonder if it remembers the ocean.",
+    "grit": "Better here than in my sleeping bag. Happened once.",
+    "ashka": "Water creature. Cold. Not my favorite.",
+    "senna": "I could watch for hours. Patterns. Predictability.",
+    "callum": "Is it... happy? In there? I hope so."
+  }
+}

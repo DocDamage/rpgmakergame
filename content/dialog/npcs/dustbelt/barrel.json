@@ -1,0 +1,86 @@
+{
+  "npc_id": "barrel_dustbelt",
+  "name": "Just a Barrel",
+  "sprite": "barrel",
+  "zone": "dustbelt",
+  "location": "Behind Trading Post",
+  "personality": "suspiciously_aware",
+  "occupation": "storage_container",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*wooden silence*",
+      "*slight creak*",
+      "*definitely just a barrel*",
+      "*unusual shadows*",
+      "*contains items maybe*"
+    ],
+    "examine": [
+      "It's a barrel.",
+      "Oak construction. Sturdy.",
+      "Smells like... pickles?",
+      "Has a small label: 'Property of B.B.'",
+      "There's a peephole. Wait, no. Just a knot in the wood. Probably.",
+      "Sealed tight. Contents unknown.",
+      "Seems to shift slightly when not observed."
+    ],
+    "kick": [
+      "*hollow thud*",
+      "*something moves inside*",
+      "*indignant creak*",
+      "*definitely empty. definitely.*"
+    ],
+    "open": [
+      "It's locked from the inside. Wait, that can't be right.",
+      "The lid won't budge.",
+      "Requires a special key. Barrel-shaped.",
+      "A voice whispers: 'Not yet...' Probably the wind."
+    ],
+    "rumor": [
+      "Some say it walks at night.",
+      "Barrelman Bob won't sell this one. 'Special inventory,' he says.",
+      "A barrelgob was seen talking to it. Then went inside. Never came out.",
+      "The luchadors use it for training. It hits back."
+    ],
+    "time_night": "*subtle movement* *moonlight reflects oddly*",
+    "time_day": "*normal barrel behavior*",
+    "if_barrelgob_present": "*excited wobble* *recognition creak*",
+    "if_party_has_barrel": "*kinship detected* *barrel solidarity*",
+    "secret": "The barrel knows. The barrel remembers. The barrel... waits.",
+    "ambient_barks": [
+      "...",
+      "*wood settling*",
+      "*mysterious silence*",
+      "*existential barrel-ness*",
+      "*probably empty*"
+    ]
+  },
+  "party_reactions": {
+    "kade": "It's... definitely a barrel. Right?",
+    "nix7": "Scanning inconclusive. Error: unable to determine if barrel is barrel.",
+    "twist": "Hello barrel! ...Why am I talking to a barrel?",
+    "korr": "There is... something about this barrel.",
+    "renna": "I sense magic. Faint. Old. Barrel-shaped."
+  },
+  "relationship_dialog": {
+    "stranger": "*neutral barrel stance*",
+    "acquaintance": "*familiar creak*",
+    "friend": "*welcoming wobble*",
+    "best_friend": "*reveals true nature... eventually*"
+  },
+  "mini_quest": {
+    "id": "the_walking_barrel",
+    "title": "The Walking Barrel",
+    "description": "Investigate the mysterious moving barrel",
+    "stages": {
+      "hook": "*the barrel seems to want something*",
+      "active": "*follow the barrel's movements*",
+      "complete": "*the barrel's secret is revealed... to those patient enough*"
+    },
+    "reward": {
+      "item": "barrel_key",
+      "gold": 0,
+      "reputation": "barrel_whisperer"
+    }
+  }
+}

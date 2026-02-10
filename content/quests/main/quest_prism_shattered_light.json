@@ -1,0 +1,140 @@
+{
+  "quest_id": "prism_shattered_light",
+  "name": "Shattered Light",
+  "zone": "prism",
+  "act": 2,
+  "prerequisites": [
+    "mire_sinking_truth"
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "name": "The City of Glass",
+      "description": "Enter Prism and navigate its transparent architecture",
+      "npc": "prism_gate_captain",
+      "dialog_start": "Halt! State your business in the City of Eternal Light! ...Progenitor artifacts? Void corruption? You're either the bravest fools I've met or the most dangerous liars. The Regent will want to hear this. But know this—Prism does not tolerate deception. Our walls are glass, and so are our souls. We hide nothing.",
+      "objectives": [
+        "Pass the Truth Gate",
+        "Navigate the Transparent Districts",
+        "Gain audience with the Regent"
+      ],
+      "dialog_complete": "The True Lens reacts to our Prism Heart? Interesting. Very interesting. Come, the Regent holds court in the Crystal Spire. She has... been expecting someone. Though I wonder if she expected you quite so... rustic.",
+      "rewards": {
+        "exp": 800,
+        "item": "prism_city_map"
+      },
+      "target_location_id": "T_PRISMRIDGE_112x72"
+    },
+    {
+      "stage": 2,
+      "name": "The Regent's Revelation",
+      "description": "Meet with Regent Caelum and learn of the Crystal of Truth",
+      "npc": "regent_caelum",
+      "dialog_start": "So. The 'Bearer of Unity' walks into my court, escorted by outcasts and machines. The prophecies didn't mention that part. I am Caelum, Regent of Prism and Keeper of the Crystal of Truth. Yes, we have it. No, you cannot simply take it. Power requires proof. Show me you are worthy.",
+      "objectives": [
+        "Present your case to Regent Caelum",
+        "Submit to the Truth Prism",
+        "Reveal your true intentions"
+      ],
+      "dialog_complete": "The Truth Prism shows no deception. You truly believe you can save Chroma. How... refreshing. The Crystal of Truth is hidden within the Labyrinth of Reflections—a maze that shows travelers their true selves. Many enter. Few emerge unchanged. Are you prepared to see yourself, truly?",
+      "rewards": {
+        "exp": 1000,
+        "item": "labyrinth_key"
+      },
+      "target_location_id": "T_PRISMRIDGE_112x72"
+    },
+    {
+      "stage": 3,
+      "name": "Mirror of the Soul",
+      "description": "Navigate the Labyrinth of Reflections and face your inner truths",
+      "npc": "mirror_warden",
+      "dialog_start": "Welcome to the Labyrinth, seeker. Here, glass does not merely reflect—it reveals. Your fears, your failures, your secret hopes. The path changes based on who walks it. Stay true to yourself, or be lost forever in reflections of what might have been.",
+      "objectives": [
+        "Navigate the shifting maze",
+        "Conquer each party member's reflection trial",
+        "Reach the Crystal Chamber"
+      ],
+      "dialog_complete": "You emerge whole. Many break in there—seeing themselves as they truly are destroys the weak. But you... you accepted your flaws. Turned them into strength. The Crystal of Truth will answer to one such as you. Proceed, worthy bearer.",
+      "rewards": {
+        "exp": 1500,
+        "item": "truth_echo_fragment"
+      },
+      "target_location_id": "D3_LABYRINTH_REFLECTIONS_80x80"
+    },
+    {
+      "stage": 4,
+      "name": "The Crystal Awakens",
+      "description": "Claim the Crystal of Truth and witness its power",
+      "npc": "crystal_of_truth",
+      "dialog_start": "[A voice resonates directly in your mind, crystalline and ancient] AT LAST. A BEARER WORTHY OF THE LIGHT. I AM THE FIRST OF SEVEN. I SEE ALL TRUTH AND PIERCE ALL LIES. TAKE ME, BEARER, AND KNOW THAT DECEPTION CANNOT STAND IN MY PRESENCE. THE VOID'S LIES WILL CRUMBLE BEFORE US.",
+      "objectives": [
+        "Approach the Crystal of Truth",
+        "Prove worthiness through honest intent",
+        "Form the bond with the Crystal"
+      ],
+      "dialog_complete": "[The Crystal bonds to your soul, filling you with clarity] THE PACT IS SEALED. I AM YOURS, AND YOU ARE MINE. TOGETHER, WE SHALL ILLUMINATE THE SHADOWS. BUT BEWARE, BEARER—THE VOID KNOWS I HAVE AWAKENED. IT WILL SEND ITS CHAMPIONS TO CLAIM ME. STAY VIGILANT.",
+      "rewards": {
+        "exp": 2000,
+        "item": "crystal_of_truth"
+      },
+      "target_location_id": "D3_CRYSTAL_96x96"
+    },
+    {
+      "stage": 5,
+      "name": "Shadows in the Glass",
+      "description": "Defend Prism from a Void infiltration",
+      "npc": "regent_caelum",
+      "dialog_start": "EMERGENCY! The Void somehow breached our defenses—the Crystal's awakening must have drawn them like moths to flame! But these aren't monsters... they're people. Citizens. Corrupted from within! The Void has been HIDING in my city, waiting! Kade, use the Crystal—reveal them!",
+      "objectives": [
+        "Use the Crystal of Truth to reveal hidden Void agents",
+        "Defeat the Void-touched citizens",
+        "Protect the Prism Heart"
+      ],
+      "dialog_complete": "The Crystal's light... it burned the corruption away without harming the hosts! By the First Light, it's a weapon AND a cure! You've saved thousands today, Kade. Prism owes you a debt beyond measure. Whatever you need—soldiers, supplies, sanctuary—it is yours.",
+      "rewards": {
+        "exp": 1800,
+        "item": "prism_military_support"
+      },
+      "target_location_id": "T_PRISMRIDGE_112x72"
+    },
+    {
+      "stage": 6,
+      "name": "The Ember Challenge",
+      "description": "Learn of the Crystal of Strength in the volcanic lands",
+      "npc": "regent_caelum",
+      "dialog_start": "You have the Crystal of Truth. Five remain hidden. The next closest lies in Ember—the volcanic lands to the north. But beware—the Emberfolk respect only strength. They hold trials, arena combat, tests of endurance. Diplomacy will not serve you there. You must fight.",
+      "objectives": [
+        "Study the route to Ember",
+        "Receive the Regent's blessing",
+        "Prepare for the trials ahead"
+      ],
+      "dialog_complete": "The path to Ember is fraught with danger—ash storms, lava flows, and the Emberfolk themselves. But you carry Truth now. That is no small thing. Go, Bearer. Show the world that the Void can be fought. Show them there is still hope.",
+      "rewards": {
+        "exp": 1200,
+        "gold": 800,
+        "unlock": "zone_ember"
+      },
+      "target_location_id": "MIC_R07_104x56"
+    }
+  ],
+  "story_beats": [
+    "The party enters Prism, a city where transparency is valued above all",
+    "The Labyrinth of Reflections forces each party member to confront their true selves",
+    "The Crystal of Truth is obtained—the first of the Seven Crystals",
+    "The Crystal can both detect AND cure Void corruption, revealing a path to save the infected",
+    "The Crystal of Strength in Ember is identified as the next objective"
+  ],
+  "party_reactions": {
+    "kade": "The Labyrinth... I saw my parents. They died when I was a baby, but I saw them. They said they were proud of me. I don't know if it was real or just a reflection, but... I choose to believe it was real. I have to believe they would be proud.",
+    "nix7": "Fascinating. My 'reflection' showed me as fully organic—a human woman named 'Nix.' She said I was her dream of a better future. Emotional response detected. Analyzing... analysis inconclusive. I think I liked her.",
+    "skysong": "I've spent years running from who I was. The Labyrinth made me face it—all the people I betrayed, all the cargo I smuggled for the Void without knowing. But it also showed me who I could be. Who I CHOOSE to be. That's worth more than gold.",
+    "vesper": "My reflection tried to convince me I was wasting my talents on 'heroics.' That I should return to pure research, let others do the bleeding. I told her... I told HER to shut up. The best science serves people, not the other way around. I think I needed to hear that.",
+    "ven": "I saw myself still in the swamp. Old, bitter, watching everything I loved die while I did nothing. It terrified me more than any monster. I won't become that person. I can't."
+  },
+  "unlocks": [
+    "zone_ember",
+    "quest_ember_trial_by_fire",
+    "crystal_truth_ability",
+    "void_cure_possible"
+  ]
+}

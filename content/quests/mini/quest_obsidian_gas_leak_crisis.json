@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_obsidian_gas_leak_crisis",
+  "name": "Poison in the Pipes",
+  "zone": "obsidian",
+  "giver": "barrelgob_black",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "Gas leak in Sector 4! Toxic fumes spreading! Workers are trapped, and the emergency valves are jammed! We need someone with a sealed suit or magic protection to go in and seal the leak before the whole sector evacuates!",
+      "objective": "Enter Sector 4 and seal the gas leak"
+    },
+    "progress": {
+      "dialog": "The main valve is jammed by a cave-in! You'll need to clear the debris, but the gas is making you dizzy! Work fast—every second counts! The trapped workers are running out of air!",
+      "objective": "Clear the debris and seal the main valve"
+    },
+    "complete": {
+      "dialog": "The leak is sealed! The workers are saved! The entire sector is in your debt! The Safety Board awards you this Hazmat Seal of Honor—and this portable Breathing Apparatus for future emergencies!",
+      "rewards": {
+        "exp": 900,
+        "gold": 750,
+        "item": "portable_breathing_apparatus"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Hard to swing a sword when you can't breathe. Managed though!",
+    "twist": "I held my breath for three minutes. New personal record.",
+    "nix7": "Hazardous environment survival: confirmed. Rescue: successful."
+  }
+}

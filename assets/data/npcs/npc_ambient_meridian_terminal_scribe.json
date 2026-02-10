@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MERIDIAN_TERMINAL_SCRIBE",
+  "name": "Meridian Terminal Scribe",
+  "title": "Contract Scribe",
+  "location": "T_MERIDIAN_112x72",
+  "coords": [
+    44,
+    50
+  ],
+  "schedule": {
+    "day": [
+      44,
+      50
+    ],
+    "night": [
+      42,
+      51
+    ],
+    "rain": [
+      44,
+      52
+    ]
+  },
+  "sprite": "NPC_SCHOLAR",
+  "portrait": "spr_velm_portrait",
+  "dialog_tree": "DT_AMBIENT_SCRIBE",
+  "shop": null,
+  "quests": [],
+  "faction": "MERIDIAN_GUILD",
+  "attitude": "neutral",
+  "background": "Records transactions, permits, and legal notices. Stationed in Meridian.",
+  "personality": "Formal, exact, and unexpectedly funny.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "paperwork",
+    "records"
+  ]
+}

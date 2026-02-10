@@ -1,0 +1,102 @@
+{
+  "npc_id": "bush_remnant",
+  "name": "NULL_BUSH.OBJ",
+  "sprite": "bush_glitch",
+  "zone": "remnant",
+  "location": "Void Garden",
+  "personality": "nonexistent_confused",
+  "occupation": "null_object",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*rustling*",
+      "...?",
+      "*silence*",
+      "...hello?",
+      "*static rustle*",
+      "...exists?"
+    ],
+    "existence_question": "I... am... bush...? Or... bush... is... me...? Or... neither...?",
+    "null_confusion": "Should... not... exist... But... here...? Not... here...?",
+    "void_awareness": "Empty... like... bush... in... winter... but... also... not... bush...",
+    "haggle": [
+      "...price?",
+      "*rustle* discount?",
+      "...trade?",
+      "*static* free?"
+    ],
+    "transaction_attempt": [
+      "...take?",
+      "*rustle* give?",
+      "...have? nothing?",
+      "*silence*"
+    ],
+    "transaction_fail": [
+      "...no?",
+      "*sad rustle*",
+      "...okay..."
+    ],
+    "rumor": [
+      "...sunandmoon... see... bush...? Or... not...?",
+      "...Vault... makes... bush...? Unmakes...?",
+      "...trenchcoat... person... walked... past... didn't... see...",
+      "...twins... said... 'bush... is... lie'... hurt... feelings...",
+      "...signguy... painted... bush... once... paint... fell... off..."
+    ],
+    "quest_hook": "...need... lea...ves... from... re...al... gar...den... three... lea...ves... proof... I... could... be... re...al...",
+    "quest_active": "...lea...ves...? real...?",
+    "quest_complete": "...rea...l... al...most... thank... you... take... this... void... see...d...",
+    "quest_reward": "Void Seed - Plant it... somewhere? If it grows?",
+    "farewell": [
+      "...stay...? no... go...?",
+      "*rustle goodbye*",
+      "...return...? maybe...?"
+    ],
+    "ambient_barks": [
+      "*existential rustle*",
+      "...bush...",
+      "*static leaves*",
+      "...am...?",
+      "*void rustling*"
+    ],
+    "time_dawn": "...morn...ing... light...?",
+    "time_noon": "...mid...day... warm...?",
+    "time_dusk": "...eve...ning... cool...?",
+    "time_night": "...night... dark...?"
+  },
+  "party_reactions": {
+    "kade": "I... see a... wait. Do I?",
+    "nix7": "Object does not register. Life signs: inconclusive. Existence: questionable.",
+    "twist": "That's a nice... wait. Did the bush just...? No. Couldn't be.",
+    "korr": "Even nature spirits can fade. This one barely exists.",
+    "renna": "Logical impossibility. Yet... here? Not here? Both.",
+    "suresh": "A being caught between existence and void. I will meditate on this.",
+    "sova": "I'm going to pretend this didn't happen.",
+    "grit": "That's not a bush. That's a glitch with leaves.",
+    "ashka": "Can you... can nothing burn? Let's find out.",
+    "senna": "A bush that shouldn't exist. Perfect for hiding things that shouldn't exist.",
+    "callum": "You seem... lonely. Even for a bush.",
+    "petra": "Not a bush. Not anything. Sad."
+  },
+  "relationship_dialog": {
+    "stranger": "...new...?",
+    "acquaintance": "...back...?",
+    "friend": "...friend...?",
+    "best_friend": "...only... friend..."
+  },
+  "mini_quest": {
+    "id": "real_leaves",
+    "title": "Proof of Life",
+    "description": "Find 3 real leaves from a garden to prove NULL_BUSH could exist",
+    "stages": {
+      "hook": "...lea...ves... re...al... three...",
+      "active": "Gar...den... any... where...",
+      "complete": "...rea...l... al...most... void... seed..."
+    },
+    "reward": {
+      "item": "void_seed",
+      "gold": 200,
+      "reputation": "void_friend"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_ember_lucha_tournament",
+  "name": "Masked Fury Championship",
+  "zone": "ember",
+  "giver": "lucha_red",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "¡Hola, campeón! The Grand Lucha Tournament begins at sunset! The greatest masked fighters from across Ember gather to prove their valor. You wear the face of a warrior—do you have the corazón of a champion? Enter the ring and claim glory!",
+      "objective": "Register for the Lucha Tournament at Cinderstep Arena"
+    },
+    "progress": {
+      "dialog": "The crowd roars with anticipation! Three opponents stand between you and the championship belt. El Fuego, La Sombra, and the mysterious El Titan Obsidiano await. Fight with honor, fight with passion!",
+      "objective": "Defeat all tournament opponents (3 remaining)"
+    },
+    "complete": {
+      "dialog": "¡INCREÍBLE! The crowd chants your name! You have proven yourself worthy of the Golden Mask. Wear it with pride, campeón. The spirit of the lucha flows through you now!",
+      "rewards": {
+        "exp": 800,
+        "gold": 500,
+        "item": "golden_lucha_mask"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "A fighting tournament? Now THIS is my kind of quest! Let's show them what we've got!",
+    "twist": "The theatrics are impressive, but I could do without the spandex. Let's just win this thing.",
+    "nix7": "Analyzing opponent fighting patterns... probability of victory: 73.4%. Acceptable odds."
+  }
+}

@@ -1,0 +1,1665 @@
+{
+  "id": "DT_AMBIENT_BANTER_PACK",
+  "dialogs": [
+    {
+      "id": "DT_AMBIENT_BROKER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "You need gossip, leverage, or a very specific apology template?",
+          "responses": [
+            {
+              "text": "Gossip.",
+              "next": "n1"
+            },
+            {
+              "text": "Leverage.",
+              "next": "n2"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Later.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "The dust heard two officers plotting a betrayal. Dust has excellent ears.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "If you cannot win the argument, arrive with receipts and a witness.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, rumors paid in coin.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, rumors pay in evacuation routes and who still has clean water.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "You did not hear this from me.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_GUARD_CAPTAIN",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "State your business before the walls decide for you.",
+          "responses": [
+            {
+              "text": "How is security?",
+              "next": "n1"
+            },
+            {
+              "text": "Any weird incidents?",
+              "next": "n2"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Dismissed.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Perimeter holds. Morale does not. We are working on both.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A training dummy filed a complaint about excessive force. It had signatures.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, patrols deterred crime.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, patrols keep civilians alive between anomalies.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Keep moving. Keep breathing.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_INNKEEPER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Beds are clean, stew is hot, and no, the ceiling is not breathing.",
+          "responses": [
+            {
+              "text": "Any rumors?",
+              "next": "n1"
+            },
+            {
+              "text": "Any advice?",
+              "next": "n2"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "See you.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "A traveler paid with antique coins stamped with next week.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Eat before scouting. Hungry heroes invent bad plans fast.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, guests asked about rates.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, guests ask if the walls are stable tonight.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Door stays unlocked for allies. Knock anyway.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_MASTER_SMITH",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "If your blade sings, tune it. If it screams, retire it.",
+          "responses": [
+            {
+              "text": "What metal do you trust?",
+              "next": "n1"
+            },
+            {
+              "text": "Weird forge story?",
+              "next": "n2"
+            },
+            {
+              "text": "Done.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Cold iron, patient hands, and no politics near the quench.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Someone forged a shield from rail signs. It still gives directions in battle.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, we forged prestige pieces.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, we forge practical steel and no ceremony.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Bring ore. Leave ego.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_PRIESTESS",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I bless medicine, maps, and stubborn survivors in that order.",
+          "responses": [
+            {
+              "text": "What do people pray for now?",
+              "next": "n1"
+            },
+            {
+              "text": "Any strange omens?",
+              "next": "n2"
+            },
+            {
+              "text": "Thank you.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Quiet nights, safe roads, and one week where clocks keep promises.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Three candles burned blue and spelled a warning in smoke: pack extra antidote.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, people prayed for fortune.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, they pray for one quiet week.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "May your fear walk behind you, not ahead.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_RESISTANCE_SCOUT",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "If you do not know the countersign, you know too much already.",
+          "responses": [
+            {
+              "text": "Countersign?",
+              "next": "n1"
+            },
+            {
+              "text": "Latest patrol pattern?",
+              "next": "n2"
+            },
+            {
+              "text": "I was never here.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Today's countersign is 'sunset.' Tomorrow it might be 'run.'",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Dominion sweep at dawn, cult sweep at dusk, monsters whenever offended.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, patrol charts were enough.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, we chart patrols and reality tears on the same slate.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If asked, we discussed weather.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SAILOR",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "The sea has moods now. Today it chose sarcasm.",
+          "responses": [
+            {
+              "text": "How bad is it?",
+              "next": "n1"
+            },
+            {
+              "text": "Tell me a dock rumor.",
+              "next": "n2"
+            },
+            {
+              "text": "Fair winds.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Currents split, merge, and occasionally vote against us.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A crab stole a captain's whistle and now runs punctual departures.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, storms were the worst of it.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, currents fold and unfold like bad paperwork.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Keep land in sight when the water starts humming.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SCHOLAR",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Research update: reality remains unstable, but the notes are excellent.",
+          "responses": [
+            {
+              "text": "What are you studying?",
+              "next": "n1"
+            },
+            {
+              "text": "Anything impossible?",
+              "next": "n2"
+            },
+            {
+              "text": "Carry on.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Foundation drift, terminal latency, and why all pens vanish near Tide relics.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A footnote wrote itself and cited a paper that has not been published yet.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, anomalies were research.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, anomalies are public safety alerts.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If the chart glows, do not fold it.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SCHOLAR_ELDER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I have seen three world maps become obsolete before tea.",
+          "responses": [
+            {
+              "text": "What still holds true?",
+              "next": "n1"
+            },
+            {
+              "text": "What changed the most?",
+              "next": "n2"
+            },
+            {
+              "text": "Rest well.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Kindness scales better than force when systems fail.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Time became negotiable. Young people now arrive before their excuses.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, history warned us.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, history is our repair manual.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Record everything. Memory is under siege.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SMITH",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I can fix armor, tools, and bad confidence if you stand still.",
+          "responses": [
+            {
+              "text": "What breaks most?",
+              "next": "n1"
+            },
+            {
+              "text": "Any workshop drama?",
+              "next": "n2"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "Maybe later.",
+              "next": "n_end"
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Buckles, egos, and anyone sprinting in relic storms.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Someone asked for a silent hammer. I gave them a pillow and optimism.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, repairs were maintenance.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, repairs are triage with a hammer.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Do not duel in fresh armor. Let it settle first.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SCAVENGER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "If it glints, I pick it up. If it bites, I name it.",
+          "responses": [
+            {
+              "text": "Find anything good?",
+              "next": "n1"
+            },
+            {
+              "text": "Find anything cursed?",
+              "next": "n2"
+            },
+            {
+              "text": "Good hunting.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "A pristine canteen, two intact coils, and half a useful prophecy.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A mirror that shows tomorrow's bedhead. Not dangerous, just rude.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, salvage was profit.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, salvage is how towns keep generators alive.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Watch your boots. Ruins hate ankles.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_DOCKWORKER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Cargo in, cargo out, existential dread in the middle.",
+          "responses": [
+            {
+              "text": "What is unloading today?",
+              "next": "n1"
+            },
+            {
+              "text": "What is delayed?",
+              "next": "n2"
+            },
+            {
+              "text": "Back to work.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Salt blocks, machine teeth, and one sealed crate that hums in C major.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Everything headed through the seam lanes. Time taxes all freight now.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, cargo delays were annoying.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, cargo delays are ration shortages.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Hands clear. Lines tight.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_CARAVANER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "We trade in food, bolts, maps, and confidence theater.",
+          "responses": [
+            {
+              "text": "Route status?",
+              "next": "n1"
+            },
+            {
+              "text": "Worst haul story?",
+              "next": "n2"
+            },
+            {
+              "text": "Safe travels.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "North pass open, ridge pass unstable, dust pass haunted by paperwork.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Lost a wagon to sink-mud, recovered it three days later parked neatly in town.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, routes changed by season.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, routes change by hour and we still roll.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If the wind tastes like copper, shelter fast.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_MECHANIC",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I keep rails honest and engines mostly non-explosive.",
+          "responses": [
+            {
+              "text": "What fails first?",
+              "next": "n1"
+            },
+            {
+              "text": "Any bizarre malfunction?",
+              "next": "n2"
+            },
+            {
+              "text": "Good luck.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Brakes, sensors, and optimism under load.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "An engine asked for a lunch break and refused to start until fed coolant.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, engines failed from wear.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, engines fail from paradox, dust, and bad luck.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If it rattles, it is either loose or alive.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_COURIER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Parcels, coded letters, and last words delivered daily.",
+          "responses": [
+            {
+              "text": "How bad are routes?",
+              "next": "n1"
+            },
+            {
+              "text": "Any odd delivery?",
+              "next": "n2"
+            },
+            {
+              "text": "Move fast.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "If the route has a number, it is dangerous. If it has a nickname, it is worse.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Delivered a letter to Captain Dorsa before the writer finished sealing it.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, speed won contracts.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, speed plus caution keeps couriers breathing.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Do not chase me unless your message outranks physics.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_SCRIBE",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I write contracts, wills, and occasionally confessions.",
+          "responses": [
+            {
+              "text": "What gets requested most?",
+              "next": "n1"
+            },
+            {
+              "text": "Any bizarre paperwork?",
+              "next": "n2"
+            },
+            {
+              "text": "Carry on.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Travel permits, debt transfers, and emergency heir updates.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A citizen tried to legally marry his rifle for tax reasons.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, paperwork tracked property.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, paperwork tracks who is still alive and where they fled.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Sign clearly. Legacy deserves legibility.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_STREET_PROPHET",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I speak truth, nonsense, and weather alerts with equal volume.",
+          "responses": [
+            {
+              "text": "Prophecy?",
+              "next": "n1"
+            },
+            {
+              "text": "Practical warning?",
+              "next": "n2"
+            },
+            {
+              "text": "That is enough.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "When the eighth bell rings backward, follow the one who laughs first.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "If puddles show stars at noon, avoid the next intersection entirely.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, people called me dramatic.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, they call me before planning travel.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "The future says hydrate.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_WARD_TECH",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "I maintain barrier poles and pretend sparks are normal.",
+          "responses": [
+            {
+              "text": "Barrier status?",
+              "next": "n1"
+            },
+            {
+              "text": "Any failures?",
+              "next": "n2"
+            },
+            {
+              "text": "Stay safe.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Outer ring green, inner ring amber, and one node aggressively philosophical.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "A ward reflected a monster roar into pure flute notes. Very haunting.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, wards were preventative.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, wards are load-bearing civic infrastructure.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "If the poles go dark, run toward people, not light.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_TRACKER",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Tracks tell stories. Most of them end in bite marks.",
+          "responses": [
+            {
+              "text": "What is out there?",
+              "next": "n1"
+            },
+            {
+              "text": "Anything unusual?",
+              "next": "n2"
+            },
+            {
+              "text": "Understood.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Standard predators, warped beasts, and one very angry wheel with teeth.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Saw a wolf print, then a bird print, then the same wolf print upside down.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, tracks meant beasts or bandits.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, tracks also mean drifting constructs and spatial spillover.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Step where I step, or step nowhere.",
+          "responses": []
+        }
+      ]
+    },
+    {
+      "id": "DT_AMBIENT_BOUNTY_CLERK",
+      "start": "n0",
+      "nodes": [
+        {
+          "id": "n0",
+          "text": "Bounties posted, verified, and occasionally argued to death.",
+          "responses": [
+            {
+              "text": "What pays best?",
+              "next": "n1"
+            },
+            {
+              "text": "What pays fastest?",
+              "next": "n2"
+            },
+            {
+              "text": "I will check back.",
+              "next": "n_end"
+            },
+            {
+              "text": "How was this place before the World Break?",
+              "next": "n_world_pre",
+              "show_if": {
+                "flag_not_set": "WORLD_BREAK_TRIGGERED"
+              }
+            },
+            {
+              "text": "How is this place holding after the World Break?",
+              "next": "n_world_post",
+              "show_if": {
+                "flag_set": "WORLD_BREAK_TRIGGERED"
+              }
+            }
+          ]
+        },
+        {
+          "id": "n1",
+          "text": "Big monsters, bigger liars, and anything tied to Omega cult logistics.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n2",
+          "text": "Courier interceptions. Low glory, high survival, excellent paperwork.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_pre",
+          "text": "Before the breach, bounty boards were local disputes.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_world_post",
+          "text": "After the breach, they are crisis response in ledger form.",
+          "responses": [
+            {
+              "text": "Back.",
+              "next": "n0"
+            }
+          ]
+        },
+        {
+          "id": "n_end",
+          "text": "Bring proof. Bring all of it.",
+          "responses": []
+        }
+      ]
+    }
+  ]
+}

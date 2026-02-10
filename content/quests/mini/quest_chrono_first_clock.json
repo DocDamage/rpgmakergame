@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_first_clock",
+  "name": "Origin of Hours",
+  "zone": "chrono",
+  "giver": "ironchef",
+  "type": "fetch",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The First Clock—the device that originally regulated time in Chroma—is dying! Its crystal heart is cracked! We need a replacement from the Timeless Caverns, where temporal energy crystallizes! But the caverns are outside normal time—dangerous!",
+      "objective": "Journey to the Timeless Caverns and harvest a temporal crystal"
+    },
+    "progress": {
+      "dialog": "The caverns exist in all times simultaneously! You see dinosaurs, spaceships, and everything between! Find the crystal formation—but avoid the Time Eaters, creatures that devour temporal energy! They'll sense the crystal!",
+      "objective": "Harvest a temporal crystal while avoiding the Time Eaters"
+    },
+    "complete": {
+      "dialog": "The First Clock beats again! Time flows true across Chroma! The Chronomancers owe you a debt beyond measure! Accept this First Clock Gear! It grants limited time manipulation—rewind, pause, or accelerate briefly!",
+      "rewards": {
+        "exp": 1300,
+        "gold": 1100,
+        "item": "first_clock_gear"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I saw the beginning and end of everything in those caverns. I'm... changed.",
+    "twist": "The Time Eaters were once people. Trapped outside time too long.",
+    "nix7": "Atemporal entity encounter: logged. Crystal acquisition: successful."
+  }
+}

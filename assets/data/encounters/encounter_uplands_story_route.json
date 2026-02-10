@@ -1,0 +1,75 @@
+{
+  "id": "UPLANDS_STORY_ROUTE_ENCOUNTERS",
+  "region": "uplands",
+  "maps": [
+    "MIC_SCHOLARIUM_96x64"
+  ],
+  "encounter_rate": 0.08,
+  "min_steps": 13,
+  "max_steps": 30,
+  "entries": [
+    {
+      "enemies": [
+        "ENEMY_ROCK_BRUTE"
+      ],
+      "weight": 28,
+      "min_steps": 13,
+      "gil_range": [
+        34,
+        58
+      ],
+      "xp": 58
+    },
+    {
+      "enemies": [
+        "ENEMY_WIND_CASTER"
+      ],
+      "weight": 24,
+      "min_steps": 14,
+      "gil_range": [
+        30,
+        54
+      ],
+      "xp": 54
+    },
+    {
+      "enemies": [
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 26,
+      "min_steps": 12,
+      "gil_range": [
+        18,
+        34
+      ],
+      "xp": 42
+    },
+    {
+      "enemies": [
+        "ENEMY_ROCK_BRUTE",
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 14,
+      "min_steps": 19,
+      "gil_range": [
+        54,
+        94
+      ],
+      "xp": 96
+    },
+    {
+      "enemies": [
+        "ENEMY_WIND_CASTER",
+        "ENEMY_STRAY_WISP"
+      ],
+      "weight": 10,
+      "min_steps": 22,
+      "rare": true,
+      "gil_range": [
+        58,
+        102
+      ],
+      "xp": 90
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "npc_id": "conductor_tide",
+  "name": "Port-Authority Porter",
+  "sprite": "conductor",
+  "zone": "tide",
+  "location": "Central Port Terminal",
+  "personality": "authoritative_organized",
+  "occupation": "port_authority",
+  "schedule": "always_working",
+  "dialog": {
+    "greeting": [
+      "ALL ABOARD! Or... wait. Are you boarding? Papers?",
+      "Port-Authority Porter! I keep the harbor RUNNING!",
+      "You there! Yes, you! Business or pleasure?",
+      "Back again? Regular commuter? Or trouble?",
+      "Welcome to Central Port! Chaos organized into ORDER!",
+      "New arrival? Follow the PROCEDURE! Procedure keeps us ALIVE!",
+      "This port moves THOUSANDS daily! I track them ALL!",
+      "Authority vested in me! By me! For the GOOD OF ALL!"
+    ],
+    "port_operations": "Ships in! Ships out! Cargo loaded! Cargo unloaded! Passengers processed! It's a BALLET!",
+    "paperwork_demands": "Forms! In triplicate! Stamped! Dated! Cross-referenced! The SYSTEM works!",
+    "scheduling_conflicts": "Delayed? Early? CANCELLED? Don't blame me! Blame the TIDE! Or the weather! Or fate!",
+    "authority_explanation": "I say who boards! Who docks! Who waits! Power? RESPONSIBILITY! Mostly responsibility!",
+    "rumor": [
+      "Tide's port is BUSIEST in the realm! Except Aetherreach. Cheaters. Flying.",
+      "Mire's 'port' is three logs and a hope. Amateurs.",
+      "Frost's port is FROZEN half the year. Limited schedule.",
+      "Ember doesn't have a port. Fire and boats don't mix."
+    ],
+    "tourist_advice": "First time in Tide? Stay on marked paths! Don't feed seagulls! TIP your dockhands!",
+    "farewell": [
+      "ALL ABOARD! Or... goodbye! Whichever!",
+      "Safe passage! File your forms!",
+      "Next departure: SOON! Don't be late!",
+      "Come again! Through proper channels!"
+    ],
+    "ambient_barks": [
+      "Boarding! BOARDING!",
+      "Forms! Get your forms!",
+      "Next ship! NOW!",
+      "Schedule is LAW!",
+      "Port authority!",
+      "Wait your TURN!"
+    ],
+    "time_dawn": "First ships! Morning rush! COFFEE NEEDED!",
+    "time_noon": "Peak traffic! Organized CHAOS!",
+    "time_dusk": "Evening departures! Romantic! HECTIC!",
+    "time_night": "Night schedule! Limited service! I'M TIRED!"
+  },
+  "party_reactions": {
+    "kade": "You run a tight ship. Figuratively. Literally too.",
+    "nix7": "Logistical efficiency: 91%. Bureaucracy: excessive.",
+    "twist": "You're like a SHIP CAPTAIN! But for LAND!",
+    "korr": "Order from chaos. Admirable discipline.",
+    "renna": "Do you use magical scheduling? Time-synced ledgers?",
+    "suresh": "Authority used well serves many. Used poorly, oppresses.",
+    "sova": "I'd go crazy with this paperwork. Respect.",
+    "grit": "Supply lines need coordination. You're the coordinator.",
+    "ashka": "Order is good. But fire is better.",
+    "senna": "Knows everything moving. Valuable. Or dangerous.",
+    "callum": "You look very... official. Is that comfortable?"
+  },
+  "relationship_dialog": {
+    "stranger": "First time? Forms first! THEN questions!",
+    "acquaintance": "Regular! I'll remember your face! Maybe!",
+    "friend": "My friend! Expedited processing! You're welcome!",
+    "best_friend": "You! VIP status! No lines! EVER!"
+  }
+}

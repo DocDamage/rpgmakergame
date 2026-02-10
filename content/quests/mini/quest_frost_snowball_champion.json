@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_frost_snowball_champion",
+  "name": "The Winter War",
+  "zone": "frost",
+  "giver": "coolcat_white",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "The annual Snowball Tournament is starting! Teams from every village compete for the Ice Crown! It's not just throwing snow—there's strategy, forts, alliances, betrayals! Form a team and join the chaos!",
+      "objective": "Register a team for the Snowball Tournament"
+    },
+    "progress": {
+      "dialog": "You're in the semifinals! Your team needs to capture the enemy flag while defending your own! Build snow fortifications, launch coordinated attacks, use the terrain! Win this and you face the reigning champions!",
+      "objective": "Win the semifinal match to reach the championship"
+    },
+    "complete": {
+      "dialog": "CHAMPIONS! The Ice Crown is yours! The victory feast lasts all night! Here's your trophy—and this Snowball Champion's Mittens! They never miss when throwing any projectile!",
+      "rewards": {
+        "exp": 750,
+        "gold": 550,
+        "item": "snowball_champions_mittens"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "I'm a snowball war general! My tactical genius knows no bounds!",
+    "twist": "I enchanted our snowballs to curve. Is that cheating? Probably.",
+    "nix7": "Snow warfare tactics: analyzed. Trajectory calculation: optimal."
+  }
+}

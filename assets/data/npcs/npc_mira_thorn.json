@@ -1,0 +1,38 @@
+{
+  "id": "NPC_MIRA_THORN",
+  "name": "Mira Thorn",
+  "title": "Innkeeper",
+  "location": "T_ASHVEIL_112x72",
+  "coords": [58, 62],
+  "schedule": {
+    "day": [58, 62],
+    "night": [58, 62],
+    "rain": [58, 62]
+  },
+  "sprite": "NPC_INNKEEPER_F",
+  "portrait": "spr_mira_portrait",
+  "dialog_tree": "DT_MIRA_MAIN",
+  "shop": "SHOP_MIRA_REST",
+  "quests": ["Q_MISSING_SCAVENGERS", "Q_DEBT_COLLECTORS", "Q_FAMILY_HEIRLOOM"],
+  "faction": "ASHVEIL_SANCTUARY",
+  "attitude": "friendly",
+  "background": "Former merchant who fled the capital. Runs Mira's Rest inn.",
+  "personality": "Warm but guarded. Hides her noble past.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null,
+    "romanceable": false,
+    "affinity_0": "stranger",
+    "affinity_25": "friend",
+    "affinity_50": "trusted",
+    "affinity_75": "close",
+    "affinity_100": "confidant"
+  },
+  "services": ["inn", "shop", "quest_giver"],
+  "inn_price": 30,
+  "voice_lines": {
+    "greet": "vo_mira_greet",
+    "farewell": "vo_mira_farewell",
+    "thanks": "vo_mira_thanks"
+  }
+}

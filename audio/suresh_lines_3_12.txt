@@ -1,0 +1,83 @@
+chroma_edge_script_part3.md:98:If you faint, I'm stapling you upright.
+chroma_edge_script_part3.md:112:(relieved, but hiding it)
+chroma_edge_script_part3.md:118:…Marshal.
+chroma_edge_script_part3.md:184:If you stole anything from my kits, I will remove your fingers and donate them to science.
+chroma_edge_script_part3.md:289:Who's the walking bunker?
+chroma_edge_script_part3.md:364:You're going to break your hands.
+chroma_edge_script_part3.md:373:Aurora Foundry?
+chroma_edge_script_part3.md:453:Mutation scars. Controlled, not wild.
+chroma_edge_script_part3.md:565:You skipped the part where we all die.
+chroma_edge_script_part3.md:644:(to the locks)
+chroma_edge_script_part3.md:691:Touch anything and I'll sedate you.
+chroma_edge_script_part3.md:770:That might be mercy.
+chroma_edge_script_part3.md:929:We'll keep you standing.
+chroma_edge_script_part3.md:986:You're going to sit before you fall.
+chroma_edge_script_part3.md:992:That was not a question.
+chroma_edge_script_part3.md:1060:Korr—
+chroma_edge_script_part4.md:59:(icy)
+chroma_edge_script_part4.md:207:(softly, to Nix)
+chroma_edge_script_part4.md:340:Because the cult likes places that hurt.
+chroma_edge_script_part4.md:454:Both. Definitely both.
+chroma_edge_script_part4.md:474:Don't drop it.
+chroma_edge_script_part4.md:493:Feel what?
+chroma_edge_script_part4.md:573:Korr—listen to me. Breathe.
+chroma_edge_script_part4.md:642:This is Tide instability.
+chroma_edge_script_part4.md:676:My element is not letting you idiots die.
+chroma_edge_script_part4.md:684:Keep talking and I'll demonstrate "persistent" with a syringe.
+chroma_edge_script_part4.md:750:Marinus.
+chroma_edge_script_part4.md:756:My… reminder.
+chroma_edge_script_part5.md:36:Then you know the blind spots.
+chroma_edge_script_part5.md:83:…Me?
+chroma_edge_script_part5.md:92:If you're here to judge me, get in line.
+chroma_edge_script_part5.md:149:Why me?
+chroma_edge_script_part5.md:158:Fine.
+chroma_edge_script_part5.md:216:(whisper, furious)
+chroma_edge_script_part5.md:253:I can't undo what I did.
+chroma_edge_script_part5.md:262:…Then bind to me.
+chroma_edge_script_part5.md:276:Say one poetic thing and I'm prescribing you silence.
+chroma_edge_script_part5.md:338:Foundry projects meaning "things that scream."
+chroma_edge_script_part5.md:363:They're using prisoners.
+chroma_edge_script_part5.md:439:You want leverage?
+chroma_edge_script_part5.md:450:You don't know what I hesitate over.
+chroma_edge_script_part5.md:500:Yeah.
+chroma_edge_script_part5.md:557:Everything the Dominion touches becomes a tool.
+chroma_edge_script_part6.md:497:Korr—
+chroma_edge_script_part6.md:579:Don't encourage her.
+chroma_edge_script_part7.md:106:This feels like a bad idea we're definitely doing.
+chroma_edge_script_part7.md:161:Stop being like that in the haunted geometry.
+chroma_edge_script_part7.md:244:Both of you—later.
+chroma_edge_script_part7.md:342:Don't spiral. Not now.
+chroma_edge_script_part7.md:554:Let's get out before "okay" turns into "dead."
+chroma_edge_script_part8.md:111:That's just called politics.
+chroma_edge_script_part8.md:302:No.
+chroma_edge_script_part8.md:400:They're holding civilians in here.
+chroma_edge_script_part8.md:476:Don't encourage them.
+chroma_edge_script_part8.md:505:These collars can overload if you rip them.
+chroma_edge_script_part8.md:523:And for the prisoners—get them out.
+chroma_edge_script_part8.md:635:This isn't normal Tower material.
+chroma_edge_script_part8.md:679:You did this to yourself.
+chroma_edge_script_part8.md:720:You didn't touch perfection.
+chroma_edge_script_part9.md:51:He's stable. Sleeping.
+chroma_edge_script_part9.md:212:Don't let it pull you.
+chroma_edge_script_part9.md:347:No.
+chroma_edge_script_part9.md:405:Try.
+chroma_edge_script_part9.md:817:Where is Nix's relic cache?
+chroma_edge_script_part10.md:240:Sit. Drink. Breathe.
+chroma_edge_script_part10.md:250:Yeah.
+chroma_edge_script_part10.md:390:Stop talking.
+chroma_edge_script_part10.md:459:He's not allowed feelings.
+chroma_edge_script_part10.md:523:He's still in there.
+chroma_edge_script_part11.md:76:Nix—stop forcing it. You'll fry your conduits.
+chroma_edge_script_part11.md:161:You're sitting.
+chroma_edge_script_part11.md:167:You are glowing wrong. Sit.
+chroma_edge_script_part11.md:296:A trap with hydration.
+chroma_edge_script_part11.md:302:Your conduits are overheating.
+chroma_edge_script_part11.md:354:Stop calling it "pleased." It's a machine.
+chroma_edge_script_part11.md:491:You're not a prophet. You're a parasite.
+chroma_edge_script_part11.md:543:Nix—don't resist it head-on. Partition. Redirect.
+chroma_edge_script_part11.md:616:Good. Stay in the window.
+chroma_edge_script_part11.md:659:Talk to me. Vision? Hearing? Motor control?
+chroma_edge_script_part12.md:53:That's basically the Dominion's whole personality.
+chroma_edge_script_part12.md:192:That's not enlightenment. That's addiction with a choir.
+chroma_edge_script_part12.md:305:If you burn out, everyone dies.
+chroma_edge_script_part12.md:353:Into the Tower's nervous system.

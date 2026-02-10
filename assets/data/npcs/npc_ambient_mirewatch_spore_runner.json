@@ -1,0 +1,41 @@
+{
+  "id": "NPC_AMBIENT_MIREWATCH_SPORE_RUNNER",
+  "name": "Mirewatch Spore Runner",
+  "title": "Salvage Runner",
+  "location": "T_MIREWATCH_112x72",
+  "coords": [
+    74,
+    22
+  ],
+  "schedule": {
+    "day": [
+      74,
+      22
+    ],
+    "night": [
+      77,
+      22
+    ],
+    "rain": [
+      76,
+      24
+    ]
+  },
+  "sprite": "NPC_RESISTANCE",
+  "portrait": "spr_merchant_a_portrait",
+  "dialog_tree": "DT_AMBIENT_SCAVENGER",
+  "shop": null,
+  "quests": [],
+  "faction": "MIREWATCH",
+  "attitude": "neutral",
+  "background": "Recovers useful scraps from unstable routes. Stationed in Mirewatch.",
+  "personality": "Reckless, witty, and survival-smart.",
+  "flags": {
+    "unlocked_by": null,
+    "disappears_on": null
+  },
+  "services": [
+    "salvage_tips",
+    "field_rumors"
+  ]
+}

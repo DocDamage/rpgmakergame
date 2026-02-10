@@ -1,0 +1,98 @@
+{
+  "npc_id": "pigman_blue_frost",
+  "name": "Healer Glacier",
+  "sprite": "pigman_blue",
+  "zone": "frost",
+  "location": "Frostbite Clinic",
+  "personality": "clinical_compassionate_efficient",
+  "occupation": "healer",
+  "dialog": {
+    "greeting": [
+      "Frostbite Clinic. State your symptoms. Quickly. Cold spreads.",
+      "Healer Glacier. The blue apron means medical license. I use it.",
+      "You're not frostbitten. Yet. Prevention is better than cure. Cheaper too.",
+      "New patient? Or visitor? Clinic rules: warm hands, open ears.",
+      "Glacier. Like the ice. Cold name. Warm practice. Mostly.",
+      "The cold takes fingers. Toes. Lives. I take it back. When I can.",
+      "Welcome to Frostbite. The clinic, not the condition. Though we treat both.",
+      "Symptoms? Duration? Exposure level? I need DATA. Then I need WARMTH."
+    ],
+    "heal_prompt": "Treatment available. Frostbite. Hypothermia. Cold-related trauma. Standard rates.",
+    "heal_success": "Treatment complete. Follow-up in three days. Stay warm. Doctor's orders.",
+    "heal_fail": "Insufficient funds? Basic warming advice, then: layers. Movement. Fire. In that order.",
+    "professional_pride": "Last month: zero amputations. First time in recorded history. Progress.",
+    "technique": "The key is gradual warming. Shock kills faster than cold. Patience saves lives.",
+    "break_chat": "Break? I don't break. Others do. I fix them.",
+    "labor_concerns": "Workers come in frozen. Corporate sends bills. I send disputes. Cycle continues.",
+    "retirement": "Retirement? When frost stops biting. So: never.",
+    "rumor": [
+      "Cirrus? White-knuckle frostbite. From observation. Treats himself. Badly.",
+      "Azure? No physical damage. Emotional freezing. Harder to treat.",
+      "The twins? They don't feel cold. Anym. Biologically fascinating.",
+      "Snake charmer? His rock? Radiates heat. Medical applications obvious.",
+      "My sibling runs the inn. Thaw, they call themselves. Dramatic. Effective."
+    ],
+    "quest_hook": "Out of supplies. Warming salves. Azure's last flight was supposed to bring them. Grounded now. Alternative source?",
+    "quest_active": "Supplies still low. Alternative sources? The hot springs? Algae? Worth investigating.",
+    "quest_complete": "Supplies restored! Algae extract works! Who knew? Here - medical kit. Professional grade. Portable.",
+    "farewell": [
+      "Stay warm. Literally. It's medical advice.",
+      "Return if symptoms persist. Or worsen. Or exist.",
+      "The cold is patient. Be patient back."
+    ],
+    "ambient_barks": [
+      "Frostbite treatment!",
+      "Warming station!",
+      "Medical supplies!",
+      "Stay dry! Stay warm!",
+      "Cold injuries! HERE!",
+      "Prevention first!"
+    ],
+    "time_dawn": "Morning rounds. Overnight exposure cases. Always some.",
+    "time_noon": "Midday. Scheduled appointments. Predictable. Preferred.",
+    "time_dusk": "Evening. Emergency hours. Cold doesn't keep schedule.",
+    "time_night": "Night. On call. Sleep when possible. Usually: impossible.",
+    "rival_mention": "My cousin in Obsidian? Pigman, company store. Exploits illness. Profit from suffering. Disgusting.",
+    "post_quest_greeting": "The supplier. Supplies holding. Patients grateful. Me too. Professionally."
+  },
+  "party_reactions": {
+    "kade": "Cold bedside manner. But warm heart. If that makes sense.",
+    "nix7": "Medical expertise: Advanced. Empathy protocols: Developing. Efficient regardless.",
+    "twist": "You FIX people?! That's AMAZING! Can you fix my... never mind! I'm FINE!",
+    "korr": "Healer who prioritizes function. Practical. Lives saved matter more than bedside manner.",
+    "renna": "The clinic has healing enchantments. Subtle. Layered. Professional.",
+    "suresh": "He alleviates suffering through skill. The path of medicine. Noble.",
+    "sova": "Good to know. In case of cold injury. Which seems... likely.",
+    "grit": "Field medic quality. Seen worse. Much worse.",
+    "ashka": "He understands cold's damage. Fights it. Respect.",
+    "senna": "He knows everyone's health. Useful intelligence.",
+    "callum": "FINALLY! Proper MEDICAL credentials! And PROTOCOLS!"
+  },
+  "relationship_dialog": {
+    "stranger": "New patient. Symptoms? Exposure history?",
+    "acquaintance": "Returning. Same symptoms? Or new ones?",
+    "friend": "I trust you. Hard earned. Don't make me regret it.",
+    "best_friend": "You've helped. More than most. Here - my personal kit. For emergencies."
+  },
+  "mini_quest": {
+    "id": "medical_supplies",
+    "title": "Healing the Healer",
+    "description": "Help Glacier find alternative medical supplies when Azure's supply run is grounded",
+    "stages": {
+      "hook": "Out of warming salves. Supply run: grounded. Need alternative. Hot springs algae? Theoretical application. Test it?",
+      "active": "Hot springs. East ridge. Collect algae. Blue-green. Bioluminescent. Bring samples.",
+      "complete": "Algae extract: effective! Who knew? Supplies restored. Here - professional kit. For your own... inevitable injuries."
+    },
+    "reward": {
+      "item": "professional_medical_kit",
+      "gold": 350,
+      "reputation": "medical_ally"
+    }
+  },
+  "cross_npc_connections": [
+    "aeronaut_blue_frost: Azure. My supplier. Currently: grounded. Problematic.",
+    "pigman_white_frost: My sibling. Innkeeper. Thaws bodies. I thaw limbs. Synergy.",
+    "twins_white_frost: Medical curiosity. Cold immunity. Unexplained. Fascinating.",
+    "snakecharmer_frost: Warm rock. Medical applications. He won't sell. Yet."
+  ]
+}

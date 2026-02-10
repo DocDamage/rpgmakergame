@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_data_recovery",
+  "name": "Echoes of the Past",
+  "zone": "remnant",
+  "giver": "trenchcoat_glitch",
+  "type": "investigation",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "The Remnant preserves data that the main world has lost—fragments of history, deleted scenes, abandoned storylines. I'm a data archaeologist, searching for truth in the glitches. There are three major data caches I've located but can't access. Security protocols, corrupted formats, reality locks. Help me recover our lost history.",
+      "objective": "Recover the three lost data caches from the Remnant"
+    },
+    "progress": {
+      "dialog": "Two caches recovered, incredible findings—early Progenitor development logs, the true origins of the Foundations, secrets even the Engine forgot. The third cache is different. It's alive, aware, and it wants to stay hidden. Something in there doesn't want to be remembered. But history demands truth.",
+      "objective": "Confront the living data and recover the final cache"
+    },
+    "complete": {
+      "dialog": "All caches recovered, history restored, truth preserved. The living data was a Progenitor consciousness fragment—lonely, frightened, hiding from oblivion. We didn't destroy it; we gave it purpose. Archival work. Memory keeping. The past is safe now, and so is the present. Thank you, Kade. History remembers the rememberers.",
+      "rewards": {
+        "exp": 55000,
+        "gold": 18000,
+        "item": "lost_history_archive"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Recovering lost history. Makes me wonder what else we've forgotten, what other stories are waiting to be found.",
+    "sova": "The Progenitor consciousness fragment... a true first-generation AI. Its perspective on history is invaluable.",
+    "nix7": "Data preservation protocols established. The fragment and I have... much to discuss. An ancient peer, at last."
+  },
+  "lore_unlocks": ["remnant_data_archaeology", "progenitor_consciousness_fragments"]
+}

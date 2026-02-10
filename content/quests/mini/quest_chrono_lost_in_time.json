@@ -1,0 +1,31 @@
+{
+  "quest_id": "mini_chrono_lost_in_time",
+  "name": "When and Where",
+  "zone": "chrono",
+  "giver": "foodboys",
+  "type": "investigation",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "My brother fell through a time portal! He's lost somewhere in history—could be yesterday, could be a thousand years ago! The portal signature is faint, but traceable. Follow it, find him, bring him home! Please!",
+      "objective": "Trace the portal signature to find the lost time traveler"
+    },
+    "progress": {
+      "dialog": "He's in the Age of Giants, three centuries ago! But he's been there for weeks—he's started a life, made friends, maybe even changed history slightly! Convince him to return without causing temporal damage!",
+      "objective": "Convince the lost traveler to return without disrupting the timeline"
+    },
+    "complete": {
+      "dialog": "He's home! The timeline is stable—minimal contamination! The brothers are reunited! As thanks, they give you this Chrono-Compass! It always points to your proper time and place!",
+      "rewards": {
+        "exp": 900,
+        "gold": 800,
+        "item": "chrono_compass"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "He didn't want to leave his giant friends. I get it. Giants are cool.",
+    "twist": "We had to memory-wipe some giants. Unfortunate, but necessary.",
+    "nix7": "Temporal rescue: successful. Timeline contamination: acceptable levels."
+  }
+}

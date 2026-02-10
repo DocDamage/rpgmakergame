@@ -1,0 +1,28 @@
+{
+  "quest_id": "mini_uplands_yuna_sending",
+  "name": "Restless Spirits",
+  "zone": "uplands",
+  "giver": "Yuna (Summoner)",
+  "type": "combat",
+  "prerequisites": [],
+  "stages": {
+    "start": {
+      "dialog": "There are spirits here... trapped by the Foundation disruptions. They need to be sent to the Farplane. But I need protection while I perform the ritual. Will you guard me?",
+      "objective": "Protect Yuna while she performs the Sending ritual for restless spirits"
+    },
+    "progress": {
+      "dialog": "The spirits are agitated! They don't want to go! Please, hold them back just a little longer!",
+      "objective": "Defend against waves of angry spirits"
+    },
+    "complete": {
+      "dialog": "It's done. They are at peace now. Thank you for protecting me. Take this - a summoner gem. It holds the essence of Valefor. Use it to call the winds!",
+      "rewards": {"gold": 500, "item": "summon_gem_valefor", "reputation": 18}
+    }
+  },
+  "party_comments": {
+    "kade": "Giving peace to the dead... that's important work.",
+    "vex": "The Sending... I have heard of this ritual. Sacred duty.",
+    "nix7": "Spirit energy levels decreasing. Ritual: successful."
+  },
+  "hidden_outcome": "If no spirits touch Yuna during the ritual, she gives you 'Nirvana' - her ultimate staff"
+}

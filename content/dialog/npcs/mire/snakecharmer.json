@@ -1,0 +1,95 @@
+{
+  "npc_id": "snakecharmer_mire",
+  "name": "Sssilas the Serpent Speaker",
+  "sprite": "snakecharmer",
+  "zone": "mire",
+  "location": "Main Boardwalk",
+  "personality": "dramatic_mysterious_theatrical",
+  "occupation": "street_performer",
+  "schedule": {
+    "day": "performs_on_boardwalk",
+    "night": "rests_at_tavern",
+    "rain": "performs_under_awning"
+  },
+  "dialog": {
+    "greeting": [
+      "BEHOLD! The dance of the deadly cobra!",
+      "Ladies, gentlemen, and beings of indeterminate origin! Prepare to be CHARMED!",
+      "Step right up! Witness a spectacle that defies explanation! Mostly because I made it up!",
+      "The swamp whispers, and I obey! Sssilas has arrived!",
+      "You there! Yes, you with the face! Have you ever seen true snake mastery?",
+      "Halt! The serpent spirits demand an audience!",
+      "From the Uplands to the Mire, my fame spreads like oil on water!",
+      "Ahh, fresh faces! Mr. Whiskers loves fresh faces. Don't you, Mr. Whiskers?"
+    ],
+    "performance_start": [
+      "From the depths of the Forbidden Swamp... I give you... MR. WHISKERS!",
+      "The cobra awakens! Mesmerized by melodies older than time!",
+      "Watch as man and serpent become one! Not literally. That would be weird."
+    ],
+    "crowd_work": [
+      "You there! Yes, you with the nervous face! Don't worry - he only bites volunteers!",
+      "The lady in the back! Yes, you! Don't hide! The snake can smell fear! ...I think. He's very expressive.",
+      "Step closer! He doesn't bite! ...Usually. Statistically, you're safe!"
+    ],
+    "show_climax": "AND NOW! The cobra rises! Transfixed! Hypnotized! Really just confused by the vibrations, but LOOK AT HIM GO!",
+    "tips_request": "If the performance pleased you... the hat accepts all denominations! Even Mire currency! Though I prefer coin that doesn't smell like fish.",
+    "tips_received": "Generous! The snake spirits smile upon you! Or Mr. Whiskers does. Same thing, really.",
+    "quiet_moment": "Honestly? The cobra's name is Mr. Whiskers. He's a rescued pet store snake. Completely harmless. Don't tell anyone - I have a reputation to maintain.",
+    "backstory": "I trained under Master Vipero in the Uplands for seven years. Learned to speak with snakes, read their moods, play the flute. Mr. Whiskers was my graduation gift. Failed to mention he was a corn snake variant, not a true cobra. But we make do.",
+    "rumors": [
+      "They say the foodboys at the fry stand know the secret to eternal crispiness. Dark magic, I suspect.",
+      "Word among the dock rats is that something ancient stirred in the Deep Muck last moon. The barrelgob claims to have seen it.",
+      "The Oily Eel's innkeeper? He has a cousin in the Dustbelt. Family resemblance is... uncanny. And slightly concerning.",
+      "The onionbosses are at each other's throats again. Union business. I'd stay clear unless you enjoy politics that smell like swamp gas."
+    ],
+    "ambient_barks": [
+      "Ssssso ssssleepy...",
+      "Mr. Whiskers demands ssssun!",
+      "The boardwalk isss alive with ssssound!",
+      "Another day, another denariusss...",
+      "Where did I put my lucky ssscale...",
+      "The Uplands ssseem ssso far away now..."
+    ],
+    "time_of_day": {
+      "morning": "The morning mist carries secrets. And mosquitoes. Mostly mosquitoes.",
+      "noon": "Peak performance hours! The sun energizes Mr. Whiskers! Or he's just warm. Hard to tell.",
+      "evening": "The evening crowd is the best crowd. Looser with their coin, if you know what I mean.",
+      "night": "Shhh. Mr. Whiskers sleeps. Come back tomorrow for wonders."
+    }
+  },
+  "mini_quest": {
+    "quest_id": "missing_lily",
+    "quest_name": "Missing Lily",
+    "stage_1_hook": "Mr. Whiskers hasn't been eating well. Listless. Dull scales. The vet - yes, we have a swamp vet - says he needs special swamp lilies. Only grow in the Deep Muck. Dangerous place. For a non-adventurer. You look... muddy-capable.",
+    "stage_1_active": "The lilies glow faintly blue. You'll know them when you see them. Just watch out for the Deep Muck's... deeper residents.",
+    "stage_2_progress": "You've been to the Deep Muck? And lived? Impressive! Find those lilies yet? Mr. Whiskers grows weaker by the day.",
+    "stage_2_item_needed": "swamp_lily_bloom",
+    "stage_3_complete": "The lilies! They're perfect! Look at Mr. Whiskers - he can smell them already! Here, take this. My master's flute techniques. Use them well. And thank you. Truly.",
+    "reward": "sssilas_flute_technique_manual"
+  },
+  "party_reactions": {
+    "kade": "I... should not be this close to a cobra. Why am I this close to a cobra?",
+    "nix7": "Scanning: Snake is... not poisonous? False advertising detected. 73% probability of domesticated species.",
+    "twist": "CAN I PET HIM?! PLEASE?! I'LL BE GENTLE! LOOK! GENTLE HANDS!",
+    "korr": "The snake trusts this human. Interesting. Most reptiles are solitary creatures.",
+    "renna": "It's not actually magic. Just music. Clever, but not arcane. The snake is definitely not a cobra, though.",
+    "suresh": "Mr. Whiskers. A fine name for a serpent. Reminds me of the temple snakes back home.",
+    "sova": "I could hit that snake from here. If I needed to. Just saying. Not that I would. Unless it moved wrong.",
+    "grit": "Had a guy in my unit who worked with snakes. Didn't end well for him. Keep your distance, kid.",
+    "ashka": "The fire would scare the snake. Let's not test that. I like his little hat, though.",
+    "senna": "Sneaky. I like it. The snake too. Both of them. Sssilas knows how to play a crowd.",
+    "callum": "Should we... tell people it's not dangerous? No? Okay. The performance is pretty good, actually."
+  },
+  "relationship_dialog": {
+    "stranger": "New face! First show is free. Tips appreciated. Tips strongly appreciated.",
+    "acquaintance": "Back for more snake wisdom? Mr. Whiskers remembers you. Probably.",
+    "friend": "My favorite audience member! Mr. Whiskers does a special trick just for you today.",
+    "best_friend": "Listen... between us? Mr. Whiskers isn't a cobra. I know, shocking. But the performance is real, and so is our gratitude."
+  },
+  "cross_npc_connections": [
+    "foodboys_blue: Those two know how to fry a fish. Mr. Whiskers loves their scraps.",
+    "pigman_brown: The innkeeper puts up with us when it rains. Good soul. Terrible taste in upholstery.",
+    "barrelgob_green: That goblin claims to see things in the Deep Muck. Might be useful for your lily hunt."
+  ]
+}

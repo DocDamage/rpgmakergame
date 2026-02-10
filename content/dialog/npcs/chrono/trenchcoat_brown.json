@@ -1,0 +1,95 @@
+{
+  "npc_id": "trenchcoat_brown_chrono",
+  "name": "Agent Yesterday",
+  "sprite": "trenchcoat_brown",
+  "zone": "chrono",
+  "location": "Time-Train Station, Observation Deck",
+  "personality": "focused_weary_hunted",
+  "occupation": "time_agent",
+  "dialog": {
+    "greeting": [
+      "...You're not the one I'm looking for.",
+      "Agent Yesterday. Time Corps. Don't ask which future.",
+      "The brown coat? Standard issue. Blends with... most eras.",
+      "New face. Or old face? I've been tracking someone. For... subjective years.",
+      "I'm hunting a paradox. The paradox is hunting me back. Standard procedure.",
+      "Time Corps. We protect the timeline. From itself. From us. Complicated.",
+      "Yesterday. That's my designation. Not my actual yesterday. Codename.",
+      "You're curious. That's dangerous. In this work."
+    ],
+    "mission": "Tracking a temporal fugitive. Jumped from 3026 to... here. Now. Your now. My then.",
+    "time_corps": "We fix breaks. Paradoxes. Sometimes we ARE the breaks. Occupational hazard.",
+    "break_chat": "Break? I take them in safe harbors. 1984. 2462. Tuesday. Tuesdays are quiet.",
+    "labor_concerns": "The Corps wants results. Timeline integrity. I want to survive. Sometimes mutually exclusive.",
+    "retirement": "Retirement? I've seen retirees. From the future. They know something. Won't say what.",
+    "rumor": [
+      "The black trenchcoat? Paradox hunter. Rogue. Dangerous. My target? Or competition?",
+      "Tempus? Conductor? He sees everything. Says nothing. Smart.",
+      "The twins? They saw my target. Yesterday. Or tomorrow. Unclear.",
+      "Ironchef? He's cooking with temporal ingredients. Minor violations. Not my jurisdiction.",
+      "Obsidian's corporate spy? Slate? Time Corps rejected him. Too... corporate."
+    ],
+    "quest_hook": "Target's close. But I need... backup. Temporal anchor. Someone grounded. Someone like you?",
+    "quest_active": "Still hunting. Target's clever. Jumping. Small hops. Hard to track.",
+    "quest_complete": "Got them! Temporal fugitive apprehended! With your help! Here - time stabilizer. Prevents paradox sickness.",
+    "farewell": [
+      "Watch your step. Temporal and literal.",
+      "Don't change the past. Or do. I've seen both outcomes.",
+      "Time flies. Sometimes backwards."
+    ],
+    "ambient_barks": [
+      "Target acquired... no, shadow...",
+      "Timeline stable... for now...",
+      "Jump coordinates... set...",
+      "Paradox detected... minor...",
+      "Temporal anchor... holding...",
+      "Mission continues..."
+    ],
+    "time_dawn": "Morning. In this timezone. Target could be anywhen.",
+    "time_noon": "Midday. Peak activity. Good for cover. Bad for tracking.",
+    "time_dusk": "Evening. Shadows lengthen. Time stretches. Interesting.",
+    "time_night": "Night. Temporal currents calm. Easier to sense disturbances.",
+    "rival_mention": "The black trenchcoat? Paradox hunter. We were partners. Once. Before... the Incident.",
+    "post_quest_greeting": "The anchor. Reliable. Grounded. Need more like you."
+  },
+  "party_reactions": {
+    "kade": "Time agents. Paradox hunters. This is getting VERY complicated.",
+    "nix7": "Temporal displacement technology: Advanced. Agent psychological state: Stressed. Mission: Critical.",
+    "twist": "You're a TIME DETECTIVE?! That's the COOLEST THING EVER!",
+    "korr": "He fights to preserve order. Across time itself. Respectable.",
+    "renna": "Time magic is... dangerous. He's skilled. Or lucky. Or both.",
+    "suresh": "He creates suffering by preserving timeline. Necessary suffering. Complex karma.",
+    "sova": "I'd work with him. Interesting missions. Good cause.",
+    "grit": "Special ops. Temporal theater. Same mindset. Different battlefield.",
+    "ashka": "He moves through time like I through shadow. With purpose.",
+    "senna": "He knows the future. Won't share. Frustrating. Understandable.",
+    "callum": "Temporal jurisdiction! Complex! Fascinating!"
+  },
+  "relationship_dialog": {
+    "stranger": "...Identify yourself. Temporally.",
+    "acquaintance": "Recognized. You're... stable. In multiple timelines. Rare.",
+    "friend": "Reliable. Grounded. I'd trust you with temporal coordinates.",
+    "best_friend": "You've saved my mission. Maybe my life. Here - time corps badge. Temporary agent status."
+  },
+  "mini_quest": {
+    "id": "temporal_hunt",
+    "title": "The Time Fugitive",
+    "description": "Help Agent Yesterday track and apprehend a temporal fugitive",
+    "stages": {
+      "hook": "Target's close. Paradox jumper. Clever. I need an anchor. Someone temporal-grounded. Help me catch them?",
+      "active": "They're hopping. Small jumps. Station to station. Watch for anomalies. Displaced objects. Déjà vu.",
+      "complete": "Apprehended! Timeline stabilized! Your help was... essential. Here. Time stabilizer. Prevents paradox sickness. For you."
+    },
+    "reward": {
+      "item": "temporal_stabilizer",
+      "gold": 450,
+      "reputation": "time_corps_ally"
+    }
+  },
+  "cross_npc_connections": [
+    "trenchcoat_black_chrono: My... former partner. Paradox hunter. Now rogue. Dangerous.",
+    "trenchcoat_gray_obsidian: Slate. Corporate spy. Time Corps rejected him. Lucky him.",
+    "conductor_chrono: Tempus. Sees everything. Says nothing. Useful. Frustrating.",
+    "twins_chrono: Oracles. They saw my target. Gave... cryptic hints."
+  ]
+}

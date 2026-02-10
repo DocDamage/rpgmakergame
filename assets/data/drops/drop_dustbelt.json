@@ -1,0 +1,115 @@
+{
+  "id": "DROPS_DUSTBELT",
+  "tables": [
+    {
+      "id": "DROPS_DUST_SKIRMISHER",
+      "enemy": "ENEMY_DUST_SKIRMISHER",
+      "entries": [
+        {
+          "item": "ITEM_LEATHER_SCRAP",
+          "chance": 0.35,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_RUSTY_DAGGER",
+          "chance": 0.08,
+          "count": 1
+        },
+        {
+          "item": "ITEM_POTION",
+          "chance": 0.12,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.45
+        }
+      ],
+      "bonus_roll": {
+        "chance": 0.05,
+        "reward": {
+          "item": "ITEM_DUST_CLOAK",
+          "count": 1
+        }
+      },
+      "gil_range": [
+        12,
+        28
+      ]
+    },
+    {
+      "id": "DROPS_DUST_SCAVENGER",
+      "enemy": "ENEMY_DUST_SCAVENGER",
+      "entries": [
+        {
+          "item": "ITEM_RUSTY_BOLT",
+          "chance": 0.4,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "ITEM_IRON_SCRAP",
+          "chance": 0.25,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_POTION",
+          "chance": 0.15,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.2
+        }
+      ],
+      "steal_table": {
+        "common": "ITEM_RUSTY_BOLT",
+        "rare": "ITEM_SCAVENGER_CROSSBOW"
+      },
+      "gil_range": [
+        15,
+        32
+      ]
+    },
+    {
+      "id": "DROPS_DUST_WASP",
+      "enemy": "ENEMY_DUST_WASP",
+      "entries": [
+        {
+          "item": "ITEM_WASP_STINGER",
+          "chance": 0.3,
+          "count": 1
+        },
+        {
+          "item": "ITEM_WING_MEMBRANE",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "ITEM_ANTIDOTE",
+          "chance": 0.1,
+          "count": 1
+        },
+        {
+          "nothing": true,
+          "chance": 0.4
+        }
+      ],
+      "gil_range": [
+        8,
+        22
+      ]
+    }
+  ]
+}

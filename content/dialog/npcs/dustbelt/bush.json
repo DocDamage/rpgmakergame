@@ -1,0 +1,99 @@
+{
+  "npc_id": "bush_dustbelt",
+  "name": "The Bush",
+  "sprite": "bush",
+  "zone": "dustbelt",
+  "location": "Hidden Oasis",
+  "personality": "ancient_druid_disguise",
+  "occupation": "nature_guardian",
+  "dialog": {
+    "greeting": [
+      "...",
+      "*rustle*",
+      "*breeze through leaves*",
+      "*definitely just a bush*",
+      "*watching*",
+      "*ancient patience*"
+    ],
+    "approach": [
+      "The bush seems to be... looking at you.",
+      "There's something unusual about this vegetation.",
+      "The leaves rustle without wind.",
+      "You feel like you're being judged. By shrubbery.",
+      "Is that... an eye? No. Just a shadow. Probably.",
+      "The bush shifts slightly. Impossible."
+    ],
+    "speak_to": [
+      "*significant rustling*",
+      "*pointed leaf gesture*",
+      "*approving sway*",
+      "*disapproving wilt*",
+      "*mysterious berry drop*",
+      "*whisper on the wind*"
+    ],
+    "reveal": [
+      "You see through the disguise. Clever.",
+      "I am older than this desert. I remember when it was sea.",
+      "The green one seeks the truth. The truth seeks silence.",
+      "My cousins in Uplands send greetings. We are connected. Root and branch."
+    ],
+    "rumor": [
+      "The earth remembers all. Even what you forget.",
+      "Deep below, something stirs. Not evil. Just... waking.",
+      "The barrel that walks has purpose. Ancient purpose.",
+      "When the stone weeps, plant there. Life finds a way."
+    ],
+    "quest_hook": "Seeds I carry. Ancient. Sleeping. Need planting where stone weeps. Find such place. Plant three. Return. Reward: knowledge.",
+    "quest_active": "Stone weeps. Water from rock. Three seeds. Three spots. Life returns.",
+    "quest_complete": "You planted. Life grows. The desert thanks you. Here. My blessing. Carry it.",
+    "quest_reward": "Druid's Blessing - Nature speaks to you",
+    "farewell": [
+      "*returning to bush-ness*",
+      "*watching departure*",
+      "*patient waiting*"
+    ],
+    "ambient_barks": [
+      "...",
+      "*rustle*",
+      "*photosynthesis*",
+      "*ancient watching*",
+      "*bush noises*",
+      "*nature sounds*"
+    ],
+    "time_dawn": "*morning dew collection*",
+    "time_noon": "*heat endurance* *deep root drinking*",
+    "time_dusk": "*evening pollinator welcome*",
+    "time_night": "*moonlight communion*",
+    "post_quest_greeting": "*recognition rustle* *welcoming growth*",
+    "if_korr_present": "*kinship with the green one*",
+    "if_renn_casts_nature": "*approval* *ancient recognition*"
+  },
+  "party_reactions": {
+    "kade": "I... see a bush. That's definitely a bush.",
+    "nix7": "Botanical analysis: anomalous. Recommend: further study.",
+    "twist": "Nice bush! Very... bushy!",
+    "korr": "I sense the ancient power. Respect, elder one.",
+    "renna": "Arcane signatures detected. This is no mere shrubbery."
+  },
+  "relationship_dialog": {
+    "stranger": "*neutral bush stance*",
+    "acquaintance": "*recognition growth*",
+    "friend": "*welcoming rustle*",
+    "best_friend": "*reveals true form*"
+  },
+  "mini_quest": {
+    "id": "three_seeds",
+    "title": "Three Seeds",
+    "description": "Plant ancient seeds where 'stone weeps'",
+    "stages": {
+      "hook": "Seeds I carry. Ancient. Need planting where stone weeps. Find such place. Plant three. Return.",
+      "active": "Stone weeps means water from rock. Three locations. Three plantings. Life returns to dead places.",
+      "complete": "Planted well. Life stirs. Desert remembers green. Take this blessing. Speak with my kind."
+    },
+    "reward": {
+      "item": "druid_blessing",
+      "gold": 500,
+      "reputation": "nature_ally"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_capital_supply_run",
+  "name": "Iron and Bread",
+  "zone": "capital",
+  "giver": "foodboys_red",
+  "type": "exploration",
+  "prerequisites": ["act_2_started"],
+  "stages": {
+    "start": {
+      "dialog": "The Undercity kids are starving, and the resistance needs medical supplies. Problem is, Dominion seized all the warehouses. But there's an old Ironhawk cache in the flooded district—medkits, preserved rations, even some weapons. You look like you can handle wet work.",
+      "objective": "Locate the Ironhawk supply cache in the flooded district"
+    },
+    "progress": {
+      "dialog": "Found the cache, eh? Good. Now comes the tricky part—getting it past the checkpoint. The guards are corrupt but careful. I've got a forged manifest that should work, but if they search the crates... well, that's where your reputation comes in.",
+      "objective": "Bluff or fight through the Dominion checkpoint"
+    },
+    "complete": {
+      "dialog": "Supplies delivered, kids fed, wounded treated. The resistance owes you more than coin. When the history of this war is written, they'll speak of heroes who moved in shadows, delivering hope when all seemed lost. That means you.",
+      "rewards": {
+        "exp": 8800,
+        "gold": 1000,
+        "item": "ironhawk_supply_manifest"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "Smuggling supplies past checkpoints? This is basically my origin story.",
+    "nix7": "Supply logistics analysis: 340% efficiency increase with proper distribution network. Recommend establishing secondary cache points.",
+    "suresh": "Those medical supplies will save lives. Makes me wish I could be in ten places at once treating everyone."
+  },
+  "lore_unlocks": ["undercity_poverty", "ironhawk_syndicate_capital"]
+}

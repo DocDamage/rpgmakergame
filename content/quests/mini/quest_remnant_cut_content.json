@@ -1,0 +1,32 @@
+{
+  "quest_id": "mini_remnant_cut_content",
+  "name": "Lost and Found",
+  "zone": "remnant",
+  "giver": "bush",
+  "type": "exploration",
+  "prerequisites": ["game_completed"],
+  "stages": {
+    "start": {
+      "dialog": "Every game has cut content—quests that didn't fit, areas that were scaled back, characters who never got their moment. The Remnant preserves these lost pieces. I've found a sealed sector containing a complete cut questline: 'The Iron Legion.' Play through it. Experience what might have been.",
+      "objective": "Enter the sealed sector and play the cut 'Iron Legion' questline"
+    },
+    "progress": {
+      "dialog": "Halfway through the Iron Legion storyline, and it's remarkable—different tone, different challenges, a whole alternate path through the mid-game. The characters are fully voiced, the areas detailed, the story complete. Why was it cut? Play to the end. Sometimes the answer lies in completion.",
+      "objective": "Complete the Iron Legion questline and learn why it was cut"
+    },
+    "complete": {
+      "dialog": "Questline complete, and now you understand. It was cut because it didn't fit the themes—too militaristic, too focused on war rather than heroism. But it was beautiful in its own way. The developers left it here, in the Remnant, for players like you to find. Nothing truly lost. Just... relocated.",
+      "rewards": {
+        "exp": 60000,
+        "gold": 20000,
+        "item": "iron_legion_insignia"
+      }
+    }
+  },
+  "party_comments": {
+    "kade": "The Iron Legion story was intense. Different from our path, but compelling. I see why they kept it, even cut.",
+    "korr": "A military-focused storyline. I would've excelled in that narrative. But this one—our story—has more heart.",
+    "grit": "The Legion's tactics were solid. Learned a few things from their scenarios. Even cut content can teach."
+  },
+  "lore_unlocks": ["iron_legion", "cut_content_preservation"]
+}

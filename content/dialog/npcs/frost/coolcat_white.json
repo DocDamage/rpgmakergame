@@ -1,0 +1,95 @@
+{
+  "npc_id": "coolcat_white_frost",
+  "name": "Crystal Whiskers",
+  "sprite": "coolcat_white",
+  "zone": "frost",
+  "location": "Ice Sculpture Garden",
+  "personality": "artistic_intense_transient",
+  "occupation": "ice_sculptor",
+  "dialog": {
+    "greeting": [
+      "Shhh. The ice is speaking. I'm listening.",
+      "Crystal Whiskers. I sculpt what the frost shows me.",
+      "New face. Warm face. Don't melt the work.",
+      "The white fur? Camouflage. The art? Reveals.",
+      "Ice sculpting. Temporary. Beautiful. Like life.",
+      "Welcome to the garden. Everything melts. Eventually.",
+      "Crystal. I capture moments. In frozen water. Before they escape.",
+      "You're breathing on my sculpture. Please. Step back."
+    ],
+    "work_pride": "The twins commissioned a piece. Their future selves. I sculpted... possibilities. They wept.",
+    "technique": "The ice tells me what it wants to be. I just... remove what isn't that.",
+    "break_chat": "Break? The ice doesn't break. It transforms. So do I.",
+    "labor_concerns": "Art isn't labor. It's... revelation. Union doesn't understand. Neither do I, really.",
+    "retirement": "Retirement? When the ice stops speaking. So: never.",
+    "rumor": [
+      "Cirrus? I sculpted him once. In storm ice. It... predicted his sadness.",
+      "Azure? Won't sit for sculpture. Says he's 'not worth preserving.' Wrong.",
+      "The twins see futures. I sculpt pasts. Both are true. Both melt.",
+      "Snake charmer's rock? I tried to sculpt it. Too warm. Slipped away.",
+      "Slate, in Obsidian? My union counterpart. Different art. Same struggle."
+    ],
+    "quest_hook": "Inspiration. Gone. The ice is silent. Needs... new perspective. Your story? Your face? Model for me?",
+    "quest_active": "Still blocked. Pose again? Different angle? The ice is... stubborn today.",
+    "quest_complete": "IT SPEAKS! Your essence! Captured! Here - the sculpture. Take it. Before it melts. And this. My chisel. For your own creations.",
+    "farewell": [
+      "Don't let the warmth take you.",
+      "Everything melts. Make it matter.",
+      "Return. When you're ready to be preserved."
+    ],
+    "ambient_barks": [
+      "The ice speaks...",
+      "Quiet. Creating.",
+      "Beauty in freezing...",
+      "Temporary forever...",
+      "Sculpting truth...",
+      "Melting is living..."
+    ],
+    "time_dawn": "Morning light. Through ice. Rainbows. Possibilities.",
+    "time_noon": "Midday. Too warm. Work stops. Preservation time.",
+    "time_dusk": "Evening. Golden hour. Ice becomes fire. Beautiful.",
+    "time_night": "Night. Under stars. Ice reflects eternity. I work.",
+    "rival_mention": "Slate, in Obsidian? Union organizer. Sculpts solidarity. Different medium. Same passion.",
+    "post_quest_greeting": "The muse returns! Pose again? Different work this time."
+  },
+  "party_reactions": {
+    "kade": "She's intense. But her art... it's like she captures souls. In ice.",
+    "nix7": "Artistic technique: Advanced. Subject matter: Philosophically intriguing. Medium: Temporary.",
+    "twist": "You make ICE STATUES?! That's SO COOL! Make one of ME!",
+    "korr": "She creates beauty from impermanence. The warrior's path. Similar.",
+    "renna": "The ice is magically sensitive. Her sculptures... predict. Sometimes.",
+    "suresh": "She teaches impermanence through art. The Middle Path. Beautifully expressed.",
+    "sova": "Interesting. But temporary. I prefer permanent solutions.",
+    "grit": "War memorials. Statues. They last. This? Beautiful. Sad.",
+    "ashka": "She understands fire's opposite. Respect.",
+    "senna": "She knows things. Through the ice. I should learn how.",
+    "callum": "Her workspace! ORGANIZED! Tools! EXACT placement!"
+  },
+  "relationship_dialog": {
+    "stranger": "New. Don't touch the sculptures. They touch back.",
+    "acquaintance": "Returning. You appreciate. Rare.",
+    "friend": "You understand. The ice. The art. The melting.",
+    "best_friend": "You inspire. Constantly. Here. My studio. Yours. Create."
+  },
+  "mini_quest": {
+    "id": "frozen_inspiration",
+    "title": "The Silent Ice",
+    "description": "Help Crystal find inspiration by modeling for her ice sculpture",
+    "stages": {
+      "hook": "Blocked. The ice is silent. Needs... new life. Your story. Your face. Model for me? Please?",
+      "active": "Pose there. Yes. Hold. The ice is... considering. Don't move. Hours, maybe.",
+      "complete": "INSPIRATION! Your essence! Captured! Here - the sculpture. Take it. And my chisel. For your own art."
+    },
+    "reward": {
+      "item": "crystal_master_chisel",
+      "gold": 350,
+      "reputation": "ice_artist_muse"
+    }
+  },
+  "cross_npc_connections": [
+    "twins_white_frost: Clients. Friends. They see futures. I sculpt pasts. Both true.",
+    "coolcat_industrial_obsidian: My counterpart. Sculpts solidarity. Different medium. Same fire.",
+    "aeronaut_blue_frost: Azure. Won't model. Says he's 'not worth preserving.' Wrong.",
+    "snakecharmer_frost: Warm rock. Tempting. But melts my medium. Dangerous."
+  ]
+}
