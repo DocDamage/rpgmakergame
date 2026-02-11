@@ -1,0 +1,15 @@
+================================================================
+ENVIRONMENT SPRITE COVERAGE AUDIT
+================================================================
+Maps scanned: 98
+Towns scanned: 14
+Maps with world-dressing anchors: 98
+Tilesets referenced by maps: 16
+Tilesets with source PNGs: 16
+Tilesets with READMEs: 16
+Tilesets with curation candidates: 16
+----------------------------------------------------------------
+Errors: 0
+Warnings: 0
+
+Environment sprite coverage checks passed.

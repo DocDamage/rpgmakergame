@@ -1,0 +1,12 @@
+========================================================================
+RUNTIME IMAGE REFERENCE VALIDATION
+========================================================================
+References scanned: 188
+Unique references: 174
+By kind: battlebacks1=1 battlebacks2=1 characters=16 effects=120 enemy_battler=6 faces=13 sv_actors=13 tilesets=17 titles1=1
+------------------------------------------------------------------------
+Errors: 0
+Warnings: 0
+Strict promoted warnings: 0
+
+Runtime image reference checks passed.

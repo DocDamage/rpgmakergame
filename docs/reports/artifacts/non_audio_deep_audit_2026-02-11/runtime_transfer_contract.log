@@ -1,0 +1,13 @@
+====================================================================
+RUNTIME TRANSFER CONTRACT VALIDATION
+====================================================================
+Canonical maps: 98
+Bridge mappings: 98
+Runtime maps validated: 98
+Expected transfers: 265
+Actual transfer events: 265
+--------------------------------------------------------------------
+Errors: 0
+Warnings: 0
+
+Runtime transfer contract checks passed.

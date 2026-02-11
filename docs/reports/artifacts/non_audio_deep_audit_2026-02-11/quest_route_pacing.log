@@ -1,0 +1,16 @@
+====================================================================
+QUEST ROUTE PACING AUDIT
+====================================================================
+Scope: all
+Main-only: False
+Maps: 98
+Quest packs: 5
+Quests scanned: 251
+Quests with locations: 251
+Quest transitions checked: 113
+First-target overworld checks: 251
+--------------------------------------------------------------------
+Errors: 0
+Warnings: 0
+
+Quest route pacing checks passed.

@@ -1,0 +1,13 @@
+================================================================
+RUNTIME WORLD DRESSING VALIDATION
+================================================================
+Canonical maps: 98
+Bridge mappings: 98
+Runtime maps validated: 98
+Expected world-dressing tags: 354
+Actual world-dressing tags: 354
+----------------------------------------------------------------
+Errors: 0
+Warnings: 0
+
+Runtime world-dressing checks passed.

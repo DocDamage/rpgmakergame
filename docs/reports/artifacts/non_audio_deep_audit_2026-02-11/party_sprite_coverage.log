@@ -1,0 +1,12 @@
+====================================================================
+PARTY SPRITE COVERAGE VALIDATION
+====================================================================
+Actors checked: 13
+Overworld sheets checked: 26
+SV sheets checked: 26
+--------------------------------------------------------------------
+Errors: 0
+Warnings: 0
+Strict promoted warnings: 0
+
+Party sprite coverage checks passed.

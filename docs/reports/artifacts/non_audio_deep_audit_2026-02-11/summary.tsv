@@ -1,0 +1,12 @@
+party_sprite_coverage	0	/tmp/non_audio_deep_audit_2026-02-11/party_sprite_coverage.log
+runtime_image_references	0	/tmp/non_audio_deep_audit_2026-02-11/runtime_image_references.log
+content_integrity	0	/tmp/non_audio_deep_audit_2026-02-11/content_integrity.log
+story_cohesion	0	/tmp/non_audio_deep_audit_2026-02-11/story_cohesion.log
+quest_route_pacing	0	/tmp/non_audio_deep_audit_2026-02-11/quest_route_pacing.log
+runtime_map_bridge	0	/tmp/non_audio_deep_audit_2026-02-11/runtime_map_bridge.log
+runtime_transfer_contract	0	/tmp/non_audio_deep_audit_2026-02-11/runtime_transfer_contract.log
+runtime_world_dressing	0	/tmp/non_audio_deep_audit_2026-02-11/runtime_world_dressing.log
+world_integrity	0	/tmp/non_audio_deep_audit_2026-02-11/world_integrity.log
+environment_sprite_coverage	0	/tmp/non_audio_deep_audit_2026-02-11/environment_sprite_coverage.log
+js_syntax	0	/tmp/non_audio_deep_audit_2026-02-11/js_syntax.log
+nw_smoke_playtest	0	/tmp/non_audio_deep_audit_2026-02-11/nw_smoke_playtest.log

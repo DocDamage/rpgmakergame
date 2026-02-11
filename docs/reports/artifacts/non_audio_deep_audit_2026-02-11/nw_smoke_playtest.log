@@ -1,0 +1,20 @@
+Running NW smoke playtest...
+Project: /mnt/c/Users/dferr/Desktop/rpgmakergame
+Log: /tmp/nw_playtest_smoke.log
+====================================================================
+NW RUNTIME LOG AUDIT
+====================================================================
+Log: /tmp/nw_playtest_smoke.log
+Errors: 0
+Warnings: 3
+--------------------------------------------------------------------
+WARNING FINDINGS
+[vaapi] line 175: [78546:78546:0211/130113.255945:VERBOSE1:gen/media/gpu/vaapi/va_stubs.cc:663] dlopen(libva.so.2) failed.
+[vaapi] line 176: [78546:78546:0211/130113.256267:VERBOSE1:gen/media/gpu/vaapi/va_stubs.cc:665] dlerror() says:
+[vaapi] line 178: [78546:78546:0211/130113.256274:VERBOSE1:media/gpu/vaapi/vaapi_wrapper.cc:1581] GetHandle(): Either VADisplayStateSingleton::PreSandboxInitialization() hasn't been called or that method failed to find a suitable render node
+NW stayed alive for 16s (timeout reached).
+
+Key log lines:
+408:[78517:78517:0211/130114.854392:INFO:CONSOLE:1519] "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently", source: chrome-extension://njgcanhfjdabfmnlmpmdedalocpafnhl/js/rmmz_core.js (1519)
+
+NW smoke playtest PASSED.

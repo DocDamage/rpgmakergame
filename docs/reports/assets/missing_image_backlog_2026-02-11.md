@@ -35,25 +35,6 @@ See `docs/TILESET_REPLACEMENT_GUIDE.md` for source mapping details.
 - `img/system/Weapons3.png`
 - `img/system/Window.png`
 
-### Tilesets used by runtime maps
-- `img/tilesets/Dungeon_A1.png`
-- `img/tilesets/Dungeon_A2.png`
-- `img/tilesets/Dungeon_A4.png`
-- `img/tilesets/Dungeon_A5.png`
-- `img/tilesets/Dungeon_B.png`
-- `img/tilesets/Dungeon_C.png`
-- `img/tilesets/Outside_A1.png`
-- `img/tilesets/Outside_A2.png`
-- `img/tilesets/Outside_A3.png`
-- `img/tilesets/Outside_A4.png`
-- `img/tilesets/Outside_A5.png`
-- `img/tilesets/Outside_B.png`
-- `img/tilesets/Outside_C.png`
-- `img/tilesets/World_A1.png`
-- `img/tilesets/World_A2.png`
-- `img/tilesets/World_B.png`
-- `img/tilesets/World_C.png`
-
 ## Priority 2: Environment/Object Art Upgrade (non-blocking)
 Current maps run, but dedicated object-sheet polish is still recommended for these tileset themes:
 - `Tileset_OrionOverworld`
