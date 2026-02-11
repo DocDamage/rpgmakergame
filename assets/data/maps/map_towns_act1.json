@@ -327,7 +327,12 @@
       ],
       "key_npcs": [
         "NPC_MIRA_THORN",
-        "NPC_CAPTAIN_VARROS"
+        "NPC_CAPTAIN_VARROS",
+        "NPC_OLD_KELL",
+        "NPC_BROKER_VANE",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_RESISTANCE_CONTACT"
       ],
       "services": [
         "shop",
@@ -494,7 +499,9 @@
         }
       ],
       "key_npcs": [
-        "NPC_SISTER_AMARA"
+        "NPC_SISTER_AMARA",
+        "NPC_OLD_KELL",
+        "NPC_BROKER_VANE"
       ],
       "services": [
         "shop",
@@ -670,7 +677,13 @@
         }
       ],
       "key_npcs": [
-        "NPC_OLD_KELL"
+        "NPC_OLD_KELL",
+        "NPC_CAPTAIN_VARROS",
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_BROKER_VANE",
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_ARCHIVIST_VELM"
       ],
       "services": [
         "shop",
@@ -855,7 +868,9 @@
         }
       ],
       "key_npcs": [
-        "NPC_FORGE_MASTER_GRIMJAW"
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_BROKER_VANE"
       ],
       "services": [
         "shop",
@@ -935,6 +950,15 @@
             56,
             36
           ]
+        },
+        {
+          "direction": "east",
+          "target": "T_HALCYON_FREEPORT_112x72",
+          "coords": [
+            111,
+            36
+          ],
+          "condition": "POST_GAME_UNLOCKED"
         },
         {
           "direction": "special",
@@ -1021,7 +1045,11 @@
         }
       ],
       "key_npcs": [
-        "NPC_DOCKMASTER_SARAI"
+        "NPC_DOCKMASTER_SARAI",
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_BROKER_VANE",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_SEAM_WARDEN"
       ],
       "services": [
         "shop",

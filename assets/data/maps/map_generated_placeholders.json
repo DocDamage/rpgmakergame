@@ -151,6 +151,10 @@
           ],
           "dialog_tree": "DT_AMBIENT_COURIER"
         }
+      ],
+      "key_npcs": [
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_DOMINION_OFFICIAL"
       ]
     },
     {
@@ -211,6 +215,9 @@
           ],
           "dialog_tree": "DT_AMBIENT_SCAVENGER"
         }
+      ],
+      "key_npcs": [
+        "NPC_FORGE_MASTER_GRIMJAW"
       ]
     },
     {
@@ -254,6 +261,9 @@
           ],
           "dialog_tree": "DT_AMBIENT_SAILOR"
         }
+      ],
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL"
       ]
     },
     {
@@ -383,6 +393,10 @@
           ],
           "dialog_tree": "DT_AMBIENT_TRACKER"
         }
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA",
+        "NPC_FORGE_MASTER_GRIMJAW"
       ]
     },
     {
@@ -469,6 +483,10 @@
           ],
           "dialog_tree": "DT_AMBIENT_MECHANIC"
         }
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_DOMINION_OFFICIAL"
       ]
     },
     {

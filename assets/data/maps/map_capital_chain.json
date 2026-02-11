@@ -114,6 +114,10 @@
       "events": [
         "ARCHIVE_KEY_ACQUIRED",
         "AURORA_FOUNDRY_DISCOVERED"
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA",
+        "NPC_ARCHIVIST_VELM"
       ]
     },
     {
@@ -291,6 +295,40 @@
       "encounter_table": "CHRONO_ENCOUNTERS",
       "music": "bgm_dungeon_palace",
       "lighting": "cosmic",
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_SEAM_WARDEN",
+        "NPC_BROKER_VANE"
+      ],
+      "landmarks": [
+        {
+          "name": "Concordance Atrium",
+          "coords": [
+            64,
+            40
+          ],
+          "type": "ritual_chamber"
+        },
+        {
+          "name": "Astral Gate Array",
+          "coords": [
+            96,
+            24
+          ],
+          "type": "puzzle"
+        },
+        {
+          "name": "Foundation Relay",
+          "coords": [
+            32,
+            72
+          ],
+          "type": "quest_location"
+        }
+      ],
       "connections": [
         {
           "direction": "special",

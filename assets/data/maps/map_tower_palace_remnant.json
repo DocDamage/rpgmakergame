@@ -17,6 +17,39 @@
         "shop",
         "party_management"
       ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_BROKER_VANE",
+        "NPC_SEAM_WARDEN",
+        "NPC_DOCKMASTER_SARAI",
+        "NPC_FORGE_MASTER_GRIMJAW"
+      ],
+      "landmarks": [
+        {
+          "name": "Ascension Obelisk",
+          "coords": [
+            48,
+            20
+          ],
+          "type": "ritual_focus"
+        },
+        {
+          "name": "Challenge Registry Terminal",
+          "coords": [
+            24,
+            24
+          ],
+          "type": "quest_board"
+        },
+        {
+          "name": "Reward Lift Nexus",
+          "coords": [
+            16,
+            16
+          ],
+          "type": "travel_node"
+        }
+      ],
       "connections": [
         {
           "direction": "special",
@@ -37,6 +70,42 @@
         },
         {
           "direction": "special",
+          "target": "TWR_ARENA_F15_48x48",
+          "coords": [
+            72,
+            32
+          ],
+          "trigger": "f15_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F25_48x48",
+          "coords": [
+            64,
+            32
+          ],
+          "trigger": "F15_CLEARED"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F35_48x48",
+          "coords": [
+            56,
+            32
+          ],
+          "trigger": "f35_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F50_64x64",
+          "coords": [
+            80,
+            44
+          ],
+          "trigger": "f50_unlocked"
+        },
+        {
+          "direction": "special",
           "target": "TWR_REWARD_48x32",
           "coords": [
             16,
@@ -51,6 +120,51 @@
             20
           ],
           "trigger": "f75_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F55_48x48",
+          "coords": [
+            72,
+            20
+          ],
+          "trigger": "f55_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F65_48x48",
+          "coords": [
+            64,
+            20
+          ],
+          "trigger": "f65_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F85_48x48",
+          "coords": [
+            56,
+            20
+          ],
+          "trigger": "f85_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F95_48x48",
+          "coords": [
+            48,
+            20
+          ],
+          "trigger": "f95_unlocked"
+        },
+        {
+          "direction": "special",
+          "target": "TWR_ARENA_F100_64x64",
+          "coords": [
+            80,
+            8
+          ],
+          "trigger": "f100_unlocked"
         }
       ]
     },
@@ -67,6 +181,24 @@
       "music": "bgm_tower_reward",
       "services": [
         "reward_claim"
+      ],
+      "landmarks": [
+        {
+          "name": "Reliquary Vault",
+          "coords": [
+            24,
+            8
+          ],
+          "type": "reward_core"
+        },
+        {
+          "name": "Echo Exchange Console",
+          "coords": [
+            12,
+            16
+          ],
+          "type": "shop"
+        }
       ],
       "connections": [
         {
@@ -105,7 +237,8 @@
       ],
       "events": [
         "F10_CLEARED",
-        "F15_UNLOCKED"
+        "F15_UNLOCKED",
+        "F50_UNLOCKED"
       ]
     },
     {
@@ -216,7 +349,8 @@
       "events": [
         "F50_CLEARED",
         "STORY_MIDPOINT",
-        "F55_UNLOCKED"
+        "F55_UNLOCKED",
+        "F100_UNLOCKED"
       ]
     },
     {
@@ -310,6 +444,9 @@
       "events": [
         "F75_CLEARED",
         "F85_UNLOCKED"
+      ],
+      "key_npcs": [
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {
@@ -375,6 +512,9 @@
       "events": [
         "F90_CLEARED",
         "F95_UNLOCKED"
+      ],
+      "key_npcs": [
+        "NPC_ARCHIVIST_VELM"
       ]
     },
     {
@@ -440,6 +580,9 @@
       "events": [
         "TOWER_CLEARED",
         "PALACE_ACCESS"
+      ],
+      "key_npcs": [
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {
@@ -592,6 +735,9 @@
       "events": [
         "GAME_CLEARED",
         "STORY_COMPLETE"
+      ],
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL"
       ]
     },
     {
@@ -617,6 +763,9 @@
             0
           ]
         }
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -630,6 +779,30 @@
       },
       "tileset": "Tileset_RemnantGlitch",
       "music": "bgm_remnant_vault",
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_BROKER_VANE",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_DOMINION_OFFICIAL"
+      ],
+      "landmarks": [
+        {
+          "name": "Memory Gate Spire",
+          "coords": [
+            48,
+            18
+          ],
+          "type": "hub_core"
+        },
+        {
+          "name": "Wing Attunement pylons",
+          "coords": [
+            20,
+            12
+          ],
+          "type": "progression_gate"
+        }
+      ],
       "connections": [
         {
           "direction": "special",
@@ -638,6 +811,15 @@
             48,
             71
           ]
+        },
+        {
+          "direction": "special",
+          "target": "T_HALCYON_FREEPORT_112x72",
+          "coords": [
+            24,
+            71
+          ],
+          "condition": "STORY_COMPLETE"
         },
         {
           "direction": "special",
@@ -723,6 +905,9 @@
       ],
       "events": [
         "WING_A_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -758,6 +943,9 @@
       ],
       "events": [
         "WING_B_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -820,6 +1008,9 @@
       "events": [
         "REMNANT_VAULT_CLEARED",
         "SUPERBOSS_DEFEATED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     }
   ]

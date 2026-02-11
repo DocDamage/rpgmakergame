@@ -46,8 +46,7 @@ Instrumental cinematic JRPG story cue with clear leitmotif writing. Scene target
 - Asset status: `Placeholder present (.ogg)`
 - Prompt:
 ```text
-Instrumental cinematic JRPG story cue with clear leitmotif writing. Scene target: Overworld. Mood: World traversal anthem: adventurous scope with steady heroic drive. Tempo 112 BPM, meter 4/4, key center D dorian. Primary instrumentation: Strings ostinato, horns, toms, clean bass. Arrangement direction: Core travel identity; 85-110s loop with strong hook. Target total runtime around 85-110 seconds with a seamless gameplay loop. Mix for gameplay headroom and clear midrange for SFX/dialogue. No lyrics, no spoken voice, choir only as non-lexical texture.
-```
+Instrumental retro JRPG world map theme, very dark and simple. Minor key, slow-moving chords, repetitive haunting melody, pulsing bass, light toms. SNES-style strings/brass/square lead. Space opera: deep choir pad and synth drone. Spaghetti western: tremolo guitar, lonely trumpet call. Seamless loop. No vocals.
 
 ### `bgm_title`
 - Suggested title: `Title`
@@ -55,7 +54,7 @@ Instrumental cinematic JRPG story cue with clear leitmotif writing. Scene target
 - Asset status: `Placeholder present (.ogg)`
 - Prompt:
 ```text
-Instrumental cinematic JRPG story cue with clear leitmotif writing. Scene target: Title. Mood: Main title identity: epic but intimate, promise of danger and hope. Tempo 92 BPM, meter 4/4, key center D minor. Primary instrumentation: Epic strings, piano, french horns, analog pad. Arrangement direction: Main motif statement in first 8 bars; 90-120s loop. Target total runtime around 90-120 seconds with a seamless gameplay loop. Mix for gameplay headroom and clear midrange for SFX/dialogue. No lyrics, no spoken voice, choir only as non-lexical texture.
+Instrumental title theme, pure dread. 66 BPM, 4/4, D minor with frequent chromatic notes. Start with solo cello (or solo viola) on a tiny, iconic motif (3–5 notes) with lots of silence. Build gradually: add second cello, then low strings holding a single ominous pedal, then high strings sustaining biting minor 2nds, then bassoon/low brass shadows, then dark choir pad and distant synth air. Keep it minimal, slow, and menacing—no heroic lift. NO DRUMS / NO PERCUSSION. Finish on a diminished or suspended chord that does not fully resolve. No vocals.
 ```
 
 ### `bgm_victory`
@@ -102,8 +101,7 @@ Instrumental anime JRPG town BGM, warm and inviting, easy to loop while explorin
 - Asset status: `Placeholder present (.ogg)`
 - Prompt:
 ```text
-Instrumental anime JRPG town BGM, warm and inviting, easy to loop while exploring NPC dialogue. Scene target: Town Brinegate. Mood: Port-town cadence: salt air, trade bustle, maritime motion. Tempo 98 BPM, meter 4/4, key center G mixolydian. Primary instrumentation: Mandolin, whistle/flute, frame drum, bass. Arrangement direction: Port-town bustle; lively groove with maritime flavor. Target around 80-110 seconds with a seamless gameplay loop and no audible seam. Mix for gameplay headroom and clear midrange for SFX/dialogue. No lyrics, no spoken voice, choir only as non-lexical texture.
-```
+Instrumental anime JRPG town BGM for Town Brinegate — gloomy, rain-soaked port, quiet despair, “people pretending it’s fine.” 98 BPM, 4/4, G mixolydian but lean hard into the dark color (flat-7, frequent borrowed minor chords, avoid bright resolutions). Mandolin plays a simple repeating minor-tinged motif; whistle/flute is sparse and mournful (like a distant foghorn melody). Frame drum is minimal and restrained (soft heartbeat, no lively groove); bass is low and heavy with slow movement. Add subtle sea-wind ambience and optional very low non-lexical choir pad (barely there). 80–110s seamless loop, no audible seam, gameplay headroom, clear mids. No lyrics, no spoken voice.```
 
 ### `bgm_town_chronowake`
 - Suggested title: `Town Chronowake`
@@ -174,7 +172,7 @@ Instrumental anime JRPG town BGM, warm and inviting, easy to loop while explorin
 - Asset status: `Placeholder present (.ogg)`
 - Prompt:
 ```text
-Instrumental anime JRPG town BGM, warm and inviting, easy to loop while exploring NPC dialogue. Scene target: Town Meridian. Mood: Transit hub life: busy crossroads, opportunity, onward flow. Tempo 104 BPM, meter 4/4, key center A major. Primary instrumentation: Piano, plucked strings, hand percussion, bass. Arrangement direction: Crossroads activity; clear rhythmic pulse for busy map flow. Target around 80-110 seconds with a seamless gameplay loop and no audible seam. Mix for gameplay headroom and clear midrange for SFX/dialogue. No lyrics, no spoken voice, choir only as non-lexical texture.
+Instrumental JRPG town BGM, warm and inviting, easy to loop while exploring NPC dialogue. Scene target: Town Meridian. Mood: Transit hub life: busy crossroads, opportunity, onward flow. Tempo 104 BPM, meter 4/4, key center A major. Primary instrumentation: Piano, plucked strings, hand percussion, bass. Arrangement direction: Crossroads activity; clear rhythmic pulse for busy map flow. Target around 80-110 seconds with a seamless gameplay loop and no audible seam. Mix for gameplay headroom and clear midrange for SFX/dialogue. No lyrics, no spoken voice, choir only as non-lexical texture.
 ```
 
 ### `bgm_town_mirewatch`

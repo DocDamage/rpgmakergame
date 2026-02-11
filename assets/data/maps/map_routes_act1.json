@@ -67,6 +67,9 @@
           ],
           "dialog_tree": "DT_AMBIENT_SCAVENGER"
         }
+      ],
+      "key_npcs": [
+        "NPC_OLD_KELL"
       ]
     },
     {
@@ -147,6 +150,9 @@
           ],
           "dialog_tree": "DT_AMBIENT_SCAVENGER"
         }
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -215,6 +221,9 @@
           ],
           "dialog_tree": "DT_AMBIENT_SCAVENGER"
         }
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -299,6 +308,11 @@
           ],
           "dialog_tree": "DT_AMBIENT_SCAVENGER"
         }
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {

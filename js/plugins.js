@@ -3,15 +3,16 @@
 var $plugins =
 [
 {"name":"ChromaEdge_CharacterAffinity","status":true,"description":"v0.1.0 Chroma's Edge affinity tracking foundation.","parameters":{"minAffinity":"1","maxAffinity":"10","defaultAffinity":"1","dlbRequiredAffinity":"10"}},
-{"name":"ChromaEdge_SummonSystem","status":false,"description":"v0.1.0 Week 1 stub: Summon system.","parameters":{}},
-{"name":"ChromaEdge_DualLimitBreak","status":false,"description":"v0.1.0 Week 1 stub: Dual Limit Break.","parameters":{}},
-{"name":"ChromaEdge_QuestSystem","status":false,"description":"v0.1.0 Week 1 stub: Quest system.","parameters":{}},
-{"name":"ChromaEdge_DialogueTree","status":false,"description":"v0.1.0 Week 1 stub: Dialogue tree.","parameters":{}},
-{"name":"ChromaEdge_DayNightSystem","status":false,"description":"v0.1.0 Week 1 stub: Day/night.","parameters":{}},
-{"name":"ChromaEdge_NPCScheduling","status":false,"description":"v0.1.0 Week 1 stub: NPC scheduling.","parameters":{}},
-{"name":"ChromaEdge_MercyChoiceSystem","status":false,"description":"v0.1.0 Week 1 stub: Mercy choices.","parameters":{}},
-{"name":"ChromaEdge_TowerProgression","status":false,"description":"v0.1.0 Week 1 stub: Tower progression.","parameters":{}},
-{"name":"ChromaEdge_EndingBranch","status":false,"description":"v0.1.0 Week 1 stub: Ending branches.","parameters":{}},
-{"name":"ChromaEdge_AffinityMenu","status":false,"description":"v0.1.0 Week 1 stub: Affinity menu.","parameters":{}},
-{"name":"ChromaEdge_QuestJournal","status":false,"description":"v0.1.0 Week 1 stub: Quest journal.","parameters":{}}
+{"name":"ChromaEdge_SummonSystem","status":true,"description":"v0.2.0 Summon registry, unlock state, owner rules, and battle skill gating.","parameters":{"callumActorId":"10","seedCanonicalSummons":"true","unlockCanonicalOnBoot":"false","autoRegisterSkillSummons":"true"}},
+{"name":"ChromaEdge_DualLimitBreak","status":true,"description":"v0.2.0 Dual Limit Break pair runtime, validation, and skill gating.","parameters":{"requiredAffinity":"10","requiredTp":"100","requireBothBattleMembers":"true","requireBothTpFull":"true","defaultPairsUnlocked":"true"}},
+{"name":"ChromaEdge_QuestSystem","status":true,"description":"v0.2.0 Runtime quest registry/state for canonical quest packs.","parameters":{"includeContentPacks":"false","loadOnBoot":"true"}},
+{"name":"ChromaEdge_DialogueTree","status":true,"description":"v0.2.0 Branching dialogue runtime with conditions, flags, and scene UI.","parameters":{"loadOnBoot":"true","autoHookAmbientEvents":"true","allowCancelClose":"true"}},
+{"name":"ChromaEdge_DayNightSystem","status":true,"description":"v0.2.0 Persistent 24-hour time cycle with variable sync and optional map tint.","parameters":{"startHour":"8","startMinute":"0","realSecondsPerGameMinute":"2","syncVariableId":"21","autoTintEnabled":"true"}},
+{"name":"ChromaEdge_NPCScheduling","status":true,"description":"v0.2.0 Data-driven NPC schedule loader and runtime map event positioning.","parameters":{"loadOnBoot":"true","enabledByDefault":"true","autoApplyOnMapLoad":"true","autoApplyOnTimeTick":"true","autoUseRainSlot":"true","requireLocationMatch":"true"}},
+{"name":"ChromaEdge_MercyChoiceSystem","status":true,"description":"v0.2.0 Boss mercy/kill choice persistence with totals and route score.","parameters":{"spareScore":"1","killScore":"-1"}},
+{"name":"ChromaEdge_TowerProgression","status":true,"description":"v0.2.0 Tower floor progression, unlock state, and palace gate sync.","parameters":{"towerUnlockSwitchId":"40","palaceUnlockSwitchId":"41","initialUnlockedFloor":"10","loadOnBoot":"true"}},
+{"name":"ChromaEdge_EndingBranch","status":true,"description":"v0.2.0 Ending route state (Free Prime/Anchor) with auto-evaluation and switch sync.","parameters":{"freePrimeSwitchId":"50","anchorSwitchId":"51","requireTowerCleared":"true","freePrimeMinMercyScore":"1"}},
+{"name":"ChromaEdge_AffinityMenu","status":true,"description":"v0.2.0 Affinity relationship menu scene with pair list and detail panel.","parameters":{"showMenuCommand":"true","menuCommandName":"Affinity","includeAllKnownActors":"false"}},
+{"name":"ChromaEdge_QuestJournal","status":true,"description":"v0.2.0 Quest Journal UI (menu command, filters, list, detail pane).","parameters":{"showMenuCommand":"true","menuCommandName":"Quests","defaultFilter":"active"}},
+{"name":"ChromaEdge_QuestTrackerHUD","status":true,"description":"v0.1.0 Map HUD tracker for current quest objective.","parameters":{"enabledByDefault":"true","x":"0","y":"42","width":"430","lineCount":"2","opacity":"192","showAvailableWhenNoActive":"true","hideDuringMessage":"true","showTargetMarker":"true","markerEnabledByDefault":"true","markerYOffset":"52"}}
 ];

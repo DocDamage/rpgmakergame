@@ -117,6 +117,9 @@
       "events": [
         "RELIC_MOTION_ACQUIRED",
         "D2_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_BROKER_VANE"
       ]
     },
     {
@@ -180,6 +183,9 @@
       "events": [
         "RELIC_LIGHT_ACQUIRED",
         "D3_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_ARCHIVIST_VELM"
       ]
     },
     {
@@ -307,6 +313,9 @@
       "events": [
         "RELIC_TIDE_ACQUIRED",
         "D5_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_DOCKMASTER_SARAI"
       ]
     },
     {
@@ -365,6 +374,9 @@
       "events": [
         "RELIC_MASS_ACQUIRED",
         "D6_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_FORGE_MASTER_GRIMJAW"
       ]
     },
     {
@@ -430,6 +442,9 @@
       "events": [
         "RELIC_TIME_ACQUIRED",
         "D7_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA"
       ]
     },
     {
@@ -504,6 +519,11 @@
         "RELIC_SHADOW_ACQUIRED",
         "D8_CLEARED",
         "ALL_FOUNDATIONS_COLLECTED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_BROKER_VANE",
+        "NPC_ARCHIVIST_VELM"
       ]
     }
   ]

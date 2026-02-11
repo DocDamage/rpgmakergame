@@ -1,7 +1,442 @@
 [
-null,
-{"id":1,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+  null,
+  {
+    "id": 1,
+    "name": "CE_QUEST_BOOTSTRAP",
+    "trigger": 0,
+    "switchId": 1,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Quest runtime bootstrap for dev map"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "ReloadQuestData",
+          "ReloadQuestData",
+          {
+            "switchId": "60",
+            "variableId": "16"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "StartQuest",
+          "StartQuest",
+          {
+            "questId": "Q_PROLOGUE",
+            "force": "true",
+            "switchId": "61"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "12"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "13"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "CheckQuestAvailable",
+          "CheckQuestAvailable",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "switchId": "62"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "CheckQuestComplete",
+          "CheckQuestComplete",
+          {
+            "questId": "Q_PROLOGUE",
+            "switchId": "63"
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CE_QUEST_ADVANCE_PROLOGUE",
+    "trigger": 0,
+    "switchId": 1,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Advance Q_PROLOGUE by one step"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "AdvanceQuest",
+          "AdvanceQuest",
+          {
+            "questId": "Q_PROLOGUE",
+            "switchId": "61"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "12"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "13"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "CheckQuestComplete",
+          "CheckQuestComplete",
+          {
+            "questId": "Q_PROLOGUE",
+            "switchId": "63"
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "CE_QUEST_COMPLETE_PROLOGUE_AND_UNLOCK",
+    "trigger": 0,
+    "switchId": 1,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Force complete prologue and start first relic if available"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "CompleteQuest",
+          "CompleteQuest",
+          {
+            "questId": "Q_PROLOGUE",
+            "switchId": "61"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "12"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "13"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "CheckQuestAvailable",
+          "CheckQuestAvailable",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "switchId": "62"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "StartQuest",
+          "StartQuest",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "force": "false",
+            "switchId": "64"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "variableId": "14"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "variableId": "15"
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "CE_QUEST_STATUS_SNAPSHOT",
+    "trigger": 0,
+    "switchId": 1,
+    "list": [
+      {
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Snapshot quest counts/status variables"
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "const api = ChromaEdge && ChromaEdge.Quests ? ChromaEdge.Quests : null;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "let active = 0;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "let completed = 0;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "if (api && api.ready()) {"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "  for (const id of api.ids()) {"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "    const s = api.status(id);"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "    if (s === 'active') active += 1;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "    if (s === 'completed') completed += 1;"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "  }"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "}"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "$gameVariables.setValue(10, active);"
+        ]
+      },
+      {
+        "code": 655,
+        "indent": 0,
+        "parameters": [
+          "$gameVariables.setValue(11, completed);"
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "12"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_PROLOGUE",
+            "variableId": "13"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStatus",
+          "GetQuestStatus",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "variableId": "14"
+          }
+        ]
+      },
+      {
+        "code": 357,
+        "indent": 0,
+        "parameters": [
+          "ChromaEdge_QuestSystem",
+          "GetQuestStep",
+          "GetQuestStep",
+          {
+            "questId": "Q_FIRST_RELIC",
+            "variableId": "15"
+          }
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  }
 ]

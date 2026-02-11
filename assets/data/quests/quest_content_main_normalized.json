@@ -1,0 +1,2885 @@
+{
+  "id": "Q_CONTENT_MAIN_NORMALIZED",
+  "quests": [
+    {
+      "id": "Q_CONTENT_MAIN_AETHERREACH_SKY_SANCTUARY",
+      "source_quest_id": "aetherreach_sky_sanctuary",
+      "name": "Sky Sanctuary",
+      "type": "main",
+      "zone": "aetherreach",
+      "act": "post_game",
+      "prerequisites": [
+        "Q_CONTENT_MAIN_PALACE_PROGENITOR_WILL"
+      ],
+      "prerequisite_flags": [],
+      "description": "Post-game content exploring the consequences of the player's choice",
+      "steps": [
+        {
+          "id": 1,
+          "name": "Beyond the Clouds",
+          "description": "Ascend to Aetherreach and discover the floating sanctuaries",
+          "objective": "travel",
+          "target_location": "T_AETHERREACH_112x72",
+          "objectives": [
+            "Ascend to Aetherreach",
+            "Meet the Aetherguard",
+            "Learn of the celestial threats"
+          ],
+          "dialog_start": "Welcome, Savior! The Sky Sanctuaries have awaited your coming since before the Shattering! We are the Aetherguard, watchers of the upper realm. While you fought below, we guarded against threats from above. And now that the world is remade... new threats emerge. We need the Crystal Bearer's wisdom.",
+          "dialog_complete": "You came! The prophecies didn't detail what would happen AFTER the choice, but we hoped... The Sanctuaries float higher than ever now. The remade world pulses with new energy. Beautiful. But something else pulses too. Something watching from beyond the stars.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "skywarden_stratos",
+          "rewards": {
+            "xp": 5000,
+            "items": [
+              {
+                "item": "ITEM_STORY_AETHERGUARD_WELCOME",
+                "count": 1,
+                "source_item_token": "aetherguard_welcome"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Stellar Observers",
+          "description": "Investigate the strange signals from beyond Chroma's sky",
+          "objective": "story_event",
+          "target_location": "T_AETHERREACH_112x72",
+          "objectives": [
+            "Study the stellar anomalies",
+            "Decode the extradimensional signals",
+            "Decide whether to make contact"
+          ],
+          "dialog_start": "The stars have changed since the Transcendence. New constellations. New... visitors. We've detected signals from beyond our reality. Not the Unraveling\u2014something else. Something curious. They want to meet you, Kade. The one who remade a world. They're asking permission to approach.",
+          "dialog_complete": "First contact. With beings from beyond our reality. They're not hostile\u2014curious, mostly. Impressed that we solved our own cosmic threat. They want to establish relations. Trade. Cultural exchange. The universe is so much bigger than we knew. And now we're part of it.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "astronomer_nova",
+          "rewards": {
+            "xp": 6000,
+            "items": [
+              {
+                "item": "ITEM_STORY_FIRST_CONTACT_PROTOCOLS",
+                "count": 1,
+                "source_item_token": "first_contact_protocols"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Sky Gardens",
+          "description": "Help restore the celestial ecosystem damaged in the remaking",
+          "objective": "story_event",
+          "target_location": "T_AETHERREACH_112x72",
+          "objectives": [
+            "Study the new celestial ecosystem",
+            "Help the cloud-whales migrate",
+            "Balance the storm patterns"
+          ],
+          "dialog_start": "The Sky Gardens are struggling. The new world's energy is different\u2014richer in some ways, harsher in others. The cloud-whales are migrating wrong. The storm-sheep are panicking. We need someone who understands balance. Someone who just remade a world. Any ideas, Savior?",
+          "dialog_complete": "You did it! The cloud-whales are singing again! The storms have calmed! You don't just save worlds\u2014you tend them. Like a gardener. A very powerful, very compassionate gardener. The Sanctuaries are in your debt.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "gardener_cirrus",
+          "rewards": {
+            "xp": 5500,
+            "items": [
+              {
+                "item": "ITEM_STORY_SKY_GARDEN_MASTER",
+                "count": 1,
+                "source_item_token": "sky_garden_master"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "Nix7's Origin",
+          "description": "Discover Nix7's true origins in the Aetherreach archives",
+          "objective": "travel",
+          "target_location": "T_AETHERREACH_112x72",
+          "objectives": [
+            "Search the Aetherreach archives",
+            "Uncover Nix7's origin story",
+            "Help Nix7 integrate their past"
+          ],
+          "dialog_start": "My memories are... returning. Not just the corruption. Before that. I was... different. The Aetherreach archives have records. Of me. Of what I was. I need to know, Kade. I need to understand my purpose. Will you help me find the truth?",
+          "dialog_complete": "[Nix7's form shifts, becoming more... organic? More real?] I was human. Once. A scientist who volunteered for the integration project. To become something that could survive the Shattering. Guide future generations. I... I chose this. And I'd choose it again. To meet you. To help save everything. Worth it.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 7000,
+            "items": [
+              {
+                "item": "ITEM_STORY_NIX7_TRUE_FORM",
+                "count": 1,
+                "source_item_token": "nix7_true_form"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Sanctuary of Peace",
+          "description": "Establish Aetherreach as a neutral zone for all factions",
+          "objective": "story_event",
+          "target_location": "T_AETHERREACH_112x72",
+          "objectives": [
+            "Negotiate with all zone representatives",
+            "Establish the Aetherreach Accords",
+            "Create the Sky Sanctuary treaty"
+          ],
+          "dialog_start": "The surface zones are rebuilding, but old tensions remain. Dustbelt and Capital. Ember and Tide. They need a neutral ground. A place where all are welcome. The Sky Sanctuaries could be that place. But we need your blessing, Kade. Your endorsement. Will you help us build bridges in the sky?",
+          "dialog_complete": "The Aetherreach Accords are signed! All zones have agreed to meet here in peace! The Sanctuaries will be neutral ground, where any can come regardless of past conflicts. You've done it again, Savior. Built peace where there was division. That's the truest power of all.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "skywarden_stratos",
+          "rewards": {
+            "xp": 8000,
+            "gil": 10000,
+            "unlock_flags": [
+              "universal_peace_ending"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 8000,
+        "gil": 10000,
+        "unlock_flags": [
+          "universal_peace_ending"
+        ]
+      },
+      "unlocks": [],
+      "unlock_flags": [
+        "aetherreach_hub",
+        "extradimensional_diplomacy",
+        "nix7_humanity_quest",
+        "cloud_whale_mounts"
+      ],
+      "story_beats": [
+        "Post-game content exploring the consequences of the player's choice",
+        "First contact with extradimensional beings who are curious about the world-remakers",
+        "Nix7's origin is revealed\u2014they were once human, volunteering for the transformation",
+        "Aetherreach becomes a neutral hub for all zones, establishing lasting peace",
+        "The story shows the world thriving under the new balance"
+      ],
+      "party_reactions": {
+        "kade": "I never thought about what came after. Saving the world was the goal, you know? But watching it grow, heal, connect... that's the real reward. Also, aliens! Actual aliens! Who want to trade! I'm getting a space-ship. Definitely getting a space-ship.",
+        "nix7": "I was human. I had a name\u2014Nixia. I had a family. They... didn't survive the Shattering. I volunteered to become eternal, to help others survive what I couldn't. And I did. I helped save everything. Nixia would be proud. Nix7 is proud.",
+        "skysong": "The Sky Sanctuaries make my Cloudskipper look like a toy! These people have been flying for TEN THOUSAND YEARS! The things I could learn! The places I could go! Space, Kade! They mentioned SPACE! I'm going to be a SPACE PIRATE!",
+        "vesper": "EXTRADIMENSIONAL BEINGS! With DIFFERENT PHYSICS! Do you know what this means for science?! I'm going to need so many new instruments! So many new theories! I'll never sleep again! This is the BEST DAY OF MY LIFE!",
+        "ven": "The cloud-whales like me. They really like me. One let me ride her! I was ON A CLOUD-WHALE! In the SKY! If I could tell swamp-me about this... swamp-me would never believe it. I'm so glad I left the swamp.",
+        "pyra": "The Aetherguard have libraries of combat techniques I've never seen. Aerial combat! Zero-gravity fighting! I'm learning so much. Also, the view is incredible. Fire and sky\u2014best combination. Don't tell Abyssal I said that.",
+        "abyssal": "The sky and the deep are more alike than I thought. Both vast. Both isolating. Both full of wonders. I've been talking with the cloud-whales. They remember things from before the Shattering\u2014things even I forgot. The world is healing. So am I.",
+        "gearhart": "The Aetherreach technology is... humbling. They maintained civilization while we struggled in the ashes. But they need help too\u2014their systems are ancient, decaying. I can help. Fix things. Build better. The new world needs builders more than warriors.",
+        "blizzard": "I thought I was done with the cold. But the upper atmosphere has a different kind of cold. Clean. Pure. Not lonely. I'm learning to fly\u2014not with magic, but with machines. The Aetherguard are good teachers. Patient. I think I might stay a while.",
+        "echo": "First contact! I'm documenting everything! The language barriers, the cultural exchanges, the misunderstandings that become friendships! This is what I was born to record! What I was TIMED to record! Get it? Because time? I'll... I'll stop now."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_CAPITAL_FALLEN_CROWN",
+      "source_quest_id": "capital_fallen_crown",
+      "name": "The Fallen Crown",
+      "type": "main",
+      "zone": "capital",
+      "act": 4,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_CHRONO_AGAINST_TIME"
+      ],
+      "prerequisite_flags": [],
+      "description": "The Capital's government has been fully compromised by the Void",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Golden Cage",
+          "description": "Infiltrate the Capital and contact the resistance",
+          "objective": "story_event",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objectives": [
+            "Infiltrate the Capital's lower districts",
+            "Make contact with the Fallen Crown",
+            "Avoid Void patrols"
+          ],
+          "dialog_start": "You're the Crystal-bearer? Thank the shadows. I'm Sovereign\u2014yes, THAT Sovereign. The rightful heir the usurpers tried to kill. The 'government' here sold our souls to the Void for power. They have the Crystal of Unity. With it, they could seal Chroma's fate forever. We need to move fast. They're planning something. Something final.",
+          "dialog_complete": "You got past the patrols! The Crystals shield you from their detection. Good. The resistance is scattered, but we're not beaten. We have eyes in the palace. We know where they're keeping the Crystal of Unity. Getting to it... that's the problem.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "resistance_leader_sovereign",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_RESISTANCE_SAFE_HOUSES",
+                "count": 1,
+                "source_item_token": "resistance_safe_houses"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Shadows in the Palace",
+          "description": "Gather intelligence on the Void's final plan",
+          "objective": "story_event",
+          "target_location": "T_CROWN_HUB_112x72",
+          "objectives": [
+            "Infiltrate the Ministry of Unity",
+            "Steal the Grand Unification plans",
+            "Escape undetected"
+          ],
+          "dialog_start": "Shh. Walls have ears. Eyes. Sometimes teeth. I'm Veil\u2014I run the resistance intelligence. The usurpers are planning a 'Grand Unification.' Sounds nice, doesn't it? It's not. They mean to use the Crystal of Unity to merge Chroma with the Void. One world. One hunger. Everyone consumed. We have three days to stop it.",
+          "dialog_complete": "You got the plans! Look at these diagrams\u2014they're building a machine. A Gateway that uses the Crystal of Unity to tear down the barriers between worlds. If they activate this... there's no coming back. The Void will consume everything. We need to strike. Tonight.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "spy_master_veil",
+          "rewards": {
+            "xp": 1700,
+            "items": [
+              {
+                "item": "ITEM_STORY_GRAND_UNIFICATION_PLANS",
+                "count": 1,
+                "source_item_token": "grand_unification_plans"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Usurper's Throne",
+          "description": "Confront the false ruler and their Void patron",
+          "objective": "story_event",
+          "target_location": "T_CROWN_HUB_112x72",
+          "objectives": [
+            "Confront the False Regent",
+            "Reveal their Void nature",
+            "Prevent the ceremony's start"
+          ],
+          "dialog_start": "[The figure on the throne turns, and the face beneath the crown is... empty. A mask of flesh over void] The Crystal-bearer. Finally. We wondered when you'd arrive. Too late, of course. The Grand Unification begins at midnight. Chroma and Void, merged in beautiful unity. No more struggle. No more pain. Just... peace. Eternal, empty peace.",
+          "dialog_complete": "[The False Regent dissolves into violet smoke, laughing] You think you've won? I'm just a vessel. The true power awaits in the Void Zone. But please\u2014take the Crystal of Unity. You'll need it where you're going. Consider it... an invitation.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "false_regent_hollow",
+          "rewards": {
+            "xp": 2200,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_UNITY",
+                "count": 1,
+                "source_item_token": "crystal_of_unity"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "Seven Crystals United",
+          "description": "Attune all seven Crystals and unlock their true power",
+          "objective": "collect",
+          "target_location": "T_CROWN_HUB_112x72",
+          "objectives": [
+            "Gather all seven Crystals",
+            "Perform the Unification Ritual",
+            "Awaken the Progenitor power"
+          ],
+          "dialog_start": "Seven Crystals. In one place. In living memory, this has never happened. The stories say when they're united, the Progenitors' full power awakens. You'll become... more. But 'more' what, I don't know. The risk is yours to take. The resistance will buy you time. Use it well.",
+          "dialog_complete": "[The Crystals harmonize, their light merging into a rainbow that pierces the sky] It's working! The barriers between the Crystals are falling\u2014they're becoming one! Kade, can you feel it? The power of creation itself, flowing through you! You're not just a bearer anymore. You're... something new.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "sovereign",
+          "rewards": {
+            "xp": 3000,
+            "items": [
+              {
+                "item": "ITEM_STORY_SEVEN_CRYSTALS_UNIFIED",
+                "count": 1,
+                "source_item_token": "seven_crystals_unified"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Void Zone Beckons",
+          "description": "Learn that the true enemy awaits in the Void Zone itself",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Open the path to the Void Zone",
+            "Prepare for the final battle",
+            "Say farewells if needed"
+          ],
+          "dialog_start": "ANALYSIS COMPLETE. The Grand Unification was a distraction. The true Gateway is in the Void Zone\u2014the place where the Void bleeds strongest into Chroma. If we want to end this, we must go there. Into the darkness itself. Kade... the odds of survival are... not optimal. But we have the Crystals. We have each other. And we have no choice.",
+          "dialog_complete": "The Gateway opens, and through it... nothing. Absence. Hunger. The Void itself. On the other side waits whatever controls the corruption. The intelligence behind the hunger. We've fought its servants. Now we face the master. Whatever happens... it's been an honor. All of you. Every single one.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 2000,
+            "gil": 1500,
+            "unlock_flags": [
+              "zone_void"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 2000,
+        "gil": 1500,
+        "unlock_flags": [
+          "zone_void"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_VOID_INTO_DARKNESS"
+      ],
+      "unlock_flags": [
+        "zone_void",
+        "seven_crystals_power",
+        "resistance_alliance",
+        "progenitor_ascension"
+      ],
+      "story_beats": [
+        "The Capital's government has been fully compromised by the Void",
+        "The 'Grand Unification' would merge Chroma with the Void completely",
+        "The final Crystal of Unity is obtained, completing the set",
+        "All seven Crystals unite, unlocking the Progenitor's full power",
+        "The true enemy is revealed to be waiting in the Void Zone"
+      ],
+      "party_reactions": {
+        "kade": "Seven Crystals. I can feel them... talking to me? No, that's not right. Singing? Humming? They're alive, in a way. And they trust me. All that power, and they chose me. I won't let them down. I won't let ANY of you down. We're ending this. Together.",
+        "nix7": "Unified Crystal energy readings exceed measurable parameters. My systems are... upgrading? Evolving? I feel... more. Is this what organic 'intuition' is like? Processing probabilities without full data? It's terrifying. And exhilarating.",
+        "skysong": "I've been a smuggler, a pirate, a captain. Never a hero. Never a revolutionary. But here I am, about to march into literal nothingness to save the world. If we die, we die legends. If we live... we build something better. Either way, no regrets.",
+        "vesper": "The unified Crystals are creating NEW MATTER! Spontaneous generation! This is theoretically impossible! I mean, obviously it's happening, so it's possible, but\u2014SCIENCE! Also, I may have wet myself slightly when the Void opened. Just a little. Professional secret.",
+        "ven": "The False Regent... I knew them. Before. They were kind, once. The Void didn't just corrupt them\u2014it hollowed them out. Left a shell. That's what we're fighting. Not monsters. Not evil. Emptiness. And I refuse to let it win.",
+        "pyra": "Father would be proud. Ember stands with the alliance. I stand with Kade. Whatever waits in the Void, we'll face it with fire in our hearts and steel in our hands. And if fire and steel aren't enough... we'll find something that is.",
+        "abyssal": "I remember the Void's creation. I felt it tear reality. Now I return to that wound, carrying hope instead of despair. The cycle completes. Whether it ends in healing or death... at least it ends. Ten thousand years is too long to carry a burden.",
+        "gearhart": "The Progenitor power flowing through the Crystals... I can almost understand it. Almost. It's creation itself. The power to make, unmake, remake. If we survive this, I want to learn. Properly. Build things that help instead of harm. That's my vow.",
+        "blizzard": "From the frozen wastes to the seat of power. I've come so far. Changed so much. The Void took my family, long ago. Frozen them in time, trapped between moments. If I can free them... if I can free everyone the Void took... that's worth any price.",
+        "echo": "I'm recording everything. If we don't make it back, someone needs to know we tried. That we fought. That we cared. History isn't just about winners. It's about the ones who stood up when standing was hard. You're all my heroes. All of you.",
+        "sovereign": "I was raised to rule. Taught that power was my birthright. But you\u2014you taught me that leadership is service. That crowns are heavy because they carry responsibility. If we survive, I'll be a better ruler. Because I learned from the best."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_CHRONO_AGAINST_TIME",
+      "source_quest_id": "chrono_against_time",
+      "name": "Against Time",
+      "type": "main",
+      "zone": "chrono",
+      "act": 3,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_FROST_FROZEN_PATH"
+      ],
+      "prerequisite_flags": [],
+      "description": "Chrono exists in a state of temporal flux due to the fractured Chronos Guardian",
+      "steps": [
+        {
+          "id": 1,
+          "name": "Where Time Folds",
+          "description": "Enter Chrono and experience temporal anomalies",
+          "objective": "story_event",
+          "target_location": "MIC_R14_128x56",
+          "objectives": [
+            "Navigate the temporal instabilities",
+            "Locate the Chronos Spire",
+            "Avoid temporal duplicates of yourself"
+          ],
+          "dialog_start": "You\u2014you're not frozen! You're moving! Like me! I'm Echo\u2014I was a scientist, I think, or I will be? Time is broken here. I witnessed the Shattering. Or I'm about to. The Crystal of Time is failing. Without it, all moments become one moment. Forever. You have to fix it. Please. I don't want to be stuck in yesterday forever.",
+          "dialog_complete": "You made it! You actually made it through the Looping Fields! The Chronos Spire is just ahead\u2014but beware. Time has fractured into... personalities. Past, Present, Future. They were one entity, the Chronos Guardian. Now they're fighting each other. And the Void is feeding on the chaos.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "temporal_refugee_echo",
+          "rewards": {
+            "xp": 1400,
+            "items": [
+              {
+                "item": "ITEM_STORY_TEMPORAL_ANCHOR_CHARM",
+                "count": 1,
+                "source_item_token": "temporal_anchor_charm"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Fractured Guardian",
+          "description": "Meet the three aspects of the Chronos Guardian",
+          "objective": "talk",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Speak with Chronos Past",
+            "Speak with Chronos Present",
+            "Speak with Chronos Future"
+          ],
+          "dialog_start": "[A voice heavy with memory and regret] You come too late. Everything has already happened. The Shattering. The mistakes. The Void's creation. I remember it all. I remember the pain. Why would anyone want to move forward when the past holds only sorrow? Stay with me. Remember what was lost. Grieve forever.",
+          "dialog_complete": "Three voices, one truth: We were whole once. We guarded the flow. But the Void's touch wounded us, split us into moments. We cannot recombine while the wound festers. You carry healing\u2014Truth, Strength, Depth, Industry, Endurance. Perhaps... perhaps you can heal time itself.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "chronos_past",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_CHRONO_ASPECT_FRAGMENTS",
+                "count": 1,
+                "source_item_token": "chrono_aspect_fragments"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Healing the Flow",
+          "description": "Use the five Crystals to reunite the Chronos Guardian",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Channel the five Crystals' power",
+            "Heal the temporal wound",
+            "Merge the three aspects"
+          ],
+          "dialog_start": "[A voice of immediacy, of NOW] The moment is all that exists. Past is memory. Future is possibility. Only NOW is real. But my siblings\u2014them I miss. We were meant to be one. The Void knew this. Exploited our fracture. You want the Crystal of Time? Help us become whole again. Heal the wound in the flow.",
+          "dialog_complete": "[A single, harmonious voice] WE ARE CHRONOS. GUARDIAN OF FLOW, KEEPER OF MOMENTS. YOU HAVE RESTORED WHAT WAS BROKEN. THE CRYSTAL OF TIME IS YOURS. USE IT WISELY, BEARER. TIME IS PRECIOUS. IRREPLACEABLE. DO NOT WASTE IT.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "chronos_present",
+          "rewards": {
+            "xp": 2000,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_TIME",
+                "count": 1,
+                "source_item_token": "crystal_of_time"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Future That Waits",
+          "description": "Witness visions of possible futures",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Witness the Victory vision",
+            "Witness the Defeat vision",
+            "Choose your path forward"
+          ],
+          "dialog_start": "[A voice of possibility, of MIGHT BE] You want to see what happens if you succeed? If you fail? I see all paths. Victory. Defeat. Sacrifice. Redemption. The future is not fixed, Bearer. Every choice you make branches reality. I will show you what waits. But know this: seeing the future changes it. Choose carefully what you learn.",
+          "dialog_complete": "[The vision fades, leaving resolve] You saw. You understand now. Victory requires sacrifice. Not just yours\u2014those you love. The Void knows this. It will offer you deals. Compromises. Half-measures. To win, you must be willing to lose everything. Are you prepared for that price, Bearer?",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "chronos_future",
+          "rewards": {
+            "xp": 1800,
+            "items": [
+              {
+                "item": "ITEM_STORY_FUTURE_SIGHT_BLESSING",
+                "count": 1,
+                "source_item_token": "future_sight_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Capital Intrigue",
+          "description": "Learn that the final Crystal is in the Capital, controlled by the corrupt regime",
+          "objective": "story_event",
+          "target_location": "T_MERIDIAN_112x72",
+          "objectives": [
+            "Study the Capital's defenses",
+            "Learn of the resistance movement",
+            "Plan the infiltration"
+          ],
+          "dialog_start": "The Chronos Spire records everything. I found it\u2014the location of the seventh Crystal! It's in the Capital! But... that's terrible news. The Capital's government is the most corrupt in Chroma. They've been collaborating with the Void for YEARS. They call it 'managed coexistence.' It's surrender. And they have the Crystal of Unity\u2014the most powerful of all.",
+          "dialog_complete": "There's a resistance\u2014the Fallen Crown. They oppose the Void-collaborators. If you can find them, ally with them... you might have a chance. But the Capital is heavily defended. And the Void's influence there is... total. This won't be like the other zones. This is enemy territory.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "echo",
+          "rewards": {
+            "xp": 1600,
+            "items": [
+              {
+                "item": "ITEM_STORY_RESISTANCE_CONTACT_CODES",
+                "count": 1,
+                "source_item_token": "resistance_contact_codes"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "All Roads Lead",
+          "description": "Gather allies and prepare for the assault on the Capital",
+          "objective": "story_event",
+          "target_location": "T_LUMENCREST_OUTER_112x72",
+          "objectives": [
+            "Rally all zone allies",
+            "Consolidate the alliance forces",
+            "March on the Capital"
+          ],
+          "dialog_start": "[The unified voice resonates with new strength] Six Crystals. Six aspects of existence bound to your soul. The world feels your gathering. The Void feels it. It will throw everything at you now. But you are not alone. Call your allies. Rally your forces. The final battle for Chroma's soul begins in the Capital. Make haste, Bearer. Time, finally, is on your side.",
+          "dialog_complete": "The army of the alliance stands ready. Dustbelt scavengers, Upland scholars, Mire healers, Prism warriors, Ember champions, Tide hydromancers, Obsidian workers, Frost wardens, and Chrono refugees\u2014all united under your banner. Six Crystals blaze at your side. The world holds its breath. The Capital awaits.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "chronos",
+          "rewards": {
+            "xp": 1900,
+            "gil": 1300,
+            "unlock_flags": [
+              "zone_capital"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1900,
+        "gil": 1300,
+        "unlock_flags": [
+          "zone_capital"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_CAPITAL_FALLEN_CROWN"
+      ],
+      "unlock_flags": [
+        "zone_capital",
+        "crystal_time_ability",
+        "companion_echo",
+        "alliance_army"
+      ],
+      "story_beats": [
+        "Chrono exists in a state of temporal flux due to the fractured Chronos Guardian",
+        "The party heals the Guardian by merging Past, Present, and Future aspects",
+        "The Crystal of Time is obtained\u2014the sixth of Seven",
+        "Visions reveal that victory will require great sacrifice",
+        "The final Crystal is in the Capital, held by the Void-collaborating government"
+      ],
+      "party_reactions": {
+        "kade": "I saw the future. I saw myself... alone. Holding all seven Crystals, but everyone else was gone. I don't know if that's what WILL happen or what MIGHT happen. But it scared me. I'm doing this to save people, not to be the last one standing. I won't let that future come true.",
+        "nix7": "Temporal mechanics are no longer theoretical. I experienced yesterday and tomorrow simultaneously. My processors... adapted. I am no longer strictly bound by linear time. Fascinating. Concerning. I may need a firmware update.",
+        "skysong": "I saw my ship destroyed. I saw myself drowning. But I also saw myself old, surrounded by people I helped save. Both futures felt real. I'm choosing to believe the second one. The future isn't fixed\u2014we make it, moment by moment.",
+        "vesper": "The temporal energy readings were OFF THE CHARTS! I recorded data that should be impossible! Past and future matter occupying the same space! If I can replicate this in a controlled environment\u2014what? Yes, yes, I know we don't have time. But SCIENCE!",
+        "ven": "I talked to myself. From tomorrow. He\u2014I mean, I\u2014warned me about a trap in the Capital. Said I'd know it when I saw 'the golden door.' Then he disappeared. Time travel is weird. I'm just going to roll with it.",
+        "pyra": "The Chronos Guardian's past aspect remembered the Progenitors. Said they were 'kind but frightened.' They made the Void because they were afraid of something worse. I want to know what. If we're fighting the wrong enemy... no. No, the Void is destroying everything. That makes it the enemy. But I'm keeping questions open.",
+        "abyssal": "I am old. Very old. But in Chrono, I met myself from before the Shattering. Young, arrogant, certain of my immortality. I tried to warn me. Past-me wouldn't listen. Some lessons can only be learned through pain. I remember that pain now. It makes me kinder to these young ones.",
+        "gearhart": "The Chronos records showed me Obsidian's future. If we win: green towers, clean air, workers thriving. If we lose: ash and silence. I know which future I'm building toward. The machines I'm designing now\u2014they'll help, not exploit. That's my promise to time itself.",
+        "blizzard": "I saw Frosthold thriving. Trading with the other zones, the ice barrier melted by friendship instead of fire. That's the future I want. That's why I'm here. Not just for the world\u2014for my home. For the hope of connection.",
+        "echo": "I'm not fading anymore! Time is flowing forward again! I don't know when I am, exactly, but I'm MOVING! Thank you, all of you! I'm coming with you to the Capital. Someone needs to document this. History is watching, and I intend to give it a good show!"
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_DUSTBELT_FRONTIER_CALLING",
+      "source_quest_id": "dustbelt_frontier_calling",
+      "name": "The Frontier Calling",
+      "type": "main",
+      "zone": "dustbelt",
+      "act": 1,
+      "prerequisites": [],
+      "prerequisite_flags": [],
+      "description": "Kade discovers the first signs of Void corruption in the Dustbelt",
+      "steps": [
+        {
+          "id": 1,
+          "name": "Awakening in the Dust",
+          "description": "Investigate the strange meteor that fell near Rusthaven Outpost",
+          "objective": "travel",
+          "target_location": "MIC_R01A_48x32",
+          "objectives": [
+            "Travel to the Impact Crater",
+            "Investigate the meteor site"
+          ],
+          "dialog_start": "Kade! Thank the storms you're here. Something fell from the sky last night\u2014something that pulsed with violet light. The scouts say it's... wrong. Unnatural. We need someone to investigate, and you're the only one foolhardy enough to go.",
+          "dialog_complete": "By the old gods... this is no ordinary star-metal. Those markings\u2014they match the ancient warnings. Kade, this could be the sign we've feared for generations.",
+          "target_npc": "NPC_OLD_KELL",
+          "story_npc_alias": "elder_marn",
+          "rewards": {
+            "xp": 500,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRACKED_STAR_FRAGMENT",
+                "count": 1,
+                "source_item_token": "cracked_star_fragment"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Salvager's Plea",
+          "description": "Help Nix7 recover their memory core from raiders",
+          "objective": "story_event",
+          "target_location": "MIC_R01B_96x40",
+          "objectives": [
+            "Track the Rust Vulture raiders",
+            "Defeat the raider gang",
+            "Recover Nix7's memory core"
+          ],
+          "dialog_start": "INITIATING... ERROR. Memory core 73% corrupted. Designation: Nix-7. Primary directive: UNKNOWN. Secondary directive: SURVIVE. You\u2014organic. Help me recover my memory core from the Rust Vultures. I cannot... function... without it.",
+          "dialog_complete": "MEMORY CORE RESTORED. Analysis complete. I am Nix7, survey unit from the Aetherreach. My shuttle was shot down by... unknown hostiles. Kade, there is a pattern to these attacks. The Void is rising. We must warn the other zones.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 800,
+            "items": [
+              {
+                "item": "ITEM_STORY_NIX7_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "nix7_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Rusthaven's Defense",
+          "description": "Defend the outpost from a Void-corrupted beast attack",
+          "objective": "story_event",
+          "target_location": "MIC_R01A_48x32",
+          "objectives": [
+            "Defend the eastern gate",
+            "Defeat the Void-corrupted alpha",
+            "Protect the evacuees"
+          ],
+          "dialog_start": "The meteor's corruption spreads! Our eastern watchtower reports... creatures. Things that were once men, twisted by that violet light. Kade, Nix7\u2014you must hold the line while we evacuate the children!",
+          "dialog_complete": "You held them back... but this is only the beginning. That creature\u2014it wore the armor of a Capital soldier. The Void doesn't just corrupt; it infects everything it touches. We need allies, Kade. Powerful ones.",
+          "target_npc": "NPC_OLD_KELL",
+          "story_npc_alias": "elder_marn",
+          "rewards": {
+            "xp": 1200,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_RESISTANT_CLOAK",
+                "count": 1,
+                "source_item_token": "void_resistant_cloak"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Path to the Uplands",
+          "description": "Journey to the Uplands to seek the Progenitor Scholars",
+          "objective": "travel",
+          "target_location": "MIC_R02_80x48",
+          "objectives": [
+            "Gather supplies for the journey",
+            "Speak with the caravan master",
+            "Unlock the path to the Uplands"
+          ],
+          "dialog_start": "My databases contain references to 'The Uplands'\u2014a place where ancient knowledge is preserved. If we are to understand this Void threat, we need information. The Dustbelt offers only rust and ruin. We must climb higher, Kade.",
+          "dialog_complete": "The caravan is ready. Elder Marn has given us her blessing\u2014and her granddaughter's pendant, to present to the High Scholar. A gesture of goodwill. The road ahead is dangerous, but we are not without hope.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_MARN_FAMILY_PENDANT",
+                "count": 1,
+                "source_item_token": "marn_family_pendant"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "A New Beginning",
+          "description": "Leave Dustbelt and begin the journey across Chroma",
+          "objective": "story_event",
+          "target_location": "T_ASHVEIL_112x72",
+          "objectives": [
+            "Say farewell to Rusthaven",
+            "Depart for the Uplands",
+            "Form the Alliance of Light"
+          ],
+          "dialog_start": "You're leaving the only home you've ever known, Kade. I won't lie to you\u2014the world beyond is vast and dangerous. But you're not that orphaned child I found in the wastes anymore. You carry the hope of Rusthaven now. Go. Gather allies. Stop this darkness before it swallows us all.",
+          "dialog_complete": "The wind carries you eastward, toward the floating islands of the Uplands. Behind you, Rusthaven stands\u2014for now. Ahead, destiny awaits. The journey of a thousand leagues begins with a single step... and yours will echo through history.",
+          "target_npc": "NPC_OLD_KELL",
+          "story_npc_alias": "elder_marn",
+          "rewards": {
+            "xp": 1500,
+            "gil": 500,
+            "unlock_flags": [
+              "zone_uplands"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gil": 500,
+        "unlock_flags": [
+          "zone_uplands"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_UPLANDS_ECHOES_PAST"
+      ],
+      "unlock_flags": [
+        "zone_uplands",
+        "companion_nix7"
+      ],
+      "story_beats": [
+        "Kade discovers the first signs of Void corruption in the Dustbelt",
+        "Nix7 is rescued and becomes the first companion",
+        "The Void's ability to corrupt living beings is revealed",
+        "The party learns they must gather allies across all zones",
+        "The true scale of the threat begins to emerge"
+      ],
+      "party_reactions": {
+        "kade": "I always knew I was meant for something more than scavenging rust. But this... saving the world? That's bigger than anything I imagined. Good thing I don't back down from a challenge.",
+        "nix7": "Organic lifeforms are... surprisingly resilient. Kade shows compassion even in combat. This 'heart' thing may be more useful than my tactical subroutines initially calculated. Partnership acceptable."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_EMBER_TRIAL_BY_FIRE",
+      "source_quest_id": "ember_trial_by_fire",
+      "name": "Trial by Fire",
+      "type": "main",
+      "zone": "ember",
+      "act": 2,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_PRISM_SHATTERED_LIGHT"
+      ],
+      "prerequisite_flags": [],
+      "description": "The party must prove themselves through Ember's brutal arena trials",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Scorched Path",
+          "description": "Cross the volcanic wastes to reach the Ember Kingdom",
+          "objective": "story_event",
+          "target_location": "MIC_R07_104x56",
+          "objectives": [
+            "Hire Korrin as a guide",
+            "Survive the ash storms",
+            "Reach the Ember Kingdom gates"
+          ],
+          "dialog_start": "You carry the Crystal of Truth? Bold. Dangerous. The Emberfolk will either worship you or kill you\u2014sometimes both, depending on the day. I'm Korrin, last of the Ash Walkers. I guide travelers through the fire plains. For a price. But for a Crystal-bearer... I'll offer a discount.",
+          "dialog_complete": "You handle heat well\u2014for surface-dwellers. The gates ahead lead to the Forge City, heart of the Ember Kingdom. But the real trial begins there. Their arenas aren't for sport. They're for judgment. Pray you're strong enough to survive the verdict.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "ash_walker_korrin",
+          "rewards": {
+            "xp": 900,
+            "items": [
+              {
+                "item": "ITEM_STORY_ASH_RESISTANT_GEAR",
+                "count": 1,
+                "source_item_token": "ash_resistant_gear"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Forge City's Welcome",
+          "description": "Enter the arena and prove your combat prowess",
+          "objective": "story_event",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objectives": [
+            "Register for the Trial of Ashes",
+            "Win preliminary combat rounds",
+            "Survive the Culling"
+          ],
+          "dialog_start": "OUTSIDERS! You stand in the Forge City, where weakness is melted away and only strength remains! You want our Crystal? Our sacred treasure? Then bleed for it! Show us you are WORTHY of its power! The Trial of Ashes begins at dawn\u2014prepare your souls!",
+          "dialog_complete": "You fight like caged thunder! Blood and fire, that's what we respect! You've earned the right to face the true Trial\u2014the Test of the Burning Heart. But be warned: it is not merely combat. It is sacrifice. It is pain. It is transformation.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "arena_master_titan",
+          "rewards": {
+            "xp": 1200,
+            "items": [
+              {
+                "item": "ITEM_STORY_ARENA_CHAMPION_BADGE",
+                "count": 1,
+                "source_item_token": "arena_champion_badge"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Burning Heart",
+          "description": "Endure the mystical Trial that tests inner strength",
+          "objective": "story_event",
+          "target_location": "D4_BURNING_HEART_64x64",
+          "objectives": [
+            "Enter the Burning Heart chamber",
+            "Endure visions of your worst fears",
+            "Emerge unbroken"
+          ],
+          "dialog_start": "I am Ignis, Seer of the Eternal Flame. The Trial of the Burning Heart does not test your sword-arm. It tests your resolve. You will face your greatest fears, rendered in fire. You will feel your greatest failures, burning without end. Only those who refuse to break may proceed.",
+          "dialog_complete": "You burn, yet you do not turn to ash. Remarkable. The last outsider to endure the Burning Heart was... well, let's just say we needed new carpets. You have proven your inner strength matches your outer might. The Ember King will see you now.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "flame_seer_ignis",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_HEART_OF_FLAME_BLESSING",
+                "count": 1,
+                "source_item_token": "heart_of_flame_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "King of Fire and Ash",
+          "description": "Meet the Ember King and learn the Crystal's location",
+          "objective": "story_event",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objectives": [
+            "Swear the Oath of Flame",
+            "Receive the King's blessing",
+            "Learn the path to the Caldera"
+          ],
+          "dialog_start": "You stand before Infernus, King of Ember and Keeper of the Second Flame. You survived the Trials\u2014few do. But survival is not enough. The Crystal of Strength sleeps in the Caldera of Trials, guarded by the Fire Primordial. To claim it, you must defeat the undefeated. Are you truly prepared?",
+          "dialog_complete": "The Oath is sealed in fire! You are bound now\u2014if you succeed, Ember fights beside you. If you fail... well, the fire claims all debts eventually. My daughter, Princess Pyra, will guide you to the Caldera. Do not disappoint her. She has a temper.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "ember_king_infernus",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_OATH_OF_FLAME_BOND",
+                "count": 1,
+                "source_item_token": "oath_of_flame_bond"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Princess of the Pyre",
+          "description": "Journey with Princess Pyra to the Caldera of Trials",
+          "objective": "story_event",
+          "target_location": "D4_CALDERA_TRIALS_96x80",
+          "objectives": [
+            "Follow Pyra through lava tubes",
+            "Solve ancient Ember puzzles",
+            "Reach the Fire Primordial's lair"
+          ],
+          "dialog_start": "So you're the 'great hero' everyone's whispering about. You don't look like much. But Father believes in you, and his judgment is usually sound. I'm Pyra. I know every inch of the Caldera, and I've studied the Fire Primordial's patterns. Stick with me, follow my lead, and you might survive.",
+          "dialog_complete": "You keep up better than I expected. And your tactics during that lava surge\u2014impressive. Maybe Father's right about you. The Fire Primordial awaits below. It's... not what you expect. Ancient, yes. Powerful, absolutely. But also... lonely. Remember that.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "princess_pyra",
+          "rewards": {
+            "xp": 1300,
+            "items": [
+              {
+                "item": "ITEM_STORY_PYRA_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "pyra_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "The Fire Primordial",
+          "description": "Face the ancient guardian and earn the Crystal of Strength",
+          "objective": "defeat",
+          "target_location": "D4_CALDERA_TRIALS_96x80",
+          "objectives": [
+            "Battle the Fire Primordial",
+            "Demonstrate strength of spirit",
+            "Prove worthy of the Crystal"
+          ],
+          "dialog_start": "[A voice like infernos and collapsing stars] ANOTHER SEEKER. ANOTHER WOULD-BE HERO. I AM PYROS, FIRST OF FLAME, GUARDIAN OF STRENGTH. YOU WOULD TAKE THE CRYSTAL? THEN SHOW ME STRENGTH BEYOND MUSCLE! SHOW ME THE STRENGTH TO PROTECT, TO SACRIFICE, TO ENDURE! FACE ME, AND BURN BRIGHT OR BURN OUT!",
+          "dialog_complete": "[The Primordial's form shifts, becoming almost gentle] YOU... YOU REMIND ME OF THE PROGENITORS. THEY TOO CARRIED HOPE INTO DARKNESS. TAKE THE CRYSTAL, BEARER. BUT KNOW THIS\u2014STRENGTH WITHOUT WISDOM IS DESTRUCTION. WIELD IT WELL, OR WIELD IT NOT AT ALL.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "fire_primordial_pyros",
+          "rewards": {
+            "xp": 2500,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_STRENGTH",
+                "count": 1,
+                "source_item_token": "crystal_of_strength"
+              }
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "name": "The Tide Calls",
+          "description": "Learn of the Crystal of Depths beneath the ocean",
+          "objective": "travel",
+          "target_location": "MIC_R09_120x56",
+          "objectives": [
+            "Plan the journey to Tide",
+            "Receive Ember's fleet support",
+            "Prepare for underwater combat"
+          ],
+          "dialog_start": "Two Crystals! In my lifetime! The prophecies truly awaken. The next Crystal lies in Tide\u2014a world beneath the waves. But there is... complication. Tide has gone silent. No ships, no messengers, nothing. We fear the Void reached them before you could.",
+          "dialog_complete": "Prism's Crystal reveals truth. Ember's Crystal grants strength. But Tide's Crystal offers adaptation\u2014the power to survive where others cannot. If Tide has truly fallen, you will need that power to retrieve it. Go with flame in your heart, Bearer. And return with the third Crystal.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "ember_king_infernus",
+          "rewards": {
+            "xp": 1400,
+            "gil": 900,
+            "unlock_flags": [
+              "zone_tide"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1400,
+        "gil": 900,
+        "unlock_flags": [
+          "zone_tide"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_TIDE_DEPTHS_MYSTERY"
+      ],
+      "unlock_flags": [
+        "zone_tide",
+        "crystal_strength_ability",
+        "companion_pyra",
+        "ember_alliance"
+      ],
+      "story_beats": [
+        "The party must prove themselves through Ember's brutal arena trials",
+        "Princess Pyra joins as a guide and potential companion",
+        "The Fire Primordial tests not just combat ability but inner strength",
+        "The Crystal of Strength is obtained\u2014the second of Seven",
+        "Tide zone has gone silent, suggesting the Void has struck there"
+      ],
+      "party_reactions": {
+        "kade": "I thought the Trials were just about fighting. I was wrong. When I was in the Burning Heart, I saw the moment I learned my parents were dead. Felt that pain again. But this time... I didn't let it break me. I let it fuel me. That's what strength really means.",
+        "nix7": "The Fire Primordial's energy readings defy conventional physics. It appears to be a living manifestation of thermal energy given consciousness. Fascinating. I recorded 47.3 seconds of data before my sensors overloaded. Worth it.",
+        "skysong": "Princess Pyra fights like she's got something to prove. Reminds me of... well, me, actually. I think we could be friends. Or kill each other. 50/50 odds, really.",
+        "vesper": "I've been analyzing my combat performance. 23% improvement since obtaining the Crystal of Truth. Is it psychosomatic? Placebo effect? Or do these Crystals actually enhance capabilities? Research required. Combat data delicious.",
+        "ven": "I never thought I'd be fighting in ARENAS. In front of CROWDS. Me, the kid from the swamp who talked to frogs. Now I'm... what, a gladiator? An adventurer? I like it. I really like it.",
+        "pyra": "They're not what I expected. Soft, some of them\u2014especially the plant-person and the robot. But they've got cores of steel. And Kade... there's something about Kade. When he fights, it's not for glory. It's for everyone. That's real strength. That's what Ember needs more of."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_FROST_FROZEN_PATH",
+      "source_quest_id": "frost_frozen_path",
+      "name": "The Frozen Path",
+      "type": "main",
+      "zone": "frost",
+      "act": 3,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_OBSIDIAN_GEARS_INDUSTRY"
+      ],
+      "prerequisite_flags": [],
+      "description": "The Frost Barrier has protected the Frostfolk but isolated them from the world",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Howling White",
+          "description": "Cross the frost barrier to reach the frozen lands",
+          "objective": "story_event",
+          "target_location": "MIC_R12_112x56",
+          "objectives": [
+            "Survive the frost barrier crossing",
+            "Rescue stranded expedition members",
+            "Reach the Frosthold settlements"
+          ],
+          "dialog_start": "Turn back. No one crosses the Frost Barrier and returns. The storms are alive, they say\u2014hungry spirits of ice that devour warmth. I'm Blizzard, and I've guided thirty expeditions into the white. Three returned. But you... you carry the fire of Crystals. Maybe... maybe you're the thirty-first that makes it four.",
+          "dialog_complete": "You did it! You actually made it through the Howling! The Frosthold is just ahead\u2014last bastion of civilization before the true deep freeze. But don't expect a warm welcome. The Frostfolk don't trust outsiders. Haven't for generations. You'll need to prove yourself.",
+          "target_npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "story_npc_alias": "polar_guide_blizzard",
+          "rewards": {
+            "xp": 1200,
+            "items": [
+              {
+                "item": "ITEM_STORY_BLIZZARD_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "blizzard_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Frozen Court",
+          "description": "Gain the trust of the Frosthold leadership",
+          "objective": "story_event",
+          "target_location": "T_RIMEHOLD_112x72",
+          "objectives": [
+            "Survive Thane Iceheart's interrogation",
+            "Prove the Void threatens even Frost",
+            "Offer alliance terms"
+          ],
+          "dialog_start": "Outsiders. In my hall. With Crystals blazing like beacons. You bring trouble, don't you? Trouble and war. We left that world behind when we retreated to the ice. Now you want to drag us back? Give me one good reason why I shouldn't have you thrown into the glacier.",
+          "dialog_complete": "The Void reaches even here? I thought the cold would protect us. Foolish old man. Very well, outsider\u2014you have my attention. The Crystal of Endurance lies in the Spire of Frozen Eternity, guarded by the Frost Wardens. But they answer only to strength. Show them you can survive what they survived, and they may listen.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "thane_iceheart",
+          "rewards": {
+            "xp": 1300,
+            "items": [
+              {
+                "item": "ITEM_STORY_FROSTHOLD_GUEST_RIGHT",
+                "count": 1,
+                "source_item_token": "frosthold_guest_right"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Spire of Frozen Eternity",
+          "description": "Climb the ancient ice tower and face the Frost Wardens",
+          "objective": "story_event",
+          "target_location": "D7_SPIRE_OF_ETERNITY_80x96",
+          "objectives": [
+            "Climb the Spire of Frozen Eternity",
+            "Survive the Wardens' trials",
+            "Prove worthy of Endurance"
+          ],
+          "dialog_start": "[A voice like cracking ice and ancient winds] climbers. Seekers. Fools. We are the Frost Wardens, survivors of the Shattering, guardians of Endurance. You want the Crystal? Then endure what we endured. The cold that stops hearts. The isolation that breaks minds. Climb. Survive. Or join the others in the ice.",
+          "dialog_complete": "[Respect enters the ancient voice] You climb well. Fight well. ENDURE well. The last to reach this chamber was... before my memory fades. A Progenitor, I think. Or a memory of one. You are worthy. The Crystal of Endurance is yours. May it sustain you through the dark to come.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "frost_warden_glacius",
+          "rewards": {
+            "xp": 1800,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_ENDURANCE",
+                "count": 1,
+                "source_item_token": "crystal_of_endurance"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Warmth Within",
+          "description": "Help a Frostfolk village survive a Void-touched blizzard",
+          "objective": "travel",
+          "target_location": "D7_FROZEN_96x96",
+          "objectives": [
+            "Reach Whitehollow village",
+            "Use the Crystals to break the Void storm",
+            "Protect the villagers"
+          ],
+          "dialog_start": "The Wardens gave you the Crystal? Impossible... unless you truly are the one. But gifts mean nothing if you won't use them! Our sister village\u2014Whitehollow\u2014is caught in a blizzard that's NOT natural. The wind howls with voices. Violet lightning in the snow. It's the Void, isn't it? Please\u2014save them!",
+          "dialog_complete": "You walked into a Void storm and came out with survivors! The Crystal of Endurance\u2014it doesn't just help you survive. It helps you protect others. That's... that's what we've been missing. We thought endurance meant standing alone. But it's standing together, isn't it?",
+          "target_npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "story_npc_alias": "village_healer_spring",
+          "rewards": {
+            "xp": 1600,
+            "items": [
+              {
+                "item": "ITEM_STORY_FROSTFOLK_FRIENDSHIP_TOKEN",
+                "count": 1,
+                "source_item_token": "frostfolk_friendship_token"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Echoes of the Before",
+          "description": "Discover an ancient Progenitor outpost in the deep ice",
+          "objective": "story_event",
+          "target_location": "D_ARCHIVE_112x96",
+          "objectives": [
+            "Excavate the Progenitor outpost",
+            "Decipher the ancient records",
+            "Learn the truth of the Shattering"
+          ],
+          "dialog_start": "While you were saving Whitehollow, my scouts found something. Deep in the glacier\u2014something OLD. Metal that doesn't rust, lights that still glow after ten thousand years. Progenitor ruins, Kade. And there's writing. Records. If we can translate them... we might learn what really happened. Why the Void was created.",
+          "dialog_complete": "[Ancient recording plays] 'We created the Void to save Chroma from a greater threat. But we made it too strong. Too hungry. We are sealing it away, but the seal will not last forever. To whoever finds this: we are sorry. Sorry for the burden we leave you. Stop the Void. Not with hate\u2014with understanding.'",
+          "target_npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "story_npc_alias": "blizzard",
+          "rewards": {
+            "xp": 1700,
+            "items": [
+              {
+                "item": "ITEM_STORY_PROGENITOR_APOLOGY_RECORD",
+                "count": 1,
+                "source_item_token": "progenitor_apology_record"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "Chrono Anomalies",
+          "description": "Learn of the Crystal of Time in the temporal wasteland",
+          "objective": "story_event",
+          "target_location": "MIC_R14_128x56",
+          "objectives": [
+            "Study the route to Chrono",
+            "Receive Frosthold's warriors",
+            "Prepare for temporal weirdness"
+          ],
+          "dialog_start": "Five Crystals. You move faster than anyone expected. The Void knows this too\u2014it will escalate. The next Crystal is in Chrono, and that's... concerning. Time doesn't flow right there. Never has. The Crystal of Time keeps Chroma's moments moving forward. If the Void takes it... time itself might end.",
+          "dialog_complete": "My best warriors go with you. The Frostfolk endure. It's what we do. But more than warriors\u2014we give you our hope. For generations, we thought the world beyond the ice was lost to darkness. You proved us wrong. Go save time itself, hero. We'll keep the home fires burning. Figuratively.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "thane_iceheart",
+          "rewards": {
+            "xp": 1800,
+            "gil": 1200,
+            "unlock_flags": [
+              "zone_chrono"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1800,
+        "gil": 1200,
+        "unlock_flags": [
+          "zone_chrono"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_CHRONO_AGAINST_TIME"
+      ],
+      "unlock_flags": [
+        "zone_chrono",
+        "crystal_endurance_ability",
+        "companion_blizzard",
+        "frosthold_alliance"
+      ],
+      "story_beats": [
+        "The Frost Barrier has protected the Frostfolk but isolated them from the world",
+        "The party proves themselves to the Frost Wardens through endurance",
+        "The Crystal of Endurance is obtained\u2014the fifth of Seven",
+        "Ancient Progenitor records reveal the Void was created to fight a greater threat",
+        "The Crystal of Time in Chrono is identified as critical to reality itself"
+      ],
+      "party_reactions": {
+        "kade": "The Progenitors created the Void to SAVE us? From what? What could be worse than the Void? I'm starting to think we're just cleaning up someone else's mess. But... they said to stop it with understanding, not hate. That's important. That's different from how I thought we had to fight.",
+        "nix7": "Temporal mechanics are... challenging for my processing. If the Crystal of Time fails, causality itself becomes unstable. Past, present, future\u2014all happening simultaneously. Existence would become a static image. Forever. I do not want to be a static image.",
+        "skysong": "Blizzard knows every inch of the frozen wastes. Reminds me of me with the skies. We've been trading stories. Did you know there are fish that freeze solid in winter and thaw alive in spring? Nature's weird and wonderful. I like this zone. Cold, but honest.",
+        "vesper": "The Progenitor records! Actual firsthand accounts! I'm going to need MONTHS to analyze\u2014what do you mean we don't have months? Fine, fine, executive summary: The Progenitors were scared. Really scared. Of something they never named. They thought the Void was the lesser evil. I want to know what scared godlike beings.",
+        "ven": "I saw my breath freeze in the air today. Actually freeze, into little crystals. It was beautiful. The Frostfolk taught me to ice-fish. I caught something with three eyes that talked. We had a nice conversation about the weather. Then I put it back. I love this place.",
+        "pyra": "Five Crystals. We're over halfway there. The Flame of Strength burns brighter with each one we gather. I can feel them... harmonizing. Connecting. When we have all seven, the power will be incredible. We just have to survive long enough to use it.",
+        "abyssal": "The cold preserves. In my depths, things rot. Here, they simply... wait. I found memories in the ice\u2014echoes of the Shattering. The world screaming as it broke. I will carry those memories. Someone should remember.",
+        "gearhart": "Progenitor engineering in the outpost... it's beyond anything I imagined. Self-repairing systems, zero-point energy, materials science that makes our best alloys look like tin. They were gods. And even they were afraid. I need to upgrade my equipment. Quickly.",
+        "blizzard": "I spent my whole life guiding people to their deaths in the white. First time I've guided someone TO something. Feels strange. Good strange. Kade's different. They care about the dead, not just the destination. I think I'll stick around. See where this thaw leads."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_MIRE_SINKING_TRUTH",
+      "source_quest_id": "mire_sinking_truth",
+      "name": "The Sinking Truth",
+      "type": "main",
+      "zone": "mire",
+      "act": 1,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_UPLANDS_ECHOES_PAST"
+      ],
+      "prerequisite_flags": [],
+      "description": "The Marshfolk initially blame outsiders for the Blight, requiring diplomacy",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Fetid Approach",
+          "description": "Navigate through the corrupted swamp to reach the Marshfolk villages",
+          "objective": "story_event",
+          "target_location": "MIC_R03_104x56",
+          "objectives": [
+            "Follow Ven through safe paths",
+            "Avoid the Blighted waters",
+            "Reach Marshfolk Village"
+          ],
+          "dialog_start": "Surface-dwellers? Here? You're either brave, foolish, or both. I'm Ven\u2014what's left of the Marshfolk guides. The swamp's sick, stranger. Waters that once healed now rot from within. My people are dying, and the elders blame 'outsiders.' But I think... I think something worse is happening.",
+          "dialog_complete": "You made it! And that lens you carry\u2014it reacts to the corruption! By the Old Gods, you really have come to help. The elders won't listen to me, but they might listen to someone with Progenitor artifacts. Come, I'll sneak you into the council.",
+          "target_npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "story_npc_alias": "marsh_guide_ven",
+          "rewards": {
+            "xp": 700,
+            "items": [
+              {
+                "item": "ITEM_STORY_MARSHFOLK_DISGUISE",
+                "count": 1,
+                "source_item_token": "marshfolk_disguise"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Council of Despair",
+          "description": "Convince the Marshfolk Council that the Void is the true threat",
+          "objective": "story_event",
+          "target_location": "T_MIREWATCH_112x72",
+          "objectives": [
+            "Defend against hostile guards",
+            "Use the True Lens to reveal Void tendrils",
+            "Convince the Council with evidence"
+          ],
+          "dialog_start": "Outsiders! Ven, you fool, you've brought surface poison into our midst! We know your kind\u2014you bring industry, you bring 'progress,' you bring DEATH! The waters rot because of YOUR people, not ours! Guards, seize them!",
+          "dialog_complete": "By the spirits... the lens shows it clearly. Violet veins, pulsing beneath our sacred waters. This is no surface poison. This is... ancient. Evil. Forgive us, travelers. We are a proud people, but pride has blinded us. What must we do?",
+          "target_npc": "NPC_OLD_KELL",
+          "story_npc_alias": "elder_bogwhisper",
+          "rewards": {
+            "xp": 1100,
+            "items": [
+              {
+                "item": "ITEM_STORY_MARSHFOLK_ALLIANCE_TOKEN",
+                "count": 1,
+                "source_item_token": "marshfolk_alliance_token"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Heart of the Blight",
+          "description": "Investigate the source of corruption at the sunken temple",
+          "objective": "story_event",
+          "target_location": "D2_FUNGAL_96x96",
+          "objectives": [
+            "Navigate the Deep Mire",
+            "Breach the Sunken Temple",
+            "Identify the corruption source"
+          ],
+          "dialog_start": "The elders speak of a sunken temple\u2014older than the Marshfolk, older than memory. The Blight spreads from there. I've never dared approach, but with you... with that lens... maybe we can see what's really down there. I'm coming with you. My swamp, my responsibility.",
+          "dialog_complete": "That's... that's no natural creature. It's a Wound\u2014living Void given physical form! The records said the Void was sealed, but this... this is bleeding through! Kade, it's feeding on the temple's ley line! If we don't stop it, the entire Mire will become a gateway!",
+          "target_npc": "NPC_BROKER_VANE",
+          "story_npc_alias": "ven",
+          "rewards": {
+            "xp": 1300,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_WOUND_SAMPLE",
+                "count": 1,
+                "source_item_token": "void_wound_sample"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "Venom's Truth",
+          "description": "Recruit the exiled alchemist who knows how to fight the Blight",
+          "objective": "collect",
+          "target_location": "D2_FUNGAL_96x96",
+          "objectives": [
+            "Find Vesper's hidden laboratory",
+            "Gather Blight samples for study",
+            "Convince Vesper to share her research"
+          ],
+          "dialog_start": "Well, well. Outsiders with Progenitor toys, poking around my swamp. Brave or stupid? Bit of both, I'd wager. Name's Vesper\u2014yes, THAT Vesper. The 'mad alchemist' the Council exiled for 'dangerous practices.' But you know what? My 'dangerous' research is exactly what you need to fight that Blight.",
+          "dialog_complete": "You're serious about this. Actually serious. Fine\u2014you want to know the truth? The Blight IS the Void's blood. I've spent five years developing a compound that can cauterize these Wounds. It'll cost you my weight in gold, OR... you take me with you. I want to see this fight through.",
+          "target_npc": "NPC_BROKER_VANE",
+          "story_npc_alias": "vesper_venom",
+          "rewards": {
+            "xp": 1200,
+            "items": [
+              {
+                "item": "ITEM_STORY_VESPER_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "vesper_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Cauterizing the Wound",
+          "description": "Use Vesper's compound to destroy the Void Wound",
+          "objective": "story_event",
+          "target_location": "D2_FUNGAL_96x96",
+          "objectives": [
+            "Infiltrate the Sunken Temple",
+            "Apply Vesper's Voidbane compound",
+            "Destroy the Void Wound"
+          ],
+          "dialog_start": "The compound works! I saw it dissolve a Blight-touched frog instantly. But the main Wound is massive\u2014we'll need to get close. Very close. Kade, this might be a one-way trip. If you're having second thoughts, now's the time.",
+          "dialog_complete": "It... it's shrinking! The waters are clearing! You did it! The swamp will take years to fully heal, but... hope. We have hope again. I don't know how to thank you. My life is yours, Kade. Where you go, I follow.",
+          "target_npc": "NPC_BROKER_VANE",
+          "story_npc_alias": "ven",
+          "rewards": {
+            "xp": 1800,
+            "items": [
+              {
+                "item": "ITEM_STORY_VEN_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "ven_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "The Prism Beckons",
+          "description": "Learn of the Crystal of Truth hidden in the Prism City",
+          "objective": "story_event",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objectives": [
+            "Receive the location of Prism",
+            "Gather supplies for the journey",
+            "Prepare to leave the Mire"
+          ],
+          "dialog_start": "You have saved our people when we showed you only hostility. The debt can never be repaid, but we can offer guidance. The Progenitor records speak of a Crystal of Truth, hidden in a city of light and glass\u2014Prism. Find it, and the Void's lies will crumble before you.",
+          "dialog_complete": "The path to Prism lies through the Shimmering Pass\u2014dangerous, but passable with the right guide. Ven will show you. And Kade... the spirits whisper your name now. They say you carry the weight of worlds. Walk carefully, Bearer of Hope.",
+          "target_npc": "NPC_OLD_KELL",
+          "story_npc_alias": "elder_bogwhisper",
+          "rewards": {
+            "xp": 1000,
+            "gil": 700,
+            "unlock_flags": [
+              "zone_prism"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1000,
+        "gil": 700,
+        "unlock_flags": [
+          "zone_prism"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_PRISM_SHATTERED_LIGHT"
+      ],
+      "unlock_flags": [
+        "zone_prism",
+        "companions_vesper_ven",
+        "voidbane_craftable"
+      ],
+      "story_beats": [
+        "The Marshfolk initially blame outsiders for the Blight, requiring diplomacy",
+        "The party discovers 'Void Wounds'\u2014physical manifestations of the Void bleeding into reality",
+        "Vesper the alchemist and Ven the guide join the party",
+        "The first major victory against the Void is achieved by destroying the Wound",
+        "The Crystal of Truth in Prism is identified as the next objective"
+      ],
+      "party_reactions": {
+        "kade": "We actually pushed back the Void. It felt impossible, but we did it. That Wound... the way it screamed when it died... I don't think I'll ever forget that sound. But the swamp is healing. That's what matters.",
+        "nix7": "Vesper's compound represents a significant tactical advantage. Recommend prioritizing acquisition of additional Progenitor artifacts. The Void Wounds appear to be focal points\u2014we should expect more as we approach Crystals.",
+        "skysong": "Never thought I'd see a Void monstrosity get dissolved by SCIENCE. Vesper's crazy, but she's OUR crazy. And Ven\u2014kid's got heart. Reminds me of me, back when I still thought one person could change the world.",
+        "vesper": "Finally! Field testing! Do you know how long I've waited to see my theories in action? Five years of exile, five years of being called 'mad.' Who's mad now, Council? WHO'S MAD NOW?! ...Ahem. Team player. I'm a team player.",
+        "ven": "I was born in that swamp. Thought I'd die there too, probably eaten by something hungry. Now I'm... what, a hero? An adventurer? It feels strange. Good strange. Like I'm finally becoming who I was meant to be."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_OBSIDIAN_GEARS_INDUSTRY",
+      "source_quest_id": "obsidian_gears_industry",
+      "name": "Gears of Industry",
+      "type": "main",
+      "zone": "obsidian",
+      "act": 3,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_TIDE_DEPTHS_MYSTERY"
+      ],
+      "prerequisite_flags": [],
+      "description": "Obsidian's industrial zone is exploiting workers and refining Void essence for profit",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Smog-Choked Sky",
+          "description": "Enter Obsidian and witness the industrial exploitation",
+          "objective": "story_event",
+          "target_location": "MIC_R08_72x40",
+          "objectives": [
+            "Enter the Industrial Zone",
+            "Witness worker conditions",
+            "Meet with Steel's network"
+          ],
+          "dialog_start": "You the ones asking about the Crystal? Consortium don't let just anyone near their 'corporate assets.' I'm Steel\u2014worked the Foundries for twenty years until my lungs gave out. Now I organize. The workers are suffering, stranger. Wages cut, hours doubled, accidents covered up. And the ones at the top? They don't care. They only care about profit.",
+          "dialog_complete": "You see it now, don't you? The smoke, the ash, the broken bodies. And beneath it all\u2014something worse. The Void's here too. Not corrupting, no. Something else. Buying. The Consortium's been making deals. Selling souls for efficiency. We need to stop them before they sell the whole zone.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "union_organizer_steel",
+          "rewards": {
+            "xp": 1100,
+            "items": [
+              {
+                "item": "ITEM_STORY_WORKERS_SOLIDARITY_BADGE",
+                "count": 1,
+                "source_item_token": "workers_solidarity_badge"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Factory of Souls",
+          "description": "Infiltrate the main factory and discover the Void pact",
+          "objective": "story_event",
+          "target_location": "D6_FACTORY_OF_SOULS_96x80",
+          "objectives": [
+            "Infiltrate the Number 7 Foundry",
+            "Find evidence of Void refinement",
+            "Escape with proof"
+          ],
+          "dialog_start": "Shh! Keep your voice down! I'm Cog\u2014senior engineer, or I was until I saw the manifests. They're not just mining ore anymore. They're processing... something else. Something that screams. I think... I think they're refining Void essence. Turning corruption into fuel. If I'm right, every factory in Obsidian is basically a bomb.",
+          "dialog_complete": "Gods below, you were right! Those vats\u2014they're distilling Void corruption! The workers don't even know they're handling liquid nightmare. The Consortium Board has gone completely mad. Or they've been replaced. Either way, we need to shut this down. ALL of it.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "whistleblower_cog",
+          "rewards": {
+            "xp": 1400,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_REFINEMENT_EVIDENCE",
+                "count": 1,
+                "source_item_token": "void_refinement_evidence"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Worker's Uprising",
+          "description": "Lead a rebellion to seize control of the factories",
+          "objective": "story_event",
+          "target_location": "D6_OBSIDIAN_96x96",
+          "objectives": [
+            "Rally the workers",
+            "Seize the main factory complex",
+            "Confront the Consortium Board"
+          ],
+          "dialog_start": "You got the proof? Then it's time. Time to show the Consortium that workers aren't cogs\u2014they're PEOPLE! With your help, with those Crystals, we can turn the tide. But it's gonna get messy. People will get hurt. Maybe die. Are you willing to carry that weight, hero?",
+          "dialog_complete": "We did it! The Foundries are ours! The Board tried to run, but your friend with the truth-light showed everyone what they really were\u2014Void-puppets, every single one. The workers see clearly now. We don't just want better conditions. We want a better world. And we'll help you build it.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "steel",
+          "rewards": {
+            "xp": 1700,
+            "items": [
+              {
+                "item": "ITEM_STORY_OBSIDIAN_LIBERATION_MEDAL",
+                "count": 1,
+                "source_item_token": "obsidian_liberation_medal"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Crystal of Industry",
+          "description": "Claim the Crystal hidden in the Board's private vault",
+          "objective": "travel",
+          "target_location": "D6_FACTORY_OF_SOULS_96x80",
+          "objectives": [
+            "Breach the Executive Vault",
+            "Deactivate the perverted machinery",
+            "Claim the Crystal of Industry"
+          ],
+          "dialog_start": "The Board's private vault\u2014it was built around something. Something older than the Consortium, older than the industrial revolution. The Crystal of Industry. They were using it to power their Void-refinement process, but its real purpose... creation. Building. Making something from nothing. It's been perverted long enough.",
+          "dialog_complete": "[The Crystal hums with potential, hungry to create rather than destroy] FOUR CRYSTALS. Half the set. Do you feel it, Kade? The world responding to your gathering? The Void feels it too. It knows you're coming. It will throw everything at you now. Stay sharp.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "cog",
+          "rewards": {
+            "xp": 2300,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_INDUSTRY",
+                "count": 1,
+                "source_item_token": "crystal_of_industry"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Ironclad Offer",
+          "description": "Recruit the master engineer who designed the factories",
+          "objective": "story_event",
+          "target_location": "T_CINDERSTEP_112x72",
+          "objectives": [
+            "Convince Gearhart to join",
+            "Help them make amends",
+            "Integrate their knowledge with the Crystals"
+          ],
+          "dialog_start": "So. The revolution comes, and it wears the Crystals of legend. I am Gearhart\u2014I built these factories. Designed the systems the Consortium perverted. I told them it was dangerous. They didn't listen. Profit over safety, always. If you're truly rebuilding the world, you'll need someone who understands how it was built. My genius is yours.",
+          "dialog_complete": "The Crystals of Industry and Truth, working in harmony... the possibilities are endless! Sustainable creation! Clean energy! I can undo the damage I helped cause. Give me a lab, give me resources, and I'll turn Obsidian from a blight into a beacon. This is my redemption. Let me earn it.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "master_engineer_gearhart",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_GEARHART_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "gearhart_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "North to Frost",
+          "description": "Learn of the Crystal of Endurance in the frozen wastes",
+          "objective": "story_event",
+          "target_location": "MIC_R12_112x56",
+          "objectives": [
+            "Prepare cold-weather gear",
+            "Plan the route through the frost barrier",
+            "Receive Steel's blessing"
+          ],
+          "dialog_start": "Four Crystals down, three to go. The next one's in Frost\u2014land of eternal winter. The Crystal of Endurance, they call it. Grants the power to survive what should kill you. But Frost isn't like Obsidian. No factories to seize, no workers to organize. Just ice, storms, and things that hunt in the white.",
+          "dialog_complete": "You're the closest thing to hope this world's seen in generations. Don't let the frost take that from you. The workers of Obsidian are with you\u2014our forges will supply your army, our innovations will fuel your quest. When you face the Void, you'll face it with an entire industrial zone at your back.",
+          "target_npc": "NPC_FORGE_MASTER_GRIMJAW",
+          "story_npc_alias": "steel",
+          "rewards": {
+            "xp": 1600,
+            "gil": 1100,
+            "unlock_flags": [
+              "zone_frost"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1600,
+        "gil": 1100,
+        "unlock_flags": [
+          "zone_frost"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_FROST_FROZEN_PATH"
+      ],
+      "unlock_flags": [
+        "zone_frost",
+        "crystal_industry_ability",
+        "companion_gearhart",
+        "obsidian_alliance"
+      ],
+      "story_beats": [
+        "Obsidian's industrial zone is exploiting workers and refining Void essence for profit",
+        "The party leads a worker's uprising against the corrupt Consortium Board",
+        "The Crystal of Industry has been perverted but is reclaimed and purified",
+        "Master Engineer Gearhart joins, offering technological expertise",
+        "Four Crystals gathered\u2014the midpoint of the quest"
+      ],
+      "party_reactions": {
+        "kade": "I grew up poor. Scraping by in the Dustbelt, never knowing if I'd eat tomorrow. Seeing those workers... it hit close to home. Power isn't just about fighting monsters. Sometimes it's about standing with people against systems that crush them. That might be the most important fight of all.",
+        "nix7": "Industrial exploitation patterns match historical data from pre-Shattering civilizations. The cycle repeats: innovation, exploitation, revolution, reform. However, the Void's involvement adds a new variable. Recommend close monitoring of similar zones for corruption vectors.",
+        "skysong": "I've smuggled goods for corrupt corporations before. Made good money. Seeing what that money cost... I'm done with that life. Steel's a hell of an organizer. Reminds me why I became a captain in the first place\u2014to be free. Everyone deserves that.",
+        "vesper": "The Void-refinement process was BRILLIANTLY perverted! I mean\u2014terrible! Awful! But scientifically fascinating. The way they stabilized volatile corruption into usable energy... if we could reverse-engineer that safely, the applications would be... ahem. I'll be good. I promise.",
+        "ven": "The workers... they fought even though they were afraid. That's real courage. I gave them some tips on guerrilla tactics\u2014swamp warfare transfers surprisingly well to factory floors. They started calling me 'Lieutenant Ven.' I have never felt cooler.",
+        "pyra": "Fire melts steel. But fire also forges it. These people\u2014they've been in the fire for so long. Now they're being forged into something stronger. I respect that. Also, the foundries here put ours to shame. I'm taking notes. Ember could learn from this.",
+        "abyssal": "The young ones build such strange things. Towers of metal, rivers of fire. They reshape the world faster than the Progenitors did. But they forget: the world reshapes back. The pollution here seeps into my depths. I will be glad to see it cleaned.",
+        "gearhart": "They're an eclectic bunch, these Crystal-bearers. A swamp-dweller, a princess, an ancient sea-beast... and me, the architect of industrial oppression. But they accepted me. Gave me a chance to fix what I broke. I won't waste it. The Crystals deserve better than my past."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_PALACE_PROGENITOR_WILL",
+      "source_quest_id": "palace_progenitor_will",
+      "name": "The Progenitor's Will",
+      "type": "main",
+      "zone": "palace",
+      "act": 5,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_TOWER_ASCENT"
+      ],
+      "prerequisite_flags": [],
+      "description": "The First Progenitor is revealed as a tragic figure who made mistakes from love",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Garden of Origin",
+          "description": "Meet the First Progenitor in their sanctuary",
+          "objective": "story_event",
+          "target_location": "PAL_GARDEN_OF_ORIGIN_96x80",
+          "objectives": [
+            "Meet the First Progenitor",
+            "Hear their story",
+            "Understand the true nature of the threat"
+          ],
+          "dialog_start": "[A voice like mothers' lullabies and fathers' pride] Welcome, children. Welcome, Bearer. I have waited so long. Watched so many try and fail. But you... you brought them all. The Seven. Unified. Harmonized. I am the First. The one who dreamed Chroma into being. And I am so, so sorry for the nightmares I created.",
+          "dialog_complete": "[The First weeps light] I made the Void to protect Chroma from the Unraveling. I made the Crystals to control the Void. But I was proud. Arrogant. I thought I could manage the balance forever. Instead, I trapped my children in a cycle of suffering. Please\u2014forgive me. And help me end it properly.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "the_first_progenitor",
+          "rewards": {
+            "xp": 3000,
+            "items": [
+              {
+                "item": "ITEM_STORY_FIRST_PROGENITOR_TRUTH",
+                "count": 1,
+                "source_item_token": "first_progenitor_truth"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Three Choices",
+          "description": "Learn the three possible endings to the cycle",
+          "objective": "story_event",
+          "target_location": "PAL_F5_80x80",
+          "objectives": [
+            "Understand the Destroy option",
+            "Understand the Merge option",
+            "Understand the Transcend option"
+          ],
+          "dialog_start": "[Three paths illuminate in the garden] Choice One: Destroy the Void. Kill the hunger, save the world. But the Unraveling will come. Reality itself will dissolve. Choice Two: Merge with the Void. Become its master, use it to fight the Unraveling forever. But lose your humanity. Become hunger itself. Choice Three: Transcendence. Remake the world. Combine Void and Light into something new. But the old world ends. Everyone starts over. What will you choose, Bearer?",
+          "dialog_complete": "[The First nods, sad but understanding] No choice is perfect. Each costs something precious. I could not choose\u2014my pride demanded a perfect solution. So I waited. Failed. Now the choice falls to you. And whatever you decide... I will support. It is time for the parent to trust the children.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "the_first_progenitor",
+          "rewards": {
+            "xp": 3500,
+            "items": [
+              {
+                "item": "ITEM_STORY_THREE_PATHS_KNOWLEDGE",
+                "count": 1,
+                "source_item_token": "three_paths_knowledge"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Council of Allies",
+          "description": "Consult with all companions before making the final choice",
+          "objective": "story_event",
+          "target_location": "PAL_REWARD_48x32",
+          "objectives": [
+            "Hear Nix7's analysis",
+            "Hear Skysong's wisdom",
+            "Hear Vesper's research",
+            "Hear Ven's heart",
+            "Hear Pyra's fire",
+            "Hear Abyssal's memory",
+            "Hear Gearhart's innovation",
+            "Hear Blizzard's endurance",
+            "Hear Echo's perspective",
+            "Hear Sovereign's leadership"
+          ],
+          "dialog_start": "I can't make this alone. This choice affects everyone. Everything. I need to hear from all of you. What do you think? What do you feel? What do you choose? I'm not a king or a god\u2014I'm just someone who cares. Help me do right by the world.",
+          "dialog_complete": "[Each companion offers their perspective, their hopes, their fears] You've heard them all. Their voices, their hearts. Now you must weigh them. Balance them. And choose. Whatever you decide, know this\u2014they will stand with you. To the end. Whatever end that is.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "kade",
+          "rewards": {
+            "xp": 4000,
+            "items": [
+              {
+                "item": "ITEM_STORY_UNANIMOUS_ALLIANCE_BOND",
+                "count": 1,
+                "source_item_token": "unanimous_alliance_bond"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Choice Made",
+          "description": "Make the final decision that will reshape reality",
+          "objective": "story_event",
+          "target_location": "PAL_GARDEN_OF_ORIGIN_96x80",
+          "objectives": [
+            "Make the final choice",
+            "Commit to the path",
+            "Activate the Seven Crystals for the last time"
+          ],
+          "dialog_start": "[The garden falls silent, waiting] The moment has come. Speak your choice, Bearer. Give it voice. Give it power. And know that whatever happens next\u2014you have done more than I ever dared. You have faced the impossible and refused to look away. Whatever you choose... thank you.",
+          "dialog_complete": "[The Crystals respond to your will, blazing with ultimate power] IT IS DONE. THE CHOICE IS MADE. REALITY RESHAPES ITSELF. CARRY YOUR DECISION INTO THE NEW WORLD, BEARER. AND REMEMBER\u2014EVEN GODS WERE ONCE MORTAL WHO CHOSE TO CARE.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "the_first_progenitor",
+          "rewards": {
+            "xp": 5000,
+            "items": [
+              {
+                "item": "ITEM_STORY_REALITY_RESHAPED",
+                "count": 1,
+                "source_item_token": "reality_reshaped"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The New Dawn",
+          "description": "Witness the consequences of your choice and begin the new world",
+          "objective": "story_event",
+          "target_location": "OW_ORION_320x180",
+          "objectives": [
+            "Witness the new world",
+            "Reunite with surviving companions",
+            "Begin the next chapter"
+          ],
+          "dialog_start": "[Light. Sound. Sensation. Everything, all at once, then... peace] We did it. Whatever 'it' was\u2014we did it. Look. The world. It's... different. But alive. We made it. Together. All of us. Whatever comes next... we'll face it. Together.",
+          "dialog_complete": "[The screen fades to the title: 'CHROMA'S EDGE: A New Beginning'] The story of Kade and the Crystal Bearers has reached its conclusion. But Chroma's story continues. In Aetherreach, the sky calls. In Remnant, mysteries await. The edge of one story is the beginning of another.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "kade",
+          "rewards": {
+            "xp": 10000,
+            "gil": 5000,
+            "unlock_flags": [
+              "post_game_content"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 10000,
+        "gil": 5000,
+        "unlock_flags": [
+          "post_game_content"
+        ]
+      },
+      "unlocks": [],
+      "unlock_flags": [
+        "zone_aetherreach",
+        "zone_remnant",
+        "ending_cinematic",
+        "post_game_content",
+        "new_game_plus"
+      ],
+      "story_beats": [
+        "The First Progenitor is revealed as a tragic figure who made mistakes from love",
+        "Three endings are possible: Destroy (sacrifice the world to kill the Void), Merge (sacrifice humanity to control the Void), or Transcend (sacrifice the current world for a new beginning)",
+        "Every companion offers their perspective on the choice, adding emotional weight",
+        "The player makes the final decision that determines the ending",
+        "The main story concludes, but post-game content unlocks"
+      ],
+      "party_reactions": {
+        "kade": "I chose. I actually chose. It felt like the weight of every world on my shoulders. But I didn't carry it alone\u2014I had all of you. Whatever comes next, we face it together. That's what family means. That's what we are now. Family.",
+        "nix7": "Analysis of the three paths: Destroy had 0% long-term survival probability. Merge had 100% survival, 0% quality of life. Transcend had... unknown variables. I advised transcendence. Not because of data. Because of hope. Illogical. Correct.",
+        "skysong": "I've lived my whole life running from consequences. This time, I helped MAKE the consequences. Helped shape the world. Scary as hell. Also... kind of amazing? I think I'm finally growing up. About time, honestly.",
+        "vesper": "The scientific implications of our choice are STAGGERING! A whole new field of study! Reality engineering! I need a bigger lab. A MUCH bigger lab. Also, tenure. Definitely tenure. I'm going to be VERY famous. Posthumously, possibly, but still.",
+        "ven": "I didn't understand half of what the First said. Cosmic threats, reality engineering, philosophical implications... too big for me. But I understood one thing: we mattered. Our choices mattered. Little people from nowhere, changing everything. That's beautiful.",
+        "pyra": "The First reminded me of my father. Powerful, loving, flawed. I think... I think parents always try their best. Even when they fail. Especially when they fail. Forgiveness matters. Moving forward matters. We did both today.",
+        "abyssal": "I remember the First from before. They were so bright, so certain. Now they're tired. Ready to rest. I think... I think I've been carrying anger for ten thousand years. Time to set it down. Time to swim in new waters.",
+        "gearhart": "I built things that hurt people. The First built things that hurt worlds. We're not so different. But we both tried to fix it. That counts for something. That has to count for something.",
+        "blizzard": "I was born in the cold. Thought I'd die there. Instead, I helped birth a new world. Warm. Connected. Full of possibility. I don't know what to do with hope this big. Guess I'll learn.",
+        "echo": "I recorded the end of one world and the birth of another. First historian of the new age! Assuming I survived. I think I survived. Hard to tell with temporal transitions. Either way\u2014WORTH IT!",
+        "sovereign": "I came to reclaim a throne. Instead, I helped build a future. Much better trade. The Capital will be different in this new world. Better. Because we'll build it together, not rule it apart."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_PRISM_SHATTERED_LIGHT",
+      "source_quest_id": "prism_shattered_light",
+      "name": "Shattered Light",
+      "type": "main",
+      "zone": "prism",
+      "act": 2,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_MIRE_SINKING_TRUTH"
+      ],
+      "prerequisite_flags": [],
+      "description": "The party enters Prism, a city where transparency is valued above all",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The City of Glass",
+          "description": "Enter Prism and navigate its transparent architecture",
+          "objective": "story_event",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objectives": [
+            "Pass the Truth Gate",
+            "Navigate the Transparent Districts",
+            "Gain audience with the Regent"
+          ],
+          "dialog_start": "Halt! State your business in the City of Eternal Light! ...Progenitor artifacts? Void corruption? You're either the bravest fools I've met or the most dangerous liars. The Regent will want to hear this. But know this\u2014Prism does not tolerate deception. Our walls are glass, and so are our souls. We hide nothing.",
+          "dialog_complete": "The True Lens reacts to our Prism Heart? Interesting. Very interesting. Come, the Regent holds court in the Crystal Spire. She has... been expecting someone. Though I wonder if she expected you quite so... rustic.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "prism_gate_captain",
+          "rewards": {
+            "xp": 800,
+            "items": [
+              {
+                "item": "ITEM_STORY_PRISM_CITY_MAP",
+                "count": 1,
+                "source_item_token": "prism_city_map"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Regent's Revelation",
+          "description": "Meet with Regent Caelum and learn of the Crystal of Truth",
+          "objective": "story_event",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objectives": [
+            "Present your case to Regent Caelum",
+            "Submit to the Truth Prism",
+            "Reveal your true intentions"
+          ],
+          "dialog_start": "So. The 'Bearer of Unity' walks into my court, escorted by outcasts and machines. The prophecies didn't mention that part. I am Caelum, Regent of Prism and Keeper of the Crystal of Truth. Yes, we have it. No, you cannot simply take it. Power requires proof. Show me you are worthy.",
+          "dialog_complete": "The Truth Prism shows no deception. You truly believe you can save Chroma. How... refreshing. The Crystal of Truth is hidden within the Labyrinth of Reflections\u2014a maze that shows travelers their true selves. Many enter. Few emerge unchanged. Are you prepared to see yourself, truly?",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "regent_caelum",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_LABYRINTH_KEY",
+                "count": 1,
+                "source_item_token": "labyrinth_key"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Mirror of the Soul",
+          "description": "Navigate the Labyrinth of Reflections and face your inner truths",
+          "objective": "story_event",
+          "target_location": "D3_LABYRINTH_REFLECTIONS_80x80",
+          "objectives": [
+            "Navigate the shifting maze",
+            "Conquer each party member's reflection trial",
+            "Reach the Crystal Chamber"
+          ],
+          "dialog_start": "Welcome to the Labyrinth, seeker. Here, glass does not merely reflect\u2014it reveals. Your fears, your failures, your secret hopes. The path changes based on who walks it. Stay true to yourself, or be lost forever in reflections of what might have been.",
+          "dialog_complete": "You emerge whole. Many break in there\u2014seeing themselves as they truly are destroys the weak. But you... you accepted your flaws. Turned them into strength. The Crystal of Truth will answer to one such as you. Proceed, worthy bearer.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "mirror_warden",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_TRUTH_ECHO_FRAGMENT",
+                "count": 1,
+                "source_item_token": "truth_echo_fragment"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Crystal Awakens",
+          "description": "Claim the Crystal of Truth and witness its power",
+          "objective": "story_event",
+          "target_location": "D3_CRYSTAL_96x96",
+          "objectives": [
+            "Approach the Crystal of Truth",
+            "Prove worthiness through honest intent",
+            "Form the bond with the Crystal"
+          ],
+          "dialog_start": "[A voice resonates directly in your mind, crystalline and ancient] AT LAST. A BEARER WORTHY OF THE LIGHT. I AM THE FIRST OF SEVEN. I SEE ALL TRUTH AND PIERCE ALL LIES. TAKE ME, BEARER, AND KNOW THAT DECEPTION CANNOT STAND IN MY PRESENCE. THE VOID'S LIES WILL CRUMBLE BEFORE US.",
+          "dialog_complete": "[The Crystal bonds to your soul, filling you with clarity] THE PACT IS SEALED. I AM YOURS, AND YOU ARE MINE. TOGETHER, WE SHALL ILLUMINATE THE SHADOWS. BUT BEWARE, BEARER\u2014THE VOID KNOWS I HAVE AWAKENED. IT WILL SEND ITS CHAMPIONS TO CLAIM ME. STAY VIGILANT.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "crystal_of_truth",
+          "rewards": {
+            "xp": 2000,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_TRUTH",
+                "count": 1,
+                "source_item_token": "crystal_of_truth"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Shadows in the Glass",
+          "description": "Defend Prism from a Void infiltration",
+          "objective": "story_event",
+          "target_location": "T_PRISMRIDGE_112x72",
+          "objectives": [
+            "Use the Crystal of Truth to reveal hidden Void agents",
+            "Defeat the Void-touched citizens",
+            "Protect the Prism Heart"
+          ],
+          "dialog_start": "EMERGENCY! The Void somehow breached our defenses\u2014the Crystal's awakening must have drawn them like moths to flame! But these aren't monsters... they're people. Citizens. Corrupted from within! The Void has been HIDING in my city, waiting! Kade, use the Crystal\u2014reveal them!",
+          "dialog_complete": "The Crystal's light... it burned the corruption away without harming the hosts! By the First Light, it's a weapon AND a cure! You've saved thousands today, Kade. Prism owes you a debt beyond measure. Whatever you need\u2014soldiers, supplies, sanctuary\u2014it is yours.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "regent_caelum",
+          "rewards": {
+            "xp": 1800,
+            "items": [
+              {
+                "item": "ITEM_STORY_PRISM_MILITARY_SUPPORT",
+                "count": 1,
+                "source_item_token": "prism_military_support"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "The Ember Challenge",
+          "description": "Learn of the Crystal of Strength in the volcanic lands",
+          "objective": "story_event",
+          "target_location": "MIC_R07_104x56",
+          "objectives": [
+            "Study the route to Ember",
+            "Receive the Regent's blessing",
+            "Prepare for the trials ahead"
+          ],
+          "dialog_start": "You have the Crystal of Truth. Five remain hidden. The next closest lies in Ember\u2014the volcanic lands to the north. But beware\u2014the Emberfolk respect only strength. They hold trials, arena combat, tests of endurance. Diplomacy will not serve you there. You must fight.",
+          "dialog_complete": "The path to Ember is fraught with danger\u2014ash storms, lava flows, and the Emberfolk themselves. But you carry Truth now. That is no small thing. Go, Bearer. Show the world that the Void can be fought. Show them there is still hope.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "regent_caelum",
+          "rewards": {
+            "xp": 1200,
+            "gil": 800,
+            "unlock_flags": [
+              "zone_ember"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1200,
+        "gil": 800,
+        "unlock_flags": [
+          "zone_ember"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_EMBER_TRIAL_BY_FIRE"
+      ],
+      "unlock_flags": [
+        "zone_ember",
+        "crystal_truth_ability",
+        "void_cure_possible"
+      ],
+      "story_beats": [
+        "The party enters Prism, a city where transparency is valued above all",
+        "The Labyrinth of Reflections forces each party member to confront their true selves",
+        "The Crystal of Truth is obtained\u2014the first of the Seven Crystals",
+        "The Crystal can both detect AND cure Void corruption, revealing a path to save the infected",
+        "The Crystal of Strength in Ember is identified as the next objective"
+      ],
+      "party_reactions": {
+        "kade": "The Labyrinth... I saw my parents. They died when I was a baby, but I saw them. They said they were proud of me. I don't know if it was real or just a reflection, but... I choose to believe it was real. I have to believe they would be proud.",
+        "nix7": "Fascinating. My 'reflection' showed me as fully organic\u2014a human woman named 'Nix.' She said I was her dream of a better future. Emotional response detected. Analyzing... analysis inconclusive. I think I liked her.",
+        "skysong": "I've spent years running from who I was. The Labyrinth made me face it\u2014all the people I betrayed, all the cargo I smuggled for the Void without knowing. But it also showed me who I could be. Who I CHOOSE to be. That's worth more than gold.",
+        "vesper": "My reflection tried to convince me I was wasting my talents on 'heroics.' That I should return to pure research, let others do the bleeding. I told her... I told HER to shut up. The best science serves people, not the other way around. I think I needed to hear that.",
+        "ven": "I saw myself still in the swamp. Old, bitter, watching everything I loved die while I did nothing. It terrified me more than any monster. I won't become that person. I can't."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_REMNANT_WHAT_REMAINS",
+      "source_quest_id": "remnant_what_remains",
+      "name": "What Remains",
+      "type": "main",
+      "zone": "remnant",
+      "act": "post_game",
+      "prerequisites": [
+        "Q_CONTENT_MAIN_PALACE_PROGENITOR_WILL"
+      ],
+      "prerequisite_flags": [],
+      "description": "Remnant contains echoes of alternate timelines and choices not taken",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Edge of Memory",
+          "description": "Journey to Remnant, where echoes of the old world linger",
+          "objective": "story_event",
+          "target_location": "RV_EDGE_OF_MEMORY_96x80",
+          "objectives": [
+            "Enter the Remnant zone",
+            "Meet the Keepers of Echoes",
+            "Learn what persists after transcendence"
+          ],
+          "dialog_start": "Welcome to Remnant, Savior. We are what remains of what was. Memories given form. Echoes of the world before the choice. Not ghosts\u2014we're more like... impressions. Moments that mattered too much to fade. We've been waiting for you. There are things here you need to see. Things you need to understand.",
+          "dialog_complete": "You feel it, don't you? The weight of what was. The old world. The choices not taken. The paths not walked. They're all here. Preserved. Not alive, not dead\u2014just... remembered. And some of them want to talk to you.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "remnant_keeper_echoes",
+          "rewards": {
+            "xp": 6000,
+            "items": [
+              {
+                "item": "ITEM_STORY_ECHO_SIGHT_BLESSING",
+                "count": 1,
+                "source_item_token": "echo_sight_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Ghosts of Paths Not Taken",
+          "description": "Encounter echoes of what would have happened with different choices",
+          "objective": "story_event",
+          "target_location": "RV_WING_A_96x64",
+          "objectives": [
+            "Meet the Destroy-path echo",
+            "Meet the Merge-path echo",
+            "Understand the weight of all choices"
+          ],
+          "dialog_start": "[A Kade who chose differently\u2014harder, more desperate] So you chose Transcendence. Pretty. Hopeful. I chose Destroy. Killed the Void, stopped the Unraveling. Saved the world... for three days. Then reality unraveled anyway. Wrong choice. But I don't regret it. I did what I thought was right. Just like you.",
+          "dialog_complete": "All choices had costs. All choices had meaning. I Destroyed. They Merged. You Transcended. None of us were wrong. All of us tried. That's what matters. Trying. Caring. Doing what we thought was right, even when it hurt.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "shadow_of_destroy_path",
+          "rewards": {
+            "xp": 7000,
+            "items": [
+              {
+                "item": "ITEM_STORY_PATH_NOT_TAKEN_WISDOM",
+                "count": 1,
+                "source_item_token": "path_not_taken_wisdom"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Lost Companions",
+          "description": "Encounter echoes of companions who didn't survive the journey",
+          "objective": "story_event",
+          "target_location": "RV_WING_B_96x64",
+          "objectives": [
+            "Honor the fallen echoes",
+            "Hear their stories",
+            "Carry their memory forward"
+          ],
+          "dialog_start": "[Familiar faces, half-remembered] You don't recognize me, do you? In your world, I survived. In mine... I died. In the fight for the Capital. You carried on without me. Saved everything. I'm glad. I'm so glad. But I wanted you to know\u2014I don't regret it. My choice. My sacrifice. Worth it, for this world.",
+          "dialog_complete": "They're at peace. The echoes fade, grateful to be remembered. Every world, every choice, had its sacrifices. Its heroes who didn't make it to the end. But they mattered. They ALL mattered. And we'll remember them. Always.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "echo_of_fallen_ally",
+          "rewards": {
+            "xp": 7500,
+            "items": [
+              {
+                "item": "ITEM_STORY_MEMORIAL_OF_THE_FALLEN",
+                "count": 1,
+                "source_item_token": "memorial_of_the_fallen"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Unraveling Revealed",
+          "description": "Learn the true nature of the threat the Void was created to fight",
+          "objective": "story_event",
+          "target_location": "RV_CORE_64x64",
+          "objectives": [
+            "Witness the Unraveling's true nature",
+            "Understand the cosmic balance",
+            "Make peace with entropy"
+          ],
+          "dialog_start": "You know the Void was created to fight the Unraveling. But do you know what the Unraveling IS? It's not malevolent. Not evil. It's... inevitable. Entropy given consciousness. The slow realization that all stories end. The Void was our defense. Flawed, hungry, but genuine protection. Look. See. Understand.",
+          "dialog_complete": "[The truth unfolds, vast and terrifying and somehow beautiful] Everything ends. That's not cruelty\u2014that's what makes the journey matter. The Void fought to extend the story. We fought to improve it. Both were right. Both were necessary. Balance. Always balance.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "remnant_keeper_echoes",
+          "rewards": {
+            "xp": 8000,
+            "items": [
+              {
+                "item": "ITEM_STORY_COSMIC_UNDERSTANDING",
+                "count": 1,
+                "source_item_token": "cosmic_understanding"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Keeper's Request",
+          "description": "Help the Echoes find peace and release them to move on",
+          "objective": "story_event",
+          "target_location": "RV_GATEHOUSE_96x72",
+          "objectives": [
+            "Perform the Release Ritual",
+            "Help all Echoes find closure",
+            "Grant the old world peace"
+          ],
+          "dialog_start": "[The First, as they were in the old world\u2014tired, guilty, hopeful] You've come full circle, haven't you? From Dustbelt orphan to World-Savior. I'm proud of you. Proud of what you chose. But I have one last request. The Echoes here... we need to move on. To let go. Help us. Help us rest, knowing the world is in good hands.",
+          "dialog_complete": "[The Echoes fade, smiling, at peace] Thank you. For everything. For saving what we couldn't. For choosing better than we did. For being the hope we dreamed of. Go now. Live. Love. Build. And when your story ends... know that it mattered. That YOU mattered. Always.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "echo_of_first_progenitor",
+          "rewards": {
+            "xp": 10000,
+            "items": [
+              {
+                "item": "ITEM_STORY_PEACE_OF_THE_PAST",
+                "count": 1,
+                "source_item_token": "peace_of_the_past"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "What Remains Is Hope",
+          "description": "Return to the new world, carrying all that came before",
+          "objective": "talk",
+          "target_location": "OW_ORION_320x180",
+          "objectives": [
+            "Return to the new world",
+            "Share what you learned",
+            "Begin the next adventure"
+          ],
+          "dialog_start": "[You stand at the edge of Remnant, looking back at the new world] Everything we did. Everyone we lost. Every choice we made. It all matters. It all stays with us. Not as chains, but as foundations. We build on the past. We honor it by moving forward. By living. By loving. By hoping.",
+          "dialog_complete": "[The credits roll, showing scenes of the rebuilt world: children playing, cities thriving, nature restored] Chroma's Edge: A story of choices. Of hope. Of finding light in the darkest places. Thank you for playing. The world you saved is beautiful. And it's only the beginning.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "kade",
+          "rewards": {
+            "xp": 15000,
+            "gil": 20000,
+            "unlock_flags": [
+              "true_ending"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 15000,
+        "gil": 20000,
+        "unlock_flags": [
+          "true_ending"
+        ]
+      },
+      "unlocks": [],
+      "unlock_flags": [
+        "true_ending_cinematic",
+        "new_game_plus_plus",
+        "developer_commentary",
+        "concept_art_gallery",
+        "final_party_banter"
+      ],
+      "story_beats": [
+        "Remnant contains echoes of alternate timelines and choices not taken",
+        "The player encounters versions of themselves who made different choices",
+        "Echoes of fallen companions honor their sacrifices",
+        "The true nature of the Unraveling is revealed\u2014not evil, but inevitable entropy",
+        "The player helps the Echoes find peace, releasing the old world to rest",
+        "The true ending celebrates the journey and the choices made"
+      ],
+      "party_reactions": {
+        "kade": "Meeting myself\u2014other versions of myself\u2014was weird. They made different choices. Some better, some worse. But all of us tried. All of us cared. That's what I'm taking from this. It's not about being perfect. It's about showing up. Trying. Caring. Even when it's hard. Especially when it's hard.",
+        "nix7": "I found echoes of other Nix units. Nix-1 through Nix-6. They all failed. Died. Were forgotten. I'm Nix-7. The last. The one who made it. I carry them with me. Their data. Their hopes. Their dreams. I won't forget them. I'm the legacy of all who came before.",
+        "skysong": "There was an echo of me who never left the pirates. Who became Captain Bloodwind's successor. Cruel. Empty. Rich. She looked at me with such contempt. 'Soft,' she called me. 'Weak.' Maybe. But I'm happy. She's not. I'll take soft and happy over hard and hollow any day.",
+        "vesper": "The scientific implications of Remnant are EXTRAORDINARY! Parallel timeline echoes! Quantum choice residues! If I could just STAY here and study\u2014but no. No. The living world needs me. The dead past can wait. Science serves life, not the other way around. Finally learned that lesson.",
+        "ven": "I met swamp-me. The me who never left. Who's still there, talking to frogs, afraid of everything. They looked at me\u2014at who I became\u2014with such wonder. Such longing. I told them... I told them it's never too late. To leave. To grow. To become. I hope they listened.",
+        "pyra": "There was an echo of Ember. Burned. Conquered. Ash. In that timeline, I died defending Father. Failed. But the echo said they were proud of me. Proud of who I became in THIS timeline. That I learned what they tried to teach. Fire isn't destruction. Fire is transformation.",
+        "abyssal": "I met my younger self. Before the Shattering. Arrogant. Certain. Powerful. He looked at current-me with pity. 'Weak,' he said. 'Small.' But I look at him with compassion. He doesn't know the loneliness to come. The growth through pain. I'm not weaker. I'm wiser. There's a difference.",
+        "gearhart": "Echo-me never left the Consortium. Became their greatest engineer. Built weapons. Hurt people. Died rich and hated. Looked at me with such envy. 'You got redemption,' he said. 'You got purpose.' I nodded. 'It's never too late,' I told him. But for echoes... I guess it is. So I'm grateful. For my second chance.",
+        "blizzard": "I met my family. The real ones, not the Void's imitation. They were proud. Happy. At peace. Said they never blamed me for surviving. Wanted me to live. To thaw. To love again. I cried. First time since... since ever, maybe. Good crying. Healing crying. I'm ready to warm up now.",
+        "echo": "I'm real here. In Remnant, I'm solid. Not temporal flux, not possibility. ME. The Keeper said it's because I was always meant to record, to remember. And in a place of echoes, the recorder becomes real. I don't want to leave. But... the new world needs historians too. I'll go. But I'll visit.",
+        "sovereign": "I met the Sovereign who chose Merge. Who became one with the Void. Powerful. Terrifying. Empty. They said power was worth any price. I disagreed. We argued. In the end, they just looked sad. 'You'll learn,' they said. I don't think I will. I don't think I want to."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_TIDE_DEPTHS_MYSTERY",
+      "source_quest_id": "tide_depths_mystery",
+      "name": "Depths of Mystery",
+      "type": "main",
+      "zone": "tide",
+      "act": 2,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_EMBER_TRIAL_BY_FIRE"
+      ],
+      "prerequisite_flags": [],
+      "description": "Tide has been silenced by Void corruption of its leadership",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Silent Harbor",
+          "description": "Investigate why Tide has gone silent",
+          "objective": "story_event",
+          "target_location": "T_BRINEGATE_112x72",
+          "objectives": [
+            "Prepare deep-sea diving equipment",
+            "Descend to Tide's upper levels",
+            "Investigate the silence"
+          ],
+          "dialog_start": "Thank the currents you're here! Tide's been dark for three weeks\u2014no messages, no trade ships, nothing but debris washing ashore. We sent scouts. None returned. Something's wrong down there. Deep wrong. You carry the Crystals? Maybe... maybe you can succeed where we failed.",
+          "dialog_complete": "The pressure locks engaged... you're cleared for descent. The Crystal of Strength should help you withstand the depths, but be careful. Tide was built on ancient technology\u2014Progenitor remnants that let us breathe underwater. If that's been compromised...",
+          "target_npc": "NPC_DOCKMASTER_SARAI",
+          "story_npc_alias": "harbor_master_marin",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_DEEP_SEA_SUIT",
+                "count": 1,
+                "source_item_token": "deep_sea_suit"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Sunken City of Tides",
+          "description": "Explore the underwater metropolis and find survivors",
+          "objective": "story_event",
+          "target_location": "D5_SUNKEN_CITY_TIDES_96x96",
+          "objectives": [
+            "Navigate the flooded districts",
+            "Rescue trapped survivors",
+            "Investigate the High Tide Council"
+          ],
+          "dialog_start": "*bubbles of relief* A rescue! I mean\u2014over here! Don't shoot! I'm Coral, junior hydromancer. The city... the city's WRONG. The water itself turned against us. Something's controlling the currents, making them... hungry. The Crystal of Depths was supposed to protect us, but then the High Tide Council... they changed.",
+          "dialog_complete": "You saved my whole sector! I thought I was dead for sure. Look, the High Tide Council\u2014they were good people once. Then the Void-touched envoy came from the Capital, offering 'protection.' They accepted. Now... now they serve something else. The Crystal is in the Abyssal Vault, but you'll never get past the Council's guards.",
+          "target_npc": "NPC_RAIL_CAPTAIN_DORSA",
+          "story_npc_alias": "survivor_coral",
+          "rewards": {
+            "xp": 1300,
+            "items": [
+              {
+                "item": "ITEM_STORY_HYDROMANCER_BLESSING",
+                "count": 1,
+                "source_item_token": "hydromancer_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Corrupted Council",
+          "description": "Confront the Void-touched High Tide Council",
+          "objective": "story_event",
+          "target_location": "D5_SUNKEN_CITY_TIDES_96x96",
+          "objectives": [
+            "Infiltrate the Council Spire",
+            "Use Truth to reveal the corruption",
+            "Free the Council from Void control"
+          ],
+          "dialog_start": "That's the Council Spire. See the violet glow? That's not natural light\u2014that's Void corruption. The Council members are in there, but they're... different now. Empty. Like their souls were scooped out and replaced with... hunger. Use the Crystal of Truth\u2014maybe it can show them what they've become.",
+          "dialog_complete": "[The Council members gasp as the Truth burns away the Void] What... what have we done? The envoy... they said they were from the Capital, but... they were HOLLOW. Empty shells wearing faces. The Crystal! They took the Crystal of Depths to the Abyssal Vault! It's the key to something terrible!",
+          "target_npc": "NPC_DOCKMASTER_SARAI",
+          "story_npc_alias": "coral",
+          "rewards": {
+            "xp": 1600,
+            "items": [
+              {
+                "item": "ITEM_STORY_COUNCIL_REDEMPTION_OATH",
+                "count": 1,
+                "source_item_token": "council_redemption_oath"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Deep Walker",
+          "description": "Recruit the ancient guardian of the abyss",
+          "objective": "story_event",
+          "target_location": "D5_ABYSS_96x96",
+          "objectives": [
+            "Prove worthy of Abyssal's aid",
+            "Navigate the Crushing Depths",
+            "Descend to the Abyssal Vault"
+          ],
+          "dialog_start": "[A voice echoes from the crushing darkness] Who dares swim in my domain? The young races, invading my silence... wait. You carry the Light of Truth. And the Flame of Strength. Impossible. The Progenitors' weapons walk again. Perhaps... perhaps the cycle can be broken. I am Abyssal, First Diver. And I will help you recover what was stolen.",
+          "dialog_complete": "You swim well for surface-dwellers. The Abyssal Vault was built by my kind, long before your kind crawled onto land. The Void-touched ones desecrate it with their presence. We go to reclaim what is ours\u2014and to stop them from awakening what should sleep forever.",
+          "target_npc": "NPC_DOCKMASTER_SARAI",
+          "story_npc_alias": "ancient_abyssal",
+          "rewards": {
+            "xp": 1400,
+            "items": [
+              {
+                "item": "ITEM_STORY_ABYSSAL_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "abyssal_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Abyssal Vault",
+          "description": "Descend into the deepest ocean trench to stop the Void ritual",
+          "objective": "story_event",
+          "target_location": "D5_ABYSSAL_VAULT_80x80",
+          "objectives": [
+            "Infiltrate the Abyssal Vault",
+            "Disrupt the Void gateway ritual",
+            "Prevent the Door from opening"
+          ],
+          "dialog_start": "[The darkness here is absolute, even the Crystals' light struggles to penetrate] Below us lies the Vault\u2014and the Void's servants. They seek to use the Crystal of Depths to open a gateway. Not a small Wound, like in your swamp. A Door. If they succeed, the Void itself will pour through. We must be swift. We must be silent. We must be deadly.",
+          "dialog_complete": "[The ritual collapses as the last Void-priest falls] The Door remains closed. This time. But they will try again. They always try again. The Crystal of Depths\u2014it calls to you. Take it, Bearer. Adapt to any environment, survive any pressure. You have earned the Deep's respect.",
+          "target_npc": "NPC_DOCKMASTER_SARAI",
+          "story_npc_alias": "abyssal",
+          "rewards": {
+            "xp": 2200,
+            "items": [
+              {
+                "item": "ITEM_STORY_CRYSTAL_OF_DEPTHS",
+                "count": 1,
+                "source_item_token": "crystal_of_depths"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "Rising Tide",
+          "description": "Help rebuild Tide and learn of the next Crystal",
+          "objective": "story_event",
+          "target_location": "T_BRINEGATE_112x72",
+          "objectives": [
+            "Accept Tide's allegiance",
+            "Learn of the Crystal of Industry",
+            "Plan the journey to Obsidian"
+          ],
+          "dialog_start": "We are... deeply ashamed. The Void offered us safety, and we were afraid. We forgot that safety bought with freedom is just a slower death. Thank you for reminding us what courage looks like. Tide owes you our lives. Our fleets, our hydromancers, our very breath\u2014you command them.",
+          "dialog_complete": "Three Crystals! Three-fifths of the awakening! The next lies in Obsidian\u2014the industrial heartland. But beware\u2014the Obsidian Consortium cares only for profit. They may not believe your warnings... or they may already be compromised by the Void's promises of wealth.",
+          "target_npc": "NPC_DOMINION_OFFICIAL",
+          "story_npc_alias": "high_tide_councilor",
+          "rewards": {
+            "xp": 1500,
+            "gil": 1000,
+            "unlock_flags": [
+              "zone_obsidian"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1500,
+        "gil": 1000,
+        "unlock_flags": [
+          "zone_obsidian"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_OBSIDIAN_GEARS_INDUSTRY"
+      ],
+      "unlock_flags": [
+        "zone_obsidian",
+        "crystal_depths_ability",
+        "companion_abyssal",
+        "tide_alliance"
+      ],
+      "story_beats": [
+        "Tide has been silenced by Void corruption of its leadership",
+        "The Crystal of Truth can cure Void corruption, saving the Council members",
+        "Abyssal, an ancient Deep Walker, joins the party",
+        "The party stops a ritual to open a full gateway for the Void",
+        "The Crystal of Depths is obtained\u2014the third of Seven"
+      ],
+      "party_reactions": {
+        "kade": "Being underwater... it's terrifying and beautiful at the same time. I saw things down there\u2014creatures that have never seen sunlight. Ancient things. It makes you realize how small we are. But also how connected. The same water that fills our blood once covered the whole world.",
+        "nix7": "Pressure readings at 1,100 atmospheres. Temperature: 2\u00b0C. Visibility: effectively zero. And yet, life persists. Adaptation is... remarkable. The Crystal of Depths appears to provide physiological modifications at the cellular level. I am... envious of organic adaptability.",
+        "skysong": "I thought flying was freedom. But swimming? Swimming is like flying in three dimensions. I could get used to this. Though the whole 'crushing pressure that could kill you instantly' thing is less fun. Still\u2014Abyssal's a fascinating conversationalist. Been alive for ten thousand years, apparently. Good stories.",
+        "vesper": "The physiological modifications from the Crystal of Depths are REVOLUTIONARY! Cellular membrane restructuring, oxygen extraction from water, pressure-resistant protein folding! I must document everything! Also, Abyssal's biology defies known science. I want to study them. Politely. Very politely.",
+        "ven": "I grew up in a swamp, so water's not new to me. But THIS water? It's alive. I can feel it responding to the Crystal, moving with us, protecting us. Coral taught me some basic hydromancy. I made a bubble! It was very exciting.",
+        "pyra": "Fire and water don't mix, they say. But working with Abyssal... it's not about the elements. It's about the will behind them. They understand duty. They've been alone in the dark for millennia, still protecting secrets. That's commitment. I respect that.",
+        "abyssal": "The young races are... surprising. Loud. Frantic. But genuine. The Bearer carries a weight I remember from the Progenitors themselves\u2014the burden of hope. I will swim with them a while longer. The darkness has been lonely."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_TOWER_ASCENT",
+      "source_quest_id": "tower_ascent",
+      "name": "The Ascent",
+      "type": "main",
+      "zone": "tower",
+      "act": 5,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_VOID_INTO_DARKNESS"
+      ],
+      "prerequisite_flags": [],
+      "description": "The Tower tests the party with trials of Creation, Destruction, Preservation, and Transcendence",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The First Steps",
+          "description": "Begin climbing the Tower of the Progenitors",
+          "objective": "story_event",
+          "target_location": "TWR_LOBBY_96x64",
+          "objectives": [
+            "Enter the Tower",
+            "Begin the ascent",
+            "Adapt to shifting gravity"
+          ],
+          "dialog_start": "The Tower defies measurement. My sensors say it's 100 meters tall. Also 100,000 meters. Also infinite. The Crystals are our only navigation\u2014follow their resonance upward. Don't look down. Don't look sideways. Just up. Always up.",
+          "dialog_complete": "First level complete. The gravity here... changes. Sometimes you're walking on walls. Sometimes ceilings. The Progenitors didn't build for mortal convenience. They built to challenge. To test. We passed. Onward.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 2500,
+            "items": [
+              {
+                "item": "ITEM_STORY_GRAVITY_ANCHOR",
+                "count": 1,
+                "source_item_token": "gravity_anchor"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Trials of the Makers",
+          "description": "Face challenges designed to test the Progenitors' successors",
+          "objective": "story_event",
+          "target_location": "TWR_ARENA_F75_64x64",
+          "objectives": [
+            "Trial of Creation: Build what the Void destroys",
+            "Trial of Destruction: Unmake Void corruption",
+            "Trial of Preservation: Protect the innocent at cost to self",
+            "Trial of Transcendence: Choose the greater good over personal desire"
+          ],
+          "dialog_start": "[Ancient mechanisms activate, voice synthesized from starlight] SUCCESSORS DETECTED. CARRYING CRYSTAL RESONANCE. INITIATING TRIALS OF WORTHINESS. CREATION. DESTRUCTION. PRESERVATION. TRANSCENDENCE. PASS ALL FOUR TO ASCEND. FAIL AND... WELL. THERE ARE ALWAYS MORE CANDIDATES.",
+          "dialog_complete": "[The Construct's tone shifts, almost respectful] ALL TRIALS PASSED. CHARACTER CONFIRMED: WORTHY. THE PROGENITORS WOULD BE... PROUD? IS THAT THE CORRECT EMOTIONAL RESPONSE? REGARDLESS. PROCEED. THE MAKER AWAITS.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "tower_warden_construct",
+          "rewards": {
+            "xp": 3000,
+            "items": [
+              {
+                "item": "ITEM_STORY_PROGENITOR_APPROVAL_SIGIL",
+                "count": 1,
+                "source_item_token": "progenitor_approval_sigil"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Memories in Stone",
+          "description": "Witness holographic records of the Progenitors' final days",
+          "objective": "story_event",
+          "target_location": "TWR_ARENA_F90_64x64",
+          "objectives": [
+            "Activate the ancient records",
+            "Learn the truth of the Unraveling",
+            "Understand the Progenitors' sacrifice"
+          ],
+          "dialog_start": "[A ghost of light, flickering with age] Record 10,847. Final days of the Progenitor civilization. We created the Void to fight the Unraveling\u2014a force from beyond reality that consumed worlds. But the Void was too hungry. It turned on us. We sealed it with the Crystals, but the seal weakens. To whoever finds this: forgive us. And finish what we could not.",
+          "dialog_complete": "[The Archivist's form solidifies, becoming almost real] You understand now. The Void was a weapon. A dangerous, uncontrollable weapon. The Unraveling still exists\u2014out there, beyond reality. The Void kept it at bay, even as it consumed us. Balance. Terrible balance. Your choice at the peak will determine everything.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "holographic_archivist",
+          "rewards": {
+            "xp": 2800,
+            "items": [
+              {
+                "item": "ITEM_STORY_UNRAVELING_LORE_MASTERY",
+                "count": 1,
+                "source_item_token": "unraveling_lore_mastery"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Penultimate Step",
+          "description": "Face the last guardian before the peak",
+          "objective": "defeat",
+          "target_location": "TWR_ARENA_F100_64x64",
+          "objectives": [
+            "Battle Apex to prove final readiness",
+            "Demonstrate understanding of the burden",
+            "Earn the right to face the Maker"
+          ],
+          "dialog_start": "[A being of pure light, sorrowful and ancient] I am Apex. Last of the Progenitor Guardians. I have watched this Tower for ten thousand years. Watched candidates climb. Watched them fall. You are different. You carry hope, not just power. But hope is heavy. Are you strong enough to bear the truth at the peak? The choice that awaits?",
+          "dialog_complete": "[Apex bows, their light dimming in respect] You fight not to win, but to protect. Not to dominate, but to preserve. You are what we hoped for. What we feared we'd never see. Go. Face the Maker. Make the choice we could not. And know that whatever happens... we are grateful.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "final_guardian_apex",
+          "rewards": {
+            "xp": 3500,
+            "items": [
+              {
+                "item": "ITEM_STORY_APEX_BLESSING",
+                "count": 1,
+                "source_item_token": "apex_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Threshold of Creation",
+          "description": "Reach the peak and prepare for the final confrontation",
+          "objective": "travel",
+          "target_location": "TWR_THRESHOLD_CREATION_96x80",
+          "objectives": [
+            "Reach the Tower's peak",
+            "Prepare the Seven Crystals",
+            "Open the Final Door"
+          ],
+          "dialog_start": "This is it. The peak. I can feel... everything. The whole world, every life, every moment. Connected. The Crystals are singing, ready for their final purpose. Whatever's behind that door\u2014it started all this. Made the Void. Made the Unraveling threat. Made us. It's time to meet our maker. Literally.",
+          "dialog_complete": "[The door opens, revealing... a garden. Sunlight. Life. And a figure sitting peacefully among flowers] I wondered when you'd arrive. Please, sit. We have much to discuss, you and I. About creation. About mistakes. About redemption. Welcome home, my child.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "kade",
+          "rewards": {
+            "xp": 3000,
+            "gil": 2500,
+            "unlock_flags": [
+              "zone_palace"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 3000,
+        "gil": 2500,
+        "unlock_flags": [
+          "zone_palace"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_PALACE_PROGENITOR_WILL"
+      ],
+      "unlock_flags": [
+        "zone_palace",
+        "tower_conquered_blessing",
+        "unraveling_revealed"
+      ],
+      "story_beats": [
+        "The Tower tests the party with trials of Creation, Destruction, Preservation, and Transcendence",
+        "Ancient records reveal the Void was created to fight the 'Unraveling'\u2014an external threat",
+        "The Progenitors sacrificed their civilization to create the seal holding both Void and Unraveling at bay",
+        "Apex, the final guardian, recognizes the party's worthiness",
+        "At the peak awaits the Progenitor who started everything\u2014a being of creation itself"
+      ],
+      "party_reactions": {
+        "kade": "The Trials... they weren't about power. They were about choices. Hard choices. I had to choose between saving one person I loved and saving a hundred strangers. I chose the strangers. I don't know if that makes me good or just... practical. Either way, I passed.",
+        "nix7": "The holographic records contained data from before the Shattering. Complete star maps, lost histories, extinct species. I've expanded my database by 400%. If we survive, I'm writing a book. A very long book. With footnotes.",
+        "skysong": "Apex fought like... like they were trying to lose. Testing our hearts, not our skills. When I realized that, I stopped fighting to win and started fighting to understand. That was the real test. Clever ancient beings and their clever tests.",
+        "vesper": "THE UNRAVELING! An extra-dimensional threat that consumes reality itself! The Void was a DEFENSE MECHANISM! This changes EVERYTHING! If we destroy the Void, we might unleash something WORSE! We need data. More data. ALL the data!",
+        "ven": "I grew things in the Trial of Creation. Actual living things, from seeds the Tower provided. Watching them grow... it felt more powerful than any spell. More meaningful than any battle. I think I understand the Progenitors a little. Creation is magic.",
+        "pyra": "The Trial of Destruction required me to unmake something precious. A flame I'd nurtured. I cried. First time since I was a child. But I understood\u2014sometimes we must let go of what we love to save what matters. Heavy lesson. Important lesson.",
+        "abyssal": "Apex remembered me. From before. Said I was 'the one who chose to remember.' Ten thousand years, and they remembered. The Progenitors built well. Built for eternity. I hope we can honor that legacy.",
+        "gearhart": "The Trial of Preservation made me choose between saving my greatest invention or a stranger's child. I chose the child. Obviously. But the fact that I hesitated... I'm still working through that. Being an engineer means valuing creation. Being human means valuing life. I choose life.",
+        "blizzard": "Transcendence. Letting go of my need for revenge against the Void. Accepting that justice matters more than vengeance. Apex said I 'graduated from winter to spring.' I didn't understand. Then I felt warm for the first time in decades. Spring. Yes.",
+        "echo": "I recorded everything. The trials, the records, the conversations. This is history. The most important history. If we don't make it, someone will find my records. Know that we tried. That we climbed. That we reached the peak.",
+        "sovereign": "The Trial of Transcendence asked if I'd sacrifice my crown to save my people. I said yes before I even thought. That's when I knew\u2014I was never meant to rule from a throne. I'm meant to serve. From the front lines, if necessary."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_UPLANDS_ECHOES_PAST",
+      "source_quest_id": "uplands_echoes_past",
+      "name": "Echoes of the Past",
+      "type": "main",
+      "zone": "uplands",
+      "act": 1,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_DUSTBELT_FRONTIER_CALLING"
+      ],
+      "prerequisite_flags": [],
+      "description": "The party learns the world was created by Progenitors who accidentally created the Void",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Floating Scholarium",
+          "description": "Reach the High Scholarium and request an audience",
+          "objective": "story_event",
+          "target_location": "MIC_SCHOLARIUM_96x64",
+          "objectives": [
+            "Present Marn's pendant",
+            "Navigate the Scholarium",
+            "Meet with High Scholar Vael"
+          ],
+          "dialog_start": "Halt! The High Scholarium does not admit just any... wait. You bear Marn's pendant. Elder Marn, from the Dustbelt? By the Archives, I thought her line ended decades ago. Come, the High Scholar will want to see this. But be warned\u2014she has little patience for surface-dwellers.",
+          "dialog_complete": "Marn's pendant... yes, I remember her. A bright student who chose love over knowledge. I thought her foolish then. Now... I wonder who was truly wise. You seek information about the Void? Then prepare yourself, child. The truth is heavier than you know.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "scholar_gatekeeper",
+          "rewards": {
+            "xp": 600,
+            "items": [
+              {
+                "item": "ITEM_STORY_SCHOLARIUM_GUEST_PASS",
+                "count": 1,
+                "source_item_token": "scholarium_guest_pass"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "The Archives Awaken",
+          "description": "Access the sealed Progenitor Archives",
+          "objective": "story_event",
+          "target_location": "D_ARCHIVE_112x96",
+          "objectives": [
+            "Complete the Trial of Wisdom",
+            "Solve the Progenitor riddles",
+            "Unlock the Sealed Chamber"
+          ],
+          "dialog_start": "The Archives contain knowledge from before the Shattering\u2014records of the Progenitors who created our world. The Void is mentioned throughout, but the deepest truths are sealed. Only one with a pure heart and clear purpose can unlock them. Prove your worth, Kade.",
+          "dialog_complete": "The Archives respond to you! This is unprecedented\u2014the texts speak of a 'Bearer of Unity' who would come when the Void rises. Kade... you may be the one the prophecies foretold. But prophecy is not destiny. You must choose your path.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "high_scholar_vael",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_PROGENITOR_CODEX_FRAGMENT",
+                "count": 1,
+                "source_item_token": "progenitor_codex_fragment"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "The Truth of Creation",
+          "description": "Learn the origin of the world and the Void",
+          "objective": "story_event",
+          "target_location": "D_ARCHIVE_112x96",
+          "objectives": [
+            "Study the Creation Records",
+            "Witness the Shattering vision",
+            "Understand the Void's nature"
+          ],
+          "dialog_start": "Listen well. The Progenitors were beings of pure light who shaped Chroma from primordial chaos. But in their perfection, they created something they could not control\u2014a shadow of themselves. The Void. It is not evil, Kade. It is hungry. And it has waited ten thousand years to consume what its creators made.",
+          "dialog_complete": "The Void seeks to unmake reality because it was denied existence. It is tragic... and terrifying. But the records also speak of hope. Seven Crystals of Binding were created to seal the Void. If they still exist, we may yet save Chroma.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "high_scholar_vael",
+          "rewards": {
+            "xp": 1200,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_LORE_MASTERY",
+                "count": 1,
+                "source_item_token": "void_lore_mastery"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Sky Pirates",
+          "description": "Defend the Scholarium from aerial raiders seeking the Archives",
+          "objective": "story_event",
+          "target_location": "MIC_SCHOLARIUM_96x64",
+          "objectives": [
+            "Repel the sky pirate boarding parties",
+            "Defeat Captain Bloodwind",
+            "Protect the Archive Core"
+          ],
+          "dialog_start": "Ships on the horizon! Crimson sails\u2014the Sky Reavers! They've come for the Archives, just as I feared. Mercenaries of the Void, selling their souls for power! Kade, I know we just met, but I need warriors, not scholars! Help me defend these halls!",
+          "dialog_complete": "You fight like a tempest! I'm Captain Skysong\u2014used to lead those dogs until I learned what they really served. The Void promised me power, but I chose my soul instead. If you're hunting the Crystals, you need air transport. My ship is yours.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "captain_skysong",
+          "rewards": {
+            "xp": 1500,
+            "items": [
+              {
+                "item": "ITEM_STORY_SKYSONG_COMPANION_UNLOCKED",
+                "count": 1,
+                "source_item_token": "skysong_companion_unlocked"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "Whispers of the Mire",
+          "description": "Investigate Void activity in the southern swamplands",
+          "objective": "story_event",
+          "target_location": "MIC_R03_104x56",
+          "objectives": [
+            "Analyze the ley line maps",
+            "Prepare for swamp travel",
+            "Chart course to the Mire"
+          ],
+          "dialog_start": "The Archives show disturbing patterns. The Void corruption you saw in Dustbelt? It spreads through ley lines\u2014channels of natural magic. And the greatest concentration in the south is... the Mire. Once a verdant marsh, now a festering wound. If the Void gains a foothold there, all of Chroma will fall.",
+          "dialog_complete": "You go to face nightmares, child. Take this\u2014it is a True Lens, forged by the Progenitors themselves. It reveals the Void's influence where others see only shadow. Trust your eyes, trust your heart, and trust your companions. You will need all three.",
+          "target_npc": "NPC_ARCHIVIST_VELM",
+          "story_npc_alias": "high_scholar_vael",
+          "rewards": {
+            "xp": 1000,
+            "items": [
+              {
+                "item": "ITEM_STORY_PROGENITOR_TRUE_LENS",
+                "count": 1,
+                "source_item_token": "progenitor_true_lens"
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "name": "Descent into Mystery",
+          "description": "Leave the Uplands and journey to the Mire",
+          "objective": "story_event",
+          "target_location": "MIC_R03_104x56",
+          "objectives": [
+            "Board the Cloudskipper",
+            "Descend to the lower zones",
+            "Survive the turbulent crossing"
+          ],
+          "dialog_start": "The Cloudskipper's ready to fly! First time taking passengers on a Crystal hunt\u2014usually I'm running FROM trouble, not toward it! But you've got a good heart, Kade. Reminds me of why I became a captain instead of a corpse. All aboard for the Mire! Try not to look down!",
+          "dialog_complete": "Welcome to the Mire, folks! Try not to breathe too deep\u2014that smell's part sulfur, part sorrow, and all swamp. I can see the corruption from here\u2014black veins spreading through the water. Whatever's happening here, it's already begun. Be careful down there.",
+          "target_npc": "NPC_CAPTAIN_VARROS",
+          "story_npc_alias": "captain_skysong",
+          "rewards": {
+            "xp": 1400,
+            "gil": 600,
+            "unlock_flags": [
+              "zone_mire"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 1400,
+        "gil": 600,
+        "unlock_flags": [
+          "zone_mire"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_MIRE_SINKING_TRUTH"
+      ],
+      "unlock_flags": [
+        "zone_mire",
+        "companion_skysong",
+        "airship_travel"
+      ],
+      "story_beats": [
+        "The party learns the world was created by Progenitors who accidentally created the Void",
+        "The existence of Seven Crystals of Binding is revealed",
+        "Captain Skysong joins the party, providing air transport",
+        "The True Lens artifact is acquired for detecting Void corruption",
+        "The Mire is identified as the next critical location"
+      ],
+      "party_reactions": {
+        "kade": "The world is so much older and stranger than I thought. Progenitors, Crystals, ancient prophecies... I feel like I'm in over my head. But then I look at Nix7 and Skysong, and I remember\u2014I don't have to do this alone.",
+        "nix7": "Historical data acquisition: 94% complete. The Progenitors' level of technology rivals even Aetherreach's peak. Fascinating. Concerning. If they could not destroy the Void, only contain it... what chance do we have?",
+        "skysong": "Never thought I'd be fighting FOR something instead of against everything. Feels good. Dangerous, but good. Besides, have you seen how these two fight? I'm betting on the underdogs with the big hearts."
+      }
+    },
+    {
+      "id": "Q_CONTENT_MAIN_VOID_INTO_DARKNESS",
+      "source_quest_id": "void_into_darkness",
+      "name": "Into Darkness",
+      "type": "main",
+      "zone": "void",
+      "act": 4,
+      "prerequisites": [
+        "Q_CONTENT_MAIN_CAPITAL_FALLEN_CROWN"
+      ],
+      "prerequisite_flags": [],
+      "description": "The Void Zone is a place where reality itself is dissolving",
+      "steps": [
+        {
+          "id": 1,
+          "name": "The Threshold",
+          "description": "Cross into the Void Zone, where reality frays",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Cross into the Void Zone",
+            "Maintain Crystal barriers",
+            "Resist the Void's whispers"
+          ],
+          "dialog_start": "We're crossing the threshold. From here on, physics as we know it... changes. The Crystals will protect us, but they can't shield us from everything. Stay close. Stay focused. And whatever you do\u2014don't listen to the whispers. The Void speaks lies that sound like truth.",
+          "dialog_complete": "We're through. The Crystals hold. But look around\u2014this place was once part of Chroma. A city, maybe. Now it's... unraveling. Matter dissolving into potential. Time flowing backwards in pockets. This is what the Void wants for everything.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "nix7",
+          "rewards": {
+            "xp": 2000,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_RESISTANCE_FIELD",
+                "count": 1,
+                "source_item_token": "void_resistance_field"
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Gardens of Absence",
+          "description": "Navigate through the surreal landscape of un-creation",
+          "objective": "story_event",
+          "target_location": "D8_GARDENS_OF_ABSENCE_96x80",
+          "objectives": [
+            "Navigate the Gardens of Absence",
+            "Avoid the unmaking storms",
+            "Find the path to the Core"
+          ],
+          "dialog_start": "The plants here... they're wrong. Not dead. Not alive. Just... stopped. Frozen mid-growth, mid-decay, both at once. And the sounds\u2014like screaming, but backwards. Like something being unmade. Keep moving. Don't look too closely at anything. Trust me on this.",
+          "dialog_complete": "We made it through. But I swear\u2014I saw faces in the nothing. People I knew. People I lost. The Void showed them to me. Offered to bring them back if I just... stopped. Let go. I almost did. But then I remembered why we're here. For everyone. Not just my ghosts.",
+          "target_npc": "NPC_BROKER_VANE",
+          "story_npc_alias": "ven",
+          "rewards": {
+            "xp": 2200,
+            "items": [
+              {
+                "item": "ITEM_STORY_ABSENCE_IMMUNITY_CHARM",
+                "count": 1,
+                "source_item_token": "absence_immunity_charm"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Echoes of the Lost",
+          "description": "Face manifestations of everyone who has fallen to the Void",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Resist the call of the Lost",
+            "Use Truth to reveal the deception",
+            "Free the trapped souls"
+          ],
+          "dialog_start": "[A voice that is and isn't Elder Marn's] Kade. Child. Why do you fight? I found peace here. No pain. No loss. Just... rest. Join me. Rest. You've fought so hard. So long. Don't you deserve peace? [The voice multiplies, becoming hundreds\u2014thousands\u2014of familiar voices, all offering the same]",
+          "dialog_complete": "[The shadows dissipate, leaving only gratitude] They're free. The Crystal of Truth cut through the illusion\u2014they weren't at peace. They were being consumed, slowly, their essence feeding the Void. We saved them. Or... saved what was left. They thanked us, at the end.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "shadow_of_marn",
+          "rewards": {
+            "xp": 2500,
+            "items": [
+              {
+                "item": "ITEM_STORY_SOULS_RELEASED_BLESSING",
+                "count": 1,
+                "source_item_token": "souls_released_blessing"
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "The Hunger Itself",
+          "description": "Confront the Avatar of the Void",
+          "objective": "story_event",
+          "target_location": "D8_VOID_112x96",
+          "objectives": [
+            "Confront the Void Avatar",
+            "Resist its offers of peace",
+            "Battle for Chroma's future"
+          ],
+          "dialog_start": "[A voice that is no voice, speaking directly into the mind] AT LAST. THE BEARER COMES. YOU CARRY LIGHT INTO DARKNESS. HOPE INTO DESPAIR. HOW... QUAINT. I AM THE VOID. THE HUNGER BEFORE CREATION. THE SILENCE AFTER. I OFFER YOU ONE CHANCE, MORTAL: SURRENDER THE CRYSTALS. JOIN THE PEACE OF OBLIVION. OR BE UNMADE.",
+          "dialog_complete": "[The Avatar screams as the Crystals' light pierces it] IMPOSSIBLE! I AM ETERNAL! I AM INEVITABLE! AND YET... YOU... HURT... ME... [It dissipates, but its voice echoes] THIS AVATAR WAS NOTHING. THE TRUE VOID AWAITS IN THE TOWER. CLIMB, IF YOU DARE. SEE WHAT YOUR PROGENITORS FEARED.",
+          "target_npc": "NPC_RESISTANCE_CONTACT",
+          "story_npc_alias": "avatar_of_void",
+          "rewards": {
+            "xp": 3000,
+            "items": [
+              {
+                "item": "ITEM_STORY_VOID_AVATAR_ESSENCE",
+                "count": 1,
+                "source_item_token": "void_avatar_essence"
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "The Tower Revealed",
+          "description": "Discover the true nature of the Tower and what awaits at its peak",
+          "objective": "story_event",
+          "target_location": "TWR_LOBBY_96x64",
+          "objectives": [
+            "Locate the Tower entrance",
+            "Understand the Tower's purpose",
+            "Prepare for the final ascent"
+          ],
+          "dialog_start": "I remember now. The Tower. It was always there, even before the Shattering. The Progenitors built it to reach... something. Someone. They called it 'The Bridge.' A way to speak to the force that existed before reality. They thought they could control it. They were wrong. And now you must climb what they built.",
+          "dialog_complete": "The Tower waits. It reaches beyond Chroma, beyond the Void, into spaces that have no names. At its peak lies the Progenitor who started all this. The one who made the Void. Who made the Crystals. Who set this cycle in motion. Your final confrontation awaits.",
+          "target_npc": "NPC_DOCKMASTER_SARAI",
+          "story_npc_alias": "abyssal",
+          "rewards": {
+            "xp": 2500,
+            "gil": 2000,
+            "unlock_flags": [
+              "zone_tower"
+            ]
+          }
+        }
+      ],
+      "rewards": {
+        "xp": 2500,
+        "gil": 2000,
+        "unlock_flags": [
+          "zone_tower"
+        ]
+      },
+      "unlocks": [
+        "Q_CONTENT_MAIN_TOWER_ASCENT"
+      ],
+      "unlock_flags": [
+        "zone_tower",
+        "void_resistance_mastered",
+        "souls_freed_blessing"
+      ],
+      "story_beats": [
+        "The Void Zone is a place where reality itself is dissolving",
+        "The Void offers false peace\u2014consumption disguised as rest",
+        "The party frees trapped souls rather than leaving them to the Void",
+        "The Avatar of the Void is defeated, but reveals a greater power in the Tower",
+        "The Tower is revealed as a bridge to the Progenitor who created everything"
+      ],
+      "party_reactions": {
+        "kade": "I saw my parents in the Gardens. They begged me to stop fighting. To rest. But it wasn't them. It was the Void wearing their faces. Using my grief against me. I'm done grieving. I'm done being the orphan who needs saving. I'm the one who does the saving now.",
+        "nix7": "The Void offered me something too. Perfect logic. No more emotions, no more messy feelings. Just pure calculation. For 0.3 seconds, I considered it. Then I remembered what feelings gave me\u2014friendship, purpose, hope. I'll take messy over empty any day.",
+        "skysong": "The Avatar offered to undo my mistakes. All the people I hurt, the crimes I committed. Said I could just... not have done them. But that's not how it works, is it? We are our choices. Good and bad. I choose to make better ones going forward. Not erase the past\u2014learn from it.",
+        "vesper": "It offered me perfect knowledge. Every mystery solved, every question answered. No more wondering, no more searching. Just... knowing. I almost took it. Then I realized\u2014the search is the point. The questions matter more than the answers. So I told it to stuff its omniscience.",
+        "ven": "It showed me the swamp, healed. My people thriving. All I had to do was stop. Go home. Let someone else save the world. For a moment... I wanted to. But then I looked at all of you. My friends. My family. And I knew I couldn't abandon you. Even for paradise.",
+        "pyra": "The Void knows fire. It burns too, in its way. It offered to make me the greatest warrior in history. Undefeated. Unmatched. Alone. Because no one could stand beside me. I told it I'd rather lose with friends than win alone. It didn't understand. It doesn't understand anything.",
+        "abyssal": "It showed me the world before the Shattering. Whole. Beautiful. Unbroken. All I had to do was go back to sleep. Let the cycle continue. But I've slept long enough. Ten thousand years of dreams. It's time to wake up. Time to finish what the Progenitors started.",
+        "gearhart": "It offered to make me the greatest inventor ever. All my creations perfect, all my machines benevolent. No more mistakes. No more accidents. But mistakes teach us. My greatest failures taught me more than any success. I chose to keep failing forward.",
+        "blizzard": "It showed me my family. Alive. Happy. Waiting for me. All I had to do was stay. Accept the illusion. But I've learned to see through ice and snow, through lies and mirrors. I said goodbye. Properly this time. And walked forward.",
+        "echo": "It offered me a fixed timeline. No more flux, no more uncertainty. One clear path. I almost took it. But then I remembered\u2014uncertainty means possibility. Hope. If everything is fixed, nothing can get better. I choose possibility.",
+        "sovereign": "It showed me the Capital thriving. My people safe. My crown secure. All I had to do was abandon the alliance. Rule a perfect kingdom while the rest of the world burned. I refused. A true ruler doesn't abandon their people\u2014or their allies."
+      }
+    }
+  ]
+}

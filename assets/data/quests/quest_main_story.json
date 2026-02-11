@@ -538,7 +538,9 @@
         ]
       },
       "unlocks": [
-        "Q_EPILOGUE",
+        "Q_EPILOGUE"
+      ],
+      "unlock_flags": [
         "POST_GAME"
       ],
       "flags_set": [

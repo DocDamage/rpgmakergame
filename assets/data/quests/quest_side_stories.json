@@ -125,7 +125,7 @@
             "count": 1
           }
         ],
-        "unlocks": [
+        "unlock_flags": [
           "MIRA_CONFIDANT_PATH"
         ]
       },
@@ -172,7 +172,7 @@
       "rewards": {
         "xp": 2600,
         "gil": 1400,
-        "unlocks": [
+        "unlock_flags": [
           "CHARACTER_KORR"
         ]
       },
@@ -360,7 +360,7 @@
       "rewards": {
         "xp": 6000,
         "gil": 3000,
-        "unlocks": [
+        "unlock_flags": [
           "SUMMON_ANCIENT_DRAKE"
         ]
       },

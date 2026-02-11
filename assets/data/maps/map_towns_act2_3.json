@@ -99,7 +99,10 @@
         }
       ],
       "key_npcs": [
-        "NPC_RAIL_CAPTAIN_DORSA"
+        "NPC_RAIL_CAPTAIN_DORSA",
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_BROKER_VANE"
       ],
       "services": [
         "shop",
@@ -265,7 +268,10 @@
         }
       ],
       "key_npcs": [
-        "NPC_ARCHIVIST_VELM"
+        "NPC_ARCHIVIST_VELM",
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_BROKER_VANE",
+        "NPC_SEAM_WARDEN"
       ],
       "services": [
         "shop",
@@ -404,7 +410,12 @@
         }
       ],
       "key_npcs": [
-        "NPC_TERMINAL_OPERATOR"
+        "NPC_TERMINAL_OPERATOR",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_SEAM_WARDEN",
+        "NPC_BROKER_VANE",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_RESISTANCE_CONTACT"
       ],
       "services": [
         "shop",
@@ -588,7 +599,8 @@
         }
       ],
       "key_npcs": [
-        "NPC_MERCHANT_PREMIUM"
+        "NPC_MERCHANT_PREMIUM",
+        "NPC_RESISTANCE_CONTACT"
       ],
       "services": [
         "premium_shop",
@@ -756,7 +768,8 @@
         }
       ],
       "key_npcs": [
-        "NPC_RESISTANCE_CONTACT"
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_DOMINION_OFFICIAL"
       ],
       "services": [
         "black_market",
@@ -886,7 +899,9 @@
         }
       ],
       "key_npcs": [
-        "NPC_DOMINION_OFFICIAL"
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_BROKER_VANE"
       ],
       "services": [],
       "restrictions": [
@@ -949,6 +964,15 @@
             56,
             36
           ]
+        },
+        {
+          "direction": "special",
+          "target": "T_HALCYON_FREEPORT_112x72",
+          "coords": [
+            92,
+            18
+          ],
+          "condition": "POST_GAME_UNLOCKED"
         },
         {
           "direction": "south",
@@ -1035,7 +1059,12 @@
         }
       ],
       "key_npcs": [
-        "NPC_SEAM_WARDEN"
+        "NPC_SEAM_WARDEN",
+        "NPC_CAPTAIN_VARROS",
+        "NPC_ARCHIVIST_VELM",
+        "NPC_RESISTANCE_CONTACT",
+        "NPC_FORGE_MASTER_GRIMJAW",
+        "NPC_BROKER_VANE"
       ],
       "services": [
         "endgame_shop",
@@ -1074,6 +1103,178 @@
             49
           ],
           "dialog_tree": "DT_AMBIENT_BOUNTY_CLERK"
+        }
+      ]
+    },
+    {
+      "id": "T_HALCYON_FREEPORT_112x72",
+      "display_name": "Halcyon Freeport",
+      "type": "town",
+      "act": "post_game",
+      "dimensions": {
+        "width": 112,
+        "height": 72,
+        "tile_size": 16
+      },
+      "tileset": "Tileset_TideCoast",
+      "music": "bgm_town_brinegate",
+      "lighting": "warm",
+      "weather": "sea_breeze",
+      "connections": [
+        {
+          "direction": "west",
+          "target": "T_BRINEGATE_112x72",
+          "coords": [
+            0,
+            36
+          ],
+          "condition": "POST_GAME_UNLOCKED"
+        },
+        {
+          "direction": "special",
+          "target": "T_AETHERREACH_112x72",
+          "coords": [
+            56,
+            16
+          ],
+          "condition": "POST_GAME_UNLOCKED"
+        },
+        {
+          "direction": "special",
+          "target": "RV_GATEHOUSE_96x72",
+          "coords": [
+            95,
+            20
+          ],
+          "condition": "STORY_COMPLETE"
+        },
+        {
+          "direction": "special",
+          "target": "OW_ORION_320x180",
+          "coords": [
+            56,
+            36
+          ],
+          "condition": "POST_GAME_UNLOCKED"
+        }
+      ],
+      "interiors": [
+        {
+          "type": "market",
+          "target": "I_ITEMSHOP_PORT_32x24",
+          "coords": [
+            62,
+            30
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_DOCK_MARKET_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_BROKER"
+            }
+          ]
+        },
+        {
+          "type": "war_room",
+          "target": "I_HALL_40x28",
+          "coords": [
+            84,
+            24
+          ],
+          "npc": "NPC_RESISTANCE_CONTACT",
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_CROWN_DISTRICT_HUB_OFFICE_A",
+              "coords": [
+                20,
+                14
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        },
+        {
+          "type": "inn",
+          "target": "I_INN_PORT_32x24",
+          "coords": [
+            30,
+            40
+          ],
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_BRINEGATE_PORT_INN_A",
+              "coords": [
+                16,
+                12
+              ],
+              "dialog_tree": "DT_AMBIENT_INNKEEPER"
+            }
+          ]
+        },
+        {
+          "type": "safe_house",
+          "target": "I_SECRET_24x18",
+          "coords": [
+            16,
+            52
+          ],
+          "hidden": true,
+          "ambient_npcs": [
+            {
+              "npc": "NPC_AMBIENT_INTERIOR_OLD_LUMENCREST_OUTER_WARDS_SAFE_HOUSE_A",
+              "coords": [
+                12,
+                9
+              ],
+              "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
+            }
+          ]
+        }
+      ],
+      "key_npcs": [
+        "NPC_DOCKMASTER_SARAI",
+        "NPC_RESISTANCE_CONTACT"
+      ],
+      "services": [
+        "postgame_market",
+        "companion_board",
+        "remnant_dispatch"
+      ],
+      "ambient_npcs": [
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_PORT_BROKER",
+          "coords": [
+            20,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_BROKER"
+        },
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_QUAY_DOCKHAND",
+          "coords": [
+            44,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_SAILOR"
+        },
+        {
+          "npc": "NPC_AMBIENT_BRINEGATE_TIDE_SAILOR",
+          "coords": [
+            72,
+            24
+          ],
+          "dialog_tree": "DT_AMBIENT_CARAVANER"
+        },
+        {
+          "npc": "NPC_AMBIENT_LUMENCREST_OUTER_SAFEHOUSE_SCOUT",
+          "coords": [
+            94,
+            50
+          ],
+          "dialog_tree": "DT_AMBIENT_RESISTANCE_SCOUT"
         }
       ]
     }

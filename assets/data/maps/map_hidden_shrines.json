@@ -82,6 +82,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_GROWTH_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_HEAT_CLEARED"
         }
       ],
       "events": [
@@ -110,6 +119,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_LIGHT_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_GROWTH_CLEARED"
         }
       ],
       "events": [
@@ -138,6 +156,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_MOTION_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_LIGHT_CLEARED"
         }
       ],
       "events": [
@@ -166,6 +193,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_MASS_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_MOTION_CLEARED"
         }
       ],
       "events": [
@@ -194,6 +230,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_TIME_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_MASS_CLEARED"
         }
       ],
       "events": [
@@ -222,6 +267,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_SHADOW_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_TIME_CLEARED"
         }
       ],
       "events": [
@@ -250,6 +304,15 @@
             32,
             47
           ]
+        },
+        {
+          "direction": "special",
+          "target": "SHR_TIDE_64x48",
+          "coords": [
+            32,
+            0
+          ],
+          "condition": "SHRINE_SHADOW_CLEARED"
         }
       ],
       "events": [

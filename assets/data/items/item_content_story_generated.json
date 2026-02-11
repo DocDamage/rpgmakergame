@@ -1,0 +1,4578 @@
+{
+  "id": "ITEM_CONTENT_STORY_GENERATED",
+  "items": [
+    {
+      "id": "ITEM_STORY_ABSENCE_IMMUNITY_CHARM",
+      "name": "Absence Immunity Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "absence_immunity_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ABYSSAL_BREATHING_CHARM",
+      "name": "Abyssal Breathing Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "abyssal_breathing_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ABYSSAL_COMPANION_UNLOCKED",
+      "name": "Abyssal Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "abyssal_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ABYSSAL_FISHING_ROD",
+      "name": "Abyssal Fishing Rod",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "abyssal_fishing_rod",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ACCOUNTING_EXPERTS_ABACUS",
+      "name": "Accounting Experts Abacus",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "accounting_experts_abacus",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AETHERGUARD_WELCOME",
+      "name": "Aetherguard Welcome",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "aetherguard_welcome",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AETHER_CRYSTAL_SAMPLE",
+      "name": "Aether Crystal Sample",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "aether_crystal_sample",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AGELESS_LOCKET",
+      "name": "Ageless Locket",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ageless_locket",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AL_BHED_MEGA_POTION",
+      "name": "Al Bhed Mega Potion",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "al_bhed_mega_potion",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ANCIENT_BOOMERANG",
+      "name": "Ancient Boomerang",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ancient_boomerang",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ANCIENT_DATA_CORE",
+      "name": "Ancient Data Core",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ancient_data_core",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_APEX_BLESSING",
+      "name": "Apex Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "apex_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_APPRENTICES_EDGE",
+      "name": "Apprentices Edge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "apprentices_edge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ARENA_CHAMPION_BADGE",
+      "name": "Arena Champion Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "arena_champion_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ASCENSION_BLESSING",
+      "name": "Ascension Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ascension_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ASH_RESISTANT_GEAR",
+      "name": "Ash Resistant Gear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ash_resistant_gear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AURORA_COMPASS",
+      "name": "Aurora Compass",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "aurora_compass",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AURORA_LENS",
+      "name": "Aurora Lens",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "aurora_lens",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_AUTOMATON_GRATITUDE_CHIP",
+      "name": "Automaton Gratitude Chip",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "automaton_gratitude_chip",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BARRELMAN_LUCKY_RING",
+      "name": "Barrelman Lucky Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "barrelman_lucky_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BLACK_CELLS_KEY",
+      "name": "Black Cells Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "black_cells_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BLIZZARD_COMPANION_UNLOCKED",
+      "name": "Blizzard Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "blizzard_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BLUE_MAGIC_MANUAL_3",
+      "name": "Blue Magic Manual 3",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "blue_magic_manual_3",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BLUE_THUNDER_DROP_MANUAL",
+      "name": "Blue Thunder Drop Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "blue_thunder_drop_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BREATH_OF_OCEANS_POTION",
+      "name": "Breath Of Oceans Potion",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "breath_of_oceans_potion",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BRINEGATE_MEDAL",
+      "name": "Brinegate Medal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "brinegate_medal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_BUSHIDO_TECHNIQUE_MANUAL",
+      "name": "Bushido Technique Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "bushido_technique_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CACTUS_TREASURE_MAP",
+      "name": "Cactus Treasure Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "cactus_treasure_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CELESTIAL_ALIGNMENT_DATA",
+      "name": "Celestial Alignment Data",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "celestial_alignment_data",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CHOCOBO_FEATHER_CHARM",
+      "name": "Chocobo Feather Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "chocobo_feather_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CHRONOGUN",
+      "name": "Chronogun",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "chronogun",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CHRONO_ASPECT_FRAGMENTS",
+      "name": "Chrono Aspect Fragments",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "chrono_aspect_fragments",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CHRONO_ATTUNED_GEAR",
+      "name": "Chrono Attuned Gear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "chrono_attuned_gear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CHRONO_COMPASS",
+      "name": "Chrono Compass",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "chrono_compass",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CLIMBING_MENTOR_INSIGNIA",
+      "name": "Climbing Mentor Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "climbing_mentor_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COAL_MINERS_HELM",
+      "name": "Coal Miners Helm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "coal_miners_helm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COBRA_ANTIDOTE_RING",
+      "name": "Cobra Antidote Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "cobra_antidote_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COMPLETE_PROPHECY",
+      "name": "Complete Prophecy",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "complete_prophecy",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CORALHEART_PENDANT",
+      "name": "Coralheart Pendant",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "coralheart_pendant",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COSMIC_ALIGNMENT_CHART",
+      "name": "Cosmic Alignment Chart",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "cosmic_alignment_chart",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COSMIC_UNDERSTANDING",
+      "name": "Cosmic Understanding",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "cosmic_understanding",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COUNCIL_REDEMPTION_OATH",
+      "name": "Council Redemption Oath",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "council_redemption_oath",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_COURT_FAVOR_TOKEN",
+      "name": "Court Favor Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "court_favor_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRACKED_STAR_FRAGMENT",
+      "name": "Cracked Star Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "cracked_star_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CREATOR_INSIGHT",
+      "name": "Creator Insight",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "creator_insight",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_CAVERNS_KEY",
+      "name": "Crystal Caverns Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_caverns_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_FOCUS_BAND",
+      "name": "Crystal Focus Band",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_focus_band",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_DEPTHS",
+      "name": "Crystal Of Depths",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_depths",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_ENDURANCE",
+      "name": "Crystal Of Endurance",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_endurance",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_INDUSTRY",
+      "name": "Crystal Of Industry",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_industry",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_STRENGTH",
+      "name": "Crystal Of Strength",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_strength",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_TIME",
+      "name": "Crystal Of Time",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_time",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_TRUTH",
+      "name": "Crystal Of Truth",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_truth",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_OF_UNITY",
+      "name": "Crystal Of Unity",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_of_unity",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_CRYSTAL_ONION_RING",
+      "name": "Crystal Onion Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "crystal_onion_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DARK_BLADE_APOCALYPSE",
+      "name": "Dark Blade Apocalypse",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dark_blade_apocalypse",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DEBUG_ACCESS_BADGE",
+      "name": "Debug Access Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "debug_access_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DEEP_DELVERS_HELM",
+      "name": "Deep Delvers Helm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "deep_delvers_helm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DEEP_SEA_SUIT",
+      "name": "Deep Sea Suit",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "deep_sea_suit",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DELETION_VICTORY_PROOF",
+      "name": "Deletion Victory Proof",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "deletion_victory_proof",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DIMENSIONAL_ANCHOR",
+      "name": "Dimensional Anchor",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dimensional_anchor",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DOMINION_CIPHER_KEY",
+      "name": "Dominion Cipher Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dominion_cipher_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DOMINION_PATROL_SCHEDULES",
+      "name": "Dominion Patrol Schedules",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dominion_patrol_schedules",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DOMINION_TOWER_INTEL",
+      "name": "Dominion Tower Intel",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dominion_tower_intel",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DRAGON_KILLER_SPEAR",
+      "name": "Dragon Killer Spear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "dragon_killer_spear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_DUEL_COMBO_MANUAL",
+      "name": "Duel Combo Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "duel_combo_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ECHO_CHAMBER_RECORDINGS",
+      "name": "Echo Chamber Recordings",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "echo_chamber_recordings",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ECHO_KNOWLEDGE_FRAGMENT",
+      "name": "Echo Knowledge Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "echo_knowledge_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ECHO_SIGHT_BLESSING",
+      "name": "Echo Sight Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "echo_sight_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ECLIPSE_BALANCE_CHARM",
+      "name": "Eclipse Balance Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "eclipse_balance_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_EMBERFORGED_BLADE",
+      "name": "Emberforged Blade",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "emberforged_blade",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_EMBERSTEEL_DAGGER",
+      "name": "Embersteel Dagger",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "embersteel_dagger",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_EMBER_FESTIVAL_TOKEN",
+      "name": "Ember Festival Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ember_festival_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_EMBER_HEART_AMULET",
+      "name": "Ember Heart Amulet",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ember_heart_amulet",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ENGINE_WHISPERS_RECORD",
+      "name": "Engine Whispers Record",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "engine_whispers_record",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_EXPEDITION_LOGS",
+      "name": "Expedition Logs",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "expedition_logs",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FACTORY_MASTER_KEY",
+      "name": "Factory Master Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "factory_master_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FIGARO_ROYAL_BELT",
+      "name": "Figaro Royal Belt",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "figaro_royal_belt",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FINAL_PREPARATION_BLESSING",
+      "name": "Final Preparation Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "final_preparation_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FIRST_CLOCK_GEAR",
+      "name": "First Clock Gear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "first_clock_gear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FIRST_CONTACT_PROTOCOLS",
+      "name": "First Contact Protocols",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "first_contact_protocols",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FIRST_PROGENITOR_TRUTH",
+      "name": "First Progenitor Truth",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "first_progenitor_truth",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FLAMECALLER_WHISTLE",
+      "name": "Flamecaller Whistle",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "flamecaller_whistle",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FLAME_KEEPERS_MARK",
+      "name": "Flame Keepers Mark",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "flame_keepers_mark",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FLAME_VEIL_WRAPS",
+      "name": "Flame Veil Wraps",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "flame_veil_wraps",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FLOATING_MARKET_VOUCHER",
+      "name": "Floating Market Voucher",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "floating_market_voucher",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FOODBOYS_SAUCE_COLLECTION",
+      "name": "Foodboys Sauce Collection",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "foodboys_sauce_collection",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FOUNDATION_HARMONY_CRYSTAL",
+      "name": "Foundation Harmony Crystal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "foundation_harmony_crystal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROG_DROP_ABILITY",
+      "name": "Frog Drop Ability",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frog_drop_ability",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROSTFLOWER_BOUQUET",
+      "name": "Frostflower Bouquet",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frostflower_bouquet",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROSTFOLK_FRIENDSHIP_TOKEN",
+      "name": "Frostfolk Friendship Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frostfolk_friendship_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROSTHOLD_GUEST_RIGHT",
+      "name": "Frosthold Guest Right",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frosthold_guest_right",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROSTWARD_RING",
+      "name": "Frostward Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frostward_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FROST_DRAGON_SCALE",
+      "name": "Frost Dragon Scale",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "frost_dragon_scale",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_FUTURE_SIGHT_BLESSING",
+      "name": "Future Sight Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "future_sight_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GAUNTLET_CHAMPION_BADGE",
+      "name": "Gauntlet Champion Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "gauntlet_champion_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GEARHART_COMPANION_UNLOCKED",
+      "name": "Gearhart Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "gearhart_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GF_COMPATIBILITY_MODULE",
+      "name": "Gf Compatibility Module",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "gf_compatibility_module",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GLITCH_ZONE_MAP",
+      "name": "Glitch Zone Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "glitch_zone_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GOLDEN_LUCHA_MASK",
+      "name": "Golden Lucha Mask",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "golden_lucha_mask",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GRAND_UNIFICATION_PLANS",
+      "name": "Grand Unification Plans",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "grand_unification_plans",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GRAVITY_ANCHOR",
+      "name": "Gravity Anchor",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "gravity_anchor",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GUARDIAN_CORPS_BADGE",
+      "name": "Guardian Corps Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "guardian_corps_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_GUS_IRON_SPICE_BLEND",
+      "name": "Gus Iron Spice Blend",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "gus_iron_spice_blend",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HEALING_WITCH_STAFF",
+      "name": "Healing Witch Staff",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "healing_witch_staff",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HEART_OF_FLAME_BLESSING",
+      "name": "Heart Of Flame Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "heart_of_flame_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HEAVY_BARREL_ATTACHMENT",
+      "name": "Heavy Barrel Attachment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "heavy_barrel_attachment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HUNTER_TROPHY",
+      "name": "Hunter Trophy",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "hunter_trophy",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HYDROMANCER_BLESSING",
+      "name": "Hydromancer Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "hydromancer_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_HYPERION_GUNBLADE",
+      "name": "Hyperion Gunblade",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "hyperion_gunblade",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ICE_FISHING_SPEAR",
+      "name": "Ice Fishing Spear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ice_fishing_spear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ICE_SCULPTORS_GLOVE",
+      "name": "Ice Sculptors Glove",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ice_sculptors_glove",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_INDUSTRIAL_TOOLBELT",
+      "name": "Industrial Toolbelt",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "industrial_toolbelt",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_IRONHAWK_SUPPLY_MANIFEST",
+      "name": "Ironhawk Supply Manifest",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ironhawk_supply_manifest",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_IRON_LEGION_INSIGNIA",
+      "name": "Iron Legion Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "iron_legion_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_JOURNEY_COMPLETE_SOUVENIR",
+      "name": "Journey Complete Souvenir",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "journey_complete_souvenir",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_KRAKEN_INK_TATTOO",
+      "name": "Kraken Ink Tattoo",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "kraken_ink_tattoo",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LABYRINTH_INSIGHT",
+      "name": "Labyrinth Insight",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "labyrinth_insight",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LABYRINTH_KEY",
+      "name": "Labyrinth Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "labyrinth_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LAGUNAS_MACHINE_GUN",
+      "name": "Lagunas Machine Gun",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lagunas_machine_gun",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LAVA_SPIRIT_GEM",
+      "name": "Lava Spirit Gem",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lava_spirit_gem",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LENS_OF_TRUE_SIGHT",
+      "name": "Lens Of True Sight",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lens_of_true_sight",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LEVIATHANS_TEAR",
+      "name": "Leviathans Tear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "leviathans_tear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LOOP_BREAKER_WATCH",
+      "name": "Loop Breaker Watch",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "loop_breaker_watch",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LOST_HISTORY_ARCHIVE",
+      "name": "Lost History Archive",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lost_history_archive",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LUCHA_MASTER_MANUAL",
+      "name": "Lucha Master Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lucha_master_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_LUCKY_FISHING_ROD",
+      "name": "Lucky Fishing Rod",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "lucky_fishing_rod",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MADUIN_PROTECTION_CHARM",
+      "name": "Maduin Protection Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "maduin_protection_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MAGICITE_SHARD_FIRE",
+      "name": "Magicite Shard Fire",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "magicite_shard_fire",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MAGMA_SURFER_CHARM",
+      "name": "Magma Surfer Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "magma_surfer_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MAMMOTH_TUSK_SPLINTER",
+      "name": "Mammoth Tusk Splinter",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mammoth_tusk_splinter",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MARN_FAMILY_PENDANT",
+      "name": "Marn Family Pendant",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "marn_family_pendant",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MARSHFOLK_ALLIANCE_TOKEN",
+      "name": "Marshfolk Alliance Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "marshfolk_alliance_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MARSHFOLK_DISGUISE",
+      "name": "Marshfolk Disguise",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "marshfolk_disguise",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MARTIAL_ARTS_MANUAL",
+      "name": "Martial Arts Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "martial_arts_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MATERIA_FRAGMENT_HASTE",
+      "name": "Materia Fragment Haste",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "materia_fragment_haste",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MECHANISTS_MONOCLE",
+      "name": "Mechanists Monocle",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mechanists_monocle",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MEMORIAL_OF_THE_FALLEN",
+      "name": "Memorial Of The Fallen",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "memorial_of_the_fallen",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MERMAIDS_TEAR",
+      "name": "Mermaids Tear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mermaids_tear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_METEOR_SPELL_TOME",
+      "name": "Meteor Spell Tome",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "meteor_spell_tome",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MIRE_GLOW_STONES",
+      "name": "Mire Glow Stones",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mire_glow_stones",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MIRE_SMOKED_HAM_HOCK",
+      "name": "Mire Smoked Ham Hock",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mire_smoked_ham_hock",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MIRROR_SHARD",
+      "name": "Mirror Shard",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mirror_shard",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MOUNTED_COMBAT_MANUAL",
+      "name": "Mounted Combat Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mounted_combat_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_MURAL_PORTRAIT_SKETCH",
+      "name": "Mural Portrait Sketch",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "mural_portrait_sketch",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NAVIGATORS_SPYGLASS",
+      "name": "Navigators Spyglass",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "navigators_spyglass",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NEW_GAME_PLUS_BLESSING",
+      "name": "New Game Plus Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "new_game_plus_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NIGHT_MARKET_TOKEN",
+      "name": "Night Market Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "night_market_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NINTH_RESONANCE_CRYSTAL",
+      "name": "Ninth Resonance Crystal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ninth_resonance_crystal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NIX7_COMPANION_UNLOCKED",
+      "name": "Nix7 Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "nix7_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_NIX7_TRUE_FORM",
+      "name": "Nix7 True Form",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "nix7_true_form",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_OATH_OF_FLAME_BOND",
+      "name": "Oath Of Flame Bond",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "oath_of_flame_bond",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_OBSIDIAN_BATTLE_GEAR",
+      "name": "Obsidian Battle Gear",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "obsidian_battle_gear",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_OBSIDIAN_BELT_OF_MIGHT",
+      "name": "Obsidian Belt Of Might",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "obsidian_belt_of_might",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_OBSIDIAN_LIBERATION_MEDAL",
+      "name": "Obsidian Liberation Medal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "obsidian_liberation_medal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ONION_LAYER_SHIELD",
+      "name": "Onion Layer Shield",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "onion_layer_shield",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PALACE_ARMORY_CACHE",
+      "name": "Palace Armory Cache",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "palace_armory_cache",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PARADOX_PREVENTION_RING",
+      "name": "Paradox Prevention Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "paradox_prevention_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PATH_NOT_TAKEN_WISDOM",
+      "name": "Path Not Taken Wisdom",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "path_not_taken_wisdom",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PEACE_OF_THE_PAST",
+      "name": "Peace Of The Past",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "peace_of_the_past",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PEARL_CROWN",
+      "name": "Pearl Crown",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pearl_crown",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PEARL_DIVING_BELL",
+      "name": "Pearl Diving Bell",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pearl_diving_bell",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PHOENIX_DOWN_FEATHER",
+      "name": "Phoenix Down Feather",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "phoenix_down_feather",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PHOENIX_DOWN_X3",
+      "name": "Phoenix Down X3",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "phoenix_down_x3",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PIGMAN_MUD_TREATMENT_VOUCHER",
+      "name": "Pigman Mud Treatment Voucher",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pigman_mud_treatment_voucher",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PIRATES_COMPASS",
+      "name": "Pirates Compass",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pirates_compass",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PIRATE_CAPTAIN_SABRE",
+      "name": "Pirate Captain Sabre",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pirate_captain_sabre",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PORTABLE_BREATHING_APPARATUS",
+      "name": "Portable Breathing Apparatus",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "portable_breathing_apparatus",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PREMIUM_AMMO_SET",
+      "name": "Premium Ammo Set",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "premium_ammo_set",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PREMIUM_BAR_SUPPLIES_X5",
+      "name": "Premium Bar Supplies X5",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "premium_bar_supplies_x5",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PREMIUM_LEATHER_GLOVES",
+      "name": "Premium Leather Gloves",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "premium_leather_gloves",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRESERVED_MEMORY_CRYSTAL",
+      "name": "Preserved Memory Crystal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "preserved_memory_crystal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRESSURE_RESISTANT_SUIT",
+      "name": "Pressure Resistant Suit",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pressure_resistant_suit",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRISM_CITY_MAP",
+      "name": "Prism City Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prism_city_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRISM_DIAMONDS_X5",
+      "name": "Prism Diamonds X5",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prism_diamonds_x5",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRISM_MILITARY_SUPPORT",
+      "name": "Prism Military Support",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prism_military_support",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PRISM_ROOT_GEM",
+      "name": "Prism Root Gem",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prism_root_gem",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_APOLOGY_RECORD",
+      "name": "Progenitor Apology Record",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_apology_record",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_APPROVAL_SIGIL",
+      "name": "Progenitor Approval Sigil",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_approval_sigil",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_CODEX_FRAGMENT",
+      "name": "Progenitor Codex Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_codex_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_INSIGHT",
+      "name": "Progenitor Insight",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_insight",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_RIFLE_BLUEPRINT",
+      "name": "Progenitor Rifle Blueprint",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_rifle_blueprint",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROGENITOR_TRUE_LENS",
+      "name": "Progenitor True Lens",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "progenitor_true_lens",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROPHECY_BREAKERS_QUILL",
+      "name": "Prophecy Breakers Quill",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prophecy_breakers_quill",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PROTOTYPE_JETPACK",
+      "name": "Prototype Jetpack",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "prototype_jetpack",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_PYRA_COMPANION_UNLOCKED",
+      "name": "Pyra Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "pyra_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_RACING_SLED",
+      "name": "Racing Sled",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "racing_sled",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_REALITY_ANCHOR_FRAGMENT",
+      "name": "Reality Anchor Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "reality_anchor_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_REALITY_RESHAPED",
+      "name": "Reality Reshaped",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "reality_reshaped",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_RESISTANCE_CONTACT_CODES",
+      "name": "Resistance Contact Codes",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "resistance_contact_codes",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_RESISTANCE_HERO_MEDAL",
+      "name": "Resistance Hero Medal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "resistance_hero_medal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_RESISTANCE_INSIGNIA",
+      "name": "Resistance Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "resistance_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_RESISTANCE_SAFE_HOUSES",
+      "name": "Resistance Safe Houses",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "resistance_safe_houses",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_REST_STOP_MEMBERSHIP",
+      "name": "Rest Stop Membership",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "rest_stop_membership",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ROYAL_PROTECTION_PENDANT",
+      "name": "Royal Protection Pendant",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "royal_protection_pendant",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_ROYAL_SERVICE_INSIGNIA",
+      "name": "Royal Service Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "royal_service_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SANCTUARY_RENEWAL_DECREE",
+      "name": "Sanctuary Renewal Decree",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sanctuary_renewal decree",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SANCTUM_BLESSING",
+      "name": "Sanctum Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sanctum_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SCHOLARIUM_GUEST_PASS",
+      "name": "Scholarium Guest Pass",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "scholarium_guest_pass",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SCORCHING_SUPLEX_MANUAL",
+      "name": "Scorching Suplex Manual",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "scorching_suplex_manual",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SEALING_RITE_BLESSING",
+      "name": "Sealing Rite Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sealing_rite_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SECRET_SKY_CHART",
+      "name": "Secret Sky Chart",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "secret_sky_chart",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SERPENT_BLESSING_CHARM",
+      "name": "Serpent Blessing Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "serpent_blessing_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SEVEN_CRYSTALS_UNIFIED",
+      "name": "Seven Crystals Unified",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "seven_crystals_unified",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SHOOTING_STAR_CHAKRAM",
+      "name": "Shooting Star Chakram",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "shooting_star_chakram",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SILAS_MEMENTO",
+      "name": "Silas Memento",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "silas_memento",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SIRENSCALE_HORN",
+      "name": "Sirenscale Horn",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sirenscale_horn",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SISTERS_BOW",
+      "name": "Sisters Bow",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sisters_bow",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SKYSONG_COMPANION_UNLOCKED",
+      "name": "Skysong Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "skysong_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SKY_CHART_FRAGMENT",
+      "name": "Sky Chart Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sky_chart_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SKY_GARDEN_MASTER",
+      "name": "Sky Garden Master",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sky_garden_master",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SKY_SHEPHERD_BADGE",
+      "name": "Sky Shepherd Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sky_shepherd_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SMOKESTEP_CLOAK",
+      "name": "Smokestep Cloak",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "smokestep_cloak",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SNOWBALL_CHAMPIONS_MITTENS",
+      "name": "Snowball Champions Mittens",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "snowball_champions_mittens",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SNOWS_COMBAT_COAT",
+      "name": "Snows Combat Coat",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "snows_combat_coat",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SOULS_RELEASED_BLESSING",
+      "name": "Souls Released Blessing",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "souls_released_blessing",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_STARFALL_FRAGMENT",
+      "name": "Starfall Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "starfall_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_STEALTH_WEAVE_COAT",
+      "name": "Stealth Weave Coat",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "stealth_weave_coat",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_STEAMWEAVE_SCARF",
+      "name": "Steamweave Scarf",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "steamweave_scarf",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_STORM_CHASER_INSIGNIA",
+      "name": "Storm Chaser Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "storm_chaser_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SUMMON_GEM_VALEFOR",
+      "name": "Summon Gem Valefor",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "summon_gem_valefor",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SUMO_TRAINING_BELT",
+      "name": "Sumo Training Belt",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "sumo_training_belt",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_SUPREME_CHAMPION_PROOF",
+      "name": "Supreme Champion Proof",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "supreme_champion_proof",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TANTALUS_MEMBERSHIP_CARD",
+      "name": "Tantalus Membership Card",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "tantalus_membership_card",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TEMPORAL_ANCHOR_CHARM",
+      "name": "Temporal Anchor Charm",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "temporal_anchor_charm",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TEMPORAL_LEDGER",
+      "name": "Temporal Ledger",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "temporal_ledger",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TEMPORAL_SINGULARITY_RING",
+      "name": "Temporal Singularity Ring",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "temporal_singularity_ring",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TEMPORAL_WARDENS_BADGE",
+      "name": "Temporal Wardens Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "temporal_wardens_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_THERMAL_WEAVE_PARKA",
+      "name": "Thermal Weave Parka",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "thermal_weave_parka",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_THE_END_SPELL",
+      "name": "The End Spell",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "the_end_spell",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_THREE_PATHS_KNOWLEDGE",
+      "name": "Three Paths Knowledge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "three_paths_knowledge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_THRONE_DEFENDER_CREST",
+      "name": "Throne Defender Crest",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "throne_defender_crest",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TIDECALLER_PEARL",
+      "name": "Tidecaller Pearl",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "tidecaller_pearl",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TIME_CAPSULE_TOKEN",
+      "name": "Time Capsule Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "time_capsule_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TIME_THIEFS_SHACKLES",
+      "name": "Time Thiefs Shackles",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "time_thiefs_shackles",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TOWER_SECRET_MAP",
+      "name": "Tower Secret Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "tower_secret_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TRAITOR_CONFESSION",
+      "name": "Traitor Confession",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "traitor_confession",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TRUE_ENDING_KEY",
+      "name": "True Ending Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "true_ending_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TRUTHSEEKER_CRYSTAL",
+      "name": "Truthseeker Crystal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "truthseeker_crystal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TRUTH_BROADSHEETS",
+      "name": "Truth Broadsheets",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "truth_broadsheets",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_TRUTH_ECHO_FRAGMENT",
+      "name": "Truth Echo Fragment",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "truth_echo_fragment",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_UNANIMOUS_ALLIANCE_BOND",
+      "name": "Unanimous Alliance Bond",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "unanimous_alliance_bond",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_UNITY_BADGE",
+      "name": "Unity Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "unity_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_UNRAVELING_LORE_MASTERY",
+      "name": "Unraveling Lore Mastery",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "unraveling_lore_mastery",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VAULT_OF_EMBERS_KEY",
+      "name": "Vault Of Embers Key",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "vault_of_embers_key",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VENTILATION_KEYCARD",
+      "name": "Ventilation Keycard",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ventilation_keycard",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VEN_COMPANION_UNLOCKED",
+      "name": "Ven Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "ven_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VESPER_COMPANION_UNLOCKED",
+      "name": "Vesper Companion Unlocked",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "vesper_companion_unlocked",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VISION_OF_TOMORROW",
+      "name": "Vision Of Tomorrow",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "vision_of_tomorrow",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOIDHEART_CRYSTAL",
+      "name": "Voidheart Crystal",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "voidheart_crystal",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_AVATAR_ESSENCE",
+      "name": "Void Avatar Essence",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_avatar_essence",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_BOUNDARY_MAP",
+      "name": "Void Boundary Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_boundary_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_CRYSTAL_SHARD",
+      "name": "Void Crystal Shard",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_crystal_shard",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_LORE_MASTERY",
+      "name": "Void Lore Mastery",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_lore_mastery",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_REFINEMENT_EVIDENCE",
+      "name": "Void Refinement Evidence",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_refinement_evidence",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_RESISTANCE_FIELD",
+      "name": "Void Resistance Field",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_resistance_field",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_RESISTANT_CLOAK",
+      "name": "Void Resistant Cloak",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_resistant_cloak",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_RESISTANT_PICKAXE",
+      "name": "Void Resistant Pickaxe",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_resistant_pickaxe",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOID_WOUND_SAMPLE",
+      "name": "Void Wound Sample",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "void_wound_sample",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_VOSS_GRATITUDE_TOKEN",
+      "name": "Voss Gratitude Token",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "voss_gratitude_token",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WATERFALL_CAVE_MAP",
+      "name": "Waterfall Cave Map",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "waterfall_cave_map",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WATERPROOF_STORAGE_BARREL",
+      "name": "Waterproof Storage Barrel",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "waterproof_storage_barrel",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WHISKERS_SHED_SKIN_BELT",
+      "name": "Whiskers Shed Skin Belt",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "whiskers_shed_skin_belt",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WIND_RIDER_INSIGNIA",
+      "name": "Wind Rider Insignia",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "wind_rider_insignia",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WINTER_SPIRITS_KISS",
+      "name": "Winter Spirits Kiss",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "winter_spirits_kiss",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WORKERS_SOLIDARITY_BADGE",
+      "name": "Workers Solidarity Badge",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "workers_solidarity_badge",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WORLD_TREE_STAFF",
+      "name": "World Tree Staff",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "world_tree_staff",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_WYRMSCALE_BOOTS",
+      "name": "Wyrmscale Boots",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "wyrmscale_boots",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    },
+    {
+      "id": "ITEM_STORY_YETI_FUR_CLOAK",
+      "name": "Yeti Fur Cloak",
+      "type": "key_item",
+      "subtype": "story_reward",
+      "rarity": 3,
+      "icon": "icon_archive_key",
+      "description": "Story reward token generated from authored content quest data.",
+      "flavor": "Recovered from authored side or main story content.",
+      "story_significance": "content_story_reward",
+      "source_item_token": "yeti_fur_cloak",
+      "buy_price": 0,
+      "sell_price": 0,
+      "usable_in": [
+        "story"
+      ]
+    }
+  ]
+}

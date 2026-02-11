@@ -1,0 +1,3460 @@
+{
+  "id": "CONTENT_ID_ALIASES_GENERATED",
+  "summary": {
+    "main_quests": 15,
+    "mini_quests": 200,
+    "quest_aliases": 215,
+    "npc_aliases": 191,
+    "item_aliases": 269,
+    "generated_story_items": 269,
+    "state_tokens": 65
+  },
+  "quest_aliases": [
+    {
+      "source_token": "aetherreach_sky_sanctuary",
+      "canonical_quest_id": "Q_CONTENT_MAIN_AETHERREACH_SKY_SANCTUARY",
+      "type": "main"
+    },
+    {
+      "source_token": "capital_fallen_crown",
+      "canonical_quest_id": "Q_CONTENT_MAIN_CAPITAL_FALLEN_CROWN",
+      "type": "main"
+    },
+    {
+      "source_token": "chrono_against_time",
+      "canonical_quest_id": "Q_CONTENT_MAIN_CHRONO_AGAINST_TIME",
+      "type": "main"
+    },
+    {
+      "source_token": "dustbelt_frontier_calling",
+      "canonical_quest_id": "Q_CONTENT_MAIN_DUSTBELT_FRONTIER_CALLING",
+      "type": "main"
+    },
+    {
+      "source_token": "ember_trial_by_fire",
+      "canonical_quest_id": "Q_CONTENT_MAIN_EMBER_TRIAL_BY_FIRE",
+      "type": "main"
+    },
+    {
+      "source_token": "frost_frozen_path",
+      "canonical_quest_id": "Q_CONTENT_MAIN_FROST_FROZEN_PATH",
+      "type": "main"
+    },
+    {
+      "source_token": "mini_aetherreach_aether_mining",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_AETHER_MINING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_celestial_event",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_CELESTIAL_EVENT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_cloud_navigation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_CLOUD_NAVIGATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_floating_market",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_FLOATING_MARKET",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_sky_exploration",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_SKY_EXPLORATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_sky_pirates",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_SKY_PIRATES",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_sky_sanctuary",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_SKY_SANCTUARY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_starfall_recovery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_STARFALL_RECOVERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_storm_chase",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_STORM_CHASE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_aetherreach_wind_riders",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_AETHERREACH_WIND_RIDERS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_assassination_plot",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_ASSASSINATION_PLOT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_black_market",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_BLACK_MARKET",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_final_stand",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_FINAL_STAND",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_informant_rescue",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_INFORMANT_RESCUE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_prison_break",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_PRISON_BREAK",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_propaganda_heist",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_PROPAGANDA_HEIST",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_resistance_cell",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_RESISTANCE_CELL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_spy_drop",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_SPY_DROP",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_supply_run",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_SUPPLY_RUN",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_capital_weapon_cache",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CAPITAL_WEAPON_CACHE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_age_reversal",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_AGE_REVERSAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_ancient_future",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_ANCIENT_FUTURE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_clockwork_repair",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_CLOCKWORK_REPAIR",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_deja_vu_mystery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_DEJA_VU_MYSTERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_first_clock",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_FIRST_CLOCK",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_historical_preservation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_HISTORICAL_PRESERVATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_lost_in_time",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_LOST_IN_TIME",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_parallel_rescue",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_PARALLEL_RESCUE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_prophecy_prevention",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_PROPHECY_PREVENTION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_temporal_merchant",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_TEMPORAL_MERCHANT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_temporal_pirate",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_TEMPORAL_PIRATE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_time_capsule",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_TIME_CAPSULE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_time_loop",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_TIME_LOOP",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_time_thief",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_TIME_THIEF",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_chrono_younger_self",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_CHRONO_YOUNGER_SELF",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_barrelman_bet",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_BARRELMAN_BET",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_barret_cosmo_memory",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_BARRET_COSMO_MEMORY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_bush_hide_seek",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_BUSH_HIDE_SEEK",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_cecil_paladin_path",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_CECIL_PALADIN_PATH",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_cid_engine_parts",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_CID_ENGINE_PARTS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_cloud_buster_sword",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_CLOUD_BUSTER_SWORD",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_cyan_honor_lost",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_CYAN_HONOR_LOST",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_locke_treasure_hunt",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_LOCKE_TREASURE_HUNT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_sabin_suplex_training",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_SABIN_SUPLEX_TRAINING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_scorcho_training",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_SCORCHO_TRAINING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_shoewoman_delivery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_SHOEWOMAN_DELIVERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_signguy_mural",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_SIGNGUY_MURAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_terra_trance_flower",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_TERRA_TRANCE_FLOWER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_tifa_barrel_search",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_TIFA_BARREL_SEARCH",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_tunneler_maps",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_TUNNELER_MAPS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_dustbelt_whiskers_lunch",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_DUSTBELT_WHISKERS_LUNCH",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_ashveil_mystery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_ASHVEIL_MYSTERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_blacksmith_apprentice",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_BLACKSMITH_APPRENTICE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_cinder_riddle",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_CINDER_RIDDLE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_coal_miner_strike",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_COAL_MINER_STRIKE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_dragon_scale",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_DRAGON_SCALE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_fire_dancer",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_FIRE_DANCER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_flame_keeper",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_FLAME_KEEPER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_forgemaster_delivery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_FORGEMASTER_DELIVERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_heatwave_festival",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_HEATWAVE_FESTIVAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_lava_spirit_bargain",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_LAVA_SPIRIT_BARGAIN",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_lucha_tournament",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_LUCHA_TOURNAMENT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_magma_surfer",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_MAGMA_SURFER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_phoenix_egg",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_PHOENIX_EGG",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_rival_wrestler",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_RIVAL_WRESTLER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_salamander_rescue",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_SALAMANDER_RESCUE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_ember_volcano_dive",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_EMBER_VOLCANO_DIVE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_aurora_mystery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_AURORA_MYSTERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_blizzard_survival",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_BLIZZARD_SURVIVAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_frozen_love_letter",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_FROZEN_LOVE_LETTER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_frozen_temple",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_FROZEN_TEMPLE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_glacier_race",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_GLACIER_RACE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_ice_dragon_egg",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_ICE_DRAGON_EGG",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_ice_fishing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_ICE_FISHING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_ice_maze",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_ICE_MAZE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_ice_sculpture",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_ICE_SCULPTURE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_lost_expedition",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_LOST_EXPEDITION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_mammoth_herd",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_MAMMOTH_HERD",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_snowball_champion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_SNOWBALL_CHAMPION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_thermal_vents",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_THERMAL_VENTS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_winter_spirit",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_WINTER_SPIRIT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_frost_yeti_hunt",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_FROST_YETI_HUNT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_barrelman_raft",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_BARRELMAN_RAFT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_cobra_venom",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_COBRA_VENOM",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_fang_mounted_combat",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_FANG_MOUNTED_COMBAT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_foodboys_competition",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_FOODBOYS_COMPETITION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_hope_archaeology",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_HOPE_ARCHAEOLOGY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_ironchef_bbq",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_IRONCHEF_BBQ",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_lightning_survivor",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_LIGHTNING_SURVIVOR",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_lucha_challenge",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_LUCHA_CHALLENGE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_onionboss_crystals",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_ONIONBOSS_CRYSTALS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_sazh_chocobo",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_SAZH_CHOCOBO",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_serah_teacher",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_SERAH_TEACHER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_snakecharmer_reunion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_SNAKECHARMER_REUNION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_snow_heroics",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_SNOW_HEROICS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_tifa_materia",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_TIFA_MATERIA",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_mire_vanille_fishing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_MIRE_VANILLE_FISHING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_automaton_uprising",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_AUTOMATON_UPRISING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_deep_mine_rescue",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_DEEP_MINE_RESCUE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_forgotten_prototype",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_FORGOTTEN_PROTOTYPE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_gas_leak_crisis",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_GAS_LEAK_CRISIS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_industrial_espionage",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_INDUSTRIAL_ESPIONAGE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_mechanical_arena",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_MECHANICAL_ARENA",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_ore_crisis",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_ORE_CRISIS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_sabotage_mystery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_SABOTAGE_MYSTERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_smith_perfection",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_SMITH_PERFECTION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_steam_tunnel_escape",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_STEAM_TUNNEL_ESCAPE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_sumo_champion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_SUMO_CHAMPION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_union_strike",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_UNION_STRIKE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_union_unity",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_UNION_UNITY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_wage_dispute",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_WAGE_DISPUTE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_obsidian_worker_housing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_OBSIDIAN_WORKER_HOUSING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_cosmic_alignment",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_COSMIC_ALIGNMENT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_court_intrigue",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_COURT_INTRIGUE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_engine_whispers",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_ENGINE_WHISPERS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_final_preparations",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_FINAL_PREPARATIONS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_foundation_tuning",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_FOUNDATION_TUNING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_prophecy",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_PROPHECY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_ritual_preparation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_RITUAL_PREPARATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_royal_duty",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_ROYAL_DUTY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_sanctum_blessing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_SANCTUM_BLESSING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_palace_throne_defense",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PALACE_THRONE_DEFENSE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_pigman_mudbath",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PIGMAN_MUDBATH",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_aeronaut_survey",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_AERONAUT_SURVEY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_bush_crystals",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_BUSH_CRYSTALS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_coolcat_appraisal",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_COOLCAT_APPRAISAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_edea_witch",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_EDEA_WITCH",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_irvine_sharpshooting",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_IRVINE_SHARPSHOOTING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_laguna_entertainment",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_LAGUNA_ENTERTAINMENT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_onionboss_prism",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_ONIONBOSS_PRISM",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_quistis_blue_magic",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_QUISTIS_BLUE_MAGIC",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_rinoa_angel_wings",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_RINOA_ANGEL_WINGS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_seifer_rivalry",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_SEIFER_RIVALRY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_selphie_cid",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_SELPHIE_CID",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_squall_gunblade",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_SQUALL_GUNBLADE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_sumo_meditation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_SUMO_MEDITATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_tunneler_collapse",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_TUNNELER_COLLAPSE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_twins_prophecy",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_TWINS_PROPHECY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_prism_zell_combo",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_PRISM_ZELL_COMBO",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_cut_content",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_CUT_CONTENT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_data_recovery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_DATA_RECOVERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_debug_mode",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_DEBUG_MODE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_developer_ghosts",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_DEVELOPER_GHOSTS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_farewell",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_FAREWELL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_glitch_exploration",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_GLITCH_EXPLORATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_new_game_plus",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_NEW_GAME_PLUS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_secret_boss",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_SECRET_BOSS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_superboss_gauntlet",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_SUPERBOSS_GAUNTLET",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_remnant_true_ending",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_REMNANT_TRUE_ENDING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_abyss_fishing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_ABYSS_FISHING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_coral_garden_restoration",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_CORAL_GARDEN_RESTORATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_kraken_ink",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_KRAKEN_INK",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_leviathan_warden",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_LEVIATHAN_WARDEN",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_merfolk_diplomat",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_MERFOLK_DIPLOMAT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_mermaid_melody",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_MERMAID_MELODY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_naval_battle",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_NAVAL_BATTLE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_pearl_diver",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_PEARL_DIVER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_pirate_code",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_PIRATE_CODE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_sea_witch_potion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_SEA_WITCH_POTION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_shipwreck_survivor",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_SHIPWRECK_SURVIVOR",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_siren_song",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_SIREN_SONG",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_sunken_treasure",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_SUNKEN_TREASURE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_tidal_race",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_TIDAL_RACE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tide_underwater_ruins",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TIDE_UNDERWATER_RUINS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_ancient_trial",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_ANCIENT_TRIAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_ascension_ritual",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_ASCENSION_RITUAL",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_companion_climb",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_COMPANION_CLIMB",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_dominion_squad",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_DOMINION_SQUAD",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_fallen_champion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_FALLEN_CHAMPION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_final_preparation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_FINAL_PREPARATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_floor_challenge",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_FLOOR_CHALLENGE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_lost_climber",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_LOST_CLIMBER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_rest_stop",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_REST_STOP",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_tower_secrets",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_TOWER_SECRETS",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_aeris_flower_bed",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_AERIS_FLOWER_BED",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_bush_berries",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_BUSH_BERRIES",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_eiko_summon",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_EIKO_SUMMON",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_freya_dragon_knight",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_FREYA_DRAGON_KNIGHT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_garnet_royal_duty",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_GARNET_ROYAL_DUTY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_pigman_orchard",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_PIGMAN_ORCHARD",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_quina_blue_magic",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_QUINA_BLUE_MAGIC",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_rikku_treasure_hunt",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_RIKKU_TREASURE_HUNT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_sumo_diet",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_SUMO_DIET",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_sunandmoon_balance",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_SUNANDMOON_BALANCE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_tifa_bar_fight",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_TIFA_BAR_FIGHT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_trenchcoat_mystery",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_TRENCHCOAT_MYSTERY",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_twins_riddle",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_TWINS_RIDDLE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_vivi_black_mage",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_VIVI_BLACK_MAGE",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_yuna_sending",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_YUNA_SENDING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_uplands_zidane_theater",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_UPLANDS_ZIDANE_THEATER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_boundary_stabilization",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_BOUNDARY_STABILIZATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_corruption_cleansing",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_CORRUPTION_CLEANSING",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_echo_chamber",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_ECHO_CHAMBER",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_entity_communion",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_ENTITY_COMMUNION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_lost_expedition",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_LOST_EXPEDITION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_memory_reclamation",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_MEMORY_RECLAMATION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_reality_anchor",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_REALITY_ANCHOR",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_sanity_test",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_SANITY_TEST",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_shadow_hunt",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_SHADOW_HUNT",
+      "type": "mini"
+    },
+    {
+      "source_token": "mini_void_voidheart_extraction",
+      "canonical_quest_id": "Q_CONTENT_MINI_MINI_VOID_VOIDHEART_EXTRACTION",
+      "type": "mini"
+    },
+    {
+      "source_token": "mire_sinking_truth",
+      "canonical_quest_id": "Q_CONTENT_MAIN_MIRE_SINKING_TRUTH",
+      "type": "main"
+    },
+    {
+      "source_token": "obsidian_gears_industry",
+      "canonical_quest_id": "Q_CONTENT_MAIN_OBSIDIAN_GEARS_INDUSTRY",
+      "type": "main"
+    },
+    {
+      "source_token": "palace_progenitor_will",
+      "canonical_quest_id": "Q_CONTENT_MAIN_PALACE_PROGENITOR_WILL",
+      "type": "main"
+    },
+    {
+      "source_token": "prism_shattered_light",
+      "canonical_quest_id": "Q_CONTENT_MAIN_PRISM_SHATTERED_LIGHT",
+      "type": "main"
+    },
+    {
+      "source_token": "remnant_what_remains",
+      "canonical_quest_id": "Q_CONTENT_MAIN_REMNANT_WHAT_REMAINS",
+      "type": "main"
+    },
+    {
+      "source_token": "tide_depths_mystery",
+      "canonical_quest_id": "Q_CONTENT_MAIN_TIDE_DEPTHS_MYSTERY",
+      "type": "main"
+    },
+    {
+      "source_token": "tower_ascent",
+      "canonical_quest_id": "Q_CONTENT_MAIN_TOWER_ASCENT",
+      "type": "main"
+    },
+    {
+      "source_token": "uplands_echoes_past",
+      "canonical_quest_id": "Q_CONTENT_MAIN_UPLANDS_ECHOES_PAST",
+      "type": "main"
+    },
+    {
+      "source_token": "void_into_darkness",
+      "canonical_quest_id": "Q_CONTENT_MAIN_VOID_INTO_DARKNESS",
+      "type": "main"
+    }
+  ],
+  "npc_aliases": [
+    {
+      "source_token": "abyssal",
+      "canonical_npc_id": "NPC_DOCKMASTER_SARAI",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "aeris (flower seller)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut blue",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut_blue",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut_gold",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut_red",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut_void",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "aeronaut_white",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ancient_abyssal",
+      "canonical_npc_id": "NPC_DOCKMASTER_SARAI",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "arena_master_titan",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "ash_walker_korrin",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "astronaut_blue",
+      "canonical_npc_id": "NPC_DOCKMASTER_SARAI",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "astronomer_nova",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "avatar_of_void",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "barrel",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelgob_black",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelgob_glitch",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelgob_red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelgob_void",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelman bob",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelman wood",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelman_metal",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barrelman_wood",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "barret (gunner leader)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "blizzard",
+      "canonical_npc_id": "NPC_RAIL_CAPTAIN_DORSA",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "bush",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "bush (prism)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "bush green",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "captain_skysong",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "cecil (dark knight)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "chronos",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "chronos_future",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "chronos_past",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "chronos_present",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "cid (sky engineer)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "cloud (wandering swordsman)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "cobra",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "cobra (medicine hunter)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "cog",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "conductor",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_black",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_blue",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_glitch",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_gold",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_industrial",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_void",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coolcat_white",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "coral",
+      "canonical_npc_id": "NPC_DOCKMASTER_SARAI",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "crystal_of_truth",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "cyan (samurai exile)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "deep-dig dan",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "echo",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "echo_of_fallen_ally",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "echo_of_first_progenitor",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "edea (former sorceress)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "eiko (young summoner)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "el scorcho",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "elder_bogwhisper",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "elder_marn",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "ember_king_infernus",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "false_regent_hollow",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "fang (l'cie warrior)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "final_guardian_apex",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "fire_primordial_pyros",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "flame_seer_ignis",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "foodboys",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "foodboys (flip, corny, and heat)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "foodboys_blue",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "foodboys_green",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "foodboys_red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "foodboys_white",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "freya (burmecian dragon knight)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "frost_warden_glacius",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "gardener_cirrus",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "garnet (princess in hiding)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "gus 'the iron' skillet",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "harbor_master_marin",
+      "canonical_npc_id": "NPC_DOCKMASTER_SARAI",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "hazmat_orange",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "high_scholar_vael",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "high_tide_councilor",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "holographic_archivist",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "hope (archaeology student)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ironchef",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ironchef_blue",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ironchef_industrial",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ironchef_red",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "irvine (seed sniper)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "kade",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "laguna (movie hero)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "lightning (former soldier)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "locke (treasure hunter)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "lucha blue (el azul)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "lucha_blue",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "lucha_gray",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "lucha_red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "marsh_guide_ven",
+      "canonical_npc_id": "NPC_RAIL_CAPTAIN_DORSA",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "master_engineer_gearhart",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "mirror_warden",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "nix7",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "onion boss (blue and red)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "onion boss (purple)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "onionboss",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman brown",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_blue",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_clockwork",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_industrial",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_pink",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_purple",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "pigman_white",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "polar_guide_blizzard",
+      "canonical_npc_id": "NPC_RAIL_CAPTAIN_DORSA",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "princess_pyra",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "prism_gate_captain",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "quina (qu blue mage)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "quistis (seed instructor)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "regent_caelum",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "remnant_keeper_echoes",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "resistance_leader_sovereign",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "rikku (al bhed mechanic)",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "rinoa (resistance fighter)",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sabin (martial artist)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sapphire 'the eye' valuation",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sazh (airship pilot)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "scholar_gatekeeper",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "seifer (rival mercenary)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "selphie (seed trainee)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "serah (teacher)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "shadow_of_destroy_path",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "shadow_of_marn",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "shoewoman sally (blue)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sign guy sam",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "signguy",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "skywarden_stratos",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "snakecharmer",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "snow (self-proclaimed hero)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sovereign",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "spy_master_veil",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "squall (seed mercenary)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sssilas the serpent speaker",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "steel",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "sumo",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sumo red",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sumo white",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sumo_black",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sumo_white",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sunandmoon",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sunandmoon (dual oracle)",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "sunandmoon_dark",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "survivor_coral",
+      "canonical_npc_id": "NPC_RAIL_CAPTAIN_DORSA",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "temporal_refugee_echo",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "terra (esper-blooded)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "thane_iceheart",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "the bush (animated plant)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "the twins (red and white)",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "the twins (white)",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "the_first_progenitor",
+      "canonical_npc_id": "NPC_DOMINION_OFFICIAL",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "tifa (bar owner)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tifa (barrel breaker)",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tifa (materia hunter)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tower_warden_construct",
+      "canonical_npc_id": "NPC_CAPTAIN_VARROS",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "trenchcoat",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat black",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat_black",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat_brown",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat_glitch",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat_gray",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "trenchcoat_void",
+      "canonical_npc_id": "NPC_RESISTANCE_CONTACT",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tunneler",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tunneler blue",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tunneler_brown",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tunneler_gray",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "tunneler_red",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "twins",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "twins_glitch",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "twins_void",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "twins_white",
+      "canonical_npc_id": "NPC_ARCHIVIST_VELM",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "union_organizer_steel",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "vanille (l'cie)",
+      "canonical_npc_id": "NPC_SISTER_AMARA",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "ven",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "vesper_venom",
+      "canonical_npc_id": "NPC_BROKER_VANE",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "village_healer_spring",
+      "canonical_npc_id": "NPC_RAIL_CAPTAIN_DORSA",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "vivi (black mage)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "whistleblower_cog",
+      "canonical_npc_id": "NPC_FORGE_MASTER_GRIMJAW",
+      "used_story_alias_registry": true
+    },
+    {
+      "source_token": "wins",
+      "canonical_npc_id": "NPC_SEAM_WARDEN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "yuna (summoner)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "zell (seed martial artist)",
+      "canonical_npc_id": "NPC_OLD_KELL",
+      "used_story_alias_registry": false
+    },
+    {
+      "source_token": "zidane (theater troupe leader)",
+      "canonical_npc_id": "NPC_MIRA_THORN",
+      "used_story_alias_registry": false
+    }
+  ],
+  "item_aliases": [
+    {
+      "source_token": "absence_immunity_charm",
+      "canonical_item_id": "ITEM_STORY_ABSENCE_IMMUNITY_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "abyssal_breathing_charm",
+      "canonical_item_id": "ITEM_STORY_ABYSSAL_BREATHING_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "abyssal_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_ABYSSAL_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "abyssal_fishing_rod",
+      "canonical_item_id": "ITEM_STORY_ABYSSAL_FISHING_ROD",
+      "generated": true
+    },
+    {
+      "source_token": "accounting_experts_abacus",
+      "canonical_item_id": "ITEM_STORY_ACCOUNTING_EXPERTS_ABACUS",
+      "generated": true
+    },
+    {
+      "source_token": "aether_crystal_sample",
+      "canonical_item_id": "ITEM_STORY_AETHER_CRYSTAL_SAMPLE",
+      "generated": true
+    },
+    {
+      "source_token": "aetherguard_welcome",
+      "canonical_item_id": "ITEM_STORY_AETHERGUARD_WELCOME",
+      "generated": true
+    },
+    {
+      "source_token": "ageless_locket",
+      "canonical_item_id": "ITEM_STORY_AGELESS_LOCKET",
+      "generated": true
+    },
+    {
+      "source_token": "al_bhed_mega_potion",
+      "canonical_item_id": "ITEM_STORY_AL_BHED_MEGA_POTION",
+      "generated": true
+    },
+    {
+      "source_token": "ancient_boomerang",
+      "canonical_item_id": "ITEM_STORY_ANCIENT_BOOMERANG",
+      "generated": true
+    },
+    {
+      "source_token": "ancient_data_core",
+      "canonical_item_id": "ITEM_STORY_ANCIENT_DATA_CORE",
+      "generated": true
+    },
+    {
+      "source_token": "apex_blessing",
+      "canonical_item_id": "ITEM_STORY_APEX_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "apprentices_edge",
+      "canonical_item_id": "ITEM_STORY_APPRENTICES_EDGE",
+      "generated": true
+    },
+    {
+      "source_token": "arena_champion_badge",
+      "canonical_item_id": "ITEM_STORY_ARENA_CHAMPION_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "ascension_blessing",
+      "canonical_item_id": "ITEM_STORY_ASCENSION_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "ash_resistant_gear",
+      "canonical_item_id": "ITEM_STORY_ASH_RESISTANT_GEAR",
+      "generated": true
+    },
+    {
+      "source_token": "aurora_compass",
+      "canonical_item_id": "ITEM_STORY_AURORA_COMPASS",
+      "generated": true
+    },
+    {
+      "source_token": "aurora_lens",
+      "canonical_item_id": "ITEM_STORY_AURORA_LENS",
+      "generated": true
+    },
+    {
+      "source_token": "automaton_gratitude_chip",
+      "canonical_item_id": "ITEM_STORY_AUTOMATON_GRATITUDE_CHIP",
+      "generated": true
+    },
+    {
+      "source_token": "barrelman_lucky_ring",
+      "canonical_item_id": "ITEM_STORY_BARRELMAN_LUCKY_RING",
+      "generated": true
+    },
+    {
+      "source_token": "black_cells_key",
+      "canonical_item_id": "ITEM_STORY_BLACK_CELLS_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "blizzard_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_BLIZZARD_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "blue_magic_manual_3",
+      "canonical_item_id": "ITEM_STORY_BLUE_MAGIC_MANUAL_3",
+      "generated": true
+    },
+    {
+      "source_token": "blue_thunder_drop_manual",
+      "canonical_item_id": "ITEM_STORY_BLUE_THUNDER_DROP_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "breath_of_oceans_potion",
+      "canonical_item_id": "ITEM_STORY_BREATH_OF_OCEANS_POTION",
+      "generated": true
+    },
+    {
+      "source_token": "brinegate_medal",
+      "canonical_item_id": "ITEM_STORY_BRINEGATE_MEDAL",
+      "generated": true
+    },
+    {
+      "source_token": "bushido_technique_manual",
+      "canonical_item_id": "ITEM_STORY_BUSHIDO_TECHNIQUE_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "cactus_treasure_map",
+      "canonical_item_id": "ITEM_STORY_CACTUS_TREASURE_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "celestial_alignment_data",
+      "canonical_item_id": "ITEM_STORY_CELESTIAL_ALIGNMENT_DATA",
+      "generated": true
+    },
+    {
+      "source_token": "chocobo_feather_charm",
+      "canonical_item_id": "ITEM_STORY_CHOCOBO_FEATHER_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "chrono_aspect_fragments",
+      "canonical_item_id": "ITEM_STORY_CHRONO_ASPECT_FRAGMENTS",
+      "generated": true
+    },
+    {
+      "source_token": "chrono_attuned_gear",
+      "canonical_item_id": "ITEM_STORY_CHRONO_ATTUNED_GEAR",
+      "generated": true
+    },
+    {
+      "source_token": "chrono_compass",
+      "canonical_item_id": "ITEM_STORY_CHRONO_COMPASS",
+      "generated": true
+    },
+    {
+      "source_token": "chronogun",
+      "canonical_item_id": "ITEM_STORY_CHRONOGUN",
+      "generated": true
+    },
+    {
+      "source_token": "climbing_mentor_insignia",
+      "canonical_item_id": "ITEM_STORY_CLIMBING_MENTOR_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "coal_miners_helm",
+      "canonical_item_id": "ITEM_STORY_COAL_MINERS_HELM",
+      "generated": true
+    },
+    {
+      "source_token": "cobra_antidote_ring",
+      "canonical_item_id": "ITEM_STORY_COBRA_ANTIDOTE_RING",
+      "generated": true
+    },
+    {
+      "source_token": "complete_prophecy",
+      "canonical_item_id": "ITEM_STORY_COMPLETE_PROPHECY",
+      "generated": true
+    },
+    {
+      "source_token": "coralheart_pendant",
+      "canonical_item_id": "ITEM_STORY_CORALHEART_PENDANT",
+      "generated": true
+    },
+    {
+      "source_token": "cosmic_alignment_chart",
+      "canonical_item_id": "ITEM_STORY_COSMIC_ALIGNMENT_CHART",
+      "generated": true
+    },
+    {
+      "source_token": "cosmic_understanding",
+      "canonical_item_id": "ITEM_STORY_COSMIC_UNDERSTANDING",
+      "generated": true
+    },
+    {
+      "source_token": "council_redemption_oath",
+      "canonical_item_id": "ITEM_STORY_COUNCIL_REDEMPTION_OATH",
+      "generated": true
+    },
+    {
+      "source_token": "court_favor_token",
+      "canonical_item_id": "ITEM_STORY_COURT_FAVOR_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "cracked_star_fragment",
+      "canonical_item_id": "ITEM_STORY_CRACKED_STAR_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "creator_insight",
+      "canonical_item_id": "ITEM_STORY_CREATOR_INSIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_caverns_key",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_CAVERNS_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_focus_band",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_FOCUS_BAND",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_depths",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_DEPTHS",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_endurance",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_ENDURANCE",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_industry",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_INDUSTRY",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_strength",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_STRENGTH",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_time",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_TIME",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_truth",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_TRUTH",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_of_unity",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_OF_UNITY",
+      "generated": true
+    },
+    {
+      "source_token": "crystal_onion_ring",
+      "canonical_item_id": "ITEM_STORY_CRYSTAL_ONION_RING",
+      "generated": true
+    },
+    {
+      "source_token": "dark_blade_apocalypse",
+      "canonical_item_id": "ITEM_STORY_DARK_BLADE_APOCALYPSE",
+      "generated": true
+    },
+    {
+      "source_token": "debug_access_badge",
+      "canonical_item_id": "ITEM_STORY_DEBUG_ACCESS_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "deep_delvers_helm",
+      "canonical_item_id": "ITEM_STORY_DEEP_DELVERS_HELM",
+      "generated": true
+    },
+    {
+      "source_token": "deep_sea_suit",
+      "canonical_item_id": "ITEM_STORY_DEEP_SEA_SUIT",
+      "generated": true
+    },
+    {
+      "source_token": "deletion_victory_proof",
+      "canonical_item_id": "ITEM_STORY_DELETION_VICTORY_PROOF",
+      "generated": true
+    },
+    {
+      "source_token": "dimensional_anchor",
+      "canonical_item_id": "ITEM_STORY_DIMENSIONAL_ANCHOR",
+      "generated": true
+    },
+    {
+      "source_token": "dominion_cipher_key",
+      "canonical_item_id": "ITEM_STORY_DOMINION_CIPHER_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "dominion_patrol_schedules",
+      "canonical_item_id": "ITEM_STORY_DOMINION_PATROL_SCHEDULES",
+      "generated": true
+    },
+    {
+      "source_token": "dominion_tower_intel",
+      "canonical_item_id": "ITEM_STORY_DOMINION_TOWER_INTEL",
+      "generated": true
+    },
+    {
+      "source_token": "dragon_killer_spear",
+      "canonical_item_id": "ITEM_STORY_DRAGON_KILLER_SPEAR",
+      "generated": true
+    },
+    {
+      "source_token": "duel_combo_manual",
+      "canonical_item_id": "ITEM_STORY_DUEL_COMBO_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "echo_chamber_recordings",
+      "canonical_item_id": "ITEM_STORY_ECHO_CHAMBER_RECORDINGS",
+      "generated": true
+    },
+    {
+      "source_token": "echo_knowledge_fragment",
+      "canonical_item_id": "ITEM_STORY_ECHO_KNOWLEDGE_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "echo_sight_blessing",
+      "canonical_item_id": "ITEM_STORY_ECHO_SIGHT_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "eclipse_balance_charm",
+      "canonical_item_id": "ITEM_STORY_ECLIPSE_BALANCE_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "ember_festival_token",
+      "canonical_item_id": "ITEM_STORY_EMBER_FESTIVAL_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "ember_heart_amulet",
+      "canonical_item_id": "ITEM_STORY_EMBER_HEART_AMULET",
+      "generated": true
+    },
+    {
+      "source_token": "emberforged_blade",
+      "canonical_item_id": "ITEM_STORY_EMBERFORGED_BLADE",
+      "generated": true
+    },
+    {
+      "source_token": "embersteel_dagger",
+      "canonical_item_id": "ITEM_STORY_EMBERSTEEL_DAGGER",
+      "generated": true
+    },
+    {
+      "source_token": "engine_whispers_record",
+      "canonical_item_id": "ITEM_STORY_ENGINE_WHISPERS_RECORD",
+      "generated": true
+    },
+    {
+      "source_token": "expedition_logs",
+      "canonical_item_id": "ITEM_STORY_EXPEDITION_LOGS",
+      "generated": true
+    },
+    {
+      "source_token": "factory_master_key",
+      "canonical_item_id": "ITEM_STORY_FACTORY_MASTER_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "figaro_royal_belt",
+      "canonical_item_id": "ITEM_STORY_FIGARO_ROYAL_BELT",
+      "generated": true
+    },
+    {
+      "source_token": "final_preparation_blessing",
+      "canonical_item_id": "ITEM_STORY_FINAL_PREPARATION_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "first_clock_gear",
+      "canonical_item_id": "ITEM_STORY_FIRST_CLOCK_GEAR",
+      "generated": true
+    },
+    {
+      "source_token": "first_contact_protocols",
+      "canonical_item_id": "ITEM_STORY_FIRST_CONTACT_PROTOCOLS",
+      "generated": true
+    },
+    {
+      "source_token": "first_progenitor_truth",
+      "canonical_item_id": "ITEM_STORY_FIRST_PROGENITOR_TRUTH",
+      "generated": true
+    },
+    {
+      "source_token": "flame_keepers_mark",
+      "canonical_item_id": "ITEM_STORY_FLAME_KEEPERS_MARK",
+      "generated": true
+    },
+    {
+      "source_token": "flame_veil_wraps",
+      "canonical_item_id": "ITEM_STORY_FLAME_VEIL_WRAPS",
+      "generated": true
+    },
+    {
+      "source_token": "flamecaller_whistle",
+      "canonical_item_id": "ITEM_STORY_FLAMECALLER_WHISTLE",
+      "generated": true
+    },
+    {
+      "source_token": "floating_market_voucher",
+      "canonical_item_id": "ITEM_STORY_FLOATING_MARKET_VOUCHER",
+      "generated": true
+    },
+    {
+      "source_token": "foodboys_sauce_collection",
+      "canonical_item_id": "ITEM_STORY_FOODBOYS_SAUCE_COLLECTION",
+      "generated": true
+    },
+    {
+      "source_token": "foundation_harmony_crystal",
+      "canonical_item_id": "ITEM_STORY_FOUNDATION_HARMONY_CRYSTAL",
+      "generated": true
+    },
+    {
+      "source_token": "frog_drop_ability",
+      "canonical_item_id": "ITEM_STORY_FROG_DROP_ABILITY",
+      "generated": true
+    },
+    {
+      "source_token": "frost_dragon_scale",
+      "canonical_item_id": "ITEM_STORY_FROST_DRAGON_SCALE",
+      "generated": true
+    },
+    {
+      "source_token": "frostflower_bouquet",
+      "canonical_item_id": "ITEM_STORY_FROSTFLOWER_BOUQUET",
+      "generated": true
+    },
+    {
+      "source_token": "frostfolk_friendship_token",
+      "canonical_item_id": "ITEM_STORY_FROSTFOLK_FRIENDSHIP_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "frosthold_guest_right",
+      "canonical_item_id": "ITEM_STORY_FROSTHOLD_GUEST_RIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "frostward_ring",
+      "canonical_item_id": "ITEM_STORY_FROSTWARD_RING",
+      "generated": true
+    },
+    {
+      "source_token": "future_sight_blessing",
+      "canonical_item_id": "ITEM_STORY_FUTURE_SIGHT_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "gauntlet_champion_badge",
+      "canonical_item_id": "ITEM_STORY_GAUNTLET_CHAMPION_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "gearhart_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_GEARHART_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "gf_compatibility_module",
+      "canonical_item_id": "ITEM_STORY_GF_COMPATIBILITY_MODULE",
+      "generated": true
+    },
+    {
+      "source_token": "glitch_zone_map",
+      "canonical_item_id": "ITEM_STORY_GLITCH_ZONE_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "golden_lucha_mask",
+      "canonical_item_id": "ITEM_STORY_GOLDEN_LUCHA_MASK",
+      "generated": true
+    },
+    {
+      "source_token": "grand_unification_plans",
+      "canonical_item_id": "ITEM_STORY_GRAND_UNIFICATION_PLANS",
+      "generated": true
+    },
+    {
+      "source_token": "gravity_anchor",
+      "canonical_item_id": "ITEM_STORY_GRAVITY_ANCHOR",
+      "generated": true
+    },
+    {
+      "source_token": "guardian_corps_badge",
+      "canonical_item_id": "ITEM_STORY_GUARDIAN_CORPS_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "gus_iron_spice_blend",
+      "canonical_item_id": "ITEM_STORY_GUS_IRON_SPICE_BLEND",
+      "generated": true
+    },
+    {
+      "source_token": "healing_witch_staff",
+      "canonical_item_id": "ITEM_STORY_HEALING_WITCH_STAFF",
+      "generated": true
+    },
+    {
+      "source_token": "heart_of_flame_blessing",
+      "canonical_item_id": "ITEM_STORY_HEART_OF_FLAME_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "heavy_barrel_attachment",
+      "canonical_item_id": "ITEM_STORY_HEAVY_BARREL_ATTACHMENT",
+      "generated": true
+    },
+    {
+      "source_token": "hunter_trophy",
+      "canonical_item_id": "ITEM_STORY_HUNTER_TROPHY",
+      "generated": true
+    },
+    {
+      "source_token": "hydromancer_blessing",
+      "canonical_item_id": "ITEM_STORY_HYDROMANCER_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "hyperion_gunblade",
+      "canonical_item_id": "ITEM_STORY_HYPERION_GUNBLADE",
+      "generated": true
+    },
+    {
+      "source_token": "ice_fishing_spear",
+      "canonical_item_id": "ITEM_STORY_ICE_FISHING_SPEAR",
+      "generated": true
+    },
+    {
+      "source_token": "ice_sculptors_glove",
+      "canonical_item_id": "ITEM_STORY_ICE_SCULPTORS_GLOVE",
+      "generated": true
+    },
+    {
+      "source_token": "industrial_toolbelt",
+      "canonical_item_id": "ITEM_STORY_INDUSTRIAL_TOOLBELT",
+      "generated": true
+    },
+    {
+      "source_token": "iron_legion_insignia",
+      "canonical_item_id": "ITEM_STORY_IRON_LEGION_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "ironhawk_supply_manifest",
+      "canonical_item_id": "ITEM_STORY_IRONHAWK_SUPPLY_MANIFEST",
+      "generated": true
+    },
+    {
+      "source_token": "journey_complete_souvenir",
+      "canonical_item_id": "ITEM_STORY_JOURNEY_COMPLETE_SOUVENIR",
+      "generated": true
+    },
+    {
+      "source_token": "kraken_ink_tattoo",
+      "canonical_item_id": "ITEM_STORY_KRAKEN_INK_TATTOO",
+      "generated": true
+    },
+    {
+      "source_token": "labyrinth_insight",
+      "canonical_item_id": "ITEM_STORY_LABYRINTH_INSIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "labyrinth_key",
+      "canonical_item_id": "ITEM_STORY_LABYRINTH_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "lagunas_machine_gun",
+      "canonical_item_id": "ITEM_STORY_LAGUNAS_MACHINE_GUN",
+      "generated": true
+    },
+    {
+      "source_token": "lava_spirit_gem",
+      "canonical_item_id": "ITEM_STORY_LAVA_SPIRIT_GEM",
+      "generated": true
+    },
+    {
+      "source_token": "lens_of_true_sight",
+      "canonical_item_id": "ITEM_STORY_LENS_OF_TRUE_SIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "leviathans_tear",
+      "canonical_item_id": "ITEM_STORY_LEVIATHANS_TEAR",
+      "generated": true
+    },
+    {
+      "source_token": "loop_breaker_watch",
+      "canonical_item_id": "ITEM_STORY_LOOP_BREAKER_WATCH",
+      "generated": true
+    },
+    {
+      "source_token": "lost_history_archive",
+      "canonical_item_id": "ITEM_STORY_LOST_HISTORY_ARCHIVE",
+      "generated": true
+    },
+    {
+      "source_token": "lucha_master_manual",
+      "canonical_item_id": "ITEM_STORY_LUCHA_MASTER_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "lucky_fishing_rod",
+      "canonical_item_id": "ITEM_STORY_LUCKY_FISHING_ROD",
+      "generated": true
+    },
+    {
+      "source_token": "maduin_protection_charm",
+      "canonical_item_id": "ITEM_STORY_MADUIN_PROTECTION_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "magicite_shard_fire",
+      "canonical_item_id": "ITEM_STORY_MAGICITE_SHARD_FIRE",
+      "generated": true
+    },
+    {
+      "source_token": "magma_surfer_charm",
+      "canonical_item_id": "ITEM_STORY_MAGMA_SURFER_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "mammoth_tusk_splinter",
+      "canonical_item_id": "ITEM_STORY_MAMMOTH_TUSK_SPLINTER",
+      "generated": true
+    },
+    {
+      "source_token": "marn_family_pendant",
+      "canonical_item_id": "ITEM_STORY_MARN_FAMILY_PENDANT",
+      "generated": true
+    },
+    {
+      "source_token": "marshfolk_alliance_token",
+      "canonical_item_id": "ITEM_STORY_MARSHFOLK_ALLIANCE_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "marshfolk_disguise",
+      "canonical_item_id": "ITEM_STORY_MARSHFOLK_DISGUISE",
+      "generated": true
+    },
+    {
+      "source_token": "martial_arts_manual",
+      "canonical_item_id": "ITEM_STORY_MARTIAL_ARTS_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "materia_fragment_haste",
+      "canonical_item_id": "ITEM_STORY_MATERIA_FRAGMENT_HASTE",
+      "generated": true
+    },
+    {
+      "source_token": "mechanists_monocle",
+      "canonical_item_id": "ITEM_STORY_MECHANISTS_MONOCLE",
+      "generated": true
+    },
+    {
+      "source_token": "memorial_of_the_fallen",
+      "canonical_item_id": "ITEM_STORY_MEMORIAL_OF_THE_FALLEN",
+      "generated": true
+    },
+    {
+      "source_token": "mermaids_tear",
+      "canonical_item_id": "ITEM_STORY_MERMAIDS_TEAR",
+      "generated": true
+    },
+    {
+      "source_token": "meteor_spell_tome",
+      "canonical_item_id": "ITEM_STORY_METEOR_SPELL_TOME",
+      "generated": true
+    },
+    {
+      "source_token": "mire_glow_stones",
+      "canonical_item_id": "ITEM_STORY_MIRE_GLOW_STONES",
+      "generated": true
+    },
+    {
+      "source_token": "mire_smoked_ham_hock",
+      "canonical_item_id": "ITEM_STORY_MIRE_SMOKED_HAM_HOCK",
+      "generated": true
+    },
+    {
+      "source_token": "mirror_shard",
+      "canonical_item_id": "ITEM_STORY_MIRROR_SHARD",
+      "generated": true
+    },
+    {
+      "source_token": "mounted_combat_manual",
+      "canonical_item_id": "ITEM_STORY_MOUNTED_COMBAT_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "mural_portrait_sketch",
+      "canonical_item_id": "ITEM_STORY_MURAL_PORTRAIT_SKETCH",
+      "generated": true
+    },
+    {
+      "source_token": "navigators_spyglass",
+      "canonical_item_id": "ITEM_STORY_NAVIGATORS_SPYGLASS",
+      "generated": true
+    },
+    {
+      "source_token": "new_game_plus_blessing",
+      "canonical_item_id": "ITEM_STORY_NEW_GAME_PLUS_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "night_market_token",
+      "canonical_item_id": "ITEM_STORY_NIGHT_MARKET_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "ninth_resonance_crystal",
+      "canonical_item_id": "ITEM_STORY_NINTH_RESONANCE_CRYSTAL",
+      "generated": true
+    },
+    {
+      "source_token": "nix7_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_NIX7_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "nix7_true_form",
+      "canonical_item_id": "ITEM_STORY_NIX7_TRUE_FORM",
+      "generated": true
+    },
+    {
+      "source_token": "oath_of_flame_bond",
+      "canonical_item_id": "ITEM_STORY_OATH_OF_FLAME_BOND",
+      "generated": true
+    },
+    {
+      "source_token": "obsidian_battle_gear",
+      "canonical_item_id": "ITEM_STORY_OBSIDIAN_BATTLE_GEAR",
+      "generated": true
+    },
+    {
+      "source_token": "obsidian_belt_of_might",
+      "canonical_item_id": "ITEM_STORY_OBSIDIAN_BELT_OF_MIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "obsidian_liberation_medal",
+      "canonical_item_id": "ITEM_STORY_OBSIDIAN_LIBERATION_MEDAL",
+      "generated": true
+    },
+    {
+      "source_token": "onion_layer_shield",
+      "canonical_item_id": "ITEM_STORY_ONION_LAYER_SHIELD",
+      "generated": true
+    },
+    {
+      "source_token": "palace_armory_cache",
+      "canonical_item_id": "ITEM_STORY_PALACE_ARMORY_CACHE",
+      "generated": true
+    },
+    {
+      "source_token": "paradox_prevention_ring",
+      "canonical_item_id": "ITEM_STORY_PARADOX_PREVENTION_RING",
+      "generated": true
+    },
+    {
+      "source_token": "path_not_taken_wisdom",
+      "canonical_item_id": "ITEM_STORY_PATH_NOT_TAKEN_WISDOM",
+      "generated": true
+    },
+    {
+      "source_token": "peace_of_the_past",
+      "canonical_item_id": "ITEM_STORY_PEACE_OF_THE_PAST",
+      "generated": true
+    },
+    {
+      "source_token": "pearl_crown",
+      "canonical_item_id": "ITEM_STORY_PEARL_CROWN",
+      "generated": true
+    },
+    {
+      "source_token": "pearl_diving_bell",
+      "canonical_item_id": "ITEM_STORY_PEARL_DIVING_BELL",
+      "generated": true
+    },
+    {
+      "source_token": "phoenix_down_feather",
+      "canonical_item_id": "ITEM_STORY_PHOENIX_DOWN_FEATHER",
+      "generated": true
+    },
+    {
+      "source_token": "phoenix_down_x3",
+      "canonical_item_id": "ITEM_STORY_PHOENIX_DOWN_X3",
+      "generated": true
+    },
+    {
+      "source_token": "pigman_mud_treatment_voucher",
+      "canonical_item_id": "ITEM_STORY_PIGMAN_MUD_TREATMENT_VOUCHER",
+      "generated": true
+    },
+    {
+      "source_token": "pirate_captain_sabre",
+      "canonical_item_id": "ITEM_STORY_PIRATE_CAPTAIN_SABRE",
+      "generated": true
+    },
+    {
+      "source_token": "pirates_compass",
+      "canonical_item_id": "ITEM_STORY_PIRATES_COMPASS",
+      "generated": true
+    },
+    {
+      "source_token": "portable_breathing_apparatus",
+      "canonical_item_id": "ITEM_STORY_PORTABLE_BREATHING_APPARATUS",
+      "generated": true
+    },
+    {
+      "source_token": "premium_ammo_set",
+      "canonical_item_id": "ITEM_STORY_PREMIUM_AMMO_SET",
+      "generated": true
+    },
+    {
+      "source_token": "premium_bar_supplies_x5",
+      "canonical_item_id": "ITEM_STORY_PREMIUM_BAR_SUPPLIES_X5",
+      "generated": true
+    },
+    {
+      "source_token": "premium_leather_gloves",
+      "canonical_item_id": "ITEM_STORY_PREMIUM_LEATHER_GLOVES",
+      "generated": true
+    },
+    {
+      "source_token": "preserved_memory_crystal",
+      "canonical_item_id": "ITEM_STORY_PRESERVED_MEMORY_CRYSTAL",
+      "generated": true
+    },
+    {
+      "source_token": "pressure_resistant_suit",
+      "canonical_item_id": "ITEM_STORY_PRESSURE_RESISTANT_SUIT",
+      "generated": true
+    },
+    {
+      "source_token": "prism_city_map",
+      "canonical_item_id": "ITEM_STORY_PRISM_CITY_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "prism_diamonds_x5",
+      "canonical_item_id": "ITEM_STORY_PRISM_DIAMONDS_X5",
+      "generated": true
+    },
+    {
+      "source_token": "prism_military_support",
+      "canonical_item_id": "ITEM_STORY_PRISM_MILITARY_SUPPORT",
+      "generated": true
+    },
+    {
+      "source_token": "prism_root_gem",
+      "canonical_item_id": "ITEM_STORY_PRISM_ROOT_GEM",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_apology_record",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_APOLOGY_RECORD",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_approval_sigil",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_APPROVAL_SIGIL",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_codex_fragment",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_CODEX_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_insight",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_INSIGHT",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_rifle_blueprint",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_RIFLE_BLUEPRINT",
+      "generated": true
+    },
+    {
+      "source_token": "progenitor_true_lens",
+      "canonical_item_id": "ITEM_STORY_PROGENITOR_TRUE_LENS",
+      "generated": true
+    },
+    {
+      "source_token": "prophecy_breakers_quill",
+      "canonical_item_id": "ITEM_STORY_PROPHECY_BREAKERS_QUILL",
+      "generated": true
+    },
+    {
+      "source_token": "prototype_jetpack",
+      "canonical_item_id": "ITEM_STORY_PROTOTYPE_JETPACK",
+      "generated": true
+    },
+    {
+      "source_token": "pyra_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_PYRA_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "racing_sled",
+      "canonical_item_id": "ITEM_STORY_RACING_SLED",
+      "generated": true
+    },
+    {
+      "source_token": "reality_anchor_fragment",
+      "canonical_item_id": "ITEM_STORY_REALITY_ANCHOR_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "reality_reshaped",
+      "canonical_item_id": "ITEM_STORY_REALITY_RESHAPED",
+      "generated": true
+    },
+    {
+      "source_token": "resistance_contact_codes",
+      "canonical_item_id": "ITEM_STORY_RESISTANCE_CONTACT_CODES",
+      "generated": true
+    },
+    {
+      "source_token": "resistance_hero_medal",
+      "canonical_item_id": "ITEM_STORY_RESISTANCE_HERO_MEDAL",
+      "generated": true
+    },
+    {
+      "source_token": "resistance_insignia",
+      "canonical_item_id": "ITEM_STORY_RESISTANCE_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "resistance_safe_houses",
+      "canonical_item_id": "ITEM_STORY_RESISTANCE_SAFE_HOUSES",
+      "generated": true
+    },
+    {
+      "source_token": "rest_stop_membership",
+      "canonical_item_id": "ITEM_STORY_REST_STOP_MEMBERSHIP",
+      "generated": true
+    },
+    {
+      "source_token": "royal_protection_pendant",
+      "canonical_item_id": "ITEM_STORY_ROYAL_PROTECTION_PENDANT",
+      "generated": true
+    },
+    {
+      "source_token": "royal_service_insignia",
+      "canonical_item_id": "ITEM_STORY_ROYAL_SERVICE_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "sanctuary_renewal decree",
+      "canonical_item_id": "ITEM_STORY_SANCTUARY_RENEWAL_DECREE",
+      "generated": true
+    },
+    {
+      "source_token": "sanctum_blessing",
+      "canonical_item_id": "ITEM_STORY_SANCTUM_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "scholarium_guest_pass",
+      "canonical_item_id": "ITEM_STORY_SCHOLARIUM_GUEST_PASS",
+      "generated": true
+    },
+    {
+      "source_token": "scorching_suplex_manual",
+      "canonical_item_id": "ITEM_STORY_SCORCHING_SUPLEX_MANUAL",
+      "generated": true
+    },
+    {
+      "source_token": "sealing_rite_blessing",
+      "canonical_item_id": "ITEM_STORY_SEALING_RITE_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "secret_sky_chart",
+      "canonical_item_id": "ITEM_STORY_SECRET_SKY_CHART",
+      "generated": true
+    },
+    {
+      "source_token": "serpent_blessing_charm",
+      "canonical_item_id": "ITEM_STORY_SERPENT_BLESSING_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "seven_crystals_unified",
+      "canonical_item_id": "ITEM_STORY_SEVEN_CRYSTALS_UNIFIED",
+      "generated": true
+    },
+    {
+      "source_token": "shooting_star_chakram",
+      "canonical_item_id": "ITEM_STORY_SHOOTING_STAR_CHAKRAM",
+      "generated": true
+    },
+    {
+      "source_token": "silas_memento",
+      "canonical_item_id": "ITEM_STORY_SILAS_MEMENTO",
+      "generated": true
+    },
+    {
+      "source_token": "sirenscale_horn",
+      "canonical_item_id": "ITEM_STORY_SIRENSCALE_HORN",
+      "generated": true
+    },
+    {
+      "source_token": "sisters_bow",
+      "canonical_item_id": "ITEM_STORY_SISTERS_BOW",
+      "generated": true
+    },
+    {
+      "source_token": "sky_chart_fragment",
+      "canonical_item_id": "ITEM_STORY_SKY_CHART_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "sky_garden_master",
+      "canonical_item_id": "ITEM_STORY_SKY_GARDEN_MASTER",
+      "generated": true
+    },
+    {
+      "source_token": "sky_shepherd_badge",
+      "canonical_item_id": "ITEM_STORY_SKY_SHEPHERD_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "skysong_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_SKYSONG_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "smokestep_cloak",
+      "canonical_item_id": "ITEM_STORY_SMOKESTEP_CLOAK",
+      "generated": true
+    },
+    {
+      "source_token": "snowball_champions_mittens",
+      "canonical_item_id": "ITEM_STORY_SNOWBALL_CHAMPIONS_MITTENS",
+      "generated": true
+    },
+    {
+      "source_token": "snows_combat_coat",
+      "canonical_item_id": "ITEM_STORY_SNOWS_COMBAT_COAT",
+      "generated": true
+    },
+    {
+      "source_token": "souls_released_blessing",
+      "canonical_item_id": "ITEM_STORY_SOULS_RELEASED_BLESSING",
+      "generated": true
+    },
+    {
+      "source_token": "starfall_fragment",
+      "canonical_item_id": "ITEM_STORY_STARFALL_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "stealth_weave_coat",
+      "canonical_item_id": "ITEM_STORY_STEALTH_WEAVE_COAT",
+      "generated": true
+    },
+    {
+      "source_token": "steamweave_scarf",
+      "canonical_item_id": "ITEM_STORY_STEAMWEAVE_SCARF",
+      "generated": true
+    },
+    {
+      "source_token": "storm_chaser_insignia",
+      "canonical_item_id": "ITEM_STORY_STORM_CHASER_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "summon_gem_valefor",
+      "canonical_item_id": "ITEM_STORY_SUMMON_GEM_VALEFOR",
+      "generated": true
+    },
+    {
+      "source_token": "sumo_training_belt",
+      "canonical_item_id": "ITEM_STORY_SUMO_TRAINING_BELT",
+      "generated": true
+    },
+    {
+      "source_token": "supreme_champion_proof",
+      "canonical_item_id": "ITEM_STORY_SUPREME_CHAMPION_PROOF",
+      "generated": true
+    },
+    {
+      "source_token": "tantalus_membership_card",
+      "canonical_item_id": "ITEM_STORY_TANTALUS_MEMBERSHIP_CARD",
+      "generated": true
+    },
+    {
+      "source_token": "temporal_anchor_charm",
+      "canonical_item_id": "ITEM_STORY_TEMPORAL_ANCHOR_CHARM",
+      "generated": true
+    },
+    {
+      "source_token": "temporal_ledger",
+      "canonical_item_id": "ITEM_STORY_TEMPORAL_LEDGER",
+      "generated": true
+    },
+    {
+      "source_token": "temporal_singularity_ring",
+      "canonical_item_id": "ITEM_STORY_TEMPORAL_SINGULARITY_RING",
+      "generated": true
+    },
+    {
+      "source_token": "temporal_wardens_badge",
+      "canonical_item_id": "ITEM_STORY_TEMPORAL_WARDENS_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "the_end_spell",
+      "canonical_item_id": "ITEM_STORY_THE_END_SPELL",
+      "generated": true
+    },
+    {
+      "source_token": "thermal_weave_parka",
+      "canonical_item_id": "ITEM_STORY_THERMAL_WEAVE_PARKA",
+      "generated": true
+    },
+    {
+      "source_token": "three_paths_knowledge",
+      "canonical_item_id": "ITEM_STORY_THREE_PATHS_KNOWLEDGE",
+      "generated": true
+    },
+    {
+      "source_token": "throne_defender_crest",
+      "canonical_item_id": "ITEM_STORY_THRONE_DEFENDER_CREST",
+      "generated": true
+    },
+    {
+      "source_token": "tidecaller_pearl",
+      "canonical_item_id": "ITEM_STORY_TIDECALLER_PEARL",
+      "generated": true
+    },
+    {
+      "source_token": "time_capsule_token",
+      "canonical_item_id": "ITEM_STORY_TIME_CAPSULE_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "time_thiefs_shackles",
+      "canonical_item_id": "ITEM_STORY_TIME_THIEFS_SHACKLES",
+      "generated": true
+    },
+    {
+      "source_token": "tower_secret_map",
+      "canonical_item_id": "ITEM_STORY_TOWER_SECRET_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "traitor_confession",
+      "canonical_item_id": "ITEM_STORY_TRAITOR_CONFESSION",
+      "generated": true
+    },
+    {
+      "source_token": "true_ending_key",
+      "canonical_item_id": "ITEM_STORY_TRUE_ENDING_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "truth_broadsheets",
+      "canonical_item_id": "ITEM_STORY_TRUTH_BROADSHEETS",
+      "generated": true
+    },
+    {
+      "source_token": "truth_echo_fragment",
+      "canonical_item_id": "ITEM_STORY_TRUTH_ECHO_FRAGMENT",
+      "generated": true
+    },
+    {
+      "source_token": "truthseeker_crystal",
+      "canonical_item_id": "ITEM_STORY_TRUTHSEEKER_CRYSTAL",
+      "generated": true
+    },
+    {
+      "source_token": "unanimous_alliance_bond",
+      "canonical_item_id": "ITEM_STORY_UNANIMOUS_ALLIANCE_BOND",
+      "generated": true
+    },
+    {
+      "source_token": "unity_badge",
+      "canonical_item_id": "ITEM_STORY_UNITY_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "unraveling_lore_mastery",
+      "canonical_item_id": "ITEM_STORY_UNRAVELING_LORE_MASTERY",
+      "generated": true
+    },
+    {
+      "source_token": "vault_of_embers_key",
+      "canonical_item_id": "ITEM_STORY_VAULT_OF_EMBERS_KEY",
+      "generated": true
+    },
+    {
+      "source_token": "ven_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_VEN_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "ventilation_keycard",
+      "canonical_item_id": "ITEM_STORY_VENTILATION_KEYCARD",
+      "generated": true
+    },
+    {
+      "source_token": "vesper_companion_unlocked",
+      "canonical_item_id": "ITEM_STORY_VESPER_COMPANION_UNLOCKED",
+      "generated": true
+    },
+    {
+      "source_token": "vision_of_tomorrow",
+      "canonical_item_id": "ITEM_STORY_VISION_OF_TOMORROW",
+      "generated": true
+    },
+    {
+      "source_token": "void_avatar_essence",
+      "canonical_item_id": "ITEM_STORY_VOID_AVATAR_ESSENCE",
+      "generated": true
+    },
+    {
+      "source_token": "void_boundary_map",
+      "canonical_item_id": "ITEM_STORY_VOID_BOUNDARY_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "void_crystal_shard",
+      "canonical_item_id": "ITEM_STORY_VOID_CRYSTAL_SHARD",
+      "generated": true
+    },
+    {
+      "source_token": "void_lore_mastery",
+      "canonical_item_id": "ITEM_STORY_VOID_LORE_MASTERY",
+      "generated": true
+    },
+    {
+      "source_token": "void_refinement_evidence",
+      "canonical_item_id": "ITEM_STORY_VOID_REFINEMENT_EVIDENCE",
+      "generated": true
+    },
+    {
+      "source_token": "void_resistance_field",
+      "canonical_item_id": "ITEM_STORY_VOID_RESISTANCE_FIELD",
+      "generated": true
+    },
+    {
+      "source_token": "void_resistant_cloak",
+      "canonical_item_id": "ITEM_STORY_VOID_RESISTANT_CLOAK",
+      "generated": true
+    },
+    {
+      "source_token": "void_resistant_pickaxe",
+      "canonical_item_id": "ITEM_STORY_VOID_RESISTANT_PICKAXE",
+      "generated": true
+    },
+    {
+      "source_token": "void_wound_sample",
+      "canonical_item_id": "ITEM_STORY_VOID_WOUND_SAMPLE",
+      "generated": true
+    },
+    {
+      "source_token": "voidheart_crystal",
+      "canonical_item_id": "ITEM_STORY_VOIDHEART_CRYSTAL",
+      "generated": true
+    },
+    {
+      "source_token": "voss_gratitude_token",
+      "canonical_item_id": "ITEM_STORY_VOSS_GRATITUDE_TOKEN",
+      "generated": true
+    },
+    {
+      "source_token": "waterfall_cave_map",
+      "canonical_item_id": "ITEM_STORY_WATERFALL_CAVE_MAP",
+      "generated": true
+    },
+    {
+      "source_token": "waterproof_storage_barrel",
+      "canonical_item_id": "ITEM_STORY_WATERPROOF_STORAGE_BARREL",
+      "generated": true
+    },
+    {
+      "source_token": "whiskers_shed_skin_belt",
+      "canonical_item_id": "ITEM_STORY_WHISKERS_SHED_SKIN_BELT",
+      "generated": true
+    },
+    {
+      "source_token": "wind_rider_insignia",
+      "canonical_item_id": "ITEM_STORY_WIND_RIDER_INSIGNIA",
+      "generated": true
+    },
+    {
+      "source_token": "winter_spirits_kiss",
+      "canonical_item_id": "ITEM_STORY_WINTER_SPIRITS_KISS",
+      "generated": true
+    },
+    {
+      "source_token": "workers_solidarity_badge",
+      "canonical_item_id": "ITEM_STORY_WORKERS_SOLIDARITY_BADGE",
+      "generated": true
+    },
+    {
+      "source_token": "world_tree_staff",
+      "canonical_item_id": "ITEM_STORY_WORLD_TREE_STAFF",
+      "generated": true
+    },
+    {
+      "source_token": "wyrmscale_boots",
+      "canonical_item_id": "ITEM_STORY_WYRMSCALE_BOOTS",
+      "generated": true
+    },
+    {
+      "source_token": "yeti_fur_cloak",
+      "canonical_item_id": "ITEM_STORY_YETI_FUR_CLOAK",
+      "generated": true
+    }
+  ],
+  "state_tokens": [
+    "act_2_started",
+    "aetherreach_access",
+    "aetherreach_hub",
+    "airship_travel",
+    "all_other_remnant_quests_complete",
+    "alliance_army",
+    "cloud_whale_mounts",
+    "companion_abyssal",
+    "companion_blizzard",
+    "companion_echo",
+    "companion_gearhart",
+    "companion_nix7",
+    "companion_pyra",
+    "companion_skysong",
+    "companions_vesper_ven",
+    "concept_art_gallery",
+    "crystal_depths_ability",
+    "crystal_endurance_ability",
+    "crystal_industry_ability",
+    "crystal_strength_ability",
+    "crystal_time_ability",
+    "crystal_truth_ability",
+    "developer_commentary",
+    "dungeon_d8_complete",
+    "ember_alliance",
+    "ending_cinematic",
+    "extradimensional_diplomacy",
+    "final_palace_access",
+    "final_party_banter",
+    "frosthold_alliance",
+    "game_completed",
+    "new_game_plus",
+    "new_game_plus_plus",
+    "nix7_humanity_quest",
+    "obsidian_alliance",
+    "post_game_content",
+    "progenitor_ascension",
+    "resistance_alliance",
+    "seven_crystals_power",
+    "souls_freed_blessing",
+    "tide_alliance",
+    "tower_access_unlocked",
+    "tower_conquered_blessing",
+    "tower_floor_90_reached",
+    "true_ending",
+    "true_ending_cinematic",
+    "universal_peace_ending",
+    "unraveling_revealed",
+    "void_cure_possible",
+    "void_resistance_mastered",
+    "voidbane_craftable",
+    "zone_aetherreach",
+    "zone_capital",
+    "zone_chrono",
+    "zone_ember",
+    "zone_frost",
+    "zone_mire",
+    "zone_obsidian",
+    "zone_palace",
+    "zone_prism",
+    "zone_remnant",
+    "zone_tide",
+    "zone_tower",
+    "zone_uplands",
+    "zone_void"
+  ]
+}

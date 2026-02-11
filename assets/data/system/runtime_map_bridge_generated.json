@@ -1,0 +1,697 @@
+{
+  "id": "RUNTIME_MAP_BRIDGE_GENERATED",
+  "summary": {
+    "canonical_maps": 98,
+    "runtime_generated_maps": 98,
+    "start_map_id": 2,
+    "pruned_stale_runtime_maps": 0
+  },
+  "mappings": [
+    {
+      "canonical_map_id": "D1_LOWER",
+      "runtime_map_id": 2,
+      "display_name": "Ashveil Ruins Lower Tier",
+      "type": "dungeon_submap",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "D1_PUZZLE_WINGS",
+      "runtime_map_id": 3,
+      "display_name": "Ashveil Puzzle Wings",
+      "type": "dungeon_submap",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "D1_RUINS_96x96",
+      "runtime_map_id": 4,
+      "display_name": "Ruins of Ashveil",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D2_FUNGAL_96x96",
+      "runtime_map_id": 5,
+      "display_name": "Fungal Depths",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D3_CRYSTAL_96x96",
+      "runtime_map_id": 6,
+      "display_name": "Crystal Caverns",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D3_LABYRINTH_REFLECTIONS_80x80",
+      "runtime_map_id": 7,
+      "display_name": "Labyrinth of Reflections",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D4_BURNING_HEART_64x64",
+      "runtime_map_id": 8,
+      "display_name": "Burning Heart Chamber",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D4_CALDERA_TRIALS_96x80",
+      "runtime_map_id": 9,
+      "display_name": "Caldera of Trials",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D4_SKYSPIRE_96x96",
+      "runtime_map_id": 10,
+      "display_name": "Skyspire Temple",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D5_ABYSSAL_VAULT_80x80",
+      "runtime_map_id": 11,
+      "display_name": "Abyssal Vault",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D5_ABYSS_96x96",
+      "runtime_map_id": 12,
+      "display_name": "Abyssal Trench",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D5_SUNKEN_CITY_TIDES_96x96",
+      "runtime_map_id": 13,
+      "display_name": "Sunken City of Tides",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D6_FACTORY_OF_SOULS_96x80",
+      "runtime_map_id": 14,
+      "display_name": "Factory of Souls",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D6_OBSIDIAN_96x96",
+      "runtime_map_id": 15,
+      "display_name": "Obsidian Quarry",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D7_FROZEN_96x96",
+      "runtime_map_id": 16,
+      "display_name": "Frozen Citadel",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D7_SPIRE_OF_ETERNITY_80x96",
+      "runtime_map_id": 17,
+      "display_name": "Spire of Frozen Eternity",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D8_GARDENS_OF_ABSENCE_96x80",
+      "runtime_map_id": 18,
+      "display_name": "Gardens of Absence",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "D8_VOID_112x96",
+      "runtime_map_id": 19,
+      "display_name": "Void Nexus",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_dungeons_main.json"
+    },
+    {
+      "canonical_map_id": "D_ARCHIVE_112x96",
+      "runtime_map_id": 20,
+      "display_name": "Archive District",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "D_PALACE_128x96",
+      "runtime_map_id": 21,
+      "display_name": "Palace Interior",
+      "type": "dungeon",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "HID_DRAGON_96x64",
+      "runtime_map_id": 22,
+      "display_name": "Dragon's Graveyard",
+      "type": "hidden",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "HID_SUNKEN_96x64",
+      "runtime_map_id": 23,
+      "display_name": "Sunken City",
+      "type": "hidden",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "MAP_ECLIPSE_80x64",
+      "runtime_map_id": 24,
+      "display_name": "Eclipse Confluence",
+      "type": "special",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "MIC_CONDUIT_64x32",
+      "runtime_map_id": 25,
+      "display_name": "Crown Spire Conduit",
+      "type": "route",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "MIC_CROWN_APPROACH_96x40",
+      "runtime_map_id": 26,
+      "display_name": "Crown District Approach",
+      "type": "route",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "MIC_CROWN_TO_PALACE_56x32",
+      "runtime_map_id": 27,
+      "display_name": "Crown to Palace Corridor",
+      "type": "route",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "MIC_GRAND_BOULEVARD_80x40",
+      "runtime_map_id": 28,
+      "display_name": "Grand Boulevard",
+      "type": "route",
+      "source_path": "assets/data/maps/map_capital_chain.json"
+    },
+    {
+      "canonical_map_id": "MIC_R01A_48x32",
+      "runtime_map_id": 29,
+      "display_name": "Dusthaven Outskirts",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R01B_96x40",
+      "runtime_map_id": 30,
+      "display_name": "Dustbelt Track",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R02_80x48",
+      "runtime_map_id": 31,
+      "display_name": "Ashveil Fellpath",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R03_104x56",
+      "runtime_map_id": 32,
+      "display_name": "Marshroad Way",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R04_56x36",
+      "runtime_map_id": 33,
+      "display_name": "Fungal Threshold",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R05_112x56",
+      "runtime_map_id": 34,
+      "display_name": "Glimmerfen Ridgepath",
+      "type": "route",
+      "source_path": "assets/data/maps/map_routes_act1.json"
+    },
+    {
+      "canonical_map_id": "MIC_R06_64x36",
+      "runtime_map_id": 35,
+      "display_name": "Crystal Gate Pass",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R07_104x56",
+      "runtime_map_id": 36,
+      "display_name": "Suncleft Switchbacks",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R08_72x40",
+      "runtime_map_id": 37,
+      "display_name": "Ember Stair Approach",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R09_120x56",
+      "runtime_map_id": 38,
+      "display_name": "Saltflare Coastway",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R10_104x56",
+      "runtime_map_id": 39,
+      "display_name": "Blackglass Haulroad",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R11_120x56",
+      "runtime_map_id": 40,
+      "display_name": "Cairnwind Pass",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R12_112x56",
+      "runtime_map_id": 41,
+      "display_name": "Rimeward Ascent",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R13_64x36",
+      "runtime_map_id": 42,
+      "display_name": "Citadel Service Tunnel",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R14_128x56",
+      "runtime_map_id": 43,
+      "display_name": "Chronowake Breakwater",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R15_72x40",
+      "runtime_map_id": 44,
+      "display_name": "Meridian Spur",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_R16_136x56",
+      "runtime_map_id": 45,
+      "display_name": "Lumencrest Outer Causeway",
+      "type": "route",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_S01_72x40",
+      "runtime_map_id": 46,
+      "display_name": "Brinegate Run",
+      "type": "sea_lane",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_S02_80x44",
+      "runtime_map_id": 47,
+      "display_name": "Abyss Descent Channel",
+      "type": "sea_lane",
+      "source_path": "assets/data/maps/map_generated_placeholders.json"
+    },
+    {
+      "canonical_map_id": "MIC_SCHOLARIUM_96x64",
+      "runtime_map_id": 48,
+      "display_name": "Floating Scholarium Approach",
+      "type": "story_route",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "OW_ORION_320x180",
+      "runtime_map_id": 49,
+      "display_name": "Orion Overworld",
+      "type": "overworld",
+      "source_path": "assets/data/maps/map_overworld.json"
+    },
+    {
+      "canonical_map_id": "PAL_F1_64x64",
+      "runtime_map_id": 50,
+      "display_name": "Palace Floor 1: Elemental Lords",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "PAL_F2_64x64",
+      "runtime_map_id": 51,
+      "display_name": "Palace Floor 2: Chronowarden",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "PAL_F3_64x64",
+      "runtime_map_id": 52,
+      "display_name": "Palace Floor 3: Void Empress",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "PAL_F4_64x64",
+      "runtime_map_id": 53,
+      "display_name": "Palace Floor 4: Ancient Drake",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "PAL_F5_80x80",
+      "runtime_map_id": 54,
+      "display_name": "Palace Floor 5: Progenitor Engine",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "PAL_GARDEN_OF_ORIGIN_96x80",
+      "runtime_map_id": 55,
+      "display_name": "Garden of Origin",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "PAL_REWARD_48x32",
+      "runtime_map_id": 56,
+      "display_name": "Final Palace Reward Sanctum",
+      "type": "palace",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "RV_CORE_64x64",
+      "runtime_map_id": 57,
+      "display_name": "Core Vault Arena",
+      "type": "post_game",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "RV_EDGE_OF_MEMORY_96x80",
+      "runtime_map_id": 58,
+      "display_name": "Edge of Memory",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "RV_GATEHOUSE_96x72",
+      "runtime_map_id": 59,
+      "display_name": "Remnant Gatehouse Hub",
+      "type": "post_game",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "RV_WING_A_96x64",
+      "runtime_map_id": 60,
+      "display_name": "Cinder-Scar Gallery",
+      "type": "post_game",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "RV_WING_B_96x64",
+      "runtime_map_id": 61,
+      "display_name": "Edited Archive Annex",
+      "type": "post_game",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "RV_WING_C_96x64",
+      "runtime_map_id": 62,
+      "display_name": "Veilroot Catacombs",
+      "type": "post_game",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "SHR_GROWTH_64x48",
+      "runtime_map_id": 63,
+      "display_name": "Verdant Covenant Grove",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_HEAT_64x48",
+      "runtime_map_id": 64,
+      "display_name": "Pyreheart Reliquary",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_LIGHT_64x48",
+      "runtime_map_id": 65,
+      "display_name": "Prismwrit Chapel",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_MASS_64x48",
+      "runtime_map_id": 66,
+      "display_name": "Gravestone Monad",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_MOTION_64x48",
+      "runtime_map_id": 67,
+      "display_name": "Kinetic Vow Atrium",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_SHADOW_64x48",
+      "runtime_map_id": 68,
+      "display_name": "Umbral Ledger Sepulcher",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_TIDE_64x48",
+      "runtime_map_id": 69,
+      "display_name": "Marinus's Sanctum",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "SHR_TIME_64x48",
+      "runtime_map_id": 70,
+      "display_name": "Chronicle Loom",
+      "type": "shrine",
+      "source_path": "assets/data/maps/map_hidden_shrines.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F100_64x64",
+      "runtime_map_id": 71,
+      "display_name": "Tower Floor 100 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F10_48x48",
+      "runtime_map_id": 72,
+      "display_name": "Tower Floor 10 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F15_48x48",
+      "runtime_map_id": 73,
+      "display_name": "Tower Floor 15 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F25_48x48",
+      "runtime_map_id": 74,
+      "display_name": "Tower Floor 25 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F35_48x48",
+      "runtime_map_id": 75,
+      "display_name": "Tower Floor 35 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F50_64x64",
+      "runtime_map_id": 76,
+      "display_name": "Tower Floor 50 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F55_48x48",
+      "runtime_map_id": 77,
+      "display_name": "Tower Floor 55 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F65_48x48",
+      "runtime_map_id": 78,
+      "display_name": "Tower Floor 65 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F75_64x64",
+      "runtime_map_id": 79,
+      "display_name": "Tower Floor 75 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F85_48x48",
+      "runtime_map_id": 80,
+      "display_name": "Tower Floor 85 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F90_64x64",
+      "runtime_map_id": 81,
+      "display_name": "Tower Floor 90 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_ARENA_F95_48x48",
+      "runtime_map_id": 82,
+      "display_name": "Tower Floor 95 Arena",
+      "type": "tower_arena",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_LOBBY_96x64",
+      "runtime_map_id": 83,
+      "display_name": "Tower Lobby",
+      "type": "tower",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_REWARD_48x32",
+      "runtime_map_id": 84,
+      "display_name": "Tower Reward Sanctum",
+      "type": "tower",
+      "source_path": "assets/data/maps/map_tower_palace_remnant.json"
+    },
+    {
+      "canonical_map_id": "TWR_THRESHOLD_CREATION_96x80",
+      "runtime_map_id": 85,
+      "display_name": "Threshold of Creation",
+      "type": "story_setpiece",
+      "source_path": "assets/data/maps/map_story_setpieces.json"
+    },
+    {
+      "canonical_map_id": "T_AETHERREACH_112x72",
+      "runtime_map_id": 86,
+      "display_name": "Aetherreach",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_ASHVEIL_112x72",
+      "runtime_map_id": 87,
+      "display_name": "Ashveil Sanctuary",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_BRINEGATE_112x72",
+      "runtime_map_id": 88,
+      "display_name": "Brinegate Port",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_CHRONOWAKE_112x72",
+      "runtime_map_id": 89,
+      "display_name": "Chronowake Pier",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_CINDERSTEP_112x72",
+      "runtime_map_id": 90,
+      "display_name": "Cinderstep",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_CROWN_HUB_112x72",
+      "runtime_map_id": 91,
+      "display_name": "Crown District Hub",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_DUSTHAVEN_112x72",
+      "runtime_map_id": 92,
+      "display_name": "Dusthaven",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_GRAVEMARK_112x72",
+      "runtime_map_id": 93,
+      "display_name": "Gravemark Outpost",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_HALCYON_FREEPORT_112x72",
+      "runtime_map_id": 94,
+      "display_name": "Halcyon Freeport",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_LUMENCREST_OUTER_112x72",
+      "runtime_map_id": 95,
+      "display_name": "Old Lumencrest: Outer Wards",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_MERIDIAN_112x72",
+      "runtime_map_id": 96,
+      "display_name": "Meridian Junction",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    },
+    {
+      "canonical_map_id": "T_MIREWATCH_112x72",
+      "runtime_map_id": 97,
+      "display_name": "Mirewatch",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_PRISMRIDGE_112x72",
+      "runtime_map_id": 98,
+      "display_name": "Prismridge",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act1.json"
+    },
+    {
+      "canonical_map_id": "T_RIMEHOLD_112x72",
+      "runtime_map_id": 99,
+      "display_name": "Rimehold",
+      "type": "town",
+      "source_path": "assets/data/maps/map_towns_act2_3.json"
+    }
+  ]
+}

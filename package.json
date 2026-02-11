@@ -1,6 +1,9 @@
 {
     "name": "rmmz-game",
     "main": "index.html",
+    "scripts": {
+        "playtest:nw": "tools/run_nw_playtest.sh"
+    },
     "chromium-args": "--force-color-profile=srgb",
     "window": {
         "title": "Project1",

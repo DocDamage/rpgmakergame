@@ -7,8 +7,7 @@
       "type": "main",
       "giver": "AUTO_START",
       "prerequisites": [
-        "Q_EIGHTH_RELIC",
-        "Q_KORR_LIBERATION"
+        "Q_EIGHTH_RELIC"
       ],
       "description": "With all eight Foundations recovered, complete the final attunement protocol and open the Tower ascent lock.",
       "steps": [
@@ -660,7 +659,7 @@
       "rewards": {
         "xp": 3600,
         "gil": 2000,
-        "unlocks": [
+        "unlock_flags": [
           "CHARACTER_MARINUS"
         ]
       },
@@ -725,8 +724,7 @@
       "type": "main",
       "giver": "NPC_ARCHIVIST_VELM",
       "prerequisites": [
-        "Q_SIXTH_RELIC",
-        "Q_KORR_LIBERATION"
+        "Q_SIXTH_RELIC"
       ],
       "description": "Brave Rimehold approaches and frozen corridors to secure the Time Foundation.",
       "steps": [

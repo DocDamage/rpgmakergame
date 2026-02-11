@@ -53,6 +53,10 @@
       "unlock_condition": "Route opens once uplands scholarship convoy is active.",
       "events": [
         "SCHOLARIUM_ROUTE_STABILIZED"
+      ],
+      "key_npcs": [
+        "NPC_ARCHIVIST_VELM",
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {
@@ -82,6 +86,9 @@
       "unlock_condition": "Unlocks during prism qualification trials.",
       "events": [
         "LABYRINTH_REFLECTIONS_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {
@@ -119,6 +126,9 @@
       "unlock_condition": "Unlocks during the Burning Heart judgment sequence.",
       "events": [
         "BURNING_HEART_ENDURED"
+      ],
+      "key_npcs": [
+        "NPC_ARCHIVIST_VELM"
       ]
     },
     {
@@ -164,6 +174,10 @@
       "unlock_condition": "Unlocks after Ember oath acceptance.",
       "events": [
         "CALDERA_TRIALS_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL",
+        "NPC_FORGE_MASTER_GRIMJAW"
       ]
     },
     {
@@ -201,6 +215,10 @@
       "unlock_condition": "Unlocks when Tide city descent route is charted.",
       "events": [
         "SUNKEN_CITY_SCOUTED"
+      ],
+      "key_npcs": [
+        "NPC_RAIL_CAPTAIN_DORSA",
+        "NPC_DOCKMASTER_SARAI"
       ]
     },
     {
@@ -246,6 +264,9 @@
       "unlock_condition": "Unlocks after trench key-sigil alignment.",
       "events": [
         "ABYSSAL_VAULT_OPENED"
+      ],
+      "key_npcs": [
+        "NPC_DOCKMASTER_SARAI"
       ]
     },
     {
@@ -283,6 +304,9 @@
       "unlock_condition": "Unlocks once union strike routes breach the factory core.",
       "events": [
         "FACTORY_OF_SOULS_SECURED"
+      ],
+      "key_npcs": [
+        "NPC_FORGE_MASTER_GRIMJAW"
       ]
     },
     {
@@ -312,6 +336,9 @@
       "unlock_condition": "Unlocks during Frost spire ascent operations.",
       "events": [
         "SPIRE_OF_ETERNITY_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_CAPTAIN_VARROS"
       ]
     },
     {
@@ -341,6 +368,9 @@
       "unlock_condition": "Unlocks at deep-void memory trial threshold.",
       "events": [
         "GARDENS_OF_ABSENCE_CLEARED"
+      ],
+      "key_npcs": [
+        "NPC_BROKER_VANE"
       ]
     },
     {
@@ -380,6 +410,9 @@
       "unlock_condition": "Unlocks after Tower floor 100 clearance and palace sanction.",
       "events": [
         "THRESHOLD_OF_CREATION_OPENED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     },
     {
@@ -426,6 +459,9 @@
       "unlock_condition": "Unlocks after palace access protocols engage.",
       "events": [
         "GARDEN_OF_ORIGIN_ENTERED"
+      ],
+      "key_npcs": [
+        "NPC_DOMINION_OFFICIAL"
       ]
     },
     {
@@ -472,6 +508,9 @@
       "unlock_condition": "Unlocks for post-game remnant investigation.",
       "events": [
         "EDGE_OF_MEMORY_ENTERED"
+      ],
+      "key_npcs": [
+        "NPC_RESISTANCE_CONTACT"
       ]
     }
   ]

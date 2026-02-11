@@ -3,6 +3,7 @@
 ## Naming Note
 - Active map data uses `Tileset_AshveilStone`.
 - Keep this file for historical continuity; treat `AshveilStone` as the canonical production ID.
+- `tileset_uplands_source_primary.png` is an intentional alias copy of `tileset_ashveilstone_source_primary.png` for tooling compatibility.
 
 ## Tile Size
 16x16 pixels
