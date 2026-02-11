@@ -4,7 +4,40 @@
 This file lists every non-audio runtime placeholder image that still needs final production art.
 
 ## Count
-- Total non-audio placeholder runtime assets: **33**
+- Total non-audio placeholder runtime assets: **16** (reduced from 33)
+- ✅ Tilesets: **0 remaining** (all 17 replaced via extraction tool)
+- ⚠️ Remaining: 13 UI/System + 3 Battle/Title/Vehicle
+
+## ✅ COMPLETED: Tilesets (17/17)
+
+All tilesets have been extracted from source spritesheets using `tools/extract_tilesets.py`:
+
+### Dungeon Tilesets (6)
+- ✅ Dungeon_A1.png - Ashveil Stone (crop)
+- ✅ Dungeon_A2.png - Ashveil Stone (crop)
+- ✅ Dungeon_A4.png - Capital Ruins (crop)
+- ✅ Dungeon_A5.png - Capital Ruins (crop)
+- ✅ Dungeon_B.png - Interior Generic (direct copy)
+- ✅ Dungeon_C.png - Void Nexus (crop)
+
+### Outside Tilesets (7)
+- ✅ Outside_A1.png - Dustbelt (resize)
+- ✅ Outside_A2.png - Dustbelt (resize)
+- ✅ Outside_A3.png - Uplands (crop)
+- ✅ Outside_A4.png - Ember Basalt (resize)
+- ✅ Outside_A5.png - Prism Highland (resize)
+- ✅ Outside_B.png - Mire Stilts (resize)
+- ✅ Outside_C.png - Tide Coast (resize)
+
+### World Tilesets (4)
+- ✅ World_A1.png - Orion Overworld (tile)
+- ✅ World_A2.png - Orion Overworld (tile)
+- ✅ World_B.png - Tower (crop)
+- ✅ World_C.png - Palace (crop)
+
+---
+
+## Remaining Placeholders (16 files)
 
 ## 1) Battlebacks / Title / Vehicle
 

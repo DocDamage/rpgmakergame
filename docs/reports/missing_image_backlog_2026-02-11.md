@@ -2,10 +2,18 @@
 
 ## Summary
 - Runtime image references are valid (no hard-missing files at launch).
-- The current visual backlog is replacing runtime placeholder PNGs with final art.
+- ✅ **TILESETS COMPLETE**: All 17 placeholder tilesets replaced with final art.
 - Main protagonist sprite coverage is complete (13/13, overworld + SV actor sheets).
 
-## Priority 1: Replace Runtime Placeholder PNGs (33 files)
+## Priority 1: Replace Runtime Placeholder PNGs (16 files remaining)
+
+### ✅ COMPLETED: Tilesets (17/17)
+All tilesets extracted from `assets/sprites/tilesets/` via `tools/extract_tilesets.py`:
+- Dungeon_A1 through Dungeon_C (6 files)
+- Outside_A1 through Outside_C (7 files)
+- World_A1 through World_C (4 files)
+
+See `docs/TILESET_REPLACEMENT_GUIDE.md` for source mapping details.
 
 ### Battlebacks / Title / Vehicle
 - `img/battlebacks1/GrassMaze.png`
