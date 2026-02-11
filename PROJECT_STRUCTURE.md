@@ -132,20 +132,66 @@ data/
 
 ```
 docs/
-├── asset_reference/        # Asset guides
-│   ├── ZONE_ASSET_MAPPING.md
-│   ├── EXTRACTION_COORDINATES.md
-│   ├── VISUAL_STYLE_GUIDE.md
+├── README.md               # Documentation hub
+├── FOLDER_STRUCTURE.md     # Organization guide
+│
+├── assets/                 # Asset specs & catalogs (13)
+│   ├── ASSET_CATALOG.md
+│   ├── TILESET_REPLACEMENT_GUIDE.md
 │   └── ...
-├── design/                 # Design documents
-│   ├── STORY_ARC.md
-│   ├── CHARACTERS.md
-│   └── QUESTS.md
-├── technical/              # Technical docs
-│   ├── ENGINE_SETUP.md
-│   └── SCRIPTING_GUIDE.md
-└── production/             # Production tracking
-    └── PRODUCTION_CHECKLIST_MASTER.md
+│
+├── asset_reference/        # SNES extraction guides (14)
+│   ├── MASTER_ASSET_INDEX.md
+│   ├── ZONE_ASSET_MAPPING.md
+│   └── ...
+│
+├── characters/             # Character design (5)
+│   ├── CHROMA_EDGE_SPRITE_LIST.md
+│   └── ...
+│
+├── design/                 # Game design documents (14)
+│   ├── ITEM_COMPENDIUM.md
+│   ├── MONSTER_ECOLOGY_COMPENDIUM.md
+│   └── ...
+│
+├── guides/                 # Production guides (1)
+│   └── PRODUCTION_GUIDE.md
+│
+├── locations/              # Map documentation (125)
+│   ├── dungeons/           # D1-D8, Palace, Remnant (22)
+│   ├── towns/              # 13 towns + interiors (23)
+│   ├── routes/             # Micro routes R01-R17f (24)
+│   ├── fields/             # Field connectors (8)
+│   ├── overworld/          # World maps (5)
+│   ├── palace/             # Final Palace (8)
+│   ├── shrines/            # 8 Foundation shrines (8)
+│   ├── hidden/             # Secret areas (3)
+│   ├── tower/              # Aurora Tower (17)
+│   ├── zones/              # Zone maps (2)
+│   └── [root specs]        # Location specs (5)
+│
+├── production/             # Production tracking (1)
+│   └── PROJECT_INDEX.md
+│
+├── project/                # Project planning (6)
+│   ├── ORION_GAME_BIBLE_PRE_SCRIPT_v1.md
+│   └── ...
+│
+├── reports/                # Audit reports (117)
+│   ├── audits/             # Deep audits (5)
+│   ├── passes/             # Validation passes (50)
+│   ├── assets/             # Asset reports (6)
+│   ├── data/               # Data integrity (1)
+│   ├── story/              # Story reports (2)
+│   ├── audio/              # Audio reports (1)
+│   └── [root]              # Latest summaries (52)
+│
+├── story/                  # Story scripts (14)
+│   └── chroma_edge_script_part_01.md through part_14.md
+│
+└── technical/              # Technical docs (24)
+    ├── DESIGN_DOC_v2_13_party.md
+    └── ...
 ```
 
 ---
